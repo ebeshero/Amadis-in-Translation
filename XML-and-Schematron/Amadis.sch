@@ -26,6 +26,14 @@
         </rule>
     </pattern>
     
+    <pattern>
+        <rule context="tei:milestone[@unit='said'][@ana='start']">
+            <assert test=".[@resp]">
+                A milestone marking the start of a speech must always contain an @resp attribute pointing to the #xml:id for the speaker.
+            </assert>
+        </rule>
+    </pattern>
+    
     <pattern> 
         <rule context="tei:milestone[@ana][preceding::tei:milestone[@ana]]/@ana">
             <report test="matches(., preceding::tei:milestone[@ana][1]/@ana)">
