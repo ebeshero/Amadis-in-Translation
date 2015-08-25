@@ -418,13 +418,15 @@
                     <cl xml:id="M1_c211">La donzella tomó tinta:</cl>
                     <cl xml:id="M1_c212">y pargamino:</cl>
                     <cl xml:id="M1_c213">y fizo una carta que dezía.</cl>
-                    <cl xml:id="M1_c214"
-                        ><!--Do we create a different milestone unit for this?
-                      <milestone unit="writtenText" resp="#Darioleta" ana="start"/>-->Este
-                        es <persName>Amadís Sin Tiempo</persName> hijo de rey
-                       :</cl>
-                    <cl xml:id="M1_c215">y sin tiempo <!--<milestone unit="writtenText" ana="end"/>--> dezía ella
-                    porque creía que luego sería muerto:</cl>
+                    <floatingText>
+                        <body>
+                            <p><cl xml:id="M1_c214">Este es <persName>Amadís Sin Tiempo</persName>
+                                    hijo de rey:</cl></p>
+                        </body>
+                    </floatingText>
+                    <cl xml:id="M1_c215">y sin tiempo dezía
+                        ella<!-- st 8.25.15 This part is indirect discourse and not part of the letter or floating text in and of itself. It's pretty normal for Amadís to quote a letter and then reiterate its content in indirect discourse. I don't see it as an overlap. -->
+                        porque creía que luego sería muerto:</cl>
                     <cl xml:id="M1_c216">y este nombre era allí muy preciado porque assí se llamava
                         un sancto a quien la donzella le encomendó.</cl>
                     <cl xml:id="M1_c217">Esta carta cubrió toda de cera y puesta en una cuerda se la
