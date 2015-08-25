@@ -76,7 +76,7 @@
             <listPerson>
                <person xml:id="Brisena">
                   <persName>Brisena</persName>
-                  
+
                </person>
 
 
@@ -358,9 +358,15 @@
                      gets Amadís killed and sends misleading letters in her quest to restore her
                      niece to the throne of Sobradisa.</note>
                </person>
-               <!-- These need to be completed and revised by st -->
+
                <person xml:id="Galaor">
                   <persName>Galaor</persName>
+               </person>
+               <person xml:id="anon">
+                  <persName>Squire_1</persName>
+                  <note>We are using anon to signify all of the unnamed characters of the Amadís,
+                     which include damsels, squires, giants, hermits, knights, ladies, and other
+                     minor characters. If characters are distinct without having a name, like the dwarf or the damsel of Denmark, they have their own xml ids.</note>
                </person>
             </listPerson>
          </div>
@@ -373,15 +379,17 @@
                </place>
                <place xml:id="Angaduza">
                   <placeName>Angaduza</placeName>
-                  <note resp="#st">Angaduza is a forest (floresta) adjacent to the castle of Briolanja's aunt.</note>
+                  <note resp="#st">Angaduza is a forest (floresta) adjacent to the castle of
+                     Briolanja's aunt.</note>
                </place>
                <place xml:id="Antalia">
                   <placeName>Antalia</placeName>
-                  <note resp="#heb">Scottish village where Gandales and his family anchor after rescuing Amadis.</note>
+                  <note resp="#heb">Scottish village where Gandales and his family anchor after
+                     rescuing Amadis.</note>
                </place>
             </listPlace>
          </div>
-         <div type="geographical_places"></div>
+         <div type="geographical_places"/>
          <div type="publications">
             <listBibl>
 
