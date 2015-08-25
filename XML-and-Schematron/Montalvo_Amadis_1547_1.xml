@@ -54,7 +54,7 @@
                         <milestone unit="said" resp="#Helisena" ana="start"/>Assí lo podéis por mi
                         dezir que nací en buena ventura en ser llegada a tal cavallero<milestone
                             unit="said" ana="end"/>.</cl>
-                    <cl xml:id="M1_c11">Assí llegaron a la puerta de la cámara.</cl>
+                    <cl xml:id="M1_c11">Assí llegaron a la puerta de la cámara<sic>·</sic></cl>
                     <cl xml:id="M1_c12">Y comoquiera que Elisena fuesse a la cosa que en el mundo
                         más amava/</cl>
                     <cl xml:id="M1_c13">tremíale todo el cuerpo y la palabra que no podía
@@ -73,8 +73,7 @@
                     <cl xml:id="M1_c22">
                         <milestone unit="said" resp="#Perion" ana="start"/>por qué hicisteis tal
                             crudeza?<milestone unit="said" ana="end"/>
-                        <milestone unit="said" ana="start"/>
-                        <!--@resp="unknown" "creepyDreamGuy"??--> No es nada esto <milestone
+                        <milestone unit="said" ana="start" resp="#anon"/>No es nada esto <milestone
                             unit="said" ana="intStart"/>dezía él<milestone unit="said" ana="intEnd"
                         /> que allá os queda otro coraçón:</cl>
                     <cl xml:id="M1_c23"> que yo vos tomaré:</cl>
@@ -255,7 +254,7 @@
                     <cl xml:id="M1_c124">si en adulterio se hallava:</cl>
                     <cl xml:id="M1_c125">no se podía en ninguna guisa escusar la muerte.</cl>
                     <cl xml:id="M1_c126">Y esta tan cruel costumbre y péssima duró hasta la venida
-                        del muy virtuoso rey <!--Is it worth it to code the following references considering they are more
+                        del muy virtuoso rey <!--heb: Is it worth it to code the following references considering they are more
                     of the historical kind and they are not actual characters?-->
                         <persName>Artur</persName>:</cl>
                     <cl xml:id="M1_c127">que fue el mejor rey de los que allí reinaron:</cl>
