@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Chapter 1</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>To copy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>To copy</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="M1">
+                <!--pdf 7-->
+                <head>Capítulo primero <locus from="iiii-r" to="v-v"/></head>
+                <argument>
+                    <p>Cómo la infanta <persName>Elisena</persName> y su donzella
+                            <persName>Darioleta</persName> fueron a la cámara donde el rey
+                            <persName>Perión</persName> estava</p>
+                </argument>
+                <p> Como la gente fue sossegada: <persName>Darioleta</persName> se levantó y tomó a
+                        <persName>Elisena</persName> assí desnuda como en su lecho estava solamente
+                    la camisa: y cubierta de un manto y salieron ambas a la huerta: y la luna hazía
+                    muy clara. La donzella miró a su señora: y abriéndole el Manto católe el cuerpo
+                    y díxole riendo. <milestone unit="said" resp="#Darioleta" ana="start"/>Señora en
+                    buena hora nasció el cavallero que vos esta noche avrá<milestone unit="said"
+                        ana="end"/>: Y bien dezía que esta era la más hermosa Donzella de rostro y
+                    de cuerpo que entonces se sabía. Elisena se sonrió y dixo. <milestone
+                        unit="said" resp="#Helisena" ana="start"/>Assí lo podéis por mi dezir que
+                    nací en buena ventura en ser llegada a tal cavallero<milestone unit="said"
+                        ana="end"/>. Assí llegaron a la puerta de la cámara ˙
+                    <!--new punctuation mark: high dot?--> Y comoquiera que Elisena fuesse a la cosa
+                    que en el mundo más amava/ tremíale todo el cuerpo y la palabra que no podía
+                    hablar: y como en la puerta tocaron para la abrir el rey
+                        <persName>Perión</persName> que assí con la gran congoxa que en su coraçón
+                    tenía: como con la esperança en que la donzella le puso/ no avía podido dormir:
+                    y aquella sazón ya cansado: y del sueño vencido adormióse/ y soñava que entrava
+                    en aquella cámara por una falsa puerta y no sabía quién a él iva: y le metía las
+                    manos por los costados/ y sacándole el coraçón le echava en un río y él dezía:
+                        <milestone unit="said" resp="#Perion" ana="start"/>por qué hicisteis tal
+                        crudeza?<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start"/>
+                    <!--@resp="unknown" ??--> No es nada esto <milestone unit="said" ana="intStart"
+                    />dezía él<milestone unit="said" ana="intEnd"/> que allá os queda otro coraçón:
+                    que yo vos tomaré: aunque no será por mi voluntad<milestone unit="said"
+                        ana="end"/>. <!--                    Fiquei aqui--> El rey que gran cuita en
+                    sí tenía despertó despavorido y comenzóse a santiguar. A esta sazón habían ya
+                    las donzellas la puerta abierto y entraban por ella y como lo sintió temióse de
+                    traición por lo que soñara y levantando la cabeza vio por entre las cortinas
+                    abierta la puerta de lo que él nada no sabía y con la luna que por ella entraba
+                    vio el bulto de las donzellas. Assí que saltando de la cama do yacía tomó su
+                    espada y escudo y fue contra aquella parte do visto les había. Y Darioleta
+                    cuando assí lo vio díxole. <milestone unit="said" ana="start"/>Qué es esto
+                    señor? tirad vuestras armas que contra nos poca defensa nos tendrá<milestone
+                        unit="said" ana="end"/>. El rey que la conoció miró y vio a Elisena su muy
+                    amada y echando la espada y su escudo en tierra cubrióse de un manto que ante la
+                    cama tenía con que algunas veces se levantaba y fue a tomar a su señora entre
+                    los brazos y ella le abrazó como aquél que más que a sí amaba. Darioleta le
+                    dixo. <milestone unit="said" ana="start"/>Quedad señora con ese cavallero que
+                    aunque vos como donzella hasta aquí de muchos os defendisteis y él asimismo de
+                    otras se defendió no bastaron vuestras fuerças para os defender el uno del
+                        otro<milestone unit="said" ana="end"/>. Y Darioleta miró por la espada do el
+                    rey la había arrojado y tomóla en señal de la jura y promesa que le había hecho
+                    en razón de casamiento de su señora y salióse a la huerta. El rey quedó solo con
+                    su amiga que a la lumbre de tres hachas que en la cámara ardían la miraba
+                    pareciéndole que toda la hermosura del mundo en ella era junta teniéndose por
+                    muy bienaventurado en que Dios a tal estado le trajera; y assí abrazados se
+                    fueron a echar en el lecho donde aquélla que tanto tiempo con tanta hermosura y
+                    juventud demandada de tantos príncipes y grandes hombres se había defendido
+                    quedando con libertad de donzella en poco más de un día cuando el su pensamiento
+                    más de aquello apartado y desviado estava el cual amor rompiendo aquellas
+                    fuertes ataduras de su honesta y santa vida se la hizo perder quedando de allí
+                    adelante dueña. Por donde se da a entender que assí como las mujeres apartando
+                    sus pensamientos de las mundanas cosas despreciando la gran hermosura de que la
+                    natura las dotó la fresca juventud que en mucho grado la acrecienta los vicios y
+                    deleites que con las sobradas riquezas de sus padres esperaban gozar quieren por
+                    salvación de sus ánimas ponerse en las casas pobres encerradas ofreciendo con
+                    toda obediencia sus libres voluntades a que sujetas de las ajenas sean viendo
+                    pasar su tiempo sin ninguna fama ni gloria del mundo como saben que sus hermanas
+                    y parientas lo gozan assí deben con mucho cuidado atapar las orejas cerrar los
+                    ojos excusándose de ver parientes y vecinos recogiéndose en las oraciones santas
+                    tomándolo por verdaderos deleites assí como lo son porque con las hablas con las
+                    vistas su santo propósito dañando no sea assí como lo fue el de esta hermosa
+                    infanta Elisena que en cabo de tanto tiempo que guardarse quiso en sólo un
+                    momento viendo la gran hermosura de aquel rey Perión fue su propósito mudado de
+                    tal forma que si no fuera por la discreción de aquella donzella suya que su
+                    honra con el matrimonio reparar quiso en verdad ella de todo punto era
+                    determinada de caer en la peor y más baja parte de su deshonra assí como otras
+                    muchas que en este mundo contarse podrían que por no se guardar de lo ya dicho
+                    lo hicieron y adelante harán no lo mirando. Pues assí estando los dos amantes en
+                    su solaz Elisena preguntó al rey Perión si su partida sería breve y él le dixo.
+                        <milestone unit="said" ana="start"/>Por qué mi buena señora lo
+                        preguntáis?<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start"/>Porque esta buena ventura <milestone
+                        unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
+                    que en tanto gozo y descanso a mis mortales deseos ha puesto ya me amenaza con
+                    la gran tristura y congoja que vuestra ausencia me pondrá a ser por ella más
+                    cerca de la muerte que no de la vida<milestone unit="said" ana="end"/>. Oídas
+                    por él estas razones dixo. <milestone unit="said" ana="start"/>No tengáis temor
+                    de eso que aunque este mi cuerpo de vuestra presencia sea partido el mi coraçón
+                    junto con el vuestro quedará que a entrambos dará su esfuerzo a vos para sufrir
+                    y a mí para cedo me tornar que yendo sin él no hay otra fuerça tan dura que
+                    detenerme pueda<milestone unit="said" ana="end"/>. Darioleta que vio ser razón
+                    ir de allí entró en la cámara y dixo. <milestone unit="said" ana="start"/>Señora
+                    sé que otra vez os plugo conmigo ir más que no ahora mas conviene que os
+                    levantéis y vamos que ya tiempo es<milestone unit="said" ana="end"/>. Elisena se
+                    levantó y el rey le dixo. <milestone unit="said" ana="start"/>Yo me detendré
+                    aquí más que no pensáis y esto será por vos y ruégoos que no se os olvide este
+                        lugar<milestone unit="said" ana="end"/>. Ellas se fueron a sus camas y él
+                    quedó en su cama muy pagado de su amiga empero espantado del sueño que ya
+                    oísteis; y por él había más cuita de ir a su tierra donde había a la sazón
+                    muchos sabios que semejantes cosas sabían soltar y declara y aún él mismo sabía
+                    algo que cuando más mozo aprendiera. En este vicio y placer estuvo allí el rey
+                    Perión diez días holgando todas las noches con aquélla su muy amada amiga en
+                    cabo de los cuales acordó forzando su voluntad y las lágrimas de su señora que
+                    no fueron pocas de se partir. Assí despedido del rey Garinter y de la reina
+                    armado de todas armas cuando quiso su espada ceñir no la halló y no osó
+                    preguntar por ella comoquiera que mucho le dolía porque era muy buena y hermosa;
+                    esto hazía porque sus amores con Elisena descubiertos no fuesen y por no dar
+                    enojo al rey Garinter y mandó a su escudero que otra espada le buscase y assí
+                    armado excepto las manos y la cabeza encima de su cavallo no con otra compañía
+                    sino de su escudero se puso en el camino derecho de su reino. Pero antes habló
+                    con él Darioleta diciéndole la gran cuita y soledad en que a su amiga dejaba y
+                    él le dixo. <milestone unit="said" ana="start"/>Ay mi amiga yo os la encomiendo
+                    como a mi propio coraçón. Y sacando de su dedo un muy hermoso anillo de dos que
+                    traía tal el uno como el otro se lo dio que le llevase y trajese por su
+                        amor<milestone unit="said" ana="end"/>. Assí que Elisena quedó con mucha
+                    soledad y con grande dolor de su amigo tanto que si no fuera por aquella
+                    donzella que la esforzaba mucho a gran pena se pudiera sufrir; mas habiendo sus
+                    hablas con ella algún descanso sentía. Pues assí fueron pasando su tiempo hasta
+                    que preñada se sintió perdiendo el comer y el dormir y la su muy hermosa color.
+                    Allí fueron las cuitas y los dolores en mayor grado y no sin causa porque en
+                    aquella sazón era por ley establecido que cualquiera mujer por de estado grande
+                    y señorío que fuese si en adulterio se hallaba no se podía en ninguna guisa
+                    excusar la muerte. Y esta tan cruel costumbre y pésima duró hasta la venida del
+                    muy virtuoso rey Artur que fue el mejor rey de los que allí reinaron y la revocó
+                    al tiempo que mató en batalla ante las puertas de París a Floyán. Pero muchos
+                    reyes reinaron entre él y el rey Lisuarte que esta ley sostuvieron. Pues pensar
+                    de lo hacer saber a su amigo no podía ser porque él tan mancebo fuese y tan
+                    orgulloso de coraçón y nunca tomaba holganza en ninguna parte sino para ganar
+                    honra y fama; nunca su tiempo en otra cosa pasaba sino andar de unas partes a
+                    otras como cavallero andante. Assí que por ninguna guisa ella remedio para su
+                    vida hallaba no le pesando tanto por perder la vista del mundo con la muerte
+                    como la de aquél su muy amado señor y verdadero amigo. Mas aquel muy poderoso
+                    señor Dios por remisión del cual todo esto pasaba para su santo servicio puso
+                    tal esfuerzo y discreción a Darioleta que ella bastó con su ayuda de todo la
+                    reparar como ahora oiréis: Había en aquel palacio del rey Garinter una cámara
+                    apartada de bóveda sobre un río que por allí pasaba y tenía una puerta de hierro
+                    pequeña por donde algunas veces al río salían las donzellas a holgar y estava
+                    yerma que en ella no albergaba ninguno la cual por consejo de Darioleta Elisena
+                    a su padre y madre para reparo de su mala disposición y vida solitaria que
+                    siempre procuraba tener demandó y para rezar sus horas sin que de ninguno
+                    estorbada fuese salvo de Darioleta que sus dolencias sabía que la sirviese y la
+                    acompañase lo cual ligeramente por ellos le fue otorgado creyendo ser su
+                    intención solamente reparar el cuerpo con más salud y el alma con vida más
+                    estrecha; y dieron la llave de la puerta pequeña a la donzella que la guardase y
+                    abriese cuando su hija por allí se quisiese solazar. Pues aposentada Elisena
+                    allí donde oís con algo de más descanso por se ver en tal lugar que a su parecer
+                    antes allí que en otro alguno su peligro reparar podía hubo consejo con su
+                    donzella qué se haría de lo que pariese: Qué señora? <milestone unit="said"
+                        ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>: que padezca
+                    porque vos seáis libre. Ay Santa María <milestone unit="said" ana="intStart"
+                    />dixo Elisena<milestone unit="said" ana="intEnd"/> y cómo consentiré yo matar
+                    aquello que fue engendrado por la cosa del mundo que yo más amo?. No curéis de
+                    eso <milestone unit="said" ana="intStart"/>dixo la donzella<milestone
+                        unit="said" ana="intEnd"/> que si os mataren no dejarán a ello. Aunque yo
+                    culpada muera <milestone unit="said" ana="intStart"/>dixo ella<milestone
+                        unit="said" ana="intEnd"/> no querrán que la criatura inocente padezca.
+                    Dejemos ahora de hablar más en ello <milestone unit="said" ana="intStart"/>dixo
+                    la donzella<milestone unit="said" ana="intEnd"/> que gran locura sería por
+                    salvar una cosa sin provecho condenásemos a vos y a vuestro amado que sin vos no
+                    podría vivir y vos viviendo y él otros hijos e hijas habréis que el deseo de
+                    éste os harán perder. Como esta donzella muy sesuda fuese y por la merced de
+                    Dios guiada quiso antes de la prisa tener el remedio. Y fue assí de esta guisa:
+                    que ella hubo cuatro tablas tan grandes que assí como arca una criatura con sus
+                    paños encerrar pudiese y tan larga como una espada e hizo traer ciertas cosas
+                    para un betumen con que las pudiese juntar sin que ella ningún agua entrase y
+                    guardólo todo debajo de su cama sin que Elisena lo sintiese hasta que por su
+                    mano juntó las tablas con aquel recio betumen y la hizo tan igual y tan bien
+                    formada como si la hiciera un maestro. Entonces la mostró a Elisena y díxole.
+                        <milestone unit="said" ana="start"/>Para qué os parece que fue esto hecho?.
+                    No sé dixo ella. Saberlo habéis <milestone unit="said" ana="intStart"/>dixo
+                    la donzella<milestone unit="said" ana="intEnd"/> cuando menester será. Y ella
+                    dixo. <milestone unit="said" ana="start"/>Poco daría por saber cosa que se hace
+                    ni dice que cerca estoy de perder mi bien y alegría. La donzella hubo gran duelo
+                    de assí la ver y viniéndole las lágrimas a los ojos se le tiró delante porque no
+                    la viese llorar. Pues no tardó mucho que a Elisena le vino el tiempo de parir de
+                    que los dolores sintiendo como cosa tan nueva y tan extraña para ella en gran
+                    amargura su coraçón era puesto como aquélla que le convenía no poder gemir ni
+                    quejar que su angustia con ello se doblaba. Mas en cabo de una pieza quiso el
+                    Señor poderoso que sin peligro suyo un hijo pariese y tomándole la donzella en
+                    sus manos vio que era hermoso si ventura hubiese mas no tardó de poner en
+                    ejecución lo que convenía según de antes lo pensara y envolvióle en muy ricos
+                    paños y púsole cerca de su madre y trajo allí el arca que ya oísteis y díxole
+                    Elisena: Qué queréis hacer?. Ponerlo aquí y lanzarlo al río <milestone
+                        unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/> y
+                    por ventura guarecer podrá. La madre lo tenía en sus brazos llorando fieramente
+                    y diciendo: Mi hijo pequeño cuán grave es a mí la vuestra cuita. La donzella
+                    tomó tinta y pergamino e hizo una carta que decía: Este es Amadís Sin Tiempo
+                    hijo del rey. Y sin tiempo decía ella porque creía que luego sería muerto. Y
+                    este nombre era allí muy preciado porque assí se llamaba un santo a quien la
+                    donzella le encomendó. Esta carta cubrió toda de cera y puesta en una cuerda se
+                    la puso al cuello del niño. Elisena tenía el anillo que el rey Perión le diera
+                    cuando de ella se partió y metiólo en la misma cuerda de la cera y asimismo
+                    poniendo el niño dentro en el arca le pusieron la espada del rey Perión que la
+                    primera noche que ella con él durmiera la echó de la mano en el suelo como ya
+                    oísteis y por la donzella fue guardada y aunque el rey la halló menos nunca osó
+                    por ella preguntar porque el rey Garinter no hubiese enojo con aquéllos que en
+                    la cámara entraban. Esto assí hecho puso la tabla encima tan junta y bien
+                    calafateada que agua ni otra cosa podía entrar y tomándola en sus brazos y
+                    abriendo la puerta la puso en el río y dejóla ir y como el agua era grande y
+                    recia presto la pasó a la mar que más de media legua de allí no estava. A esta
+                    sazón el alba aparecía y acaeció una hermosa maravilla de aquéllas que el Señor
+                    muy alto cuando a Él place suele hacer que en la mar iba una barca en que un
+                    cavallero de Escocia iba con su mujer que de la pequeña Bretaña llevaba parida
+                    de un hijo que se llamaba Gandalín y el cavallero había nombre Gandales y yendo
+                    a más andar su vía contra Escocia siendo ya mañana clara vieron el arca que por
+                    el agua nadando iba y llamando cuatro marineros les mandó que presto echasen un
+                    batel y aquello le trajesen lo cual prestamente se hizo comoquiera que ya el
+                    arca muy lejos de la barca pasado había. El cavallero tomó el arca y tiró la
+                    cobertura y vio el doncel que en sus brazos tomó y dixo. <milestone unit="said"
+                        ana="start"/>Éste de algún buen lugar es y esto decía él por los ricos paños
+                    y el anillo y la espada que muy hermosa le pareció y comenzó a maldezir la mujer
+                    que por miedo tal criatura tan cruelmente desamparado había y guardando aquellas
+                    cosas rogó a su mujer que lo hiciese criar la cual hizo dar teta de aquella ama
+                    que a Gandalín su hijo criaba y tomóla con gran gana de mamar de que el
+                    cavallero y la dueña mucho alegres fueron. Pues assí caminaron por la mar con
+                    buen tiempo enderezado hasta que aportados fueron una villa de Escocia que
+                    Antalia había nombre y de allí partiendo llegaron a un castillo suyo de los
+                    buenos de aquella tierra donde hizo criar al doncel como si su hijo propio fuese
+                    y assí lo creían todos que lo fuese que de los marineros no se pudo saber su
+                    hacienda porque en la barca que era suya a otras partes navegaron. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

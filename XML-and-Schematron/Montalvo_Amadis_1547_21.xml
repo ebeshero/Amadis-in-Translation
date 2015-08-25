@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <!--heb: I've added to this description and to the edition criteria some additional markup
+            that will help at rendering the text later on (titles in italics, for example).
+            I've used <bibl> (= loosely-structured bibliographic citation) in case we want to link 
+            them to the full bibliographic reference later. -->
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><!-- st How do I make this numbered list display properly? 
+               heb: I've edited it using <list> 
+               I know the list looks clustered, but I prefer to avoid pseudo-markup
+               in favor of the real tags. In this manner, we can add the styling afterwards much more easily.
+               However, I'm not sure I did the best use of <hi> and <mentioned>. Please read
+               http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQ  
+               and please modify it if you don't agree with my interpretation-->This
+                    digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="M21">
+                <!--st starts p 83 of PDF-->
+                <head>Capítulo XXI <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <!--heb 08-19-2015: Considering Stacey's explanation about the chapter introductions,
+                    I guess is not very meaningful to divide the clauses here, right? -->
+                    <!--st 8.20.15: Yes, Helena, I agree-->
+                    <p> Como don <persName>Galaor</persName> llegó a un monesterio muy llagado y:
+                        estuvo allí quinze días: en fin de los quales fue sano: y lo que después le
+                        sucedió </p>
+                </argument>
+                <p>
+                    <cl xml:id="M21_c1"><persName ref="#Galaor">Don Galaor</persName> estuvo quinze
+                        días llagado en el monesterio donde la donzella que el sacara de prisión lo
+                        llevó/</cl>
+                    <cl xml:id="M21_c2">en cabo de los cuales siendo en disposición de tomar armas
+                        se partió de allí /</cl>
+                    <cl xml:id="M21_c3">y anduvo por un camino donde la ventura lo guiava/</cl>
+                    <cl xml:id="M21_c4">que su voluntad no era de ir más a un cabo que a otro:</cl>
+                    <cl xml:id="M21_c5">y a la hora de mediodía hallóse en un valle donde avía una
+                        fuente:</cl>
+                    <cl xml:id="M21_c6">y falló cabe ella un cavallero armado /</cl>
+                    <cl xml:id="M21_c7">mas no tenía cavallo ni otra ninguna bestia de que fue
+                        marravillado y díxole.</cl>
+                    <cl xml:id="M21_c8"><milestone unit="said" resp="#Galaor" ana="start"/>Señor
+                        cavallero como venistes aquí a pie?<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c9">El cavallero de la fuente le respondió.</cl>
+                    <cl xml:id="M21_c10"><milestone unit="said" ana="start"/>Señor yo iva por esta
+                        floresta a un mi castillo y fallé unos hombres que me mataron el cavallo
+                        /</cl>
+                    <cl xml:id="M21_c11">y uve de venir aquí a pie muy cansado:</cl>
+                    <cl xml:id="M21_c12">y assí avré de tornar al castillo que no saben de
+                            mí.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c13"><milestone unit="said" resp="#Galaor" ana="start"/>No
+                        tornaréis <milestone unit="said" ana="intStart"/>dixo don Galaor <milestone
+                            unit="said" ana="intEnd"/>sino cavalgando en aquel palafrén de mi
+                            escudero.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c14"><milestone unit="said" ana="start"/>Muchas
+                            mercedes<milestone unit="said" ana="intStart"/> dixo el:<milestone
+                            unit="said" ana="intEnd"/></cl>
+                    <cl xml:id="M21_c15">pero antes que nos vayamos quiero que sepáis la gran virtud
+                        desta fuente /</cl>
+                    <cl xml:id="M21_c16">que no ay en el mundo tan fuerte <sic>ponçaña</sic> que con
+                        esta agua fuerça tenga:</cl>
+                    <cl xml:id="M21_c17">y muchas vezes acaece bever aquí algunas bestias
+                        emponçoñadas y luego rebientan.</cl>
+                    <cl xml:id="M21_c18">Assí que todas las personas desta comar vienen aquí a
+                        guarecer de sus enfermedades.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c19"><milestone unit="said" resp="#Galaor" ana="start"/>Cierto
+                            <milestone unit="said" ana="intStart"/>dixo don Galaor <milestone
+                            unit="said" ana="intEnd"/>maravilla es lo que dezís:</cl>
+                    <cl xml:id="M21_c20">y yo quiero bever de tal agua/ <milestone unit="said"
+                            ana="end"/></cl>
+                    <cl xml:id="M21_c21"><milestone unit="said" ana="start"/>y quien haría ende al
+                            <milestone unit="said" ana="intStart"/>dixo el cavallero de la fuente/
+                            <milestone unit="said" ana="intEnd"/></cl>
+                    <cl xml:id="M21_c22">que siendo en otra parte la devríades buscar.<milestone
+                            unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c23"> Entonces descavalgó galaor:</cl>
+                    <cl xml:id="M21_c24">y dixo a su escudero:</cl>
+                    <cl xml:id="M21_c25">
+                        <milestone unit="said" resp="#Galaor" ana="start"/>desciende y
+                            bevamos:<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c26">el escudero lo hizo:</cl>
+                    <cl xml:id="M21_c27">y acostó las armas a un árbol.</cl>
+                    <cl xml:id="M21_c28">El cavallero de la fuente dixo:</cl>
+                    <cl xml:id="M21_c29"><milestone unit="said" ana="start"/>id vos a bever:</cl>
+                    <cl xml:id="M21_c30">que yo terné el cavallo/ <milestone unit="said" ana="end"
+                        /></cl>
+                    <cl xml:id="M21_c31">el fue a la fuente por bever:</cl>
+                    <cl xml:id="M21_c32">y en tanto que bevían enlazó el yelmo:</cl>
+                    <cl xml:id="M21_c33">y todo el escudo y lança de don Galaor:</cl>
+                    <cl xml:id="M21_c34">y cavalgando en el cavallo le dixo:</cl>
+                    <cl xml:id="M21_c35"><milestone unit="said" ana="start"/>don cavallero yo me
+                        voy:</cl>
+                    <cl xml:id="M21_c36">y quedad aquí vos hasta que otro engañéis.<milestone
+                            unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c37">Galaor que bevía alçó el rostro:</cl>
+                    <cl xml:id="M21_c38"> y vio como el cavallero se iva y dixo.</cl>
+                    <cl xml:id="M21_c39"><milestone unit="said" resp="#Galaor" ana="start"/>Cierto
+                        cavallero no solamente me <sic>hezestes</sic> engaño mas gran
+                        deslealtad:</cl>
+                    <cl xml:id="M21_c40">y esso vos provaré yo si me aguardáis.<milestone
+                            unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c41"><milestone unit="said" ana="start"/>Esso quede<milestone
+                            unit="said" ana="intStart"/> dixo el cavallero<milestone unit="said"
+                            ana="intEnd"/> para cuando ayáis otro cavallo y otras armas con que os
+                            combatáis:<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c42">y dando de las espuelas al cavallo se fue su vía.</cl>
+                    <cl xml:id="M21_c43"> Galaor quedó con gran saña:</cl>
+                    <cl xml:id="M21_c44">y en cabo de una pieça que estuvo pensando cavalgó en el
+                        palafrén en que las armas le traían:</cl>
+                    <cl xml:id="M21_c45">y fuesse por la vía que el cavallero fue:</cl>
+                    <cl xml:id="M21_c46">y llegando donde el camino en dos partes se apartava:</cl>
+                    <cl xml:id="M21_c47">estuvo allí un poco que no sabía por dónde fuesse:</cl>
+                    <cl xml:id="M21_c48">y vio por el un camino venir una donzella a gran priessa
+                        encima de un palafrén:</cl>
+                    <cl xml:id="M21_c49">y atendióla hasta que llegasse donde él estava:</cl>
+                    <cl xml:id="M21_c50">y llegando dixo.</cl>
+                    <cl xml:id="M21_c51"><milestone unit="said" resp="#Galaor" ana="start"/>Donzella
+                        por ventura vistes un cavallero que va encima de un cavallo vayo /</cl>
+                    <cl xml:id="M21_c52">y lleva un escudo blanco y una flor bermeja?<milestone
+                            unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c53"><milestone unit="said" ana="start"/>Y qué lo queréis
+                            vos<milestone unit="said" ana="end"/> dixo la donzella?</cl>
+                    <cl xml:id="M21_c54">Galaor le respondió y dixo:</cl>
+                    <cl xml:id="M21_c55"><milestone unit="said" resp="#Galaor" ana="start"/>aquellas
+                        armas y cavallo que son mías:</cl>
+                    <cl xml:id="M21_c56">y querría las cobrar si pudiesse:</cl>
+                    <cl xml:id="M21_c57">pues tan vilmente las tomó:<milestone unit="said" ana="end"
+                        /></cl>
+                    <cl xml:id="M21_c58"><milestone unit="said" ana="start"/>como os las
+                            tomó<milestone unit="said" ana="end"/> dixo la donzella?</cl>
+                    <cl xml:id="M21_c59">El se lo contó todo como aviniera.</cl>
+                    <cl xml:id="M21_c60"><milestone unit="said" ana="start"/>Pues qué le haríades
+                        assí desarmado <milestone unit="said" ana="intStart"/>dixo ella:<milestone
+                            unit="said" ana="intEnd"/></cl>
+                    <cl xml:id="M21_c61">que según creo él no vos las tomó para las
+                            tornar.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c62"><milestone unit="said" resp="#Galaor" ana="start"/>No
+                        querría <milestone unit="said" ana="intStart"/>dixo Galaor <milestone
+                            unit="said" ana="intEnd"/>sino juntarme con él.<milestone unit="said"
+                            ana="end"/></cl>
+                    <cl xml:id="M21_c63"><milestone unit="said" ana="start"/>Pues si me otorgáis un
+                        don <milestone unit="said" ana="intStart"/>dixo ella <milestone unit="said"
+                            ana="intEnd"/>yo vos juntaré con él.<milestone unit="said" ana="end"
+                        /></cl>
+                    <cl xml:id="M21_c64">Galaor que mucho desseava hablar al cavallero
+                        otorgóselo.</cl>
+                    <cl xml:id="M21_c65">
+                        <milestone unit="said" ana="start"/>Agora me seguid <milestone unit="said"
+                            ana="end"/>dixo ella:</cl>
+                    <cl xml:id="M21_c66">y bolviendo por do viniera fue por el camino:</cl>
+                    <cl xml:id="M21_c67">y Galaor empos de ella:</cl>
+                    <cl xml:id="M21_c68">pero la donzella fue una pieça delante:</cl>
+                    <cl xml:id="M21_c69">que el palafrén de Galaor no andava tanto porque llevava a
+                        él y a su escudero:</cl>
+                    <cl xml:id="M21_c70">y anduvo bien tres leguas que no la vio/</cl>
+                    <cl xml:id="M21_c71">y passando una arboleda de espessos árboles vio la donzella
+                        que contra el venía:</cl>
+                    <cl xml:id="M21_c72">y Galaor se fue a ella/</cl>
+                    <cl xml:id="M21_c73">mas la donzella andava con engaño que el cavallero era su
+                        amigo:</cl>
+                    <cl xml:id="M21_c74">y fue le dezir como llegava a Galaor que le tomasse las
+                        otras armas que llevava.</cl>
+                    <cl xml:id="M21_c75">El se metió en una tienda assí armado como estava/</cl>
+                    <cl xml:id="M21_c76">y dixo a la donzella que allí se lo llevase:</cl>
+                    <cl xml:id="M21_c77">que sin peligro lo podría matar o escarnecer.</cl>
+                    <cl xml:id="M21_c78">Pues yendo assí como oís llegaron a la tienda:</cl>
+                    <cl xml:id="M21_c79">y la donzella dixo.</cl>
+                    <cl xml:id="M21_c80"><milestone unit="said" ana="start"/>Allí está el cavallero
+                        que demandáis:<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c81">Galaor descavalgó y fue para allá:</cl>
+                    <cl xml:id="M21_c82">mas el otro que a la puerta estava dixo <milestone
+                            unit="said" ana="start"/>no hezistes aca buena venida:</cl>
+                    <cl xml:id="M21_c83"> que avréis a dar essas otras armas:</cl>
+                    <cl xml:id="M21_c84">o seréis muerto.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c85"><milestone unit="said" resp="#Galaor" ana="start"/>Cierto
+                            <milestone unit="said" ana="intStart"/>dixo don Galaor/<milestone
+                            unit="said" ana="intEnd"/></cl>
+                    <cl xml:id="M21_c86">de tan desleal cavallero como vos no me temo
+                            nada.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c87">Y el cavallero alçó el espada por lo herir:</cl>
+                    <cl xml:id="M21_c88">y Galaor se guardó del golpe que siendo muy ligero/</cl>
+                    <cl xml:id="M21_c89">y de gran esfuerço tuvo para ello tiento:</cl>
+                    <cl xml:id="M21_c90">y perdiendo el otro el golpe que fue en vazío diole por
+                        cima del yelmo tan dura herida:</cl>
+                    <cl xml:id="M21_c91">que los inojos hincó en tienrra:</cl>
+                    <cl xml:id="M21_c92">y assí tomóle por el yelmo:</cl>
+                    <cl xml:id="M21_c93">Y tiró tan de rezio que se lo arrancó de la cabeça:</cl>
+                    <cl xml:id="M21_c94">e hízolo caer tendido <choice>
+                            <sic/>
+                            <corr>.</corr>
+                        </choice></cl><cl xml:id="M21_c94a"> El cavallero dio muy grandes bozes a su
+                        amiga que lo socoriesse:</cl>
+                    <cl xml:id="M21_c95">y ella que lo oyó vino cuanto pudo a la tienda diziendo a
+                        grandes bozes <choice>
+                            <sic/>
+                            <corr>.</corr>
+                        </choice></cl><cl xml:id="M21_c95a">
+                        <milestone unit="said" ana="start"/>Estad quedo cavallero/</cl>
+                    <cl xml:id="M21_c96">que éste es el don que os demandé:<milestone unit="said"
+                            ana="end"/></cl>
+                    <cl xml:id="M21_c97">pero Galaor lo aviá herido con la saña que tenía de tal
+                        guisa que no ovo menester maestro.</cl>
+                    <cl xml:id="M21_c98"> Cuando la donzella lo vio muerto dixo.</cl>
+                    <cl xml:id="M21_c99"><milestone unit="said" ana="start"/>Ay cativa que mucho
+                        tardé:</cl>
+                    <cl xml:id="M21_c100">y cuidando engañar a otro engañé a mí:<milestone
+                            unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c101">de si dixo contra Galaor.</cl>
+                    <cl xml:id="M21_c102"><milestone unit="said" ana="start"/>Ay cavallero de mala
+                        muerte seáis muerto que matastes la cosa que en el mundo mas amava:</cl>
+                    <cl xml:id="M21_c103">mas tú morirás por él:</cl>
+                    <cl xml:id="M21_c104">que el don que me prometiste te lo demandaré en parte
+                        donde no podrás de la muerte huír:</cl>
+                    <cl xml:id="M21_c105">aunque más fuerça tengas:</cl>
+                    <cl xml:id="M21_c106">y si no me lo das por todas partes serás de mí apregonado
+                        y abiltado.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c107">Galaor le respondió y dixo.</cl>
+                    <cl xml:id="M21_c108"><milestone unit="said" resp="#Galaor" ana="start"/>Si yo
+                        cuidara que vos tanto avía de pesar no lo matara aunque bien lo
+                        merescía:</cl>
+                    <cl xml:id="M21_c109">y deviérades antes acorrer.<milestone unit="said"
+                            ana="end"/></cl>
+                    <cl xml:id="M21_c110"><milestone unit="said" ana="start"/>Yo fize el
+                            yerro<milestone unit="said" ana="intStart"/> dixo ella:<milestone
+                            unit="said" ana="intEnd"/></cl>
+                    <cl xml:id="M21_c111">y yo lo emendaré que hare dar tu vida por la
+                            suya.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c112">Galaor cavalgó en su cavallo:</cl>
+                    <cl xml:id="M21_c113">y el escudero tomó las armas y partióse de allí:</cl>
+                    <cl xml:id="M21_c114">y siendo alongado cuanto una legua bolvió la cara a la
+                        mano diestra:</cl>
+                    <cl xml:id="M21_c115">y vio como la donzella venía tras él:</cl>
+                    <cl xml:id="M21_c116">y como a el llegó díxole.</cl>
+                    <cl xml:id="M21_c117">
+                        <milestone unit="said" resp="#Galaor" ana="start"/>Señora donzella dónde
+                        queréis ir?<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c118"><milestone unit="said" ana="start"/>Con vos <milestone
+                            unit="said" ana="intStart"/>dixo ella:<milestone unit="said"
+                            ana="intEnd"/></cl>
+                    <cl xml:id="M21_c119">hasta llegar donde me déis el don que prometido me
+                        tenéis:</cl>
+                    <cl xml:id="M21_c120">y vos haga morir de mala muerte.<milestone unit="said"
+                            ana="end"/></cl>
+                    <cl xml:id="M21_c121"><milestone unit="said" resp="#Galaor" ana="start"/>Mejor
+                        sería <milestone unit="said" ana="intStart"/>dixo don Galaor <milestone
+                            unit="said" ana="intEnd"/>tomar de mí otra emienda cual vos más
+                        quisiérdes que no essa que dezís.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c122"><milestone unit="said" ana="start"/>Otra emienda
+                            <milestone unit="said" ana="intStart"/>dixo ella <milestone unit="said"
+                            ana="intEnd"/>no avrá sino dar vuestra alma por la suya/</cl>
+                    <cl xml:id="M21_c123">o quedar por traidor y falso.<milestone unit="said"
+                            ana="end"/></cl>
+                    <cl xml:id="M21_c124">Assí fue Galaor su camino y la donzella con él:</cl>
+                    <cl xml:id="M21_c125">que nunca al fazía sino denostarle.</cl>
+                    <cl xml:id="M21_c126">Y en cabo de tres días entraron en una floresta:</cl>
+                    <cl xml:id="M21_c127"> que <placeName>Angaduza</placeName> avía nombre.</cl>
+                </p>
+                <p>
+                    <cl xml:id="M21_c128">¶El autor aquí dexa de hablar de esto para lo contar en su
+                        lugar.</cl>
+                    <cl xml:id="M21_c129">E torna a <persName ref="#Amadis">Amadís</persName> que
+                        partido de las donzellas de <persName ref="#Urganda">Urganda</persName> como
+                        os ya contamos anduvo hasta mediodía y saliéndo de una floresta por donde
+                        caminava hallóse en un llano:</cl>
+                    <cl xml:id="M21_c130">en que vio una hermosa fortaleza:</cl>
+                    <cl xml:id="M21_c131">y vio por el llano una carreta la mayor y más hermosa que
+                        nunca vio:</cl>
+                    <cl xml:id="M21_c132">y llevávanla doze palafrenes:</cl>
+                    <cl xml:id="M21_c133">e iva cubierta por cima de un xamete bermejo:</cl>
+                    <cl xml:id="M21_c134">así que se no podía ver nada de lo que dentro era.</cl>
+                    <cl xml:id="M21_c135">Esta carreta era guardada de ocho cavalleros armados de
+                        todas cuatro partes.</cl>
+                    <cl xml:id="M21_c136">Amadís como la vio fue contra ella con gana de saber que
+                        fuesse aquello:</cl>
+                    <cl xml:id="M21_c137">y llegando a ella salió a él un caballero que le
+                        dixo.</cl>
+                    <cl xml:id="M21_c138"><milestone unit="said" ana="start"/>Tirad vos afuera señor
+                        caballero y no seáis osado a llegar:<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c139"><milestone unit="said" resp="#Amadis" ana="start"/>yo no
+                        llego por mal <milestone unit="said" ana="end"/>dixo Amadís <milestone
+                            unit="said" ana="start"/>comoquiera que sea<milestone unit="said" ana="intStart"/> dixo el otro<milestone unit="said" ana="intEnd"/> no vos
+                        trabajéis dello:</cl>
+                    <cl xml:id="M21_c140">que no sois tal que deváis ver lo que ay va/</cl>
+                    <cl xml:id="M21_c141">y si en ello porfíades costaros ha la vida:</cl>
+                    <cl xml:id="M21_c142">que vos avéis de combatir con nosotros/</cl>
+                    <cl xml:id="M21_c143">y aquí ay tales que con su sola persona os lo defenderían
+                        cuanto más todo de consuno/<milestone unit="said" ana="end"/></cl><!-- st stopped here on milestone 8.20.15 -->
+                    <cl xml:id="M21_c144">no sé nada de su bondad mas todavía si puedo veré lo que
+                        en la carreta va.</cl>
+                    <cl xml:id="M21_c145">Entonces tomó sus armas/</cl>
+                    <cl xml:id="M21_c146">y los dos cavalleros que delante venían fueron para él y
+                        él a ellos:</cl>
+                    <cl xml:id="M21_c147">el uno lo hirió en el escudo de guisa que quebró su
+                        lança/</cl>
+                    <cl xml:id="M21_c148">y el otro fallesció de su golpe.</cl>
+                    <cl xml:id="M21_c149">Amadís derribó al que lo encontró sin dentenencia
+                        ninguna:</cl>
+                    <cl xml:id="M21_c150">y tornando al otro:</cl>
+                    <cl xml:id="M21_c151">que por él avía passado lo encontró tan fuertemente:</cl>
+                    <cl xml:id="M21_c152">que dio con él y con el caballo en el suelo:</cl>
+                    <cl xml:id="M21_c153">y queriendo ir contra la carreta/</cl>
+                    <cl xml:id="M21_c154">vinieron otros dos cavalleros contra él al más correr de
+                        los cavallos:</cl>
+                    <cl xml:id="M21_c155">y fue para ellos/</cl>
+                    <cl xml:id="M21_c156">e hirió al uno tan fuertemente:</cl>
+                    <cl xml:id="M21_c157">que le no sirvió armadura que traxesse:</cl>
+                    <cl xml:id="M21_c158">y dio al otro por cima del yelmo con la espada de tal
+                        golpe:</cl>
+                    <cl xml:id="M21_c159">que le hizo abraçar al cuello del cavallo/</cl>
+                    <cl xml:id="M21_c160">que ningún sentido le quedó Cuando los cuatro vieron a sus
+                        compañeros vencidos de un solo cavallero mucho fueron espantados en ver cosa
+                        tan estraña:</cl>
+                    <cl xml:id="M21_c161">y movieron de consuno y con gran ira contra Amadís por lo
+                        herir:</cl>
+                    <cl xml:id="M21_c162">pero antes que ellos llegassen avía derribado al otro en
+                        tierra:</cl>
+                    <cl xml:id="M21_c163">y ellos lo hirieron de tal manera los unos en el escudo y
+                        los otros fallescieron de los encuentros:</cl>
+                    <cl xml:id="M21_c164">mas al que delante venía fue Amadís por lo herir de la
+                        espada:</cl>
+                    <cl xml:id="M21_c165">y el otro llegó tan rezio que se encontraron con los
+                        escudos y los yelmos tan fuertemente que el cavallero cayó del cavallo muy
+                        desacordado:</cl>
+                    <cl xml:id="M21_c166"> que de sí parte ninguna no sabía/</cl>
+                    <cl xml:id="M21_c167">y los tres cavalleros tornaron sobre él y diéronle grandes
+                        golpes:</cl>
+                    <cl xml:id="M21_c168">y al uno de los que la lança traía soltó Amadís la espada
+                        de la mano:</cl>
+                    <cl xml:id="M21_c169">y travólo della tan rezio/</cl>
+                    <cl xml:id="M21_c170">que se la llevó de las manos:</cl>
+                    <cl xml:id="M21_c171">y fue dar con ella al uno dellos tal golpe en la garganta
+                        que el hierro y el fuste salió al pescueço y dio con él en tierra
+                        muerto:</cl>
+                    <cl xml:id="M21_c172">y luego se dexo correr cuanto más pudo a los dos:</cl>
+                    <cl xml:id="M21_c173">e hirió al uno en el yelmo tan duramente de toda su fuerça
+                        que se lo derribó de la cabeça:</cl>
+                    <cl xml:id="M21_c174">y Amadís le vio el rostro que era muy viejo:</cl>
+                    <cl xml:id="M21_c175">y uvo del duelo y dixo.</cl>
+                    <cl xml:id="M21_c176">Cierto señor cavallero ya devríades dexar esto en que
+                        andáis:</cl>
+                    <cl xml:id="M21_c177">que si hasta aquí no ganastes honra:</cl>
+                    <cl xml:id="M21_c178">de aquí adelante la edad vos escusa de ganarla.</cl>
+                    <cl xml:id="M21_c179">El cavallero le dixo.</cl>
+                    <cl xml:id="M21_c180">Amigo señor ante es al contrario que a los mancebos
+                        conviene de ganar honra y prez y a los viejos de la sostener en cuanto
+                        pudieren.</cl>
+                    <cl xml:id="M21_c181">Oídas por Amadís las razones del viejo le dixo.</cl>
+                    <cl xml:id="M21_c182">Yo tengo por mejor lo que vos cavallero dezís que lo que
+                        yo dixe.</cl>
+                    <cl xml:id="M21_c183">Ellos en estas razones estando alçó Amadís la cabeça y
+                        vido como el otro cavallero que quedava iva al más andar de su caballo
+                        contra el castillo/</cl>
+                    <cl xml:id="M21_c184">y vido los otros que se pudieron levantar andar empos de
+                        sus cavallos y fuesse a la carreta:</cl>
+                    <cl xml:id="M21_c185">y alçando el xamete metió la cabeça dentro y vio un
+                        monumento de piedra marmol:</cl>
+                    <cl xml:id="M21_c186">y en la cobertura de suso ser una imagen de rey con corona
+                        en la cabeça y de paños reales vestido y tenía la corona hendida hasta el
+                        pescueço/</cl>
+                    <cl xml:id="M21_c187">y vio una dueña seer en un lecho y una niña cabe
+                        ella:</cl>
+                    <cl xml:id="M21_c188">y parecióle tan hermosa más que otra ninguna de cuantas
+                        avía <sic>vistió</sic> de sus días:</cl>
+                    <cl xml:id="M21_c189">y dixo a la dueña.</cl>
+                    <cl xml:id="M21_c190">Señora por qué tiene esta figura assí el rostro
+                        partido?</cl>
+                    <cl xml:id="M21_c191">La dueña miró y vio que no era de su compaña y
+                        díxole.</cl>
+                    <cl xml:id="M21_c192">Que es esso cavallero quién vos mandó mirar esto?</cl>
+                    <cl xml:id="M21_c193">Yo dixo él que uve gana de ver lo que aquí andava/</cl>
+                    <cl xml:id="M21_c194">y los nuestros cavalleros que hizieron ay dixo ella?</cl>
+                    <cl xml:id="M21_c195">Hizieron me más de mal que de bien dixo él.</cl>
+                    <cl xml:id="M21_c196">Entonces alçado la dueña el paño vido a los unos
+                        muertos:</cl>
+                    <cl xml:id="M21_c197">y a los otros que andavan tras los caballos de que muy
+                        turbada fue:</cl>
+                    <cl xml:id="M21_c198">y dixo al cavallero.</cl>
+                    <cl xml:id="M21_c199">Maldita sea la hora en que fuiste nascido que tales
+                        diabluras avéis hecho.</cl>
+                    <cl xml:id="M21_c200">Señora dixo el vuestros cavalleros me acometieron mas si
+                        os pluguiere dezid me lo que os pregunto:</cl>
+                    <cl xml:id="M21_c201">si me Dios ayude dixo la dueña:</cl>
+                    <cl xml:id="M21_c202"> ya por mí no lo sabréis que mal soy de vos
+                        escarnida.</cl>
+                    <cl xml:id="M21_c203">Cuando Amadís con tanto enojo la vio partióse de allí y
+                        fuesse su vía por donde ante iva Los cavalleros de la dueña metieron los
+                        muertos en la carreta:</cl>
+                    <cl xml:id="M21_c204">y ellos con gran vergueça cavalgaron y fuéronse contra el
+                        castillo.</cl>
+                    <cl xml:id="M21_c205">El enano preguntó a Amadís qué viera en la carreta.</cl>
+                    <cl xml:id="M21_c206">Amadís se lo dixo y que no pudiera saber nada de la
+                        dueña.</cl>
+                    <cl xml:id="M21_c207">Si ella fuera cavallero armado dixo el enano aína os lo
+                        dixera.</cl>
+                    <cl xml:id="M21_c208">Amadís se calló y fuese adelante.</cl>
+                    <cl xml:id="M21_c209">Y cuando una legua anduvo vido venir empos de si el
+                        cavallero viejo que el derribara:</cl>
+                    <cl xml:id="M21_c210">y dávale bozes que atendiesse.</cl>
+                    <cl xml:id="M21_c211">Amadís estuvo quedo y el cavallero llegó desarmado:</cl>
+                    <cl xml:id="M21_c212">y dixo.</cl>
+                    <cl xml:id="M21_c213">Señor cavallero vengo a vos con mandado de la dueña que en
+                        la carreta vistes que os quiero emendar la descortesía que os dixo/</cl>
+                    <cl xml:id="M21_c214"> y ruego vos que alverguéis en el castillo esta
+                        noche.</cl>
+                    <cl xml:id="M21_c215">Buen señor dixo Amadís yo la vi con tanta passión por lo
+                        que con vosotros me contesció:</cl>
+                    <cl xml:id="M21_c216">que más enojo mi vista que plazer le daría.</cl>
+                    <cl xml:id="M21_c217">Creed señor dixo el cavallero que la haréis muy alegre con
+                        vuestra tornada.</cl>
+                    <cl xml:id="M21_c218">Amadís que el cavallero vido en tal edad que no devía
+                        mentir y la afición con que se lo rogava:</cl>
+                    <cl xml:id="M21_c219">bolvióse con el hablando:</cl>
+                    <cl xml:id="M21_c220"> preguntándole:</cl>
+                    <cl xml:id="M21_c221">si sabía por qué la figura de piedra tenía assí la cabeça
+                        partida:</cl>
+                    <cl xml:id="M21_c222">pero él no se lo quiso dezir:</cl>
+                    <cl xml:id="M21_c223">mas llegando cerca del castillo dixo que se quería
+                        adelantar:</cl>
+                    <cl xml:id="M21_c224">porque la dueña supiesse su venida.</cl>
+                    <cl xml:id="M21_c225">Amadís anduvo más despacio y llegó a la puerta/</cl>
+                    <cl xml:id="M21_c226">sobre la cual estava una torre:</cl>
+                    <cl xml:id="M21_c227">y vio a una finiestra de ella la dueña y la niña
+                        hermosa:</cl>
+                    <cl xml:id="M21_c228">y la dueña le dixo.</cl>
+                    <cl xml:id="M21_c229">Entrad señor cavallero que mucho os gradecemos vuestra
+                        venida.</cl>
+                    <cl xml:id="M21_c230">Señora dixo él muy contento soy yo en vos dar ante plazer
+                        que enojo.</cl>
+                    <cl xml:id="M21_c231">Y entró en el castillo:</cl>
+                    <cl xml:id="M21_c232">y yendo adelanto oyó una gran buelta de gente en el
+                        palacio:</cl>
+                    <cl xml:id="M21_c233">y luego salieron de él cavalleros armados y otra gente de
+                        pie:</cl>
+                    <cl xml:id="M21_c234">y venía diziendo estad cavallero y sed preso:</cl>
+                    <cl xml:id="M21_c235">si no muerto soys.</cl>
+                    <cl xml:id="M21_c236">Cierto dixo él en prisión de tan engañosa gente yo no
+                        entraré a mi grado.</cl>
+                    <cl xml:id="M21_c237">Entonces enlazó el yelmo/</cl>
+                    <cl xml:id="M21_c238">y no pudo tomar el escudo con la priessa que le
+                        dieron:</cl>
+                    <cl xml:id="M21_c239">y començáronles ferir por todas partes:</cl>
+                    <cl xml:id="M21_c240">pero él en cuanto el cavallo le turó defendióse muy
+                        bravamente:</cl>
+                    <cl xml:id="M21_c241">derribando ante sus pies los que a derecho golpe
+                        alcançava/</cl>
+                    <cl xml:id="M21_c242">y como se vio muy ahincado por ser la gente mucha fuesse
+                        yendo contra un cobertizo que en el corral estava/</cl>
+                    <cl xml:id="M21_c243">y allí metido hazía maravillas en se defender/</cl>
+                    <cl xml:id="M21_c244">y vio como prendieron al enano y a Gandalín:</cl>
+                    <cl xml:id="M21_c245">y cobró más coraçón que ante tenía para se defender:</cl>
+                    <cl xml:id="M21_c246">pero como la gente mucha fuesse:</cl>
+                    <cl xml:id="M21_c247">y le <sic>heriau</sic> por todas partes de tantos golpes
+                        que a las vezes le hazían hincar los inojos en tierra:</cl>
+                    <cl xml:id="M21_c248">no pudiera ya por ninguna cosa escapar de ser muerto que a
+                        prisión no le tomaran porque el avía muerto de los contrarios seis de ellos
+                        y otros que eran mal heridos:</cl>
+                    <cl xml:id="M21_c249">mas Dios y la su gran lealtad le socorrieron muy bien en
+                        esta guisa/</cl>
+                    <cl xml:id="M21_c250">que la niña hermosa que la batalla mirava y le viera hazer
+                        cosas tan estrañas ovo del gran piedad:</cl>
+                    <cl xml:id="M21_c251">y llamando a una su donzella dizo.</cl>
+                    <cl xml:id="M21_c252"> Amiga a tan gran piedad me ha movido la gran valentía de
+                        aquel cavallero/</cl>
+                    <cl xml:id="M21_c253">que más querría que toda esta nuestra gente muriesse que
+                        él solo:</cl>
+                    <cl xml:id="M21_c254">y venid conmigo.</cl>
+                    <cl xml:id="M21_c255"> Señora dizo la donzella/</cl>
+                    <cl xml:id="M21_c256">qué queréis hazer?</cl>
+                    <cl xml:id="M21_c257">Soltar los mis leones dixo ella:</cl>
+                    <cl xml:id="M21_c258">que maten aquellos que en tal estrecho tienen al mejor
+                        cavallero del mundo:</cl>
+                    <cl xml:id="M21_c259">y yo vos mando como a mi vasalla que los soltéis:</cl>
+                    <cl xml:id="M21_c260">pues que otro ninguno si vos no lo podría hazer:</cl>
+                    <cl xml:id="M21_c261">que no han de otro conoscimiento:</cl>
+                    <cl xml:id="M21_c262">y yo vos sacaré de culpa/</cl>
+                    <cl xml:id="M21_c263">y tomasse para la dueña.</cl>
+                    <cl xml:id="M21_c264">La donzella fue a soltar los leones que eran dos y muy
+                        bravos metidos en una cadena:</cl>
+                    <cl xml:id="M21_c265">y salieron al corral:</cl>
+                    <cl xml:id="M21_c266">y ella dando bozes que se guardassen dellos:</cl>
+                    <cl xml:id="M21_c267">diziendo que ellos se avían soltado:</cl>
+                    <cl xml:id="M21_c268">mas antes que la gente huir pudiesse a los que alcançar
+                        pudiero los hizieron pieças entres sus agudas y fuertes uñas.</cl>
+                    <cl xml:id="M21_c269">Amadís que la gente vio que huía al muro y a las torres y
+                        quedava dellos libre en tanto que los fuertes leones se empachavan en los
+                        que tenían ante sí fuesse luego lo más que pudo a la puerta del
+                        castillo:</cl>
+                    <cl xml:id="M21_c270">y saliendo fuera cerróla tras si de guisa que los leones
+                        quedaron dentro:</cl>
+                    <cl xml:id="M21_c271">y el se assentó en una piedra muy cansaado como aquel que
+                        avía bien guerreado/</cl>
+                    <cl xml:id="M21_c272">su espada desnuda en la mano de la cual quebrara hasta el
+                        un tercio de ella:</cl>
+                    <cl xml:id="M21_c273">los leones andavan por el corral a una y a otra parte y
+                        acudían a la puerta por salir:</cl>
+                    <cl xml:id="M21_c274">la gente del castillo no osavan baxar/</cl>
+                    <cl xml:id="M21_c275">ni la donzella que los guardava:</cl>
+                    <cl xml:id="M21_c276">que ellos eran tan encarniçados y sañudos que a ninguno
+                        obediencia tenía assí que los que estavan dentro no sabían que hazer/</cl>
+                    <cl xml:id="M21_c277">y acordaron que la dueña rogasse al cavallero que abriesse
+                        la puerta creyendo que antes por ella por ser muger que por otro alguno lo
+                        haría pero ella considerando la grande y mala desmesura que la avían hecho
+                        no se atrevió a le pedir cosa por merced:</cl>
+                    <cl xml:id="M21_c278">mas no esperando otro ningún remedio:</cl>
+                    <cl xml:id="M21_c279"> púsose a la finiestra y dixo.</cl>
+                    <cl xml:id="M21_c280">Señor cavallero comoquiera que os ayamos muy malamente
+                        errado sin tener conocimiento:</cl>
+                    <cl xml:id="M21_c281">vença vuestra humil cortesía contra nuestra culpa.</cl>
+                    <cl xml:id="M21_c282">Y si a vos pluguiere abrid la puerta a los leones:</cl>
+                    <cl xml:id="M21_c283">porque saliendo ellos fuera/</cl>
+                    <cl xml:id="M21_c284">nosotros quedaremos sin temor libres de peligro y
+                        juntamente con esto se vos hará toda aquella emienda que partenezca hazerse
+                        del yerro que vos hezimos y cometimos/</cl>
+                    <cl xml:id="M21_c285">aunque vos quiero también dezir que mi intención y
+                        voluntad no fue sino por teneros en fuertes cárceles preso.</cl>
+                    <cl xml:id="M21_c286">Él respondió con muy manso hablar.</cl>
+                    <cl xml:id="M21_c287">Esso dueña no avía de ser por tal guisa como lo
+                        hezistes:</cl>
+                    <cl xml:id="M21_c288">que de grado fuera yo vuestro:</cl>
+                    <cl xml:id="M21_c289">assí como soy de todas las dueñas y donzellas que mi
+                        servicio han menester.</cl>
+                    <cl xml:id="M21_c290">Pues señor dixo ella no abriréis la puerta?</cl>
+                    <cl xml:id="M21_c291">No si Dios me ayude dixo Amadís:</cl>
+                    <cl xml:id="M21_c292">ni de mi avréis esta cortesía.</cl>
+                    <cl xml:id="M21_c293">La dueña se tiró llorando de la finiestra:</cl>
+                    <cl xml:id="M21_c294">la niña hermosa le dixo.</cl>
+                    <cl xml:id="M21_c295">Señor cavallero aquí ay tales que no tienen culpa en el
+                        mal que recebistes:</cl>
+                    <cl xml:id="M21_c296">antes merecen gracias por lo que vos no sabéis.</cl>
+                    <cl xml:id="M21_c297">Amadís se aficionó mucho de ella:</cl>
+                    <cl xml:id="M21_c298">y dijo.</cl>
+                    <cl xml:id="M21_c299">Amiga hermosa queréis vos que abra la puerta?</cl>
+                    <cl xml:id="M21_c300">Mucho vos lo gradeceré dizo ella Amadís iva a la
+                        abrir:</cl>
+                    <cl xml:id="M21_c301">y la niña dixo.</cl>
+                    <cl xml:id="M21_c302">Señor cavallero atened un poco:</cl>
+                    <cl xml:id="M21_c303">y yo diré a la dueña que os haga atreguar destos que acá
+                        son.</cl>
+                    <cl xml:id="M21_c304">Amadís la preció mucho/</cl>
+                    <cl xml:id="M21_c305">y túvola por discreción.</cl>
+                    <cl xml:id="M21_c306">Pues la dueña asseguró y dizo que daría luego a Gandalín y
+                        el enano:</cl>
+                    <cl xml:id="M21_c307"> y el cavallero viejo que ya oístes dixo a Amadís:</cl>
+                    <cl xml:id="M21_c308">que tomasse un escudo/</cl>
+                    <cl xml:id="M21_c309">y una maça porque con ello podría matar los leones al
+                        salir de la puerta.</cl>
+                    <cl xml:id="M21_c310">Esso quiero yo dixo Amadís para otra cosa y Dios no me
+                        ayude si yo mal hiziera a quien tan bien me ayudó.</cl>
+                    <cl xml:id="M21_c311">Cierto señor dixo el cavallero bien cataréis lealtad a los
+                        hombres:</cl>
+                    <cl xml:id="M21_c312">pues que assí la tenéis a las bestias fieras.</cl>
+                    <cl xml:id="M21_c313">Entonces le lançaron la maça y el escudo:</cl>
+                    <cl xml:id="M21_c314">y Amadís metió en la vaína lo que de la espada le quedara
+                        y embraçó el escudo:</cl>
+                    <cl xml:id="M21_c315">y con la maça en la mano fue abrir la puerta:</cl>
+                    <cl xml:id="M21_c316">los leones como la sintieron abrir acudieron allí:</cl>
+                    <cl xml:id="M21_c317">y salieron muy rezios al campo:</cl>
+                    <cl xml:id="M21_c318">y Amadís quedó acostado a la una parte:</cl>
+                    <cl xml:id="M21_c319">y entróse en el castillo:</cl>
+                    <cl xml:id="M21_c320">y luego la dueña:</cl>
+                    <cl xml:id="M21_c321">y toda la otra gente baxaron de lo alto y se
+                            <sic>vivieron</sic> a él:</cl>
+                    <cl xml:id="M21_c322">y él fue para ellos:</cl>
+                    <cl xml:id="M21_c323">y todos lo recibieron muy bien:</cl>
+                    <cl xml:id="M21_c324">y le traxeron a Gandalín y al enano.</cl>
+                    <cl xml:id="M21_c325"> Amadís dixo a la dueña.</cl>
+                    <cl xml:id="M21_c326">Señora yo perdí aquí mi cavallo si por él me mandáis dar
+                        otro:</cl>
+                    <cl xml:id="M21_c327">si no irme he a pie:</cl>
+                    <cl xml:id="M21_c328">señor dixo la dueña desarmad vos:</cl>
+                    <cl xml:id="M21_c329">y holgaréis aquí esta noche pues es tarde:</cl>
+                    <cl xml:id="M21_c330">que cavallo avréis que muy desaforado sería ir a pie a tal
+                        cavallero.</cl>
+                    <cl xml:id="M21_c331">Amadís lo tuvo por bien:</cl>
+                    <cl xml:id="M21_c332">y luego fue desarmado en una cámara:</cl>
+                    <cl xml:id="M21_c333">y diéronle un manto que cubriesse:</cl>
+                    <cl xml:id="M21_c334">y lleváronlo a las finiestras donde la dueña y la niña lo
+                        atendían.</cl>
+                    <cl xml:id="M21_c335">Mas cuando assí lo vieron fueron mucho maravillados de su
+                        gran hermosura:</cl>
+                    <cl xml:id="M21_c336">y siendo en edad tan tierna hazer cosas tan estrañas en
+                        armas.</cl>
+                    <cl xml:id="M21_c337"> Amadís acatava la niña:</cl>
+                    <cl xml:id="M21_c338">que le parescía muy hermosa además:</cl>
+                    <cl xml:id="M21_c339">de sí dixo a la dueña.</cl>
+                    <cl xml:id="M21_c340">Dezidme señora si os pluguiere:</cl>
+                    <cl xml:id="M21_c341">por qué la figura que en la carreta vi avía la cabeça
+                        partida.</cl>
+                    <cl xml:id="M21_c342">Cavallero dixo ella si otorgáis de hazer en ello lo que
+                        devéis deziros lo he si no dexar me he de ello.</cl>
+                    <cl xml:id="M21_c343">Dueña dixo él no es razón que se otorgue de hazer lo que
+                        hombre no sabe:</cl>
+                    <cl xml:id="M21_c344">pero sabiéndolo si es cosa que a cavallero toque/</cl>
+                    <cl xml:id="M21_c345">que con razón tomar se deva por mi no se dexará.</cl>
+                    <cl xml:id="M21_c346">La dueña le dixo que dezía muy bien y mandó apartar de
+                        allí todas las dueñas y donzellas y a la otra gente y tomó la niña cabe sí y
+                        dixo.</cl>
+                    <cl xml:id="M21_c347">Señor cavallero aquella figura de piedra que vistes se
+                        hizo en remembrança de su padre desta hermosa niña/</cl>
+                    <cl xml:id="M21_c348">el cual yaze metido en el monumento que es en la
+                        carreta:</cl>
+                    <cl xml:id="M21_c349">que fue rey coronado/</cl>
+                    <cl xml:id="M21_c350">y estando en su real silla en una fiesta llegó allí un
+                        hermano suyo:</cl>
+                    <cl xml:id="M21_c351">y diziéndole que le no parecería a él menos aquella corona
+                        en su cabeça siendo entrambos de un abolorio:</cl>
+                    <cl xml:id="M21_c352">y sacando una espada que debaxo de su manto traía hirióle
+                        por encima de la corona y hendióle la cabeça como lo allí vistes
+                        figurado.</cl>
+                    <cl xml:id="M21_c353">E como de ante tuviesse aquella traición pensada:</cl>
+                    <cl xml:id="M21_c354">traía consigo muchos cavalleros:</cl>
+                    <cl xml:id="M21_c355">de manera que muerto el rey/</cl>
+                    <cl xml:id="M21_c356">y de él no quedando otro hijo ni hija sino esta niña:</cl>
+                    <cl xml:id="M21_c357"> presto cobró el reino:</cl>
+                    <cl xml:id="M21_c358">el cual en su poder tiene:</cl>
+                    <cl xml:id="M21_c359">y a la sazón tenía en guarda el cavallero viejo que aquí
+                        os hizo venir esta niña:</cl>
+                    <cl xml:id="M21_c360">y huyó con ella:</cl>
+                    <cl xml:id="M21_c361">y traxómela a este castillo porque es mi sobrina:</cl>
+                    <cl xml:id="M21_c362">y después uve el cuerpo de su padre:</cl>
+                    <cl xml:id="M21_c363">y cada día lo pongo en la carreta:</cl>
+                    <cl xml:id="M21_c364">y vo con él por el campo:</cl>
+                    <cl xml:id="M21_c365">y juré de no le mostrar sino al que por fuerça de armas lo
+                        viesse:</cl>
+                    <cl xml:id="M21_c366">y aunque lo vea no lo diré la razón dello sino otorgare de
+                        vengar tan gran traición:</cl>
+                    <cl xml:id="M21_c367">y si vos buen cavallero por lo que la razón y virtud vos
+                        obliga/</cl>
+                    <cl xml:id="M21_c368">queréis en cosa tan justa emplear aquella tan gran
+                        valentía y esfuerço de corazón que Dios en vos puso/</cl>
+                    <cl xml:id="M21_c369"> teniendo a vos cierto seguiré mi estilo hasta que halle
+                        otros dos cavalleros que he menester para que todos tres se combatan con
+                        aquel traidor y sos hijos suyos sobre esta causa:</cl>
+                    <cl xml:id="M21_c370">que tal pleito es entre ellos de no se partir de en uno
+                        antes ser de consuno en la batalla si demandada le fuere.</cl>
+                    <cl xml:id="M21_c371">Dueña dixo Amadís vos hazéis derecho en buscar como sea
+                        vengada la mayor traición de que nunca oí hablar:</cl>
+                    <cl xml:id="M21_c372">y cierto él que la hizo no puede durar mucho sin ser
+                        escarnido/</cl>
+                    <cl xml:id="M21_c373">que Dios no le querrá sufrir:</cl>
+                    <cl xml:id="M21_c374">y si vos pudiessedes acabar que ellos viniessen a la
+                        batalla uno a uno:</cl>
+                    <cl xml:id="M21_c375">con el ayuda de Dios yo la tomaría:</cl>
+                    <cl xml:id="M21_c376">esso no lo hará ellos dixo la dueña.</cl>
+                    <cl xml:id="M21_c377"> Pues qué vos plaze dixo él que yo haga?</cl>
+                    <cl xml:id="M21_c378">Que seáis aquí dixo ella de oy en un año si fuerdes
+                        bivo/</cl>
+                    <cl xml:id="M21_c379">y en vuestro libre poder:</cl>
+                    <cl xml:id="M21_c380">y para entonces yo terné los dos cavalleros y seréis vos
+                        el tercero.</cl>
+                    <cl xml:id="M21_c381">Muy de grado dixo Amadís lo haré:</cl>
+                    <cl xml:id="M21_c382">y no vos pongáis en trabajo de los buscar que yo cuido de
+                        los traer para aquel plazo/</cl>
+                    <cl xml:id="M21_c383">y tales que manternán muy bien todo derecho.</cl>
+                    <cl xml:id="M21_c384">Y esto dezía él porque creía aver ya hallado para entonces
+                        a su hermano don Galaor y a Agrajes su primo que con ellos bien osaría
+                        cometer un gran hecho:</cl>
+                    <cl xml:id="M21_c385">mucho lo gradescieron la dueña y la niña diziéndolo:</cl>
+                    <cl xml:id="M21_c386">que procurasse de los buscar muy buenos:</cl>
+                    <cl xml:id="M21_c387">porque assí convenía que fuessen:</cl>
+                    <cl xml:id="M21_c388">que tuviesse por cierto que aquel mal rey y sus hijos eran
+                        de los valientes y esforçados cavalleros que en el mundo avía.</cl>
+                    <cl xml:id="M21_c389">Amadís les dixo.</cl>
+                    <cl xml:id="M21_c390">Si yo hallasse un cavallero que demando no me trabajaría
+                        mucho por tercero aunque ellos más esforçados sean:</cl>
+                    <cl xml:id="M21_c391">señor dixo la dueña:</cl>
+                    <cl xml:id="M21_c392">dónde sois y dónde os buscaremos?</cl>
+                    <cl xml:id="M21_c393">Dueña dixo Amadís:</cl>
+                    <cl xml:id="M21_c394">soy de la casa del rey Lisuarte/</cl>
+                    <cl xml:id="M21_c395">y cavallero de la reina Brisena su muger.</cl>
+                    <cl xml:id="M21_c396">Pues agora dixo ella nos vayamos a comer que sobre tal
+                        concierto buena pro nos hará:</cl>
+                    <cl xml:id="M21_c397">y luego se entraron en un muy hermoso palacio donde se lo
+                        dieron bien concertado/</cl>
+                    <cl xml:id="M21_c398">y cuando fue sazón de dormir llevaron a Amadís a una
+                        camara donde alvergasse:</cl>
+                    <cl xml:id="M21_c399">y solamente quedó con él la donzella que los leones
+                        soltara:</cl>
+                    <cl xml:id="M21_c400">y díxole.</cl>
+                    <cl xml:id="M21_c401">Señor cavallero:</cl>
+                    <cl xml:id="M21_c402">aquí ay quien os hizo ayuda aunque lo no sabéis:</cl>
+                    <cl xml:id="M21_c403">y qué fue esso dixo Amadís?</cl>
+                    <cl xml:id="M21_c404">Fue dixo ella quitaros de la muerte que bien cerca
+                        teníades con los leones que por mandado de aquella niña hermosa mi señora yo
+                        solté/</cl>
+                    <cl xml:id="M21_c405">aviendo piedad del mal que os hazían.</cl>
+                    <cl xml:id="M21_c406">Amadís se maravilló de la discreción de persona de tan
+                        poca edad y dixo la donzella.</cl>
+                    <cl xml:id="M21_c407"> Cierto yo creo que si bive avrá en sí dos cosas muy
+                        estremadas de las otras que serán ser muy hermosa y de gran seso.</cl>
+                    <cl xml:id="M21_c408">Amadís dixo/</cl>
+                    <cl xml:id="M21_c409">ciero assí me paresce:</cl>
+                    <cl xml:id="M21_c410">y dezidle que yo se lo agradezco mucho:</cl>
+                    <cl xml:id="M21_c411">y que me tenga por su cavallero.</cl>
+                    <cl xml:id="M21_c412">Señor dixo la donzella mucho me plaze de lo que me
+                        dezís/</cl>
+                    <cl xml:id="M21_c413">y ella será muy alegre tanto que de mí lo sepa:</cl>
+                    <cl xml:id="M21_c414">y saliéndose de la cámara quedó Amadís en su lecho:</cl>
+                    <cl xml:id="M21_c415">y Gandalín y el enano que en otra cama yazían a los pies
+                        de su señor oyeron bien lo que hablaron/</cl>
+                    <cl xml:id="M21_c416">y el enano que no sabía la hazienda de su señor y de
+                        Oriana pensó que amava aquella niña tan hermosa y porque de ella se avía
+                        pagado se obligava por su cavallero:</cl>
+                    <cl xml:id="M21_c417">assí que este entendimiento no le hiziera menester a
+                        Amadís por muy gran cosa que por él fue sazón de ser llegado a a muy cruel
+                        muerte como adelante se contará.</cl>
+                    <cl xml:id="M21_c418">Passada aquella noche y la mañana venida levantóse
+                        Amadís:</cl>
+                    <cl xml:id="M21_c419">y oyó missa con la dueña:</cl>
+                    <cl xml:id="M21_c420">de sí preguntó cómo avía nombre aquellos con quién se avía
+                        de combatir.</cl>
+                    <cl xml:id="M21_c421">Ella le dixo el padre se llama Abiseos:</cl>
+                    <cl xml:id="M21_c422"> y el hijo mayor Darasión:</cl>
+                    <cl xml:id="M21_c423">y el otro Dramís/</cl>
+                    <cl xml:id="M21_c424">y todos tres son de gran hecho de armas/</cl>
+                    <cl xml:id="M21_c425">y la tierra dixo Amadís como ha nombre:</cl>
+                    <cl xml:id="M21_c426">Sobradisa dixo ella:</cl>
+                    <cl xml:id="M21_c427">que comarca con Sérolis:</cl>
+                    <cl xml:id="M21_c428">y de la otra parte la cerca la mar.</cl>
+                    <cl xml:id="M21_c429">Entonces se armó/</cl>
+                    <cl xml:id="M21_c430">y cavalgando en un cavallo que la dueña le dio/</cl>
+                    <cl xml:id="M21_c431">queriéndose despedir vino la niña fermosa con una rica
+                        espada en sus manos:</cl>
+                    <cl xml:id="M21_c432">que de su padre fuera:</cl>
+                    <cl xml:id="M21_c433">y dixo.</cl>
+                    <cl xml:id="M21_c434">Señor cavallero traed por mi amor esta espada en tanto que
+                        os durare/</cl>
+                    <cl xml:id="M21_c435">y Dios vos ayude con ella.</cl>
+                    <cl xml:id="M21_c436"> Amadís se lo gradeció riendo:</cl>
+                    <cl xml:id="M21_c437">y dixo amiga señora vos me tened por vuestro cavallero
+                        para hazer todas las cosas que a vuestra pro y honra sean.</cl>
+                    <cl xml:id="M21_c438">Ella folgó mucho de aquello y bien lo mostró en el
+                        semblante.</cl>
+                    <cl xml:id="M21_c439">El enano que todo lo mirava dixo.</cl>
+                    <cl xml:id="M21_c440">Cierto señora no ganastes poco:</cl>
+                    <cl xml:id="M21_c441">pues que tan cavallero por vos avéis.</cl>
+                    <!-- st transcription proofread with clauses. 8.15.15 Needs xml ids --></p>
+            </div>
+        </body>
+    </text>
+</TEI>

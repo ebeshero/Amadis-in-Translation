@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amadis of Gaul, by VASCO LOBEJRA.</title>
+            <editor role="translator">Robert Southey</editor>
+            <editor>Stacey Triplette</editor>
+            <editor>Elisa Beshero-Bondar</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority ana="printer">Printed by N. Biggs, Cross-court, Fleet-street</authority>
+            <publisher>T. N. Longman and O. Rees</publisher>
+            <pubPlace>Paternoster Row, London</pubPlace>
+            <date>1803</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Rekeyed from a public domain Google-digitized text via HathiTrust.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" xml:id="S21">
+            <head>Chapter 21. <locus from="189" to="194"/></head>
+
+            <p>
+               <milestone unit="transUnit" ana="start" synch="#M20_c1"/><s>Such speed made
+                     <persName ref="#Arcalaus">Arcalaus</persName> in the armour and on the horse of him whom he had
+                  enchanted, that on the tenth day he met <persName ref="#Lisuarte">King Lisuarte</persName> riding
+                  abroad in the morning to take the air, accompanied with a great train.</s><s>They
+                  seeing the horse and arms of <persName ref="#Amadis">Amadis</persName> were greatly rejoiced,
+                  and rode on to welcome him; but coming nearer, they saw that it was not he for
+                  whom they looked, for Arcalaus had his head and hands unarmed, and they were
+                  greatly amazed.</s>
+               <milestone unit="transUnit" ana="end" synch="#M20_c1"/><s>Arcalaus came before the
+                  King and said, <milestone unit="said" ana="start"/>I come, Sir, to acquit a
+                  promise wherein I stand bound, to let you understand how I have slain a Knight in
+                  battle.</s><s>And albeit I must be content to declare mine own praise, which were
+                  more honourable for me being reported by another in mine absence, yet am I
+                  constrained to do no less, for the covenant was between me and him whom I have
+                  slain, that the conqueror should cut off the other's head, and present himself
+                  before you as this day.</s><s>If he slew me, I told him it was Arcalaus whom he
+                  would slay; and much was I grieved when he said he was the Queen's Knight, and by
+                  name Amadis of Gaul.</s><s>In this guise came he to his death, and I remain with
+                  the honour of the battle.</s><milestone unit="said" ana="end"/>
+            </p>
+            <p resp="#Southey"><s><milestone unit="said" ana="start"/>Holy Mary!<milestone unit="said"
+                     ana="intStart"/> exclaimed the King,<milestone unit="said" ana="intEnd"/> is
+                  the best Knight in the world slain?<milestone unit="said" ana="end"/> and with
+                  that they all began to lament.</s><s>But Arcalaus turned back by the way he came,
+                  and all cursed him and besought God that he might speedily die an evil death,
+                  which they with their own swords would at once have given him but for his own
+                  tale, how Amadis was slain in an accorded battle.</s>
+            </p>
+            <p resp="#Southey"><s>Forthwith the King returned in heavy affliction.</s><s>The news spread and reached
+                  the Queen's house, and she and all her Ladies lamented, for greatly was Amadis
+                  beloved by all; but <persName ref="#Oriana">Oriana</persName> hearing their lamentation sent the
+                     <persName ref="#Damsel_Denmark">Damsel of Denmark</persName> to enquire its
+                  cause, who presently returned beating her face, and with a wild cry looked at
+                  Oriana.</s><s><milestone unit="said" ana="start"/>Ah, Lady! what a grief--what a
+                     misery!<milestone unit="said" ana="end"/></s>
+               <s>So that Oriana trembled from head to foot, and exclaimed, <milestone unit="said"
+                     ana="start"/>Holy Virgin, if Amadis should be dead!<milestone unit="said"
+                     ana="end"/></s>
+               <s>The Damsel answered, <milestone unit="said" ana="start"/>ah me, he is
+                     dead!<milestone unit="said" ana="end"/> and with that Oriana's heart died away
+                  within her, and she fell.</s><s>Then ran the Damsel to
+                     <persName ref="#Mabilia">Mabilia</persName> tearing her hair, <milestone unit="said"
+                     ana="start" resp="#Damsel_Denmark"/>help, help, for my Lady is dying.<milestone
+                     unit="said" ana="end"/></s><s>Mabilia, though her own grief was so great that
+                  greater none could be, yet not for that did she neglect what remedy might profit;
+                  she took the Princess in her arms, and poured<note anchored="true" resp="#Southey"
+                     >The <bibl corresp="#Munday">English translation</bibl> says, she unlaced her
+                     garments to give her more liberty, and bathed her temples and pulses with
+                     vinegar and cold water.</note> cold water on her face, and bade the Damsel
+                  fasten the door of the chamber, that none might see her in that passion.</s><s>She
+                  recovering her senses, exclaimed, <milestone unit="said" ana="start"/>Ah friends,
+                  let me die and be at rest: why would ye make me so faithless that I should live
+                  even an hour after him! What though his dwelling be in the cold earth, where all
+                  love ceaseth, yet greater shall be our loves when in the other world we are
+                     united!<milestone unit="said" ana="end"/> and then again she swooned; her long
+                  hair hanging to the ground, her hands clenched upon her breast that Mabilia
+                  thought she was indeed dead, and cried, <milestone unit="said" ana="start"/>Oh
+                  God! let me die also, since they whom I loved best are gone.<milestone unit="said"
+                     ana="end"/></s><s><milestone unit="said" ana="start"/>For God's sake, dear
+                  Lady, <milestone unit="said" ana="intStart"/>quoth the Damsel,<milestone
+                     unit="said" ana="intEnd"/> let not your good sense fail you now, when it is so
+                     needed.<milestone unit="said" ana="end"/></s><s>Roused by these words Mabilia
+                  recovered herself; they placed Oriana in bed, and poured water again upon her face
+                  and upon her breast, so that she revived.</s><s><milestone unit="said" ana="start"
+                  />Take heart,<milestone unit="said" ana="intStart"/> said Mabilia,<milestone
+                     unit="said" ana="intEnd"/> and do not so readily believe such tidings; that
+                  Knight may have borrowed the arms of Amadis, or stolen them: who shall vouch for
+                  his truth?</s><milestone unit="said" ana="end"/><s>But Oriana had fixed her eyes
+                  upon the window where first she talked with Amadis, and in a faint and feeble
+                  voice exclaimed, <milestone unit="said" ana="start"/>how bitter is the remembrance
+                  that thou excitest! long as thou shalt last, never will two others discourse in
+                  thee with such pure and perfect truth!<milestone unit="said" ana="end"/></s><s>
+                  <milestone unit="said" ana="start"/>Think you, <milestone unit="said"
+                     ana="intStart"/>said Mabilia,<milestone unit="said" ana="intEnd"/> that if I
+                  believed his death I should have power to comfort you?<milestone unit="said"
+                     ana="end"/> and thus with such consolation all that day they strove to cheer
+                  her who would not be comforted; and the night was worse than the day, and
+                  oftentimes they feared that she would never see the morning.</s><s>But the next
+                  day, at the hour when they were about to lay the napkins before the King,
+                  Brandoyuas entered the palace, leading <persName ref="#Grindalaya">Grindalaya</persName>, and they both went and knelt
+                  before the King.</s><s>He who greatly esteemed him, and had been troubled for his
+                  long absence, enquired where he had tarried.</s><s><milestone unit="said"
+                     ana="start"/>Sir, said he, in a dungeon, whence I should never have come out,
+                  but for the good Knight Amadis, who delivered me and this Lady, and many others,
+                  doing there such deeds of arms as only he could have atchieved.</s><s>And he would
+                  there have been slain by the worst treason that ever was known, by the traitor
+                  Arcalaus, if two Damsels had not helped him, who surely must not a little have
+                  loved him.</s><milestone unit="said" ana="end"/><s>Lisuarte at this, rose
+                  instantly from table;<milestone unit="said" ana="start"/>--tell me, my friend, by
+                  the faith which you owe to God and to me, is Amadis alive?<milestone unit="said"
+                     ana="end"/></s><s><milestone unit="said" ana="start"/>By that faith, <milestone
+                     unit="said" ana="intStart"/>replied Brandoyuas,<milestone unit="said"
+                     ana="intEnd"/> I left him alive and well not ten days ago!<milestone
+                     unit="said" ana="end"/> Then was there such joy that greater could not
+                  be.</s><s>The King sent Grindalaya to <persName ref="#Brisena">Brisena</persName>, and well was she welcomed for her
+                  tidings.</s><s>The Damsel of Denmark soon heard it, and hastened to Oriana, and
+                  restored her from death to life; and Mabilia sent for Grindalaya that they might
+                  hear the whole from her own mouth, and the Princesses would suffer her to eat no
+                  where but at their own table, that she might relate it more at length.</s><s>On
+                  her return to the Queen's apartment, she found <persName ref="#Arban">King Arban of North Wales</persName>, who
+                  dearly loved her.</s><s>Then was there such joy as cannot be expressed; and King
+                  Arban told Brisena how she was daughter to King Ardroyd of Serolys; and Brisena,
+                  as well for her high rank as for the good tidings she had brought, besought her to
+                  remain in her court; to the which she was nothing loth.</s><s>Brisena also sent
+                  for Grindalaya's sister, Aldeva: this was she who was the friend of Galaor, and
+                  for whose sake he had been so persecuted by the Dwarf.</s><s>So there were great
+                  rejoicings in the court of King Lisuarte.</s>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

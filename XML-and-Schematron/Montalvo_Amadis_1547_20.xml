@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amadís de Gaula Volumes I-IV</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority ana="printer">Jacopo Cromberberger</authority>
+            <!--ebb: Or is he properly the publisher, and would go in <publisher> tags?-->
+            <pubPlace>Sevilla</pubPlace>
+            <date>1547</date>
+
+         </publicationStmt>
+         <sourceDesc>
+            <!--heb: I've added to this description and to the edition criteria some additional markup
+            that will help at rendering the text later on (titles in italics, for example).
+            I've used <bibl> (= loosely-structured bibliographic citation) in case we want to link 
+            them to the full bibliographic reference later. -->
+            <!--ebb 2015-08-20: The bibl tags are useful in the paragraph structure of sourceDesc, yes. I'm just realizing that I set up the Southey files to use
+            the publicationStmt (just above the sourceDesc). Should we do the same with the Montalvo header? Here's the publicationStmt on my Southey files, only recording the publisher/printer information:
+               
+          <publicationStmt>
+            <authority ana="printer">Printed by N. Biggs, Cross-court, Fleet-street</authority>
+            <publisher>T. N. Longman and O. Rees</publisher>
+            <pubPlace>Paternoster Row, London</pubPlace>
+            <date>1803</date>
+         </publicationStmt>
+       
+      This is just a formal series of elements, and I think it may be useful to have in each of our files, to feature printing and publishing information. The sourceDesc does a different kind of work, to explain and describe our choice of texts.
+            
+            -->
+            <p> We have used the text of the <bibl>1547 <title>Amadis</title> (Sevilla: Jacopo
+                  Cromberberger)</bibl> from which Southey translated. Images of the 1547 are from
+               the Biblioteca Virtual de Andalucía. This text is very similar to the text of the
+               first extant <bibl>
+                  <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most modern
+               editions are based. Garci Rodríguez de Montalvo, a regidor or civic official of the
+               city of Medina del Campo, edited and compiled the version of Amadís we know today
+               from one or more medieval originals. The medieval material is concentrated in Books
+               I-III, with occasional asides from the author. Book IV and the prologues are original
+               to Montalvo. Only one fragment of a medieval Amadís exists, but the first texts are
+               thought to be based in part on the Lancelot material in France and likely appeared in
+               Spain in the mid-fourteenth century. Evidence in the form of character names and
+               references in poetry dates to the fourteenth century. The primitive or medieval
+               Amadís is now thought to be Castilian and not Portuguese or French. The attribution
+               to Portuguese knight Vasco de Lobeira is now known to be apocryphal.<ptr
+                  target="http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+               />
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p><!-- st How do I make this numbered list display properly? 
+               heb: I've edited it using <list> 
+               I know the list looks clustered, but I prefer to avoid pseudo-markup
+               in favor of the real tags. In this manner, we can add the styling afterwards much more easily.
+               However, I'm not sure I did the best use of <hi> and <mentioned>. Please read
+               http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQ  
+               and please modify it if you don't agree with my interpretation-->This
+               digital critical edition seeks to reproduce the reading experience of the <bibl>1547
+                     <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with which Robert
+               Southey worked for his translation in order to facilitate comparisons. The following
+               modifications have been made to the 1547 print edition. <list rend="numbered">
+                  <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: <hi>i/e/u</hi> express
+                     vowel sounds and <hi>y/j</hi> express consonants. For example,
+                        <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                        <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                        <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic value
+                     only at the ends of words, as in <mentioned>muy</mentioned> and
+                        <mentioned>rey</mentioned>, and as the conjunction meaning
+                        <gloss>and</gloss>.</item>
+                  <item>We preserve most of the consonant use of the 1547, including the alternation
+                     of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well as the absence or
+                     presence of <hi>h</hi>. We modernize the use of <hi>qu</hi>.</item>
+                  <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are resolved
+                     as single except where they have phonetic value.</item>
+                  <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                     consonants: <mentioned>honrra</mentioned> becomes <mentioned>honra</mentioned>.
+                     In some cases the <hi>rr</hi> has been supplied for <hi>r</hi> for phonetic
+                     reasons: <mentioned>tiera</mentioned> becomes
+                     <mentioned>tierra</mentioned>.</item>
+                  <item>We resolve the few abbreviations in the 1547 without alerting the reader.
+                     For example, <mentioned>q̃ </mentioned> has been resolved as
+                        <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                        <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                     tagged.</item>
+                  <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                  <item>We use accentuation according to the norms of modern Spanish in order to
+                     guide the reader’s pronunciation and to disambiguate words.</item>
+                  <item>We use capital and lower-case letters as in modern Spanish in order to
+                     clearly mark proper names and the boundaries of sentence-like groups.</item>
+                  <item>We normalize the union and separation of words according to modern Spanish
+                     usage.</item>
+                  <item>We preserve the punctuation of the 1547 in order to facilitate
+                     clause-by-clause comparisons with Southey’s translation. We preserve the 1547’s
+                     clause-like units (the space between successive punctuation marks) even though
+                     we recognize significant differences from modern usage. The 1547 uses <hi>. :
+                        /</hi> and infrequent <hi>?</hi> as punctuation, and while sentence-like
+                     groups end with a period, the period <hi>.</hi> is also used within
+                     sentence-like groups to introduce dialogue. The punctuation marks <hi>:</hi>
+                     and <hi>/</hi> appear to freely alternate. We reproduce <hi>. : /</hi> as they
+                     appear in the 1547 without modernization. We have not added modern <hi>¿?</hi>
+                     to mark questions. We do not mark dialogue with em dash; rather, for this
+                     digital edition, dialogue, including questions, has been coded in the milestone
+                     element. We do not preserve the <hi>//</hi> that indicates line breaks in the
+                     middle of words. Our goal in these punctuation decisions is to render
+                     structural elements of the text at the sentence and clause level as Southey
+                     would have confronted them in order to elucidate whether the 1547 structure and
+                     punctuation influenced Southey in his own construction of sentences and
+                     clauses, which we observe differs from standard English use.</item>
+                  <item>Obvious printer errors have been tagged with the sic element. Corrections
+                     are provided based on <bibl>Juan Manuel Cacho Blecua’s critical edition
+                        (Madrid: Cátedra, 1999)</bibl>, which takes into consideration multiple
+                     sixteenth-century editions of <title>Amadís de Gaula</title> including the
+                        <bibl>Sevilla 1526</bibl> on which the <bibl>Sevilla 1547</bibl> is
+                     based.</item>
+               </list>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" xml:id="M20">
+            <head>Capítulo XX <locus from="lxi-r" to="lxii-r"/></head>
+
+            <!--st 2015-08-06. Text of XX begins p. 81 of the PDF, folio lxi-->
+            <!--ebb 2015-08-05: Look at Chapter 17 of the TEI Guidelines for clause and grammatical unit markup: We may want this, right? -->
+            
+            <argument>
+               <p>
+                  <cl xml:id="M20_c1">Cómo <persName>Arcaláus</persName> llevó nuevas a la corte del
+                     rey <persName>Lisuarte</persName> como <persName>Amadís</persName> era muerto y
+                     de los grandes llantos que en toda la corte por el se fizieron/</cl>
+                  <cl xml:id="M20_c2">en especial <persName>Oriana</persName>
+                  </cl>
+               </p>
+            </argument>
+            <p>
+               <cl xml:id="M20_c3">Anduvo tanto <persName>Arcaláus</persName>
+                  después
+                  que se partió de <persName>Amadís</persName> donde lo dexó encantado en su cavallo
+                  y armado de todas sus armas que a los diez días llegó a casa del rey
+                     <persName>Lisuarte</persName> una mañana cuando el sol salía:</cl>
+               <cl xml:id="M20_c4">y a esta sazón el rey Lisuarte cavalgara con muy grande
+                  compaña:</cl>
+               <cl xml:id="M20_c5">y andava entre su palacio y la floresta:</cl>
+               <cl xml:id="M20_c6">y vio cómo venía Arcaláus contra él/</cl>
+               <cl xml:id="M20_c7">y cuando conocieron el cavallo y también las armas/</cl>
+               <cl xml:id="M20_c8">todos cuidaron que Amadís era/</cl>
+               <cl xml:id="M20_c9">el rey fue a él muy alegre:</cl>
+               <cl xml:id="M20_c10">mas siendo más cerca vieron que no era el que pensavan:</cl>
+               <cl xml:id="M20_c11">que él traía el rostro y las manos desarmadas y fueron
+                  maravillados.</cl>
+               <cl xml:id="M20_c12">Arcaláus fue ante el rey y dixo:</cl>
+               <cl xml:id="M20_c13">
+                  <milestone unit="said" ana="start" resp="#Arcalaus"/>Señor yo vengo a vos porque
+                  hize tal pleito de parecer aquí a contar cómo maté en una batalla un cavallero y
+                  cierto yo vengo con vergüença porque antes de otros que de mí querría ser
+                  loado:</cl>
+               <cl xml:id="M20_c14">pero no puedo ál fazer que tal fue la convenencia de entre él y
+                  mí:</cl>
+               <cl xml:id="M20_c15">que el vencedor cortasse la cabeça al otro:</cl>
+               <cl xml:id="M20_c16">y se presentasse ante vos oy en este día:</cl>
+               <cl xml:id="M20_c17">y mucho me pesó que me dixo que era cavallero de la reina y yo
+                  le dixe que si me matasse que matava a Arcaláus que assí he nombre:</cl>
+               <cl xml:id="M20_c18">y él dixo que avía nombre Amadís de Gaula:</cl>
+               <cl xml:id="M20_c19">assí que él de aquesta guisa rescibió la muerte:</cl>
+               <cl xml:id="M20_c20">y yo quedé con la honra y prez de la batalla.<milestone
+                     unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c21">
+                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Ay Sancta María val<milestone
+                     unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                  muerto es el mejor cavallero y más esforçado del mundo:</cl>
+               <cl xml:id="M20_c22">ay Dios Señor por qué os plugo de hazer tan buen comienço y en
+                  tal cavallero:</cl>
+               <cl xml:id="M20_c23">
+                  <milestone unit="said" ana="end"/> y començó de llorar muy esquivo llanto y todos
+                  los otros que allí estavan Arcaláus se tornó por do viniera assaz con enojo y
+                  maldezíanle los que lo veían rogando y faziendo petición a Dios que le diesse cedo
+                  mala muerte:</cl>
+               <cl xml:id="M20_c24">y ellos mismos se la dieran sino porque según su razón no avía
+                  causa ninguna para ello:</cl>
+               <cl xml:id="M20_c25">el rey se fue para su palacio muy pensoso y triste a maravilla:
+                  y las nuevas sonaron a todas partes:</cl>
+               <cl xml:id="M20_c26">fasta llegar a casa de la reina:</cl>
+               <cl xml:id="M20_c27">y de las dueñas que oyeron ser Amadís muerto:</cl>
+               <cl xml:id="M20_c28">començaron de llorar que de todos era muy amado y querido.</cl>
+               <cl xml:id="M20_c29">
+                  <persName>Oriana</persName>
+                  que en su cámara seía embió a la <persName
+                     ref="#Damsel_Denmark">donzella de <distinct>Denamarcha</distinct>
+                  </persName> que supiesse qué cosa era aquel llanto que se hazía.</cl>
+               <cl xml:id="M20_c30">La donzella salió y como lo supo bolvió firiendo con sus palmas
+                  en el rostro:</cl>
+               <cl xml:id="M20_c31">y llorando muy fieramente catava a Oriana y díxole.</cl>
+               <cl xml:id="M20_c32">
+                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Ay señora qué cuita y
+                  qué gran dolor<milestone unit="said" ana="end"/>Oriana se estremeció toda y
+                  dixo.</cl>
+               <cl xml:id="M20_c33">
+                  <milestone unit="said" ana="start" resp="#Oriana"/>Ay Sancta María si es muerto
+                     Amadís?<milestone unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c34">La donzella dixo/ <milestone unit="said" ana="start"
+                     resp="#Damsel_Denmark"/>ay cativa que muerto es:<milestone unit="said"
+                     ana="end"/> y falleciéndole a Oriana el coraçón cayó en tierra amortecida:</cl>
+               <cl xml:id="M20_c35">la donzella que assí la vio dexó de llorar y fuesse a
+                     <persName>Mabilia</persName> que fazía muy gran duelo:</cl>
+               <cl xml:id="M20_c36">messando sus cabellos y díxole.</cl>
+               <cl xml:id="M20_c37">
+                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Señora Mabilia corred a
+                  mi señora que se muere.<milestone unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c38">Ella bolvió la cabeça y vio a Oriana yacer en el estrado:</cl>
+               <cl xml:id="M20_c39">como si muerta fuese:</cl>
+               <cl xml:id="M20_c40">y aunque su cuita era muy grande que más no podía ser quiso
+                  remediar lo que convenía:</cl>
+               <cl xml:id="M20_c41">y mandó a la donzella que la puerta de la cámara cerrase:</cl>
+               <cl xml:id="M20_c42">porque ninguno assí no la viesse y fue a tomar a Oriana entre
+                  sus braços e hízole echar agua fría por el rostro con que luego acordó ya
+                  cuanto:</cl>
+               <cl xml:id="M20_c43">y como hablar pudo:</cl>
+               <cl xml:id="M20_c44">dixo llorando.</cl>
+               <cl xml:id="M20_c45">
+                  <milestone unit="said" ana="start" resp="#Oriana"/>Ay amigas por Dios no estorvéis
+                  la mi muerte:</cl>
+               <cl xml:id="M20_c46">si mi descanso desseáis:</cl>
+               <cl xml:id="M20_c47">y no me hagáis tan desleal:</cl>
+               <cl xml:id="M20_c48">que sola una hora biva sin aquel que no con mi muerte:</cl>
+               <cl xml:id="M20_c49">mas con mi gana él no pudiera bivir ni tan sola una
+                     hora/<milestone unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c50">otrosí dixo.</cl>
+               <cl xml:id="M20_c51">
+                  <milestone unit="said" ana="start" resp="#Oriana"/>Ay flor y espejo de toda
+                  cavallería:</cl>
+               <cl xml:id="M20_c52">que tan grave y estraña es a mí la vuestra muerte/</cl>
+               <cl xml:id="M20_c53">que por ella no solamente <sic>ya</sic> padesceré:</cl>
+               <cl xml:id="M20_c54">mas todo el mundo en perder aquel su gran caudillo y
+                  capitán:</cl>
+               <cl xml:id="M20_c55">assí en las armas como en todas las <sic>otaas</sic>
+                  virtudes:</cl>
+               <cl xml:id="M20_c56">donde los que en él biven exemplo podían tomar:</cl>
+               <cl xml:id="M20_c57">mas si algún consuelo al mi triste coraçón consuelo da/</cl>
+               <cl xml:id="M20_c58">no es sino que no pudiendo él sufrir tan cruel herida:</cl>
+               <cl xml:id="M20_c59">despidiéndose de mí se va para el vuestro:</cl>
+               <cl xml:id="M20_c60">que aunque en la tierra fría es su morada donde desfechos y
+                  consumidos serán aquel gran encendimiento de amor/</cl>
+               <cl xml:id="M20_c61">que seyendo en esta vida apartados con tanta afición
+                  sostenían:</cl>
+               <cl xml:id="M20_c62">muy mayor en la otra seyendo juntos/</cl>
+               <cl xml:id="M20_c63">si possible fuesse de les ser otorgado sosternán.<milestone
+                     unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c64">
+                  <sic>Estonces</sic> se amorteció de tal guisa:</cl>
+               <cl xml:id="M20_c65">que de todo en todo cuidaron que muerta fuesse:</cl>
+               <cl xml:id="M20_c66">y aquellos sus muy hermosos cabellos tenía muy rebueltos y
+                  tendidos por la tierra:</cl>
+               <cl xml:id="M20_c67">y las manos tenía sobre el coraçón/</cl>
+               <cl xml:id="M20_c68">donde la raviosa muerte le sobrevenía:</cl>
+               <cl xml:id="M20_c69">padeciendo en mayor grado aquella cruel tristeza que los
+                  plazeres y deleites hasta allí en sus amores avido avían:</cl>
+               <cl xml:id="M20_c70">assí como en las semejantes cosas de aquella calidad
+                  continuamente acaece.</cl>
+               <cl xml:id="M20_c71">Mabilia que verdaderamente cuidó que muerta era dixo:</cl>
+               <cl xml:id="M20_c72">
+                  <milestone unit="said" resp="#Mabilia" ana="start"/>ay Dios Señor no te plega de
+                  yo más bivir pues las dos cosas que en este mundo más amava son muertas<milestone
+                     unit="said" ana="end"/> la donzella le dijo.</cl>
+               <cl xml:id="M20_c73">
+                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Por Dios señora no
+                  fallezca a tal hora vuestra discreción:</cl>
+               <cl xml:id="M20_c74">y acorred a lo que remedio tiene.<milestone unit="said"
+                     ana="end"/>
+               </cl>
+               <cl xml:id="M20_c75">Mabilia tomando esfuerzo se levantó:</cl>
+               <cl xml:id="M20_c76">y tomando a Oriana la pusieron en su lecho Oriana sospiró
+                  estonces:</cl>
+               <cl xml:id="M20_c77">y meneava los braços a una y a otra parte/</cl>
+               <cl xml:id="M20_c78">como que el alma se le arrancasse.</cl>
+               <cl xml:id="M20_c79">Cuando esto vio Mabilia tomó del agua/</cl>
+               <cl xml:id="M20_c80">y tornó a se la echar por el rostro y por los pechos:</cl>
+               <cl xml:id="M20_c81">e hízola abrir los ojos y acordar algo más:</cl>
+               <cl xml:id="M20_c82">y díxole:</cl>
+               <cl xml:id="M20_c83">
+                  <milestone unit="said" ana="start" resp="#Mabilia"/>ay señora qué poco seso
+                  este:</cl>
+               <cl xml:id="M20_c84">que assí os dexáis morir con nuevas tan livianas como aquel
+                  cavallero traxo no sabiendo ser verdad:</cl>
+               <cl xml:id="M20_c85">el cual o por le demandar aquellas armas y cavallo a vuestro
+                  amigo:</cl>
+               <cl xml:id="M20_c86">o quiçá por se lo aver hurtado las podría alcançar que no por
+                  aquella vía que él lo dixo:</cl>
+               <cl xml:id="M20_c87">que no le hizo Dios tan sin ventura a vuestro amigo para tan
+                  presto assí del mundo lo sacar:</cl>
+               <cl xml:id="M20_c88">lo que vos haréis si de vuestra cuita tan grande algo se sabe
+                  será perderos para siempre.<milestone unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c89">Oriana se esforçó algún tanto más:</cl>
+               <cl xml:id="M20_c90">y tenía los ojos metidos en la finiestra donde ella hablara con
+                  Amadís al tiempo que allí primero llegó:</cl>
+               <cl xml:id="M20_c91">y dixo con boz muy flaca como aquella que las fuerzas havía
+                  perdidas.</cl>
+               <cl xml:id="M20_c92">
+                  <milestone unit="said" ana="start" resp="#Oriana"/>Ay finiestra que cuita es a mí
+                  aquella hermosa habla que en ti fue hecha/</cl>
+               <cl xml:id="M20_c93">yo sé bien que no dudarás tanto que en ti otros dos hablen tan
+                  verdadera y desengañada habla:<milestone unit="said" ana="end"/> otrosí dixo.</cl>
+               <cl xml:id="M20_c94">
+                  <milestone unit="said" ana="start" resp="#Oriana"/>Ay mi amigo flor de todos los
+                  cavalleros:</cl>
+               <cl xml:id="M20_c95">cuántos perdieron acorro y defendimiento en vuestra muerte:</cl>
+               <cl xml:id="M20_c96">y qué cuita y dolor a todos ellos será/</cl>
+               <cl xml:id="M20_c97"> mas a mí mucho mayor y más amargosa/</cl>
+               <cl xml:id="M20_c98">como aquella que muy más que suya vuestra era:</cl>
+               <cl xml:id="M20_c99">que assí como en vos era todo mi gozo y mi alegría:</cl>
+               <cl xml:id="M20_c100">assí vos faltando es tornado al revés:</cl>
+               <cl xml:id="M20_c101">de grandes e incomportables tormentos mi ánimo assaz será
+                  fatigado/</cl>
+               <cl xml:id="M20_c102">hasta que la muerte que yo tanto desseo me sobrevenga:</cl>
+               <cl xml:id="M20_c103">la cual siendo causa que mí ánima con la vuestra se junte de
+                  muy mayor descanso que la atribulada vida me será ocasión.<milestone unit="said"
+                     ana="end"/>
+               </cl>
+               <cl xml:id="M20_c104">Mabilia con semblante sañudo le dixo.</cl>
+               <cl xml:id="M20_c105">
+                  <milestone unit="said" ana="start" resp="#Mabilia"/>Cómo señora pensáis vos que si
+                  yo estas nuevas creyesse que ternía esfuerzo para ninguno consolar? No es assí
+                  pequeño ni liviano el amor que a mi cormano tengo:</cl>
+               <cl xml:id="M20_c106">antes assí Dios me salve si con razón lo pudiesse
+                     <sic>crer</sic> a vos ni a cuantos en este mundo que bien le quieren no daría
+                  ventaja de lo que por su muerte se devía mostrar y hazer assí que lo hazéis sin
+                  ningún provecho y podría mucho daño acarrear:</cl>
+               <cl xml:id="M20_c107">pues que con ello muy presto se podría descubrir lo que tan
+                  encelado tenemos/<milestone unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c108">Oriana oyendo esto le dixo:</cl>
+               <cl xml:id="M20_c109">
+                  <milestone unit="said" ana="start" resp="#Oriana"/>de esso ya poco cuidado
+                  tengo:</cl>
+               <cl xml:id="M20_c110">que agora tarde o aína no puede tardar de ser a todos
+                  manifiesto:</cl>
+               <cl xml:id="M20_c111">aunque yo pune de lo encubrir:</cl>
+               <cl xml:id="M20_c112">que quien bivir no dessea ningún peligro temer puede aunque le
+                     viniesse:<milestone unit="said" ana="end"/>
+               </cl>
+               <cl xml:id="M20_c113"> en esto que oís estuvieron todo aquel día diziendo la donzella
+                  de <distinct>Denamarcha</distinct> a todos cómo Oriana no se osava apartar de
+                  Mabilia porque se no matasse:</cl>
+               <cl xml:id="M20_c114">tan grande cuita era la suya/</cl>
+               <cl xml:id="M20_c115">mas la noche venida con más fatiga la passaron/</cl>
+               <cl xml:id="M20_c116">que Oriana se amortecía muchas vezes:</cl>
+               <cl xml:id="M20_c117">tanto que nunca al alva la pensaron llegar:</cl>
+               <cl xml:id="M20_c118">tanto era el pensamiento y cuita que en el corazón tenía/</cl>
+               <cl xml:id="M20_c119">pues otro día a la hora que los manteles al rey querían
+                  poner:</cl>
+               <cl xml:id="M20_c120">entró <persName>Brandoivas</persName> por la puerta del palacio
+                  llevando a <persName>Grindalaya</persName> por la mano como aquella que afición
+                  tenía:</cl>
+               <cl xml:id="M20_c121">que mucho plazer a los que lo conocían dio:</cl>
+               <cl xml:id="M20_c122">porque gran pieça de tiempo avía passado que de él ningunas
+                  nuevas supieran:</cl>
+               <cl xml:id="M20_c123">y ambos hincaron los inojos ante el rey.</cl>
+               <cl xml:id="M20_c124">El rey que lo mucho preciava dixo assí.</cl>
+               <cl xml:id="M20_c125">
+                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Brandoivas seáis muy bien
+                  venido:</cl>
+               <cl xml:id="M20_c126">cómo tardastes tanto que mucho os emos desseado<milestone
+                     unit="said" ana="end"/>? </cl>
+               <cl xml:id="M20_c127">A la razón que el rey dezía respondió y dixo.</cl>
+               <cl xml:id="M20_c128">
+                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Señor fue metido en tan
+                  gran prisión donde no pudiera salir en ninguna guisa/</cl>
+               <cl xml:id="M20_c129">sino por el muy buen cavallero Amadís de Gaula que por su
+                  cortesía sacó a mí y a esta dueña y a otros muchos/</cl>
+               <cl xml:id="M20_c130">haciendo tanto en armas cual otro ninguno hazer pudiera:</cl>
+               <cl xml:id="M20_c131">y oviera lo muerto por el mayor engaño que nunca se vio el
+                  traidor de Arcaláus:</cl>
+               <cl xml:id="M20_c132">pero fue acorrido de dos donzellas que no lo devieran amar
+                     poco<milestone unit="said" ana="end"/>. </cl>
+               <cl xml:id="M20_c133">El rey cuando esto oyó levantóse presto de la mesa y dixo.</cl>
+               <cl xml:id="M20_c134">
+                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Amigo por la fe que a Dios
+                  devéis y a mí que me digáis si es bivo Amadís<milestone unit="said" ana="end"/>: </cl>
+               <cl xml:id="M20_c135">
+                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Por esa fé señor que dezís
+                  digo que es verdad que le dexé bivo y sano aún no ha diez días:</cl>
+               <cl xml:id="M20_c136">mas por qué lo preguntáis<milestone unit="said" ana="end"/>? </cl>
+               <cl xml:id="M20_c137">
+                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Porque nos vino a dezir
+                  anoche Arcaláus que lo matara <milestone unit="said" ana="end"/> dixo el rey/</cl>
+               <cl xml:id="M20_c138">y contóle por cuál guisa lo avía contado.</cl>
+               <cl xml:id="M20_c139">
+                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Ay Sancta María<milestone
+                     unit="said" ana="intStart"/> dixo Brandoivas<milestone unit="said" ana="intEnd"
+                  /> que mal traidor pues peor se le paró el pleito que él cuidava<milestone
+                     unit="said" ana="end"/>.</cl>
+               <cl xml:id="M20_c140"> Entonces contó al rey cuanto le aconteciera con Arcaláus que
+                  nada faltó como ya lo avéis oído ante de esto.</cl>
+               <cl xml:id="M20_c141">El Rey y todos los de su casa cuando lo oyeron fueron tan
+                  alegres que más no lo podían ser:</cl>
+               <cl xml:id="M20_c142">y mandó que llevassen a la reina a Grindalaya y le contasse
+                  nuevas del su cavallero/</cl>
+               <cl xml:id="M20_c143">la cual assí de ella como de todas las otras fue con mucho amor
+                  y gran alegría recebida por las buenas nuevas que les dixo.</cl>
+               <cl xml:id="M20_c144">La donzella de <distinct>Denamarcha</distinct> que las
+                  oyó/</cl>
+               <cl xml:id="M20_c145">fue cuanto más pudo a las dezir a su señora/</cl>
+               <cl xml:id="M20_c146">que de muerta a biva la tornaron:</cl>
+               <cl xml:id="M20_c147">y mandóle que fuesse a la reina/</cl>
+               <cl xml:id="M20_c148">y les enbiasse la dueña:</cl>
+               <cl xml:id="M20_c149">porque Mabilia la quería hablar/</cl>
+               <cl xml:id="M20_c150">y luego lo hizo:</cl>
+               <cl xml:id="M20_c151">que Grindalaya se fue a la cámara de Oriana y les dixo todas
+                  las buenas nuevas que traía/</cl>
+               <cl xml:id="M20_c152">y ellas le hizieron mucha honra:</cl>
+               <cl xml:id="M20_c153">y no quisieron que en otra parte comiesse sino a su mesa/</cl>
+               <cl xml:id="M20_c154">por tener lugar de saber más por estenso aquello que tan gran
+                  alegría a sus coraçones que tan tristes avían estado les dava:</cl>
+               <cl xml:id="M20_c155">mas cuando Grindalaya les venía a contar por dónde Amadís avía
+                  entrado en la cárcel/</cl>
+               <cl xml:id="M20_c156">y cómo matara los hombres carceleros/</cl>
+               <cl xml:id="M20_c157">y la sacara a ella de donde tan cuitada estava/</cl>
+               <cl xml:id="M20_c158">y la batalla que con Arcaláus uviera:</cl>
+               <cl xml:id="M20_c159">y todo lo otro que passara a gran piedad hazía sus ánimas
+                  mover.</cl>
+               <cl xml:id="M20_c160">Assí como oís estavan en su comer/</cl>
+               <cl xml:id="M20_c161">tornada la su gran tristeza en mucha alegría.</cl>
+               <cl xml:id="M20_c162">Grindalaya se despidió de ellas y tornóse donde la reina
+                  estava:</cl>
+               <cl xml:id="M20_c163">y halló allí al rey <persName>Arbán de
+                  Norgales</persName>/</cl>
+               <cl xml:id="M20_c164">que mucho la amava que la andava a buscar sabiendo que allí era
+                  venida:</cl>
+               <cl xml:id="M20_c165">el plazer que ambos ovieron no se vos podría contar.</cl>
+               <cl xml:id="M20_c166">Allí fue acordado entre ellos que ella quedasse con la
+                  reina:</cl>
+               <cl xml:id="M20_c167">pues que no hallaría en ninguna parte otra casa que tan honrada
+                  fuesse:</cl>
+               <cl xml:id="M20_c168">y Arbán de Norgales dixo a la reina cómo aquella dueña era hija
+                  del rey <persName>Ardroid de Serolís</persName>/</cl>
+               <cl xml:id="M20_c169">y que todo el mal que recibiera avía sido a su causa de
+                  él/</cl>
+               <cl xml:id="M20_c170">que le pedía por merced la tomase consigo pues ella quería ser
+                  suya.</cl>
+               <cl xml:id="M20_c171">Cuando la reina esto oyó/</cl>
+               <cl xml:id="M20_c172">mucho le plugo de en su compaña la recebir:</cl>
+               <cl xml:id="M20_c173">assí por las buenas nuevas que de Amadís de Gaula truxera:</cl>
+               <cl xml:id="M20_c174">como por ser persona de tan alto lugar:</cl>
+               <cl xml:id="M20_c175">y tomándola por la mano como a hija de quien era la hizo seer
+                  ante sí demandándole perdón si no lo avía tanto honrado/</cl>
+               <cl xml:id="M20_c176">que la causa de ello fuera no la conoscer.</cl>
+               <cl xml:id="M20_c177">También supo la reina cómo esta Grindalaya tenía una hermana
+                  muy hermosa donzella que <persName>Aldeva</persName> avía nombre:</cl>
+               <cl xml:id="M20_c178">que en casa del <persName>duque de Bristoya</persName> se avía
+                  criado:</cl>
+               <cl xml:id="M20_c179">y mandó la reina que luego se la traxessen: para que en su casa
+                  biviesse/</cl>
+               <cl xml:id="M20_c180">porque la desseava mucho ver.</cl>
+               <cl xml:id="M20_c181">Esta Aldeva fue la amiga de don
+                  <persName>Galaor</persName>:</cl>
+               <cl xml:id="M20_c182">aquella por quien él recibió muchos enojos del enano que ya
+                  oísteis dezir.</cl>
+               <cl xml:id="M20_c183">Así como oís estaba el rey Lisuarte y toda su corte mucho
+                  alegres:</cl>
+               <cl xml:id="M20_c184">y con desseo de ver a Amadís/</cl>
+               <cl xml:id="M20_c185">que tan gran sobresalto les pusieron aquellas malas nuevas que
+                  de él les avían dicho.</cl>
+               <cl xml:id="M20_c186">De los cuales dexará la historia de hablar/</cl>
+               <cl xml:id="M20_c187">y contará de don Galaor que ha mucho que de él no se dixo ni
+                  hizo memoria.</cl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
