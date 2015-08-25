@@ -418,7 +418,7 @@
                     <cl xml:id="M1_c211">La donzella tomó tinta:</cl>
                     <cl xml:id="M1_c212">y pargamino:</cl>
                     <cl xml:id="M1_c213">y fizo una carta que dezía.</cl>
-                    <floatingText>
+                    <floatingText resp="#Darioleta">
                         <body>
                             <p><cl xml:id="M1_c214">Este es <persName>Amadís Sin Tiempo</persName>
                                     hijo de rey:</cl></p>

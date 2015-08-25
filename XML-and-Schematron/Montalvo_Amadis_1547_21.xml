@@ -555,7 +555,7 @@
                     <cl xml:id="M21_c234">y venían diziendo <milestone unit="said" ana="start" resp="#anon"/>estad cavallero y sed preso:</cl>
                     <cl xml:id="M21_c235">si no muerto soys.<milestone unit="said" ana="#end"/></cl>
                     <cl xml:id="M21_c236"><milestone unit="said" ana="start" resp="#Amadis"/>Cierto <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"/>en prisión de tan engañosa gente yo no
-                        entraré a mi grado.<milestone unit="said" ana="end"/></cl><!-- st end 8.25 -->
+                        entraré a mi grado.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c237">Entonces enlazó el yelmo/</cl>
                     <cl xml:id="M21_c238">y no pudo tomar el escudo con la priessa que le
                         dieron:</cl>
@@ -567,7 +567,7 @@
                     <cl xml:id="M21_c242">y como se vio muy ahincado por ser la gente mucha fuesse
                         yendo contra un cobertizo que en el corral estava/</cl>
                     <cl xml:id="M21_c243">y allí metido hazía maravillas en se defender/</cl>
-                    <cl xml:id="M21_c244">y vio como prendieron al enano y a Gandalín:</cl>
+                    <cl xml:id="M21_c244">y vio como prendieron al enano y a <persName ref="#Gandalin">Gandalín</persName>:</cl>
                     <cl xml:id="M21_c245">y cobró más coraçón que ante tenía para se defender:</cl>
                     <cl xml:id="M21_c246">pero como la gente mucha fuesse:</cl>
                     <cl xml:id="M21_c247">y le <sic>heriau</sic> por todas partes de tantos golpes
@@ -580,21 +580,21 @@
                     <cl xml:id="M21_c250">que la niña hermosa que la batalla mirava y le viera hazer
                         cosas tan estrañas ovo del gran piedad:</cl>
                     <cl xml:id="M21_c251">y llamando a una su donzella dizo.</cl>
-                    <cl xml:id="M21_c252"> Amiga a tan gran piedad me ha movido la gran valentía de
+                    <cl xml:id="M21_c252"> <milestone unit="said" ana="start" resp="#Briolanja"/>Amiga a tan gran piedad me ha movido la gran valentía de
                         aquel cavallero/</cl>
                     <cl xml:id="M21_c253">que más querría que toda esta nuestra gente muriesse que
                         él solo:</cl>
-                    <cl xml:id="M21_c254">y venid conmigo.</cl>
-                    <cl xml:id="M21_c255"> Señora dizo la donzella/</cl>
-                    <cl xml:id="M21_c256">qué queréis hazer?</cl>
-                    <cl xml:id="M21_c257">Soltar los mis leones dixo ella:</cl>
+                    <cl xml:id="M21_c254">y venid conmigo.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c255"> <milestone unit="said" ana="start" resp="#anon"/>Señora <milestone unit="said" ana="intStart"/>dixo la donzella/<milestone unit="said" ana="intEnd"/></cl>
+                    <cl xml:id="M21_c256">qué queréis hazer?<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c257"><milestone unit="said" ana="start" resp="#Briolanja"/>Soltar los mis leones <milestone unit="said" ana="intStart"/>dixo ella:<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M21_c258">que maten aquellos que en tal estrecho tienen al mejor
                         cavallero del mundo:</cl>
                     <cl xml:id="M21_c259">y yo vos mando como a mi vasalla que los soltéis:</cl>
                     <cl xml:id="M21_c260">pues que otro ninguno si vos no lo podría hazer:</cl>
                     <cl xml:id="M21_c261">que no han de otro conoscimiento:</cl>
                     <cl xml:id="M21_c262">y yo vos sacaré de culpa/</cl>
-                    <cl xml:id="M21_c263">y tomasse para la dueña.</cl>
+                    <cl xml:id="M21_c263">y tornasse para la dueña.</cl>
                     <cl xml:id="M21_c264">La donzella fue a soltar los leones que eran dos y muy
                         bravos metidos en una cadena:</cl>
                     <cl xml:id="M21_c265">y salieron al corral:</cl>
