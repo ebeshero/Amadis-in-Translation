@@ -525,9 +525,9 @@
                         noche.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c215"><milestone unit="said" ana="start"/>Buen señor <milestone unit="said" ana="intStart"/>dixo Amadís <milestone unit= "said" ana="intEnd"/>yo la vi con tanta passión por lo
                         que con vosotros me contesció:</cl>
-                    <cl xml:id="M21_c216">que más enojo mi vista que plazer le daría.<milestone unit="said" ana="end"/></cl><!-- st stopped here on dialogue 8.25.15 -->
-                    <cl xml:id="M21_c217">Creed señor dixo el cavallero que la haréis muy alegre con
-                        vuestra tornada.</cl>
+                    <cl xml:id="M21_c216">que más enojo mi vista que plazer le daría.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c217"><milestone unit="said" ana="start" resp="#anon"/>Creed señor dixo el cavallero que la haréis muy alegre con
+                        vuestra tornada.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c218">Amadís que el cavallero vido en tal edad que no devía
                         mentir y la afición con que se lo rogava:</cl>
                     <cl xml:id="M21_c219">bolvióse con el hablando:</cl>
@@ -543,12 +543,12 @@
                     <cl xml:id="M21_c227">y vio a una finiestra de ella la dueña y la niña
                         hermosa:</cl>
                     <cl xml:id="M21_c228">y la dueña le dixo.</cl>
-                    <cl xml:id="M21_c229">Entrad señor cavallero que mucho os gradecemos vuestra
-                        venida.</cl>
-                    <cl xml:id="M21_c230">Señora dixo él muy contento soy yo en vos dar ante plazer
-                        que enojo.</cl>
-                    <cl xml:id="M21_c231">Y entró en el castillo:</cl>
-                    <cl xml:id="M21_c232">y yendo adelanto oyó una gran buelta de gente en el
+                    <cl xml:id="M21_c229"><milestone unit="said" ana="start" resp="#Briolanja_aunt"/>Entrad señor cavallero que mucho os gradecemos vuestra
+                        venida.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c230"><milestone unit="said" ana="start" resp="#Amadis"/>Señora <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"/>muy contento soy yo en vos dar ante plazer
+                        que enojo.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c231">Y entró en el castillo:</cl><!-- st stopped here -->
+                    <cl xml:id="M21_c232">y yendo adelante oyó una gran buelta de gente en el
                         palacio:</cl>
                     <cl xml:id="M21_c233">y luego salieron de él cavalleros armados y otra gente de
                         pie:</cl>
