@@ -193,6 +193,7 @@
                   <persName>Amadis of Gaul</persName>
                   <persName>Amadis of Gaule</persName>
                   <persName>Amadis de Gaule</persName>
+                  <persName>Amadís Sin Tiempo</persName>
                   <persName>Donzel del mar</persName>
                   <persName>Child of the Sea</persName>
                   <persName>Beltenebros</persName>
@@ -374,9 +375,13 @@
                   <placeName>Angaduza</placeName>
                   <note resp="#st">Angaduza is a forest (floresta) adjacent to the castle of Briolanja's aunt.</note>
                </place>
+               <place xml:id="Antalia">
+                  <placeName>Antalia</placeName>
+                  <note resp="#heb">Scottish village where Gandales and his family anchor after rescuing Amadis.</note>
+               </place>
             </listPlace>
          </div>
-         <div type="geographical_places"/>
+         <div type="geographical_places"></div>
          <div type="publications">
             <listBibl>
 
