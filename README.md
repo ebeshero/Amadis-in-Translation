@@ -5,4 +5,6 @@ a project to apply TEI markup to investigate early modern editions of Amadis de 
 
 <a href="https://github.com/ebeshero/Amadis-in-Translation/wiki/Useful-Regular-Expressions!">Useful Regular Expressions</a>
 
+<a href="https://github.com/ebeshero/Amadis-in-Translation/wiki/Workflow-and-Working-Notes">Workflow and Working Notes</a>
+
 
