@@ -547,15 +547,15 @@
                         venida.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c230"><milestone unit="said" ana="start" resp="#Amadis"/>Señora <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"/>muy contento soy yo en vos dar ante plazer
                         que enojo.<milestone unit="said" ana="end"/></cl>
-                    <cl xml:id="M21_c231">Y entró en el castillo:</cl><!-- st stopped here -->
+                    <cl xml:id="M21_c231">Y entró en el castillo:</cl>
                     <cl xml:id="M21_c232">y yendo adelante oyó una gran buelta de gente en el
                         palacio:</cl>
                     <cl xml:id="M21_c233">y luego salieron de él cavalleros armados y otra gente de
                         pie:</cl>
-                    <cl xml:id="M21_c234">y venía diziendo estad cavallero y sed preso:</cl>
-                    <cl xml:id="M21_c235">si no muerto soys.</cl>
-                    <cl xml:id="M21_c236">Cierto dixo él en prisión de tan engañosa gente yo no
-                        entraré a mi grado.</cl>
+                    <cl xml:id="M21_c234">y venían diziendo <milestone unit="said" ana="start" resp="#anon"/>estad cavallero y sed preso:</cl>
+                    <cl xml:id="M21_c235">si no muerto soys.<milestone unit="said" ana="#end"/></cl>
+                    <cl xml:id="M21_c236"><milestone unit="said" ana="start" resp="#Amadis"/>Cierto <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"/>en prisión de tan engañosa gente yo no
+                        entraré a mi grado.<milestone unit="said" ana="end"/></cl><!-- st end 8.25 -->
                     <cl xml:id="M21_c237">Entonces enlazó el yelmo/</cl>
                     <cl xml:id="M21_c238">y no pudo tomar el escudo con la priessa que le
                         dieron:</cl>
