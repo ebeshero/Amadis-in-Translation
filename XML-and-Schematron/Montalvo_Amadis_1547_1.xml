@@ -422,9 +422,9 @@
                         ><!--Do we create a different milestone unit for this?
                       <milestone unit="writtenText" resp="#Darioleta" ana="start"/>-->Este
                         es <persName>Amadís Sin Tiempo</persName> hijo de rey
-                        <!--<milestone unit="writtenText" ana="end"/>-->:</cl>
-                    <cl xml:id="M1_c215">y sin tiempo dezía ella porque creía que luego sería
-                        muerto:</cl>
+                       :</cl>
+                    <cl xml:id="M1_c215">y sin tiempo <!--<milestone unit="writtenText" ana="end"/>--> dezía ella
+                    porque creía que luego sería muerto:</cl>
                     <cl xml:id="M1_c216">y este nombre era allí muy preciado porque assí se llamava
                         un sancto a quien la donzella le encomendó.</cl>
                     <cl xml:id="M1_c217">Esta carta cubrió toda de cera y puesta en una cuerda se la
