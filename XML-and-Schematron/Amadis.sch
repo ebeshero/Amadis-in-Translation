@@ -58,6 +58,11 @@
             
         </rule>
     </pattern>
+    <pattern>
+        <rule context="tei:cl">
+            <report test=".//tei:cl">Nested clauses!</report>
+        </rule>
+    </pattern>
     
     <!--ebb 2015-08-06 CHECK THESE!!! Rules for Pointing to Other Files and xml:ids-->
     
