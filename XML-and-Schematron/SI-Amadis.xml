@@ -387,6 +387,13 @@
                   <note resp="#heb">Scottish village where Gandales and his family anchor after
                      rescuing Amadis.</note>
                </place>
+               <place xml:id="Sobradisa">
+                  <placeName>Sobradisa</placeName>
+               </place>
+               <place xml:id="Serolis">
+                  <placeName>Sérolis</placeName>
+                  <note resp="#heb">Neighboring country of the kingdom of Sobradisa.</note>
+               </place>
             </listPlace>
          </div>
          <div type="geographical_places"/>

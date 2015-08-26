@@ -435,15 +435,12 @@
                         golpes:</cl>
                     <cl xml:id="M21_c168">y al uno de los que la lança traía soltó Amadís la espada
                         de la mano:</cl>
-                    
-                    <!--Fiquei aqui, página 86-->
-                    
                     <cl xml:id="M21_c169">y travólo della tan rezio/</cl>
                     <cl xml:id="M21_c170">que se la llevó de las manos:</cl>
-                    <cl xml:id="M21_c171">y fue dar con ella al uno dellos tal golpe en la garganta
+                    <cl xml:id="M21_c171">y fue dar con ella al uno de ellos tal golpe en la garganta
                         que el hierro y el fuste salió al pescueço y dio con él en tierra
                         muerto:</cl>
-                    <cl xml:id="M21_c172">y luego se dexo correr cuanto más pudo a los dos:</cl>
+                    <cl xml:id="M21_c172">y luego se dexó correr cuanto más pudo a los dos:</cl>
                     <cl xml:id="M21_c173">e hirió al uno en el yelmo tan duramente de toda su fuerça
                         que se lo derribó de la cabeça:</cl>
                     <cl xml:id="M21_c174">y Amadís le vio el rostro que era muy viejo:</cl>
@@ -463,19 +460,19 @@
                         tengo por mejor lo que vos cavallero dezís que lo que yo dixe.<milestone
                             unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c183">Ellos en estas razones estando alçó Amadís la cabeça y
-                        vido como el otro cavallero que quedava iva al más andar de su caballo
+                        vido como el otro cavallero que quedava iva al más andar de su cavallo
                         contra el castillo/</cl>
-                    <cl xml:id="M21_c184">y vido los otros que se pudieron levantar andar empos de
+                    <cl xml:id="M21_c184">y vido los otros que se pudieron levantar andar empós de
                         sus cavallos y fuesse a la carreta:</cl>
                     <cl xml:id="M21_c185">y alçando el xamete metió la cabeça dentro y vio un
-                        monumento de piedra marmol:</cl>
+                        monumento de piedra mármol:</cl>
                     <cl xml:id="M21_c186">y en la cobertura de suso ser una imagen de rey con corona
                         en la cabeça y de paños reales vestido y tenía la corona hendida hasta el
                         pescueço/</cl>
                     <cl xml:id="M21_c187">y vio una dueña seer en un lecho y una niña cabe
                         ella:</cl>
                     <cl xml:id="M21_c188">y parecióle tan hermosa más que otra ninguna de cuantas
-                        avía <sic>vistió</sic> de sus días:</cl>
+                        avía <sic>vistio</sic> de sus días:</cl>
                     <cl xml:id="M21_c189">y dixo a la dueña.</cl>
                     <cl xml:id="M21_c190"><milestone unit="said" ana="start" resp="#Amadis"/>Señora
                         por qué tiene esta figura assí el rostro partido?<milestone unit="said"
@@ -483,30 +480,30 @@
                     <cl xml:id="M21_c191">La dueña miró y vio que no era de su compaña y
                         díxole.</cl>
                     <cl xml:id="M21_c192"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
-                        />Que es esso cavallero quién vos mandó mirar esto?<milestone unit="said"
+                        />Qué es esso cavallero quién vos mandó mirar esto?<milestone unit="said"
                             ana="end"/></cl>
                     <cl xml:id="M21_c193"><milestone unit="said" ana="start" resp="#Amadis"/>Yo
                             <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said"
                             ana="intEnd"/>que uve gana de ver lo que aquí andava/<milestone
                             unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c194"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
-                        />y los nuestros cavalleros que hizieron ay dixo ella?<milestone unit="said"
-                            ana="end"/></cl>
+                        />y los nuestros cavalleros que hizieron ay<milestone unit="said"
+                            ana="end"/> dixo ella?</cl>
                     <cl xml:id="M21_c195"><milestone unit="said" ana="start" resp="#Amadis"
-                        />Hizieron me más de mal que de bien dixo él.<milestone unit="said"
-                            ana="end"/></cl>
+                        />Hiziéronme más de mal que de bien<milestone unit="said"
+                            ana="end"/> dixo él.</cl>
                     <cl xml:id="M21_c196">Entonces alçado la dueña el paño vido a los unos
                         muertos:</cl>
-                    <cl xml:id="M21_c197">y a los otros que andavan tras los caballos de que muy
+                    <cl xml:id="M21_c197">y a los otros que andavan tras los cavallos de que muy
                         turbada fue:</cl>
                     <cl xml:id="M21_c198">y dixo al cavallero.</cl>
                     <cl xml:id="M21_c199"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
-                        />Maldita sea la hora en que fuiste nascido que tales diabluras avéis
+                        />Maldita sea la hora en que fuistes nascido que tales diabluras avéis
                             hecho.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c200"><milestone unit="said" ana="start" resp="#Amadis"/>Señora
                             <milestone unit="said" ana="intStart"/>dixo el <milestone unit="said"
                             ana="intEnd"/>vuestros cavalleros me acometieron mas si os pluguiere
-                        dezid me lo que os pregunto:<milestone unit="said" ana="end"/></cl>
+                        dezidme lo que os pregunto:<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c201"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
                         />si me Dios ayude <milestone unit="said" ana="intStart"/>dixo la
                             dueña:<milestone unit="said" ana="intEnd"/></cl>
@@ -520,7 +517,7 @@
                         muertos en la carreta:</cl>
                     <cl xml:id="M21_c204">y ellos con gran vergueça cavalgaron y fuéronse contra el
                         castillo.</cl>
-                    <cl xml:id="M21_c205">El enano preguntó a Amadís qué viera en la carreta.</cl>
+                    <cl xml:id="M21_c205"><persName ref="#dwarf">El enano</persName> preguntó a Amadís qué viera en la carreta.</cl>
                     <cl xml:id="M21_c206">Amadís se lo dixo y que no pudiera saber nada de la
                         dueña.</cl>
                     <cl xml:id="M21_c207"><milestone unit="said" ana="start" resp="#dwarf"/>Si ella
@@ -528,15 +525,15 @@
                             <milestone unit="said" ana="intEnd"/>aína os lo dixera.<milestone
                             unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c208">Amadís se calló y fuese adelante.</cl>
-                    <cl xml:id="M21_c209">Y cuando una legua anduvo vido venir empos de si el
-                        cavallero viejo que el derribara:</cl>
+                    <cl xml:id="M21_c209">Y cuando una legua anduvo vido venir empós de si el
+                        cavallero viejo que él derribara:</cl>
                     <cl xml:id="M21_c210">y dávale bozes que atendiesse.</cl>
                     <cl xml:id="M21_c211">Amadís estuvo quedo y el cavallero llegó desarmado:</cl>
                     <cl xml:id="M21_c212">y dixo.</cl>
                     <cl xml:id="M21_c213"><milestone unit="said" ana="start" resp="#anon"/>Señor
                         cavallero vengo a vos con mandado de la dueña que en la carreta vistes que
                         os quiero emendar la descortesía que os dixo/</cl>
-                    <cl xml:id="M21_c214"> y ruego vos que alverguéis en el castillo esta
+                    <cl xml:id="M21_c214"> y ruégovos que alverguéis en el castillo esta
                             noche.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c215"><milestone unit="said" ana="start" resp="#Amadis"/>Buen
                         señor <milestone unit="said" ana="intStart"/>dixo Amadís <milestone
@@ -545,7 +542,8 @@
                     <cl xml:id="M21_c216">que más enojo mi vista que plazer le daría.<milestone
                             unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c217"><milestone unit="said" ana="start" resp="#anon"/>Creed
-                        señor dixo el cavallero que la haréis muy alegre con vuestra
+                        señor <milestone unit="said" ana="intStart"/>dixo el cavallero<milestone
+                            unit="said" ana="intEnd"/> que la haréis muy alegre con vuestra
                             tornada.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c218">Amadís que el cavallero vido en tal edad que no devía
                         mentir y la afición con que se lo rogava:</cl>
@@ -576,7 +574,7 @@
                         pie:</cl>
                     <cl xml:id="M21_c234">y venían diziendo <milestone unit="said" ana="start"
                             resp="#anon"/>estad cavallero y sed preso:</cl>
-                    <cl xml:id="M21_c235">si no muerto soys.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c235">sino muerto soys.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c236"><milestone unit="said" ana="start" resp="#Amadis"/>Cierto
                             <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said"
                             ana="intEnd"/>en prisión de tan engañosa gente yo no entraré a mi
@@ -584,7 +582,7 @@
                     <cl xml:id="M21_c237">Entonces enlazó el yelmo/</cl>
                     <cl xml:id="M21_c238">y no pudo tomar el escudo con la priessa que le
                         dieron:</cl>
-                    <cl xml:id="M21_c239">y començáronles ferir por todas partes:</cl>
+                    <cl xml:id="M21_c239">y començáronle a ferir por todas partes:</cl>
                     <cl xml:id="M21_c240">pero él en cuanto el cavallo le turó defendióse muy
                         bravamente:</cl>
                     <cl xml:id="M21_c241">derribando ante sus pies los que a derecho golpe
@@ -603,9 +601,9 @@
                         y otros que eran mal heridos:</cl>
                     <cl xml:id="M21_c249">mas Dios y la su gran lealtad le socorrieron muy bien en
                         esta guisa/</cl>
-                    <cl xml:id="M21_c250">que la niña hermosa que la batalla mirava y le viera hazer
+                    <cl xml:id="M21_c250">que la niña hermosa que la batalla mirava/</cl> <cl>y le viera hazer
                         cosas tan estrañas ovo del gran piedad:</cl>
-                    <cl xml:id="M21_c251">y llamando a una su donzella dizo.</cl>
+                    <cl xml:id="M21_c251">y llamando a una su donzella dixo.</cl>
                     <cl xml:id="M21_c252">
                         <milestone unit="said" ana="start" resp="#Briolanja"/>Amiga a tan gran
                         piedad me ha movido la gran valentía de aquel cavallero/</cl>
@@ -618,7 +616,7 @@
                             ana="intEnd"/></cl>
                     <cl xml:id="M21_c256">qué queréis hazer?<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c257"><milestone unit="said" ana="start" resp="#Briolanja"
-                        />Soltar los mis leones <milestone unit="said" ana="intStart"/>dixo
+                        />soltar los mis leones <milestone unit="said" ana="intStart"/>dixo
                             ella:<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M21_c258">que maten aquellos que en tal estrecho tienen al mejor
                         cavallero del mundo:</cl>
@@ -631,17 +629,17 @@
                     <cl xml:id="M21_c264">La donzella fue a soltar los leones que eran dos y muy
                         bravos metidos en una cadena:</cl>
                     <cl xml:id="M21_c265">y salieron al corral:</cl>
-                    <cl xml:id="M21_c266">y ella dando bozes que se guardassen dellos:</cl>
+                    <cl xml:id="M21_c266">y ella dando bozes que se guardassen de ellos:</cl>
                     <cl xml:id="M21_c267">diziendo que ellos se avían soltado:</cl>
                     <cl xml:id="M21_c268">mas antes que la gente huir pudiesse a los que alcançar
                         pudieron los hizieron pieças entre sus agudas y fuertes uñas.</cl>
                     <cl xml:id="M21_c269">Amadís que la gente vio que huía al muro y a las torres y
-                        quedava dellos libre en tanto que los fuertes leones se empachavan en los
+                        quedava de ellos libre en tanto que los fuertes leones se empachavan en los
                         que tenían ante sí fuesse luego lo más que pudo a la puerta del
                         castillo:</cl>
-                    <cl xml:id="M21_c270">y saliendo fuera cerróla tras si de guisa que los leones
+                    <cl xml:id="M21_c270">y saliendo fuera cerróla tras sí de guisa que los leones
                         quedaron dentro:</cl>
-                    <cl xml:id="M21_c271">y el se assentó en una piedra muy cansado como aquel que
+                    <cl xml:id="M21_c271">y él se assentó en una piedra muy cansado como aquel que
                         avía bien guerreado/</cl>
                     <cl xml:id="M21_c272">su espada desnuda en la mano de la cual quebrara hasta el
                         un tercio de ella:</cl>
@@ -701,7 +699,7 @@
                         iva a la abrir:</cl>
                     <cl xml:id="M21_c301">y la niña dixo.</cl>
                     <cl xml:id="M21_c302"><milestone unit="said" ana="start" resp="#Briolanja"
-                        />Señor cavallero atened un poco:</cl>
+                        />Señor cavallero atended un poco:</cl>
                     <cl xml:id="M21_c303">y yo diré a la dueña que os haga atreguar destos que acá
                             son.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c304">Amadís la preció mucho/</cl>
@@ -738,11 +736,11 @@
                     <cl xml:id="M21_c325"> Amadís dixo a la dueña.</cl>
                     <cl xml:id="M21_c326"><milestone unit="said" ana="start" resp="#Amadis"/>Señora
                         yo perdí aquí mi cavallo si por él me mandáis dar otro:</cl>
-                    <cl xml:id="M21_c327">si no irme he a pie:<milestone unit="said" ana="end"
+                    <cl xml:id="M21_c327">sino irme he a pie:<milestone unit="said" ana="end"
                         /></cl>
-                    <cl xml:id="M21_c328"><milestone unit="said" ana="start" resp="#anon"/>señor
-                            <milestone unit="said" ana="intStart"/>dixo<milestone unit="said"
-                            ana="intEnd"/> la dueña desarmad vos:</cl>
+                    <cl xml:id="M21_c328"><milestone unit="said" ana="start" resp="#Briolanja_aunt"/>señor
+                            <milestone unit="said" ana="intStart"/>dixo la dueña<milestone unit="said"
+                            ana="intEnd"/> desarmad vos:</cl>
                     <cl xml:id="M21_c329">y holgaréis aquí esta noche pues es tarde:</cl>
                     <cl xml:id="M21_c330">que cavallo avréis que muy desaforado sería ir a pie a tal
                             cavallero.<milestone unit="said" ana="end"/></cl>
@@ -751,11 +749,11 @@
                     <cl xml:id="M21_c333">y diéronle un manto que cubriesse:</cl>
                     <cl xml:id="M21_c334">y lleváronlo a las finiestras donde la dueña y la niña lo
                         atendían.</cl>
-                    <cl xml:id="M21_c335">Mas cuando assí lo vieron fueron mucho maravillados de su
+                    <cl xml:id="M21_c335">Mas cuando assí lo vieron fueron mucho maravilladas de su
                         gran hermosura:</cl>
                     <cl xml:id="M21_c336">y siendo en edad tan tierna hazer cosas tan estrañas en
                         armas.</cl>
-                    <cl xml:id="M21_c337"> Amadís acatava la niña:</cl>
+                    <cl xml:id="M21_c337">Amadís acatava la niña:</cl>
                     <cl xml:id="M21_c338">que le parescía muy hermosa además:</cl>
                     <cl xml:id="M21_c339">de sí dixo a la dueña.</cl>
                     <cl xml:id="M21_c340"><milestone unit="said" ana="start" resp="#Amadis"/>Dezidme
@@ -763,8 +761,9 @@
                     <cl xml:id="M21_c341">por qué la figura que en la carreta vi avía la cabeça
                             partida.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c342"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
-                        />Cavallero dixo ella si otorgáis de hazer en ello lo que devéis deziros lo
-                        he si no dexar me he de ello.<milestone unit="said" ana="end"/></cl>
+                    />Cavallero <milestone unit="said" ana="intStart"/>dixo ella<milestone unit="said"
+                        ana="intEnd"/> si otorgáis de hazer en ello lo que devéis deziros lo
+                        he si no dexarme he de ello.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c343"><milestone unit="said" ana="start" resp="#Amadis"/>Dueña
                             <milestone unit="said" ana="intStart"/>dixo él <milestone unit="said"
                             ana="intEnd"/>no es razón que se otorgue de hazer lo que hombre no
@@ -792,7 +791,7 @@
                     <cl xml:id="M21_c354">traía consigo muchos cavalleros:</cl>
                     <cl xml:id="M21_c355">de manera que muerto el rey/</cl>
                     <cl xml:id="M21_c356">y de él no quedando otro hijo ni hija sino esta niña:</cl>
-                    <cl xml:id="M21_c357"> presto cobró el reino:</cl>
+                    <cl xml:id="M21_c357">presto cobró el reino:</cl>
                     <cl xml:id="M21_c358">el cual en su poder tiene:</cl>
                     <cl xml:id="M21_c359">y a la sazón tenía en guarda el cavallero viejo que aquí
                         os hizo venir esta niña:</cl>
@@ -803,19 +802,19 @@
                     <cl xml:id="M21_c364">y vo con él por el campo:</cl>
                     <cl xml:id="M21_c365">y juré de no le mostrar sino al que por fuerça de armas lo
                         viesse:</cl>
-                    <cl xml:id="M21_c366">y aunque lo vea no lo diré la razón dello sino otorgare de
+                    <cl xml:id="M21_c366">y aunque lo vea no lo diré la razón de ello sino otorgare de
                         vengar tan gran traición:</cl>
                     <cl xml:id="M21_c367">y si vos buen cavallero por lo que la razón y virtud vos
                         obliga/</cl>
                     <cl xml:id="M21_c368">queréis en cosa tan justa emplear aquella tan gran
                         valentía y esfuerço de corazón que Dios en vos puso/</cl>
-                    <cl xml:id="M21_c369"> teniendo a vos cierto seguiré mi estilo hasta que halle
+                    <cl xml:id="M21_c369">teniendo a vos cierto seguiré mi estilo hasta que halle
                         otros dos cavalleros que he menester para que todos tres se combatan con
-                        aquel traidor y sus hijos suyos sobre esta causa:</cl>
+                        aquel traidor y dos hijos suyos sobre esta causa:</cl>
                     <cl xml:id="M21_c370">que tal pleito es entre ellos de no se partir de en uno
                         antes ser de consuno en la batalla si demandada le fuere.<milestone
                             unit="said" ana="end"/></cl>
-                    <cl xml:id="M21_c371"><milestone unit="said" ana="start" resp="#Amadis"/> Dueña
+                    <cl xml:id="M21_c371"><milestone unit="said" ana="start" resp="#Amadis"/>Dueña
                             <milestone unit="said" ana="intStart"/>dixo Amadís <milestone
                             unit="said" ana="intEnd"/>vos hazéis derecho en buscar como sea vengada
                         la mayor traición de que nunca oí hablar:</cl>
@@ -827,7 +826,7 @@
                     <cl xml:id="M21_c375">con el ayuda de Dios yo la tomaría:<milestone unit="said"
                             ana="end"/></cl>
                     <cl xml:id="M21_c376"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
-                        />esso no lo hará ellos <milestone unit="said" ana="end"/>dixo la
+                        />esso no lo harán ellos <milestone unit="said" ana="end"/>dixo la
                         dueña.</cl>
                     <cl xml:id="M21_c377">
                         <milestone unit="said" ana="start" resp="#Amadis"/>Pues qué vos plaze
@@ -861,13 +860,13 @@
                     <cl xml:id="M21_c391"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
                         />señor <milestone unit="said" ana="intStart"/>dixo la dueña:<milestone
                             unit="said" ana="intEnd"/></cl>
-                    <cl xml:id="M21_c392">dónde sois y dónde os buscaremos?<milestone unit="said"
+                    <cl xml:id="M21_c392">dónde sois:</cl><cl>y dónde os buscaremos?<milestone unit="said"
                             ana="end"/></cl>
                     <cl xml:id="M21_c393"><milestone unit="said" ana="start" resp="#Amadis"/>Dueña
                             <milestone unit="said" ana="intStart"/>dixo Amadís:<milestone
                             unit="said" ana="intEnd"/></cl>
-                    <cl xml:id="M21_c394">soy de la casa del rey Lisuarte/</cl>
-                    <cl xml:id="M21_c395">y cavallero de la reina Brisena su muger.<milestone
+                    <cl xml:id="M21_c394">soy de casa del rey <persName ref="#Lisuarte">Lisuarte</persName>/</cl>
+                    <cl xml:id="M21_c395">y cavallero de la reina <persName ref="#Brisena">Brisena</persName> su muger.<milestone
                             unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c396"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
                         />Pues agora <milestone unit="said" ana="intStart"/>dixo ella <milestone
@@ -876,7 +875,7 @@
                     <cl xml:id="M21_c397">y luego se entraron en un muy hermoso palacio donde se lo
                         dieron bien concertado/</cl>
                     <cl xml:id="M21_c398">y cuando fue sazón de dormir llevaron a Amadís a una
-                        camara donde alvergasse:</cl>
+                        cámara donde alvergasse:</cl>
                     <cl xml:id="M21_c399">y solamente quedó con él la donzella que los leones
                         soltara:</cl>
                     <cl xml:id="M21_c400">y díxole.</cl>
@@ -899,12 +898,12 @@
                         avrá en sí dos cosas muy estremadas de las otras que serán ser muy hermosa y
                         de gran seso.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c408">Amadís dixo/</cl>
-                    <cl xml:id="M21_c409"><milestone unit="said" ana="start" resp="#anon"/>cierto
+                    <cl xml:id="M21_c409"><milestone unit="said" ana="start" resp="#Amadis"/>cierto
                         assí me paresce:</cl>
                     <cl xml:id="M21_c410">y dezidle que yo se lo agradezco mucho:</cl>
                     <cl xml:id="M21_c411">y que me tenga por su cavallero.<milestone unit="said"
                             ana="end"/></cl>
-                    <cl xml:id="M21_c412">milestone unit="said" ana="start" resp="#anon"/>Señor
+                    <cl xml:id="M21_c412"><milestone unit="said" ana="start" resp="#anon"/>Señor
                             <milestone unit="said" ana="intStart"/>dixo la donzella <milestone
                             unit="said" ana="intEnd"/>mucho me plaze de lo que me dezís/</cl>
                     <cl xml:id="M21_c413">y ella será muy alegre tanto que de mí lo sepa:<milestone
@@ -914,7 +913,7 @@
                         de su señor oyeron bien lo que hablaron/</cl>
                     <cl xml:id="M21_c416">y el enano que no sabía la hazienda de su señor y de
                             <persName ref="#Oriana">Oriana</persName> pensó que amava aquella niña
-                        tan hermosa y porque de ella se avía pagado se obligava por su
+                        tan hermosa:</cl><cl>y porque de ella se avía pagado se obligava por su
                         cavallero:</cl>
                     <cl xml:id="M21_c417">assí que este entendimiento no le hiziera menester a
                         Amadís por muy gran cosa que por él fue sazón de ser llegado a a muy cruel
@@ -922,21 +921,21 @@
                     <cl xml:id="M21_c418">Passada aquella noche y la mañana venida levantóse
                         Amadís:</cl>
                     <cl xml:id="M21_c419">y oyó missa con la dueña:</cl>
-                    <cl xml:id="M21_c420">de sí preguntó cómo avía nombre aquellos con quién se avía
+                    <cl xml:id="M21_c420">de sí preguntó cómo avían nombre aquellos con quién se avían
                         de combatir.</cl>
                     <cl xml:id="M21_c421">Ella le dixo <milestone unit="said" ana="start"
-                            resp="#Briolanja_aunt"/>el padre se llama Abiseos:</cl>
-                    <cl xml:id="M21_c422"> y el hijo mayor Darasión:</cl>
-                    <cl xml:id="M21_c423">y el otro Dramís/</cl>
+                            resp="#Briolanja_aunt"/>el padre se llama <persName ref="#Abiseos">Abiseos</persName>:</cl>
+                    <cl xml:id="M21_c422"> y el hijo mayor <persName ref="#Darasion">Darasión</persName>:</cl>
+                    <cl xml:id="M21_c423">y el otro <persName ref="#Dramis">Dramís</persName>/</cl>
                     <cl xml:id="M21_c424">y todos tres son de gran hecho de armas/<milestone
                             unit="said" ana="end"/></cl>
                     <cl xml:id="M21_c425"><milestone unit="said" ana="start" resp="#Amadis"/>y la
                         tierra <milestone unit="said" ana="intStart"/>dixo Amadís <milestone
-                            unit="said" ana="intEnd"/>como ha nombre:</cl>
+                            unit="said" ana="intEnd"/>como ha nombre?</cl>
                     <cl xml:id="M21_c426"><milestone unit="said" ana="start" resp="#Briolanja_aunt"
-                        />Sobradisa <milestone unit="said" ana="intStart"/>dixo ella:<milestone
+                        /><placeName>Sobradisa</placeName> <milestone unit="said" ana="intStart"/>dixo ella:<milestone
                             unit="said" ana="intEnd"/></cl>
-                    <cl xml:id="M21_c427">que comarca con Sérolis:</cl>
+                    <cl xml:id="M21_c427">que comarca con <placeName>Sérolis</placeName>:</cl>
                     <cl xml:id="M21_c428">y de la otra parte la cerca la mar.<milestone unit="said"
                             ana="end"/></cl>
                     <cl xml:id="M21_c429">Entonces se armó/</cl>
@@ -949,16 +948,16 @@
                         />Señor cavallero traed por mi amor esta espada en tanto que os durare/</cl>
                     <cl xml:id="M21_c435">y Dios vos ayude con ella.<milestone unit="said" ana="end"
                         /></cl>
-                    <cl xml:id="M21_c436"> Amadís se lo gradeció riendo:</cl>
+                    <cl xml:id="M21_c436">Amadís se lo gradeció riendo:</cl>
                     <cl xml:id="M21_c437">y dixo <milestone unit="said" ana="start" resp="#Amadis"
                         />amiga señora vos me tened por vuestro cavallero para hazer todas las cosas
-                        que a vuestra pro y honra sean.><milestone unit="said" ana="end"/></cl>
-                    <cl xml:id="M21_c438">Ella folgó mucho de aquello y bien lo mostró en el
+                        que a vuestra pro y honra sean.<milestone unit="said" ana="end"/></cl>
+                    <cl xml:id="M21_c438">Ella folgó mucho de aquello/</cl> <cl>y bien lo mostró en el
                         semblante.</cl>
                     <cl xml:id="M21_c439">El enano que todo lo mirava dixo.</cl>
                     <cl xml:id="M21_c440"><milestone unit="said" ana="start" resp="#dwarf"/>Cierto
                         señora no ganastes poco:</cl>
-                    <cl xml:id="M21_c441">pues que tan cavallero por vos avéis.<milestone
+                    <cl xml:id="M21_c441">pues que tal cavallero por vos avéis.<milestone
                             unit="said" ana="end"/></cl>
                 </p>
             </div>
