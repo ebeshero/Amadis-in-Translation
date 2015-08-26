@@ -30,13 +30,7 @@
             -->
             <div type="chapter" xml:id="M0">
                 <!--PDF, page 4-->
-                <!-- heb 2015-08-15 I like to avoid mixed content whenever is possible. Maybe instead of 
-                <head>Capítulo X <locus .../></head>
-                We should consider using <idno> (or something similar) to wrap the text. -->
-                <!--ebb 2015-08-20: Sorry, but I've removed the <idno>. We don't need to be adding new tags here, and there's no problem in the TEI, or with XSLT or XQuery with
-                    processing mixed content. I don't think <idno> is right here: it tends to be used in the TEI header for catalog numbers, and <label> is something different from what appears in a heading, properly transcribed
-                as the text node of <head>.-->
-                <head>&#182;Comiença la obra.
+                    <head>&#182;Comiença la obra.
                     <locus from="ii-v" to="iiii-r"/>
                 </head>
                 <!-- I've written "iiii" instead of "iv" because it's how the foliation is numbered in the facsimile.
@@ -45,20 +39,20 @@
                     <cl xml:id="M0_c1">No muchos años después de la Passión de nuestro Redentor y
                         Salvador <distinct>Jesuchristo</distinct>:</cl>
                     <cl xml:id="M0_c2">fue un rey <distinct>christiano</distinct> en la pequeña
-                        Bretaña por nombre llamado <persName>Garinter</persName>:</cl>
+                        Bretaña por nombre llamado <persName ref="#Garinter">Garinter</persName>:</cl>
                     <cl xml:id="M0_c3">el cual siendo en la ley de la verdad de mucha devoción y
                         buenas maneras acompañado.</cl>
                     <cl xml:id="M0_c4">Este rey ovo dos hijas en una noble dueña su muger:</cl>
-                    <cl xml:id="M0_c5">y la mayor casada con <persName>Languines</persName> rey de
-                        Escocia y fue llamada la <persName>dueña de la Guirnalda</persName>:</cl>
+                    <cl xml:id="M0_c5">y la mayor casada con <persName ref="#Languines">Languines</persName> rey de
+                        Escocia y fue llamada la <persName ref="#Guirnalda">dueña de la Guirnalda</persName>:</cl>
                     <cl xml:id="M0_c6">porque el Rey su marido nunca la consintió cubrir sus
                         hermosos cabellos sino de una muy rica guirnalda/</cl>
                     <cl xml:id="M0_c7">tanto era pagado de los ver.</cl>
-                    <cl xml:id="M0_c8">De quien fueron engendrados <persName>Agrajes</persName> y
-                            <persName>Mabilia</persName>/</cl>
+                    <cl xml:id="M0_c8">De quien fueron engendrados <persName ref="#Agrajes">Agrajes</persName> y
+                            <persName ref="#Mabilia">Mabilia</persName>/</cl>
                     <cl xml:id="M0_c9">que assí de uno como cavallero y de ella como donzella en
                         esta gran historia mucha mención se haze.</cl>
-                    <cl xml:id="M0_c10">La otra fija que <persName>Elisena</persName> fue llamada en
+                    <cl xml:id="M0_c10">La otra fija que <persName ref="#Helisena">Elisena</persName> fue llamada en
                         gran cantidad mucho más hermosa que la primera fue.</cl>
                     <cl xml:id="M0_c11">E comoquiera que de muy grandes príncipes en casamiento
                         demandada fuesse:</cl>
@@ -74,7 +68,7 @@
                     <cl xml:id="M0_c18">por dar descanso a su ánimo algunas vezes a monte y a caça
                         iva.</cl>
                     <cl xml:id="M0_c19">Entre las cuales saliendo un día desde una villa suya que
-                            <placeName>Alima</placeName> se llamava/</cl>
+                            <placeName ref="#Alima">Alima</placeName> se llamava/</cl>
                     <cl xml:id="M0_c20">siendo desviado de las armadas/</cl>
                     <cl xml:id="M0_c21">y de los caçadores andando por la floresta sus horas
                         rezando:</cl>
@@ -110,20 +104,19 @@
                     <cl xml:id="M0_c36">mas aun al mismo rey su señor sin que de ellos justicia
                         hazer pudiesse por ser muy emparentados han hecho enormes agravios:</cl>
                     <cl xml:id="M0_c37">y también por esta montaña tan espessa donde se
-                            acogían<milestone unit="said" ana="end"/>.</cl>
+                            acogían.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c38">El cavallero le dixo.</cl>
                     <cl xml:id="M0_c39">
                         <milestone unit="said" resp="#Perion" ana="start"/>Pues a esse rey que dezís
                         vengo yo a buscar de luenga tierra:</cl>
                     <cl xml:id="M0_c40">y le traigo nuevas de un su gran amigo:</cl>
                     <cl xml:id="M0_c41">y si sabéis dónde hallarlo pueda ruégoos que me lo
-                            digáis<milestone unit="said" ana="end"/>.</cl>
+                            digáis.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c42">El rey le dixo.</cl>
                     <cl xml:id="M0_c43">
                         <milestone unit="said" resp="#Garinter" ana="start"/>Comoquier que acontezca
                         no dexaré de os dezir la verdad:</cl>
-                    <cl xml:id="M0_c44">sabed ciertamente que yo soy el rey que demandáis<milestone
-                            unit="said" ana="end"/>.</cl>
+                    <cl xml:id="M0_c44">sabed ciertamente que yo soy el rey que demandáis.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c45">El cavallero quitando el escudo y yelmo y dándolo a su
                         escudero lo fue a abraçar diziendo ser el rey Perión de Gaula que mucho le
                         avía desseado conoscer.</cl>
@@ -204,7 +197,7 @@
                         />:</cl>
                     <cl xml:id="M0_c89">no será el postrimero:</cl>
                     <cl xml:id="M0_c90">mas todo el tiempo de mi vida será empleado en vos
-                            servir<milestone unit="said" ana="end"/>.</cl>
+                            servir.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c91">Ella se fue tras su madre con tan gran alteración/</cl>
                     <cl xml:id="M0_c92">que casi la vista perdida llevava/</cl>
                     <cl xml:id="M0_c93">de lo cual se siguió que esta infanta no pudiendo sufrir
@@ -212,7 +205,7 @@
                         avía:</cl>
                     <cl xml:id="M0_c94">descubrió su secreto a una donzella suya/</cl>
                     <cl xml:id="M0_c95">de quien mucho fiava:</cl>
-                    <cl xml:id="M0_c96">que <persName>Darioleta</persName> avía nombre/</cl>
+                    <cl xml:id="M0_c96">que <persName ref="#Darioleta">Darioleta</persName> avía nombre/</cl>
                     <cl xml:id="M0_c97">y con lágrimas de sus ojos y más del coraçón le demandó
                         consejo en cómo podría saber si el rey Perión otra muger alguna amasse:</cl>
                     <cl xml:id="M0_c98">y si aquel tan amoroso semblante que a ella mostrado
@@ -229,8 +222,7 @@
                     <cl xml:id="M0_c103">no a lo que a vuestro servicio devo:</cl>
                     <cl xml:id="M0_c104">mas a la voluntad y obediencia/</cl>
                     <cl xml:id="M0_c105">haré aquello que mandáis por la vía más honesta que de mi
-                        poca discreción y mucha gana de os servir hallar pudieren<milestone
-                            unit="said" ana="end"/>.</cl>
+                        poca discreción y mucha gana de os servir hallar pudieren.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c106">Entonces partiéndose de ella se fue contra la cámara donde
                         el rey Perión posava:</cl>
                     <cl xml:id="M0_c107">y halló a su escudero a la puerta con los paños que le
@@ -239,7 +231,7 @@
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Amigo id vos a hacer
                         ál:</cl>
                     <cl xml:id="M0_c109">que yo quedaré con vuestro señor y le daré
-                            recaudo<milestone unit="said" ana="end"/>.</cl>
+                            recaudo.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c110">El escudero pensando que aquello por más honra se hazía
                         dióle los paños/</cl>
                     <cl xml:id="M0_c111">y partióse de allí.</cl>
@@ -258,10 +250,9 @@
                             vestir<milestone unit="said" ana="end"/> dixo ella.</cl>
                     <cl xml:id="M0_c118">
                         <milestone unit="said" resp="#Perion" ana="start"/>Esso al coraçón avía de
-                            ser<milestone unit="said" ana="intStart"/> dixo él<milestone unit="said"
-                            ana="intEnd"/>/</cl>
+                            ser<milestone unit="said" ana="intStart"/> dixo él/<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M0_c119">que de plazer y alegría muy despojado y desnudo
-                            está<milestone unit="said" ana="end"/>.</cl>
+                            está.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c120">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>En qué
                             manera<milestone unit="said" ana="end"/> dixo ella?</cl>
@@ -275,26 +266,23 @@
                     <cl xml:id="M0_c123">y si vos buena donzella alguna melezina para ella me
                         procurassedes/
                         <!--Same as before, is this verb ending an archaism or Portuguese influence? Do we care?--></cl>
-                    <cl xml:id="M0_c124">de mí seríades <!--Same--> muy bien galardonada<milestone unit="said"
-                            ana="end"/>.</cl>
+                    <cl xml:id="M0_c124">de mí seríades <!--Same--> muy bien galardonada.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c125">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Cierto señor
                             <milestone unit="said" ana="intStart"/>dixo ella<milestone unit="said"
                             ana="intEnd"/> por muy contenta me ternía en hazer servicio a tan alto
-                        hombre y tan buen cavallero como vos sois si supiesse en qué<milestone
-                            unit="said" ana="end"/>.</cl>
+                        hombre y tan buen cavallero como vos sois si supiesse en qué.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c126">
                         <milestone unit="said" resp="#Perion" ana="start"/>Si me vos prometéis
                             <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                             ana="intEnd"/> como leal donzella de lo no descubrir/</cl>
                     <cl xml:id="M0_c127">sino allí donde es razón/</cl>
-                    <cl xml:id="M0_c128">yo os lo diré<milestone unit="said" ana="end"/>.</cl>
+                    <cl xml:id="M0_c128">yo os lo diré.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c129">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Dezidlo sin recelo
                             <milestone unit="said" ana="intStart"/>dixo ella<milestone unit="said"
                             ana="intEnd"/>:</cl>
-                    <cl xml:id="M0_c130">que enteramente por mí guardado os será<milestone
-                            unit="said" ana="end"/>.</cl>
+                    <cl xml:id="M0_c130">que enteramente por mí guardado os será.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c131">
                         <milestone unit="said" resp="#Perion" ana="start"/>Pues amiga señora
                             <milestone unit="said" ana="intStart"/>dixo él<milestone unit="said"
@@ -304,7 +292,7 @@
                     <cl xml:id="M0_c133">que atormentado de cuitas y congoxas soy hasta en punto de
                         la muerte:</cl>
                     <cl xml:id="M0_c134">en la cual si algún remedio no hallo no se me podrá
-                            escusar<milestone unit="said" ana="end"/>.</cl>
+                            escusar.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c135">La donzella, que el coraçón de su señora enteramente en
                         este caso sabía/</cl>
                     <cl xml:id="M0_c136">como ya arriba <sic>oistes</sic>
@@ -325,7 +313,7 @@
                     <cl xml:id="M0_c143">y si esto no se haze/</cl>
                     <cl xml:id="M0_c144">ni vos la cobraréis/</cl>
                     <cl xml:id="M0_c145">ni yo creeré ser vuestras palabras de leal y honesto amor
-                            salidas<milestone unit="said" ana="end"/>.</cl>
+                            salidas.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c146">El rey, que en su voluntad estava ya empremida la
                         permissión de Dios:</cl>
                     <cl xml:id="M0_c147">para que de esto se siguiesse lo que adelante oiréis:</cl>
@@ -336,11 +324,10 @@
                         espada con que la orden de cavallería rescebí de hazer esso que vos donzella
                         me pedís/</cl>
                     <cl xml:id="M0_c151">cada que por vuestra señora Elisena demandado me
-                            fuere<milestone unit="said" ana="end"/>.</cl>
+                            fuere.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c152">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Pues ahora holgad
-                            <milestone unit="said" ana="intStart"/>dixo ella<milestone unit="said"
-                            ana="intEnd"/>/</cl>
+                            <milestone unit="said" ana="intStart"/>dixo ella/<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M0_c153">que yo cumpliré lo que dixe<milestone unit="said" ana="end"
                         />:</cl>
                     <cl xml:id="M0_c154">Y partiéndose de él se tornó a su señora:</cl>
@@ -350,11 +337,10 @@
                     <cl xml:id="M0_c158">
                         <milestone unit="said" resp="#Helisena" ana="start"/>Mi verdadera amiga
                         cuando veré yo la hora que en mis braços tenga aquel que por señor me avéis
-                            dado<milestone unit="said" ana="end"/>.</cl>
+                            dado.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c159">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Yo os lo diré
-                            <milestone unit="said" ana="intStart"/>dixo ella <milestone unit="said"
-                            ana="intEnd"/>.</cl>
+                            <milestone unit="said" ana="intStart"/>dixo ella .<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M0_c160">Ya sabéis señora cómo aquella cámara en que el rey Perión
                         está tiene una puerta que a la huerta sale:</cl>
                     <cl xml:id="M0_c161">por donde vuestro padre algunas vezes se sale a
@@ -366,7 +352,7 @@
                     <cl xml:id="M0_c166">por allí podremos entrar sin que de ninguno sentidas
                         seamos:</cl>
                     <cl xml:id="M0_c167">y cuando sazón sea de salir yo vos llamaré y tornaré a
-                        vuestra cama<milestone unit="said" ana="end"/>.</cl>
+                        vuestra cama.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c168">Elisena que esto oyó fue atónita de plazer que no pudo
                         hablar/</cl>
                     <cl xml:id="M0_c169">y tornando en sí díxole.</cl>
@@ -376,13 +362,11 @@
                     <cl xml:id="M0_c171">mas cómo se hará lo que dezís/</cl>
                     <cl xml:id="M0_c172">que mi padre está dentro en la cámara con el rey
                         Perión:</cl>
-                    <cl xml:id="M0_c173">y si lo sintiesse seríamos todos en gran peligro<milestone
-                            unit="said" ana="end"/>.</cl>
+                    <cl xml:id="M0_c173">y si lo sintiesse seríamos todos en gran peligro.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c174">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Esso <milestone
                             unit="said" ana="intStart"/>dixo la donzella<milestone unit="said"
-                            ana="intEnd"/> dexad a mí que yo lo remediaré<milestone unit="said"
-                            ana="end"/>.</cl>
+                            ana="intEnd"/> dexad a mí que yo lo remediaré.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c175">Con esto se partieron de su hablar:</cl>
                     <cl xml:id="M0_c176">y passaron aquel día los reyes y la reina y la infanta
                         Elisena en su comer y cenar como ante.</cl>
@@ -390,7 +374,7 @@
                         Perión y díxole.</cl>
                     <cl xml:id="M0_c178">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Ay amigo dezidme si
-                        sois hombre hidalgo<milestone unit="said" ana="end"/>.</cl>
+                        sois hombre hidalgo.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c179">
                         <milestone unit="said" resp="#Squire1" ana="start"/>Sí soy <milestone
                             unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"
@@ -405,14 +389,12 @@
                     <cl xml:id="M0_c183">porque querr<supplied reason="faded-ink">í</supplied>a
                         saber de vos una cosa:</cl>
                     <cl xml:id="M0_c184">ruégoos por la fe que a Dios devéis y al rey vuestro señor
-                        me la digáis<milestone unit="said" ana="end"/>.</cl>
+                        me la digáis.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c185">
                         <milestone unit="said" resp="#Squire1" ana="start"/>Por Sancta María
-                            <milestone unit="said" ana="intStart"/>dixo él<milestone unit="said"
-                            ana="intEnd"/>/</cl>
+                            <milestone unit="said" ana="intStart"/>dixo él/<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M0_c186">toda cosa que yo supiere vos diré/</cl>
-                    <cl xml:id="M0_c187">con tal que no sea en daño de mi señor<milestone
-                            unit="said" ana="end"/>.</cl>
+                    <cl xml:id="M0_c187">con tal que no sea en daño de mi señor.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c188">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Esso vos otorgo yo
                             <milestone unit="said" ana="intStart"/>dixo la donzella<milestone
@@ -421,27 +403,27 @@
                     <cl xml:id="M0_c190">ni vos terníades razón de que me lo dezir:</cl>
                     <cl xml:id="M0_c191">mas lo que yo quiero saber es/</cl>
                     <cl xml:id="M0_c192">que me digáis cuál es la Donzella que vuestro señor ama de
-                        estremado amor<milestone unit="said" ana="end"/>.</cl>
+                        estremado amor.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c193">
                         <milestone unit="said" resp="#Squire1" ana="start"/>Mi señor <milestone
                             unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
                         ama a todas en general/</cl>
                     <cl xml:id="M0_c194">mas cierto no le conozco ninguna que él ame de la guisa que
-                            dezís<milestone unit="said" ana="end"/>.</cl>
+                            dezís.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c195">En esto hablando llegó el rey Garinter donde ellos estavan
                         hablando:</cl>
                     <cl xml:id="M0_c196">y vio a Darioleta con el escudero:</cl>
                     <cl xml:id="M0_c197">y llamándola le dixo.</cl>
                     <cl xml:id="M0_c198">
                         <milestone unit="said" resp="#Garinter" ana="start"/>Tú qué tienes que
-                        hablar con el escudero del rey<milestone unit="said" ana="end"/>.</cl>
+                        hablar con el escudero del rey.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c199">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Por Dios señor yo os
                         lo diré:</cl>
                     <cl xml:id="M0_c200">él me llamó y me dixo que su señor ha por costumbre de
                         dormir solo/</cl>
                     <cl xml:id="M0_c201">y cierto que siente mucho empacho con vuestra
-                            compañía<milestone unit="said" ana="end"/>.</cl>
+                            compañía.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c202">El rey se partió de ella/</cl>
                     <cl xml:id="M0_c203">y fuesse al Rey Perión y dixole.</cl>
                     <cl xml:id="M0_c204">
@@ -449,16 +431,15 @@
                         muchas cosas de librar en mi hazienda y levántome a la hora de los
                         maitines/</cl>
                     <cl xml:id="M0_c205">y por no vos dar enojo/</cl>
-                    <cl xml:id="M0_c206">tengo por bien que quedéis solo en la cámara<milestone
-                            unit="said" ana="end"/>.</cl>
+                    <cl xml:id="M0_c206">tengo por bien que quedéis solo en la cámara.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c207">El rey Perión le dixo.</cl>
                     <cl xml:id="M0_c208">
                         <milestone unit="said" resp="#Perion" ana="start"/>Hazed señor en
                             el<supplied reason="damage">l</supplied>o como os más
-                            pluguiere<milestone unit="said" ana="end"/>.</cl>
+                            pluguiere.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c209">
                         <milestone unit="said" resp="#Garinter" ana="start"/>Assí plaze a mí dixo
-                            él<milestone unit="said" ana="end"/>.</cl>
+                            él.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c210">Entonces conoció él que la donzella le dixera verdad y
                         mandó a sus reposteros que luego sacassen su cama de la Cámara del rey
                         Perión.</cl>
@@ -474,11 +455,10 @@
                     <cl xml:id="M0_c215">que esto que al presente yerro paresce:</cl>
                     <cl xml:id="M0_c216">adelante será algún gran servicio suyo:</cl>
                     <cl xml:id="M0_c217">y dezidme lo que haremos que la gran alegría que tengo me
-                        quita gran parte del juizio<milestone unit="said" ana="end"/>.</cl>
+                        quita gran parte del juizio.<milestone unit="said" ana="end"/></cl>
                     <cl xml:id="M0_c218">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Señora <milestone
-                            unit="said" ana="intStart"/>dixo la donzella<milestone unit="said"
-                            ana="intEnd"/>/</cl>
+                            unit="said" ana="intStart"/>dixo la donzella/<milestone unit="said" ana="intEnd"/></cl>
                     <cl xml:id="M0_c219">hagamos esta noche lo que concertado está/</cl>
                     <cl xml:id="M0_c220">que la puerta de la cámara que os dixe:</cl>
                     <cl xml:id="M0_c221">que yo la tengo abierta<milestone unit="said" ana="end"
