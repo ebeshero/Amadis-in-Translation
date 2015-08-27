@@ -36,7 +36,7 @@
         
     </xsl:template>
     
-    <xsl:template match="cl">
+    <xsl:template match="cl[not(ancestor::argument)]">
         <cl>
             <xsl:attribute name="xml:id">
                 <xsl:value-of select="./ancestor::div[@type='chapter']/@xml:id"/>
@@ -48,10 +48,10 @@
                 <xsl:text>_</xsl:text>
                 <xsl:value-of select="./parent::*/name()"/>
                 
-                 <xsl:number select="./parent::*" level="any" count="//div[@type='chapter']//p[not(parent::argument)]"/>
+                <xsl:number select="./parent::*" level="any" count="//div[@type='chapter']//p[not(parent::argument)]"/>
                               
                 <xsl:text>_c</xsl:text>
-                <xsl:number level="any"/>
+                <xsl:number level="any" count="//div[@type='chapter']//p[not(ancestor::argument)]"/>
             </xsl:attribute>
 
             <xsl:apply-templates/>
