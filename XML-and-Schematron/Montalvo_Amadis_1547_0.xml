@@ -7,8 +7,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Amadís de Gaula, Chapter 0</title>
+                <title>Amadís de Gaula, comienzo</title>
                 <!-- heb 08-15-2015: Maybe we should give it another name, like "Introduction" or "Prolegomenon"-->
+                <!-- st 8-27-2015: I see your point. Comiença la obra seems most appropriate to me, but we have it down in <head>. The prologue is something else, and introduction isn't a term used in the 16th as far as I know. I'm suggesting comienzo. What do you think?-->
             </titleStmt>
             <publicationStmt>
                 <p>Publication Information</p>

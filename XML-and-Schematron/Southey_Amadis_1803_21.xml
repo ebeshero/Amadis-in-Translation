@@ -29,36 +29,36 @@
             <head>Chapter 21. <locus from="189" to="194"/></head>
 
             <p>
-               <milestone unit="transUnit" ana="start" synch="#M20_p1_c25"/><s>Such speed made
+               <milestone unit="transUnit" ana="start" synch="#M20_p1_c1"/><s>Such speed made
                      <persName ref="#Arcalaus">Arcalaus</persName> in the armour and on the horse of him whom he had
                   enchanted, that on the tenth day he met <persName ref="#Lisuarte">King Lisuarte</persName> riding
-                  abroad in the morning to take the air, accompanied with a great train.</s><s>They
-                  seeing the horse and arms of <persName ref="#Amadis">Amadis</persName> were greatly rejoiced,
-                  and rode on to welcome him; but coming nearer, they saw that it was not he for
-                  whom they looked, for Arcalaus had his head and hands unarmed, and they were
-                  greatly amazed.</s>
-               <s>Arcalaus came before the
-                  King and said, <milestone unit="said" ana="start" resp='#Arcalaus'/>I come, Sir, to acquit a
-                  promise <milestone unit="transUnit" ana="end"/>wherein I stand bound, to let you understand how I have slain a Knight in
+                  abroad in the morning to take the air,<milestone unit="transUnit" ana="end"/> <milestone unit="transUnit" ana="start" synch="#M20_p1_c2"/>accompanied with a great train.<milestone unit="transUnit" ana="end"/></s><s><milestone unit="transUnit" ana="start" synch="#M20_p1_c5"/>They
+                     seeing the horse and arms <milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c5"/>of <persName ref="#Amadis">Amadis</persName> <milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c7"/>were greatly rejoiced,
+                     and rode on to welcome him<milestone unit="transUnit" ana="end"/>; <milestone unit="transUnit" ana="start" synch="#M20_p1_c8"/>but coming nearer, they saw that it was not he for
+                     whom they looked,<milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c9"/> for Arcalaus had his head and hands unarmed, and they were
+                     greatly amazed.<milestone unit="transUnit" ana="end"/></s>
+               <s><milestone unit="transUnit" ana="start" synch="#M20_p1_c10"/>Arcalaus came before the
+                  King and said, <milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c11"/><milestone unit="said" ana="start" resp='#Arcalaus'/>I come, Sir, to acquit a
+                  promise wherein I stand bound, to let you understand how I have slain a Knight in
                   battle.</s><s>And albeit I must be content to declare mine own praise, which were
-                  more honourable for me being reported by another in mine absence, yet am I
+                     more honourable for me being reported by another in mine absence,<milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c12"/>yet am I
                   constrained to do no less, for the covenant was between me and him whom I have
-                  slain, that the conqueror should cut off the other's head, and present himself
-                  before you as this day.</s><s>If he slew me, I told him it was Arcalaus whom he
-                  would slay; and much was I grieved when he said he was the Queen's Knight, and by
-                  name Amadis of Gaul.</s><s>In this guise came he to his death, and I remain with
-                  the honour of the battle.</s><milestone unit="said" ana="end"/>
+                  slain, <milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c13"/>that the conqueror should cut off the other's head,<milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c14"/> and present himself
+                     before you as this day.<milestone unit="transUnit" ana="end"/></s><s><milestone unit="transUnit" ana="start" synch="#M20_p1_c15"/><!-- st 8.26.15 all inside c.15 but Southey reverses the order -->If he slew me, I told him it was Arcalaus whom he
+                        would slay; and much was I grieved when he said he was the Queen's Knight <milestone unit="transUnit" ana="end"/>, <milestone unit="transUnit" ana="start" synch="#M20_p1_c16"/>and by
+                        name Amadis of Gaul.<milestone unit="transUnit" ana="end"/></s><s><milestone unit="transUnit" ana="start" synch="#M20_p1_c17"/>In this guise came he to his death,<milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c18"/> and I remain with
+                           the honour of the battle.<milestone unit="transUnit" ana="end"/></s><milestone unit="said" ana="end"/>
             </p>
-            <p resp="#Southey"><s><milestone unit="said" ana="start" resp="#Lisuarte"/>Holy Mary!<milestone unit="said"
+            <p resp="#Southey"><s><milestone unit="transUnit" ana="start" synch="#M20_p1_c19"/><milestone unit="said" ana="start" resp="#Lisuarte"/>Holy Mary!<milestone unit="said"
                      ana="intStart"/> exclaimed the King,<milestone unit="said" ana="intEnd"/> is
-                  the best Knight in the world slain?<milestone unit="said" ana="end"/> and with
-                  that they all began to lament.</s><s>But Arcalaus turned back by the way he came,
-                  and all cursed him and besought God that he might speedily die an evil death,
-                  which they with their own swords would at once have given him but for his own
-                  tale, how Amadis was slain in an accorded battle.</s>
+               the best Knight in the world slain?<milestone unit="transUnit" ana="end"/><milestone unit="said" ana="end"/> <milestone unit="transUnit" ana="start" synch="#M20_p1_c21"/>and with
+               that they all began to lament.<milestone unit="transUnit" ana="end"/></s><s><milestone unit="transUnit" ana="start" synch="#M20_p1_c21.1"/>But Arcalaus turned back by the way he came,
+                  and all cursed him and besought God that he might speedily die an evil death,<milestone unit="transUnit" ana="end"/>
+                  <milestone unit="transUnit" ana="start" synch="#M20_p1_c22"/>which they with their own swords would at once have given him but for his own
+                  tale,<milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" type="add"/> how Amadis was slain in an accorded battle.<milestone unit="transUnit" ana="end"/></s>
             </p>
-            <p resp="#Southey"><s>Forthwith the King returned in heavy affliction.</s><s>The news spread and reached
-                  the Queen's house, and she and all her Ladies lamented, for greatly was Amadis
+            <p resp="#Southey"><s><milestone unit="transUnit" ana="start" type="add"/>Forthwith <milestone unit="transUnit" ana="end"/><milestone unit="transUnit" ana="start" synch="#M20_p1_c23"/> the King returned in heavy affliction.</s><s>The news spread <milestone unit="transUnit" ana="end"/><!-- st 8.27.15 stopped here -->and reached
+               the Queen's house, and she and all her Ladies lamented, for greatly was Amadis
                   beloved by all; but <persName ref="#Oriana">Oriana</persName> hearing their lamentation sent the
                      <persName ref="#Damsel_Denmark">Damsel of Denmark</persName> to enquire its
                   cause, who presently returned beating her face, and with a wild cry looked at
