@@ -37,7 +37,7 @@
                 <xsl:value-of select="./ancestor::div[@type='chapter']/@xml:id"/>
                
                 <xsl:if test="./ancestor::floatingText">
-                    <xsl:text>ft</xsl:text>
+                    <xsl:text>_ft</xsl:text>
                     <xsl:number select="./ancestor::floatingText[1]" level="any"/>
                 </xsl:if>
                 <xsl:text>_</xsl:text>
