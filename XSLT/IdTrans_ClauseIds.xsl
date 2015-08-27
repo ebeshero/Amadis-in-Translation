@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
     <xsl:output method="xml" indent="yes"/>
 
@@ -22,6 +22,11 @@
                 <xsl:if test="./ancestor::floatingText">
                     <xsl:text>-ft</xsl:text>
                 </xsl:if>
+                <!--ebb 2015-08-26: floatingText could be sitting at any level of
+                    the XML document hierarchy, including inside another floatingText, and 
+                    it's possible we will see multiple floatingText elements in a chapter.
+                    If we do have any floatingTexts nested inside floatingTexts, we think it might be of use later to flag them in our
+                    xml:ids, which is what we're doing with the <xsl:if> statement.--> 
                 <xsl:number level="any"/>
             </xsl:attribute>
             
@@ -43,7 +48,7 @@
                 <xsl:text>_</xsl:text>
                 <xsl:value-of select="./parent::*/name()"/>
                 
-                 <xsl:number select="./parent::*" level="any"/>
+                 <xsl:number select="./parent::*" level="any" count="//div[@type='chapter']//p[not(parent::argument)]"/>
                               
                 <xsl:text>_c</xsl:text>
                 <xsl:number level="any"/>
@@ -54,17 +59,14 @@
     </xsl:template>
     
    <xsl:template match="l">
-        <!--ebb 2015-08-26: This is for placing xml:ids on lines of poetry, which will, 
-            Stacey says, sit within floatingText. 
-            With this template rule, we reach up to give the xsl:number of the paragraph that appears 
-            before the floatingText begins. These floatingTexts *may or may not* be nested inside a body <p>. 
-            (Sometimes poems are positioned inside paragraphs, but sometimes we may see signs that they appear in between
-            two clearly distinct paragraphs.) So, we need to code this to locate the nearest preceding paragraph, whether
-            it is an ancestor <p>, or whether it's the nearest <p> on the preceding:: axis.
-            
-            The goal is to help us locate the lines of poetry where they sits in relation to the body of the text.
+        <!--ebb 2015-08-26: This is for placing xml:ids on lines of poetry, which will most likely, 
+            Stacey says, sit within floatingText elements. 
+            Line-groups may or may not be positioned inside
+            paragraphs, and since they're fundamentallly distinct from our <cl> units, it seems simplest just 
+            to encode their relationship to their ancestor <floatingText>. 
+          
             We don't care about getting stanza numbers or line positions inside stanzas, so 
-            in this case, we just number lines of poetry consecutively 
+            in this case, we just number lines of poetry consecutively within a whole chapter
             with <xsl:number level="any">. 
         -->
      
@@ -76,23 +78,9 @@
                     <xsl:text>_ft</xsl:text>
                     <xsl:number select="./ancestor::floatingText" level="any"/>
                 </xsl:if>
-                
-                <xsl:text>_p</xsl:text>
-                
-                <xsl:choose>
-                  <xsl:when test=".[not(ancestor::p)]">
-                      
-                    <xsl:number select="./ancestor::*[preceding-sibling::p][1]/preceding-sibling::p[1]" level="any"/>
-                      
-                  </xsl:when>
-                    <xsl:otherwise>
-                    <xsl:number select="./ancestor::p[1]" level="any"/>
-                    </xsl:otherwise>
-                
-                </xsl:choose>
-                
-              <!--  <xsl:number select="./parent::*" level="multiple"/>-->
-                
+  <!--ebb 2015-08-26: To keep this simple, I'm not bothering to locate the nearest paragraph for lines of poetry, since
+      we are numbering all lines of poetry consecutively within the chapter.-->
+               
                 <xsl:text>_ln</xsl:text>
                 <xsl:number level="any"/>
             </xsl:attribute>
