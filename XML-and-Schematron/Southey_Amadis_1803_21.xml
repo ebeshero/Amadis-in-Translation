@@ -29,7 +29,7 @@
             <head>Chapter 21. <locus from="189" to="194"/></head>
 
             <p>
-               <milestone unit="transUnit" ana="start" synch="#M20_c1"/><s>Such speed made
+               <milestone unit="transUnit" ana="start" synch="#M20_p1_c25"/><s>Such speed made
                      <persName ref="#Arcalaus">Arcalaus</persName> in the armour and on the horse of him whom he had
                   enchanted, that on the tenth day he met <persName ref="#Lisuarte">King Lisuarte</persName> riding
                   abroad in the morning to take the air, accompanied with a great train.</s><s>They
@@ -37,9 +37,9 @@
                   and rode on to welcome him; but coming nearer, they saw that it was not he for
                   whom they looked, for Arcalaus had his head and hands unarmed, and they were
                   greatly amazed.</s>
-               <milestone unit="transUnit" ana="end" synch="#M20_c1"/><s>Arcalaus came before the
-                  King and said, <milestone unit="said" ana="start"/>I come, Sir, to acquit a
-                  promise wherein I stand bound, to let you understand how I have slain a Knight in
+               <s>Arcalaus came before the
+                  King and said, <milestone unit="said" ana="start" resp='#Arcalaus'/>I come, Sir, to acquit a
+                  promise <milestone unit="transUnit" ana="end"/>wherein I stand bound, to let you understand how I have slain a Knight in
                   battle.</s><s>And albeit I must be content to declare mine own praise, which were
                   more honourable for me being reported by another in mine absence, yet am I
                   constrained to do no less, for the covenant was between me and him whom I have

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amadis of Gaul, by VASCO LOBEJRA.</title>
+            <editor role="translator">Robert Southey</editor>
+            <editor>Stacey Triplette</editor>
+            <editor>Elisa Beshero-Bondar</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority ana="printer">Printed by N. Biggs, Cross-court, Fleet-street</authority>
+            <publisher>T. N. Longman and O. Rees</publisher>
+            <pubPlace>Paternoster Row, London</pubPlace>
+            <date>1803</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Rekeyed from a public domain Google-digitized text via HathiTrust.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" xml:id="S1">
+            <head>Chapter 1. <locus from="1" to="8"/></head>
+            <!--ebb: 2015-08-05: Okay, we have to use <p> as the base structural unit of any prose text in TEI, 
+               so we'll have to make each chapter be a single long paragraph in Montalvo. 
+               We'll use the <milestone/> element in the Southey text to indicate his imposed paragraph breaks within that.
+            A <milestone/> element appears at the beginning of each of Southey's paragraphs.
+            -->
+            <!--ebb: 2015-08-20: I'm now rethinking this use of milestone, since we've discovered occasional paragraph breaks within chapters in Montalvo. I'm just going to wrap paragraphs in the <p> element the way the TEI intended! 
+                  Perhaps the <s> elements and <cl> elements don't really need to be sitting in the same hierarchical positions in the file anyway, since we are using <milestone/> markers to stitch the Southey together with units of the Montalvo text.-->
+            <p><s>Not many years after the passion of our Redeemer there was a Christian King in the
+                  lesser Britain, by name <persName ref="#Garinter">Garinter</persName>, who being in the law of truth, was of much
+                  devotion and good ways.</s><s>This King had two Daughters by a noble Lady his
+                  wife.</s><s>The eldest was married to <persName ref="#Languines">Languines King of Scotland</persName>; she was called
+                     <persName ref="#Guirnalda">the Lady of the Garland</persName>, because her husband taking great pleasure to behold her
+                  beautiful tresses, would have them covered only with a chaplet of
+                  flowers.</s><s><persName ref="#Agrajes">Agrayes</persName> and <persName ref="#Mabilia">Mabilia</persName> were their children, a Knight and Damsel of
+                  whom in this history much mention is made.</s><s><persName ref="#Helisena">Elisena</persName> the other daughter was
+                  far more beautiful, and although she had been demanded in marriage by many great
+                  Princes, yet she would wed with none, but for her solitary and holy life was
+                  commonly called the Lost Devotee<note anchored="true" resp="#Southey">La Beata
+                     perdida. <hi rend="italic">Methodist, Puritan,</hi> or <hi rend="italic">the
+                        Elect,</hi> would perhaps express the meaning of <hi rend="italic"
+                        >Beata,</hi> which is in common use, if they were not sectarian
+                     words.</note>, because it was considered that for one of such rank, gifted with
+                  such beauty and sought in marriage by so many chiefs, this way of life was not
+                  fitting.</s></p>
+            <p><s>King Garinter who was somewhat striken in years, took delight in hunting.</s><s>It
+                  happened one day, that having gone from his <placeName ref="#Alima">town of Alima</placeName> to the chace, and being
+                  separated from his people, as he went along the forest saying his prayers, he saw
+                  to the left a brave battle of one Knight against two.</s><s>Soon had he knowledge
+                  of the twain, in that they were his own vassals, who being proud men and of
+                  powerful lineage had often by their evil customs offended him.</s><s>Who the third
+                  was he knew not, but not relying so much in the worth of the one, as he feared the
+                  two, he drew aside and waited the event, which sorted to such effect, as by the
+                  hand of that one the others were both slain.</s><s>This done <persName ref="#Perion">the Stranger</persName> came
+                  towards the King, and seeing him alone, said, <milestone unit="said" ana="start" resp="#Perion"/>Gentle Sir, what country is this
+                  wherein Knights Errant are thus assailed?<milestone unit="said" ana="end"/></s><s>The King replied, <milestone unit="said" ana="start" resp="#Garinter"/>Marvel not at
+                  this, Knight, for our Country yields as others do, both good and bad: as for these
+                  men, they have often offended, even against their Lord and King, who could do no
+                  justice upon them, because of their kindred, and also because they harboured in
+                  this covered mountain.<milestone unit="said" ana="end"/></s></p>
+            <p><milestone unit="said" ana="start" resp="#Perion"/><s>This King you speak of, replied <persName ref="#Perion">the Stranger</persName>, I come to seek him from a far land,
+                  and bring him tidings from a dear friend.</s><s>If you know where he may be found,
+                     I pray you tell me.</s><milestone unit="said" ana="end"/><s>The King answered, <milestone unit="said" ana="start" resp="#Garinter"/>Befall what may, I shall not fail to
+                        speak what is true.</s><s>I am the King.</s><milestone unit="said" ana="end"/><s>The Knight then loosing his shield
+                  and helmet gave them to his Squire, and went to embrace Garinter, saying that he
+                  was King Perion of Gaul who had long desired to know him.</s><s>Greatly were these
+                  Kings contented that their meeting was in such a manner, and conferring together
+                  they took their way through the wood towards the city, when suddenly a Hart ran
+                  before them which had escaped the toils.</s><s>They followed at full speed,
+                  thinking to kill it, but a Lion springing from a thicket before them, seized the
+                  Hart, and having torn it open with his mighty claws, stood fiercely looking at the
+                  Kings.</s><s><milestone unit="said" ana="start" resp="#Perion"/>Fierce as you are<milestone unit="said" ana="intStart"/>, said King Perion,<milestone unit="said" ana="intEnd"/> you shall leave us part of the
+                     game!<milestone unit="said" ana="end"/> and he took his arms and alighted from his horse, who being affrighted at
+                  the wild beast would not go near him, and placing his shield before him went
+                  towards the Lion sword in hand.</s><s>The Lion left his prey and came against him,
+                  they closed, and Perion at the moment when he was under the beast and in most
+                  danger, thrust his sword into his belly.</s><s>When Garinter saw him fall, he said
+                  within himself not without cause is that Knight famed to be the best in the
+                  world.</s><s>Meanwhile their train came up, and then was their prey and venison
+                  laid on two horses and carried to the City.</s></p>
+            <p><s>The Queen being advised of her guest they found the palace richly adorned, and the
+                  tables covered.</s><s>At the highest the Kings seated themselves: at the other
+                  sate the Queen with Elisena her daughter, and there were they served, as in the
+                  house of such a man beseemed.</s><s>Then being in that solace, as that Princess
+                  was so beautiful and King Perion on his part equal, in that hour and point they so
+                  regarded each other, that her great modesty and holy life could not now avail, but
+                  that she was taken with great and incurable love; and the King in like manner,
+                  though till then his heart had been free, so that during the meal both the one and
+                  the other appeared absent in thought.</s><s>When the tables were removed, the
+                  Queen would depart to her chamber; Elisena rising dropt a ring from her lap, which
+                  she had taken off when she wash'd her hands, and in her confusion of mind
+                  forgotten.</s><s>She stooped for it and Perion who was near her stooped also, so
+                  that their hands met, and he taking her hand prest it.</s><s>She coloured deeply
+                     and thanked the King for his service.</s><s><milestone unit="said" ana="start" resp="#Perion"/>Ah, Lady, said he, it shall not be the
+                        last, for all my life shall be spent in your service.<milestone unit="said" ana="end"/></s></p>
+            <p><s>She followed her mother, but so disturbed that her sight was dizzy, and now not
+                  able to endure her feelings she went and discovered them to the damsel <persName ref="#Darioleta">Darioleta</persName>
+                  in whom she confided, and with tears from her eyes and from her heart, besought
+                  her to find out if King Perion loved any other woman.</s><s>Darioleta suprized at
+                  this alteration, pitied and comforted her mistress, and went to King Perion's
+                  chamber.</s><s>She found his <persName ref="#Squire1">Squire</persName> at the door with the King's garments which he
+                     was about to give him; <milestone unit="said" ana="start" resp="#Darioleta"/>friend<milestone unit="said" ana="intStart"/>, said she<milestone unit="said" ana="intEnd"/>, go you about your other affairs, for I
+                     must wait upon your master<milestone unit="said" ana="end"/>.</s><s>The Squire, thinking it was the custom of the
+                  country, gave her the garments and went away.</s><s>She then entered the chamber
+                  where the King was in bed.</s><s>He, who had seen her converse with Elisena
+                  confidently, now hoped that she might bring some remedy to his passion, and said
+                  to her all in trembling, <milestone unit="said" ana="start" resp="#Perion"/>fair friend, what demand ye?<milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#Darioleta"/>I bring you wherewith
+                     to cloathe yourself<milestone unit="said" ana="end"/>, she replied.</s><s><milestone unit="said" ana="start" resp="#Perion"/>That should be for my heart<milestone unit="said" ana="intStart"/>, said Perion,
+                        <milestone unit="said" ana="intEnd"/>which is now stript and naked of all my joy<milestone unit="said" ana="end"/>.</s><s><milestone unit="said" ana="start" resp="#Darioleta"/>As how?<milestone unit="said" ana="end"/> said the
+                           Damsel.</s><s><milestone unit="said" ana="start" resp="#Perion"/>Thus<milestone unit="said" ana="intStart"/>, quoth he,<milestone unit="said" ana="intEnd"/> coming into this land with entire liberty, and
+                  apprehending nothing but the chance of arms, here in this house I have been
+                  wounded by a mortal wound, for which if you fair Damsel, can procure me remedy,
+                  you shall be well recompensed<milestone unit="said" ana="end"/>.</s><s>He then charged her not to discover him but
+                  where it was requisite, and told her his love for Elisena.</s><s>Then said
+                     Darioleta, <milestone unit="said" ana="start" resp="#Darioleta"/>my Lord, promise me on the faith of a King and a Knight, that you will
+                  take to wife my Lady Elisena, when time shall serve, and right soon will I bring
+                  ye, where not only your heart shall be satisfied, but hers also, who, it may be,
+                  is in as much or more thought and dolour than you, with the same wound.</s><s>But
+                     without this promise you shall never win her.</s><milestone unit="said" ana="end"/><s>The King whose will was
+                  already disposed by God that that which ensued might come to pass, took his sword
+                  which was by him, and laying his right hand upon the cross of its hilt, pronounced
+                  these words, <milestone unit="said" ana="start" resp="#Perion"/>I swear by this Cross, and this Sword wherewith I received the order
+                  of Knighthood, to perform whatever you shall require for the Lady
+                  Elisena<milestone unit="said" ana="end"/>.</s><s><milestone unit="said" ana="start" resp="#Darioleta"/>Be you then of good cheer<milestone unit="said" ana="intStart"/>, said she, <milestone unit="said" ana="intEnd"/>for I also will effect my
+                     promise<milestone unit="said" ana="end"/>.</s></p>
+            <p><s>Darioleta returned to the Princess and told her how she had sped; <milestone unit="said" ana="start" resp="#Darioleta"/>you know, said
+                  she, that in the chamber where King Perion lodgeth there is a door opening to the
+                  garden, whence your father used to go out, and which at this present is covered
+                  with the hangings; but I have the key thereof, and we can go in at night, when all
+                  in the palace are at rest<milestone unit="said" ana="end"/>.</s><s>When Elisena heard this she was highly contented,
+                     but recollecting herself, she replied, <milestone unit="said" ana="start" resp="#Helisena"/>how shall this be brought to pass, seeing
+                     that my father will lodge in the chamber with King Perion?<milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#Darioleta"/>Leave that to me
+                        <milestone unit="said" ana="end"/>said the Damsel, and with that they parted.</s></p>
+            <p><s>When it was night Darioleta drew aside the <persName ref="#Squire1">Squire of Perion</persName>, and asked him if he
+               was of gentle birth.</s><s><milestone unit="said" ana="start" resp="#Squire1"/>Aye, said he, the son of a Knight! but why ask ye?<milestone unit="said" ana="end"/> <milestone unit="said" ana="start" resp="#Darioleta"/>for
+                  the desire I have, quoth she, to know one thing, which I beseech you by the faith
+                  you owe to God and to the King your master, not to hide from me.</s><s>Who is the
+                     Lady whom your Master loveth best?</s><milestone unit="said" ana="end"/><s><milestone unit="said" ana="start" resp="#Squire1"/>My Master<milestone unit="said" ana="intStart"/>, replied the Squire, <milestone unit="said" ana="intEnd"/>loves all
+                        in general, and none as you mean<milestone unit="said" ana="end"/>.</s><s>While they thus talked Garinter came nigh,
+                  who seeing Darioleta in conference with Perion's Squire, called her and asked what
+                  he had to say to her.</s><s><milestone unit="said" ana="start" resp="#Darioleta"/>In sooth my Lord, <milestone unit="said" ana="intStart"/>quoth she, <milestone unit="said" ana="intEnd"/>he tells me that his
+                  Master is wont to be alone, and certainly I think he will feel himself embarrassed
+                  by your company<milestone unit="said" ana="end"/>.</s><s>Garinter hearing that went to King Perion and said, <milestone unit="said" ana="start" resp="#Garinter"/>My Lord
+                  I have many affairs to settle, and must rise at the hour of matins, and that you
+                  may not be disturbed, you had better be alone in your chamber.<milestone unit="said" ana="end"/></s><s>King Perion
+                     replied, <milestone unit="said" ana="start" resp="#Perion"/>do as shall seem best to your liking<milestone unit="said" ana="end"/>.</s><s>Then Garinter understood that
+                  Darioleta had told him rightly of his guest's inclination, and ordered his bed to
+                  be removed from Perion's apartment.</s><s>These tidings Darioleta carried to her
+                  mistress, and they waited the hour when all should retire to sleep.</s></p>
+         </div>
+      </body>
+   </text>
+</TEI>
