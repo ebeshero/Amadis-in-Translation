@@ -54,13 +54,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p><!-- st How do I make this numbered list display properly? 
-               heb: I've edited it using <list> 
-               I know the list looks clustered, but I prefer to avoid pseudo-markup
-               in favor of the real tags. In this manner, we can add the styling afterwards much more easily.
-               However, I'm not sure I did the best use of <hi> and <mentioned>. Please read
-               http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQ  
-               and please modify it if you don't agree with my interpretation-->This
+            <p>This
                digital critical edition seeks to reproduce the reading experience of the <bibl>1547
                      <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with which Robert
                Southey worked for his translation in order to facilitate comparisons. The following
