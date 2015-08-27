@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/releasse/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/releasse/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Chapter 2</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>To copy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>To copy</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="M2">
+                <head>Capítu. II <locus from="v-v" to="vii-v"/>
+                    <!--pdf page 10-->
+                </head>
+                <argument>
+                    <p>Cómo el rey Perión iba por el camino con su escudero con coraçón más
+                        acompañado de tristeza que de alegría.</p>
+                </argument>
+                <p> Partido el rey Perión de la Pequeña Bretaña como ya se os contó de mucha congoja
+                    era su ánimo atormentado assí por la gran soledad que de su amiga sentía que
+                    mucho de coraçón la amaba como por el sueño que ya oísteis que en tal sazón le
+                    sobreviniera. Pues llegado en su reino envió por todos sus ricos hombres y mandó
+                    a los obispos que consigo trajesen los más sabedores clérigos que en sus tierras
+                    había esto para que aquél sueño le declarassen. Como sus vasallos de su venida
+                    supieron assí los llamados como muchos de los otros a él se vinieron con gran
+                    deseo de lo ver que de todos era muy amado y muchas vezes eran sus corazones
+                    atormentados oyendo las grandes afrentas en armas a que él se ponía temiendo de
+                    lo perder y por esto deseaban todos tenerlo consigo mas no lo podían acabar que
+                    su fuerte coraçón no era contento sino cuando el cuerpo ponía en los grandes
+                    peligros. El rey habló con ellos en el estado del reino y en las otras cosas que
+                    a su hacienda cumplían pero siempre con triste semblante de que a ellos gran
+                    pesar redundaba y despachados los negocios mandó que a sus tierras se volviesen
+                    e hizo quedar consigo tres clérigos que supo que más sabían en aquello que él
+                    deseaba y tomándolos consigo se fue a su capilla y allí en la hostia sagrada les
+                    hizo jurar que en lo que él les preguntasse verdad le dixesen no temiendo
+                    ninguna cosa por grave que se le mostrasse. Esto hecho mandó salir fuera al
+                    capellán y él quedó solo con ellos. Entonces les contó el sueño como es ya
+                    devisado y dixo que se lo soltassen lo que de ello podía ocurrir. El uno de
+                    éstos que <persName ref="#Ungan">Ungan el Picardo</persName> había de nombre que
+                    era el que más sabía dixo. <milestone unit="said" resp="#Ungan" ana="start"
+                    />Señor los sueños es cosa vana y por tal deben ser tenidos pero pues os place
+                    que en algo este vuestro tenido sea dadnos plazo en que lo ver
+                        podamos.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Perion" ana="start"/>Assí sea <milestone
+                        unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                    y tomad doce días para ello.<milestone unit="said" ana="end"/> Y mandólos
+                    apartar que se no hablassen ni viesen en aquel plazo. Ellos echaron sus juicios
+                    y firmezas cada uno como mejor supo y llegado el tiempo viniéronse para el rey
+                    el cual tomó aparte a <persName ref="#Alberto">Alberto de Campania</persName> y
+                    díjoles: <milestone unit="said" resp="#Perion" ana="start"/>Ya sabéis lo que me
+                    jurasteis ahora dezid.<milestone unit="said" ana="end"/><milestone unit="said"
+                        resp="#Alberto" ana="start"/>Pues vengan los otros <milestone unit="said"
+                        ana="intStart"/>dixo el clérigo<milestone unit="said" ana="intEnd"/> y
+                    delante de ellos lo diré.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Perion" ana="start"/>Vengan<milestone unit="said"
+                        ana="end"/> dixo el rey e hízolos llamar. Pues siendo assí todos juntos
+                    aquél dixo. <milestone unit="said" resp="#Alberto" ana="start"/>Señor yo te diré
+                    lo que entiendo. A mí parece de la cámara que era bien cerrada y que viste por
+                    la menor puerta de ella entrar significa estar éste tu rey no cerrado y guardado
+                    que por alguna parte de él te entrara alguno para te algo tomar y assí como la
+                    mano te metía por los costados y sacaba el coraçón y lo echaba en un río assí te
+                    tomará villa o castillo y lo pondrá en poder de quien haber no lo
+                        podrás.<milestone unit="said" ana="end"/>
+                    <milestone resp="#Perion" unit="said" ana="start"/>Y el otro coraçón <milestone
+                        unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                    que decía que me quedaba y me lo haría perder sin su grado?<milestone
+                        unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Alberto" ana="start"/>Esso <milestone unit="said"
+                        ana="intStart"/>dixo el maestro<milestone unit="said" ana="intEnd"/> parece
+                    que otro entrará en tu tierra y te tomar lo semejante más constreñido por fuerza
+                    de alguno que se lo mande que de su voluntad y en este caso no sé señor que más
+                    os diga.<milestone unit="said" ana="end"/> El rey mandó al otro que <persName
+                        ref="#Antales">Antales</persName> había nombre que dixese lo que hallaba. Él
+                    otorgó en todo lo que el otro había dicho: <milestone unit="said"
+                        resp="#Antales" ana="start"/>Sino tanto que mis suertes me muestran que es
+                    ya hecho y por aquél que te más ama y esto me hace maravillar porque aún ahora
+                    no es perdido nada de tu reino y si lo fuere no sería por persona que te mucho
+                        amasse.<milestone unit="said" ana="end"/> Oído esto por el rey sonrióse un
+                    poco que le pareció que no había dicho nada. Mas Ungan el Picardo que mucho más
+                    que ellos sabía bajó la cabeça y rióse más de coraçón aunque lo hacía pocas
+                    vezes que de su natural era hombre esquivo y triste. El rey miró en ello y
+                    díxole. <milestone unit="said" resp="#Perion" ana="start"/>Ahora maestro dezid
+                    lo que supiereis.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Ungan" ana="start"/>Señor<milestone unit="said"
+                        ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> por ventura yo
+                    vi cosas que no es menester de las manifestar sino a ti solo.<milestone
+                        unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Perion"/>Pues sálganse todos<milestone
+                        unit="said" ana="end"/> dixo él y cerrando las puertas quedaron ambos. El
+                    maestro dixo. <milestone unit="said" resp="#Ungan" ana="start"/>Sabe rey que de
+                    lo que yo me reía fue de aquellas palabras que en poco tuvisteis que dixo que ya
+                    era hecho por aquél que te más ama. Ahora quiero decir aquello que muy
+                    encubierto tienes y piensas que ninguno lo sabe. Tú amas en tal lugar donde ya
+                    la voluntad cumpliste y la que más es maravillosamente hermosa<milestone
+                        unit="said" ana="intStart"/> y díjole todas las facciones de ella como si
+                    delante la tuviera.<milestone unit="said" ana="intEnd"/>Y de la cámara en que os
+                    veíais encerrados esto claro lo sabéis y cómo ella queriendo quitar de vuestro
+                    coraçón y del suyo aquellas cuitas y congojas quiso sin vuestra sabiduría entrar
+                    por la puerta de que te no catabas y las manos que a los costados metía es el
+                    juntamiento de ambos y el coraçón que sacaba significa hijo o hija que habrá de
+                        vos.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Perion" ana="start"/>Pues maestro <milestone
+                        unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                    qué es lo que muestra que lo echaba en un río?. <milestone unit="said"
+                        resp="#Ungan" ana="start"/>Esso señor no lo quieras saber que no te tiene
+                    pro alguno.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Perion"/>Todavía<milestone unit="said"
+                        ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> me lo dezid y
+                    no temáis.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Ungan"/>Pues que assí te place
+                        <milestone unit="said" ana="intStart"/>dixo Ungan<milestone unit="said"
+                        ana="intEnd"/> quiero de ti fianza que por cosa que aquí diga no habrás saña
+                    de aquélla que tanto te ama en ninguna sazón.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Perion" ana="start"/>Yo lo prometo<milestone
+                        unit="said" ana="end"/> dixo el rey. <milestone unit="said" resp="#Ungan"
+                        ana="start"/>Pues sabe <milestone unit="said" ana="intStart"/>dixo
+                        él<milestone unit="said" ana="intEnd"/> que lo que en el río veían lanzar es
+                    que será assí echado el hijo que de vos hubiere.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Perion" ana="start"/>Y el otro coraçón <milestone
+                        unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                    que me queda qué será?.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Ungan" ana="start"/>Bien debes entender <milestone
+                        unit="said" ana="intStart"/>dixo el maestro<milestone unit="said"
+                        ana="intEnd"/> lo uno por lo otro que es que habréis otro hijo y por alguna
+                    guisa lo perderéis contra la voluntad de aquélla que ahora os hará el primero
+                        perder.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Perion" ana="start"/>Grandes cosas me habéis dicho
+                        <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
+                        ana="intEnd"/> y a Dios plega por la su merced que lo postrimero de los
+                    hijos no salga tan verdadero como lo que de la dueña que yo amo me
+                        dixisteis.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Ungan" ana="start"/>Las cosas ordenadas y
+                    permitidas de Dios <milestone unit="said" ana="intStart"/>dixo el
+                        maestro<milestone unit="said" ana="intEnd"/> no las puede ninguno estorbar
+                    ni saber en qué pararán y por esto los hombres no se deben contristar ni alegrar
+                    con ellas porque muchas vezes assí lo malo como lo bueno que de ellas a su
+                    parecer ocurrirles puede suceder de otra forma que ellos esperaban. Y tú noble
+                    rey perdiendo de tu memoria todo esto que aquí con tanta afición has querido
+                    saber recoge en ella de siempre rogar a Dios que en esto y en todo lo ál haga lo
+                    que su santo servicio sea porque aquélla sin duda es la mejor.<milestone
+                        unit="said" ana="end"/> El rey Perión quedó muy satisfecho de lo que deseaba
+                    saber y mucho más de este consejo de Ungan el Picardo y siempre cabe sí lo tuvo
+                    haciéndole mucho bien y mercedes. Y saliendo al palacio halló una donzella más
+                    guarnida de atavíos que hermosa y díxole. <milestone unit="said" resp="#anon"
+                        ana="start"/>Sabe rey Perión que cuando tu pérdida cobrares perderá el
+                    señorío de Irlanda su flor y fuese que no la pudo detener.<milestone unit="said"
+                        ana="end"/> Assí quedó el rey pensando en esto y otras cosas. El autor deja
+                    de hablar de esto y torna al donzel que Gandales criaba el cual el Donzel del
+                    Mar se llamaba que assí le pusieron nombre y criábasse con mucho cuidado de
+                    aquel cavallero don Gandales y de su mujer y hacíasse tan hermoso que todos los
+                    que lo veían se maravillaban. Y un día cabalgó Gandales armado que en gran
+                    manera era buen cavallero y muy esforzado y siempre se acompañara con el rey
+                    Languines en el tiempo que las armas seguían. Y aunque el rey de seguirlas
+                    dejasse no lo hizo él assí antes las usaba mucho y yendo assí armado como os
+                    digo halló una donzella que le dixo. <milestone unit="said" ana="start"
+                        resp="#anon"/>Ay Gandales si supiesen muchos altos hombres lo que yo ahora
+                    cortarte habían la cabeça.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Gandales"/>Por qué?<milestone
+                        unit="said" ana="end"/> dixo él. <milestone unit="said" resp="#anon"
+                        ana="start"/>Porque tú guardas la su muerte<milestone unit="said" ana="end"
+                    /> dixo ella. Y sabed que ésta era la donzella que dixo el rey Perión que cuando
+                    fuese su pérdida cobrada perdería el señorío de Irlanda su flor. Gandales que no
+                    lo entendía dixo. <milestone unit="said" ana="start" resp="#Gandales"/>Donzella
+                    por Dios os ruego que me digáis qué es esso.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#anon" ana="start"/>No te lo diré <milestone
+                        unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
+                    mas todavía assí vendrá.<milestone unit="said" ana="end"/> Y partiéndose de él
+                    se fue su vía. Gandales quedó cuidando en lo que dixera y a cabo de una pieza
+                    viola tornar muy aína en su palafrén diciendo a grandes voces: <milestone
+                        unit="said" ana="start" resp="#anon"/>Ay Gandales acórreme que muerta
+                        soy.<milestone unit="said" ana="end"/> Él cató y vio venir en pos de ella un
+                    cavallero armado con su espada en la mano y Gandales hirió el cavallo de las
+                    espuelas y metióse entre ambos y dixo. <milestone unit="said" ana="start"
+                        resp="#Gandales"/>Don cavallero a quien Dios dé mala ventura qué queréis a
+                    la donzella?<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>Cómo<milestone unit="said"
+                        ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> queréis la vos
+                    amparar a ésta por engaño me trae perdido el cuerpo y el alma?. <milestone
+                        unit="said" ana="start" resp="#Gandales"/>De esso no sé nada <milestone
+                        unit="said" ana="intStart"/>dixo Gandales<milestone unit="said" ana="intEnd"
+                    /> mas ampararos la he yo porque mujeres no han de ser por esta vía castigadas
+                    aunque lo merezcan.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>Ahora lo veréis<milestone
+                        unit="said" ana="end"/> dixo el cavallero y metiendo su espada en la vaina
+                    tornóse a una arboleda donde estava una donzella muy hermosa que le dio un
+                    escudo y una lanza y diose a correr contra Gandales y Gandales contra él e
+                    hiriéronse con las lanzas en los escudos assí que volaron en piezas y juntáronse
+                    de los cavallos y de los cuerpos de consumo tan bravamente que cayeron a sendas
+                    partes y los cavallos con ellos y cada uno se levantó lo más presto que pudo y
+                    hubieron su batalla assí a pie mas no duró mucho que la donzella que huía se
+                    metió entre ellos y dixo. <milestone unit="said" ana="start" resp="#anon"
+                    />Cavalleros estad quedos.<milestone unit="said" ana="end"/> El cavallero que
+                    tras ella venía quitóse luego afuera y ella le dixo. <milestone unit="said"
+                        ana="start" resp="#anon"/>Venid a mi obediencia.<milestone unit="said"
+                        ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>Iré de grado <milestone
+                        unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
+                    como a la cosa del mundo que más amo<milestone unit="said" ana="end"/> y echando
+                    el escudo del cuello y la espada de la mano hincó los hinojos ante ella y
+                    Gandales fue ende mucho maravillado y ella dixo al cavallero que ante sí tenía:
+                        <milestone unit="said" ana="start" resp="#anon"/>Decid a aquella donzella de
+                    so el árbol que se vaya luego si no la tajaréis la cabeça.<milestone unit="said"
+                        ana="end"/> El cavallero se tornó contra y ella díxole. <milestone
+                        unit="said" resp="#anon" ana="start"/>Ay mala yo me maravillo que la cabeça
+                    no te tiro.<milestone unit="said" ana="end"/> La donzella vio que su amigo era
+                    encantado y subió en su palafrén llorando y fuese luego. La otra donzella dixo.
+                        <milestone unit="said" resp="#anon" ana="start"/>Gandales yo os agradezco lo
+                    que hicisteis id a buena ventura que si este cavallero me erró yo le
+                        perdono.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Gandales"/>De vuestro perdón no sé
+                        <milestone unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
+                        ana="intEnd"/> mas la batalla no le quito si no se otorga por vencido.
+                        <milestone unit="said" resp="#anon" ana="start"/>Quitaréis <milestone
+                        unit="said" ana="intStart"/>dixo la donzella<milestone unit="said"
+                        ana="intEnd"/> que si vos fueseis el mejor cavallero del mundo haría yo que
+                    él os venciese. <milestone unit="said" resp="#Gandales" ana="start"/>Vos haréis
+                    lo que pudiereis<milestone unit="said" ana="intStart"/>dixo él<milestone
+                        unit="said" ana="intEnd"/> mas yo le quitaré si no me decís por qué
+                    dixisteis que guardaba muerte de muchos altos hombres.<milestone unit="said"
+                        ana="end"/>
+                    <milestone unit="said" resp="#anon" ana="start"/>Antes os lo diré <milestone
+                        unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
+                    porque a este cavallero amo yo como a mi amigo y a ti como a mi
+                        ayudador.<milestone unit="said" ana="intStart"/> Entonces le apartó y
+                        díxole.<milestone unit="said" ana="intEnd"/> Tú me harás pleito como leal
+                    cavallero que otro por ti nunca lo sabrá hasta que te lo yo mande.<milestone
+                        unit="said" ana="intStart"/> Él assí lo otorgando díxole. <milestone
+                        unit="said" ana="intEnd"/>Dígote de aquél que hallaste en la mar que será
+                    flor de los cavalleros de su tiempo. Éste hará estremecer los fuertes éste
+                    començará todas las cosas y acabará a su honra en que los otros fallecieron éste
+                    hará tales cosas que ninguno cuidaría que pudiesen ser començadas ni acabadas
+                    por cuerpo de hombre. Éste hará los soberbios ser de buen talante éste habrá
+                    crudeza de coraçón contra aquéllos que se lo merecieren y aún más te digo: que
+                    éste será el cavallero del mundo que más lealmente mantendrá amor y amará en tal
+                    lugar cual conviene a la su alta proeza; y sabe que viene de reyes de ambas
+                    partes. Ahora te ve <milestone unit="said" ana="intStart"/>dixo la
+                        donzella<milestone unit="said" ana="intEnd"/> y cree firmemente que todo
+                    acaecerá como te lo digo y si lo descubres venirte ha por ello más de mal que de
+                        bien.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Ay señor <milestone
+                        unit="said" ana="intStart"/>dixo Gandales<milestone unit="said" ana="intEnd"
+                    /> ruégoos por Dios que me digáis dónde os hallaré para hablar con vos en su
+                        hacienda.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>Esto no sabrás tú por mí ni por
+                    otro dixo ella.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Pues dezidme vuestro nombre
+                    por la fe que debéis a la cosa del mundo que más amáis.<milestone unit="said"
+                        ana="end"/>
+                    <milestone unit="said" resp="#Urganda" ana="start"/>Tú me conjuras tanto que te
+                    lo diré pero la cosa que yo más amo sé que más me desama que en el mundo sea y
+                    éste es aquel muy hermoso cavallero con quien te combatiste mas no dejo por esso
+                    yo de lo traer a mi voluntad sin que él otra cosa hacer pueda. Él sabe que mi
+                    nombre es Urganda la Desconocida ahora me cata bien y conóceme si
+                        pudieres.<milestone unit="said" ana="end"/> Y él que la vio donzella de
+                    primero que a su parecer no passaba de diez y ocho años viola tan vieja y tan
+                    lasa que se maravilló como en el palafrén se podía tener y començóse a santiguar
+                    de aquella maravilla. Cuando ella assí lo vio metió mano a una bujeta que en el
+                    regazo traía y poniendo la mano por sí tomó como de primero y dixo. <milestone
+                        resp="#Urganda" unit="said" ana="start"/>Parécete que me hallarías aunque me
+                    buscasses? Pues yo te digo que no tomes por ello afán que si todos los del mundo
+                    me demandassen no me hallarían si yo no quisiese.<milestone unit="said"
+                        ana="end"/>
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Assí Dios me salve
+                        <milestone unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
+                        ana="intEnd"/> yo assí lo creo. Mas ruégoos por Dios que os membréis del
+                    donzel que es desamparado de todos sino de mí.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Urganda" ana="start"/>No pienses en esso
+                        <milestone unit="said" ana="intStart"/>dixo Urganda<milestone unit="said"
+                        ana="intEnd"/> que esse desamparado será amparo y reparo de muchos y yo lo
+                    amo más que tú piensas como quien atiende de él cedo haber dos ayudas en que
+                    otro no podría poner consejo y él recibirá dos galardones donde será muy alegre
+                    y ahora te encomiendo a Dios que irme quiero y más aína me verás que
+                        piensas.<milestone unit="said" ana="end"/> Y tomó el yelmo y escudo de su
+                    amigo para se lo llevar. Y Gandales que la cabeça le vio desarmada pareció el
+                    más hermoso cavallero que nunca viera. Y assí se partieron de en uno. Donde
+                    dejaremos a Urganda ir con su amigo y contarse ha de don Gandales que partido de
+                    Urganda tornóse para su castillo y en el camino halló la donzella que andaba con
+                    el amigo de Urganda que estava llorando cabe una fuente y como vio a Gandales
+                    conociólo y dixo. <milestone unit="said" ana="start" resp="#anon"/>Qué es esso
+                    cavallero cómo no os hizo matar aquella alevosa a quién ayudabais?<milestone
+                        unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Alevosa no es ella
+                        <milestone unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
+                        ana="intEnd"/> mas buena y sabida y si fueseis cavallero yo os haría comprar
+                    bien la locura que dixisteis.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>Ay mezquina <milestone
+                        unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
+                    cómo sabe a todos engañar.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Gandales"/>Y qué engaño os
+                        hizo?<milestone unit="said" ana="end"/> dixo él. <milestone unit="said"
+                        ana="start" resp="#anon"/>Que me tomó aquel hermoso cavallero que visteis
+                    que por su grado más conmigo haría vida que con ella.<milestone unit="said"
+                        ana="end"/>
+                    <milestone unit="said" ana="start" resp="#Gandales"/>Esse engaño assí lo
+                        hizo<milestone unit="said" ana="intStart"/>dixo él<milestone unit="said"
+                        ana="intEnd"/> pues que fuera de razón y de conciencia vos y ella lo tenéis
+                    según me parece.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>Pero comoquiera que sea
+                        <milestone unit="said" ana="intStart"/>dixo ella<milestone unit="said"
+                        ana="intEnd"/> si puedo yo me vengaré.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Desvario pensáis <milestone
+                        unit="said" ana="intStart"/>dixo Gandales<milestone unit="said" ana="intEnd"
+                    /> en querer enojar aquélla que no solamente antes que lo obréis más que lo
+                    penséis lo sabrá.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#anon" ana="start"/>Ahora os id <milestone
+                        unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
+                    que muchas vezes los que más saben caen en los lazos más peligrosos.<milestone
+                        unit="said" ana="end"/> Gandales la dejó y fue como antes su camino cuidando
+                    en la hacienda de su donzel y llegando al castillo antes que se desarmasse le
+                    tomó en sus brazos y començóle a besar viniéndole las lágrimas a los ojos
+                    diciendo en su coraçón: <milestone resp="#Gandales" unit="said" ana="start"/>Mi
+                    hermoso hijo si querrá Dios que yo llegue al vuestro buen tiempo.<milestone
+                        unit="said" ana="end"/> En esta sazón había el donzel tres años y su gran
+                    hermosura por maravilla era mirada y como vio a su. amor llorar púsole las manos
+                    ante los ojos como que se los quería limpiar de que Gandales fue alegre
+                    considerando que siendo en más edad más se dolería de su tristeza y púsole en
+                    tierra y fuese a desarmar y dende adelante con mejor voluntad curaba de él tanto
+                    que llegó a los cinco años. Entonces le hizo un arco a su medida y otro a su
+                    hijo Gandalín y hacíalo tirar ante sí y assí lo fue criando hasta la edad de
+                    siete años. Pues a esta sazón el rey Languines passando por su reino con su
+                    mujer y toda la casa de una villa a otra y vínose al castillo de Gandales que
+                    por ahí era el camino donde fue muy bien festejado; mas a su Donzel del Mar y a
+                    su hijo Gandalín y a otros donzeles mandólos meter en un corral porque no le
+                    viesen y la reina que en lo más alto de la casa posaba mirando de una finiestra
+                    vio los donzeles que con sus arcos tiraban y al Donzel del Mar entre ellos tan
+                    apuesto y tan hermoso que mucho fue de lo ver maravillada y violo mejor vestido
+                    que todos assí que parecía el señor y de que no vio ninguno de la compañía de
+                    don Gandales a quien preguntasse llamó sus dueñas y donzellas y dixo. <milestone
+                        unit="said" resp="#Guirnalda" ana="start"/>Venid y veréis la más hermosa
+                    criatura que nunca fue vista.<milestone unit="said" ana="end"/> Pues estándole
+                    mirando todos como a una cosa muy extraña y crecida en hermosura el Donzel hubo
+                    sed y poniendo su arco y saetas en tierra fuese a un caño de agua a beber. Y un
+                    donzel mayor que los otros tomó su arco y quiso tirar con él mas Gandalín no lo
+                    consintió y el otro empujólo recio. Gandalín dixo. <milestone resp="#Gandalin"
+                        unit="said" ana="start"/>Acorredme Donzel del Mar<milestone unit="said"
+                        ana="end"/> y como lo oyó dejó de beber y fuese contra el gran donzel y él
+                    le dejó el arco y tomólo con su mano y diole con él por cima de la cabeça gran
+                    golpe según su fuerza y trabáronse ambos assí que el gran donzel malparado
+                    començó a huir y encontró con el ayo que los guardaba y dixo. <milestone
+                        unit="said" ana="start" resp="#anon"/>Qué has?<milestone unit="said"
+                        ana="end"/>
+                    <milestone unit="said" ana="start" resp="#anon"/>El Donzel del Mar <milestone
+                        unit="said" ana="intStart"/>dixo<milestone unit="said" ana="intEnd"/> me
+                        hirió.<milestone unit="said" ana="end"/> Entonces fue a él con la correa y
+                    dixo. <milestone unit="said" ana="start" resp="#anon"/>Cómo Donzel del Mar ya
+                    sois osado de herir los mozos?; ahora veréis cómo os castigaré por
+                        ello.<milestone unit="said" ana="end"/> El hincó los hinojos ante él y dixo.
+                        <milestone unit="said" ana="start" resp="#Amadis"/>Señor más quiero que me
+                    vos hiráis que delante de mí sea ninguna osado de hacer mal a mi
+                        hermano<milestone unit="said" ana="end"/> y viniéronle las lágrimas a los
+                    ojos y el ayo hubo mancilla y díxole. <milestone unit="said" ana="start"
+                        resp="#anon"/>Si otra vez lo hacéis yo os haré bien llorar.<milestone
+                        unit="said" ana="end"/> La reina vio bien todo esto y maravillóse por qué a
+                    aquél llamaban Donzel del Mar. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

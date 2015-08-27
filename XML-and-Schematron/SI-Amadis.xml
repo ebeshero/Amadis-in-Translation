@@ -358,9 +358,20 @@
                      gets Amadís killed and sends misleading letters in her quest to restore her
                      niece to the throne of Sobradisa.</note>
                </person>
-
                <person xml:id="Galaor">
                   <persName>Galaor</persName>
+               </person>
+               <person xml:id="Ungan">
+                  <persName>Ungan</persName>
+                  <persName>Ungan el Picardo</persName>
+                  <persName>el maestro</persName>
+               </person>
+               <person xml:id="Alberto">
+                  <persName>Alberto de Campania</persName>
+                  <persName>el clérigo</persName>
+               </person>
+               <person xml:id="Antales">
+                  <persName>Antales</persName>
                </person>
                <person xml:id="anon">
                   <persName>Squire_1</persName>
