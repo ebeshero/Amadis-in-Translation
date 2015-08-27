@@ -350,7 +350,6 @@
                   <persName>Dramís</persName>
                   <note resp="#set">Dramis is the son of Abiseos, usurper of Briolanja's kingdom of
                      Sobradisa.</note>
-
                </person>
                <person xml:id="Briolanja_aunt">
                   <persName>la dueña</persName>
@@ -365,13 +364,16 @@
                   <persName>Ungan</persName>
                   <persName>Ungan el Picardo</persName>
                   <persName>el maestro</persName>
+                  <note>Wisest clergyman in Perion's kingdom and counselor of the king.</note>
                </person>
                <person xml:id="Alberto">
                   <persName>Alberto de Campania</persName>
-                  <persName>el clérigo</persName>
+                  <persName>el clérigo</persName>                  
+                  <note>Another clergyman, counselor/adviser of Perion.</note>
                </person>
                <person xml:id="Antales">
                   <persName>Antales</persName>
+                  <note>Another clergyman, counselor/adviser of Perion.</note>
                </person>
                <person xml:id="anon">
                   <persName>Squire_1</persName>
@@ -400,6 +402,7 @@
                </place>
                <place xml:id="Sobradisa">
                   <placeName>Sobradisa</placeName>
+                  <note>Briolanja's kingdom.</note>
                </place>
                <place xml:id="Serolis">
                   <placeName>Sérolis</placeName>
