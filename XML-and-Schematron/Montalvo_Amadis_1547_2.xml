@@ -75,55 +75,57 @@
                     delante de ellos lo diré<milestone unit="said" ana="end"/>:
                     <milestone unit="said" resp="#Perion" ana="start"/>vengan<milestone unit="said"
                         ana="end"/> dixo el rey: e hízolos llamar. Pues siendo assí todos juntos
-                    aquel dixo. <!--Fiquei aqui, página 11, coluna b-->
+                    aquel dixo.
                     <milestone unit="said" resp="#Alberto" ana="start"/>Señor yo te diré
-                    lo que entiendo. A mí parece de la cámara que era bien cerrada y que viste por
-                    la menor puerta de ella entrar significa estar éste tu rey no cerrado y guardado
-                    que por alguna parte de él te entrara alguno para te algo tomar y assí como la
-                    mano te metía por los costados y sacaba el coraçón y lo echaba en un río assí te
-                    tomará villa o castillo y lo pondrá en poder de quien haber no lo
-                        podrás.<milestone unit="said" ana="end"/>
-                    <milestone resp="#Perion" unit="said" ana="start"/>Y el otro coraçón <milestone
+                    lo que entiendo. A mí parece de la cámara que era bien cerrada: y que viste por
+                    la menor puerta de ella entrar: significa estar este tu reyno cerrado y guardado
+                    que por alguna parte de él te entrará alguno para te tomar algo: y assí como la
+                    mano te metía por los costados y sacaba el coraçón y lo echava en un río/ assí te
+                    tomará villa o castillo y lo porná en poder de quien aver no lo
+                        podrás:<milestone unit="said" ana="end"/>
+                    <milestone resp="#Perion" unit="said" ana="start"/>y el otro coraçón <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
-                    que decía que me quedaba y me lo haría perder sin su grado?<milestone
+                    que dezía que me quedava/ y me lo haría perder sin su grado.<milestone
                         unit="said" ana="end"/>
                     <milestone unit="said" resp="#Alberto" ana="start"/>Esso <milestone unit="said"
                         ana="intStart"/>dixo el maestro<milestone unit="said" ana="intEnd"/> parece
-                    que otro entrará en tu tierra y te tomar lo semejante más constreñido por fuerza
-                    de alguno que se lo mande que de su voluntad y en este caso no sé señor que más
-                    os diga.<milestone unit="said" ana="end"/> El rey mandó al otro que <persName
-                        ref="#Antales">Antales</persName> avía nombre que dixese lo que hallaba. Él
+                    que otro entrará en tu tierra y te tomar lo semejante más constreñido por fuerça
+                    de alguno que se lo mande que de su voluntad: y en este caso no sé señor que más
+                    vos diga.<milestone unit="said" ana="end"/> El rey mandó al otro que <persName
+                        ref="#Antales">Antales</persName> avía nombre que dixesse lo que hallava. Él
                     otorgó en todo lo que el otro avía dicho: <milestone unit="said" resp="#Antales"
-                        ana="start"/>Sino tanto que mis suertes me muestran que es ya hecho y por
-                    aquél que te más ama y esto me hace maravillar porque aún ahora no es perdido
-                    nada de tu reino y si lo fuere no sería por persona que te mucho
-                        amasse.<milestone unit="said" ana="end"/> Oído esto por el rey sonrióse un
-                    poco que le pareció que no avía dicho nada. Mas Ungan el Picardo que mucho más
-                    que ellos sabía bajó la cabeça y rióse más de coraçón aunque lo hacía pocas
+                        ana="start"/>Sino tanto que mis suertes me muestran que es ya hecho: y por
+                    aquel que más te ama: y esto me haze maravillar: porque aún agora no es perdido
+                    nada de tu reino: y si lo fuere no sería por persona que mucho
+                        te ama.<milestone unit="said" ana="end"/> Oído esto por el rey sonrióse un
+                    poco que le paresció que no avía dicho nada. Mas Ungan el Picardo que mucho más
+                    que ellos sabía baxó la cabeça y rióse más de coraçón: aunque lo hazía pocas
                     vezes que de su natural era hombre esquivo y triste. El rey miró en ello y
-                    díxole. <milestone unit="said" resp="#Perion" ana="start"/>Ahora maestro dezid
-                    lo que supiereis.<milestone unit="said" ana="end"/>
+                    díxole. <milestone unit="said" resp="#Perion" ana="start"/>Agora maestro dezid
+                    lo que supierdes.<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Ungan" ana="start"/>Señor<milestone unit="said"
                         ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> por ventura yo
-                    vi cosas que no es menester de las manifestar sino a ti solo.<milestone
+                    vi cosas que no es menester de las manifestar sino a ti solo:<milestone
                         unit="said" ana="end"/>
-                    <milestone unit="said" ana="start" resp="#Perion"/>Pues sálganse todos<milestone
-                        unit="said" ana="end"/> dixo él y cerrando las puertas quedaron ambos. El
-                    maestro dixo. <milestone unit="said" resp="#Ungan" ana="start"/>Sabe rey que de
-                    lo que yo me reía fue de aquellas palabras que en poco tuvisteis que dixo que ya
-                    era hecho por aquél que te más ama. Ahora quiero decir aquello que muy
-                    encubierto tienes y piensas que ninguno lo sabe. Tú amas en tal lugar donde ya
-                    la voluntad cumpliste y la que más es maravillosamente hermosa<milestone
-                        unit="said" ana="intStart"/> y díjole todas las facciones de ella como si
+                    <milestone unit="said" ana="start" resp="#Perion"/>pues sálganse todos<milestone
+                        unit="said" ana="end"/> dixo él: y cerrando las puertas quedaron ambos. El
+                    maestro dixo. <milestone unit="said" resp="#Ungan" ana="start"/>Sabed rey que de
+                    lo que yo me reía fue de aquellas palabras que en poco tuviste: que dixo que ya
+                    era hecho por aquél que más te ama. Agora te quiero dezir aquello que muy
+                    encubierto tienes: y piensas que ninguno lo sabe. Tú amas en tal lugar donde ya
+                    la voluntad <sic>compliste</sic>/ y la que más es maravillosamente fermosa<milestone
+                        unit="said" ana="intStart"/>: y díxole todas las faiciones de ella como si
                     delante la tuviera.<milestone unit="said" ana="intEnd"/>Y de la cámara en que os
-                    veíais encerrados esto claro lo sabéis y cómo ella queriendo quitar de vuestro
-                    coraçón y del suyo aquellas cuitas y congojas quiso sin vuestra sabiduría entrar
-                    por la puerta de que te no catabas y las manos que a los costados metía es el
-                    juntamiento de ambos y el coraçón que sacaba significa hijo o hija que habrá de
+                    veíades encerrado/ esto claro lo sabéis: y cómo ella queriendo quitar de vuestro
+                    coraçón y del suyo aquellas cuitas y congoxas quiso sin vuestra sabiduría entrar
+                    por la puerta de que te no catavas: y las manos que a los costados metía: es el
+                    juntamiento de ambos: y el coraçón que sacava significa hijo o hija que avrá de
                         vos.<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Perion" ana="start"/>Pues maestro <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
-                    qué es lo que muestra que lo echaba en un río?. <milestone unit="said"
+                    qué es lo que muestra que lo echaba en un río.<milestone unit="said" ana="end"/>
+<!--                    Fiquei aqui, página 12-->
+                    <milestone unit="said"
                         resp="#Ungan" ana="start"/>Esso señor no lo quieras saber que no te tiene
                     pro alguno.<milestone unit="said" ana="end"/>
                     <milestone unit="said" ana="start" resp="#Perion"/>Todavía<milestone unit="said"
