@@ -74,6 +74,18 @@
          </div>
          <div type="fictional_characters">
             <listPerson>
+               <person xml:id="Arthur">
+                  <persName>King Arthur</persName>
+                  <!--ebb 2015-09-14: I'm not sure this entry is necessary, but I'm adding it just in case he comes up again later.-->
+                  <note resp="#ebb">Not a central character, but referenced as a great historical deliverer, repealing
+                  unjust laws such as the edict of death to a woman pregnant out of wedlock.</note>
+               </person>
+               <person xml:id="Floyon">
+                  <!--ebb 2015-09-14: I'm not sure this entry is necessary, but I'm adding it just in case he comes up again later.-->
+                  <persName>Floyon</persName>
+                  <note resp="#ebb">Not a central character. <persName ref="#Arthur">King Arthur</persName> revoked the law condemning unwed mothers to death when he defeated Floyon.</note>
+               </person>
+              
                <person xml:id="Brisena">
                   <persName>Brisena</persName>
 
@@ -410,7 +422,23 @@
                </place>
             </listPlace>
          </div>
-         <div type="geographical_places"/>
+         <div type="geographical_places">
+            <listPlace><place xml:id="Paris">
+               <placeName>Paris</placeName>
+               <note resp="#ebb"><persName ref="#Arthur">King Arthur</persName> is said to have defeated <persName ref="#Floyon">Floyon</persName> in front of the gates of Paris. </note>
+            </place>
+               <place xml:id="littleBritain">
+                  <placeName>Lesser Britain</placeName>
+                  <placeName>Little Britain</placeName>
+                  <note resp="#ebb"><!--ebb Are these indeed identical?--></note>
+               </place>
+            
+            <place xml:id="Scotland">
+               <placeName>Scotland</placeName>
+               <note resp="#ebb">The Knight <persName ref="#Gandales">Gandales</persName> carries the infant <persName ref="#Amadis">Amadis</persName> by sea to Scotland, to the town <placeName ref="#Antalia">Antalia</placeName>.</note>
+            </place>
+            </listPlace>
+         </div>
          <div type="publications">
             <listBibl>
 
