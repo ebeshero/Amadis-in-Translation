@@ -258,7 +258,8 @@
                      unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c62">
-                  <sic>Estonces</sic> se amorteció de tal guisa:</cl>
+                  Estonces<!-- st 9.13.15 estonces is an archaic but correct spelling of entonces-->
+                  se amorteció de tal guisa:</cl>
                <cl xml:id="M20_p1_c63">que de todo en todo cuidaron que muerta fuesse:</cl>
                <cl xml:id="M20_p1_c64">y aquellos sus muy hermosos cabellos tenía muy rebueltos y
                   tendidos por la tierra:</cl>
