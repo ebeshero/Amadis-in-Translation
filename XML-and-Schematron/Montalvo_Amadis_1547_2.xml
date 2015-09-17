@@ -61,9 +61,7 @@
                     <milestone unit="said" resp="#Perion" ana="start"/>Assí sea <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"
                     />/ y tomad .xii.
-                    <!--heb: I obviously haven't included these dots preceding and following the numbers 
-                        as sings for a new clause, but they should be included as a new use of the period,
-                        right?-->días
+                    <!--st-We're going to see more of this. This is just the pseudomarkup for roman numerals in 16th c printing. It's to let the reader know it's a number not a word. -->días
                     para ello<milestone unit="said" ana="end"/>: y mandólos apartar que se no
                     hablassen ni viessen en aquel tiempo. Ellos echaron sus juizios y firmezas cada
                     uno como mejor supo: y llegado el tiempo viniéronse para el rey: el cual tomó
