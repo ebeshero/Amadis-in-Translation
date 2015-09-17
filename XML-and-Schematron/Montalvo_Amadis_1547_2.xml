@@ -38,7 +38,7 @@
                     sentía que mucho de coraçón amava/ como por el sueño que ya oísteis que en tal
                     sazón le sobreviniera. Pues llegado en su reino embió por todos sus ricos
                     hombres/ y mandó a los obispos que consigo traxessen los más sabidores clérigos
-                    que en sus tierras avía esto: para que aquel sueño le declarassen. Como sus
+                    que en sus tierras avía: esto para que aquel sueño le declarassen. Como sus
                     vassallos de su venida supieron: assí los llamados como muchos de los otros a él
                     se vinieron con gran desseo de lo ver que de todos era muy amado: y muchas vezes
                     eran sus coraçones atormentados: oyendo las grandes afrentas en armas a que él
@@ -61,46 +61,47 @@
                     <milestone unit="said" resp="#Perion" ana="start"/>Assí sea <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"
                     />/ y tomad .xii.
-                    <!--st-We're going to see more of this. This is just the pseudomarkup for roman numerals in 16th c printing. It's to let the reader know it's a number not a word. -->días
+                    <!--st-I agree with how you transcribe this. It is just the pseudomarkup for roman numerals in 16th c printing and we are likely to see it again. -->días
                     para ello<milestone unit="said" ana="end"/>: y mandólos apartar que se no
                     hablassen ni viessen en aquel tiempo. Ellos echaron sus juizios y firmezas cada
                     uno como mejor supo: y llegado el tiempo viniéronse para el rey: el cual tomó
                     aparte a <persName ref="#Alberto">Alberto de Campania</persName>: y díxole.
                         <milestone unit="said" resp="#Perion" ana="start"/>Ya sabéis lo que me
-                    jurastes: agora dezid<milestone unit="said" ana="end"/><choice><sic/><corr>.</corr></choice><milestone unit="said"
-                        resp="#Alberto" ana="start"/>Pues vengan los otros <milestone unit="said"
-                        ana="intStart"/>dixo el clérigo<milestone unit="said" ana="intEnd"/>: y
-                    delante de ellos lo diré<milestone unit="said" ana="end"/>:
-                    <milestone unit="said" resp="#Perion" ana="start"/>vengan<milestone unit="said"
-                        ana="end"/> dixo el rey: e hízolos llamar. Pues siendo assí todos juntos
-                    aquel dixo.
-                    <milestone unit="said" resp="#Alberto" ana="start"/>Señor yo te diré
-                    lo que entiendo. A mí parece de la cámara que era bien cerrada: y que viste por
-                    la menor puerta de ella entrar: significa estar este tu reyno cerrado y guardado
-                    que por alguna parte de él te entrará alguno para te tomar algo: y assí como la
-                    mano te metía por los costados y sacaba el coraçón y lo echava en un río/ assí te
-                    tomará villa o castillo y lo porná en poder de quien aver no lo
-                        podrás:<milestone unit="said" ana="end"/>
+                    jurastes: agora dezid<milestone unit="said" ana="end"/><choice>
+                        <sic/>
+                        <corr>.</corr>
+                    </choice><milestone unit="said" resp="#Alberto" ana="start"/>Pues vengan los
+                    otros <milestone unit="said" ana="intStart"/>dixo el clérigo<milestone
+                        unit="said" ana="intEnd"/>: y delante de ellos lo diré<milestone unit="said"
+                        ana="end"/>: <milestone unit="said" resp="#Perion" ana="start"
+                        />vengan<milestone unit="said" ana="end"/> dixo el rey: e hízolos llamar.
+                    Pues siendo assí todos juntos aquel dixo. <milestone unit="said" resp="#Alberto"
+                        ana="start"/>Señor yo te diré lo que entiendo. A mí parece de la cámara que
+                    era bien cerrada: y que viste por la menor puerta de ella entrar: significa
+                    estar este tu reyno cerrado y guardado que por alguna parte de él te entrará
+                    alguno para te tomar algo: y assí como la mano te metía por los costados y
+                    sacava el coraçón y lo echava en un río/ assí te tomará villa o castillo y lo
+                    porná en poder de quien aver no lo podrás:<milestone unit="said" ana="end"/>
                     <milestone resp="#Perion" unit="said" ana="start"/>y el otro coraçón <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
                     que dezía que me quedava/ y me lo haría perder sin su grado.<milestone
                         unit="said" ana="end"/>
                     <milestone unit="said" resp="#Alberto" ana="start"/>Esso <milestone unit="said"
                         ana="intStart"/>dixo el maestro<milestone unit="said" ana="intEnd"/> parece
-                    que otro entrará en tu tierra y te tomar lo semejante más constreñido por fuerça
+                    que otro entrará en tu tierra a te tomar lo semejante más constreñido por fuerça
                     de alguno que se lo mande que de su voluntad: y en este caso no sé señor que más
                     vos diga.<milestone unit="said" ana="end"/> El rey mandó al otro que <persName
-                        ref="#Antales">Antales</persName> avía nombre que dixesse lo que hallava. Él
-                    otorgó en todo lo que el otro avía dicho: <milestone unit="said" resp="#Antales"
+                        ref="#Anteles">Anteles</persName> avía nombre que dixesse lo que hallava. Él
+                    otorgó en todo lo que el otro avía dicho: <milestone unit="said" resp="#Anteles"
                         ana="start"/>Sino tanto que mis suertes me muestran que es ya hecho: y por
                     aquel que más te ama: y esto me haze maravillar: porque aún agora no es perdido
-                    nada de tu reino: y si lo fuere no sería por persona que mucho
-                        te ama.<milestone unit="said" ana="end"/> Oído esto por el rey sonrióse un
-                    poco que le paresció que no avía dicho nada. Mas Ungan el Picardo que mucho más
-                    que ellos sabía baxó la cabeça y rióse más de coraçón: aunque lo hazía pocas
-                    vezes que de su natural era hombre esquivo y triste. El rey miró en ello y
-                    díxole. <milestone unit="said" resp="#Perion" ana="start"/>Agora maestro dezid
-                    lo que supierdes.<milestone unit="said" ana="end"/>
+                    nada de tu reino: y si lo fuere no sería por persona que mucho te ama.<milestone
+                        unit="said" ana="end"/> Oído esto por el rey sonrióse un poco que le
+                    paresció que no avía dicho nada. Mas Ungan el Picardo que mucho más que ellos
+                    sabía baxó la cabeça y rióse más de coraçón: aunque lo hazía pocas vezes que de
+                    su natural era hombre esquivo y triste. El rey miró en ello y díxole. <milestone
+                        unit="said" resp="#Perion" ana="start"/>Agora maestro dezid lo que
+                        supierdes.<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Ungan" ana="start"/>Señor<milestone unit="said"
                         ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> por ventura yo
                     vi cosas que no es menester de las manifestar sino a ti solo:<milestone
@@ -111,119 +112,126 @@
                     lo que yo me reía fue de aquellas palabras que en poco tuviste: que dixo que ya
                     era hecho por aquél que más te ama. Agora te quiero dezir aquello que muy
                     encubierto tienes: y piensas que ninguno lo sabe. Tú amas en tal lugar donde ya
-                    la voluntad <sic>compliste</sic>/ y la que más es maravillosamente fermosa<milestone
-                        unit="said" ana="intStart"/>: y díxole todas las faiciones de ella como si
-                    delante la tuviera.<milestone unit="said" ana="intEnd"/>Y de la cámara en que os
-                    veíades encerrado/ esto claro lo sabéis: y cómo ella queriendo quitar de vuestro
-                    coraçón y del suyo aquellas cuitas y congoxas quiso sin vuestra sabiduría entrar
-                    por la puerta de que te no catavas: y las manos que a los costados metía: es el
-                    juntamiento de ambos: y el coraçón que sacava significa hijo o hija que avrá de
-                        vos.<milestone unit="said" ana="end"/>
+                    la voluntad <sic>compliste</sic>/ y la que más es maravillosamente
+                        fermosa<milestone unit="said" ana="intStart"/>: y díxole todas las faiciones
+                    de ella como si delante la tuviera.<milestone unit="said" ana="intEnd"/>Y de la
+                    cámara en que os veíades encerrado/ esto claro lo sabéis: y cómo ella queriendo
+                    quitar de vuestro coraçón y del suyo aquellas cuitas y congoxas quiso sin
+                    vuestra sabiduría entrar por la puerta de que te no catavas: y las manos que a
+                    los costados metía: es el juntamiento de ambos: y el coraçón que sacava
+                    significa hijo o hija que avrá de vos.<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Perion" ana="start"/>Pues maestro <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
-                    qué es lo que muestra que lo echaba en un río.<milestone unit="said" ana="end"/>
-<!--                    Fiquei aqui, página 12-->
-                    <milestone unit="said"
-                        resp="#Ungan" ana="start"/>Esso señor no lo quieras saber que no te tiene
-                    pro alguno.<milestone unit="said" ana="end"/>
+                    qué es lo que muestra que lo echava en un río.<milestone unit="said" ana="end"/>
+                    <milestone unit="said" resp="#Ungan" ana="start"/>Esso señor <milestone
+                        unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"/>no
+                    lo quieras saber: que te no tiene pro <sic>alguna</sic>.<milestone unit="said"
+                        ana="end"/>
                     <milestone unit="said" ana="start" resp="#Perion"/>Todavía<milestone unit="said"
                         ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> me lo dezid y
                     no temáis.<milestone unit="said" ana="end"/>
-                    <milestone unit="said" ana="start" resp="#Ungan"/>Pues que assí te place
+                    <milestone unit="said" ana="start" resp="#Ungan"/>Pues que assí te plaze
                         <milestone unit="said" ana="intStart"/>dixo Ungan<milestone unit="said"
-                        ana="intEnd"/> quiero de ti fianza que por cosa que aquí diga no habrás saña
-                    de aquélla que tanto te ama en ninguna sazón.<milestone unit="said" ana="end"/>
+                        ana="intEnd"/> quiero de ti fianza que por cosa que aquí diga no avrás saña
+                    de aquella que tanto te ama en ninguna sazón:<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Perion" ana="start"/>Yo lo prometo<milestone
                         unit="said" ana="end"/> dixo el rey. <milestone unit="said" resp="#Ungan"
                         ana="start"/>Pues sabe <milestone unit="said" ana="intStart"/>dixo
-                        él<milestone unit="said" ana="intEnd"/> que lo que en el río veían lanzar es
-                    que será assí echado el hijo que de vos hubiere.<milestone unit="said" ana="end"/>
+                        él<milestone unit="said" ana="intEnd"/> que lo que en el río viades lançar/
+                    es que será assí echado el hijo que de vos oviere.<milestone unit="said"
+                        ana="end"/>
                     <milestone unit="said" resp="#Perion" ana="start"/>Y el otro coraçón <milestone
                         unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
                     que me queda qué será?.<milestone unit="said" ana="end"/>
-                    <milestone unit="said" resp="#Ungan" ana="start"/>Bien debes entender <milestone
+                    <milestone unit="said" resp="#Ungan" ana="start"/>Bien deves entender <milestone
                         unit="said" ana="intStart"/>dixo el maestro<milestone unit="said"
-                        ana="intEnd"/> lo uno por lo otro que es que habréis otro hijo y por alguna
-                    guisa lo perderéis contra la voluntad de aquélla que ahora os hará el primero
+                        ana="intEnd"/> lo uno por lo otro: que es que avréis otro hijo/ y por alguna
+                    guisa lo perderéis contra la voluntad de aquella que agora vos hará el primero
                         perder.<milestone unit="said" ana="end"/>
-                    <milestone unit="said" resp="#Perion" ana="start"/>Grandes cosas me habéis dicho
+                    <milestone unit="said" resp="#Perion" ana="start"/>Grandes cosas me avéis dicho
                         <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                         ana="intEnd"/> y a Dios plega por la su merced que lo postrimero de los
                     hijos no salga tan verdadero como lo que de la dueña que yo amo me
-                        dixisteis.<milestone unit="said" ana="end"/>
+                        dexistes.<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Ungan" ana="start"/>Las cosas ordenadas y
                     permitidas de Dios <milestone unit="said" ana="intStart"/>dixo el
-                        maestro<milestone unit="said" ana="intEnd"/> no las puede ninguno estorbar
-                    ni saber en qué pararán y por esto los hombres no se deben contristar ni alegrar
-                    con ellas porque muchas vezes assí lo malo como lo bueno que de ellas a su
-                    parecer ocurrirles puede suceder de otra forma que ellos esperaban. Y tú noble
-                    rey perdiendo de tu memoria todo esto que aquí con tanta afición has querido
-                    saber recoge en ella de siempre rogar a Dios que en esto y en todo lo ál haga lo
-                    que su santo servicio sea porque aquélla sin duda es la mejor.<milestone
-                        unit="said" ana="end"/> El rey Perión quedó muy satisfecho de lo que deseaba
-                    saber y mucho más de este consejo de Ungan el Picardo y siempre cabe sí lo tuvo
-                    haciéndole mucho bien y mercedes. Y saliendo al palacio halló una donzella más
-                    guarnida de atavíos que hermosa y díxole. <milestone unit="said" resp="#anon"
-                        ana="start"/>Sabe rey Perión que cuando tu pérdida cobrares perderá el
-                    señorío de Irlanda su flor y fuese que no la pudo detener.<milestone unit="said"
-                        ana="end"/> Assí quedó el rey pensando en esto y otras cosas. El autor deja
-                    de hablar de esto y torna al donzel que Gandales criaba el cual el Donzel del
-                    Mar se llamaba que assí le pusieron nombre y criábasse con mucho cuidado de
-                    aquel cavallero don Gandales y de su mujer y hacíasse tan hermoso que todos los
-                    que lo veían se maravillaban. Y un día cabalgó Gandales armado que en gran
-                    manera era buen cavallero y muy esforzado y siempre se acompañara con el rey
-                    Languines en el tiempo que las armas seguían. Y aunque el rey de seguirlas
-                    dejasse no lo hizo él assí antes las usaba mucho y yendo assí armado como os
-                    digo halló una donzella que le dixo. <milestone unit="said" ana="start"
-                        resp="#anon"/>Ay Gandales si supiessen muchos altos hombres lo que yo ahora
-                    cortarte avían la cabeça.<milestone unit="said" ana="end"/>
+                        maestro<milestone unit="said" ana="intEnd"/> no las puede ninguno estorvar
+                    ni saber en qué pararán/ y por esto los hombres no se deven contristar ni
+                    alegrar con ellas: porque muchas vezes assí lo malo como lo bueno que de ellas a
+                    su parecer ocurrirles puede suceder de otra forma que ellos esperavan. Y tú
+                    noble rey perdiendo de tu memoria todo esto que aquí con tanta afición has
+                    querido saber recoge en ella de siempre rogar a Dios que en esto y en todo lo ál
+                    haga lo que su santo servicio sea porque aquello sin duda es lo mejor.<milestone
+                        unit="said" ana="end"/> El rey Perión quedó muy satisfecho de lo que
+                    desseava saber: y mucho más de este consejo de Ungan el Picardo: y siempre cabe
+                    sí lo tuvo/ haziéndole mucho bien y mercedes. Y saliendo al palacio halló una
+                    donzella más guarnida de atavíos que hermosa y díxole. <milestone unit="said"
+                        resp="#anon" ana="start"/>Sabe rey Perión que cuando tu pérdida cobrares
+                    perderá el señorío de Irlanda su flor:<milestone unit="said" ana="end"/> y
+                    fuesse que no la pudo detener. Assí quedó el rey pensando en esto y otras
+                    cosas.</p>
+                <p>&#182;El auctor dexa de hablar de esto y torna al donzel que Gandales criava: el
+                    cual el <persName>Donzel del Mar</persName> se llamaba que assí le pusieron
+                    nombre: y criávase con mucho cuidado de aquel cavallero don Gandales y de su
+                    muger: y hazíase tan hermoso/ que todos los que lo veían se maravillavan. Y un
+                    día cavalgó Gandales armado/ que en gran manera era buen cavallero y muy
+                    esforçado: y siempre se acompañara con el rey Languines en el tiempo que las
+                    armas seguían. Y aunque el rey de seguirlas dexasse no lo hizo él assí: antes
+                    las usava mucho: y yendo assí armado como os digo halló una donzella que le
+                    dixo. <milestone unit="said" ana="start" resp="#anon"/>Ay Gandales si supiessen
+                    muchos altos hombres lo que yo agora: cortarte ían la cabeça:<milestone
+                        unit="said" ana="end"/>
                     <milestone unit="said" ana="start" resp="#Gandales"/>Por qué?<milestone
                         unit="said" ana="end"/> dixo él. <milestone unit="said" resp="#anon"
                         ana="start"/>Porque tú guardas la su muerte<milestone unit="said" ana="end"
-                    /> dixo ella. Y sabed que ésta era la donzella que dixo el rey Perión que cuando
-                    fuese su pérdida cobrada perdería el señorío de Irlanda su flor. Gandales que no
-                    lo entendía dixo. <milestone unit="said" ana="start" resp="#Gandales"/>Donzella
-                    por Dios os ruego que me digáis qué es esso.<milestone unit="said" ana="end"/>
+                    /> dixo ella: Y sabed que ésta era la donzella que le dixo al rey Perión: que
+                    cuando fuesse su pérdida cobrada/ perdería el señorío de Irlanda su flor.
+                    Gandales que no lo entendía dixo. <milestone unit="said" ana="start"
+                        resp="#Gandales"/>Donzella por Dios os ruego que me digáis qué es esso<choice>
+                        <sic/>
+                        <corr>.</corr>
+                    </choice><milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#anon" ana="start"/>No te lo diré <milestone
                         unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
-                    mas todavía assí vendrá.<milestone unit="said" ana="end"/> Y partiéndose de él
-                    se fue su vía. Gandales quedó cuidando en lo que dixera y a cabo de una pieza
-                    viola tornar muy aína en su palafrén diciendo a grandes voces: <milestone
+                    mas todavía assí averná:<milestone unit="said" ana="end"/> Y partiéndose de él
+                    se fue su vía. Gandales quedó cuidando en lo que dixera y a cabo de una pieça
+                    vióla tornar muy aína en su palafrén diziendo a grandes voces: <milestone
                         unit="said" ana="start" resp="#anon"/>Ay Gandales acórreme que muerta
                         soy.<milestone unit="said" ana="end"/> Él cató y vio venir en pos de ella un
-                    cavallero armado con su espada en la mano y Gandales hirió el cavallo de las
+                    cavallero armado con su espada en la mano: y Gandales hirió el cavallo de las
                     espuelas y metióse entre ambos y dixo. <milestone unit="said" ana="start"
-                        resp="#Gandales"/>Don cavallero a quien Dios dé mala ventura qué queréis a
+                        resp="#Gandales"/>Don cavallero a quien Dios dé mala ventura/ qué queréis a
                     la donzella?<milestone unit="said" ana="end"/>
                     <milestone unit="said" ana="start" resp="#anon"/>Cómo<milestone unit="said"
                         ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/> queréis la vos
-                    amparar a ésta por engaño me trae perdido el cuerpo y el alma?. <milestone
+                    amparar a ésta que por engaño me trae perdido el cuerpo y el alma? <milestone
                         unit="said" ana="start" resp="#Gandales"/>De esso no sé nada <milestone
                         unit="said" ana="intStart"/>dixo Gandales<milestone unit="said" ana="intEnd"
-                    /> mas ampararos la he yo porque mujeres no han de ser por esta vía castigadas
+                    /> mas ampararvos la he yo: porque mujeres no han de ser por esta vía castigadas:
                     aunque lo merezcan.<milestone unit="said" ana="end"/>
-                    <milestone unit="said" ana="start" resp="#anon"/>Ahora lo veréis<milestone
+                    <milestone unit="said" ana="start" resp="#anon"/>Agora lo veréis<milestone
                         unit="said" ana="end"/> dixo el cavallero y metiendo su espada en la vaina
-                    tornóse a una arboleda donde estava una donzella muy hermosa que le dio un
-                    escudo y una lanza y diose a correr contra Gandales y Gandales contra él e
-                    hiriéronse con las lanzas en los escudos assí que volaron en piezas y juntáronse
-                    de los cavallos y de los cuerpos de consumo tan bravamente que cayeron a sendas
-                    partes y los cavallos con ellos y cada uno se levantó lo más presto que pudo y
-                    hubieron su batalla assí a pie mas no duró mucho que la donzella que huía se
+                    tornóse a una arboleda donde estava una donzella muy hermosa: que le dio un
+                    escudo y una lança y diose a correr contra Gandales: y Gandales a él: e
+                    hiriéronse con las lanças en los escudos: assí que bolaron en pieças: y juntáronse
+                    de los cavallos y de los cuerpos de consuno tan bravamente que cayeron a sendas
+                    partes y los cavallos con ellos: y cada uno se levantó lo más presto que pudo: y
+                    ovieron su batalla assí a pie: mas no duró mucho que la donzella que fuía se
                     metió entre ellos y dixo. <milestone unit="said" ana="start" resp="#anon"
                     />Cavalleros estad quedos.<milestone unit="said" ana="end"/> El cavallero que
-                    tras ella venía quitóse luego afuera y ella le dixo. <milestone unit="said"
+                    tras ella venía quitóse luego afuera: y ella le dixo: <milestone unit="said"
                         ana="start" resp="#anon"/>Venid a mi obediencia.<milestone unit="said"
                         ana="end"/>
                     <milestone unit="said" ana="start" resp="#anon"/>Iré de grado <milestone
                         unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
-                    como a la cosa del mundo que más amo<milestone unit="said" ana="end"/> y echando
-                    el escudo del cuello y la espada de la mano hincó los hinojos ante ella y
-                    Gandales fue ende mucho maravillado y ella dixo al cavallero que ante sí tenía:
-                        <milestone unit="said" ana="start" resp="#anon"/>Decid a aquella donzella de
-                    so el árbol que se vaya luego si no la tajaréis la cabeça.<milestone unit="said"
-                        ana="end"/> El cavallero se tornó contra y ella díxole. <milestone
-                        unit="said" resp="#anon" ana="start"/>Ay mala yo me maravillo que la cabeça
+                    como a la cosa del mundo que más amo:<milestone unit="said" ana="end"/> y echando
+                    el escudo del cuello y la espada de la mano hincó los inojos ante ella: y
+                    Gandales fue ende mucho maravillado: y ella dixo al cavallero que ante sí tenía:
+                        <milestone unit="said" ana="start" resp="#anon"/>Dezid a aquella donzella de
+                    so el árbol que se vaya luego si no que la tajaredes la cabeça.<milestone unit="said"
+                        ana="end"/> El cavallero se tornó contra ella/ y díxole. <milestone
+                        unit="said" resp="#anon" ana="start"/>
+                    <!-- st 9.17.15 stopped here proofreading -->Ay mala yo me maravillo que la cabeça
                     no te tiro.<milestone unit="said" ana="end"/> La donzella vio que su amigo era
                     encantado y subió en su palafrén llorando y fuese luego. La otra donzella dixo.
                         <milestone unit="said" resp="#anon" ana="start"/>Gandales yo os agradezco lo
