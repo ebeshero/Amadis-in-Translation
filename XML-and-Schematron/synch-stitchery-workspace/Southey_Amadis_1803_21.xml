@@ -219,49 +219,90 @@
                   <milestone unit="said" ana="intStart"/><anchor ana="start" synch="#M20_p1_c102"
                   />said Mabilia,<anchor ana="end"/><milestone unit="said" ana="intEnd"/>
                   <anchor ana="start" synch="#M20_p1_c103"/>that if I believed his death I should
-                  have power to comfort you?<anchor ana="end"/><milestone unit="said" ana="end"/> <anchor ana="start" type="add"/>and thus with such
-                  consolation all that day they strove to cheer her who would not be comforted;<anchor ana="end"/><anchor ana="start" synch="#M20_p1_c113"/> and
-                  the night was worse than the day,<anchor ana="end"/> <anchor ana="start" synch="#M20_p1_c115"/>and oftentimes they feared that she would never
-                  see the morning.<anchor ana="end"/></s>
-               <!-- st stopped here 9.13.15 -->
-               <s>But the next day, at the hour when they were about to lay the napkins before the
-                  King, Brandoyuas entered the palace, leading <persName ref="#Grindalaya"
-                     >Grindalaya</persName>, and they both went and knelt before the King.</s>
-               <s>He who greatly esteemed him, and had been troubled for his long absence, enquired
-                  where he had tarried.</s>
+                  have power to comfort you?<anchor ana="end"/><milestone unit="said" ana="end"/>
+                  <anchor ana="start" type="add"/>and thus with such consolation all that day they
+                  strove to cheer her who would not be comforted;<anchor ana="end"/><anchor
+                     ana="start" synch="#M20_p1_c113"/> and the night was worse than the day,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c115"/>and oftentimes they feared that she
+                  would never see the morning.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c117"/>But the next day, at the hour when they
+                  were about to lay the napkins before the King,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c118"/><persName>Brandoyuas</persName> entered
+                  the palace, leading <persName ref="#Grindalaya">Grindalaya</persName>,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c121"/>and they both went and knelt before the
+                     King.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c122"/>He who greatly esteemed him,<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>and had been troubled for his long absence,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c124"/>enquired where he had tarried.<anchor
+                     ana="end"/></s>
                <s>
-                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Sir, said he, in a dungeon,
-                  whence I should never have come out, but for the good Knight Amadis, who delivered
-                  me and this Lady, and many others, doing there such deeds of arms as only he could
-                  have atchieved.</s>
-               <s>And he would there have been slain by the worst treason that ever was known, by
-                  the traitor Arcalaus, if two Damsels had not helped him, who surely must not a
-                  little have loved him.</s>
+                  <milestone unit="said" ana="start" resp="#Brandoivas"/><anchor ana="start"
+                     synch="#M20_p1_c126"/>Sir,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c125"/>said he,<anchor ana="end"/><anchor
+                     ana="start" synch="#M20_p1_c126"/> in a dungeon, whence I should never have
+                  come out,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c127"/>but for the good Knight Amadis, who
+                  delivered me and this Lady, and many others,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c128"/>doing there such deeds of arms as only
+                  he could have atchieved.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c129"/>And he would there have been slain by
+                  the worst treason that ever was known, by the traitor Arcalaus,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c130"/>if two Damsels had not helped him, who
+                  surely must not a little have loved him.<anchor ana="end"/></s>
                <milestone unit="said" ana="end"/>
-               <s>Lisuarte at this, rose instantly from table;<milestone unit="said" ana="start"
-                     resp="#Lisuarte"/>--tell me, my friend, by the faith which you owe to God and
-                  to me, is Amadis alive?<milestone unit="said" ana="end"/>
+               <s><anchor ana="start" synch="#M20_p1_c131"/>Lisuarte at this, rose instantly from
+                     table;<anchor ana="end"/><milestone unit="said" ana="start" resp="#Lisuarte"
+                     /><anchor ana="start" synch="#M20_p1_c132"/>--tell me, my friend, by the faith
+                  which you owe to God and to me, is Amadis alive?<anchor ana="end"/><milestone
+                     unit="said" ana="end"/>
                </s>
                <s>
-                  <milestone unit="said" ana="start" resp="#Brandoivas"/>By that faith, <milestone
-                     unit="said" ana="intStart"/>replied Brandoyvas,<milestone unit="said"
-                     ana="intEnd"/> I left him alive and well not ten days ago!<milestone
-                     unit="said" ana="end"/> Then was there such joy that greater could not be.</s>
-               <s>The King sent Grindalaya to <persName ref="#Brisena">Brisena</persName>, and well
-                  was she welcomed for her tidings.</s>
-               <s>The Damsel of Denmark soon heard it, and hastened to Oriana, and restored her from
-                  death to life; and Mabilia sent for Grindalaya that they might hear the whole from
-                  her own mouth, and the Princesses would suffer her to eat no where but at their
-                  own table, that she might relate it more at length.</s>
-               <s>On her return to the Queen's apartment, she found <persName ref="#Arban">King
-                     Arban of North Wales</persName>, who dearly loved her.</s>
-               <s>Then was there such joy as cannot be expressed; and King Arban told Brisena how
-                  she was daughter to King Ardroyd of Serolys; and Brisena, as well for her high
-                  rank as for the good tidings she had brought, besought her to remain in her court;
-                  to the which she was nothing loth.</s>
-               <s>Brisena also sent for Grindalaya's sister, Aldeva: this was she who was the friend
-                  of Galaor, and for whose sake he had been so persecuted by the Dwarf.</s>
-               <s>So there were great rejoicings in the court of King Lisuarte.</s>
+                  <milestone unit="said" ana="start" resp="#Brandoivas"/><anchor ana="start"
+                     synch="#M20_p1_c133"/>By that faith, <milestone unit="said" ana="intStart"
+                  />replied Brandoyvas,<milestone unit="said" ana="intEnd"/> I left him alive and
+                  well not ten days ago!<anchor ana="end"/><milestone unit="said" ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c139"/>Then was there such joy that greater
+                  could not be.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c140"/>The King sent Grindalaya to <persName
+                     ref="#Brisena">Brisena</persName>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c141"/>and well was she welcomed for her
+                     tidings.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c142"/>The Damsel of Denmark soon heard
+                     it,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c143"/>and hastened to Oriana,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c144"/>and restored her from death to
+                     life;<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>and Mabilia<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c145"/>sent for<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c149"/>Grindalaya that they might hear<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/> the whole from her own mouth,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c151"/>and the Princesses would suffer her to
+                  eat no where but at their own table,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c152"/>that she might relate it more at
+                     length.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c160"/>On her return to the Queen's
+                     apartment,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c161"/>she found <persName ref="#Arban">King
+                     Arban of North Wales</persName>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c162"/>who dearly loved her.<anchor ana="end"
+                  /></s>
+               <s><anchor ana="start" synch="#M20_p1_c163"/>Then was there such joy as cannot be
+                     expressed;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c166"/>and King Arban told Brisena how she was
+                  daughter to King Ardroyd of Serolys;<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>and Brisena,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c172"/>as well for her high rank<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c171"/>as for the good tidings she had brought,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c170"/>besought her to remain in her court; to the which she was nothing loth.<anchor ana="end"/></s>
+               <s><anchor ana="start" synch="#M20_p1_c177"/>Brisena also sent for Grindalaya's sister, Aldeva:<anchor ana="end"/> <anchor ana="start" synch="#M20_p1_c179"/>this was she who was the friend
+                  of Galaor,<anchor ana="end"/> <anchor ana="start" synch="#M20_p1_c180"/>and for whose sake he had been so persecuted by the Dwarf.<anchor ana="end"/></s>
+               <s><anchor ana="start" type="add"/>So there were great rejoicings in the court of King Lisuarte.<anchor ana="end"/></s>
             </p>
          </div>
       </body>
