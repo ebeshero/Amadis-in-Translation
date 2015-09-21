@@ -233,82 +233,85 @@
                         unit="said" resp="#anon" ana="start"/>
                     <!-- st 9.17.15 stopped here proofreading -->Ay mala yo me maravillo que la cabeça
                     no te tiro.<milestone unit="said" ana="end"/> La donzella vio que su amigo era
-                    encantado y subió en su palafrén llorando y fuese luego. La otra donzella dixo.
+                    encantado: y subió en su palafrén llorando y fuesse luego. La otra donzella dixo.
                         <milestone unit="said" resp="#anon" ana="start"/>Gandales yo os agradezco lo
-                    que hicisteis id a buena ventura que si este cavallero me erró yo le
+                    que hezistes id a buena ventura: que si este cavallero me erró yo le
                         perdono.<milestone unit="said" ana="end"/>
                     <milestone unit="said" ana="start" resp="#Gandales"/>De vuestro perdón no sé
                         <milestone unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
-                        ana="intEnd"/> mas la batalla no le quito si no se otorga por vencido.
+                        ana="intEnd"/> mas la batalla no le quito si no se otorga por vencido:
                         <milestone unit="said" resp="#anon" ana="start"/>Quitaréis <milestone
                         unit="said" ana="intStart"/>dixo la donzella<milestone unit="said"
-                        ana="intEnd"/> que si vos fueseis el mejor cavallero del mundo haría yo que
-                    él os venciese. <milestone unit="said" resp="#Gandales" ana="start"/>Vos haréis
-                    lo que pudiereis<milestone unit="said" ana="intStart"/>dixo él<milestone
-                        unit="said" ana="intEnd"/> mas yo le quitaré si no me decís por qué
-                    dixisteis que guardaba muerte de muchos altos hombres.<milestone unit="said"
+                        ana="intEnd"/> que si vos fuessedes el mejor cavallero del mundo haría yo que
+                    él os venciesse. <milestone unit="said" resp="#Gandales" ana="start"/>Vos haréis
+                    lo que pudierdes<milestone unit="said" ana="intStart"/>dixo él<milestone
+                        unit="said" ana="intEnd"/>: mas yo no le quitaré si no me dezís por qué
+                    dexistes que guardava muerte de muchos altos hombres.<milestone unit="said"
                         ana="end"/>
                     <milestone unit="said" resp="#anon" ana="start"/>Antes os lo diré <milestone
                         unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"/>
                     porque a este cavallero amo yo como a mi amigo y a ti como a mi
-                        ayudador.<milestone unit="said" ana="intStart"/> Entonces le apartó y
+                        ayudador.<milestone unit="said" ana="intStart"/> Entonces lo apartó y
                         díxole.<milestone unit="said" ana="intEnd"/> Tú me harás pleito como leal
-                    cavallero que otro por ti nunca lo sabrá hasta que te lo yo mande.<milestone
-                        unit="said" ana="intStart"/> Él assí lo otorgando díxole. <milestone
-                        unit="said" ana="intEnd"/>Dígote de aquél que hallaste en la mar que será
-                    flor de los cavalleros de su tiempo. Éste hará estremecer los fuertes éste
-                    començará todas las cosas y acabará a su honra en que los otros fallecieron éste
-                    hará tales cosas que ninguno cuidaría que pudiessen ser començadas ni acabadas
-                    por cuerpo de hombre. Éste hará los soberbios ser de buen talante éste habrá
-                    crudeza de coraçón contra aquéllos que se lo merecieren y aún más te digo: que
-                    éste será el cavallero del mundo que más lealmente mantendrá amor y amará en tal
-                    lugar cual conviene a la su alta proeza; y sabe que viene de reyes de ambas
-                    partes. Ahora te ve <milestone unit="said" ana="intStart"/>dixo la
+                    cavallero que otro por ti nunca lo sabrá hasta que te lo yo mande<milestone
+                        unit="said" ana="intStart"/>/ él assí lo otorgó: y díxole. <milestone
+                        unit="said" ana="intEnd"/>Dígote de aquel que hallaste en la mar que será
+                    flor de los cavalleros de su tiempo. Este hará estremecer los fuertes: este
+                    començará todas las cosas y acabará a su honra en que los otros fallecieron: este
+                    fará tales cosas/ que ninguno cuidaría que pudiessen ser començadas ni acabadas
+                    por cuerpo de hombre. 
+                 Este hará los sobervios ser de buen talante este: avrá
+                    crueza de coraçón contra aquellos que se lo merecieren: y aún más te digo: que
+                    este será el cavallero del mundo que más lealmente manterná amor: y amará en tal
+                    lugar que conviene a la su alta proeza: y sabed que viene de reyes de ambas
+                    partes. Agora te ve <milestone unit="said" ana="intStart"/>dixo la
                         donzella<milestone unit="said" ana="intEnd"/> y cree firmemente que todo
-                    acaecerá como te lo digo y si lo descubres venirte ha por ello más de mal que de
+                    acaescerá como te lo digo y si lo descubres venirte ha por ello más de mal que de
                         bien.<milestone unit="said" ana="end"/>
-                    <milestone unit="said" resp="#Gandales" ana="start"/>Ay señor <milestone
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Ay señora <milestone
                         unit="said" ana="intStart"/>dixo Gandales<milestone unit="said" ana="intEnd"
-                    /> ruégoos por Dios que me digáis dónde os hallaré para hablar con vos en su
-                        hacienda.<milestone unit="said" ana="end"/>
-                    <milestone unit="said" ana="start" resp="#anon"/>Esto no sabrás tú por mí ni por
-                    otro dixo ella.<milestone unit="said" ana="end"/>
+                    /> ruégovos por Dios que me digáis dónde vus fallaré para hablar con vos en su
+                        hazienda<milestone unit="said" ana="end"/>:
+                    <milestone unit="said" ana="start" resp="#anon"/>esto no sabrás tú por mí ni por
+                    otro<milestone unit="said" ana="end"/> dixo ella.
                     <milestone unit="said" resp="#Gandales" ana="start"/>Pues dezidme vuestro nombre
-                    por la fe que debéis a la cosa del mundo que más amáis.<milestone unit="said"
+                    por la fe que devéis a la cosa del mundo que más amáis.<milestone unit="said"
                         ana="end"/>
                     <milestone unit="said" resp="#Urganda" ana="start"/>Tú me conjuras tanto que te
-                    lo diré pero la cosa que yo más amo sé que más me desama que en el mundo sea y
-                    éste es aquel muy hermoso cavallero con quien te combatiste mas no dejo por esso
-                    yo de lo traer a mi voluntad sin que él otra cosa hacer pueda. Él sabe que mi
-                    nombre es Urganda la Desconocida ahora me cata bien y conóceme si
-                        pudieres.<milestone unit="said" ana="end"/> Y él que la vio donzella de
-                    primero que a su parecer no passaba de diez y ocho años viola tan vieja y tan
-                    lasa que se maravilló como en el palafrén se podía tener y començóse a santiguar
-                    de aquella maravilla. Cuando ella assí lo vio metió mano a una bujeta que en el
-                    regazo traía y poniendo la mano por sí tomó como de primero y dixo. <milestone
+                    lo diré: pero la cosa que yo más amo sé que más me desama que en el mundo sea: y
+                    este es aquel muy fermoso cavallero con quien te combatiste: mas no dexo por ello
+                    yo de lo traer a mi voluntad sin que él otra cosa hazer pueda. Y sabe que mi
+                    nombre es Urganda la Desconocida: agora me cata bien: y conósceme si
+                        pudieres<milestone unit="said" ana="end"/>. Y él que la vio donzella de
+                    primero que a su parecer no passava de diez y ocho años: viola tan vieja y tan
+                    lassa que se maravilló como en el palafrén se podía tener: y començóse a santiguar
+                    de aquella maravilla. Cuando ella assí lo vio metió mano a una buxeta que en el
+                    regaço traía. E poniendo la mano por sí tomó como de primero: y dixo. <milestone
                         resp="#Urganda" unit="said" ana="start"/>Parécete que me hallarías aunque me
                     buscasses? Pues yo te digo que no tomes por ello afán que si todos los del mundo
-                    me demandassen no me hallarían si yo no quisiese.<milestone unit="said"
+                    me demandassen no me hallarían si yo no quisiesse.<milestone unit="said"
                         ana="end"/>
-                    <milestone unit="said" resp="#Gandales" ana="start"/>Assí Dios me salve
+                    <milestone unit="said" resp="#Gandales" ana="start"/>Assí Dios me salve señora
                         <milestone unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
-                        ana="intEnd"/> yo assí lo creo. Mas ruégoos por Dios que os membréis del
+                        ana="intEnd"/> yo assí lo creo. Mas ruégovos por Dios que vos membréis del
                     donzel que es desamparado de todos sino de mí.<milestone unit="said" ana="end"/>
                     <milestone unit="said" resp="#Urganda" ana="start"/>No pienses en esso
                         <milestone unit="said" ana="intStart"/>dixo Urganda<milestone unit="said"
-                        ana="intEnd"/> que esse desamparado será amparo y reparo de muchos y yo lo
-                    amo más que tú piensas como quien atiende de él cedo haber dos ayudas en que
-                    otro no podría poner consejo y él recibirá dos galardones donde será muy alegre
-                    y ahora te encomiendo a Dios que irme quiero y más aína me verás que
+                        ana="intEnd"/> que esse desamparado/ será amparo y reparo de muchos/ y yo lo
+                    amo más que tú piensas/ como quien atiende de él cedo aver dos ayudas: en que
+                    otro no podría poner consejo: y él recebirá dos galardones: donde será muy alegre/
+                    y agora te encomiendo a Dios/ que irme quiero/ y más aína me verás que
                         piensas.<milestone unit="said" ana="end"/> Y tomó el yelmo y escudo de su
-                    amigo para se lo llevar. Y Gandales que la cabeça le vio desarmada pareció el
-                    más hermoso cavallero que nunca viera. Y assí se partieron de en uno. Donde
-                    dejaremos a Urganda ir con su amigo y contarse ha de don Gandales que partido de
-                    Urganda tornóse para su castillo y en el camino halló la donzella que andaba con
-                    el amigo de Urganda que estava llorando cabe una fuente y como vio a Gandales
+                    amigo para se lo llevar. Y Gandales que la cabeça le vio desarmada parecióle el
+                    más hermoso cavallero que nunca viera. E assí se partieron de en uno.</p>
+                <p>¶Donde
+                    dexaremos a Urganda ir con su amigo: y contarse ha de don Gandales/ que partido de
+                    Urganda tornóse para su castillo: y en el camino halló la donzella que andava con
+                    el amigo de Urganda que estava llorando cabe una fuente: y como vio a Gandales
                     conociólo y dixo. <milestone unit="said" ana="start" resp="#anon"/>Qué es esso
-                    cavallero cómo no os hizo matar aquella alevosa a quién ayudabais?<milestone
+                    cavallero cómo no vos fizo matar aquella alevosa a quién ayudavades<milestone
                         unit="said" ana="end"/>
+<!--                    heb: stopped here her transcription-->
                     <milestone unit="said" resp="#Gandales" ana="start"/>Alevosa no es ella
                         <milestone unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
                         ana="intEnd"/> mas buena y sabida y si fueseis cavallero yo os haría comprar
