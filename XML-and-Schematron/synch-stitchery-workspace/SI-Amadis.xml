@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index for the Amadis Project</title>
+            <author>Stacey Triplette</author>
+            <author>Elisa Beshero-Bondar</author>
+            <author>Helena Bermúdez Sabel</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="historical_people">
+            <listPerson>
+               <person xml:id="st">
+                  <persName>
+                     <surname>Triplette</surname>
+                     <forename>Stacey</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+               </person>
+               <person xml:id="ebb">
+                  <persName>
+                     <surname>Beshero-Bondar</surname>
+                     <forename>Elisa</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+               </person>
+               <person xml:id="heb">
+                  <persName>
+                     <surname>Bermúdez Sabel</surname>
+                     <forename>Helena</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+               </person>
+               <person xml:id="Southey">
+                  <persName>
+                     <surname>Southey</surname>
+                     <forename>Robert</forename>
+                     <roleName>Translator</roleName>
+                  </persName>
+                  <persName>Bob Southey</persName>
+               </person>
+               <person xml:id="Montalvo">
+                  <persName>
+                     <surname>Rodríguez de Montalvo</surname>
+                     <forename>Garci</forename>
+                     <roleName>Editor-Compiler of 1508</roleName>
+                  </persName>
+               </person>
+               <person xml:id="Lobeira">
+                  <persName>
+                     <surname>de
+                        Lobeira<!-- st 8.6.15 When we have a Spanish surname with a de or de la, put the de in front of the capitalized part of the last name, i.e. de Montalvo, not Montalvo, de --></surname>
+                     <forename>Vasco</forename>
+                     <roleName>Apocryphal Author</roleName>
+                  </persName>
+
+
+
+               </person>
+            </listPerson>
+         </div>
+         <div type="fictional_characters">
+            <listPerson>
+               <person xml:id="Arthur">
+                  <persName>King Arthur</persName>
+                  <!--ebb 2015-09-14: I'm not sure this entry is necessary, but I'm adding it just in case he comes up again later.-->
+                  <note resp="#ebb">Not a central character, but referenced as a great historical deliverer, repealing
+                  unjust laws such as the edict of death to a woman pregnant out of wedlock.</note>
+               </person>
+               <person xml:id="Floyon">
+                  <!--ebb 2015-09-14: I'm not sure this entry is necessary, but I'm adding it just in case he comes up again later.-->
+                  <persName>Floyon</persName>
+                  <note resp="#ebb">Not a central character. <persName ref="#Arthur">King Arthur</persName> revoked the law condemning unwed mothers to death when he defeated Floyon.</note>
+               </person>
+              
+               <person xml:id="Brisena">
+                  <persName>Brisena</persName>
+
+               </person>
+
+
+               <person xml:id="Damsel_Denmark">
+                  <persName>Damsel of Denmark</persName>
+                  <persName>doncella de Denamarca</persName>
+                  <note resp="#st">The Damsel of Denmark is Oriana's personal attendant, associated
+                     with her mother Brisena who is originally from Denmark. The Damsel of Denmark
+                     is unique in that she has no first name. Her brother is the messenger Durin. In
+                     Book III she loses Oriana's illegitimate infant Esplandian to a lioness.
+                  </note>
+               </person>
+               <person xml:id="Helisena">
+                  <persName>Helisena</persName>
+                  <persName>Elisena</persName>
+                  <note resp="#st">Helisena is Amadis of Gaul's mother and the daughter of King
+                     Garinter. She and Perion of Gaul indulged in a clandestine liaison in the first
+                     chapters of Book I (debateably a clandestine marriage). She later celebrates a
+                     public marriage to Perion and has two more children, Galaor and Melicia.</note>
+               </person>
+               <person xml:id="Perion">
+                  <persName>Perión de Gaula</persName>
+                  <persName>Perion of Gaul</persName>
+                  <persName>Perión</persName>
+                  <persName>Perion</persName>
+                  <note resp="st">Perion of Gaul is Amadis of Gaul's father. He and Helisena indulge
+                     in a clandestine liaison (debateably a clandestine marriage) early in Book I
+                     and later marry. They have two other children, Galaor and Melicia. Perion makes
+                     clear that he considers Amadis legitimate by naming him heir over his younger
+                     brother Galaor. Perion fights in Lisuarte of Britain's wars and in his grandson
+                     Esplandian's campaign at Constantinople in Montalvo's sequel, where he dies.
+                     Amadis succeeds to the throne of Britain on Perion's death.</note>
+               </person>
+               <person xml:id="Darioleta">
+                  <persName>Darioleta</persName>
+                  <note resp="st">Darioleta is Helisena's maid. In Book I she helps Helisena hide
+                     her pregnancy and constructs the ark in which the infant Amadis floats down the
+                     river. She writes a note declaring the child's name, covers it in wax, and
+                     places it in the ark. In later episodes she and her family are imprisoned by
+                     Arcalaus and then by the giant Balan. Balan kills her son in combat, but after
+                     Amadis brokers a peace, Darioleta's daughter marries the giant's son Bravor and
+                     starts a new lineage of Christianized half-giants.</note>
+
+               </person>
+               <person xml:id="Garinter">
+                  <persName>Garínter</persName>
+                  <persName>Garinter</persName>
+                  <note resp="st">Garinter, king of Little Britain, is the father of Helisena and
+                     her sister, the Lady of the Garland. After his death the Lady of the Garland's
+                     husband, King Languines of Scotland, inherits his kingdom.</note>
+
+               </person>
+               <person xml:id="Gandales">
+                  <persName>Gandales</persName>
+                  <note resp="st">Gandales is the knight of Scotland who finds the infant Amadis in
+                     the ark. He raises Amadis until the age of six and then sends him, reluctantly,
+                     to the court of Languines. Gandales's son Gandalin is Amadis's squire and
+                     lifelong friend. Gandales should not be confused with the similarly named
+                     Galvanes Lackland (Galvanes Sin Tierra), Agrayes's uncle, or the giant
+                     Gandalaz.</note>
+               </person>
+               <person xml:id="Languines">
+                  <persName>Languines</persName>
+                  <note resp="st">The king of Scotland, Languines is married to Amadis's aunt, the
+                     Lady of the Garland. He is the father of Agrayes and Mabilia. Amadis, Oriana
+                     and Gandalin are fostered at his court in their youth.</note>
+               </person>
+               <person xml:id="Urganda">
+                  <persName>Urganda</persName>
+                  <persName>Urganda la desconocida</persName>
+                  <persName>Urganda the unknown</persName>
+                  <note resp="st">Urganda is the good sorceress who helps Amadis in the style of the
+                     Lady of the Lake. Her magic gives her the ability to know the future, to change
+                     her appearance, and to bewitch others. In one instance one of her spells nearly
+                     causes a woman to drown herself because it made the victim feel as though she
+                     were on fire. The Urganda of Book I resembles typical fairy characters: she is
+                     vindictive, she entraps a human lover, and she protects her favorite people and
+                     punishes others with magic. From Book II onward Urganda becomes an increasingly
+                     benevolent source of deus ex machina and performs only good deeds, primarily
+                     deeds of prophecy. She tends to send her predictions by letter.</note>
+               </person>
+               <person xml:id="Arcalaus">
+                  <persName>Arcalaus</persName>
+                  <persName>Arcalaus the Enchanter</persName>
+                  <persName>Arcaláus</persName>
+                  <persName>Arcaláus el encantador</persName>
+                  <note resp="#st"> Arcalaus the enchanter is Amadis's nemesis and an enemy of
+                     Lisuarte. He imprisons Amadis by enchantment in Book I and tries to convince
+                     Lisuarte's court that he has killed the young knight in battle. Later he
+                     attempts to abduct Oriana to marry her to his son. He imprisons Amadis and
+                     Gandalin again in Book III. Urganda urges them to save his life.</note>
+               </person>
+               <person xml:id="Lisuarte">
+                  <persName>Lisuarte</persName>
+                  <persName>King Lisuarte</persName>
+                  <persName>el rey Lisuarte</persName>
+                  <note resp="#st"> Lisuarte is the king of Britain during the bulk of Amadís I-IV.
+                     He has two daughters, Oriana and Leonoreta, and a wife, Brisena. During the
+                     early portion of Amadís Book I Lisuarte is represented as a good and fair king,
+                     both a literal and metaphorical ancestor for Arthur. Like Arthur he gathers
+                     virtuous knights to his court. As the books progress Lisuarte becomes the
+                     stereotype of the bad king, tyrannical, cruel, and melancholic. He values the
+                     truth of his word but breaks promises to his elder daughter Oriana,
+                     disinheriting her in Book III for her younger sister and attempting to force
+                     her to marry el Patín (the Gosling), the incompetent emperor of Rome. In Book
+                     IV Lisuarte becomes entrapped by an enchantress while hunting; his grandson
+                     Esplandián will save him in the sequel volume <bibl>Las Sergas de Esplandián
+                        (The Exploits of Esplandián)</bibl>. </note>
+               </person>
+               <person xml:id="Amadis">
+                  <persName>Amadís</persName>
+                  <persName>Amadís de Gaula</persName>
+                  <persName>Amadis</persName>
+                  <persName>Amadis of Gaul</persName>
+                  <persName>Amadis of Gaule</persName>
+                  <persName>Amadis de Gaule</persName>
+                  <persName>Amadís Sin Tiempo</persName>
+                  <persName>Donzel del mar</persName>
+                  <persName>Child of the Sea</persName>
+                  <persName>Beltenebros</persName>
+                  <persName>Caballero de la Verde Espada</persName>
+                  <persName>Knight of the Green Sword</persName>
+                  <note resp="#st"> Amadis of Gaul (Amadís de Gaula), son of Perion of Gaul and
+                     Elisena of Scotland, was abandoned at birth and set to float, Moses-like, in an
+                     arc down a river. He was raised by Gandales of Scotland and as a young child
+                     went to serve at the court of his uncle, king Languines of Scotland. There he
+                     meets Oriana, also Languines's ward. He becomes a knight at age fifteen.
+                     Coincidence allows his father Perion to be the one to knight him, but the
+                     monarchs of Gaul do not discover their eldest son's identity until after
+                     Amadis's duel with king Abies of Ireland. Amadis is known as the Child of the
+                     Sea (Donzel del mar) in the early books, then Amadis when he recovers his name,
+                     Beltenebros during his estrangement from Oriana, and the Knight of the Green
+                     Sword when he travels to Romania and Constantinople. Amadis has two brothers,
+                     illegitimate elder brother Florestan and younger brother Galaor, and a sister,
+                     Melicia. He becomes king of Britain and Gaul in the fifth volume of Amadis, Las
+                     Sergas de Esplandián. Like Lancelot, Amadis is the best knight in the world
+                     until his son replaces him in that role. In the medieval, primitive versions of
+                     the legend Amadis is thought to have perished in a duel with Esplandian; the
+                     two battled without recognizing each other. In Montalvo's version (the 1508 and
+                     all later texts) Amadis survives to marry Oriana, have more children, and rule
+                     two kingdoms.</note>
+               </person>
+               <person xml:id="Oriana">
+                  <persName>Oriana</persName>
+                  <note resp="#st">Oriana is the daughter of Lisuarte and Brisena, the heiress
+                     apparent to the throne of Britain. She becomes a ward of King Languines of
+                     Scotland at ten years old and meets Amadis, then known as the Child of the Sea
+                     (Donzel del mar). Amadis soon declares himself her knight, and in secret, their
+                     love grows. Oriana rules their relationship, giving Amadis permission to go on
+                     adventures or alternately restricting him. They consummate their
+                     relationship--by Oriana's decision, not Amadis's--when he saves her from
+                     Arcalaus. In Book II Oriana becomes jealous when she believes that Amadis has
+                     had a liaison with rival princess Briolania. She writes a letter of dismissal
+                     that causes Amadís to fall into a state of love-madness during which he nearly
+                     dies of grief. During this phase of the text Amadis is known as Beltenebros.
+                     Amadis and Oriana reconcile and have a child together, Esplandian. Whether
+                     their liaison counts as a clandestine marriage or is merely illicit is a
+                     subject of critical debate. The Oriana of the primitive or medieval Amadis
+                     throws herself from a tower when she learns of Amadis's death; the Oriana of
+                     the 1508 survives to marry Amadis, become queen of Britain and Gaul, and have
+                     more children.</note>
+               </person>
+               <person xml:id="Mabilia">
+                  <persName>Mabilia</persName>
+                  <note resp="#st">The daughter of Languines of Scotland, sister of Amadis's
+                     companion Agrayes and Amadis's first cousin, Mabilia serves Oriana as her most
+                     honored lady-in-waiting. Efficient and no-nonsense, she helps conceal Amadis
+                     and Oriana's love affair, which could prove fatal to Oriana if discovered. She
+                     comforts Oriana in times of trouble, helps hide the infant Esplandian, and
+                     writes letters to her cousin Amadis with messages from Oriana. Mabilia marries
+                     Grasandor in Book IV as part of the collective wedding Amadis arranges.</note>
+               </person>
+               <person xml:id="Brandoivas">
+                  <persName>Brandoivas</persName>
+                  <note resp="#st">A minor knight, Brandoivas serves Lisuarte's court, carrying
+                     messages and providing information.</note>
+               </person>
+               <person xml:id="Grindalaya">
+                  <persName>Grindalaya</persName>
+                  <note resp="#st">A minor noblewoman, Grindalaya is the lover of King Arban of
+                     North Wales, himself a minor character associated with Lisuarte's court. Aldeva
+                     is her sister.</note>
+               </person>
+               <person xml:id="Aldeva">
+                  <persName>Aldeva</persName>
+                  <note resp="#st">Aldeva, a minor female character, is Galaor's lover in Book I.
+                     Grindalaya is her sister.</note>
+               </person>
+               <person xml:id="Arban">
+                  <persName>Arban of North Wales</persName>
+                  <persName>Arbán de Norgales</persName>
+                  <note resp="#st">Arban is a minor knight, a sometime companion of Amadis who is
+                     associated with Lisuarte's court. Grindalaya is his lover.</note>
+               </person>
+
+               <person xml:id="Guirnalda">
+                  <persName>dueña de la Guirnalda</persName>
+                  <persName>Lady of the Garland</persName>
+                  <note resp="#heb">Oldest daughter of Garinter, king of Little Britain. She is
+                     called the Lady of the Garland, because her husband, King Languines of
+                     Scotland, never allowed her to cover her hair but with a chaplet of
+                     flowers.</note>
+               </person>
+               <person xml:id="Agrajes">
+                  <persName>Agrajes</persName>
+                  <persName>Agrayes</persName>
+                  <note resp="#heb">Son of Languines of Scotland. He is Amadis's companion and first
+                     cousin as well as a great knight in his own right. He is in love with Olinda la
+                     mesurada, a princess of Norway.</note>
+               </person>
+               <person xml:id="Squire1">
+                  <note resp="#heb">Perion's unnamed squire. He assists in the clandestine meetings
+                     between Helisena and his master.</note>
+               </person>
+               <person xml:id="Briolanja">
+                  <persName>Briolanja</persName>
+                  <persName>la reina de Sobradisa</persName>
+                  <persName>Briolania</persName>
+                  <persName>queen of Sobradisa</persName>
+                  <note resp="#st">Briolanja is first introduced as "la niña hermosa," the beautiful
+                     child of the betrayed king of Sobradisa. Amadís helps defeat her uncle Abiseos,
+                     who has usurped Briolanja's throne. Thereafter, Briolanja's fate varies
+                     according to the version of the legend one follows. Briolanja falls in love
+                     with Amadís, and Montalvo cites five versions of the results. Either Amadís
+                     rejects her, Amadís indulges in an affair with her (with Oriana's permission)
+                     Briolanja imprisons him until he agrees to have a child with him, he either
+                     gives in and Briolanja bears twins, or Briolanja relents and allows Amadís to
+                     replace himself with Galaor. In the 1508 Briolanja is the occasion for Oriana's
+                     jealousy. The dwarf observes that Amadís admires her beauty and misinterprets
+                     the fact that Amadís uses the sword she has given him. Oriana's jealousy is
+                     based on what she believes to be good information--the dwarf, Amadís's constant
+                     companion, tells her he loves the girl who gave him the sword. Briolanja is
+                     represented as quite beautiful, and she places second in the beauty challenges
+                     at Ínsola Firme. She marries Galaor in Book IV. In <bibl>Las sergas de
+                        Esplandián</bibl>, Montalvo includes praise for Briolanja, saying that she
+                     must have been in fact more beautiful than Oriana.</note>
+               </person>
+               <person xml:id="dwarf">
+                  <persName>el enano</persName>
+                  <persName>the dwarf</persName>
+                  <note resp="#st">Amadís's unnamed dwarf is, along with his squire Gandalín, his
+                     constant traveling companion. Dwarves appear frequently in chivalric romance,
+                     perhaps as the opposite of the giants who are habitual enemies. Amadís's dwarf
+                     provides comic relief, and his information is not always sound. He accidentally
+                     provokes Oriana's jealousy when he tells her Amadís is in love with
+                     Briolanja.</note>
+               </person>
+               <person xml:id="Gandalin">
+                  <persName>Gandalín</persName>
+                  <persName>Gandalin</persName>
+                  <note resp="#set">Gandalín, son of Gandales, is Amadís's foster brother and
+                     childhood companion. He accompanies Amadís through all his adventures, serving
+                     as squire and messenger. Gandalín is a brave fighter who dispatches
+                     non-knightly foes, including the giantess Andandona. He briefly becomes
+                     governor of Ínsola Firme, inspiring the Barataria episode of Miguel de
+                     Cervantes's <bibl>Don Quixote</bibl>. Eventually Amadís knights him, finds him
+                     a wife, and grants him territory on a permanent basis.</note>
+               </person>
+               <person xml:id="Abiseos">
+                  <persName>Abiseos</persName>
+                  <note resp="#set">Abiseos is Briolanja's uncle. He usurped the kingdom of
+                     Sobradisa from his brother. Amadís and company eventually defeat him.</note>
+               </person>
+               <person xml:id="Darasion">
+                  <persName>Darasión</persName>
+                  <note resp="#set">Darasion is the son of Abiseos, usurper of Briolanja's kingdom
+                     of Sobradisa.</note>
+
+               </person>
+               <person xml:id="Dramis">
+                  <persName>Dramís</persName>
+                  <note resp="#set">Dramis is the son of Abiseos, usurper of Briolanja's kingdom of
+                     Sobradisa.</note>
+               </person>
+               <person xml:id="Briolanja_aunt">
+                  <persName>la dueña</persName>
+                  <note resp="#st">Briolanja's unnamed aunt is a cantankerous personality who nearly
+                     gets Amadís killed and sends misleading letters in her quest to restore her
+                     niece to the throne of Sobradisa.</note>
+               </person>
+               <person xml:id="Galaor">
+                  <persName>Galaor</persName>
+               </person>
+               <person xml:id="Ungan">
+                  <persName>Ungan</persName>
+                  <persName>Ungan el Picardo</persName>
+                  <persName>el maestro</persName>
+                  <note>Wisest clergyman in Perion's kingdom and counselor of the king.</note>
+               </person>
+               <person xml:id="Alberto">
+                  <persName>Alberto de Campania</persName>
+                  <persName>el clérigo</persName>                  
+                  <note>Another clergyman, counselor/adviser of Perion.</note>
+               </person>
+               <person xml:id="Anteles">
+                  <persName>Anteles</persName>
+                  <note>Another clergyman, counselor/adviser of Perion.</note>
+               </person>
+               <person xml:id="anon">
+                  <persName>Squire_1</persName>
+                  <note>We are using anon to signify all of the unnamed characters of the Amadís,
+                     which include damsels, squires, giants, hermits, knights, ladies, and other
+                     minor characters. If characters are distinct without having a name, like the dwarf or the damsel of Denmark, they have their own xml ids.</note>
+               </person>
+            </listPerson>
+         </div>
+         <div type="fictional_places">
+            <listPlace>
+               <place xml:id="Alima">
+                  <placeName>Alima</placeName>
+                  <note resp="#heb">One of the properties that belongs to King Garinter, where he
+                     meets Amadis of Gaul's father for the first time.</note>
+               </place>
+               <place xml:id="Angaduza">
+                  <placeName>Angaduza</placeName>
+                  <note resp="#st">Angaduza is a forest (floresta) adjacent to the castle of
+                     Briolanja's aunt.</note>
+               </place>
+               <place xml:id="Antalia">
+                  <placeName>Antalia</placeName>
+                  <note resp="#heb">Scottish village where Gandales and his family anchor after
+                     rescuing Amadis.</note>
+               </place>
+               <place xml:id="Sobradisa">
+                  <placeName>Sobradisa</placeName>
+                  <note>Briolanja's kingdom.</note>
+               </place>
+               <place xml:id="Serolis">
+                  <placeName>Sérolis</placeName>
+                  <note resp="#heb">Neighboring country of the kingdom of Sobradisa.</note>
+               </place>
+            </listPlace>
+         </div>
+         <div type="geographical_places">
+            <listPlace><place xml:id="Paris">
+               <placeName>Paris</placeName>
+               <note resp="#ebb"><persName ref="#Arthur">King Arthur</persName> is said to have defeated <persName ref="#Floyon">Floyon</persName> in front of the gates of Paris. </note>
+            </place>
+               <place xml:id="littleBritain">
+                  <placeName>Lesser Britain</placeName>
+                  <placeName>Little Britain</placeName>
+                  <note resp="#ebb"><!--ebb Are these indeed identical?--></note>
+               </place>
+            
+            <place xml:id="Scotland">
+               <placeName>Scotland</placeName>
+               <note resp="#ebb">The Knight <persName ref="#Gandales">Gandales</persName> carries the infant <persName ref="#Amadis">Amadis</persName> by sea to Scotland, to the town <placeName ref="#Antalia">Antalia</placeName>.</note>
+            </place>
+            </listPlace>
+         </div>
+         <div type="publications">
+            <listBibl>
+
+               <bibl xml:id="Munday">
+                  <title>The first book of Amadis of Gaule</title>
+                  <author>Anthony Munday</author>
+                  <pubPlace/>
+                  <publisher/>
+                  <date when="1590">1590</date>
+                  <note resp="#st">Made after Nicholas de Hebreray's French version (Lyon
+                     1531)</note>
+               </bibl>
+               <bibl xml:id="Hebreray">
+                  <title>Amadis de Gaule</title>
+                  <author>Nicholas de Hebreray</author>
+                  <pubPlace/>
+                  <publisher/>
+                  <date from="1531" to="1555">1531, 1532
+                     <!--st grab date for vols 2, 3, 4 --></date>
+                  <note resp="#st">Four volumes published separately in Lyon. First volume Lyon
+                     1532.</note>
+               </bibl>
+
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
