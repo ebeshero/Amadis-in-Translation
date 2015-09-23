@@ -51,7 +51,7 @@
                 <xsl:number select="./parent::*" level="any" count="//div[@type='chapter']//p[not(parent::argument)]"/>
                               
                 <xsl:text>_c</xsl:text>
-                <xsl:number level="any" count="//div[@type='chapter']//p[not(ancestor::argument)]"/>
+                <xsl:number level="any" count="//div[@type='chapter']//cl[not(ancestor::argument)]"/>
             </xsl:attribute>
 
             <xsl:apply-templates/>
