@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amadis of Gaul, by VASCO LOBEJRA.</title>
+            <editor role="translator">Robert Southey</editor>
+            <editor>Stacey Triplette</editor>
+            <editor>Elisa Beshero-Bondar</editor>
+            <editor>Helena Bermúdez Sabel</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority ana="printer">Printed by N. Biggs, Cross-court, Fleet-street</authority>
+            <publisher>T. N. Longman and O. Rees</publisher>
+            <pubPlace>Paternoster Row, London</pubPlace>
+            <date>1803</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Rekeyed from a public domain Google-digitized text via HathiTrust.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" xml:id="S23">
+            <head>Chapter 23. <locus from="209" to="212"/>
+            </head>
+            <!--2015-09-23 ebb: Just starting this chapter. It looks surprisingly short! -->
+            <p><s>Amadis rode on without any adventure till he entered the forest of Angaduza, where he met a Knight and a Damsel; and the Knight coming near drew his sword, and ran at the Dwarf to cut off his head.</s><s>The Dwarf fell from his horse with fear, and cried lustily for help.</s><s>Amadis with all speed went to protect him.</s><s>Why would you slay my Dwarf? quoth he; trust me it is but poor manhood to lay hands on so poor a wretch: he is mine, and I shall defend him.</s><s>For that, replied the other, I am sorry; but at any rate I must have his head.</s><s>Do battle first, quoth Amadis.</s><s>They took their shields, and ran at each other; both shields were pierced and both breast-plates.</s><s>Their horses shocked together and their bodies, and both were driven to the ground; but the sword-battle that ensued none could have seen without affright, for never before had either warrior found himself so matched, nor in such peril; their shields were shivered, their helmets hacked and bruised, their mail sliced away, and every where free openings for the sword.</s><s>Both at length drew back to breathe.</s><s>Knight, said the stranger, do not suffer this any longer for the sake of a Dwarf: let me cut off his head, and I will make amends to you for the wrong hereafter.</s><s>Talk not to me of that, said Amadis: the Dwarf shall not be harmed.</s><s>I must either perish, said the Knight, or give his head to that Damsel.</s><s>Said Amadis, one of us shall perish first! and, resuming his shield and sword, he renewed the combat more fiercely, provoked at the Knight’s unreasonable will.</s><s>But if he was strong, the other was not weak, and the battle continued till each expected nothing but death, though neither of them a whit abated of his courage.</s><s>When they were in this plight a Knight came up, who crossed himself to see so desperate a combat, and asked the Damsel how it began.</s><s>I set them on, said she, and end as it will it must be to my joy; I shall be glad if either of them be killed, much more if both.</s><s>That, quoth the Knight, is an evil disposition: wherefore do you so hate them?</s><s>I will tell you: he who bath most of his shield left, is the man whose death my uncle Arcalaus most desires, and is named Amadis; the other is called Galaor, and he slew the man whom I loved best.</s><s>I obtained a boon from him, and have asked him one which will cost him his life; for, because that ether Knight is the best in the world, I have demanded the head of his Dwarf; both are brought near death hereby to my great pleasure.</s><s>A curse upon thee, woman! cried the Knight; and he drew his sword and smote her head from her shoulders: take this for the sake of thy uncle Arcalaus and his prison, from whence that Knight released me! and with that he gallopped to the combatants. – Hold, Sir Amadis, for it is your brother Galaor!</s></p>
+            
+            <p><s>Then Amadis threw down his shield and sword, and the brethren embraced, and Galaor knelt down and besought his pardon.</s><s>Brother! quoth Amadis, the danger through which I have passed is well requited, since it has proved to me your great prowess; and then they unlaced their helmets, for they had need of air, and the Knight told them how he had served the Damsel for her wickedness.</s><s>Good fortune befall you for doing it, quoth Galaor; for now am I clear of my boon.</s><s>And indeed, Sir Knight, said the Dwarf, I am better pleased that you are quit by these means, than in the way you first designed.</s><s>Now, said the stranger, come with me to my Castle.</s><s>I am the happiest man in the world, Sir Amadis, to have requited you with this service for delivering me from the cruellest dungeon in which ever wretch lay. – Where was that? – In the Castle of Arcalaus: my name is Balays of Carsante.</s><s>So they went to that good Knight’s Castle, where they were laid in bed, and their wounds dressed; and Amadis dispatched his Dwarf to inform Queen Brisena that he had found Galaor, and would bring him to Windsor as soon as they were able to travel.</s></p>
+         </div>
+      </body>
+   </text>
+</TEI>
