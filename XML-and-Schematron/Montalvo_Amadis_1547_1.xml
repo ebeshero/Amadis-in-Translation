@@ -42,7 +42,7 @@
                     <cl xml:id="M1_p1_c3">y cubierta de un manto y salieron ambas a la huerta:</cl>
                     <cl xml:id="M1_p1_c4">y la luna hazía muy clara.</cl>
                     <cl xml:id="M1_p1_c5">La donzella miró a su señora:</cl>
-                    <cl xml:id="M1_p1_c6">y abriéndole el manto católe el cuerpo y díxole
+                    <cl xml:id="M1_p1_c6">y abriéndole el Manto católe el cuerpo y díxole
                         riendo.</cl>
                     <cl xml:id="M1_p1_c7">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Señora en buena hora
@@ -72,11 +72,11 @@
                     <cl xml:id="M1_p1_c19">y soñava que entrava en aquella cámara por una falsa
                         puerta y no sabía quién a él iva:</cl>
                     <cl xml:id="M1_p1_c20">y le metía las manos por los costados/</cl>
-                    <cl xml:id="M1_p1_c21">y sacándole el coraçón le echava en un río y él
-                        dezía:</cl>
+                    <cl xml:id="M1_p1_c21">y sacándole el coraçón le echava en un río.</cl>
+                    <cl xml:id="M1_p1_c21.1">Y él dezía:</cl>
                     <cl xml:id="M1_p1_c22">
-                        <milestone unit="said" resp="#Perion" ana="start"/>por qué hicisteis tal
-                            crudeza?<milestone unit="said" ana="end"/>
+                        <milestone unit="said" resp="#Perion" ana="start"/>por qué hezisteis
+                            crueza?<milestone unit="said" ana="end"/>
                         <milestone unit="said" ana="start" resp="#anon"/>No es nada esto <milestone
                             unit="said" ana="intStart"/>dezía él<milestone unit="said" ana="intEnd"
                         /> que allá os queda otro coraçón:</cl>
@@ -84,23 +84,24 @@
                     <cl xml:id="M1_p1_c24">aunque no será por mi voluntad.<milestone unit="said"
                             ana="end"/>
                     </cl>
-                    <cl xml:id="M1_p1_c25">El rey que gran cuita en sí tenía despertó despavorido y
+                    <cl xml:id="M1_p1_c25">El rey que gran cuita en sí sentía despertó despavorido y
                         començóse a santiguar.</cl>
                     <cl xml:id="M1_p1_c26">A esta sazón avían ya las donzellas la puerta
                         abierto/</cl>
                     <cl xml:id="M1_p1_c27">y entravan por ella y como lo sintió temióse de traición
                         por lo que soñara y levantando la cabeça vio por entre las cortinas abierta
                         la puerta/</cl>
-                    <cl xml:id="M1_p1_c28">de lo que él nada no sabía y con la Luna que por ella
-                        entrava vio el bulto de las donzellas.</cl>
+                    <cl xml:id="M1_p1_c28">de lo que él nada no sabía:</cl>
+                    <cl xml:id="M1_p1_c28.1">y con la Luna que por ella entrava vio el bulto de las
+                        donzellas.</cl>
                     <cl xml:id="M1_p1_c29">Assí que saltando de la cama do yazía tomó su espada y
                         escudo y fue contra aquella parte do visto las avía.</cl>
-                    <cl xml:id="M1_p1_c30">E Darioleta cuando assí lo vio díxole.</cl>
+                    <cl xml:id="M1_p1_c30">E Darioleta cuando assí lo vido díxole.</cl>
                     <cl xml:id="M1_p1_c31">
-                        <milestone resp="#Darioleta" unit="said" ana="start"/>Qué es esto
+                        <milestone resp="#Darioleta" unit="said" ana="start"/>Qué es esso
                         señor?</cl>
-                    <cl xml:id="M1_p1_c32">Tirad vuestras armas que contra nos poca defensa nos
-                            terná.<milestone unit="said" ana="end"/>
+                    <cl xml:id="M1_p1_c32">Tirad vuestras armas que contra nos poca defensa vos
+                            ternán.<milestone unit="said" ana="end"/>
                     </cl>
                     <cl xml:id="M1_p1_c33">El rey que la conoció miró y vio a Elisena su muy amada y
                         echando la espada y su escudo en tierra cubrióse de un manto que ante la
@@ -121,9 +122,10 @@
                     <cl xml:id="M1_p1_c41"> en razón del casamiento de su señora y salióse a la
                         huerta.</cl>
                     <cl xml:id="M1_p1_c42">El rey quedó solo con su amiga/</cl>
-                    <cl xml:id="M1_p1_c43">que a la lumbre de tres hachas que en la cámara ardían la
-                        mirava paresciéndole que toda la hermosura del mundo en ella era junta
-                        teniéndose por muy bienaventurado en que Dios a tal estado lo truxera:</cl>
+                    <cl xml:id="M1_p1_c43">que a la lumbre de tres hachas que en la cámara
+                            <sic>Ardían</sic> la mirava paresciéndole que toda la hermosura del
+                        mundo en ella era junta teniéndose por muy bienaventurado en que Dios a tal
+                        estado lo truxera:</cl>
                     <cl xml:id="M1_p1_c44">y assí abraçados se fueron a echar en el lecho.</cl>
                     <cl xml:id="M1_p1_c45">Donde aquella que tanto tiempo con tanta hermosura y
                         juventud/</cl>
@@ -168,7 +170,7 @@
                     <cl xml:id="M1_p1_c69">assí como otras muchas que en este mundo contarse
                         podrían/</cl>
                     <cl xml:id="M1_p1_c70">que por no se guardar de lo ya dicho lo hizieron y
-                        adelante haránnolo mirando.</cl>
+                        adelante harán <sic>nolo</sic> mirando.</cl>
                     <cl xml:id="M1_p1_c71">Pues assí estando estos dos amantes en su solaz.</cl>
                     <cl xml:id="M1_p1_c72">Elisena preguntó al rey Perión si su partida sería
                         breve:</cl>
@@ -178,7 +180,7 @@
                         lo preguntáis?<milestone unit="said" ana="end"/>
                         <milestone unit="said" resp="#Helisena" ana="start"/>Porque esta buena
                         ventura <milestone unit="said" ana="intStart"/>dixo ella<milestone
-                            unit="said" ana="intEnd"/> que en tanto gozo y descanso a mis mortales
+                            unit="said" ana="intEnd"/> que en tanto gozo y descanso mis mortales
                         desseos ha puesto/</cl>
                     <cl xml:id="M1_p1_c75">ya me amenaza con la gran tristura y congoxa que vuestra
                         ausencia me porná a ser por ella más cerca de la muerte que no de la
@@ -195,12 +197,12 @@
                     <cl xml:id="M1_p1_c82">no ay otra fuerça tan dura que detenerme pueda.<milestone
                             unit="said" ana="end"/>
                     </cl>
-                    <cl xml:id="M1_p1_c83">Darioleta que vio ser razón de ir de allí entró en la
+                    <cl xml:id="M1_p1_c83">Darioleta que vio ser r\sazón de ir de allí entró en la
                         cámara y dixo.</cl>
                     <cl xml:id="M1_p1_c84">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Señora sé que otra vez
-                        os plugo comigo <gap reason="error"/>
-                        <!--heb: I'm pretty sure that the word "ir" (or similar) is missing here-->
+                        os plugo comigo
+                        <!--st: I think it's an archaism "Earlier you were more pleased with me than you are now. Cacho doesn't supply a form of ir and he's working with a handful of editions.-->
                         más que no ahora mas conviene que vos levantéis y vayamos que ya tiempo
                             es.<milestone unit="said" ana="end"/>
                     </cl>
@@ -222,7 +224,7 @@
                     <cl xml:id="M1_p1_c95">y aún él mismo sabía algo:</cl>
                     <cl xml:id="M1_p1_c96">que cuando más moço aprendiera.</cl>
                     <cl xml:id="M1_p1_c97">En este vicio y placer estuvo allí el rey Perión diez
-                        días holgando todas las noches con aquélla su muy amada amiga/</cl>
+                        días holgando todas las noches con aquella su muy amada amiga/</cl>
                     <cl xml:id="M1_p1_c98">en cabo de los cuales acordó forçando su voluntad:</cl>
                     <cl xml:id="M1_p1_c99">y las lágrimas de su señora que no fueron pocas de se
                         partir.</cl>
@@ -270,7 +272,7 @@
                     <cl xml:id="M1_p1_c125">no se podía en ninguna guisa escusar la muerte.</cl>
                     <cl xml:id="M1_p1_c126">Y esta tan cruel costumbre y péssima duró hasta la
                         venida del muy virtuoso rey <!--heb: Is it worth it to code the following references considering they are more
-                    of the historical kind and they are not actual characters?--><!-- st: We may want to collect all Arthurian/matter of Britain places and names because someday it will make a nice chart for our website and other readers might really care about it. Scholars like David Hook and Carlos Alvar have made careers out of collecting Arthurian names, motifs, and topoi from medieval Iberia. -->
+                    of the historical kind and they are not actual characters?--><!-- st: We may want to collect all Arthurian/matter of Britain places and names because someday it will make a nice chart for our website and other readers might really care about it. Scholars like David Hook and Carlos Alvar have made careers out of collecting Arthurian names, motifs, and topoi from medieval Iberia. Also, Arthur is not real (unless you ask a certain category of nostalgic British historians or American tv). -->
                         <persName>Artur</persName>:</cl>
                     <cl xml:id="M1_p1_c127">que fue el mejor rey de los que allí reinaron:</cl>
                     <cl xml:id="M1_p1_c128">y la revocó al tiempo que mató en batalla ante las
@@ -284,15 +286,15 @@
                     <cl xml:id="M1_p1_c132">aviendo sido tan ocultas:</cl>
                     <cl xml:id="M1_p1_c133"> pues pensar de lo hazer saber a su amigo no podía
                         ser:</cl>
-                    <cl xml:id="M1_p1_c134">porque él tan mancebo fuesse y tan orgulloso de coraçón
-                        y nunca tomava folgança en ninguna parte sino por ganar honra y fama:</cl>
+                    <cl xml:id="M1_p1_c134">que como él tan mancebo fuesse:</cl> <cl xml:id="M1_p1_c134.1">y tan orgulloso de coraçón
+                        que nunca tomava folgança en ninguna parte sino por ganar honra y fama:</cl>
                     <cl xml:id="M1_p1_c135">que nunca su tiempo en otra cosa passava:</cl>
                     <cl xml:id="M1_p1_c136">sino andar de unas partes a <sic>otaas</sic> como
                         cavallero andante.</cl>
                     <cl xml:id="M1_p1_c137">Assí que por ninguna guisa ella remedio para su vida
                         hallava:</cl>
-                    <cl xml:id="M1_p1_c138">no le pesando tanto por perder la vida
-                        <!--heb: should have it been "vista" instead of "vida"?--> del mundo con la
+                    <cl xml:id="M1_p1_c138">no le pesando tanto por perder la <sic>vida</sic>
+                        <!--heb: should have it been "vista" instead of "vida"? st: yes, Cacho has vista--> del mundo con la
                         muerte como la de aquel su muy amado señor y verdadero amigo:</cl>
                     <cl xml:id="M1_p1_c139">mas aquel muy poderoso señor Dios:</cl>
                     <cl xml:id="M1_p1_c140">por permissión del cual todo esto passava para su sancto
@@ -305,8 +307,8 @@
                     <cl xml:id="M1_p1_c144">sobre un río que por allí passava:</cl>
                     <cl xml:id="M1_p1_c145">y tenía una puerta de hierro pequeña:</cl>
                     <cl xml:id="M1_p1_c146">por donde algunas vezes al río salían las donzellas a
-                        folgar y estava yerva
-                        <!--heb: "yerma" makes more sense than "yerva", right?--> que en ella no
+                        folgar y estava <sic>yerva</sic>
+                        <!--heb: "yerma" makes more sense than "yerva", right? st: yes, Cacho has yerma--> que en ella no
                         albergava ninguno:</cl>
                     <cl xml:id="M1_p1_c147">la cual por consejo de Darioleta Elisena a su padre y a
                         su madre para reparo de su mala disposición y vida solitaria:</cl>
@@ -326,8 +328,8 @@
                         descanso por se ver en tal lugar:</cl>
                     <cl xml:id="M1_p1_c157">que a su parecer antes allí que en otro alguno su
                         peligro reparar podía:</cl>
-                    <cl xml:id="M1_p1_c158">ovo consejo con su donzella qué se haría de lo que
-                        pariese:</cl>
+                    <cl xml:id="M1_p1_c158">ovo consejo con su donzella qué se faría de lo que
+                        pariesse:</cl>
                     <cl xml:id="M1_p1_c159">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Qué señora <milestone
                             unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"
@@ -345,8 +347,8 @@
                             <milestone unit="said" ana="intStart"/>dixo la donzella:<milestone
                             unit="said" ana="intEnd"/>
                     </cl>
-                    <cl xml:id="M1_p1_c164">que si os mataren:</cl>
-                    <cl xml:id="M1_p1_c165">no dejarán a ello.</cl>
+                    <cl xml:id="M1_p1_c164">que si vos mataren:</cl>
+                    <cl xml:id="M1_p1_c165">no dexarán a ello.</cl>
                     <cl xml:id="M1_p1_c166">
                         <milestone unit="said" resp="#Helisena" ana="start"/>Aunque yo culpada muera
                             <milestone unit="said" ana="intStart"/>dixo ella:<milestone unit="said"
@@ -361,7 +363,7 @@
                     <cl xml:id="M1_p1_c169">que gran locura sería por salvar una cosa sin provecho
                         condenássemos a vos y a vuestro amado:</cl>
                     <cl xml:id="M1_p1_c170">que sin vos no podría bivir:</cl>
-                    <cl xml:id="M1_p1_c171">y vos biviendo y él otros fijos e fijas avréis:</cl>
+                    <cl xml:id="M1_p1_c171">y vos biviendo y él otros fijos y fijas avréis:</cl>
                     <cl xml:id="M1_p1_c172">que el desseo de este vos hará perder.<milestone
                             unit="said" ana="end"/>
                     </cl>
@@ -373,10 +375,10 @@
                         grandes/</cl>
                     <cl xml:id="M1_p1_c177">que assí como arca una criatura con sus paños encerrar
                         pudiesse:</cl>
-                    <cl xml:id="M1_p1_c178">y tan larga como una espada:</cl>
-                    <cl xml:id="M1_p1_c179">y
+                    <cl xml:id="M1_p1_c178">y tanto larga como una espada:</cl>
+                    <cl xml:id="M1_p1_c179">e
                         <!--heb: do we change this "y" to "e" following the 
-                    modern ortography?-->
+                    modern ortography? st: yes, I have been doing so-->
                         hizo traer ciertas cosas para un betumen con que las pudiesse juntar:</cl>
                     <cl xml:id="M1_p1_c180">sin que ella ningún agua entrasse:</cl>
                     <cl xml:id="M1_p1_c181">y guardólo todo debaxo de su cama sin que Elisena lo
@@ -388,8 +390,8 @@
                     <cl xml:id="M1_p1_c184">y díxole.</cl>
                     <cl xml:id="M1_p1_c185">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Para qué os paresce
-                        que fue esto fecho r?<milestone unit="said" ana="end"/>
-                        <milestone unit="said" resp="#Helisena" ana="start"/>no sé <milestone
+                        que fue esto fecho?<milestone unit="said" ana="end"/>
+                        <milestone unit="said" resp="#Helisena" ana="start"/>No sé <milestone
                             unit="said" ana="end"/>dixo ella.</cl>
                     <cl xml:id="M1_p1_c186">
                         <milestone unit="said" resp="#Darioleta" ana="start"/>Saberlo héis
@@ -440,7 +442,7 @@
                         diziendo.</cl>
                     <cl xml:id="M1_p1_c210">
                         <milestone unit="said" resp="#Helisena" ana="start"/>Mi hijo pequeño cuán
-                        grave es a mí la vuestra cuitar.<milestone unit="said" ana="end"/>
+                        grave es a mí la vuestra cuita.<milestone unit="said" ana="end"/>
                     </cl>
                     <cl xml:id="M1_p1_c211">La donzella tomó tinta:</cl>
                     <cl xml:id="M1_p1_c212">y pargamino:</cl>
@@ -457,22 +459,22 @@
                         ella<!-- st 8.25.15 This part is indirect discourse and not part of the letter or floating text in and of itself. It's pretty normal for Amadís to quote a letter and then reiterate its content in indirect discourse. I don't see it as an overlap. -->
                         porque creía que luego sería muerto:</cl>
                     <cl xml:id="M1_p1_c216">y este nombre era allí muy preciado porque assí se
-                        llamava un sancto a quien la donzella le encomendó.</cl>
+                        llamava un sancto a quien la donzella lo encomendó.</cl>
                     <cl xml:id="M1_p1_c217">Esta carta cubrió toda de cera y puesta en una cuerda se
                         la puso al cuello del niño.</cl>
                     <cl xml:id="M1_p1_c218">Elisena tenía el anillo que el rey Perión le diera
                         cuando se partió:</cl>
                     <cl xml:id="M1_p1_c219">y metiólo en la misma cuerda de la cera:</cl>
-                    <cl xml:id="M1_p1_c220">y assimismo poniendo el niño dentro en el arca le
+                    <cl xml:id="M1_p1_c220">y assimismo poniendo el niño dentro en el Arca le
                         pusieron la espada del rey Perión:</cl>
                     <cl xml:id="M1_p1_c221">que la primera noche que ella con él durmiera la echó de
-                        la mano en el suelo como ya oísteis :y por la donzella fue guardada:</cl>
+                        la mano en el suelo como ya oísteis:</cl> <cl xml:id="M1_p1_c221.1">y por la donzella fue guardada:</cl>
                     <cl xml:id="M1_p1_c222">y aunque el rey la halló menos nunca osó por ella
                         preguntar:</cl>
                     <cl xml:id="M1_p1_c223">porque el rey Garinter no oviesse enojo con aquellos que
                         en la cámara entravan.</cl>
                     <cl xml:id="M1_p1_c224">Esto assí fecho puso la tabla encima tan junta y bien
-                        calafateada/</cl>
+                        calafeteada/</cl>
                     <cl xml:id="M1_p1_c225">que agua ni otra cosa podía entrar:</cl>
                     <cl xml:id="M1_p1_c226">y tomándola en sus braços:</cl>
                     <cl xml:id="M1_p1_c227">y abriendo la puerta la puso en el río y dexóla ir:</cl>
@@ -519,7 +521,7 @@
                     <cl xml:id="M1_p1_c247">donde hizo criar el donzel como si su hijo propio
                         fuesse:</cl>
                     <cl xml:id="M1_p1_c248"> y assí lo creían todos que lo fuesse/</cl>
-                    <cl xml:id="M1_p1_c249">que de los marineros no se pudo saber su hazienda porque
+                    <cl xml:id="M1_p1_c249">que de los marineros no se pudo saber su hazienda:</cl> <cl xml:id="M1_p1_c249.1">porque
                         en la barca que era suya a otras partes navegaron.</cl>
                 </p>
             </div>
