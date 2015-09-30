@@ -110,65 +110,151 @@
                      /><milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
                      resp="#Galaor"/><anchor ana="start" type="add"/>Ah, knave,<anchor ana="end"
                      /><milestone unit="said" ana="intStart"/>
-                        <anchor ana="start" synch="#M21_p1_c38"/>quoth<anchor ana="end"/> <anchor ana="start" synch="#M21_p1_c37"/>Galaor,<anchor ana="end"/>
-                        <milestone unit="said" ana="intEnd"/><anchor ana="start" type="add"/>thou shalt repent this!<anchor ana="end"/><!-- st stopped here --><milestone
-                     unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"
-                  />You must provide yourself with horse and arms first,<milestone unit="said"
-                     ana="end"/> said the traitor.</s></p>
+                  <anchor ana="start" synch="#M21_p1_c38"/>quoth<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c37"/>Galaor,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" type="add"/>thou shalt
+                  repent this!<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#anon"/><anchor ana="start" type="add"/>You must
+                  provide yourself with<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c41"/>horse and arms<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>first,<anchor ana="end"/><milestone unit="said"
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c41"/>said<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>/>the traitor.<anchor ana="end"/></s></p>
 
-            <p><s>Gone is the Knight so fast as he could gallop, and Galaor in great wrath followed
-                  in the same tract upon the Squire’s palfrey.</s><s>At length he came to a double
-                  way, and knowing not which to take, stood still in perplexity.</s><s>Presently
-                  there came up a <persName ref="#anon">Damsel</persName>, riding more than apace,
-                  of whom he demanded if she had seen a Knight on a bay horse, bearing a white
-                  shield with a vermilion flower.</s><s><milestone unit="said" ana="start"
-                     resp="#anon"/>--And what would you with him?<milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#Galaor"/>I would recover my
-                  horse and arms which he has stolen;<milestone unit="said" ana="end"/> and he told
-                  her what had happened.</s><s><milestone unit="said" ana="start" resp="#anon"
-                     />How,<milestone unit="said" ana="intStart"/> said she, <milestone unit="said"
-                     ana="intEnd"/>would you recover them being disarmed?<milestone unit="said"
-                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#Galaor"/>Only let
-                  me find him!<milestone unit="said" ana="end"/></s><s>quoth
-                     Galaor.</s><s><milestone unit="said" ana="start" resp="#anon"/>--Well, grant me
-                  a boon, and I will bring you to him.<milestone unit="said" ana="end"/></s><s>So
-                  she rode on, and Galaor after her; but the Damsel was foremost, for Galaor’s
-                  palfrey could not keep up with her, carrying both him and his Squire, and they
-                  rode three leagues without seeing her.</s><s>Then they met her returning, for the
-                  false Knight was her paramour, and she had been advising with him how he might
-                  spoil Galaor of his armour.</s><s>So she led Galaor to a tent, where the Knight
-                  was ready to kill him without danger.</s><s>Galaor alighted; the Knight stood at
-                  the entrance of the tent, and exclaimed, <milestone unit="said" ana="start"
-                     resp="#anon"/>give me now the rest of your armour, or I will slay
-                     thee!<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Galaor"/>Certes,<milestone unit="said" ana="intStart"/>
-                  quoth Galaor, <milestone unit="said" ana="intEnd"/>I cannot fear such a knave as
-                  thou art; and, avoiding his blow, he smote him so manfully upon the head as made
-                  him put knee to earth, and then griped his helmet and plucked it off; and the
-                  Knight cried aloud to his leman for help.</s><s>She hastily drawing nigh, called
-                  to Galaor to hold, for that was the boon which she required; but she spoke too
-                  late, for Galaor in his anger had already made him in a state that needed no
-                  surgeon.</s><s><milestone unit="said" ana="start" resp="#anon"/>Wretch that I
-                     am!<milestone unit="said" ana="intStart"/> said she, <milestone unit="said"
-                     ana="intEnd"/>in beguiling another I have deceived myself.</s><s>An ill death
-                  kill thee, Knight!</s><s>I will claim thy boon so that thou shalt die for it; and,
-                  if thou shouldst refuse to grant it, I will every where proclaim thee and shame
-                  thee.</s><milestone unit="said" ana="end"/><s><milestone unit="said" ana="start"
-                     resp="#Galaor"/>Damsel,<milestone unit="said" ana="intStart"/> said Galaor,
-                     <milestone unit="said" ana="intEnd"/>you spoke too late, else would I have
-                  spared him, though he well deserved death.<milestone unit="said" ana="end"
-                  /></s><s>Then mounting, he rode on.</s><s>After some time he looked and saw that
-                  she was following him; <milestone unit="said" ana="start" resp="#Galaor"/>whither
-                  go you?<milestone unit="said" ana="end"/></s><s>said he.</s><s><milestone
-                     unit="said" ana="start" resp="#anon"/>--In your company, which I will not
-                  leave, till I have found opportunity to demand my boon, and make thee die an evil
-                     death.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Galaor"/>--Lady, you had better choose some other
-                     atonement.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#anon"/>--Nothing but thy life for his.<milestone unit="said"
-                     ana="end"/></s><s>So they rode on for three days; the Damsel perpetually
-                  reviling him, and then they entered the forest of <placeName ref="#Angaduza"
-                     >Angaduza</placeName>.</s></p>
+            <p><s><anchor ana="start" synch="#M21_p1_c42"/>Gone is the Knight<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>so fast as he could gallop,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c43"/>and Galaor in great wrath<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c45"/>followed in the same tract<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c44"/>upon the Squire’s palfrey.<anchor
+                     ana="end"/></s><s><anchor ana="start" type="add"/>At length<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c46"/>he came to a double way,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c47"/>and knowing not which to take,
+                     stood<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>still in perplexity.<anchor ana="end"
+                     /></s><s><anchor ana="start" type="add"/>Presently<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c48"/>there came up a <persName ref="#anon"
+                     >Damsel</persName>, riding more than apace,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c50"/>of whom he demanded<anchor ana="end"/>
+                  <anchor ana="start" type="report" synch="#M21_p1_c51"/>if she had seen a Knight on
+                  a bay horse,<anchor ana="end"/><anchor ana="start" type="report"
+                     synch="#M21_p1_c52"/> bearing a white shield with a vermilion flower.<anchor
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"/><anchor
+                     ana="start" synch="#M21_p1_c53"/>--And what would you with him?<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#Galaor"/><anchor ana="start" synch="#M21_p1_c56"/>I would
+                     recover<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c55"/>my horse and arms<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c57"/>which he has stolen;<anchor ana="end"
+                     /><milestone unit="said" ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c59"/>and he told her what had happened.<anchor
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"/><anchor
+                     ana="start" synch="#M21_p1_c60"/>How,<milestone unit="said" ana="intStart"/>
+                  said she, <milestone unit="said" ana="intEnd"/>would you recover them being
+                     disarmed?<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Galaor"/><anchor ana="start" synch="#M21_p1_c62"
+                  />Only let me find him!<milestone unit="said" ana="end"/></s><s>quoth
+                     Galaor.<anchor ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#anon"/><anchor ana="start" synch="#M21_p1_c63"/>--Well, grant me a boon,
+                  and I will bring you to him.<anchor ana="end"/><milestone unit="said" ana="end"
+                  /></s><s><anchor ana="start" synch="#M21_p1_c66"/>So she rode on,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c67"/>and Galaor after her;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c68"/>but the Damsel was foremost,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c69"/>for Galaor’s palfrey could not keep up
+                  with her, carrying both him and his Squire,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c70"/>and they rode three leagues without
+                  seeing her.<anchor ana="end"/></s><s><anchor ana="start" synch="#M21_p1_c71"/>Then
+                  they met her returning,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c73"/>for the<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>false<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c73"/>Knight was her paramour,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c74"/>and she had been advising with him how he
+                  might spoil Galaor of his armour.<anchor ana="end"/></s><s><anchor ana="start"
+                     synch="#M21_p1_c78"/>So she led Galaor to a tent,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>where<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c77"/>the Knight was ready to kill him without
+                     danger.<anchor ana="end"/></s><s><anchor ana="start" synch="#M21_p1_c81"
+                  />Galaor alighted;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c62"/>the Knight stood at the entrance<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>of the tent,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c82"/>and exclaimed,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#anon"/><anchor ana="start"
+                     synch="#M21_p1_c83"/>give me now the rest of your armour,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c84"/>or<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>I will slay thee!<anchor ana="end"/><milestone
+                     unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#Galaor"
+                     /><anchor ana="start" synch="#M21_p1_c85"/>Certes,<milestone unit="said"
+                     ana="intStart"/> quoth Galaor,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p1_c86"/>I
+                  cannot fear such a knave as thou art;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c88"/>and, avoiding his blow,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c90"/>he smote him so manfully upon the
+                     head<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c91"/>as made him put knee to earth,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c92"/>and then griped his helmet<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c93"/>and plucked it off;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c95"/>and the Knight cried aloud to his leman
+                  for help.<anchor ana="end"/></s><s><anchor ana="start" synch="#M21_p1_c96"/>She
+                  hastily drawing nigh, called to Galaor<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c97" type="report"/>to hold,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c98" type="report"/>for that was the boon which
+                  she required;<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>but she spoke too late,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c99"/>for Galaor in his anger had already made
+                  him in a state that needed no surgeon.</s><s><milestone unit="said" ana="start"
+                     resp="#anon"/>anchor ana="start" synch="#M21_p1_c101"/>Wretch that I am!<anchor
+                     ana="end"/><milestone unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p1_c100"/>said she,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p1_c102"/>in
+                  beguiling another I have deceived myself.<anchor ana="end"/></s><s><anchor
+                     ana="start" synch="#M21_p1_c104"/>An ill death kill thee, Knight!<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M21_p1_c106"/>I will claim thy
+                  boon so that<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c105"/>thou shalt die for it;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c108"/>and, if thou shouldst refuse to grant
+                  it, I will every where proclaim thee and shame thee.<anchor ana="end"
+                  /></s><milestone unit="said" ana="end"/><s><milestone unit="said" ana="start"
+                     resp="#Galaor"/><anchor ana="start" type="add"/>Damsel,<anchor ana="end"
+                     /><milestone unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p1_c109"/>said Galaor,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p1_c111"/>you
+                  spoke too late,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c110"/>else would I have spared him, though he
+                  well deserved death.<anchor ana="end"/><milestone unit="said" ana="end"
+                     /></s><s><anchor ana="start" type="add"/>Then mounting,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c114"/>he rode on.<anchor ana="end"
+                     /></s><s><anchor ana="start" type="add"/>After some time<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c117"/>he looked and saw that she was following
+                     him;<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Galaor"/><anchor ana="start"
+                     synch="#M21_p1_c119"/>whither go you?<anchor ana="end"/><milestone unit="said"
+                     ana="end"/></s><s><anchor ana="start" synch="#M21_p1_c118"/>said he.<anchor
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"/>--<anchor
+                     ana="start" synch="#M21_p1_c120"/>In your company,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p1_c121"/>which I will not leave, till I have
+                        found opportunity to demand my boon,<anchor ana="end"/> <anchor
+                           ana="start" synch="#M21_p1_c122"/>and make thee die an evil
+                     death.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                        ana="start" resp="#Galaor"/><anchor
+                           ana="start" synch="#M21_p1_c123"/>--Lady, you had better choose some other
+                     atonement.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                        ana="start" resp="#anon"/><anchor
+                           ana="start" synch="#M21_p1_c124"/>--Nothing but thy life for his.<anchor ana="end"/><milestone unit="said"
+                              ana="end"/></s><s><anchor
+                                 ana="start" synch="#M21_p1_c126"/>So they rode on<anchor ana="end"/> <anchor
+                                    ana="start" synch="#M21_p1_c128"/>for three days;<anchor ana="end"/> <anchor
+                                       ana="start" synch="#M21_p1_c126"/>the Damsel<anchor ana="end"/> <anchor
+                                          ana="start" synch="#M21_p1_c127"/>perpetually
+                                 reviling him,<anchor ana="end"/> <anchor
+                                    ana="start" synch="#M21_p1_c128"/>and then they entered the forest<anchor ana="end"/> <anchor
+                                       ana="start" synch="#M21_p1_c129"/>of <placeName ref="#Angaduza"
+                     >Angaduza</placeName><anchor ana="end"/>.</s></p><!-- st stopped here -->
 
             <p><s>After <persName ref="#Amadis">Amadis</persName> had taken leave of <persName
                      ref="#Urganda">Urganda</persName>’s Damsels, about noon he left the forest, and
