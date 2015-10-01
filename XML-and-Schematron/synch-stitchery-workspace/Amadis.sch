@@ -27,6 +27,15 @@
     </pattern>
     
     <pattern>
+        <rule context="tei:anchor[@type]">
+            <assert test=".[@type='add'] | .[@type='report']">
+                When using an @type attribute on the anchor element, legitimate values are "add" and "report."
+            </assert>
+            
+        </rule>
+    </pattern>
+    
+    <pattern>
         <rule context="tei:milestone[@unit='said'][@ana='start']">
             <assert test=".[@resp]">
                 A milestone marking the start of a speech must always contain an @resp attribute pointing to the #xml:id for the speaker.

@@ -4,14 +4,14 @@
 
     <pattern>
         <rule context="tei:milestone">
-            <assert test=".[@unit='p'] | .[@unit='said'] | .[@unit='transUnit']">
-               "p," "said," or "transUnit" are the only permitted values of @unit on the milestone element. 
+            <assert test=".[@unit='p'] | .[@unit='said']">
+               "said" and "p" are the only permitted values of @unit on the milestone element. 
             </assert>
         </rule>
     </pattern>
     
     <pattern>
-        <rule context="tei:milestone[@unit='said'] | tei:milestone[@unit='transUnit']">
+        <rule context="tei:milestone[@unit='said'] | tei:anchor">
             <report test=".[not(@ana)]">
                 An @ana must be present to designate the start or end (or interruption) of a speech or unit of translation.
             </report>     
@@ -19,10 +19,19 @@
     </pattern>
     
     <pattern>
-        <rule context="tei:milestone[@unit='said'] | tei:milestone[@unit='transUnit']">
+        <rule context="tei:milestone[@unit='said'] | tei:anchor">
             <assert test=".[@ana='start'] | .[@ana='end'] | .[@ana= 'intStart'] | .[@ana='intEnd']">
                 Legitimate values for @ana are "start," "end," "intStart," and "intEnd."
             </assert>
+        </rule>
+    </pattern>
+    
+    <pattern>
+        <rule context="tei:anchor[@type]">
+            <assert test=".[@type='add'] | .[@type='report']">
+                When using an @type attribute on the anchor element, legitimate values are "add" and "report."
+            </assert>
+            
         </rule>
     </pattern>
     
@@ -58,23 +67,23 @@
     </pattern>
     
    <pattern> 
-        <rule context="tei:milestone[@unit='transUnit'][@ana][preceding::tei:milestone[@unit='transUnit'][@ana]]/@ana">
-            <report test="matches(., preceding::tei:milestone[@unit='transUnit'][@ana][1]/@ana)">
+        <rule context="tei:anchor[@ana][preceding::tei:anchor[@ana]]/@ana">
+            <report test="matches(., preceding::tei:anchor[@ana][1]/@ana)">
                 The @ana must NOT be the same on two subsequent milestones for transUnit!
             </report>   
         </rule>
     </pattern>
   <pattern>
-        <rule context="tei:milestone[@ana='start'][@unit='transUnit']">
-            <report test="./following::tei:milestone[@unit='transUnit'][@ana][1][@ana='intEnd']">
-                In tagging a sequence of translation units, the value of @ana for the next milestone after "start" must never be "intEnd"!
+        <rule context="tei:anchor[@ana='start']">
+            <report test="./following::tei:anchor[@ana][1][@ana='intEnd']">
+                In tagging a disconnected (interrupted) series of translations, the value of @ana for the next milestone after "start" must never be "intEnd"!
             </report>
         </rule>
     </pattern>
     <pattern>
-        <rule context="tei:milestone[@ana='intStart'][@unit='transUnit']">
-            <assert test="./following::tei:milestone[@unit='transUnit'][@ana][1][@ana='intEnd']">
-                For translation units: After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
+        <rule context="tei:anchor[@ana='intStart']">
+            <assert test="./following::tei:anchor[@ana][1][@ana='intEnd']">
+                After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
             </assert>
         </rule>
     </pattern>
