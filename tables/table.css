@@ -1,46 +1,51 @@
-                            body{
-                                background-color:#B4D6B4;
-                                color:#031B3F;
-                                font-family:arial, helvetica, sans-serif;
-                                padding:15px;
-                                line-height:1.3em;
-                            }
-                            
-                            h1{
-                                color:#AA0000;
-                            }
-                            table{
-                                border-collapse:collapse;
-                                width:100%;
-                                border:2px solid #BF9E7D;
-                            }
-                            
-                            tr{
-                                border-collapse:collapse;
-                                border:0
-                            }
-                            
-                            th
-                            {
-                                border-collapse:collapse;
-                                border:1px solid #000066;
-                                background-color:#7E967E;
-                                padding:1px;
-                                color:#5F0000;
-                                vertical-align:top;
-                            }
-                            
-                            td
-                            {
-                                border-collapse:collapse;
-                                border:1px solid #000066;
-                                padding:7px;
-                                vertical-align:top;
-                            }
-                            td.omission{
-                                background-color:red;
-                                color:white}
-                            td.report{
-                                background-color:yellow}
-                            td.add{
-                                background-color:green}
+body{
+    background-color:#B4D6B4;
+    color:#031B3F;
+    font-family:arial, helvetica, sans-serif;
+    padding:15px;
+    line-height:1.3em;
+}
+
+h1{
+    color:#AA0000;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+    border:2px solid #BF9E7D;
+}
+
+tr{
+    border-collapse:collapse;
+    border:0
+}
+
+th
+{
+    border-collapse:collapse;
+    border:1px solid #000066;
+    background-color:#7E967E;
+    padding:1px;
+    color:#5F0000;
+    vertical-align:top;
+}
+
+td
+{
+    border-collapse:collapse;
+    border:1px solid #000066;
+    padding:7px;
+    vertical-align:top;
+}
+td.omission{
+    background-color:red;
+    color:white;
+}
+td.report{
+    background-color:yellow;
+}
+td.add{
+    background-color:green;
+}
+td.direct{
+    background-color:orange}
