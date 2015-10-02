@@ -416,9 +416,8 @@
                   <anchor ana="start" type="report" synch="#M0_p1_c133"/>and told her his love for Elisena.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c139"/>Then said Darioleta,<anchor ana="end"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>
-                  <anchor ana="start" synch="#M0_p1_c139"/>my Lord, promise me on the faith of a
+                  <anchor ana="start" synch="#M0_p1_c139"/>Then said Darioleta,
+                  <milestone unit="said" ana="start" resp="#Darioleta"/>my Lord, promise me on the faith of a
                   King and a Knight,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c140"/>that you will take to wife my Lady
                   Elisena, when time shall serve,<anchor ana="end"/>
