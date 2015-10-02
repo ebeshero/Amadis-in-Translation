@@ -99,7 +99,7 @@
     <let name="si" value="doc('SI-Amadis.xml')//@xml:id"/>
     <let name="siFile" value="doc('SI-Amadis.xml')"/>
    
-    <let name="M_files" value="collection('.')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+    <let name="M_files" value="collection('./Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
     <let name="M_ids" value="$M_files//@xml:id"/>
 
        

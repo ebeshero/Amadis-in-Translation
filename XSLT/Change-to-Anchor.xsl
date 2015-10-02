@@ -17,20 +17,7 @@
     serving an XSLT like this over a web server or from eXist.
     -->
 
-    <xsl:template match="milestone[@unit='transUnit']">
-     <xsl:choose>  <xsl:when test="@synch"> 
-           <anchor ana="{@ana}" synch="{@synch}"/>
-       </xsl:when>
-          <xsl:when test="@type">
-              <anchor ana="{@ana}" type="{@type}"/>
-          </xsl:when>
-        <xsl:otherwise>
-            <anchor ana="{@ana}"/>
-        </xsl:otherwise>
-     </xsl:choose>
-       
-        
-    </xsl:template>
+    
     
     
 </xsl:stylesheet>

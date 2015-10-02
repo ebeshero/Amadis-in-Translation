@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -48,9 +48,7 @@
                Spain in the mid-fourteenth century. Evidence in the form of character names and
                references in poetry dates to the fourteenth century. The primitive or medieval
                Amadís is now thought to be Castilian and not Portuguese or French. The attribution
-               to Portuguese knight Vasco de Lobeira is now known to be apocryphal.<ptr
-                  target="http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
-               />
+               to Portuguese knight Vasco de Lobeira is now known to be apocryphal.<ptr target="http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"/>
             </p>
          </sourceDesc>
       </fileDesc>
@@ -59,8 +57,7 @@
             <p>This digital critical edition seeks to reproduce the reading experience of the
                   <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with which
                Robert Southey worked for his translation in order to facilitate comparisons. The
-               following modifications have been made to the 1547 print edition. <list
-                  rend="numbered">
+               following modifications have been made to the 1547 print edition. <list rend="numbered">
                   <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish:
                         <hi>i/e/u</hi> express vowel sounds and <hi>y/j</hi> express consonants. For
                      example, <mentioned>reyna</mentioned> in the 1547 has been transcribed as
@@ -164,12 +161,10 @@
                   yo le dixe que si me matasse que matava a Arcaláus que assí he nombre:</cl>
                <cl xml:id="M20_p1_c16">y él dixo que avía nombre Amadís de Gaula:</cl>
                <cl xml:id="M20_p1_c17">assí que él de aquesta guisa rescibió la muerte:</cl>
-               <cl xml:id="M20_p1_c18">y yo quedé con la honra y prez de la batalla.<milestone
-                     unit="said" ana="end"/>
+               <cl xml:id="M20_p1_c18">y yo quedé con la honra y prez de la batalla.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c19">
-                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Ay Sancta María val<milestone
-                     unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Ay Sancta María val<milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
                   muerto es el mejor cavallero y más esforçado del mundo:</cl>
                <cl xml:id="M20_p1_c20">ay Dios Señor por qué os plugo de hazer tan buen comienço y
                   en tal cavallero:</cl>
@@ -178,7 +173,9 @@
                   los otros que allí estavan <choice>
                      <sic/>
                      <corr>.</corr>
-                  </choice></cl><cl xml:id="M20_p1_c21.1">Arcaláus se tornó por do viniera assaz con
+                  </choice>
+               </cl>
+               <cl xml:id="M20_p1_c21.1">Arcaláus se tornó por do viniera assaz con
                   enojo y maldezíanle los que lo veían rogando y faziendo petición a Dios que le
                   diesse cedo mala muerte:</cl>
                <cl xml:id="M20_p1_c22">y ellos mismos se la dieran sino porque según su razón no
@@ -190,8 +187,7 @@
                <cl xml:id="M20_p1_c26">començaron de llorar que de todos era muy amado y
                   querido.</cl>
                <cl xml:id="M20_p1_c27">
-                  <persName>Oriana</persName> que en su cámara seía embió a la <persName
-                     ref="#Damsel_Denmark">donzella de <distinct>Denamarcha</distinct>
+                  <persName>Oriana</persName> que en su cámara seía embió a la <persName ref="#Damsel_Denmark">donzella de <distinct>Denamarcha</distinct>
                   </persName> que supiesse qué cosa era aquel llanto que se hazía.</cl>
                <cl xml:id="M20_p1_c28">La donzella salió y como lo supo bolvió firiendo con sus
                   palmas en el rostro:</cl>
@@ -204,9 +200,7 @@
                   <milestone unit="said" ana="start" resp="#Oriana"/>Ay Sancta María si es muerto
                      Amadís?<milestone unit="said" ana="end"/>
                </cl>
-               <cl xml:id="M20_p1_c32">La donzella dixo/ <milestone unit="said" ana="start"
-                     resp="#Damsel_Denmark"/>ay cativa que muerto es:<milestone unit="said"
-                     ana="end"/> y falleciéndole a Oriana el coraçón cayó en tierra amortecida:</cl>
+               <cl xml:id="M20_p1_c32">La donzella dixo/ <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>ay cativa que muerto es:<milestone unit="said" ana="end"/> y falleciéndole a Oriana el coraçón cayó en tierra amortecida:</cl>
                <cl xml:id="M20_p1_c33">la donzella que assí la vio dexó de llorar y fuesse a
                      <persName>Mabilia</persName> que fazía muy gran duelo:</cl>
                <cl xml:id="M20_p1_c34">messando sus cabellos y díxole.</cl>
@@ -254,8 +248,7 @@
                <cl xml:id="M20_p1_c59">que seyendo en esta vida apartados con tanta afición
                   sostenían:</cl>
                <cl xml:id="M20_p1_c60">muy mayor en la otra seyendo juntos/</cl>
-               <cl xml:id="M20_p1_c61">si possible fuesse de les ser otorgado sosternán.<milestone
-                     unit="said" ana="end"/>
+               <cl xml:id="M20_p1_c61">si possible fuesse de les ser otorgado sosternán.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c62">
                   <sic>Estonces</sic> se amorteció de tal guisa:</cl>
@@ -271,13 +264,11 @@
                <cl xml:id="M20_p1_c69">Mabilia que verdaderamente cuidó que muerta era dixo:</cl>
                <cl xml:id="M20_p1_c70">
                   <milestone unit="said" resp="#Mabilia" ana="start"/>ay Dios Señor no te plega de
-                  yo más bivir pues las dos cosas que en este mundo más amava son muertas<milestone
-                     unit="said" ana="end"/> la donzella le dijo.</cl>
+                  yo más bivir pues las dos cosas que en este mundo más amava son muertas<milestone unit="said" ana="end"/> la donzella le dijo.</cl>
                <cl xml:id="M20_p1_c71">
                   <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Por Dios señora no
                   fallezca a tal hora vuestra discreción:</cl>
-               <cl xml:id="M20_p1_c72">y acorred a lo que remedio tiene.<milestone unit="said"
-                     ana="end"/>
+               <cl xml:id="M20_p1_c72">y acorred a lo que remedio tiene.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c73">Mabilia tomando esfuerzo se levantó:</cl>
                <cl xml:id="M20_p1_c74">y tomando a Oriana la pusieron en su lecho Oriana sospiró
@@ -327,8 +318,7 @@
                   fatigado/</cl>
                <cl xml:id="M20_p1_c100">hasta que la muerte que yo tanto desseo me sobrevenga:</cl>
                <cl xml:id="M20_p1_c101">la cual siendo causa que mí ánima con la vuestra se junte de
-                  muy mayor descanso que la atribulada vida me será ocasión.<milestone unit="said"
-                     ana="end"/>
+                  muy mayor descanso que la atribulada vida me será ocasión.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c102">Mabilia con semblante sañudo le dixo.</cl>
                <cl xml:id="M20_p1_c103">
@@ -374,8 +364,7 @@
                <cl xml:id="M20_p1_c123">
                   <milestone unit="said" ana="start" resp="#Lisuarte"/>Brandoivas seáis muy bien
                   venido:</cl>
-               <cl xml:id="M20_p1_c124">cómo tardastes tanto que mucho os emos desseado<milestone
-                     unit="said" ana="end"/>? </cl>
+               <cl xml:id="M20_p1_c124">cómo tardastes tanto que mucho os emos desseado<milestone unit="said" ana="end"/>? </cl>
                <cl xml:id="M20_p1_c125">A la razón que el rey dezía respondió y dixo.</cl>
                <cl xml:id="M20_p1_c126">
                   <milestone unit="said" ana="start" resp="#Brandoivas"/>Señor fue metido en tan
@@ -402,10 +391,7 @@
                   anoche Arcaláus que lo matara <milestone unit="said" ana="end"/> dixo el rey/</cl>
                <cl xml:id="M20_p1_c136">y contóle por cuál guisa lo avía contado.</cl>
                <cl xml:id="M20_p1_c137">
-                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Ay Sancta María<milestone
-                     unit="said" ana="intStart"/> dixo Brandoivas<milestone unit="said" ana="intEnd"
-                  /> que mal traidor pues peor se le paró el pleito que él cuidava<milestone
-                     unit="said" ana="end"/>.</cl>
+                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Ay Sancta María<milestone unit="said" ana="intStart"/> dixo Brandoivas<milestone unit="said" ana="intEnd"/> que mal traidor pues peor se le paró el pleito que él cuidava<milestone unit="said" ana="end"/>.</cl>
                <cl xml:id="M20_p1_c138"> Entonces contó al rey cuanto le aconteciera con Arcaláus
                   que nada faltó como ya lo avéis oído ante de esto.</cl>
                <cl xml:id="M20_p1_c139">El Rey y todos los de su casa cuando lo oyeron fueron tan
