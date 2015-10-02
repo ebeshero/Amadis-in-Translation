@@ -17,6 +17,13 @@
             </report>     
         </rule> 
     </pattern>
+    <pattern>
+        <rule context="tei:anchor[@ana='start'][not(@type='add')]">
+            <report test=".[not(@synch)]">
+               A @synch must be present on this anchor to point to a corresponding unit in Montalvo! This rule applies as long as the anchor is NOT @type="add" (an addition by Southey). 
+            </report>
+        </rule>
+    </pattern>
     
     <pattern>
         <rule context="tei:milestone[@unit='said'] | tei:anchor">
