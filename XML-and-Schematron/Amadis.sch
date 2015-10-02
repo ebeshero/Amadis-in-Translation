@@ -35,7 +35,7 @@
     
     <pattern>
         <rule context="tei:anchor[@type]">
-            <assert test=".[@type='add'] | .[@type='report']">
+            <assert test=".[@type='add'] | .[@type='report'] | .[@type='direct']">
                 When using an @type attribute on the anchor element, legitimate values are "add" and "report."
             </assert>
             
