@@ -325,7 +325,7 @@
                <s>
                   <anchor ana="start" synch="#M1_p1_c183"/>Then she showed it to Elisena<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c184"/>and asked<anchor ana="end"/> 
-                  <anchor ana="start" type="report"/>for what she thought it was designed?<anchor ana="end"/>
+                  <anchor ana="start" type="report" synch="#M1_p1_c185"/>for what she thought it was designed?<anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" synch="#M1_p1_c185.1"/>She answered, <milestone unit="said" ana="start" resp="#Helisena"/>I know not.<milestone unit="said" ana="end"/>
