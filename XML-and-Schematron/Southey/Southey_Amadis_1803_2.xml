@@ -53,8 +53,8 @@
                </s>
                <s>
                   <anchor ana="start" synch="#M1_p1_c21.1"/>He asked<anchor ana="end"/> 
-                  <anchor ana="start" type="report"/>why that cruelty was committed,<anchor ana="end"/> 
-                  <anchor ana="start" synch="#M1_p1_c22"/>and was answered--<milestone unit="said" ana="start" resp="#anon"/>it is nothing! there is another heart left there<anchor ana="end"/> 
+                  <anchor ana="start" type="report" synch="#M1_p1_c22"/>why that cruelty was committed,<anchor ana="end"/> 
+                  <anchor ana="start" synch="#M1_p1_c22.1"/>and was answered--<milestone unit="said" ana="start" resp="#anon"/>it is nothing! there is another heart left there<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c23"/>which I must take from you,<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c24"/>though against my will<milestone unit="said" ana="end"/>
                   <anchor ana="end"/>.</s>

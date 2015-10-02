@@ -74,7 +74,7 @@
                     <cl xml:id="M1_p1_c21.1">Y él dezía:</cl>
                     <cl xml:id="M1_p1_c22">
                         <milestone unit="said" resp="#Perion" ana="start"/>por qué hezisteis
-                            crueza?<milestone unit="said" ana="end"/>
+                        crueza?<milestone unit="said" ana="end"/></cl><cl xml:id="M1_p1_c22.1"> 
                         <milestone unit="said" ana="start" resp="#anon"/>No es nada esto <milestone unit="said" ana="intStart"/>dezía él<milestone unit="said" ana="intEnd"/> que allá os queda otro coraçón:</cl>
                     <cl xml:id="M1_p1_c23"> que yo vos tomaré:</cl>
                     <cl xml:id="M1_p1_c24">aunque no será por mi voluntad.<milestone unit="said" ana="end"/>
