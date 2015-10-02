@@ -479,13 +479,13 @@
                      /><milestone unit="said" ana="end"/></s><s><anchor ana="start"
                      synch="#M21_p2_c269"/>Upon this the woman loosed the chain of the lions, who
                   were two in number and very fierce,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M21_p2_c269" type="direct"/>and then she cried out, <milestone
-                     unit="said" ana="start" resp="#anon"/>save yourselves,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M21_p2_c272" type="direct"/>for the lions have broke loose!<anchor
-                     ana="end"
-                     /><milestone
-                     unit="said" ana="end"/></s><s><anchor ana="start" synch="#M21_p2_c273"/>They
-                  who were besetting Amadis forthwith fled,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c269" type="direct"/>and then she cried out,
+                     <milestone unit="said" ana="start" resp="#anon"/>save yourselves,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c272" type="direct"/>for the lions have broke
+                     loose!<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor
+                     ana="start" synch="#M21_p2_c273"/>They who were besetting Amadis forthwith
+                     fled,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>yet not so lightly but that<anchor ana="end"/>
                   <anchor ana="start" synch="#M21_p2_c273"/>many of them were torn to pieces by the
                      beasts.<anchor ana="end"/></s><s><anchor ana="start" synch="#M21_p2_c274"/>But
@@ -610,121 +610,250 @@
                   <anchor ana="start" synch="#M21_p2_c326"/>and her people came<anchor ana="end"/>
                   <anchor ana="start" synch="#M21_p2_c328"/>to receive him,<anchor ana="end"/>
                   <anchor ana="start" synch="#M21_p2_c329"/>and they brought him Gandalin and the
-                     Dwarf.<anchor ana="end"/></s><s><milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start" synch="#M21_p2_c331"/>I have lost my
-                        horse here,<anchor ana="end"/><milestone unit="said" ana="intStart"/> <anchor ana="start" synch="#M21_p2_c330"/>said Amadis;<anchor ana="end"/> <milestone
-                           unit="said" ana="intEnd"/><anchor ana="start" type="add"/>if it please you,<anchor ana="end"/> <anchor ana="start" synch="#M21_p2_c331"/>Lady, give me another,<anchor ana="end"/> <anchor ana="start" synch="#M21_p2_c332"/>else I must
-                  depart on foot.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#anon"/><!-- st stopped here -->That,<milestone unit="said" ana="intStart"/> quoth
-                  she, <milestone unit="said" ana="intEnd"/>were shame for a Knight like you; but
-                  remain here this night, and on the morrow we will provide you a horse.<milestone
-                     unit="said" ana="end"/></s><s>Then they disarmed him, and brought him a costly
-                  mantle, and led him to the apartment where the Lady and the young Damsel expected
-                  him, and they seeing him so young and beautiful, being so brave a Knight, were
-                  greatly amazed.</s><s>He on his part no less wondered at the Damsel, how fair she
-                  was; but addressing the Lady, he said, <milestone unit="said" ana="start"
-                     resp="#Amadis"/>if it please you, tell me what the figure meant which I saw in
-                  the chariot.<milestone unit="said" ana="end"/></s><s>She replied, <milestone
+                     Dwarf.<anchor ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#Amadis"/><anchor ana="start" synch="#M21_p2_c331"/>I have lost my horse
+                     here,<anchor ana="end"/><milestone unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c330"/>said Amadis;<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" type="add"/>if it please
+                     you,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c331"/>Lady, give me another,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c332"/>else I must depart on foot.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#anon"/><anchor ana="start" type="add"/>That,<anchor
+                     ana="end"/><milestone unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c333"/>quoth she,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p2_c335"
+                  />were shame for a Knight like you;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c334"/>but remain here this night,<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>and on the morrow<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c335"/>we will provide you a horse.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s>Then <anchor ana="start"
+                     synch="#M21_p2_c337"/>they disarmed him,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c338"/>and brought him a costly mantle,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c339"/>and led him to the<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>apartment<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c339"/>where the Lady and the young Damsel
+                  expected him,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c340"/>and they seeing him so<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c341"/>young<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c339"/>and beautiful,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c340"/>being so brave a Knight,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c339"/>were greatly amazed.<anchor ana="end"
+                  /></s><s><anchor ana="start" type="add"/>He on his part no less wondered at the
+                     Damsel,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c343"/>how fair she was;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c344"/>but addressing the Lady, he said,<anchor
+                     ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M21_p2_c345"/>if it please you,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c346"/>tell me what the figure meant which I
+                  saw in the chariot.<anchor ana="end"/><milestone unit="said" ana="end"
+                     /></s><s><anchor ana="start" synch="#M21_p2_c347"/>She replied, <milestone
                      unit="said" ana="start" resp="#anon"/>promise me to do what you ought after
                   having heard it, and I will tell you; otherwise, I pray you hold me
-                     excused.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Amadis"/>It were no reason, Madam,<milestone unit="said"
+                     excused.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M21_p2_c348"/>It were no reason, Madam,<milestone unit="said"
                      ana="intStart"/> quoth Amadis, <milestone unit="said" ana="intEnd"/>to promise
-                  lightly I know not what: if it be to do what befits a Knight, I shall not fail
-                     you.<milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
-                     resp="#anon"/>You say well, Sir,<milestone unit="said" ana="end"/> said she;
-                  and then dismissing all her attendants, she began.</s></p>
+                  lightly I know not what:<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c349"/>if it be to do what befits a
+                     Knight,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c350"/>I shall not fail you.<anchor ana="end"
+                     /><milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#anon"/><anchor ana="start" synch="#M21_p2_c351" type="direct"/>You say
+                  well, Sir,<milestone unit="said" ana="end"/> said she; and then dismissing all her
+                  attendants, she began.<anchor ana="end"/></s></p>
 
-            <p><s><milestone unit="said" ana="start" resp="#anon"/>Sir Knight, that figure in stone
-                  is made in remembrance of the father of this fair maiden, who lies in the monument
-                  which you saw in the chariot.</s><s>He was a crowned King, and being upon his
-                  throne on a festival day his brother came up, and drawing a sword from under his
-                  cloak, smote him on the head and cleft it, as you saw in the statue.</s><s>This
-                  was a concerted treason; he had brought with him many adherents, and seized the
-                  kingdom, which he still holds.</s><s>This child, the only one of the murdered
-                  King, was then under the care of that old Knight whom you have seen; who fled with
-                  her to me, being her aunt.</s><s>I procured my brother’s body, and entombed it as
-                  you have seen, and every day it is laid in the chariot, and carried forth; and I
-                  have sworn that none should see the monument but those who attain the sight by
-                  arms, nor leaving seen it, learn the meaning without promising to take vengeance
-                  for so wicked a treason.</s><s>Now, if you be a noble Knight bound to prosecute
-                  virtue, and on so just occasion, you will employ the forces God hath lent ye in
-                  this right cause; and I will continue this course, being sure of you, till I have
-                  found two champions more, to fight with the traitor and his two sons, for they
-                  will not undertake the battle except they be together.<milestone unit="said"
-                     ana="end"/></s></p>
+            <p><s><milestone unit="said" ana="start" resp="#anon"/><anchor ana="start"
+                     synch="#M21_p2_c352"/>Sir Knight, that figure in stone is made in remembrance
+                  of the father of this fair maiden,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c353"/>who lies in the monument which you saw
+                  in the chariot.<anchor ana="end"/></s><s><anchor ana="start" synch="#M21_p2_c354"
+                  />He was a crowned King,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c355"/>and being upon his throne on a festival
+                  day his brother came up,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c357"/>and drawing a sword from under his
+                  cloak, smote him on the head and cleft it, as you saw in the statue.<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M21_p2_c358"/>This was a
+                  concerted treason;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c359"/>he had brought with him many
+                     adherents,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c362"/>and seized the kingdom,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c363"/>which he still holds.<anchor ana="end"
+                  /></s><s><anchor ana="start" synch="#M21_p2_c361"/>This child, the only one of the
+                  murdered King,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c364"/>was then under the care of that old
+                  Knight whom you have seen;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c365"/>who fled with her to me,<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>being her aunt.<anchor ana="end"/></s><s><anchor
+                     ana="start" synch="#M21_p2_c367"/>I procured my brother’s body,<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>and entombed it as you have seen,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c368"/>and every day it is laid in the
+                     chariot,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c369"/>and carried forth;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c370"/>and I have sworn that none should see
+                  the monument but those who attain the sight by arms,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c371"/>nor leaving seen it, learn the meaning
+                  without promising to take vengeance for so wicked a treason.<anchor ana="end"
+                  /></s><s><anchor ana="start" synch="#M21_p2_c372"/>Now, if you be a noble Knight
+                  bound to prosecute virtue,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c373"/>and on so just occasion, you will employ
+                  the forces God hath lent ye in this right cause;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c333"/>and I will continue this course, being
+                  sure of you, till I have found two champions more, to fight with the traitor and
+                  his two sons,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c375"/>for they will not undertake the battle
+                  except they be together.<anchor ana="end"/><milestone unit="said" ana="end"
+               /></s></p>
 
-            <p><s><milestone unit="said" ana="start" resp="#Amadis"/>Let them come one by
-                     one,<milestone unit="said" ana="intStart"/> said Amadis, <milestone unit="said"
-                     ana="intEnd"/>and I will singly cope with them.<milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#anon"/>That,<milestone
+            <p><s><milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M21_p2_c379"/>Let them come one by one,<anchor ana="end"/><milestone
+                     unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c376"/>said Amadis,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p2_c380"/>and
+                  I will<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>singly cope with them.<anchor ana="end"
+                     /><milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#anon"/><anchor ana="start" synch="#M21_p2_c381"/>That,<milestone
                      unit="said" ana="intStart"/> quoth she, <milestone unit="said" ana="intEnd"
-                  />they will never consent to; but do you return here at a year’s end, and I will
-                  have the other two champions ready.<milestone unit="said" ana="end"
-                     /></s><s><milestone unit="said" ana="start" resp="#Amadis"/>I will not
-                     fail,<milestone unit="said" ana="intStart"/> answered Amadis; <milestone
-                     unit="said" ana="intEnd"/>and do not you trouble yourself in that search, for I
-                  will bring those with me who shall well maintain your right.<milestone unit="said"
-                     ana="end"/></s><s>This he said trusting in that time to meet his brother
-                     <persName ref="#Galaor">Galaor</persName> and <persName ref="#Agrajes"
-                     >Agrayes</persName>.</s><s>They heartily thanking him, bade him
-                  besure<!--ebb: sic in 1803--> they were good Knights, for that wicked King and his
-                  sons were some of the strongest Knights in the world.</s><s><milestone unit="said"
-                     ana="start" resp="#Amadis"/>If I find but one of those whom I look
-                     for,<milestone unit="said" ana="intStart"/> said he, <milestone unit="said"
-                     ana="intEnd"/>I shall not care for a third, however strong they may
-                     be.<milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
-                     resp="#anon"/>Tell us then, gentle Sir, of what country you are, and where we
-                  may find you?<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Amadis"/>--I am of the house of <persName ref="#Lisuarte"
-                     >Lisuarte</persName>, <persName ref="#Brisena">Queen Brisena</persName>’s
-                     Knight.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#anon"/>Now then, let us go eat,<milestone unit="said"
+                  />they will never consent to;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c383"/>but do you return here at a year’s
+                     end,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c385"/>and I will have the other two
+                     champions<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>ready.<anchor ana="end"/><milestone unit="said"
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#Amadis"/><anchor
+                     ana="start" type="add"/>I will not fail,<anchor ana="end"/><milestone
+                     unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c386"/>answered Amadis;<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p2_c387"/>and
+                  do not you trouble yourself in that search, for I will bring those with me<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c388"/>who shall well maintain your
+                     right.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor
+                     ana="start" synch="#M21_p2_c389"/>This he said trusting in that time to meet
+                  his brother <persName ref="#Galaor">Galaor</persName> and <persName ref="#Agrajes"
+                     >Agrayes</persName>.<anchor ana="end"/></s><s><anchor ana="start"
+                     synch="#M21_p2_c390"/>They heartily thanking him,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c391"/>bade him besure<!--ebb: sic in 1803-->
+                  they were good Knights,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c393"/>for that wicked King and his sons were
+                  some of the strongest Knights in the world.<anchor ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M21_p2_c395"/>If I find but one of those whom I look for,<anchor
+                     ana="end"/><milestone unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c394"/>said he,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p2_c395"/>I
+                  shall not care for a third, however strong they may be.<anchor ana="end"
+                     /><milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#anon"/><anchor ana="start" type="add"/>Tell us then, gentle<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c396"/>Sir,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c397"/>of what country you are,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c398"/>and where we may find you?<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#Amadis"/><anchor ana="start" synch="#M21_p2_c400"/>--I am of
+                  the house of <persName ref="#Lisuarte">Lisuarte</persName>,<anchor ana="end"/>
+                  <persName ref="#Brisena"><anchor ana="start" synch="#M21_p2_c401"/>Queen
+                     Brisena</persName>’s Knight.<anchor ana="end"/><milestone unit="said" ana="end"
+                  /></s><s><milestone unit="said" ana="start" resp="#anon"/><anchor ana="start"
+                     synch="#M21_p2_c402"/>Now then, let us go eat,<milestone unit="said"
                      ana="intStart"/> said she, <milestone unit="said" ana="intEnd"/>with the better
-                  appetite after this agreement.<milestone unit="said" ana="end"/></s><s>Then went
-                  they into a spacious hall, where such cheer and honour was made him as might be
-                  desired till the hour of rest came.</s><s>The good night being given on all sides,
-                  he was conducted to his chamber by the Damsel who had loosed the
-                     lions.</s><s><milestone unit="said" ana="start" resp="#anon"/>Sir Knight, said
-                  she, there is one in this castle who helped you when you knew it not.<milestone
-                     unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#Amadis"
-                  />--And when was that?<milestone unit="said" ana="end"/></s><s><milestone
-                     unit="said" ana="start" resp="#anon"/>--When I set the lions loose to save you
-                  by my young Lady’s order; for she pitied you: if she live, she will be without
-                  peer for wisdom as well as beauty.<milestone unit="said" ana="end"
-                     /></s><s><milestone unit="said" ana="start" resp="#Amadis"/>Of a
-                     truth,<milestone unit="said" ana="intStart"/> quoth Amadis, <milestone
-                     unit="said" ana="intEnd"/>I believe so; but tell her I truly thank her, and bid
-                  her think me her Knight.<milestone unit="said" ana="end"/></s><s><milestone
-                     unit="said" ana="start" resp="#anon"/>She will gladly hear me say so,<milestone
-                     unit="said" ana="end"/> replied the Damsel; and with that she departed, leaving
-                  Amadis in bed.</s><s>All this Gandalin and the Dwarf heard, who lay in another bed
-                  at his feet; and the Dwarf, who knew not of the loves of Amadis and <persName
-                     ref="#Oriana">Oriana</persName>, thought that he loved the young Maiden, and
-                  had therefore called himself her Knight, and sorely did Amadis suffer afterwards
-                  for this error.</s></p>
+                  appetite after this agreement.<anchor ana="end"/><milestone unit="said" ana="end"
+                  /></s><s><anchor ana="start" synch="#M21_p2_c403"/>Then went they into a spacious
+                     hall,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>where such cheer and honour was made him as might
+                  be desired<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c404"/>till the hour of rest came.<anchor
+                     ana="end"/></s><s><anchor ana="start" type="add"/>The good night being given on
+                  all sides,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c404"/>he was conducted to his chamber<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c405"/>by the Damsel who had loosed the
+                     lions.<anchor ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"
+                     /><anchor ana="start" synch="#M21_p2_c407"/>Sir Knight,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c406"/>said she,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c408"/>there is one in this castle who helped
+                  you when you knew it not.<anchor ana="end"/><milestone unit="said" ana="end"
+                     /></s><s><milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M21_p2_c409"/>--And when was that?<anchor ana="end"/><milestone
+                     unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"
+                     /><anchor ana="start" synch="#M21_p2_c410"/>--When I set the lions loose to
+                  save you by my young Lady’s order;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c411"/>for she pitied you:<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c413"/>if she live, she will be without peer
+                  for wisdom as well as beauty.<anchor ana="end"/><milestone unit="said" ana="end"
+                  /></s><s><milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M21_p2_c415"/>Of a truth,<anchor ana="end"/><milestone unit="said"
+                     ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c414"/>quoth Amadis,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p2_c415"/>I
+                  believe so;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c416"/>but tell her I truly thank her,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c417"/>and bid her think me her Knight.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#anon"/><anchor ana="start" synch="#M21_p2_c419"/>She will
+                  gladly hear me say so,<anchor ana="end"/><milestone unit="said" ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c418"/>replied the Damsel;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c420"/>and with that she departed, leaving
+                  Amadis in bed.<anchor ana="end"/></s><s><anchor ana="start" synch="#M21_p2_c421"
+                  />All this Gandalin and the Dwarf heard, who lay in another bed at his
+                     feet;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c422"/>and the Dwarf, who knew not of the loves
+                  of Amadis and <persName ref="#Oriana">Oriana</persName>, thought that he loved the
+                  young Maiden,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c423"/>and had therefore called himself her
+                     Knight,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c424"/>and sorely did Amadis suffer afterwards
+                  for this error.<anchor ana="end"/></s></p>
 
-            <p><s>In the morning after mass, Amadis asked the names of those with whom he was to do
-                  battle.</s><s><milestone unit="said" ana="start" resp="#anon"/>The
+            <p><s><anchor ana="start" synch="#M21_p2_c425"/>In the morning<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>after<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c426"/>mass,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c427"/>Amadis asked the names of those with
+                  whom he was to do battle.<anchor ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#anon"/><anchor ana="start" synch="#M21_p2_c428"/>The
                      father,<milestone unit="said" ana="intStart"/> said the Lady, <milestone
                      unit="said" ana="intEnd"/>is called <persName ref="#Abiseos"
-                  >Abiseos</persName>, the sons <persName ref="#Darasion">Darasion</persName> and
-                     <persName ref="#Dramis">Dramis</persName>, all three of great
-                     prowess.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Amadis"/>And where do they reign?<milestone unit="said"
-                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"/>In
-                     <placeName ref="#Sobradisa">Sobradisa</placeName>, which borders upon
-                     <placeName ref="#Serolis">Serolis</placeName>, and on the other side is bounded
-                  by the sea.<milestone unit="said" ana="end"/></s><s>He then armed himself and
-                  mounted, and was about to take his leave, when the young Damsel came to him,
-                  bringing a rich sword which had been her father’s.</s><s><milestone unit="said"
-                     ana="start" resp="#anon"/>Sir Knight,<milestone unit="said" ana="intStart"/>
-                  said she, <milestone unit="said" ana="intEnd"/>use this sword while it may last
-                  you, for my sake, and God prosper you therewith.<milestone unit="said" ana="end"
-                  /></s><s>Amadis received it with a smile: <milestone unit="said" ana="start"
-                     resp="#Amadis"/>hold me, Lady, for your Knight!<milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#dwarf"/>Certes, Lady,<milestone
+                     >Abiseos</persName>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c429"/>the sons <persName ref="#Darasion"
+                     >Darasion</persName><anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c430"/>and <persName ref="#Dramis"
+                     >Dramis</persName>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c431"/>all three of great prowess.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#Amadis"/><anchor ana="start" synch="#M21_p2_c403"/>And where
+                  do they reign?<anchor ana="end"/><milestone unit="said" ana="end"
+                     /></s><s><milestone unit="said" ana="start" resp="#anon"/>In <placeName
+                     ref="#Sobradisa"><anchor ana="start" synch="#M21_p2_c433"
+                     />Sobradisa</placeName>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c434"/>which borders upon <placeName
+                     ref="#Serolis">Serolis</placeName>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c435"/>and on the other side is bounded by the
+                     sea.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor
+                     ana="start" synch="#M21_p2_c436"/>He then armed himself<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>and mounted,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c438"/>and was about to take his leave, when
+                  the young Damsel came to him, bringing a rich sword<anchor ana="end"/>
+                  <anchor ana="start" synch="#M21_p2_c439"/>which had been her father’s.<anchor
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"/><anchor
+                     ana="start" synch="#M21_p2_c441"/>Sir Knight,<anchor ana="end"/><milestone
+                     unit="said" ana="intStart"/>
+                  <anchor ana="start" synch="#M21_p2_c440"/>said she,<anchor ana="end"/>
+                        <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M21_p2_c441"/>use this sword while it may last you, for my
+                        sake,<anchor ana="end"/> <anchor ana="start" synch="#M21_p2_c442"/>and God prosper you therewith.<anchor ana="end"/><milestone unit="said" ana="end"
+                        /></s><s><anchor ana="start" synch="#M21_p2_c443"/>Amadis received it with a smile:<anchor ana="end"/> <milestone unit="said" ana="start"
+                           resp="#Amadis"/><anchor ana="start" synch="#M21_p2_c444"/>hold me, Lady, for your Knight!<anchor ana="end"/><milestone unit="said" ana="end"
+                           /></s><s><milestone unit="said" ana="start" resp="#dwarf"/><anchor ana="start" synch="#M21_p2_c448"/>Certes, Lady,<milestone
                      unit="said" ana="intStart"/> quoth the Dwarf, <milestone unit="said"
-                     ana="intEnd"/>you gain not a little in gaining such a Knight.<milestone
+                     ana="intEnd"/>you gain not a little in gaining such a Knight.<anchor ana="end"/><milestone
                      unit="said" ana="end"/></s></p>
          </div>
       </body>
