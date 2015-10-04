@@ -49,6 +49,13 @@
             </assert>
         </rule>
     </pattern>
+    <pattern>
+        <rule context="tei:milestone[@unit='said'][@ana='start'][@type]">
+            <assert test=".[@type='unclear']">
+                A milestone with an @type attribute must be set to "unclear." This simply designates when the @resp attribute is up to the reader's interpretation!
+            </assert>
+        </rule>
+    </pattern>
     
     <pattern> 
         <rule context="tei:milestone[@unit='said'][@ana][preceding::tei:milestone[@unit='said'][@ana]]/@ana">
