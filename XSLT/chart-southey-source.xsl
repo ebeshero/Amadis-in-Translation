@@ -4,7 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xhtml" doctype-system="about:legacy-compat"/>
     <xsl:variable name="montalvo"
-        select="collection('../XML-and-Schematron/Montalvo')"/>
+        select="document('../XML-and-Schematron/Montalvo/Montalvo_Amadis_1547_0.xml')"/>
     <xsl:template match="/">
         <xsl:for-each select="TEI">
             <xsl:variable name="title">
@@ -43,148 +43,33 @@
             <xsl:element name="td">
 
                 <!--If Southey has an equivalent in Montalvo, give us Montalvo's text-->
-
-                <xsl:value-of
-                    select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]/normalize-space()"/>
+                <xsl:variable name="match"
+                    select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]"/>
+                <xsl:value-of select="$match/normalize-space()"/>
 
                 <!-- If the following clauses in Montalvo don't have an equivalent in Southey, retrieve them too and in the
-                next cell (Southey's text) add the word “OMISSION”. I check for those one by one, which is a very inefficient
-               piece of code. There likely is a more elegant way to do it by using <xsl:for-each-group> -->
+                next cell (Southey's text) add the word “OMISSION”. -->
+
 
                 <xsl:if
                     test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
+                        $match[following-sibling::cl[1]
                         [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
+
+                    <xsl:for-each
                         select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[1]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
+                            $match/following-sibling::cl[not(@xml:id = current()/
+                            (following::anchor | preceding::anchor)/substring(@synch, 2))]
+                            except $match/following-sibling::cl[not(@xml:id = current()/
+                            (following::anchor | preceding::anchor)/substring(@synch, 2))]
+                            [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
+                            following-sibling::cl">
+                        <xsl:value-of select="."/>
+                        <br/>
+                    </xsl:for-each>
+
                 </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[2]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[3]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[3]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[3]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[4][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]
-                        ">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[4]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[3]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[4][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[5]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[5]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                    $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
-                    [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                    and following-sibling::cl[3]
-                    [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[4][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                   and following-sibling::cl[5][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[6]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[6]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[3]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[4][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[5]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[6][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[7]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[7]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[1] and following-sibling::cl[3][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[4]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[5][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[6]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[7][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[8]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[8]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
-                <xsl:if
-                    test="
-                        $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[2][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[3]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[4][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[5]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[6][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[7]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))] and following-sibling::cl[8][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        and following-sibling::cl[9]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <br/>
-                    <xsl:value-of
-                        select="
-                            $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[9]
-                            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
-                    />
-                </xsl:if>
+
             </xsl:element>
             <xsl:element name="td">
                 <xsl:if test="current()/@type = 'report'">
