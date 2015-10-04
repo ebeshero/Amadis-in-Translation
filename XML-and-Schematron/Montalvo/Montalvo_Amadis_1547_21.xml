@@ -966,7 +966,7 @@
                     <cl xml:id="M21_p2_c412">Amadís se maravilló de la discreción de persona de tan
                         poca edad y dixo la donzella.</cl>
                     <cl xml:id="M21_p2_c413">
-                        <milestone unit="said" ana="start" resp="#anon"/>Cierto yo creo que si bive
+                        <milestone unit="said" ana="start" resp="#anon" type="unclear"/>Cierto yo creo que si bive
                         avrá en sí dos cosas muy estremadas de las otras que serán ser muy hermosa y
                         de gran seso.<milestone unit="said" ana="end"/>
                </cl>
