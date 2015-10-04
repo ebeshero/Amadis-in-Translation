@@ -64,7 +64,7 @@
                             (following::anchor | preceding::anchor)/substring(@synch, 2))]
                             [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
                             following-sibling::cl">
-                        <br/>
+                        <xsl:text> </xsl:text>
                         <xsl:value-of select="."/>
                     </xsl:for-each>
 
@@ -91,22 +91,22 @@
                     select="
                         current()/following::text()
                         except (current()/following::node()[@ana = 'end'][1]/following::node())"/>
-                <xsl:if
+                <!--<xsl:if
                     test="
                         $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
                         [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <xsl:text> --OMISSION</xsl:text>
-                </xsl:if>
+                    <xsl:text> -\-OMISSION</xsl:text>
+                </xsl:if>-->
             </xsl:element>
             <xsl:element name="td">
                 <xsl:choose>
-                    <xsl:when test="current()/@type['add']">
+                    <xsl:when test="current()/@type = 'add'">
                         <xsl:text>Addition</xsl:text>
                     </xsl:when>
-                    <xsl:when test="current()/@type['report']">
+                    <xsl:when test="current()/@type = 'report'">
                         <xsl:text>Reported speech</xsl:text>
                     </xsl:when>
-                    <xsl:when test="current()/@type['direct']">
+                    <xsl:when test="current()/@type = 'direct'">
                         <xsl:text>Directed speech</xsl:text>
                     </xsl:when>
                     <xsl:when
