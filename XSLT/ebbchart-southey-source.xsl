@@ -47,11 +47,31 @@
                 <xsl:value-of
                     select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]/normalize-space()"/>
 
-                <!-- If the following clauses in Montalvo don't have an equivalent in Southey, retrieve them too and in the
-                next cell (Southey's text) add the word “OMISSION”. I check for those one by one, which is a very inefficient
+                <!--heb: If the following clauses in Montalvo don't have an equivalent in Southey, retrieve them too and in the
+                next cell (Southey's text) add the word “OMISSION”. I check for those one by one, which is a very inneficient
                piece of code. There likely is a more elegant way to do it by using <xsl:for-each-group> -->
+                
+                <!--2015-10-04 ebb: Okay! I've tried a rewrite of this with <xsl:for-each> (not for-each group). I created a variable to try to simplify things a bit. 
+                    My output has the same number of table rows (832) as yours does, so I'm hoping this catches every caluse that Southey omitted. I made an <xsl:otherwise> to put in a silly
+                (diagnostic) flag that we can remove. Notice where it pops up in the output and see if that looks right! --> 
+                
+                <xsl:variable name="nearestMatch" select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
+                    [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]"/>   
+          <xsl:choose> 
+              <xsl:when test="$nearestMatch">
+                  <xsl:for-each select="$nearestMatch/following-sibling::cl[not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]">
+                      <br/>
+                      <xsl:value-of select="."/>
+                      
+                  </xsl:for-each>
+               
+           </xsl:when>
+              <xsl:otherwise>
+                  <xsl:text>NO OMISSIONS HERE</xsl:text>
+              </xsl:otherwise>
+          </xsl:choose>
 
-                <xsl:if
+<!--                <xsl:if
                     test="
                         $montalvo//cl[@xml:id = current()/substring(@synch, 2)][following-sibling::cl[1]
                         [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
@@ -184,7 +204,7 @@
                             $montalvo//cl[@xml:id = current()/substring(@synch, 2)]/following-sibling::cl[9]
                             [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]"
                     />
-                </xsl:if>
+                </xsl:if>-->
             </xsl:element>
             <xsl:element name="td">
                 <xsl:if test="current()/@type = 'report'">
