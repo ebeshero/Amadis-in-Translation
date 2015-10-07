@@ -34,7 +34,8 @@ h1{
 }
 
 .container{
-    display:flex
+    display:flex;
+    -webkit-display:flex;
 }
 
 a{
