@@ -4,9 +4,9 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xhtml" doctype-system="about:legacy-compat"/>
     <xsl:variable name="montalvo"
-        select="document('../XML-and-Schematron/Montalvo/Montalvo_Amadis_1547_20.xml')"/>
+        select="document('../XML-and-Schematron/Montalvo/Montalvo_Amadis_1547_0.xml')"/>
     <xsl:variable name="southey"
-        select="document('../XML-and-Schematron/Southey/Southey_Amadis_1803_21.xml')"/>
+        select="document('../XML-and-Schematron/Southey/Southey_Amadis_1803_1.xml')"/>
     <xsl:variable name="SI" select="document('../XML-and-Schematron/SI-Amadis.xml')"/>
     <xsl:template match="/">
         <xsl:variable name="title">
