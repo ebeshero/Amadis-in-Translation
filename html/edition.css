@@ -1,0 +1,58 @@
+body{
+    background-color:#B4D6B4;
+    color:#031B3F;
+    font-family:arial, helvetica, sans-serif;
+    padding:15px;
+    line-height:1.3em;
+}
+
+h1{
+    color:#AA0000;
+}
+
+.montalvo span:hover[id] {
+    background-color:white;
+}
+
+.character{
+    font-weight:bold;
+    cursor:pointer
+}
+
+.omission{
+    background-color:red;
+    color:white;
+}
+.report{
+    background-color:yellow;
+}
+.add{
+    background-color:green;
+}
+.direct{
+    background-color:orange;
+}
+
+.container{
+    display:flex
+}
+
+a{
+    text-decoration:none;
+    color:initial;
+}
+
+p{
+    text-align:justify;
+}
+
+.southey > p{
+    padding-bottom:10%;
+}
+.montalvo{
+    margin-right:1%;
+}
+
+.southey{
+    margin-left:1%;
+}
