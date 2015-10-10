@@ -69,7 +69,8 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             select="
                 current()/following::text()
                 except (current()/following::node()[@ana = 'end'][1]/following::node())"/>
-        <xsl:variable name="southey-words" select="count(tokenize(string-join($text, '\s'), '\s+'))"/>
+        <xsl:variable name="correction" select="string-join($text/replace(., '[.,/?:;]', ''))"/>
+        <xsl:variable name="southey-words" select="count(tokenize($correction,'\s+'))"/>
         <xsl:variable name="montalvo-words" select="count(tokenize($match, '\s+'))"/>
         <tr>
             <td>
@@ -106,4 +107,6 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             </td>
         </tr>
     </xsl:template>
+    <xsl:template match="persName"/>
+    <xsl:template match="note"/>
 </xsl:stylesheet>
