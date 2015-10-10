@@ -49,3 +49,14 @@ td.add{
 }
 td.direct{
     background-color:orange}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: url(arrow.svg)
+}
+
+table.sortable th > svg {
+    display:inline;
+}
+
+.green {color:green}
+.red {color:red}
