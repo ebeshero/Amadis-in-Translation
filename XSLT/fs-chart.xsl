@@ -119,6 +119,9 @@
                     [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
                     following-sibling::cl">
                     <xsl:value-of select="."/>
+                   <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') but it 
+                   didn't work. To compensate for the last extra space, I was forced to add a ' -1 ' to the count() 
+                   function -->
                     <xsl:text> </xsl:text>
                 </xsl:for-each>
             </xsl:variable>
@@ -137,8 +140,9 @@
                     </xsl:variable>
                     <xsl:attribute name="corresp"><xsl:value-of select="replace($corresp,'(\d)M', '$1 #M' )"/></xsl:attribute>
                 <xsl:element name="f">
-                    <xsl:attribute name="name">montalvo</xsl:attribute>
-                    <xsl:attribute name="n"><xsl:value-of select="count(tokenize($omission, '\s+'))"/></xsl:attribute>
+                    <xsl:variable name="correction" select="$omission/replace(., '[.,/?:;]', '')"/>
+                    <xsl:attribute name="name">montalvo</xsl:attribute>                    
+                    <xsl:attribute name="n"><xsl:value-of select="count(tokenize($correction, '\s+')) - 1"/></xsl:attribute>
                     <string><xsl:value-of select="$omission"/></string>
                 </xsl:element>
                 <f name="type" select="omission"><string>Comments</string></f>
