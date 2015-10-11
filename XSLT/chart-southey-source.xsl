@@ -64,8 +64,7 @@
                             (following::anchor | preceding::anchor)/substring(@synch, 2))]
                             [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
                             following-sibling::cl">
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="."/>
+                        <xsl:value-of select="string-join(., ' ')"/>
                     </xsl:for-each>
 
                 </xsl:if>
