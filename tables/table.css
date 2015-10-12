@@ -9,6 +9,11 @@ body{
 h1{
     color:#AA0000;
 }
+
+svg{
+    display:block;
+}
+
 table{
     border-collapse:collapse;
     width:100%;
