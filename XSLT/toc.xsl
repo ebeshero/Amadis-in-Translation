@@ -47,7 +47,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             select="
             $montalvo-chapter//cl[not(@xml:id = current()//anchor/substring(@synch, 2))]"/>
         <xsl:variable name="allCl" select="$montalvo-chapter//cl"/>
-        <xsl:variable name="words" select="tokenize(string-join($clauses, ' '), '\s+')"/>
+        <xsl:variable name="words" select="tokenize(string-join($clauses/replace(., '[.,/?:;]', ''), ' '), '\s+')"/>
         <xsl:variable name="totalW" select="tokenize(string-join($allCl, ' '), '\s+')"/>
         <xsl:variable name="width1" select="(count($clauses) * 100) div count($allCl) * 2"/>
         <xsl:variable name="width2" select="(count($words) * 100) div count($totalW) * 2"/>
@@ -87,7 +87,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 <xsl:variable name="total" select="$aditions + count(current()//anchor[@synch])"/>
                 <xsl:variable name="width3" select="($aditions * 100) div $total * 2"/>
                 <xsl:variable name="southey-text"
-                    select="tokenize(string-join(//s/text(), ' '), '\s+')"/>
+                    select="tokenize(string-join(//s/text()/replace(., '[.,/?:;]', ''), ' '), '\s+')"/>
                 <xsl:variable name="aditionsW">
                     <xsl:for-each select="//anchor[@type='add']">
                         <xsl:value-of
@@ -97,7 +97,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                     </xsl:for-each>
                 </xsl:variable>
                 <xsl:variable name="wordsAdded"
-                    select="tokenize(string-join($aditionsW, ' '), '\s+')"/>
+                    select="tokenize(string-join($aditionsW/replace(., '[.,/?:;]', ''), ' '), '\s+')"/>
                 <xsl:variable name="width4"
                     select="(count($wordsAdded) * 100) div count($southey-text) * 2"/>
                 <svg xmlns="http://www.w3.org/2000/svg" width="270" height="75">
@@ -119,7 +119,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                         <text y="36" fill="#031B3F" x="{$width4 + 70}" font-size="13"><xsl:value-of
                                 select="round-half-to-even(($width4 div 2), 2)"/>%</text>
                     </g>
-                    <text fill="#031B3F" y="56" x="80" font-size="16">Aditions by Southey</text>
+                    <text fill="#031B3F" y="56" x="80" font-size="16">Additions by Southey</text>
                 </svg>
                 <xsl:variable name="montalvo-match"
                     select="$montalvo-chapter//cl[@xml:id = current()//anchor/substring(@synch, 2)]"/>
@@ -136,7 +136,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                     select="string-join($text/replace(., '[.,/?:;]', ''))"/>
                 <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
                 <xsl:variable name="montalvo-words"
-                    select="count(tokenize(string-join($montalvo-match, ' '), '\s+'))"/>
+                    select="count(tokenize(string-join($montalvo-match/replace(., '[.,/?:;]', ''), ' '), '\s+'))"/>
                 <xsl:variable name="montalvo-clauses" select="count($montalvo-match)"/>
                 <xsl:variable name="southey-clauses" select="count(//anchor[@synch])"/>
                 <xsl:variable name="width5" select="$montalvo-words div $montalvo-clauses * 4"/>

@@ -3,13 +3,13 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xhtml" doctype-system="about:legacy-compat"/>
-
+    
     <!--Command line from Amadis folder: 
         
 java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/graphs.xsl -o:tables
 
     -->
-
+    
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
         <xsl:result-document href="{'../tables/graphs.xhtml'}">
