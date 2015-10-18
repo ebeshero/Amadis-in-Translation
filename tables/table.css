@@ -20,6 +20,10 @@ table{
     border:2px solid #BF9E7D;
 }
 
+.svg {
+    display:flex;
+}
+
 tr{
     border-collapse:collapse;
     border:0
