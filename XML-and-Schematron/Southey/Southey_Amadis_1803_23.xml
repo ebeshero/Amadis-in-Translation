@@ -29,38 +29,35 @@
          <div type="chapter" xml:id="S23">
             <head>Chapter 23. <locus from="209" to="212"/>
             </head>
-            <!--2015-09-23 ebb: Just starting this chapter. It looks surprisingly short! -->
             <p>
-               <s>Amadis rode on without any adventure till he entered the forest of Angaduza, where he met a Knight and a Damsel; and the Knight coming near drew his sword, and ran at the Dwarf to cut off his head.</s>
+               <s><persName ref="#Amadis">Amadis</persName> rode on without any adventure till he entered <placeName ref="#Angaduza">the forest of Angaduza</placeName>, where he met a Knight and a Damsel; and the Knight coming near drew his sword, and ran at <persName ref="#dwarf">the Dwarf</persName> to cut off his head.</s>
                <s>The Dwarf fell from his horse with fear, and cried lustily for help.</s>
                <s>Amadis with all speed went to protect him.</s>
-               <s>Why would you slay my Dwarf? quoth he; trust me it is but poor manhood to lay hands on so poor a wretch: he is mine, and I shall defend him.</s>
-               <s>For that, replied the other, I am sorry; but at any rate I must have his head.</s>
-               <s>Do battle first, quoth Amadis.</s>
+               <s><milestone unit="said" ana="start" resp="#Amadis"/>Why would you slay my Dwarf?<milestone unit="said" ana="intStart"/> quoth he; <milestone unit="said" ana="intEnd"/>trust me it is but poor manhood to lay hands on so poor a wretch: he is mine, and I shall defend him.<milestone unit="said" ana="end"/></s>
+               <s><milestone unit="said" ana="start" resp="#Galaor"/>For that<milestone unit="said" ana="intStart"/>, replied the other, <milestone unit="said" ana="intEnd"/>I am sorry; but at any rate I must have his head.<milestone unit="said" ana="end"/></s>
+               <s><milestone unit="said" ana="start" resp="#Amadis"/>Do battle first<milestone unit="said" ana="end"/>, quoth Amadis.</s>
                <s>They took their shields, and ran at each other; both shields were pierced and both breast-plates.</s>
                <s>Their horses shocked together and their bodies, and both were driven to the ground; but the sword-battle that ensued none could have seen without affright, for never before had either warrior found himself so matched, nor in such peril; their shields were shivered, their helmets hacked and bruised, their mail sliced away, and every where free openings for the sword.</s>
                <s>Both at length drew back to breathe.</s>
-               <s>Knight, said the stranger, do not suffer this any longer for the sake of a Dwarf: let me cut off his head, and I will make amends to you for the wrong hereafter.</s>
-               <s>Talk not to me of that, said Amadis: the Dwarf shall not be harmed.</s>
-               <s>I must either perish, said the Knight, or give his head to that Damsel.</s>
-               <s>Said Amadis, one of us shall perish first! and, resuming his shield and sword, he renewed the combat more fiercely, provoked at the Knight’s unreasonable will.</s>
+               <s><milestone unit="said" ana="start" resp="#Galaor"/>Knight<milestone unit="said" ana="intStart"/>, said the stranger, <milestone unit="said" ana="intEnd"/>do not suffer this any longer for the sake of a Dwarf: let me cut off his head, and I will make amends to you for the wrong hereafter.<milestone unit="said" ana="end"/></s>
+               <s><milestone unit="said" ana="start" resp="#Amadis"/>Talk not to me of that<milestone unit="said" ana="intStart"/>, said Amadis: <milestone unit="said" ana="intEnd"/>the Dwarf shall not be harmed.<milestone unit="said" ana="end"/></s>
+               <s><milestone unit="said" ana="start" resp="#Galaor"/>I must either perish<milestone unit="said" ana="intStart"/>, said the Knight, <milestone unit="said" ana="intEnd"/>or give his head to that Damsel.<milestone unit="said" ana="end"/></s>
+               <s>Said Amadis, <milestone unit="said" ana="start" resp="#Amadis"/>one of us shall perish first!<milestone unit="said" ana="end"/> and, resuming his shield and sword, he renewed the combat more fiercely, provoked at the Knight’s unreasonable will.</s>
                <s>But if he was strong, the other was not weak, and the battle continued till each expected nothing but death, though neither of them a whit abated of his courage.</s>
                <s>When they were in this plight a Knight came up, who crossed himself to see so desperate a combat, and asked the Damsel how it began.</s>
-               <s>I set them on, said she, and end as it will it must be to my joy; I shall be glad if either of them be killed, much more if both.</s>
-               <s>That, quoth the Knight, is an evil disposition: wherefore do you so hate them?</s>
-               <s>I will tell you: he who bath most of his shield left, is the man whose death my uncle Arcalaus most desires, and is named Amadis; the other is called Galaor, and he slew the man whom I loved best.</s>
-               <s>I obtained a boon from him, and have asked him one which will cost him his life; for, because that ether Knight is the best in the world, I have demanded the head of his Dwarf; both are brought near death hereby to my great pleasure.</s>
-               <s>A curse upon thee, woman! cried the Knight; and he drew his sword and smote her head from her shoulders: take this for the sake of thy uncle Arcalaus and his prison, from whence that Knight released me! and with that he gallopped to the combatants. – Hold, Sir Amadis, for it is your brother Galaor!</s>
+               <s><milestone unit="said" ana="start" resp="#anon"/>I set them on<milestone unit="said" ana="intStart"/>, said she, <milestone unit="said" ana="intEnd"/>and end as it will it must be to my joy: I shall be glad if either of them be killed, much more if both.<milestone unit="said" ana="end"/></s>
+               <s><milestone unit="said" ana="start" resp="#Balays"/>That<milestone unit="said" ana="intStart"/>, quoth the Knight, <milestone unit="said" ana="intEnd"/>is an evil disposition: wherefore do you so hate them?<milestone unit="said" ana="end"/></s>
+               <milestone unit="said" ana="start" resp="#anon"/><s>I will tell you: he who hath most of his shield left, is the man whose death my uncle <persName ref="#Arcalaus">Arcalaus</persName> most desires, and is named Amadis; the other is called <persName ref="#Galaor">Galaor</persName>, and he slew the man whom I loved best.</s>
+               <s>I obtained a boon from him, and have asked him one which will cost him his life; for, because that other Knight is the best in the world, I have demanded the head of his Dwarf; both are brought near death hereby to my great pleasure.</s><milestone unit="said" ana="end"/>
+               <s><milestone unit="said" ana="start" resp="#Balays"/>A curse upon thee, woman!<milestone unit="said" ana="intStart"/> cried the Knight; and he drew his sword and smote her head from her shoulders: <milestone unit="said" ana="intEnd"/>take this for the sake of thy uncle Arcalaus and his prison, from whence that Knight released me!<milestone unit="said" ana="intStart"/> and with that he gallopped to the combatants.–-<milestone unit="said" ana="intEnd"/>Hold, Sir Amadis, for it is your brother Galaor!<milestone unit="said" ana="end"/></s>
             </p>
-            
             <p>
                <s>Then Amadis threw down his shield and sword, and the brethren embraced, and Galaor knelt down and besought his pardon.</s>
-               <s>Brother! quoth Amadis, the danger through which I have passed is well requited, since it has proved to me your great prowess; and then they unlaced their helmets, for they had need of air, and the Knight told them how he had served the Damsel for her wickedness.</s>
-               <s>Good fortune befall you for doing it, quoth Galaor; for now am I clear of my boon.</s>
-               <s>And indeed, Sir Knight, said the Dwarf, I am better pleased that you are quit by these means, than in the way you first designed.</s>
-               <s>Now, said the stranger, come with me to my Castle.</s>
-               <s>I am the happiest man in the world, Sir Amadis, to have requited you with this service for delivering me from the cruellest dungeon in which ever wretch lay. – Where was that? – In the Castle of Arcalaus: my name is Balays of Carsante.</s>
-               <s>So they went to that good Knight’s Castle, where they were laid in bed, and their wounds dressed; and Amadis dispatched his Dwarf to inform Queen Brisena that he had found Galaor, and would bring him to Windsor as soon as they were able to travel.</s>
+               <s><milestone unit="said" ana="start" resp="#Amadis"/>Brother!<milestone unit="said" ana="intStart"/> quoth Amadis, <milestone unit="said" ana="intEnd"/>the danger through which I have passed is well requited, since it has proved to me your great prowess<milestone unit="said" ana="end"/>; and then they unlaced their helmets, for they had need of air, and the Knight told them how he had served the Damsel for her wickedness.</s>
+               <s><milestone unit="said" ana="start" resp="#Galaor"/>Good fortune befall you for doing it<milestone unit="said" ana="intStart"/>, quoth Galaor; <milestone unit="said" ana="intEnd"/>for now am I clear of my boon.<milestone unit="said" ana="end"/></s>
+               <s><milestone unit="said" ana="start" resp="#dwarf"/>And indeed, Sir Knight<milestone unit="said" ana="intStart"/>, said the Dwarf, <milestone unit="said" ana="intEnd"/>I am better pleased that you are quit by these means, than in the way you first designed.<milestone unit="said" ana="end"/></s>
+               <milestone unit="said" ana="start" resp="#Balays"/><s>Now<milestone unit="said" ana="intStart"/>, said the stranger, <milestone unit="said" ana="intEnd"/>come with me to my Castle.</s><s>I am the happiest man in the world, Sir Amadis, to have requited you with this service for delivering me from the cruellest dungeon in which ever wretch lay.</s><milestone unit="said" ana="end"/><milestone unit="said" ana="start" resp="#Amadis"/><s>–-Where was that?</s><milestone unit="said" ana="end"/><milestone unit="said" ana="start" resp="#Balays"/><s>–-In the Castle of Arcalaus: my name is Balays of Carsante.</s><milestone unit="said" ana="end"/>
+               <s>So they went to that good Knight’s Castle, where they were laid in bed, and their wounds dressed; and Amadis dispatched his Dwarf to inform <persName ref="#Brisena">Queen Brisena</persName> that he had found Galaor, and would bring him to <placeName ref="#Windsor">Windsor</placeName> as soon as they were able to travel.</s>
             </p>
          </div>
       </body>

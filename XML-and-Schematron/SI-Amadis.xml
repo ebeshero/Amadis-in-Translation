@@ -88,7 +88,7 @@
               
                <person xml:id="Brisena">
                   <persName>Brisena</persName>
-
+<note resp="#ebb">a Queen, apparently ruling in Windsor.</note>
                </person>
 
 
@@ -391,7 +391,12 @@
                   <persName>Squire_1</persName>
                   <note>We are using anon to signify all of the unnamed characters of the Amadís,
                      which include damsels, squires, giants, hermits, knights, ladies, and other
-                     minor characters. If characters are distinct without having a name, like the dwarf or the damsel of Denmark, they have their own xml ids.</note>
+                     minor characters. If characters are distinct without having a name, like <persName ref="#dwarf">the dwarf</persName> or <persName ref="#Damsel_Denmark">the damsel of Denmark</persName>, they have their own xml ids.</note>
+               </person>
+               <person xml:id="Balays">
+                  <persName>Balays de Carsante</persName>
+                  <persName>Balays of Carsante</persName>
+                  <note resp="#ebb">Balays of Carsante is grateful to Amadis for rescuing him from the dungeon of the magician Arcalaus. He prevents Galaor and Amadis from unwittingly killing each other by revealing their concealed identities.<!--Stacey: you may want to rewrite this one!--></note>
                </person>
             </listPerson>
          </div>
@@ -437,6 +442,10 @@
                <placeName>Scotland</placeName>
                <note resp="#ebb">The Knight <persName ref="#Gandales">Gandales</persName> carries the infant <persName ref="#Amadis">Amadis</persName> by sea to Scotland, to the town <placeName ref="#Antalia">Antalia</placeName>.</note>
             </place>
+               <place xml:id="Windsor">
+                  <placeName>Windsor</placeName>
+                  <note resp="ebb">Where Amadis says he'll bring Galaor after the two are recovered from their nearly mortal combat. Windsor appears to be the domain of Queen Brisena.</note>
+               </place>
             </listPlace>
          </div>
          <div type="publications">

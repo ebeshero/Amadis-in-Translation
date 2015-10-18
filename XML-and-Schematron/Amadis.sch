@@ -115,6 +115,9 @@
    
     <let name="M_files" value="collection('./Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
     <let name="M_ids" value="$M_files//@xml:id"/>
+    
+    <let name="S_files" value="collection('./Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
+    <let name="S_ids" value="$S_files//@xml:id"/>
 
        
     <pattern>
@@ -128,6 +131,54 @@
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
             <assert test="every $token in $tokens satisfies $token = $M_ids">The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!</assert>
         </rule> 
+    </pattern>
+    <pattern>
+        <rule context="tei:div[@type='chapter']">
+            <assert test="@xml:id">
+                The chapter div element must contain an @xml:id.
+            </assert>
+            <report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">
+                Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
+            </report>
+            <!--<report test="@xml:id = $S_ids[base-uri() ne ./base-uri()]">
+                Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
+            </report>-->
+        </rule>
+        <rule context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]/@xml:id">
+            <assert test="starts-with(., 'M')">
+                The xml:id defined for a Montalvo chapter must begin with the letter M. 
+            </assert>
+        </rule>
+        <rule context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]/@xml:id">
+            <assert test="starts-with(., 'S')">
+                The xml:id defined for a Southey chapter must begin with the letter S. 
+            </assert>
+        </rule>
+    </pattern>
+    <pattern>
+        <rule context="tei:div[@type='chapter']/@xml:id[contains(., 'M')]">
+            <let name="M_C" value="substring-after(., 'M')"/>
+            <let name="M_Cnum" value="number($M_C)"/>
+            <xsl:variable name="Roman_Cnum">
+                <xsl:number value="$M_Cnum" format="I"/>
+            </xsl:variable>
+            <assert test="compare(tokenize(parent::tei:div/tei:head/string(), ' ')[2], $Roman_Cnum) eq 0">
+                The xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!</assert>
+            <assert test="contains(tokenize(base-uri(), '_')[last()], $M_C)">
+                The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+            </assert>
+        </rule>
+    </pattern>
+    <pattern>
+        <rule context="tei:div[@type='chapter']/@xml:id[contains(., 'S')]">
+            <let name="S_Cnum" value="substring-after(., 'S')"/>
+            <assert test="contains(parent::tei:div/tei:head/string(), $S_Cnum)">
+                The xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+            </assert>
+            <assert test="contains(tokenize(base-uri(), '_')[last()], $S_Cnum)">
+                The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+            </assert>
+        </rule>
     </pattern>
    
 </schema>
