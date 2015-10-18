@@ -446,6 +446,10 @@
                   <placeName>Windsor</placeName>
                   <note resp="ebb">Where Amadis says he'll bring Galaor after the two are recovered from their nearly mortal combat. Windsor appears to be the domain of Queen Brisena.</note>
                </place>
+               <place xml:id="Ireland">
+                  <placeName>Ireland</placeName>
+                  <note resp="#ebb">Land where <persName ref="#Amadis">Amadis</persName> is fostered by <persName ref="#Gandales">Gandales</persName> alongside his own son <persName ref="#Gandalin">Gandalin</persName>.</note>
+               </place>
             </listPlace>
          </div>
          <div type="publications">
