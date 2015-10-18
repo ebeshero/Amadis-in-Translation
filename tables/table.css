@@ -22,6 +22,7 @@ table{
 
 .svg {
     display:flex;
+    -webkit-display:flex;
 }
 
 tr{
