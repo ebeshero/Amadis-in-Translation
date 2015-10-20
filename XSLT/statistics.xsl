@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
-    <xsl:output method="xhtml" doctype-system="about:legacy-compat"/>
+    <xsl:output method="xhtml" doctype-system="about:legacy-compat"  encoding="utf-8"  omit-xml-declaration="yes"/>
 
     <!--Command line from Amadis folder: 
         
@@ -12,7 +12,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
 
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
-        <xsl:result-document href="{'../tables/statistic-tables.xhtml'}">
+        <xsl:result-document href="{'../tables/statistic-tables.html'}">
             <html>
                 <head>
                     <title>Charts and statistics</title>

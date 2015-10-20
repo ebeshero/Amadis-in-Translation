@@ -158,3 +158,16 @@ span.anchor span.note {
 /*span.anchor span.note:hover span, span.anchor span.note:active span {
     display:inline;
 }*/
+
+
+/*Instructions added by heb*/
+
+.svg {
+    display:flex;
+    -webkit-display:flex;
+}
+
+svg{
+    display:block;
+    margin-right:1%;
+}

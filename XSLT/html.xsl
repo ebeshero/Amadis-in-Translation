@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
-    <xsl:output method="xhtml" doctype-system="about:legacy-compat"/>
+    <xsl:output method="xhtml" doctype-system="about:legacy-compat"  encoding="utf-8"  omit-xml-declaration="yes"/>
     <xsl:variable name="montalvo"
         select="document('../XML-and-Schematron/Montalvo/Montalvo_Amadis_1547_0.xml')"/>
     <xsl:variable name="southey"
@@ -12,7 +12,7 @@
         <xsl:variable name="title">
             <xsl:value-of select="$montalvo//body/div[@type = 'chapter']/@xml:id"/>
         </xsl:variable>
-        <xsl:result-document href="{concat('../html/', $title, '.xhtml')}">
+        <xsl:result-document href="{concat('../html/', $title, '.html')}">
             <html>
                 <head>
                     <title>Amadis in translation</title>
