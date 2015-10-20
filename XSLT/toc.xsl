@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
-    <xsl:output method="xhtml" doctype-system="about:legacy-compat"  encoding="utf-8"  omit-xml-declaration="yes"/>
+    <xsl:output method="xhtml" doctype-system="about:legacy-compat" encoding="utf-8"
+        omit-xml-declaration="yes"/>
 
     <!--Command line from Amadis folder: 
         
@@ -16,7 +17,10 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             <html>
                 <head>
                     <title>Table of contents</title>
-                    <link rel="stylesheet" type="text/css" href="amadis.css" />
+                    <meta name="keywords"
+                        content="Amadis of Gaule, Amadís de Gaula, Garci Rodríguez de Montalvo, Robert Southey, TEI,
+                        Text Encoding Initiative, romance of chivalry, libro de caballerías, libro de caballería"/>
+                    <link rel="stylesheet" type="text/css" href="amadis.css"/>
                 </head>
                 <body>
                     <h1>Table of contents</h1>
@@ -29,29 +33,40 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                             </xsl:if>
                         </xsl:for-each>
                     </ul>
-<!--                    <ol>
+                    <!--                    <ol>
                         <li>Proportion of Montalvo text that was omitted by Southey (which means
                             that 100% is equal to the total of Montalvo's clauses/words)</li>
                         <li>Proportion of Southey text that was not present in Montalvo (which means
                             that 100% is equal to the total of Southey's clauses/words)</li>
                         <li>Average word count per matching clause/anchor</li>
                     </ol>-->
-                    <div class="boilerplate"><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar
-                        (ebb8 at pitt.edu)   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a> <strong>Last modified:
-                        </strong><!--#echo var="LAST_MODIFIED" -->. <a href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span></div>
+                    <div class="boilerplate">
+                        <span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (ebb8 at
+                            pitt.edu) <a rel="license"
+                                href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                                    alt="Creative Commons License" style="border-width:0"
+                                    src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png"
+                                /></a><a rel="license"
+                                href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                            <strong>Last modified: </strong><!--#echo var="LAST_MODIFIED" -->. <a
+                                href="http://newtfire.org/firebellies.html">Powered by
+                                firebellies</a>.</span>
+                    </div>
                 </body>
             </html>
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="div[@type = 'chapter']">
         <xsl:variable name="montalvo-chapter"
-            select=" $montalvo//div[@type[. = 'chapter']][number(substring(@xml:id, 2)) + 1 =
-            number(substring(current()/@xml:id, 2))]"/>
+            select="
+                $montalvo//div[@type[. = 'chapter']][number(substring(@xml:id, 2)) + 1 =
+                number(substring(current()/@xml:id, 2))]"/>
         <xsl:variable name="clauses"
             select="
-            $montalvo-chapter//cl[not(@xml:id = current()//anchor/substring(@synch, 2))]"/>
+                $montalvo-chapter//cl[not(@xml:id = current()//anchor/substring(@synch, 2))]"/>
         <xsl:variable name="allCl" select="$montalvo-chapter//cl"/>
-        <xsl:variable name="words" select="tokenize(string-join($clauses/replace(., '[.,/?:;]', ''), ' '), '\s+')"/>
+        <xsl:variable name="words"
+            select="tokenize(string-join($clauses/replace(., '[.,/?:;]', ''), ' '), '\s+')"/>
         <xsl:variable name="totalW" select="tokenize(string-join($allCl, ' '), '\s+')"/>
         <xsl:variable name="width1" select="(count($clauses) * 100) div count($allCl) * 2"/>
         <xsl:variable name="width2" select="(count($words) * 100) div count($totalW) * 2"/>
@@ -87,16 +102,17 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                     </g>
                     <text fill="#461801" y="65" x="68" font-size="18">Omissions by Southey</text>
                 </svg>
-                <xsl:variable name="aditions" select="count(current()//anchor[@type='add'])"/>
+                <xsl:variable name="aditions" select="count(current()//anchor[@type = 'add'])"/>
                 <xsl:variable name="total" select="$aditions + count(current()//anchor[@synch])"/>
                 <xsl:variable name="width3" select="($aditions * 100) div $total * 2"/>
                 <xsl:variable name="southey-text"
                     select="tokenize(string-join(//s/text()/replace(., '[.,/?:;]', ''), ' '), '\s+')"/>
                 <xsl:variable name="aditionsW">
-                    <xsl:for-each select="//anchor[@type='add']">
+                    <xsl:for-each select="//anchor[@type = 'add']">
                         <xsl:value-of
-                            select="current()/following::text()
-                            except (current()/following::node()[@ana = 'end'][1]/following::node())"
+                            select="
+                                current()/following::text()
+                                except (current()/following::node()[@ana = 'end'][1]/following::node())"
                         />
                     </xsl:for-each>
                 </xsl:variable>
@@ -131,8 +147,8 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                     <xsl:for-each select="//anchor[@synch]">
                         <xsl:value-of
                             select="
-                           current()/following::text()
-                           except (current()/following::node()[@ana = 'end'][1]/following::node())"
+                                current()/following::text()
+                                except (current()/following::node()[@ana = 'end'][1]/following::node())"
                         />
                     </xsl:for-each>
                 </xsl:variable>
@@ -151,7 +167,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                             width="{$width5}" y="0" x="80"/>
                         <text y="16" fill="#220a00">Montalvo</text>
                         <text y="16" fill="#220a00" x="{$width5 + 85}" font-size="13"><xsl:value-of
-                            select="round-half-to-even(($width5 div 4), 2)"/> words per
+                                select="round-half-to-even(($width5 div 4), 2)"/> words per
                             match</text>
                     </g>
                     <g>

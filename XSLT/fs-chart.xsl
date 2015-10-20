@@ -36,7 +36,7 @@
                         <body>
                             <div type="table">
                                 <head>
-                                    <xsl:value-of select="//body//head/text()"/>
+                                    <xsl:value-of select="//body//head/text()[1]"/>
                                 </head>
                                 <xsl:apply-templates select="//anchor"/>
                             </div>
