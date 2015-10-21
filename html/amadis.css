@@ -214,34 +214,37 @@ svg{
     margin-right:1%;
 }
 
+li > h2{
+    text-align:left;
+}
+
 table{
-    border-collapse:collapse;
-    width:100%;
     background-color:#faecd2;
     border:2px solid #550b03;
 }
-tr{
+
+
+table,
+tr,
+th,
+td{
     border-collapse:collapse;
-    border:0
+    vertical-align:top;
 }
 
 th
 {
-    border-collapse:collapse;
     border:1px solid #550b03;
     background-color:#b13d04;
     padding:1px;
     color:#fce4cc;
     text-align:center;
-    vertical-align:top;
-}
+    }
 
 td
 {
-    border-collapse:collapse;
     border:1px solid #550b03;
-    padding:7px;
-    vertical-align:top;
+    padding:0.5em;
 }
 td.omission{
     background-color:#d61d08;
