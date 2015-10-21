@@ -13,7 +13,7 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            
+
             <p> We have used the text of the <bibl>1547 <title>Amadis</title> (Sevilla: Jacopo
                   Cromberberger)</bibl> from which Southey translated. Images of the 1547 are from
                the Biblioteca Virtual de Andalucía. This text is very similar to the text of the
@@ -28,20 +28,22 @@
                Spain in the mid-fourteenth century. Evidence in the form of character names and
                references in poetry dates to the fourteenth century. The primitive or medieval
                Amadís is now thought to be Castilian and not Portuguese or French. The attribution
-               to Portuguese knight Vasco de Lobeira is now known to be apocryphal.<ptr target="http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"/>
+               to Portuguese knight Vasco de Lobeira is now known to be apocryphal.<ptr
+                  target="http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+               />
             </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>This
-               digital critical edition seeks to reproduce the reading experience of the <bibl>1547
-                     <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with which Robert
-               Southey worked for his translation in order to facilitate comparisons. The following
-               modifications have been made to the 1547 print edition. <list rend="numbered">
-                  <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: <hi>i/e/u</hi> express
-                     vowel sounds and <hi>y/j</hi> express consonants. For example,
-                        <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+            <p>This digital critical edition seeks to reproduce the reading experience of the
+                  <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with which
+               Robert Southey worked for his translation in order to facilitate comparisons. The
+               following modifications have been made to the 1547 print edition. <list
+                  rend="numbered">
+                  <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish:
+                        <hi>i/e/u</hi> express vowel sounds and <hi>y/j</hi> express consonants. For
+                     example, <mentioned>reyna</mentioned> in the 1547 has been transcribed as
                         <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
                         <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic value
                      only at the ends of words, as in <mentioned>muy</mentioned> and
@@ -102,18 +104,188 @@
          <div type="chapter" xml:id="M22">
             <!--st p.89 of PDF -->
             <head>Capítulo XXII <locus from="xlv.r" to="lxvi.r"/>
-              
             </head>
 
-            
 
-           <argument> 
-               <p>De como Amadís se partió del castillo de la dueña: y de lo que le sucedió en el camino.</p>
+
+            <argument>
+               <p>De como Amadís se partió del castillo de la dueña: y de lo que le sucedió en el
+                  camino.</p>
             </argument>
-               <p>Amadís se despidió de la dueña y de la niña y entró en su camino y anduvo tanto sin aventura fallar que llegó a la floresta que se llamava Angaduza:el enano iva delante: y por el camino que ellos ivan venía un cavallero y una donzella: y siendo cerca del cavallero puso mano a su espada: y dexóse correr al enano por le tajar la cabeça. El enano con miedo dexóse caer del rocín diziendo: acorredme señor que me matan. Amadís que lo vio corrió muy aína y dixo qué es esso señor cavallero? Por qué me queréis matar mi enano? No hazeys como cortés en meter mano en tan cativa cosa/ de más ser mío: y no me lo aver demandado a derecho no pongáis mano en él: que amparos lo he yo. De vos lo amparar dixo el cavallero me pesa: mas todavía conviene que la cabeça le taje. Antes avréis la batalla dixo Amadís: y tomando sus armas cubiertos de sus escudos movieron contra se al más correr de sus cavallos: y encontráronse en los escudos tan fuertemente que los falsaron y las lórigas tanbién/ y juntáronse los cavallos y ellos de los cuerpos y de los yelmos tal guisa que cayeron a sendas pies grandes caídas: pero luego fueron en pie: y començaron la batalla de las espadas tan cruel y tan fuerte que no avía persona que la viesse que de ello no fuesse espantado: y assí lo era el uno del otro: que nunca hasta allí fallaron quién en tan gran estrecho sus vidas pudiesse. Assí anduvieron hiriéndose de muy grandes y esquivos golpes una gran pieça del día: tanto que sus escudos eran rajados y cortados por muchas partes: y assí mesmo lo eran los arneses/ en que ya muy poca defensea en ellos avía: y las espadas tenían mucho lugar de llegar a menudo y con daño de sus carnes: pues los yelmos no quedavan sin ser cortados y abollados a todas partes: y siendo muy cansados tiráronse afuera: y dixo el cavallero a Amadís. Cavallero no sufráis más de afán por este enamo: y dexadme hazer de él lo que quiero y después yo os lo emerdaré. No habléis en esso dixo Amadís que el enano amparar os lo he yo en todas guisas: pues cierto dixo el cavallero o yo moriré o la su cabeça avrá aquella donzella que me la pidió: yo vos digo dixo Amadís que antes será perdida una de las nuestras: y tomando su escudo y espada se tornó a lo ferir con gran saña: porque assí sin causa y con tal sobervia quría el cavallero matar al Enano que se lo no merecía: mas si él fue bravo no halló flaco al otro: antes se vino a él con gran denuedo: y dieronse muy fuertes golpes puñado cada uno de hazer conocer al otro su esfuerço y valentía assí que ya no se esperava de sí sino la muerte: pero que el cavallero estava muy maltrecho: mas no tanto que se no combatiesse con gran esfuerço: pues estando en esta gran priessa que oís llegó acaso un cavallero todo armado donde la conzella estava y como la batalla vio començóce santiguar diziendo/ que desque naciera nunca avía visto tan fuerte lid de dos cavalleros: y preguntó a la donzella si sabía quién fuessen aquellos cavalleros: se dixo ella que yo los hize justar: y no me puedo ende partir sino alegre: que mucho me plazzería de cualquiera dellos que muera y mucho más de entrambos: cierto donzella dizo el cavallero: no es esse buen desseo ni plazer: antes es de rogar a Dios por tan buenos dos hombres: mas dezidme porque los desamáis tando. Esso vos diré dixo la donzella: aquel que tiene el escudo más sano es el hombre del mundo que más desama Arcaláus mi tío y de quien más dessea la muerte y ha nombre Amadís: y este otro con quién se combate se llama Galaor: y matóme el hombre del mundo que yo más amava: y teníame otorgado un don y yo andava por se lo pedir donde la muerte le viniesse: y como conoscí al otro cavallero que es el mejor del mundo demandéle la cabeça de aquel enano: assí que este Galaor que muy fuerte cavallero es por me la dar y el otro por la defender son llagados a la muerte/ de que yo gran gloria y plazer rescibo. El cavallero que esto oyó dixo: mal aya muger que tan gran tración pensó para hazer morir los mejores dos cavalleros del mundo/ y sacando su espada de la vaína dióle un golpe tal en el pescueço que la cabeça le hizo caer a los pies del palafrén: y dixo. Toma este galadrón por tu tío Arcaláus que en la cruel prisión me tuvo: donde me sacó aqul buen cvallero/ y fue cuanto el cavallero llevarle pudo dando bozes diziendo. Estad señor Amadís: que esse es vuestro hermano don Galaor el que vos buscáis. Cuando AMadís lo oyó dexó caer la espada y el escudo en el camp: y fue contra él diziendo. Ay hermano guena ventura aya quién nos hizo conocer. Galaor dixo ay cativo malaventurado que he hecho contra mi hermano y mi señor: y hincándosele de inojos delante le demandó llorando perdón. Amadís lo alço y abráçolo ydixo: mi hermano por bien empleado tengo el peligro que con vos passé pues que fue testimonio que yo provasse vuestra alta proeza y bondad. Entonces se desenlazaon los yelmos por holgar/ qye muy necessario les era: el cavallero les contó lo que la donzella le dixera: y como él la mtara. Buena ventura vos ayáis dixo Galaor que agora soy quito de su don. Cierto señor dixo el enano más me plaze a mí que assí seáis del don quito: que por la guisa que lo començavades/ mas mucho me maravillo porque ella me desamava: que nunca la vi. Galaor contó cuanto con ella y con su amigo le aviniera: como ya lo avéis oído: y el cavallero les dixo. Señores mal llagado soys ruego os que cavalgués: y nos vamos a un mi castillo que es aquí cerca y guareceréis de buestras heridas. Dios os dé bueva ventura dixo Amadís por lo que por nos hazéis: cierto señor yo por bienaventurado me tengo en vos servir: que vos me sacastes de la más cruel y esquiva prisión en que nunca hombre fue. Donde fue esse dixo Amadís? Señor dixo en el castillo
-                  <!-- st stopped at 91 pdf -->
-                  
-            </p>
+            <p>               
+               <cl xml:id="M22_c1"><persName ref="#Amadis">Amadís</persName> se despidió de la dueña y de la niña y
+               entró en su camino y anduvo tanto sin aventura fallar que llegó a la floresta que
+               se llamava <placeName>Angaduza</placeName>:el enano iva delante:</cl>
+               <cl xml:id="M22_c2">y por el camino que ellos ivan venía un cavallero y una donzella:</cl>
+               <cl xml:id="M22_c3">y siendo cerca del cavallero puso mano a su espada:</cl>
+               <cl xml:id="M22_c4">y dexóse correr al enano por le tajar la cabeça.</cl>
+               <cl xml:id="M22_c5">El enano con miedo dexóse caer del rocín diziendo:</cl>
+               <cl xml:id="M22_c6">acorredme señor que me matan.</cl>
+               <cl xml:id="M22_c7">Amadís que lo vio corrió muy aína y dixo qué es esso señor cavallero?</cl>
+               <cl xml:id="M22_c8">Por qué me queréis matar mi enano?</cl>
+               <cl xml:id="M22_c9">No hazeys como cortés en meter mano en tan cativa cosa/</cl>
+               <cl xml:id="M22_c10">de más ser mío:</cl>
+               <cl xml:id="M22_c11">y no me lo aver demandado a derecho no pongáis mano en él:</cl>
+               <cl xml:id="M22_c12">que amparos lo he yo.</cl>
+               <cl xml:id="M22_c13">De vos lo amparar dixo el cavallero me pesa:</cl>
+               <cl xml:id="M22_c14">mas todavía conviene que la cabeça le taje.</cl>
+               <cl xml:id="M22_c15">Antes avréis la batalla dixo Amadís:</cl>
+               <cl xml:id="M22_c16">y tomando sus armas cubiertos de sus escudos movieron contra se al más correr de
+                  sus cavallos:</cl>
+               <cl xml:id="M22_c17">y encontráronse en los escudos tan fuertemente que los falsaron y las lórigas
+                  tanbién/</cl>
+               <cl xml:id="M22_c18">y juntáronse los cavallos y ellos de los cuerpos y de los yelmos tal guisa que
+                  cayeron a sendas pies grandes caídas:</cl>
+               <cl xml:id="M22_c19"> pero luego fueron en pie:</cl>
+               <cl xml:id="M22_c20">y començaron la batalla de las espadas tan cruel y tan fuerte que no avía persona
+                  que la viesse que de ello no fuesse espantado:</cl>
+               <cl xml:id="M22_c21">y assí lo era el uno del otro:</cl>
+               <cl xml:id="M22_c22">que nunca hasta allí fallaron quién en tan gran estrecho sus vidas pudiesse.</cl>
+               <cl xml:id="M22_c23">Assí anduvieron hiriéndose de muy grandes y esquivos golpes una gran pieça del
+                  día:</cl>
+               <cl xml:id="M22_c24">tanto que sus escudos eran rajados y cortados por muchas partes:</cl>
+               <cl xml:id="M22_c25">y assí mesmo lo eran los arneses/</cl>
+               <cl xml:id="M22_c26">en que ya muy poca defensea en ellos avía:</cl>
+               <cl xml:id="M22_c27">y las espadas tenían mucho lugar de llegar a menudo y con daño de sus
+                  carnes:</cl>
+               <cl xml:id="M22_c28">pues los yelmos no quedavan sin ser cortados y abollados a todas partes:</cl>
+               <cl xml:id="M22_c29">y siendo muy cansados tiráronse afuera:</cl>
+               <cl xml:id="M22_c30">y dixo el cavallero a Amadís.</cl>
+               <cl xml:id="M22_c31">Cavallero no sufráis más de afán por este enamo:</cl>
+               <cl xml:id="M22_c32">y dexadme hazer de él lo que quiero y después yo os lo emerdaré.</cl>
+               <cl xml:id="M22_c33">No habléis en esso dixo Amadís que el enano amparar os lo he yo en todas
+                  guisas:</cl>
+               <cl xml:id="M22_c34">pues cierto dixo el cavallero o yo moriré o la su cabeça avrá aquella donzella
+                  que me la pidió:</cl>
+               <cl xml:id="M22_c35">yo vos digo dixo Amadís que antes será perdida una de las nuestras:</cl>
+               <cl xml:id="M22_c36">y tomando su escudo y espada se tornó a lo ferir con gran saña:</cl>
+               <cl xml:id="M22_c37">porque assí sin causa y con tal sobervia quría el cavallero matar al Enano que se
+                  lo no merecía:</cl>
+               <cl xml:id="M22_c38">mas si él fue bravo no halló flaco al otro:</cl>
+               <cl xml:id="M22_c39">antes se vino a él con gran denuedo:</cl>
+               <cl xml:id="M22_c40">y dieronse muy fuertes golpes puñado cada uno de hazer conocer al otro su
+                  esfuerço y valentía assí que ya no se esperava de sí sino la muerte:</cl>
+               <cl xml:id="M22_c41">pero que el cavallero estava muy maltrecho:</cl>
+               <cl xml:id="M22_c42">mas no tanto que se no combatiesse con gran esfuerço:</cl>
+               <cl xml:id="M22_c43">pues estando en esta gran priessa que oís llegó acaso un cavallero todo armado
+                  donde la conzella estava y como la batalla vio començóce santiguar diziendo/</cl>
+               <cl xml:id="M22_c44">que desque naciera nunca avía visto tan fuerte lid de dos cavalleros:</cl>
+               <cl xml:id="M22_c45">y preguntó a la donzella si sabía quién fuessen aquellos cavalleros:</cl>
+               <cl xml:id="M22_c46">se dixo ella que yo los hize justar:</cl>
+               <cl xml:id="M22_c47">y no me puedo ende partir sino alegre:</cl>
+               <cl xml:id="M22_c48">que mucho me plazzería de cualquiera dellos que muera y mucho más de
+                  entrambos:</cl>
+               <cl xml:id="M22_c49">cierto donzella dizo el cavallero:</cl>
+               <cl xml:id="M22_c50">no es esse buen desseo ni plazer:</cl>
+               <cl xml:id="M22_c51">antes es de rogar a Dios por tan buenos dos hombres:</cl>
+               <cl xml:id="M22_c52">mas dezidme porque los desamáis tando.</cl>
+               <cl xml:id="M22_c53"> Esso vos diré dixo la donzella:</cl>
+               <cl xml:id="M22_c54">aquel que tiene el escudo más sano es el hombre del mundo que más desama Arcaláus
+                  mi tío y de quien más dessea la muerte y ha nombre Amadís:</cl>
+               <cl xml:id="M22_c55">y este otro con quién se combate se llama <persName ref="#Galaor">Galaor</persName>:</cl>
+               <cl xml:id="M22_c56">y matóme el hombre del mundo que yo más amava:</cl>
+               <cl xml:id="M22_c57">y teníame otorgado un don y yo andava por se lo pedir donde la muerte le
+                  viniesse:</cl>
+               <cl xml:id="M22_c58">y como conoscí al otro cavallero que es el mejor del mundo demandéle la cabeça de
+                  aquel enano:</cl>
+               <cl xml:id="M22_c59">assí que este Galaor que muy fuerte cavallero es por me la dar y el otro por la
+                  defender son llagados a la muerte/</cl>
+               <cl xml:id="M22_c60">de que yo gran gloria y plazer rescibo.</cl>
+               <cl xml:id="M22_c61">El cavallero que esto oyó dixo:</cl>
+               <cl xml:id="M22_c62">mal aya muger que tan gran tración pensó para hazer morir los mejores dos
+                  cavalleros del mundo/</cl>
+               <cl xml:id="M22_c63">y sacando su espada de la vaína dióle un golpe tal en el pescueço que la cabeça
+                  le hizo caer a los pies del palafrén:</cl>
+               <cl xml:id="M22_c64">y dixo.</cl>
+               <cl xml:id="M22_c65"> Toma este galadrón por tu tío <persName ref="#Arcalaus">Arcaláus</persName> que
+                  en la cruel prisión me tuvo:</cl>
+               <cl xml:id="M22_c66">donde me sacó aqul buen cavallero/</cl>
+               <cl xml:id="M22_c67">y fue cuanto el cavallero llevarle pudo dando bozes diziendo.</cl>
+               <cl xml:id="M22_c68">Estad señor Amadís:</cl>
+               <cl xml:id="M22_c69">que esse es vuestro hermano don Galaor el que vos buscáis.</cl>
+               <cl xml:id="M22_c70">Cuando Amadís lo oyó dexó caer la espada y el escudo en el campo:</cl>
+               <cl xml:id="M22_c71">y fue contra él diziendo.</cl>
+               <cl xml:id="M22_c72">Ay hermano buena ventura aya quién nos hizo conocer.</cl>
+               <cl xml:id="M22_c73">Galaor dixo ay cativo malaventurado que he hecho contra mi hermano y mi
+                  señor:</cl>
+               <cl xml:id="M22_c74">y hincándosele de inojos delante le demandó llorando perdón.</cl>
+               <cl xml:id="M22_c75">Amadís lo alço y abráçolo y dixo:</cl>
+               <cl xml:id="M22_c76">mi hermano por bien empleado tengo el peligro que con vos passé pues que fue
+                  testimonio que yo provasse vuestra alta proeza y bondad.</cl>
+               <cl xml:id="M22_c77">Entonces se desenlazaron los yelmos por holgar/</cl>
+               <cl xml:id="M22_c78">que muy necessario les era:</cl>
+               <cl xml:id="M22_c79">el cavallero les contó lo que la donzella le dixera:</cl>
+               <cl xml:id="M22_c80">y como él la mtara.</cl>
+               <cl xml:id="M22_c81">Buena ventura vos ayáis dixo Galaor que agora soy quito de su don.</cl>
+               <cl xml:id="M22_c82">Cierto señor dixo el enano más me plaze a mí que assí seáis del don quito:</cl>
+               <cl xml:id="M22_c83">que por la guisa que lo començavades/</cl>
+               <cl xml:id="M22_c84">mas mucho me maravillo porque ella me desamava:</cl>
+               <cl xml:id="M22_c85">que nunca la vi.</cl>
+               <cl xml:id="M22_c86">Galaor contó cuanto con ella y con su amigo le aviniera:</cl>
+               <cl xml:id="M22_c87">como ya lo avéis oído:</cl>
+               <cl xml:id="M22_c88">y el cavallero les dixo.</cl>
+               <cl xml:id="M22_c89">Señores mal llagado soys ruego os que cavalguéis:</cl>
+               <cl xml:id="M22_c90">y nos vamos a un mi castillo que es aquí cerca y guareceréis de vuestras
+                  heridas.</cl>
+               <cl xml:id="M22_c91">Dios os dé buena ventura dixo Amadís por lo que por nos hazéis:</cl>
+               <cl xml:id="M22_c92">cierto señor yo por bienaventurado me tengo en vos servir:</cl>
+               <cl xml:id="M22_c93">que vos me sacastes de la más cruel y esquiva prisión en que nunca hombre
+                  fue.</cl>
+               <cl xml:id="M22_c94">Donde fue esse dixo Amadís?</cl>
+               <cl xml:id="M22_c95">Señor dixo en el castillo de Arcaláus el encantador que yo soy uno de los muchos
+                  que de allí salieron por vuestra mano.</cl>
+               <cl xml:id="M22_c96">Como avéis nombre dixo Amadís?</cl>
+               <cl xml:id="M22_c97"> Llámanme dixo él <persName ref="#Balays">Baláis</persName>:</cl>
+               <cl xml:id="M22_c98">y por mi castillo que <placeName>Carsante</placeName> se llama soy lamado Baláis
+                  de Carsante y mucho vos ruego señor que vos vayáis conmigo:</cl>
+               <cl xml:id="M22_c99">Don Galaor dixo:</cl>
+               <cl xml:id="M22_c100">vamos con este cavallero que os tanto ama.</cl>
+               <cl xml:id="M22_c101">Vamos hermano dixo Amadís que que os plaze.</cl>
+               <cl xml:id="M22_c102">Entonces cavalgaron como mejor pudieron y llegaron al castillo donde hallaron
+                  cavalleros y dueñas y donzellas que con gran amor los rescibieron:</cl>
+               <cl xml:id="M22_c103">y Baláis les dixo.</cl>
+               <cl xml:id="M22_c104">Amigos vedes que traigo toda la flor de la cavallería del mundo:</cl>
+               <cl xml:id="M22_c105">el uno es Amadís aquel que de la dura prisión me sacó:</cl>
+               <cl xml:id="M22_c106">el otro su hermano don Galaor:</cl>
+               <cl xml:id="M22_c107">y fallélos en tal punto que si Dios por su merced no me llevara aquella vía
+                  muriera el uno dellos o por ventura entrambos:</cl>
+               <cl xml:id="M22_c108"> servildos y honraldos como devéis.</cl>
+               <cl xml:id="M22_c109">Entonces los tomaron de sus cavallos:</cl>
+               <cl xml:id="M22_c110">y los llevaron a una cámara donde fueron desarmados y puestos en ricos
+                  lechos:</cl>
+               <cl xml:id="M22_c111">y allí fueron curados por dos sobrinas de la muger de Baláis que mucho de aquel
+                  menester sabían:</cl>
+               <cl xml:id="M22_c112">mas la dueña su muger fue delante Amadís y con mucha humildad le gradeció lo que
+                  por su marido avía hecho:</cl>
+               <cl xml:id="M22_c113">en le sacar de la prisión de Arcalaus<choice>
+                  <sic/>
+                  <corr instant="false">.</corr>
+               </choice> Pues allí estando como oís Amadís contó a Galaor como avía salido de la
+                  casa del rey <persName ref="#Lisuarte">Lisuarte</persName> por le buscar:</cl>
+               <cl xml:id="M22_c114">y que avía prometido de lo llevar allí:</cl>
+               <cl xml:id="M22_c115">y rogóle que con él se fuesse pues que en todo el mundo no avía casa tan
+                  honrada:</cl>
+               <cl xml:id="M22_c116">ni donde tantos hombres buenos morassen.</cl>
+               <cl xml:id="M22_c117">Señor hermano dixo don Galaor todo lo que os pluguiere tengo yo de seguir y
+                  hazer:</cl>
+               <cl xml:id="M22_c118">aunque por dicho me tenía de no ser en essa corte conocido hasta que mis obras
+                  les dieran testimonio como en alguna cosa parecieran a las vuestras:</cl>
+               <cl xml:id="M22_c119">o morir en la demanda.</cl>
+               <cl xml:id="M22_c120">Cierto hermano dixo Amadís por esso no lo dexéis:</cl>
+               <cl xml:id="M22_c121">que vuestra gran fama es allá tal:</cl>
+               <cl xml:id="M22_c122">que ya la mía se alguna es se va escureciendo.</cl>
+               <cl xml:id="M22_c123">Ay señor dixo don Galaor por Dios no digáis cosa tan desaguisada:</cl>
+               <cl xml:id="M22_c124">que no solamente con la obra mas ni con el pensamiento no podría alcançar ni
+                  llegar a las vuestras grandes fuerças.</cl>
+               <cl xml:id="M22_c125">Agora dexemos esto dixo Amadís que en lo vuestro y mio de razón según la gran
+                  bondad de nuestro padre no deve aver ninguna diferencia.</cl>
+               <cl xml:id="M22_c126">Y luego mandó al su enano que luego se fuesse a casa del rey Lisuarte y besando
+                  por él las manos a la reina le dixesse de su parte como avía fallado a
+                  Galaor:</cl>
+               <cl xml:id="M22_c127">y tanto que de las llagas fuessen guaridos se partirían para allá.</cl>
+               <cl xml:id="M22_c128"> El enano cumpliendo el mandado de su señor se puso en el camino de
+                  <placeName>Vindilisora</placeName> donde el rey a la sazón era con toda su
+                  cavallería muy acompañado.</cl></p>
          </div>
       </body>
    </text>
