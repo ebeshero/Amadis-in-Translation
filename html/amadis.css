@@ -206,7 +206,7 @@ ol li{
 
 .svg{
     display:flex;   
- -webkit-display:flex;
+    display:-webkit-flex;
 }
 
 svg{
