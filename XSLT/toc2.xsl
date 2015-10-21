@@ -17,9 +17,10 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             <html>
                 <head>
                     <title>Table of contents</title>
-                    <meta name="keywords"
-                        content="Amadis of Gaule, Amadís de Gaula, Garci Rodríguez de Montalvo, Robert Southey, TEI,
-                        Text Encoding Initiative, romance of chivalry, libro de caballerías, libro de caballería"/>
+                    <meta name="keywords" content="Amadis of Gaule, Amadís de Gaula, Garci Rodríguez de Montalvo, 
+                        Robert Southey, TEI, Text Encoding Initiative, romance of chivalry, libro de caballerías, 
+                        libro de caballería, digital humanities, dh, textual scholarship, digital scholarship, 
+                        translation studies, studies in translation"/>
                     <link rel="stylesheet" type="text/css" href="amadis.css"/>
                 </head>
                 <body>
@@ -77,13 +78,13 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             <div class="svg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="75">
                     <g>
-                        <rect y="12" fill="#c5d93c" stroke="#220a00" stroke-width="2" height="20" opacity="0.5" stroke-opacity="1" x="{$width2}" width="{$southey-clauses1}"/>
-                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses1 + 7}">Southey</text>
-                    </g>
-                    <g>
-                        <rect fill="#adc2bb" stroke="#220a00" stroke-width="2" height="20" opacity="0.5" stroke-opacity="1"
+                        <rect fill="#d61d08" stroke="#550b03" stroke-width="2" height="20" opacity="0.7" stroke-opacity="1"
                             width="{$width1}" y="12" x="80"/>
                         <text y="29" fill="#220a00">Montalvo</text>
+                    </g>
+                    <g>
+                        <rect y="12" fill="#fdd221" stroke="#550b03" stroke-width="2" height="20" opacity="0.7" stroke-opacity="1" x="{$width2}" width="{$southey-clauses1}"/>
+                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses1 + 7}">Southey</text>
                     </g>
                     <text fill="#461801" y="65" x="52" font-size="18">Omissions and additions by Southey</text>
                 </svg>
@@ -108,7 +109,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 <xsl:variable name="width6" select="$southey-words div $southey-clauses * 4"/>
                 <svg xmlns="http://www.w3.org/2000/svg" width="350" height="100">
                     <g>
-                        <rect fill="#e17f28" stroke="#220a00" stroke-width="2" height="20"
+                        <rect fill="#adc2bb" stroke="#220a00" stroke-width="2" height="20"
                             width="{$width5}" y="1" x="80"/>
                         <text y="16" fill="#220a00">Montalvo</text>
                         <text y="16" fill="#220a00" x="{$width5 + 85}" font-size="13"><xsl:value-of
@@ -116,7 +117,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                             match</text>
                     </g>
                     <g>
-                        <rect fill="#e17f28" stroke="#220a00" stroke-width="2" height="20"
+                        <rect fill="#adc2bb" stroke="#220a00" stroke-width="2" height="20"
                             width="{$width6}" y="21" x="80"/>
                         <text y="36" fill="#220a00">Southey</text>
                         <text y="36" fill="#220a00" x="{$width6 + 85}" font-size="13"><xsl:value-of

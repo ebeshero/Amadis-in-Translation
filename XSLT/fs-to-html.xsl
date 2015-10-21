@@ -16,8 +16,9 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 <head>
                     <title>Charts and stats</title>
                     <meta name="keywords"
-                        content="Amadis of Gaule, Amadís de Gaula, Garci Rodríguez de Montalvo, Robert Southey, TEI,
-                        Text Encoding Initiative, romance of chivalry, libro de caballerías, libro de caballería"/>
+                        content="Amadis of Gaule, Amadís de Gaula, Garci Rodríguez de Montalvo, Robert Southey, TEI, 
+                        Text Encoding Initiative, romance of chivalry, libro de caballerías, libro de caballería, digital humanities, 
+                        dh, textual scholarship, digital scholarship, translation studies, studies in translation"/>
                     <link rel="stylesheet" type="text/css" href="amadis.css"/>
                 </head>
                 <body>
@@ -64,7 +65,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                                     alt="Creative Commons License" style="border-width:0"
                                     src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png"
                                 /></a><a rel="license"
-                                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                                href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                             <strong>Last modified: </strong><!--#echo var="LAST_MODIFIED" -->. <a
                                 href="http://newtfire.org/firebellies.html">Powered by
                                 firebellies</a>.</span>
