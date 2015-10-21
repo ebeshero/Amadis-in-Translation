@@ -10,7 +10,7 @@ body{
     /*background-color: #BBD6F1;*/
     line-height:1.4em;
     text-align:left;
-    width:100%;
+    /*width:100%;*/
 
     /*padding: 10px 10px 40px 10px;*/
     border-radius:10px;
@@ -23,8 +23,7 @@ div#images img{
 div#menu{
 
     background-color:#adc2bb;
-
-    width:100%;
+   /* width:100%;*/
     margin-left:auto;
     margin-right:auto;
     padding:5px 5px 5px 5px;
