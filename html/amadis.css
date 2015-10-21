@@ -25,11 +25,11 @@ div#menu{
     background-color:#adc2bb;
 
     width:100%;
-    margin-left: auto;
-margin-right:auto;
-padding: 5px 5px 5px 5px;
-border-radius: 5px;
-border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px 5px 5px 5px;
+    border-radius:5px;
+    border-radius:5px;
     color:#220a00;
     right:1%;
 
@@ -51,8 +51,8 @@ div#content{
 
 div#images{
     float:left;
-
     width:30%;
+    overflow:hidden;
 
 }
 
@@ -202,10 +202,10 @@ ol li{
 
 
 /*Instructions added by heb*/
-   /*ebb: I'm seeing a validation error on the line below: (display:flex) in oXygen: Do we need something more to make this valid? */
+/*ebb: I'm seeing a validation error on the line below: (display:flex) in oXygen: Do we need something more to make this valid? */
 
 .svg{
-    display:flex;   
+    display:flex;
     display:-webkit-flex;
 }
 
@@ -231,7 +231,7 @@ th
     border:1px solid #550b03;
     background-color:#b13d04;
     padding:1px;
-    color:#fce4cc;    
+    color:#fce4cc;
     text-align:center;
     vertical-align:top;
 }
@@ -255,13 +255,13 @@ td.add{
 }
 td.direct{
     background-color:#faca82}
-    
+
 td.compression{
     color:#d61d08}
-    
+
 td.expansion{
     color:#aba372}
-    
+
 table tr:nth-child(1),
 th:nth-child(1){
     width:40%;
@@ -272,6 +272,7 @@ th:nth-child(2){
     width:40%;
 }
 
-table td:nth-child(3), td:nth-child(4){
+table td:nth-child(3),
+td:nth-child(4){
     text-align:center;
 }
