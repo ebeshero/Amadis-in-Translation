@@ -35,6 +35,15 @@
                 </head>
                 <!-- st 9.20.15: scholars are divided on whether they modernize Roman numerals, so as long as we're consistent with this, fine by me 
                     -->
+                <argument>
+                    <p>Aquí comiença el primero libro del esforçado y virtuoso cavallero Amadís hijo
+                        del rey Perión de Gaula/ y de la reina Elisena: el qual fue corregido y
+                        emendado por el honrado y virtuoso cavallero Garci Ordóñez de Montalvo
+                        regidor de la noble villa de Medina del Campo: y corrigióle de los antiguos
+                        originales que estavan corrutos y mal compuestos en antiguo estilo: por
+                        falta de los diferentes y malos escriptores. Quitando muchas palabras
+                        superfluas/ y poniendo otras de más polido y elegante estilo: tocantes a la cavallería y actos della.</p>
+                </argument>
                 <p>
                     <cl xml:id="M0_p1_c1">No muchos años después de la passión de nuestro redentor y
                         salvador <distinct>Jesuchristo</distinct>:</cl>
@@ -191,8 +200,8 @@
                     <cl xml:id="M0_p1_c79">de guisa que assí el uno como el otro estuvieron todo el
                         comer casi fuera de sentido.</cl>
                     <cl xml:id="M0_p1_c80">Pues alçadas las mesas la reina se quiso acoger a su
-                        cámara:</cl><cl xml:id="M0_p1_c80.1">y levantándose Elisena cayóle de la falda un muy hermoso anillo que
-                        para se lavar del dedo quitara/</cl>
+                        cámara:</cl><cl xml:id="M0_p1_c80.1">y levantándose Elisena cayóle de la
+                        falda un muy hermoso anillo que para se lavar del dedo quitara/</cl>
                     <cl xml:id="M0_p1_c81">y con la gran turbación no tuvo acuerdo de lo allí
                         tornar/</cl>
                     <cl xml:id="M0_p1_c82">y baxóse por tomarlo:</cl>
@@ -236,8 +245,8 @@
                     <cl xml:id="M0_p1_c102">y por esto siguiendo yo/</cl>
                     <cl xml:id="M0_p1_c103">no a lo que a vuestro servicio devo:</cl>
                     <cl xml:id="M0_p1_c104">mas a la voluntad y obediencia/</cl>
-                    <cl xml:id="M0_p1_c105">haré aquello que mandáis por la vía más honesta que
-                        mi poca discreción y mucha gana de os servir hallar pudieren.<milestone
+                    <cl xml:id="M0_p1_c105">haré aquello que mandáis por la vía más honesta que mi
+                        poca discreción y mucha gana de os servir hallar pudieren.<milestone
                             unit="said" ana="end"/>
                     </cl>
                     <cl xml:id="M0_p1_c106">Entonces partiéndose de ella se fue contra la cámara
