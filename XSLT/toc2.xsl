@@ -78,13 +78,13 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             <div class="svg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="75">
                     <g>
-                        <rect fill="#d61d08" stroke="#550b03" stroke-width="2" height="20" opacity="0.7" stroke-opacity="1"
-                            width="{$width1}" y="12" x="80"/>
-                        <text y="29" fill="#220a00">Montalvo</text>
+                        <rect y="12" fill="#d61d08" stroke="#550b03" stroke-width="2" height="20" opacity="0.7" stroke-opacity="1" x="{$width2}" width="{$southey-clauses1}"/>
+                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses1 + 7}">Southey</text>
                     </g>
                     <g>
-                        <rect y="12" fill="#fdd221" stroke="#550b03" stroke-width="2" height="20" opacity="0.7" stroke-opacity="1" x="{$width2}" width="{$southey-clauses1}"/>
-                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses1 + 7}">Southey</text>
+                        <rect fill="#fdd221" stroke="#550b03" stroke-width="2" height="20" opacity="0.7" stroke-opacity="1"
+                            width="{$width1}" y="12" x="80"/>
+                        <text y="29" fill="#220a00">Montalvo</text>
                     </g>
                     <text fill="#461801" y="65" x="52" font-size="18">Omissions and additions by Southey</text>
                 </svg>
