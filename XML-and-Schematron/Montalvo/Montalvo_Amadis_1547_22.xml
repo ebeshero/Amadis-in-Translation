@@ -295,24 +295,21 @@
                      ana="intEnd"/> en el castillo de Arcaláus el encantador que yo soy uno de los
                   muchos que de allí salieron por vuestra mano.<milestone unit="said" ana="end"
                   /></cl>
-               
-<!--               heb fiquei aqui-->
-               
                <cl xml:id="M22_p1_c96"><milestone unit="said" ana="start" resp="#Amadis"/>Como avéis
                      nombre<milestone unit="said" ana="end"/> dixo Amadís?</cl>
                <cl xml:id="M22_p1_c97">
                   <milestone unit="said" ana="start" resp="#Balays"/>Llámanme<milestone unit="said"
                      ana="intStart"/> dixo él <milestone unit="said" ana="intEnd"/><persName
                      ref="#Balays">Baláis</persName>:</cl>
-               <cl xml:id="M22_p1_c98">y por mi castillo que <placeName>Carsante</placeName> se llama
+               <cl xml:id="M22_p1_c98">y por mi castillo que <placeName ref="#Carsante">Carsante</placeName> se llama
                   soy llamado Baláis de Carsante y mucho vos ruego señor que vos vayáis
                      conmigo:<milestone unit="said" ana="end"/></cl>
-               <cl xml:id="M22_p1_c99">Don Galaor dixo:</cl>
+               <cl xml:id="M22_p1_c99">don Galaor dixo:</cl>
                <cl xml:id="M22_p1_c100"><milestone unit="said" ana="start" resp="#Galaor"/>vamos con
                   este cavallero que os tanto ama.<milestone unit="said" ana="end"/></cl>
                <cl xml:id="M22_p1_c101"><milestone unit="said" ana="start" resp="#Amadis"/>Vamos
                      hermano<milestone unit="said" ana="intStart"/> dixo Amadís<milestone
-                     unit="said" ana="intEnd"/> que que os plaze.<milestone unit="said" ana="end"
+                     unit="said" ana="intEnd"/> pues que os plaze.<milestone unit="said" ana="end"
                   /></cl>
                <cl xml:id="M22_p1_c102">Entonces cavalgaron como mejor pudieron y llegaron al castillo
                   donde hallaron cavalleros y dueñas y donzellas que con gran amor los
@@ -323,7 +320,7 @@
                <cl xml:id="M22_p1_c105">el uno es Amadís aquel que de la dura prisión me sacó:</cl>
                <cl xml:id="M22_p1_c106">el otro su hermano don Galaor:</cl>
                <cl xml:id="M22_p1_c107">y fallélos en tal punto que si Dios por su merced no me llevara
-                  aquella vía muriera el uno dellos o por ventura entrambos:</cl>
+                  aquella vía muriera el uno de ellos o por ventura entrambos:</cl>
                <cl xml:id="M22_p1_c108"> servildos y honraldos como devéis.<milestone unit="said"
                      ana="end"/></cl>
                <cl xml:id="M22_p1_c109">Entonces los tomaron de sus cavallos:</cl>
@@ -374,7 +371,7 @@
                <cl xml:id="M22_p1_c127">y tanto que de las llagas fuessen guaridos se partirían para
                   allá.</cl>
                <cl xml:id="M22_p1_c128"> El enano cumpliendo el mandado de su señor se puso en el
-                  camino de <placeName>Vindilisora</placeName> donde el rey a la sazón era con toda
+                  camino de <placeName ref="#Vindilisora">Vindilisora</placeName> donde el rey a la sazón era con toda
                   su cavallería muy acompañado.</cl></p>
          </div>
       </body>

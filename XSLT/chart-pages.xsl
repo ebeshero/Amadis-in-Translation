@@ -66,20 +66,20 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
 
                         </div>
                         <footer>
-                            <div class="boilerplate">
+                            <p class="boilerplate">
                                 <span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (ebb8
-                                    at pitt.edu) <a rel="license"
+                                    at + pitt.edu) <a rel="license"
                                         href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
                                             ><img alt="Creative Commons License"
                                             style="border-width:0"
                                             src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png"
                                         /></a><a rel="license"
-                                        href="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
-                                    <strong>Last modified:
-                                    </strong><!--#echo var="LAST_MODIFIED" -->. <a
-                                        href="http://newtfire.org/firebellies.html">Powered by
+                                        href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                        /><strong>Last modified:</strong>
+                                    <!--#echo var="LAST_MODIFIED" -->. <a
+                                        href="http://newtfire.org/firebellies.html">Powered by +
                                         firebellies</a>.</span>
-                            </div>
+                            </p>
                         </footer>
                     </body>
                 </html>

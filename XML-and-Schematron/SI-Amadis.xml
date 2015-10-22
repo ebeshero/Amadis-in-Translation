@@ -426,6 +426,14 @@
                   <placeName>Sérolis</placeName>
                   <note resp="#heb">Neighboring country of the kingdom of Sobradisa.</note>
                </place>
+               <place xml:id="Carsante">
+                  <placeName>Carsante</placeName>
+                  <note>INCOMPLETE: Castle owned by Balays</note>
+               </place>
+               <place xml:id="Vindilisora">
+                  <placeName>Vindilisora</placeName>
+                  <note>INCOMPLETE: One of King Lisuarte properties.</note>
+               </place>
             </listPlace>
          </div>
          <div type="geographical_places">
