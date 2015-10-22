@@ -66,7 +66,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 </a>
                 <xsl:text> --- </xsl:text>
                 <a>
-                    <xsl:value-of select="//head/text()[1]"/>
+                    <xsl:value-of select="//head/substring-before(., '.')"/>
                 </a>
             </h2>
             <xsl:variable name="width1" select="count($allCl)"/>
