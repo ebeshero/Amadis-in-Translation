@@ -20,7 +20,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="table">
+         <div type="table" xml:id="S2">
             <head>Chapter 2. </head>
             <fs corresp="#M1_p1_c1">
                <f name="southey" n="6" ana="-0.17">

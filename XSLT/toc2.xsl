@@ -28,7 +28,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                     <hr/>
                     <ul>
                         <xsl:for-each select="collection('../XML-and-Schematron/Southey')">
-                            <xsl:sort select="current()//head"/>
+                            <xsl:sort select="//div[@type='chapter']/substring(@xml:id, 2)" data-type="number"/>
                             <xsl:if test="current()//anchor">
                                 <xsl:apply-templates select="//div[@type = 'chapter']"/>
                             </xsl:if>

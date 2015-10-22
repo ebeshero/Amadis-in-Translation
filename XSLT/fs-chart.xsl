@@ -34,7 +34,7 @@
                     </teiHeader>
                     <text>
                         <body>
-                            <div type="table">
+                            <div type="table" xml:id="{$title}">
                                 <head>
                                     <xsl:value-of select="//body//head/text()[1]"/>
                                 </head>

@@ -20,7 +20,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="table">
+         <div type="table" xml:id="S1">
             <head>Chapter 1. </head>
             <fs corresp="#M0_p1_c1">
                <f name="southey" n="9" ana="0.44">
@@ -1397,8 +1397,8 @@
             </fs>
             <fs corresp="M0_p1_c102 #M0_p1_c103 #M0_p1_c104 #M0_p1_c105">
                <f name="montalvo" n="40">
-                  <string>y por esto siguiendo yo/ no a lo que a vuestro servicio devo: mas a la voluntad y obediencia/ haré aquello que mandáis por la vía más honesta que
-                        mi poca discreción y mucha gana de os servir hallar pudieren.
+                  <string>y por esto siguiendo yo/ no a lo que a vuestro servicio devo: mas a la voluntad y obediencia/ haré aquello que mandáis por la vía más honesta que mi
+                        poca discreción y mucha gana de os servir hallar pudieren.
                      </string>
                </f>
                <f name="type" select="omission">

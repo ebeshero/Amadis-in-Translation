@@ -1,38 +1,38 @@
 html{
-background-color:#fffff7;
-color:#220a00;
-    font-family:"Calisto MT", "Palatino Linotype", "Book Antiqua", Palantino, serif;
+    background-color: #fffff7;
+    color: #220a00;
+    font-family: "Calisto MT", "Palatino Linotype", "Book Antiqua", Palantino, serif;
 }
 
 body{
     /*background-color: #BBD6F1;*/
-    line-height:1.4em;
-    text-align:left;
+    line-height: 1.4em;
+    text-align: left;
     /*width:100%;*/
 
     padding: 10px 10px 40px 10px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-img.amadis {
+img.amadis{
 
-    max-width:352px;
-    width:30%;
-    float:left;
+    max-width: 352px;
+    width: 30%;
+    float: left;
     margin: 1em;
-    border:none;
+    border: none;
     padding: 5px;
 }
 div#menu{
 
-    background-color:#adc2bb;
-   /* width:100%;*/
-    margin-left:auto;
-    margin-right:auto;
-    padding:5px 5px 5px 5px;
-    border-radius:5px;
-    border-radius:5px;
-    color:#220a00;
-    right:1%;
+    background-color: #adc2bb;
+    /* width:100%;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    color: #220a00;
+    right: 1%;
 
 }
 /*ebb: divs are more trouble than they are worth. Let's not bother with them. */
@@ -64,46 +64,46 @@ div#floatright{
 }*/
 
 span.entry{
-    display:block;
+    display: block;
 
 }
 span.entry span.head{
-    display:block;
-    font-weight:600;
+    display: block;
+    font-weight: 600;
     /*ebb the font-weight set to 550 is  throwing a validation error*/
-    padding:5px;
-    font-size:1.02em;
+    padding: 5px;
+    font-size: 1.02em;
 }
 span.arrow{
-    display:inline;
-    color:#2929A3;
-    font-size:1.2em;
+    display: inline;
+    color: #2929A3;
+    font-size: 1.2em;
 }
 
 span.entry span.more{
-    font-size:.8em;
+    font-size: .8em;
 
-    margin-left:30px;
-    display:block;
-    display:none;
+    margin-left: 30px;
+    display: block;
+    display: none;
 }
 
 p.boilerplate span{
-    text-indent:-1em;
-    margin-left:1em;
-    display:block;
-    font-size:smaller;
-    line-height:1.4em;
+    text-indent: -1em;
+    margin-left: 1em;
+    display: block;
+    font-size: smaller;
+    line-height: 1.4em;
 }
 
 p.boilerplate img{
-    position:relative;
-    top:3px;
-    right:-2px
+    position: relative;
+    top: 3px;
+    right: -2px
 }
 
 p{
-    padding:0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
 }
 
 
@@ -111,46 +111,47 @@ p{
 
 span.smaller
 {
-    font-size:smaller
+    font-size: smaller
 }
 
 cite{
-    font-size:1.05em;
+    font-size: 1.05em;
 }
 h1{
-    color:#d8341b;
-    letter-spacing:5px;
-    display:block;
-    text-align:center;
-    font-size:45px;
-    line-height:1em;}
+    color: #d8341b;
+    letter-spacing: 5px;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1em;
+}
 
 hr{
-    background-color:#ffee3f;
-    height:1px
+    background-color: #ffee3f;
+    height: 1px
 }
 /*h2 {color:#00005C; font-size:2em; padding:0; display:block; text-align:center; 
 }*/
 h2{
-    color:#330000;
-    display:block;
-    font-size:1.2em;
-    text-align:center;
+    color: #330000;
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
 
 }
 
 
 h3{
-    color:#A04747;
-    display:block;
-    text-align:left;
-    font-size:1.1em;
-    margin-right:25px;
+    color: #A04747;
+    display: block;
+    text-align: left;
+    font-size: 1.1em;
+    margin-right: 25px;
 }
 
 span.embellish{
-    font-size:1.3em;
-    color:#d61d08;
+    font-size: 1.3em;
+    color: #d61d08;
 }
 /*img{
 border-radius:10px;
@@ -158,41 +159,41 @@ border-radius:10px;
 
 
 a{
-    color:#d61d08;
-    text-decoration:none;
+    color: #d61d08;
+    text-decoration: none;
 }
 a:hover{
-    text-decoration:underline;
+    text-decoration: underline;
 }
 a:active{
-    color:#d61d08;
+    color: #d61d08;
 }
 a:visited{
-    color:#2929A3;
+    color: #2929A3;
 }
 
 
 
 span.anchor{
-    color:blue;
-    text-decoration:underline;
+    color: blue;
+    text-decoration: underline;
 }
 span.anchor span.note{
-    position:absolute;
-    color:black;
-    text-decoration:none;
+    position: absolute;
+    color: black;
+    text-decoration: none;
 
-    background:white;
-    border:solid blue 1px;
-    width:350px;
-    display:none;
+    background: white;
+    border: solid blue 1px;
+    width: 350px;
+    display: none;
 }
 ol{
-    padding:5px
+    padding: 5px
 }
 ol li{
-    margin-left:50px;
-    margin-right:25px;
+    margin-left: 50px;
+    margin-right: 25px;
 
 }
 
@@ -204,77 +205,92 @@ ol li{
 /*Instructions added by heb*/
 
 .svg{
-    display:flex;
-/*display:-webkit-box;*/
+    display: flex;
+    /*display:-webkit-box;*/
 }
 
 svg{
-    display:block;
-    margin-right:1%;
+    display: block;
+    margin-right: 1%;
 }
 
+.container{
+    position: relative;
+}
+
+main{
+    width: 84%
+}
+
+.toc{
+    left: 85%;
+    width: 15%;
+    position: fixed;
+}
+
+
 li > h2{
-    text-align:left;
+    text-align: left;
 }
 
 table{
-    background-color:#faecd2;
-    border:2px solid #550b03;
+    background-color: #faecd2;
+    border: 2px solid #550b03;
 }
 
 
 table,
 tr,
-th,
 td{
-    border-collapse:collapse;
-    vertical-align:top;
+    border-collapse: collapse;
+    vertical-align: top;
 }
 
 th
 {
-    border:1px solid #550b03;
-    background-color:#b13d04;
-    padding:1px;
-    color:#fce4cc;
-    text-align:center;
-    }
+    border: 1px solid #330f01;
+    background-color: #550b03;
+    padding: 1px;
+    color: #fffedf;
+    text-align: center;
+    vertical-align: middle;
+}
 
 td
 {
-    border:1px solid #550b03;
-    padding:0.5em;
+    border: 1px solid #330f01;
+    padding: 0.5em;
 }
 td.omission{
-    background-color:#d61d08;
-    color:#faecd2;
+    background-color: #d61d08;
+    color: #faecd2;
 }
 td.report{
-    background-color:#ffee3f;
+    background-color: #ffee3f;
 }
 td.add{
-    background-color:#cddb83;
+    background-color: #cddb83;
 }
 td.direct{
-    background-color:#faca82}
+    background-color: #faca82}
 
 td.compression{
-    color:#d61d08}
+    color: #d61d08}
 
 td.expansion{
-    color:#aba372}
+    color: #aba372}
 
 table tr:nth-child(1),
 th:nth-child(1){
-    width:40%;
+    width: 40%;
 }
 
 table tr:nth-child(2),
 th:nth-child(2){
-    width:40%;
+    width: 40%;
 }
 
 table td:nth-child(3),
 td:nth-child(4){
-    text-align:center;
+    text-align: center;
 }

@@ -27,7 +27,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                     <h2>Table of contents</h2>
                     <ul>
                         <xsl:for-each select="collection('../tables')//TEI">
-                            <xsl:sort select="//head"/>
+                            <xsl:sort select="//div[@type='table']/number(substring(@xml:id, 2))" data-type="number"/>
                             <xsl:variable name="chapter"
                                 select="current()//head/substring-before(., '.')"/>
                             <li>
@@ -38,7 +38,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                         </xsl:for-each>
                     </ul>
                     <xsl:for-each select="collection('../tables')//TEI">
-                        <xsl:sort select="//head"/>
+                        <xsl:sort select="//div[@type='table']/number(substring(@xml:id, 2))" data-type="number"/>
                         <xsl:variable name="chapter"
                             select="current()//head/substring-before(., '.')"/>
                         <h2 id="{replace($chapter, '\s+', '')}">
