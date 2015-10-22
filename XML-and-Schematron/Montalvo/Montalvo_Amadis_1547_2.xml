@@ -79,7 +79,7 @@
                         <milestone unit="said" resp="#Ungan" ana="start"/>Señor los sueños es cosa
                         vana y por tal deven ser tenidos:</cl>
                     <cl xml:id="M2_p1_c30">pero pues vos plaze que en algo este vuestro tenido sea
-                        dadnos plazo en que lo podamos ver.<milestone unit="said" ana="end"/>
+                        dadnos plazo en que lo podamos ver.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c30.1">
                         <milestone unit="said" resp="#Perion" ana="start"/>Assí sea <milestone
                             unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                             ana="intEnd"/>/</cl>
@@ -122,7 +122,7 @@
                         coraçón y lo echava en un río/</cl>
                     <cl xml:id="M2_p1_c48">assí te tomará villa o castillo y lo porná en poder de
                         quien aver no lo podrás:<milestone unit="said" ana="end"/>
-                        <milestone resp="#Perion" unit="said" ana="start"/>y el otro coraçón
+                        <milestone resp="#Perion" unit="said" ana="start"/></cl><cl xml:id="M2_p1_c48.1">y el otro coraçón
                             <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                             ana="intEnd"/> que me dezía que me quedava/</cl>
                     <cl xml:id="M2_p1_c49">y me lo haría perder sin su grado.<milestone unit="said"
@@ -133,7 +133,7 @@
                         semejante más constreñido por fuerça de alguno que se lo mande que de su
                         voluntad:</cl>
                     <cl xml:id="M2_p1_c50">y en este caso no sé señor que más vos diga.<milestone
-                            unit="said" ana="end"/> El rey mandó al otro que <persName
+                        unit="said" ana="end"/></cl><cl xml:id="M2_p1_c50.1"> El rey mandó al otro que <persName
                             ref="#Anteles">Anteles</persName> avía nombre que dixesse lo que
                         hallava.</cl>
                     <cl xml:id="M2_p1_c51">Él otorgó en todo lo que el otro avía dicho:</cl>
