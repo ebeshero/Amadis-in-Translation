@@ -1,8 +1,6 @@
 html{
-    background-color:#fffff7;
-    ;
-
-    color:#220a00;
+background-color:#fffff7;
+color:#220a00;
     font-family:"Calisto MT", "Palatino Linotype", "Book Antiqua", Palantino, serif;
 }
 
@@ -12,13 +10,17 @@ body{
     text-align:left;
     /*width:100%;*/
 
-    /*padding: 10px 10px 40px 10px;*/
+    padding: 10px 10px 40px 10px;
     border-radius:10px;
 }
-div#images img{
+img.amadis {
 
-    width:352px;
-    display:inline-block
+    max-width:352px;
+    width:30%;
+    float:left;
+    margin: 1em;
+    border:none;
+    padding: 5px;
 }
 div#menu{
 
@@ -33,11 +35,8 @@ div#menu{
     right:1%;
 
 }
-
-
-
-
-div#container{
+/*ebb: divs are more trouble than they are worth. Let's not bother with them. */
+/*div#container{
     width:90%;
     display:inline-block
 }
@@ -62,7 +61,7 @@ div#floatright{
     margin:auto;
     padding:10px 5px 50px 20px;
     display:inline-block
-}
+}*/
 
 span.entry{
     display:block;
@@ -89,7 +88,7 @@ span.entry span.more{
     display:none;
 }
 
-div.boilerplate span{
+p.boilerplate span{
     text-indent:-1em;
     margin-left:1em;
     display:block;
@@ -123,7 +122,8 @@ h1{
     letter-spacing:5px;
     display:block;
     text-align:center;
-    font-size:45px}
+    font-size:45px;
+    line-height:1em;}
 
 hr{
     background-color:#ffee3f;
@@ -202,7 +202,6 @@ ol li{
 
 
 /*Instructions added by heb*/
-/*ebb: I'm seeing a validation error on the line below: (display:flex) in oXygen: Do we need something more to make this valid? */
 
 .svg{
     display:flex;
