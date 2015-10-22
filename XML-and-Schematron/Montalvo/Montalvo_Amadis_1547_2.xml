@@ -79,7 +79,8 @@
                         <milestone unit="said" resp="#Ungan" ana="start"/>Señor los sueños es cosa
                         vana y por tal deven ser tenidos:</cl>
                     <cl xml:id="M2_p1_c30">pero pues vos plaze que en algo este vuestro tenido sea
-                        dadnos plazo en que lo podamos ver.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c30.1">
+                        dadnos plazo en que lo podamos ver.<milestone unit="said" ana="end"
+                        /></cl><cl xml:id="M2_p1_c30.1">
                         <milestone unit="said" resp="#Perion" ana="start"/>Assí sea <milestone
                             unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                             ana="intEnd"/>/</cl>
@@ -122,9 +123,10 @@
                         coraçón y lo echava en un río/</cl>
                     <cl xml:id="M2_p1_c48">assí te tomará villa o castillo y lo porná en poder de
                         quien aver no lo podrás:<milestone unit="said" ana="end"/>
-                        <milestone resp="#Perion" unit="said" ana="start"/></cl><cl xml:id="M2_p1_c48.1">y el otro coraçón
-                            <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
-                            ana="intEnd"/> que me dezía que me quedava/</cl>
+                        <milestone resp="#Perion" unit="said" ana="start"/></cl><cl
+                        xml:id="M2_p1_c48.1">y el otro coraçón <milestone unit="said" ana="intStart"
+                        />dixo el rey<milestone unit="said" ana="intEnd"/> que me dezía que me
+                        quedava/</cl>
                     <cl xml:id="M2_p1_c49">y me lo haría perder sin su grado.<milestone unit="said"
                             ana="end"/>
                         <milestone unit="said" resp="#Alberto" ana="start"/>Esso <milestone
@@ -133,9 +135,9 @@
                         semejante más constreñido por fuerça de alguno que se lo mande que de su
                         voluntad:</cl>
                     <cl xml:id="M2_p1_c50">y en este caso no sé señor que más vos diga.<milestone
-                        unit="said" ana="end"/></cl><cl xml:id="M2_p1_c50.1"> El rey mandó al otro que <persName
-                            ref="#Anteles">Anteles</persName> avía nombre que dixesse lo que
-                        hallava.</cl>
+                            unit="said" ana="end"/></cl><cl xml:id="M2_p1_c50.1"> El rey mandó al
+                        otro que <persName ref="#Anteles">Anteles</persName> avía nombre que dixesse
+                        lo que hallava.</cl>
                     <cl xml:id="M2_p1_c51">Él otorgó en todo lo que el otro avía dicho:</cl>
                     <cl xml:id="M2_p1_c52">
                         <milestone unit="said" resp="#Anteles" ana="start"/>Sino tanto que mis
@@ -144,8 +146,9 @@
                     <cl xml:id="M2_p1_c54">y esto me haze maravillar:</cl>
                     <cl xml:id="M2_p1_c55">porque aún agora no es perdido nada de tu reino:</cl>
                     <cl xml:id="M2_p1_c56">y si lo fuere no sería por persona que mucho te
-                            ama.<milestone unit="said" ana="end"/> Oído esto por el rey sonrióse un
-                        poco que le paresció que no avía dicho nada.</cl>
+                            ama.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c56.1">
+                        Oído esto por el rey sonrióse un poco que le paresció que no avía dicho
+                        nada.</cl>
                     <cl xml:id="M2_p1_c57">Mas Ungan el Picardo que mucho más que ellos sabía baxó
                         la cabeça y rióse más de coraçón:</cl>
                     <cl xml:id="M2_p1_c58">aunque lo hazía pocas vezes que de su natural era hombre
@@ -154,10 +157,11 @@
                     <cl xml:id="M2_p1_c60">
                         <milestone unit="said" resp="#Perion" ana="start"/>Agora maestro dezid lo
                         que supierdes.<milestone unit="said" ana="end"/>
-                        <milestone unit="said" resp="#Ungan" ana="start"/>Señor<milestone
-                            unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
-                        por ventura yo vi cosas que no es menester de las manifestar sino a ti
-                            solo:<milestone unit="said" ana="end"/>
+                        <milestone unit="said" resp="#Ungan" ana="start"/></cl><cl
+                        xml:id="M2_p1_c60.1">Señor<milestone unit="said" ana="intStart"/>dixo
+                            él<milestone unit="said" ana="intEnd"/> por ventura yo vi cosas que no
+                        es menester de las manifestar sino a ti solo:<milestone unit="said"
+                            ana="end"/></cl><cl xml:id="M2_p1_c60.2">
                         <milestone unit="said" ana="start" resp="#Perion"/>pues sálganse todos
                             fuera<milestone unit="said" ana="end"/> dixo él:</cl>
                     <cl xml:id="M2_p1_c61">y cerrando las puertas quedaron ambos.</cl>
@@ -174,8 +178,8 @@
                     <cl xml:id="M2_p1_c68">y la que más es maravillosamente fermosa<milestone
                             unit="said" ana="intStart"/>:</cl>
                     <cl xml:id="M2_p1_c69">y díxole todas las faiciones de ella como si delante la
-                            tuviera.<milestone unit="said" ana="intEnd"/>Y de la cámara en que vos
-                        veíades encerrado/</cl>
+                        tuviera.</cl><cl xml:id="M2_p1_c69.1"><milestone unit="said" ana="intEnd"/>Y
+                        de la cámara en que vos veíades encerrado/</cl>
                     <cl xml:id="M2_p1_c70">esto claro lo sabéis:</cl>
                     <cl xml:id="M2_p1_c71">y cómo ella queriendo quitar de vuestro coraçón y del
                         suyo aquellas cuitas y congoxas:</cl>
@@ -184,24 +188,24 @@
                     <cl xml:id="M2_p1_c72">y las manos que a los costados metía:</cl>
                     <cl xml:id="M2_p1_c73">es el juntamiento de ambos:</cl>
                     <cl xml:id="M2_p1_c74">y el coraçón que sacava significa hijo o hija que avrá de
-                            vos.<milestone unit="said" ana="end"/>
+                        vos.</cl><cl xml:id="M2_p1_c74.1"><milestone unit="said" ana="end"/>
                         <milestone unit="said" resp="#Perion" ana="start"/>Pues maestro <milestone
                             unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                             ana="intEnd"/> qué es lo que muestra que lo echava en un río.<milestone
-                            unit="said" ana="end"/>
+                                unit="said" ana="end"/></cl><cl xml:id="M2_p1_c74.2">
                         <milestone unit="said" resp="#Ungan" ana="start"/>Esso señor <milestone
                             unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"
                         />no lo quieras saber:</cl>
                     <cl xml:id="M2_p1_c75">que te no tiene pro <sic>alguna</sic>.<milestone
-                            unit="said" ana="end"/>
+                        unit="said" ana="end"/></cl><cl xml:id="M2_p1_c75.1">
                         <milestone unit="said" ana="start" resp="#Perion"/>Todavía<milestone
                             unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
-                        me lo dezid y no temáis.<milestone unit="said" ana="end"/>
+                            me lo dezid y no temáis.</cl><cl xml:id="M2_p1_c75.2"><milestone unit="said" ana="end"/>
                         <milestone unit="said" ana="start" resp="#Ungan"/>Pues que assí te plaze
                             <milestone unit="said" ana="intStart"/>dixo Ungan<milestone unit="said"
                             ana="intEnd"/> quiero de ti fianza que por cosa que aquí diga no avrás
                         saña de aquella que tanto te ama en ninguna sazón:<milestone unit="said"
-                            ana="end"/>
+                            ana="end"/></cl><cl xml:id="M2_p1_c75.3">
                         <milestone unit="said" resp="#Perion" ana="start"/>Yo lo prometo<milestone
                             unit="said" ana="end"/> dixo el rey.</cl>
                     <cl xml:id="M2_p1_c76">
@@ -209,22 +213,22 @@
                             unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
                         que lo que en el río viades lançar/</cl>
                     <cl xml:id="M2_p1_c77"> es que será assí echado el hijo que de vos
-                            oviere.<milestone unit="said" ana="end"/>
+                        oviere.</cl><cl xml:id="M2_p1_c77.1"><milestone unit="said" ana="end"/>
                         <milestone unit="said" resp="#Perion" ana="start"/>Y el otro coraçón
                             <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
-                            ana="intEnd"/> que me queda qué será?.<milestone unit="said" ana="end"/>
+                                ana="intEnd"/> que me queda qué será?.</cl><cl xml:id="M2_p1_c77.2"><milestone unit="said" ana="end"/>
                         <milestone unit="said" resp="#Ungan" ana="start"/>Bien deves entender
                             <milestone unit="said" ana="intStart"/>dixo el maestro<milestone
                             unit="said" ana="intEnd"/> lo uno por lo otro:</cl>
                     <cl xml:id="M2_p1_c78">que es que avréis otro hijo/</cl>
                     <cl xml:id="M2_p1_c79">y por alguna guisa lo perderéis contra la voluntad de
                         aquella que agora vos hará el primero perder.<milestone unit="said"
-                            ana="end"/>
+                            ana="end"/></cl><cl xml:id="M2_p1_c79.1">
                         <milestone unit="said" resp="#Perion" ana="start"/>Grandes cosas me avéis
                         dicho <milestone unit="said" ana="intStart"/>dixo el rey<milestone
                             unit="said" ana="intEnd"/> y a Dios plega por la su merced que lo
                         postrimero de los hijos no salga tan verdadero como lo que de la dueña que
-                        yo amo me dexistes.<milestone unit="said" ana="end"/>
+                        yo amo me dexistes.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c79.2">
                         <milestone unit="said" resp="#Ungan" ana="start"/>Las cosas ordenadas y
                         permitidas de Dios <milestone unit="said" ana="intStart"/>dixo el
                             maestro<milestone unit="said" ana="intEnd"/> no las puede ninguno
@@ -237,7 +241,7 @@
                     <cl xml:id="M2_p1_c82">Y tú noble rey perdiendo de tu memoria todo esto que aquí
                         con tanta afición has querido saber recoge en ella de siempre rogar a Dios
                         que en esto y en todo lo ál haga lo que su santo servicio sea porque aquello
-                        sin duda es lo mejor.<milestone unit="said" ana="end"/> El rey Perión quedó
+                        sin duda es lo mejor.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c82.1"> El rey Perión quedó
                         muy satisfecho de lo que desseava saber:</cl>
                     <cl xml:id="M2_p1_c83">y mucho más de este consejo de Ungan el Picardo:</cl>
                     <cl xml:id="M2_p1_c84">y siempre cabe sí lo tuvo/</cl>
@@ -432,8 +436,9 @@
                     <cl xml:id="M2_p2_c163">
                         <milestone unit="said" resp="#Gandales" ana="start"/>Ay señora <milestone
                             unit="said" ana="intStart"/>dixo Gandales<milestone unit="said"
-                            ana="intEnd"/> ruégovos por Dios que me digáis dónde <sic>vus</sic> fallaré para
-                        hablar con vos en su hazienda<milestone unit="said" ana="end"/>:</cl>
+                            ana="intEnd"/> ruégovos por Dios que me digáis dónde <sic>vus</sic>
+                        fallaré para hablar con vos en su hazienda<milestone unit="said" ana="end"
+                        />:</cl>
                     <cl xml:id="M2_p2_c164">
                         <milestone unit="said" ana="start" resp="#Urganda"/>esto no sabrás tú por mí
                         ni por otro<milestone unit="said" ana="end"/> dixo ella.</cl>
@@ -557,8 +562,10 @@
                         diziendo en su coraçón.</cl>
                     <cl xml:id="M2_p3_c212">
                         <milestone resp="#Gandales" unit="said" ana="start"/>Mi hermoso hijo si
-                        querrá Dios que yo llegue al vuestro buen tiempo<choice><sic></sic><corr>.</corr></choice><milestone unit="said"
-                            ana="end"/>
+                        querrá Dios que yo llegue al vuestro buen tiempo<choice>
+                            <sic/>
+                            <corr>.</corr>
+                        </choice><milestone unit="said" ana="end"/>
                     </cl>
                     <cl xml:id="M2_p3_c213">En esta sazón avía el donzel tres años/</cl>
                     <cl xml:id="M2_p3_c214">y su gran hermosura por maravilla era mirada:</cl>

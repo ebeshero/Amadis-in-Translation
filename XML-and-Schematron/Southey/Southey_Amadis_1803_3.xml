@@ -70,119 +70,215 @@
                      were.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c26"/>That
                   done <anchor ana="end"/><anchor ana="start" type="add"/>they left the
                      Chapel,<anchor ana="end"/>
-                        <anchor ana="start" synch="#M2_p1_c27"/>and he told them his dream.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c28"/>Then one
-                  of them whose name was <persName ref="#Ungan">Ungan the Picard</persName>, the
-                  most expert of them, thus answered,<anchor ana="end"/> <milestone unit="said" ana="start"
-                     resp="#Ungan"/><anchor ana="start" synch="#M2_p1_c29"/>Dreams Sire are vain things, and for such ought to be esteemed;<anchor ana="end"/>
-                           <anchor ana="start" synch="#M2_p1_c30"/>notwithstanding seeing it is your pleasure that some account should be made of
-                  yours, give us time to consider thereon.<anchor ana="end"/><milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#Perion"/><anchor ana="start" synch="#M2_p1_c30.1"/>Let it be
-                     so<milestone unit="said" ana="intStart"/>, said the King;<anchor ana="end"/> <milestone
-                        unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c31"/>take twelve days<anchor ana="end"/><milestone unit="said" ana="end"/>:
-                     <anchor ana="start" synch="#M2_p1_c32"/>and he ordered them to be separated, that they should neither see nor converse
-                     with each other.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c33"/>They to their uttermost travailed upon this matter,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c34"/>and
-                        when the time was elapsed they went to the King.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c35"/>He first took <persName
-                     ref="#Alberto">Alberto of Champaigne</persName> apart, and said to him,<anchor ana="end"/>
-                           <milestone unit="said" ana="start" resp="#Perion"/><anchor ana="start" synch="#M2_p1_c37"/>you know what you have
-                           sworn,<anchor ana="end"/><anchor ana="start" synch="#M2_p1_c38"/>--now then speak<anchor ana="end"/> <anchor ana="start" type="add"/>to me.<milestone unit="said" ana="end"/></s><s><milestone
-                     unit="said" ana="start" resp="#Alberto"/>Sire<milestone unit="said"
-                        ana="intStart"/>,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c38"/>answered<anchor ana="end"/> <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/> <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c38"/>then
-                              let the rest be called into your presence<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c39"/>for before them will I tell
-                              you.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start" type="add"/>Whereupon<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c41"/>they were sent for,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c42"/>and
-                                 being all met,<anchor ana="end"/> <anchor ana="start" type="add"/>Alberto<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c42"/>began.<anchor ana="end"/></s><s><milestone unit="said" ana="start"
-                                    resp="#Alberto"/><anchor ana="start" synch="#M2_p1_c44"/>It appears to me that the closed chamber,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c45"/>and he whom you saw
-                                    enter by the secret door,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c46"/>signify this realm which is close and well guarded,
-                                    nevertheless some one shall enter to take it from you,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c47"/>and like as he thrust his
-                                    hand into your side and rent forth your heart and threw it into the river,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c48"/>even so
-                  shall town or Castle be taken from you, and put into his hand from whom you shall
-                  not easily recover them.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
-                     unit="said" ana="start" resp="#Perion"/><anchor ana="start" synch="#M2_p1_c48.1"/>And the other heart?<milestone
-                     unit="said" ana="intStart"/> quoth the King, <milestone unit="said"
-                        ana="intEnd"/>which he said should remain with me,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c49"/>and yet he must take it away
-                  against his will.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Alberto"/><anchor ana="start" synch="#M1_p1_c49"/>It seemeth by this<milestone unit="said"
-                        ana="intStart"/>, answered<anchor ana="end"/> <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/> <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M1_p1_c49"/>that
+                  <anchor ana="start" synch="#M2_p1_c27"/>and he told them his dream.<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c28"/>Then one of them
+                  whose name was <persName ref="#Ungan">Ungan the Picard</persName>, the most expert
+                  of them, thus answered,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Ungan"/><anchor ana="start"
+                     synch="#M2_p1_c29"/>Dreams Sire are vain things, and for such ought to be
+                     esteemed;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c30"/>notwithstanding seeing it is your pleasure
+                  that some account should be made of yours, give us time to consider
+                     thereon.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Perion"/><anchor ana="start"
+                     synch="#M2_p1_c30.1"/>Let it be so<milestone unit="said" ana="intStart"/>, said
+                  the King;<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c31"/>take
+                  twelve days<anchor ana="end"/><milestone unit="said" ana="end"/>: <anchor
+                     ana="start" synch="#M2_p1_c32"/>and he ordered them to be separated, that they
+                  should neither see nor converse with each other.<anchor ana="end"/></s><s><anchor
+                     ana="start" synch="#M2_p1_c33"/>They to their uttermost travailed upon this
+                     matter,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c34"/>and when the time was elapsed they went to
+                  the King.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c35"/>He
+                  first took <persName ref="#Alberto">Alberto of Champaigne</persName> apart, and
+                  said to him,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Perion"/><anchor ana="start"
+                     synch="#M2_p1_c37"/>you know what you have sworn,<anchor ana="end"/><anchor
+                     ana="start" synch="#M2_p1_c38"/>--now then speak<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>to me.<milestone unit="said" ana="end"
+                     /></s><s><milestone unit="said" ana="start" resp="#Alberto"/>Sire<milestone
+                     unit="said" ana="intStart"/>,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c38"/>answered<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c38"/>then
+                  let the rest be called into your presence<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c39"/>for before them will I tell you.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
+                     type="add"/>Whereupon<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c41"/>they were sent for,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c42"/>and being all met,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>Alberto<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c42"/>began.<anchor ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Alberto"/><anchor ana="start" synch="#M2_p1_c44"
+                  />It appears to me that the closed chamber,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c45"/>and he whom you saw enter by the secret
+                     door,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c46"/>signify this realm which is close and well
+                  guarded, nevertheless some one shall enter to take it from you,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c47"/>and like as he thrust his hand into your
+                  side and rent forth your heart and threw it into the river,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c48"/>even so shall town or Castle be taken from
+                  you, and put into his hand from whom you shall not easily recover them.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#Perion"/><anchor ana="start" synch="#M2_p1_c48.1"/>And the
+                  other heart?<milestone unit="said" ana="intStart"/> quoth the King, <milestone
+                     unit="said" ana="intEnd"/>which he said should remain with me,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c49"/>and yet he must take it away against his
+                     will.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Alberto"/><anchor ana="start" synch="#M2_p1_c49"
+                  />It seemeth by this<milestone unit="said" ana="intStart"/>, answered<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c49"/>that
                   some other shall invade your country, as the first did, yet constrained more by
-                  another commanding him to do so, than by any will in himself,<anchor ana="end"/> <anchor ana="start" synch="#M1_p1_c50"/>and upon this, Sire,
-                     I know nothing more to say.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start" synch="#M1_p1_c50.1"/>The King then
-                  commanded <persName ref="#Anteles">Anteles</persName> to say what he had
-                        discovered.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c51"/>He agreed to all that the other had said,<anchor ana="end"/> <milestone unit="said"
-                           ana="start" resp="#Anteles"/><anchor ana="start" synch="#M2_p1_c52"/>except in this<anchor ana="end"/><milestone unit="said"
-                              ana="intStart"/> <anchor ana="start" type="add"/>quoth he,<anchor ana="end"/> <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c52"/>that my art
-                  shows me <note anchored="true" resp="#Southey">mis suertes me muestran.</note> it
-                           is already done,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c53"/>and by the person that most loveth ye:<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c55"/>this makes me marvel,<anchor ana="end"/> <anchor ana="start" synch="#M2_p1_c55"/>for
-                  nothing of your Kingdom is yet lost,<anchor ana="end"/> and if it were, it could not be by one who
-                  loves you so dearly.<milestone unit="said" ana="end"/></s><s>Hearing this the King
-                  smiled a little, for it seemed he had said<note anchored="true" resp="#Southey"
-                     >que no avia dicho nada.</note> something.</s><s>But <persName ref="#Ungan"
-                     >Ungan the Picard</persName> who knew much more then they, held down his head
-                  and laughed heartily, a thing which he had seldom done, being by nature a
-                  thoughtful and melancholy man.</s><s>The King wondered at this, and said,
-                     <milestone unit="said" ana="start" resp="#Perion"/>now Master tell us what you
-                     know.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Ungan"/>Sire,<milestone unit="said" ana="intStart"/> said
-                  he, <milestone unit="said" ana="intEnd"/>peradventure I have seen into things
-                  which should be manifested to you alone, therefore let these depart.<milestone
-                     unit="said" ana="end"/></s><s>Then the doors were closed and they twain
-                  remained together.</s></p>
+                  another commanding him to do so, than by any will in himself,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c50"/>and upon this, Sire, I know nothing more
+                  to say.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor
+                     ana="start" synch="#M2_p1_c50.1"/>The King then commanded <persName
+                     ref="#Anteles">Anteles</persName> to say what he had discovered.<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c51"/>He agreed to all that
+                  the other had said,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Anteles"/><anchor ana="start"
+                     synch="#M2_p1_c52"/>except in this<anchor ana="end"/><milestone unit="said"
+                     ana="intStart"/>
+                  <anchor ana="start" type="add"/>quoth he,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c52"/>that
+                  my art shows me <note anchored="true" resp="#Southey">mis suertes me
+                     muestran.</note> it is already done,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c53"/>and by the person that most loveth
+                     ye:<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c55"/>this makes me marvel,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c55"/>for nothing of your Kingdom is yet
+                     lost,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c56"/>and if it were, it could not be by one who
+                  loves you so dearly.<anchor ana="end"/><milestone unit="said" ana="end"
+                     /></s><s><anchor ana="start" synch="#M2_p1_c56.1"/>Hearing this the King smiled
+                  a little, for it seemed he had said<note anchored="true" resp="#Southey">que no
+                     avia dicho nada.<anchor ana="end"/></note> something.</s><s><anchor ana="start"
+                     synch="#M2_p1_c57"/>But <persName ref="#Ungan">Ungan the Picard</persName> who
+                  knew much more then they, held down his head and laughed heartily,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c58"/>a thing which he had seldom done, being by
+                  nature a thoughtful and melancholy man.<anchor ana="end"/></s><s><anchor
+                     ana="start" synch="#M2_p1_c59"/>The King wondered at this, and said,<anchor
+                     ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Perion"/><anchor ana="start"
+                     synch="#M2_p1_c60"/>now Master tell us what you know.<anchor ana="end"
+                     /><milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#Ungan"/><anchor ana="start" synch="#M2_p1_c60.1"/>Sire,<milestone
+                     unit="said" ana="intStart"/> said he, <milestone unit="said" ana="intEnd"
+                  />peradventure I have seen into things which should be manifested to you
+                     alone,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c60.2"/>therefore let these depart.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p1_c61"/>Then the doors were closed and they twain remained
+                     together.<anchor ana="end"/></s></p>
 
-            <p><s><milestone unit="said" ana="start" resp="#Ungan"/>Know, King,<milestone
-                     unit="said" ana="intStart"/> said he, <milestone unit="said" ana="intEnd"/>that
-                  what I laughed at was a word of which you thought little, when he said it was
-                  already done, and by the person who best loveth ye.</s><s>Now shall I reveal what
-                  you keep closely concealed and think that none knows.</s><s>You love, where you
-                  have already accomplished your will, and she whom you love is marvellously fair;
-                  then told he all the fashions of her as if she were there before him.</s><s>The
-                  chamber in which you saw yourself enclosed, you well know, and how she to ease
-                  your heart and her own, entered without your knowledge by the secret door; and the
-                  hand that opened your side, is your union, and the heart which was taken out
-                  sheweth that she hath by you a son or a daughter.</s><milestone unit="said"
-                  ana="end"/><s><milestone unit="said" ana="start" resp="#Perion"/>Master,<milestone
-                     unit="said" ana="intStart"/> said the King, <milestone unit="said" ana="intEnd"
-                  />what meaneth then the casting thereof into the river?<milestone unit="said"
-                     ana="end"/></s><s>He replied, <milestone unit="said" ana="start" resp="#Ungan"
-                  />seek not to know that which is of no importance.<milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#Perion"/>Tell me
+            <p><s><milestone unit="said" ana="start" resp="#Ungan"/><anchor ana="start"
+                     synch="#M2_p1_c63"/>Know, King,<anchor ana="end"/><milestone unit="said"
+                     ana="intStart"/>
+                  <anchor ana="start" synch="#M2_p1_c62"/>said he,<anchor ana="end"/>
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" synch="#M2_p1_c63"/>that
+                  what I laughed at was a word of which you thought little,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c64"/>when he said it was already done, and by
+                  the person who best loveth ye.<anchor ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p1_c65"/>Now shall I reveal what you keep closely concealed<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c66"/>and think that none knows.<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c67"/>You love, where you
+                  have already accomplished your will,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c68"/>and she whom you love is marvellously
+                     fair;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c69"/>then told he all the fashions of her as if
+                  she were there before him.<anchor ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p1_c69.1"/>The chamber in which you saw yourself enclosed,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c70"/>you well know,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c71"/>and how she to ease your heart and her
+                     own,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c71.1"/>entered without your knowledge by the
+                  secret door;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c72"/>and the hand that opened your side,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c73"/>is your union,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c74"/>and the heart which was taken out sheweth
+                  that she hath by you a son or a daughter.<anchor ana="end"/></s><milestone
+                  unit="said" ana="end"/><s><milestone unit="said" ana="start" resp="#Perion"
+                     /><anchor ana="start" synch="#M2_p1_c74.1"/>Master,<milestone unit="said"
+                     ana="intStart"/> said the King, <milestone unit="said" ana="intEnd"/>what
+                  meaneth then the casting thereof into the river?<anchor ana="end"/><milestone
+                     unit="said" ana="end"/></s><s><anchor ana="start" synch="#M2_p1_c74.2"/>He
+                  replied, <milestone unit="said" ana="start" resp="#Ungan"/>seek not to know<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c75"/>that which is of no importance.<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                     ana="start" resp="#Perion"/><anchor ana="start" synch="#M2_p1_c75.1"/>Tell me
                      howbeit,<milestone unit="said" ana="intStart"/> quoth Perion, <milestone
-                     unit="said" ana="intEnd"/>and fear nothing.<milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#Ungan"/>Since you are pleased
-                  to hear it,<milestone unit="said" ana="intStart"/> answered Ungan, <milestone
+                     unit="said" ana="intEnd"/>and fear nothing.<anchor ana="end"/><milestone
+                     unit="said" ana="end"/></s><s><milestone unit="said" ana="start" resp="#Ungan"
+                     /><anchor ana="start" synch="#M2_p1_c75.2"/>Since you are pleased to hear
+                     it,<milestone unit="said" ana="intStart"/> answered Ungan, <milestone
                      unit="said" ana="intEnd"/>I demand assurance that for any thing which I may
                   reveal, you will never hereafter be wrath with her who loveth you so
-                     loyally<milestone unit="said" ana="end"/>; and Perion made the
-                     promise.</s><s><milestone unit="said" ana="start" resp="#Ungan"/>Know
-                     then<milestone unit="said" ana="intStart"/>, said the Master, <milestone
-                     unit="said" ana="intEnd"/>that what you saw cast into the river, is the child
-                  which she has had by you.<milestone unit="said" ana="end"/></s><milestone
-                  unit="said" ana="start" resp="#Perion"/><s>And that other heart that
-                  remained?</s><s>what should that be?</s><milestone unit="said" ana="end"
-                     /><s><milestone unit="said" ana="start" resp="#Ungan"/>—You may interpret the
-                  one by the other,<milestone unit="said" ana="intStart"/> answered Ungan:
-                     <milestone unit="said" ana="intEnd"/>you will have another son, who will in
-                  some manner be taken away against the will of her that caused the loss of the
-                     first.<milestone unit="said" ana="end"/></s><s><milestone unit="said"
-                     ana="start" resp="#Perion"/>Strange things hast thou told me!<milestone
-                     unit="said" ana="intStart"/> said Perion, <milestone unit="said" ana="intEnd"
-                  />and may it please God that the latter part, the misfortunes of my children,
+                     loyally<milestone unit="said" ana="end"/>;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c75.3"/>and Perion made the promise.<anchor
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#Ungan"/><anchor
+                     ana="start" synch="#M2_p1_c76"/>Know then<milestone unit="said" ana="intStart"
+                  />, said the Master, <milestone unit="said" ana="intEnd"/>that what you saw cast
+                  into the river,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p1_c77"/>is the child which she has had by
+                     you.<anchor ana="end"/><milestone unit="said" ana="end"/></s><milestone
+                  unit="said" ana="start" resp="#Perion"/><s><anchor ana="start"
+                     synch="#M2_p1_c77.1"/>And that other heart that remained?</s><s>what should
+                  that be?<anchor ana="end"/></s><milestone unit="said" ana="end"/><s><milestone
+                     unit="said" ana="start" resp="#Ungan"/><anchor ana="start" synch="#M2_p1_c77.2"
+                  />—You may interpret the one by the
+                     other,<milestone unit="said" ana="intStart"/>
+                     answered<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>Ungan:<anchor ana="end"/>
+                     <milestone unit="said" ana="intEnd"/><anchor ana="start"
+                        synch="#M2_p1_c78"/>you will have another son,<anchor ana="end"/> <anchor ana="start"
+                           synch="#M2_p1_c79"/>who will in some
+                  manner be taken away against the will of her that caused the loss of the
+                     first.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone unit="said"
+                        ana="start" resp="#Perion"/><anchor ana="start"
+                           synch="#M2_p1_c79.1"/>Strange things hast thou told me!<milestone
+                     unit="said" ana="intStart"/> said<anchor ana="end"/> <anchor ana="start" type="add"/>Perion,<anchor ana="end"/> <milestone unit="said" ana="intEnd"
+                     /><anchor ana="start"
+                        synch="#M2_p1_c79.1"/>and may it please God that the latter part, the misfortunes of my children,
                   prove not so true as what thou hast told me concerning the Lady whom I
-                     love.<milestone unit="said" ana="end"/></s><s>The Master answered, <milestone
+                  love.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p1_c79.2"/>The Master answered, <milestone
                      unit="said" ana="start" resp="#Ungan"/>None can alter the things which were
-                  ordained by God, nor know wherein they shall end.</s><s>Men therefore should
-                  neither repine nor rejoice thereat, for oftentimes as well the evil as the good
-                  proves far otherwise than it seemed.</s><s>And do thou O King, lay aside from thy
+                     ordained by God, nor know wherein they shall end.<anchor ana="end"/></s><s><anchor ana="start"
+                        synch="#M2_p1_c80"/>Men therefore should
+                        neither repine nor rejoice thereat,<anchor ana="end"/> <anchor ana="start"
+                           synch="#M2_p1_c81"/>for oftentimes as well the evil as the good
+                        proves far otherwise than it seemed.<anchor ana="end"/></s><s><anchor ana="start"
+                           synch="#M2_p1_c82"/>And do thou O King, lay aside from thy
                   memory all this which thou wast so solicitous to know, and pray to God to dispose
-                  these things to his holy service.</s><milestone unit="said" ana="end"/><s>The King
-                  was satisfied in what he desired, and so pleased with the wisdom and the last
-                  words of Ungan the Picard, that he rewarded him well, and kept him thenceforward
-                  near his person.</s></p>
+                  these things to his holy service.<anchor ana="end"/></s><milestone unit="said" ana="end"/><s><anchor ana="start"
+                     synch="#M2_p1_c82.1"/>The King
+                     was satisfied in what he desired,<anchor ana="end"/> <anchor ana="start"
+                        synch="#M2_p1_c83"/>and so pleased with the wisdom and the last
+                     words of Ungan the Picard,<anchor ana="end"/> <anchor ana="start"
+                        synch="#M2_p1_c85"/>that he rewarded him well,<anchor ana="end"/> <anchor ana="start"
+                           synch="#M2_p1_c84"/>and kept him thenceforward
+                  near his person.<anchor ana="end"/></s></p>
 
-            <p><s>As Perion parted from the Clerks, he met a Damsel more ornamented than beautiful,
-                  who said to him, <milestone unit="said" ana="start" resp="#Urganda"/>know King
-                  Perion, that when thou recoverest thy loss, <placeName ref="#Ireland">the kingdom
-                     of Ireland</placeName> shall lose its flower!<milestone unit="said" ana="end"/>
-                  and away she went, so that he could not detain her, and he remained thinking upon
-                  these things.</s></p>
-
+            <p><s><anchor ana="start" type="add"/>As Perion parted from the Clerks,<anchor ana="end"/> <anchor ana="start"
+               synch="#M2_p1_c86"/>he met a Damsel more ornamented than beautiful,
+               who said to him,<anchor ana="end"/> <milestone unit="said" ana="start" resp="#Urganda"/><anchor ana="start"
+                  synch="#M2_p1_c87"/>know King
+               Perion, that when thou recoverest thy loss,<anchor ana="end"/> <anchor ana="start"
+                  synch="#M2_p1_c87.1"/><placeName ref="#Ireland">the kingdom
+                     of Ireland</placeName> shall lose its flower!<anchor ana="end"/><milestone unit="said" ana="end"/>
+               <anchor ana="start"
+                  synch="#M2_p1_c87.2"/>and away she went, so that he could not detain her,<anchor ana="end"/> <anchor ana="start"
+                     synch="#M2_p1_c88"/>and he remained thinking upon
+                  these things.<anchor ana="end"/></s></p>
+<!-- st stopped here -->
             <p><s>The Author ceaseth to speak of this, and returneth to the child whom Gandales
                   brought up.</s><s>He was called the <note anchored="true" resp="#Southey"
                      >Footnote: We have no word for the <hi rend="italic">Donzel</hi> of the
