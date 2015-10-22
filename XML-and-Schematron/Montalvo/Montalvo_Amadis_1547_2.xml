@@ -525,10 +525,10 @@
                             <milestone unit="said" ana="intStart"/>dixo Gandales<milestone
                             unit="said" ana="intEnd"/> mas buena y sabida:</cl>
                     <cl xml:id="M2_p3_c202">y si fuessedes cavallero yo vos haría comprar bien la
-                        locura que dexistes.<milestone unit="said" ana="end"/>
+                        locura que dexistes.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p3_c202.1">
                         <milestone unit="said" ana="start" resp="#anon"/>Ay mezquina <milestone
                             unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"
-                        /> cómo sabe a todos engañar.<milestone unit="said" ana="end"/>
+                            /> cómo sabe a todos engañar.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p3_c202.2">
                         <milestone unit="said" ana="start" resp="#Gandales"/>Y qué engaño vos
                             hizo<milestone unit="said" ana="end"/> dixo él?</cl>
                     <cl xml:id="M2_p3_c203">
@@ -632,7 +632,7 @@
                     <cl xml:id="M2_p3_c248">assí que el gran donzel malparado començó a fuir:</cl>
                     <cl xml:id="M2_p3_c249">y encontró con el ayo que los guardava:</cl>
                     <cl xml:id="M2_p3_c250">y dixo <milestone unit="said" ana="start" resp="#anon"
-                        />Qué has?<milestone unit="said" ana="end"/>
+                    />Qué has?<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p3_c250.1">
                         <milestone unit="said" ana="start" resp="#anon"/>El Donzel del Mar
                             <milestone unit="said" ana="intStart"/>dixo<milestone unit="said"
                             ana="intEnd"/> me firió.<milestone unit="said" ana="end"/>

@@ -500,71 +500,156 @@
                   <anchor ana="start" synch="#M2_p2_c189"/>to his joy.<anchor ana="end"
                      /></s><s><anchor ana="start" synch="#M2_p2_c190"/>Now God be with thee!<anchor
                      ana="end"/></s><s><anchor ana="start" synch="#M2_p2_c192"/>thou shalt see me
-                        sooner than thou expectest.<anchor ana="end"/></s><milestone unit="said" ana="end"/><s><anchor ana="start" synch="#M2_p2_c193"/>And then she
-                           took the shield and helmet of her friend to carry them,<anchor ana="end"/> <anchor ana="start" synch="#M2_p2_c194"/>and Gandales seeing his
-                           head disarmed thought him the goodliest Knight that he had ever beheld,<anchor ana="end"/> <anchor ana="start" synch="#M2_p2_c195"/>and so
-                  they parted.<anchor ana="end"/></s></p>
-<!-- st stopped here -->
-            <p><s>As Gandales returned to his Castle he found that other Damsel by the way; sitting
-                  beside a fountain and lamenting.</s><s>She knew him and exclaimed, <milestone
-                     unit="said" ana="start" resp="#anon"/>how is it Knight that the wicked woman
-                  whom you helped has not destroyed you?<milestone unit="said" ana="end"
-                     /></s><s><milestone unit="said" ana="start" resp="#Gandales"/>Wicked she is
-                     not,<milestone unit="said" ana="intStart"/> said Gandales, <milestone
-                     unit="said" ana="intEnd"/>but good and wise, and if you were a Knight I would
-                  make you pay dearly for the folly of your words.<milestone unit="said" ana="end"
-                  /></s><s><milestone unit="said" ana="start" resp="#anon"/>Ah, the
-                     wretch,<milestone unit="said" ana="intStart"/> quoth she, <milestone
-                     unit="said" ana="intEnd"/>how she knows to beguile every one!</s><s>she has
-                  taken from me the fair Knight who would more willingly be mine, but I will be
-                  revenged if I can.</s><milestone unit="said" ana="end"/><s>Gandales answered,
-                     <milestone unit="said" ana="start" resp="#Gandales"/>it is a wild thought to
-                  hope to injure her who knows your very intentions, and as for the Knight, it seems
-                  to me that you are both without reason or conscience.<milestone unit="said"
-                     ana="end"/></s><s>With that he left her and came to his castle, and seeing the
-                  little boy come running towards him, he took him up in his arms, and lovingly
-                  embraced him, and remembering all that Urganda had told him, he said in his heart,
-                     <milestone unit="said" ana="start" resp="#Gandales"/>my fair child God let me
-                  live to see thy good days!<milestone unit="said" ana="end"/></s><s>and with that
-                  the tears came.</s><s>At this time the child was of three years, and his beauty
-                  was marvellous to behold, and he seeing the tears, put up his little hands to wipe
-                  them away, whereat Gandales rejoiced as a sign that he would be gentle-hearted,
-                  and thenceforward he taught him with a kinder will.</s><s>And when he came to the
-                  age of five, he made a bow for him suited to his strength, and another for his son
-                  Gandalin, and they used to shoot before him.</s></p>
+                  sooner than thou expectest.<anchor ana="end"/></s><milestone unit="said" ana="end"
+                     /><s><anchor ana="start" synch="#M2_p2_c193"/>And then she took the shield and
+                  helmet of her friend to carry them,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p2_c194"/>and Gandales seeing his head disarmed
+                  thought him the goodliest Knight that he had ever beheld,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p2_c195"/>and so they parted.<anchor ana="end"
+                  /></s></p>
 
-            <p><s>When he was seven years old, <persName ref="#Languines">King Languines</persName>
-                  and his Queen and household, passing through his Kingdom from one town to another,
-                  came to the castle of Gandales, where they were well feasted; but <persName
-                     ref="#Amadis">the Child of the Sea</persName>, and <persName ref="#Gandalin"
-                     >Gandalin</persName> and the other children were removed to the back Court that
-                  they might not be seen.</s><s>It fortuned that <persName ref="#Guirnalda">the
+            <p><s><anchor ana="start" synch="#M2_p3_c198"/>As Gandales returned to his Castle<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c199"/>he found that other Damsel by the way;
+                  sitting beside a fountain and lamenting.<anchor ana="end"/></s><s><anchor
+                     ana="start" synch="#M2_p3_c200"/>She knew him and exclaimed,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#anon"/>how is it Knight that the wicked
+                  woman <anchor ana="start" synch="#M2_p3_c201"/>whom you helped has not destroyed
+                     you?<milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
+                     resp="#Gandales"/>Wicked she is not,<milestone unit="said" ana="intStart"/>
+                  said Gandales, <milestone unit="said" ana="intEnd"/>but good and wise,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c202"/>and if you were a Knight I would make you
+                  pay dearly for the folly of your words.<anchor ana="end"/><milestone unit="said"
+                     ana="end"/></s><s><milestone unit="said" ana="start" resp="#anon"/><anchor
+                     ana="start" synch="#M2_p3_c202.1"/>Ah, the wretch,<milestone unit="said"
+                     ana="intStart"/> quoth she, <milestone unit="said" ana="intEnd"/>how she knows
+                  to beguile every one!<anchor ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p3_c203"/>she has taken from me the<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>fair<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c203"/>Knight<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c204"/>who would more willingly be mine,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c206"/>but I will be revenged if I can.<anchor
+                     ana="end"/></s><milestone unit="said" ana="end"/><s><anchor ana="start"
+                     synch="#M2_p3_c207"/>Gandales answered, <milestone unit="said" ana="start"
+                     resp="#Gandales"/>it is a wild thought to hope to injure her who knows your
+                  very intentions,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>and as for the Knight,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c205"/>it seems to me that you are both without
+                  reason or conscience.<anchor ana="end"/><milestone unit="said" ana="end"
+                     /></s><s><anchor ana="start" synch="#M2_p3_c209"/>With that he left her and
+                  came to his castle,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>and seeing the little boy come running towards
+                     him,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c210"/>he took him up in his arms,<anchor
+                     ana="end"/>
+                  <anchor ana="start" type="add"/>and lovingly embraced him, and remembering all
+                  that Urganda had told him,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c211"/>he said in his heart,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Gandales"/><anchor ana="start"
+                     synch="#M2_p3_c212"/>my fair child God let me live to see thy good days!<anchor
+                     ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p3_c211"/>and with that the tears came.<anchor ana="end"
+                     /></s><s><anchor ana="start" synch="#M2_p3_c213"/>At this time the child was of
+                  three years,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c214"/>and his beauty was marvellous to
+                     behold,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c215"/>and he seeing the tears, put up
+                     his<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>little<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c215"/>hands to wipe them away,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c216"/>whereat Gandales rejoiced<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c217"/>as a sign that<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c218"/>he would be gentle-hearted,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c219"/>and thenceforward he taught him with a
+                  kinder will.<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p3_c219"/>And
+                  when he came to the age of five,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c220"/>he made a bow for him suited to his
+                  strength, and another for his son Gandalin,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c221"/>and they used to shoot before him.<anchor
+                     ana="end"/></s></p>
+
+            <p><s><anchor ana="start" synch="#M2_p3_c223"/>When<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c222"/>he was seven years old,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c223"/><persName ref="#Languines">King
+                     Languines</persName> and his Queen and household, passing through his Kingdom
+                  from one town to another, came to the castle of Gandales,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c224"/>where they were well feasted;<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c225"/>but <persName ref="#Amadis">the Child of
+                     the Sea</persName>, and <persName ref="#Gandalin">Gandalin</persName> and the
+                  other children were removed to the back Court<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c226"/>that they might not be seen.<anchor
+                     ana="end"/></s><s><anchor ana="start" type="add"/>It fortuned that<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c227"/><persName ref="#Guirnalda">the
                      Queen</persName> was lodged in one of the highest apartments of the Castle, and
-                  looking from her window she saw the children at play with their bows, and among
-                  them remarked the Child of the Sea for his shapeliness and beauty, and he was
-                  better clad than his companions, of whom he looked like the Lord.</s><s>The Queen
-                  called to her Ladies and Damsels, <milestone unit="said" ana="start"
-                     resp="#Guirnalda"/>come and see the fairest creature that ever was
-                     seen!<milestone unit="said" ana="end"/></s><s>While they were looking at him,
-                  the Child who was thirsty, laid down his bow and arrows, and went to a water-pipe
-                  to drink.</s><s>A boy bigger than the rest took up his bow to shoot with it, this
-                  Gandalin would not suffer, the other struck him angrily and Gandalin cried out,
-                     <milestone unit="said" ana="start" resp="#Gandalin"/>Help me, Child of the
-                     Sea!<milestone unit="said" ana="end"/></s><s>He hearing this ran to him, and
-                  snatched the bow and crying, <milestone unit="said" ana="start" resp="#Amadis"/>in
-                  an ill minute did you strike my brother<milestone unit="said" ana="end"/>, struck
-                  him on the head with all his force; they fought awhile till the other was fain to
-                  run away, and meeting their Tutor, who asked what was the matter, replied, that
-                  the Child of the Sea had beat him.</s><s>The Tutor went towards him with the strap
-                  in his hand, <milestone unit="said" ana="start" resp="#anon"/>how is this, Child
-                  of the Sea, said he, that you dare beat the boys?</s><s>I shall punish
-                  you!</s><milestone unit="said" ana="end"/><s>but the Child fell upon his knees,
-                     <milestone unit="said" ana="start" resp="#Amadis"/>I had rather you would
-                  strike me<milestone unit="said" ana="intStart"/>, said he, <milestone unit="said"
-                     ana="intEnd"/>than that any one before me should dare to beat my
-                     brother<milestone unit="said" ana="end"/>; and the tears came in his
-                  eyes.</s><s>The Tutor was moved, and told him to do so no more.</s><s>All this the
-                  Queen saw, and she wondered why they called him the Child of the Sea.</s></p>
+                  looking from her window she saw the children at play with their bows,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c228"/>and among them remarked the Child of the
+                  Sea for his shapeliness and beauty,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c230"/>and he was better clad than his
+                     companions,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c231"/>of whom he looked like the Lord.<anchor
+                     ana="end"/></s><s><anchor ana="start" type="add"/>The Queen<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c232"/>called to her Ladies and Damsels,<anchor
+                     ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Guirnalda"/><anchor ana="start"
+                     synch="#M2_p3_c233"/>come and see the fairest creature that ever was
+                     seen!<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><anchor
+                     ana="start" synch="#M2_p3_c234"/>While they were looking at him,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c235"/>the Child who was thirsty, laid down his
+                  bow and arrows, and went to a water-pipe to drink.<anchor ana="end"
+                     /></s><s><anchor ana="start" synch="#M2_p3_c236"/>A boy bigger than the rest
+                  took up his bow to shoot with it,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c237"/>this Gandalin would not suffer,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c238"/>the other struck him<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>angrily<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c239"/>and Gandalin cried out,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Gandalin"/><anchor ana="start"
+                     synch="#M2_p3_c240"/>Help me, Child of the Sea!<anchor ana="end"/><milestone
+                     unit="said" ana="end"/></s><s><anchor ana="start" synch="#M2_p3_c241"/>He
+                  hearing this ran to him,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c243"/>and snatched the bow<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c244"/>and crying,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M2_p3_c245"/>in an ill minute did you strike my brother<anchor
+                     ana="end"/><milestone unit="said" ana="end"/>, <anchor ana="start"
+                     synch="#M2_p3_c246"/>struck him on the head with all his force;<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c247"/>they fought<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>awhile<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c248"/>till the other was fain to run
+                     away,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c249"/>and meeting their Tutor,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c250"/>who asked what was the matter,<anchor
+                     ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c250.1" type="report"/>replied, that the Child
+                  of the Sea had beat him.<anchor ana="end"/></s><s><anchor ana="start"
+                     synch="#M2_p3_c251"/>The Tutor went towards him with the strap in his
+                     hand,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#anon"/><anchor ana="start"
+                     synch="#M2_p3_c252"/>how is this, Child of the Sea, said he, that you dare beat
+                  the boys?<anchor ana="end"/></s><s><anchor ana="start" synch="#M2_p3_c254"/>I
+                  shall punish you!<anchor ana="end"/></s><milestone unit="said" ana="end"
+                     /><s><anchor ana="start" synch="#M2_p3_c254"/>but the Child fell upon his
+                     knees,<anchor ana="end"/>
+                  <milestone unit="said" ana="start" resp="#Amadis"/><anchor ana="start"
+                     synch="#M2_p3_c256"/>I had rather you would strike me<milestone unit="said"
+                     ana="intStart"/>, said he, <milestone unit="said" ana="intEnd"/>than that any
+                  one before me should dare to beat my brother><milestone unit="said" ana="end"
+                     />;<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c256"/>and the tears came in his eyes.<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M2_p3_c258"/>The Tutor was moved,
+                  and told him<anchor ana="end"/>
+                  <anchor ana="start" synch="#M2_p3_c259" type="report"/>to do so no more.<anchor
+                     ana="end"/></s><s><anchor ana="start" synch="#M2_p3_c260"/>All this the Queen saw,<anchor ana="end"/> <anchor ana="start" synch="#M2_p3_c261"/>and she wondered why they called him
+                  the Child of the Sea.<anchor ana="end"/></s></p>
          </div>
       </body>
    </text>
