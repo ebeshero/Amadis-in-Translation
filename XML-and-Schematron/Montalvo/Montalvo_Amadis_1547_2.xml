@@ -192,15 +192,16 @@
                         <milestone unit="said" resp="#Perion" ana="start"/>Pues maestro <milestone
                             unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
                             ana="intEnd"/> qué es lo que muestra que lo echava en un río.<milestone
-                                unit="said" ana="end"/></cl><cl xml:id="M2_p1_c74.2">
+                            unit="said" ana="end"/></cl><cl xml:id="M2_p1_c74.2">
                         <milestone unit="said" resp="#Ungan" ana="start"/>Esso señor <milestone
                             unit="said" ana="intStart"/>dixo él <milestone unit="said" ana="intEnd"
                         />no lo quieras saber:</cl>
                     <cl xml:id="M2_p1_c75">que te no tiene pro <sic>alguna</sic>.<milestone
-                        unit="said" ana="end"/></cl><cl xml:id="M2_p1_c75.1">
+                            unit="said" ana="end"/></cl><cl xml:id="M2_p1_c75.1">
                         <milestone unit="said" ana="start" resp="#Perion"/>Todavía<milestone
                             unit="said" ana="intStart"/>dixo él<milestone unit="said" ana="intEnd"/>
-                            me lo dezid y no temáis.</cl><cl xml:id="M2_p1_c75.2"><milestone unit="said" ana="end"/>
+                        me lo dezid y no temáis.</cl><cl xml:id="M2_p1_c75.2"><milestone unit="said"
+                            ana="end"/>
                         <milestone unit="said" ana="start" resp="#Ungan"/>Pues que assí te plaze
                             <milestone unit="said" ana="intStart"/>dixo Ungan<milestone unit="said"
                             ana="intEnd"/> quiero de ti fianza que por cosa que aquí diga no avrás
@@ -216,7 +217,8 @@
                         oviere.</cl><cl xml:id="M2_p1_c77.1"><milestone unit="said" ana="end"/>
                         <milestone unit="said" resp="#Perion" ana="start"/>Y el otro coraçón
                             <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said"
-                                ana="intEnd"/> que me queda qué será?.</cl><cl xml:id="M2_p1_c77.2"><milestone unit="said" ana="end"/>
+                            ana="intEnd"/> que me queda qué será?.</cl><cl xml:id="M2_p1_c77.2"
+                            ><milestone unit="said" ana="end"/>
                         <milestone unit="said" resp="#Ungan" ana="start"/>Bien deves entender
                             <milestone unit="said" ana="intStart"/>dixo el maestro<milestone
                             unit="said" ana="intEnd"/> lo uno por lo otro:</cl>
@@ -228,7 +230,8 @@
                         dicho <milestone unit="said" ana="intStart"/>dixo el rey<milestone
                             unit="said" ana="intEnd"/> y a Dios plega por la su merced que lo
                         postrimero de los hijos no salga tan verdadero como lo que de la dueña que
-                        yo amo me dexistes.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c79.2">
+                        yo amo me dexistes.<milestone unit="said" ana="end"/></cl><cl
+                        xml:id="M2_p1_c79.2">
                         <milestone unit="said" resp="#Ungan" ana="start"/>Las cosas ordenadas y
                         permitidas de Dios <milestone unit="said" ana="intStart"/>dixo el
                             maestro<milestone unit="said" ana="intEnd"/> no las puede ninguno
@@ -241,8 +244,9 @@
                     <cl xml:id="M2_p1_c82">Y tú noble rey perdiendo de tu memoria todo esto que aquí
                         con tanta afición has querido saber recoge en ella de siempre rogar a Dios
                         que en esto y en todo lo ál haga lo que su santo servicio sea porque aquello
-                        sin duda es lo mejor.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p1_c82.1"> El rey Perión quedó
-                        muy satisfecho de lo que desseava saber:</cl>
+                        sin duda es lo mejor.<milestone unit="said" ana="end"/></cl><cl
+                        xml:id="M2_p1_c82.1"> El rey Perión quedó muy satisfecho de lo que desseava
+                        saber:</cl>
                     <cl xml:id="M2_p1_c83">y mucho más de este consejo de Ungan el Picardo:</cl>
                     <cl xml:id="M2_p1_c84">y siempre cabe sí lo tuvo/</cl>
                     <cl xml:id="M2_p1_c85">haziéndole mucho bien y mercedes.</cl>
@@ -279,8 +283,9 @@
                         <milestone unit="said" ana="start" resp="#Urganda"/>Ay Gandales si supiessen
                         muchos altos hombres lo que yo agora:</cl>
                     <cl xml:id="M2_p2_c101">cortarte ían la cabeça:<milestone unit="said" ana="end"/>
-                        <milestone unit="said" ana="start" resp="#Gandales"/>Por qué?<milestone
-                            unit="said" ana="end"/> dixo él.</cl>
+                        <milestone unit="said" ana="start" resp="#Gandales"/></cl><cl
+                        xml:id="M2_p2_c101.1">Por qué?<milestone unit="said" ana="end"/> dixo
+                        él.</cl>
                     <cl xml:id="M2_p2_c102">
                         <milestone unit="said" resp="#Urganda" ana="start"/>Porque tú guardas la su
                             muerte<milestone unit="said" ana="end"/> dixo ella:</cl>
@@ -295,16 +300,16 @@
                             <sic/>
                             <corr>.</corr>
                         </choice>
-                        <milestone unit="said" ana="end"/>
+                        <milestone unit="said" ana="end"/></cl><cl xml:id="M2_p2_c107.1">
                         <milestone unit="said" resp="#Urganda" ana="start"/>No te lo diré <milestone
                             unit="said" ana="intStart"/>dixo ella<milestone unit="said" ana="intEnd"
-                        /> mas todavía assí averná:<milestone unit="said" ana="end"/> Y partiéndose
-                        de él se fue su vía.</cl>
+                        /> mas todavía assí averná:<milestone unit="said" ana="end"/></cl><cl
+                        xml:id="M2_p2_c107.2"> Y partiéndose de él se fue su vía.</cl>
                     <cl xml:id="M2_p2_c108">Gandales quedó cuidando en lo que dixera y a cabo de una
                         pieça vióla tornar muy aína en su palafrén diziendo a grandes voces:</cl>
                     <cl xml:id="M2_p2_c109">
                         <milestone unit="said" ana="start" resp="#Urganda"/>Ay Gandales acórreme que
-                        muerta soy.<milestone unit="said" ana="end"/> Él cató y vio venir en pos de
+                        muerta soy.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p2_c109.1"> Él cató y vio venir en pos de
                         ella un cavallero armado con su espada en la mano:</cl>
                     <cl xml:id="M2_p2_c110">y Gandales hirió el cavallo de las espuelas y metióse
                         entre ambos y dixo.</cl>
@@ -325,7 +330,7 @@
                         ampararvos la he yo:</cl>
                     <cl xml:id="M2_p2_c115">porque mugeres no han de ser por esta vía
                         castigadas:</cl>
-                    <cl xml:id="M2_p2_c116"> aunque lo merezcan.<milestone unit="said" ana="end"/>
+                    <cl xml:id="M2_p2_c116"> aunque lo merezcan.<milestone unit="said" ana="end"/></cl><cl xml:id="M2_p2_c116.1">
                         <milestone unit="said" ana="start" resp="#anon"/>Agora lo veréis<milestone
                             unit="said" ana="end"/> dixo el cavallero y metiendo su espada en la
                         vaina tornóse a una arboleda donde estava una donzella muy hermosa:</cl>
