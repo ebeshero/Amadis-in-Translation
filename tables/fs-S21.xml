@@ -56,9 +56,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c5">
-               <f name="southey" n="9" ana="0">
-                  <string>They seeing the horse and arms of Amadis
-                  </string>
+               <f name="southey" n="8" ana="0.12">
+                  <string>They seeing the horse and arms of Amadis</string>
                </f>
                <f name="montalvo" n="9">
                   <string>y cuando conocieron el cavallo y también las armas/</string>
@@ -100,8 +99,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c9">
-               <f name="southey" n="14" ana="-0.14">
-                  <string> for Arcalaus had his head and hands
+               <f name="southey" n="13" ana="-0.08">
+                  <string>for Arcalaus had his head and hands
                   unarmed, and they were greatly amazed.</string>
                </f>
                <f name="montalvo" n="12">
@@ -112,9 +111,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c10">
-               <f name="southey" n="8" ana="-0.12">
-                  <string>Arcalaus came before the King and said,
-                     </string>
+               <f name="southey" n="7" ana="0">
+                  <string>Arcalaus came before the King and said,</string>
                </f>
                <f name="montalvo" n="7">
                   <string>Arcaláus fue ante el rey y dixo:</string>
@@ -140,9 +138,9 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c12">
-               <f name="southey" n="21" ana="-0.29">
+               <f name="southey" n="20" ana="-0.25">
                   <string>yet am I constrained to do no less, for
-                  the covenant was between me and him whom I have slain, </string>
+                  the covenant was between me and him whom I have slain,</string>
                </f>
                <f name="montalvo" n="15">
                   <string>pero no puedo ál fazer que tal fue la convenencia de entre él y mí:</string>
@@ -164,8 +162,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c14">
-               <f name="southey" n="9" ana="0">
-                  <string> and present himself before you as this
+               <f name="southey" n="8" ana="0.12">
+                  <string>and present himself before you as this
                      day.</string>
                </f>
                <f name="montalvo" n="9">
@@ -176,11 +174,11 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c15">
-               <f name="southey" n="29" ana="0">
+               <f name="southey" n="28" ana="0.04">
                   <string>
                   If he slew me, I
                   told him it was Arcalaus whom he would slay; and much was I grieved when he said
-                  he was the Queen's Knight </string>
+                  he was the Queen's Knight</string>
                </f>
                <f name="montalvo" n="29">
                   <string>y mucho me pesó que me dixo que era cavallero de la reina y yo le dixe que si me matasse que matava a Arcaláus que assí he nombre:</string>
@@ -213,8 +211,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c18">
-               <f name="southey" n="10" ana="0.2">
-                  <string> and I remain with the honour of the
+               <f name="southey" n="9" ana="0.33">
+                  <string>and I remain with the honour of the
                      battle.</string>
                </f>
                <f name="montalvo" n="12">
@@ -292,18 +290,18 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
-                  <string>Forthwith </string>
+               <f name="southey" n="1">
+                  <string>Forthwith</string>
                </f>
                <f name="type" select="add">
                   <string>Comments</string>
                </f>
             </fs>
             <fs corresp="#M20_p1_c23">
-               <f name="southey" n="11" ana="0.82">
-                  <string> the King returned in heavy
+               <f name="southey" n="9" ana="1.22">
+                  <string>the King returned in heavy
                   affliction.
-               The news spread </string>
+               The news spread</string>
                </f>
                <f name="montalvo" n="20">
                   <string>el rey se fue para su palacio muy pensoso y triste a maravilla: y las nuevas sonaron a todas partes:</string>
@@ -332,8 +330,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c26">
-               <f name="southey" n="15" ana="-0.27">
-                  <string> and she and all her Ladies
+               <f name="southey" n="14" ana="-0.21">
+                  <string>and she and all her Ladies
                   lamented, for greatly was Amadis beloved by all;</string>
                </f>
                <f name="montalvo" n="11">
@@ -378,10 +376,9 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c29">
-               <f name="southey" n="9" ana="0">
+               <f name="southey" n="8" ana="0.12">
                   <string>and with a wild cry looked at
-                  Oriana.
-               </string>
+                  Oriana.</string>
                </f>
                <f name="montalvo" n="9">
                   <string>y llorando muy fieramente catava a Oriana y díxole.</string>
@@ -427,9 +424,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c33">
-               <f name="southey" n="7" ana="1.57">
-                  <string>Then ran the Damsel to Mabilia
-                  </string>
+               <f name="southey" n="6" ana="2">
+                  <string>Then ran the Damsel to Mabilia</string>
                </f>
                <f name="montalvo" n="18">
                   <string>la donzella que assí la vio dexó de llorar y fuesse a Mabilia que fazía muy gran duelo:</string>
@@ -439,8 +435,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c34">
-               <f name="southey" n="5" ana="0">
-                  <string> tearing her hair, </string>
+               <f name="southey" n="3" ana="0.67">
+                  <string>tearing her hair,</string>
                </f>
                <f name="montalvo" n="5">
                   <string>messando sus cabellos y díxole.</string>
@@ -484,12 +480,9 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c40">
-               <f name="southey" n="38" ana="-0.24">
-                  <string> she took
-                  the Princess in her arms, and pouredThe
-                        English translation says, she unlaced her
-                     garments to give her more liberty, and bathed her temples and pulses with
-                     vinegar and cold water. cold water on her face,</string>
+               <f name="southey" n="14" ana="1.07">
+                  <string>she took
+                  the Princess in her arms, and poured cold water on her face,</string>
                </f>
                <f name="montalvo" n="29">
                   <string>porque ninguno assí no la viesse y fue a tomar a Oriana entre sus braços e hízole echar agua fría por el rostro con que luego acordó ya cuanto:</string>
@@ -499,8 +492,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c39">
-               <f name="southey" n="11" ana="0.09">
-                  <string> and bade the Damsel fasten the door
+               <f name="southey" n="10" ana="0.2">
+                  <string>and bade the Damsel fasten the door
                   of the chamber,</string>
                </f>
                <f name="montalvo" n="12">
@@ -511,8 +504,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c40">
-               <f name="southey" n="13" ana="1.23">
-                  <string> that
+               <f name="southey" n="12" ana="1.42">
+                  <string>that
                   none might see her in that passion.
                She recovering her senses,</string>
                </f>
@@ -524,8 +517,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c42">
-               <f name="southey" n="2" ana="0">
-                  <string>exclaimed, </string>
+               <f name="southey" n="1" ana="1">
+                  <string>exclaimed,</string>
                </f>
                <f name="montalvo" n="2">
                   <string>dixo llorando.</string>
@@ -535,8 +528,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c43">
-               <f name="southey" n="6" ana="0.67">
-                  <string>Ah friends, let me die </string>
+               <f name="southey" n="5" ana="1">
+                  <string>Ah friends, let me die</string>
                </f>
                <f name="montalvo" n="10">
                   <string>Ay amigas por Dios no estorvéis la mi muerte:</string>
@@ -582,8 +575,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c41">
-               <f name="southey" n="10" ana="-0.6">
-                  <string> that I should live even an
+               <f name="southey" n="9" ana="-0.56">
+                  <string>that I should live even an
                   hour after him!</string>
                </f>
                <f name="montalvo" n="4">
@@ -594,9 +587,9 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c58">
-               <f name="southey" n="14" ana="0.36">
+               <f name="southey" n="13" ana="0.46">
                   <string>What though his dwelling be in the cold
-                  earth, where all love ceaseth, </string>
+                  earth, where all love ceaseth,</string>
                </f>
                <f name="montalvo" n="19">
                   <string>que aunque en la tierra fría es su morada donde desfechos y consumidos serán aquel gran encendimiento de amor/</string>
@@ -615,8 +608,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c60">
-               <f name="southey" n="3" ana="1.33">
-                  <string>yet greater </string>
+               <f name="southey" n="2" ana="2.5">
+                  <string>yet greater</string>
                </f>
                <f name="montalvo" n="7">
                   <string>muy mayor en la otra seyendo juntos/</string>
@@ -643,8 +636,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c60">
-               <f name="southey" n="11" ana="-0.36">
-                  <string> our loves when in the other world we are united!</string>
+               <f name="southey" n="10" ana="-0.3">
+                  <string>our loves when in the other world we are united!</string>
                </f>
                <f name="montalvo" n="7">
                   <string>muy mayor en la otra seyendo juntos/</string>
@@ -761,10 +754,9 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c70">
-               <f name="southey" n="5" ana="4.4">
+               <f name="southey" n="4" ana="5.75">
                   <string>
-                  quoth the Damsel,
-                  </string>
+                  quoth the Damsel,</string>
                </f>
                <f name="montalvo" n="27">
                   <string>ay Dios Señor no te plega de yo más bivir pues las dos cosas que en este mundo más amava son muertas la donzella le dijo.</string>
@@ -774,8 +766,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c71">
-               <f name="southey" n="9" ana="0.22">
-                  <string> let not your good sense fail you now,</string>
+               <f name="southey" n="8" ana="0.38">
+                  <string>let not your good sense fail you now,</string>
                </f>
                <f name="montalvo" n="11">
                   <string>Por Dios señora no fallezca a tal hora vuestra discreción:</string>
@@ -814,8 +806,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c74">
-               <f name="southey" n="6" ana="1">
-                  <string> they
+               <f name="southey" n="5" ana="1.4">
+                  <string>they
                   placed Oriana in bed,</string>
                </f>
                <f name="montalvo" n="12">
@@ -846,8 +838,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c79">
-               <f name="southey" n="5" ana="0.8">
-                  <string> so
+               <f name="southey" n="4" ana="1.25">
+                  <string>so
                   that she revived.</string>
                </f>
                <f name="montalvo" n="9">
@@ -1086,8 +1078,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c113">
-               <f name="southey" n="9" ana="0">
-                  <string> and the night was worse than the day,</string>
+               <f name="southey" n="8" ana="0.12">
+                  <string>and the night was worse than the day,</string>
                </f>
                <f name="montalvo" n="9">
                   <string>mas la noche venida con más fatiga la passaron/</string>
@@ -1234,8 +1226,8 @@
                </f>
             </fs>
             <fs corresp="#M20_p1_c126">
-               <f name="southey" n="11" ana="0.36">
-                  <string> in a dungeon, whence I should never have
+               <f name="southey" n="10" ana="0.5">
+                  <string>in a dungeon, whence I should never have
                   come out,</string>
                </f>
                <f name="montalvo" n="15">

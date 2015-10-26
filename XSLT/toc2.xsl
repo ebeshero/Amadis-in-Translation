@@ -101,7 +101,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                         <xsl:value-of
                             select="
                                 current()/following::text()
-                                except (current()/following::node()[@ana = 'end'][1]/following::node())"
+                                except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()//following::note//text()"
                         />
                     </xsl:for-each>
                 </xsl:variable>

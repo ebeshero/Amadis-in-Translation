@@ -51,8 +51,9 @@
         <xsl:variable name="text"
             select="
                 current()/following::text()
-                except (current()/following::node()[@ana = 'end'][1]/following::node())"/>
+                except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()//following::note//text()"/>
         <xsl:variable name="correction" select="string-join($text/replace(., '[.,/?:;]', ''))"/>
+        
         <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
         <xsl:variable name="montalvo-words" select="count(tokenize($match, '\s+'))"/>
         <xsl:element name="fs">
@@ -77,7 +78,7 @@
                     <xsl:value-of
                         select="
                             current()/following::text()
-                            except (current()/following::node()[@ana = 'end'][1]/following::node())"
+                            except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()//following::note//text()"
                     />
                 </string>
             </xsl:element>
