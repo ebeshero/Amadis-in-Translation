@@ -27,8 +27,7 @@
    <text>
       <body>
          <div type="chapter" xml:id="S1">
-            <head>Chapter 1. <locus from="1" to="8"/>
-            </head>
+            <head>Chapter 1. <locus from="1" to="8"/></head>
             <!--ebb: 2015-08-05: Okay, we have to use <p> as the base structural unit of any prose text in TEI, 
                so we'll have to make each chapter be a single long paragraph in Montalvo. 
                We'll use the <milestone/> element in the Southey text to indicate his imposed paragraph breaks within that.
@@ -59,9 +58,8 @@
                   <anchor ana="start" synch="#M0_p1_c6"/>would have them covered only with a
                   chaplet of flowers.<anchor ana="end"/>
                </s>
-               <s>
-                  <persName ref="#Agrajes">
-                     <anchor ana="start" synch="#M0_p1_c8"/>Agrayes</persName> and <persName
+               <s>                 
+                     <anchor ana="start" synch="#M0_p1_c8"/><persName ref="#Agrajes">Agrayes</persName> and <persName
                      ref="#Mabilia">Mabilia</persName> were their children,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c9"/>a Knight and Damsel of whom in this history
                   much mention is made.<anchor ana="end"/>
@@ -121,13 +119,11 @@
                </s>
                <s>
                   <anchor ana="start" synch="#M0_p1_c29"/>This done<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>
-                  <persName ref="#Perion">the Stranger</persName><anchor ana="end"/>
+                  <anchor ana="start" type="add"/><persName ref="#Perion">the Stranger</persName><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c29"/>came towards the King,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c30"/>and seeing him alone, said,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c31"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>Gentle Sir, what country is
+                  <anchor ana="start" synch="#M0_p1_c31"/><milestone unit="said" ana="start" resp="#Perion"/>Gentle Sir, what country is
                   this wherein Knights Errant are thus assailed?<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
@@ -151,8 +147,7 @@
                <s>
                   <anchor ana="start" synch="#M0_p1_c39"/>This King you speak of,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c38"/>replied<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>
-                  <persName ref="#Perion">the Stranger</persName>,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/><persName ref="#Perion">the Stranger</persName>,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c39"/>I come to seek him from a far land,<anchor
                      ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c40"/>and bring him tidings from a dear
@@ -164,8 +159,7 @@
                <milestone unit="said" ana="end"/><anchor ana="end"/>
                <s>
                   <anchor ana="start" synch="#M0_p1_c42"/>The King answered,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c43"/>
-                  <milestone unit="said" ana="start" resp="#Garinter"/>Befall what may, I shall not
+                  <anchor ana="start" synch="#M0_p1_c43"/><milestone unit="said" ana="start" resp="#Garinter"/>Befall what may, I shall not
                   fail to speak what is true.<anchor ana="end"/>
                </s>
                <s>
@@ -199,12 +193,10 @@
                      Kings.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c54"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>Fierce as you are<milestone
+                  <anchor ana="start" synch="#M0_p1_c54"/><milestone unit="said" ana="start" resp="#Perion"/>Fierce as you are<milestone
                      unit="said" ana="intStart"/>,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c53"/>said King Perion,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c54"/>
-                  <milestone unit="said" ana="intEnd"/> you shall leave us part of the
+                  <anchor ana="start" synch="#M0_p1_c54"/><milestone unit="said" ana="intEnd"/> you shall leave us part of the
                      game!<milestone unit="said" ana="end"/><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c55"/>and he took his arms and alighted from his
                      horse,<anchor ana="end"/>
@@ -316,8 +308,7 @@
                   <anchor ana="start" type="add"/>she went and<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c94"/>discovered them to the damsel <anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c96"/>
-                  <persName ref="#Darioleta">Darioleta</persName><anchor ana="end"/>
+                  <anchor ana="start" synch="#M0_p1_c96"/><persName ref="#Darioleta">Darioleta</persName><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c95"/>in whom she confided,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c97"/>and with tears from her eyes and from her
                   heart, besought her to find out if King Perion loved any other woman.<anchor
@@ -335,8 +326,7 @@
                   <anchor ana="start" synch="#M0_p1_c107"/>She found his <persName ref="#Squire1"
                      >Squire</persName> at the door with the King's garments which he was about to
                   give him;<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c108"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>friend<milestone unit="said"
+                  <anchor ana="start" synch="#M0_p1_c108"/><milestone unit="said" ana="start" resp="#Darioleta"/>friend<milestone unit="said"
                      ana="intStart"/>,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c107"/>said she<milestone unit="said"
                      ana="intEnd"/>,<anchor ana="end"/>
@@ -361,31 +351,26 @@
                   bring some remedy to his passion,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c115"/>and said to her all in trembling,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c116"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>fair friend, what demand
+                  <anchor ana="start" synch="#M0_p1_c116"/><milestone unit="said" ana="start" resp="#Perion"/>fair friend, what demand
                      ye?<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
-               <anchor ana="start" synch="#M0_p1_c117"/>
-               <s>
+               <anchor ana="start" synch="#M0_p1_c117"/><s>
                   <milestone unit="said" ana="start" resp="#Darioleta"/>I bring you wherewith to
                   cloathe yourself<milestone unit="said" ana="end"/>, she replied.<anchor ana="end"
                   />
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c118"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>That should be for my
+                  <anchor ana="start" synch="#M0_p1_c118"/><milestone unit="said" ana="start" resp="#Perion"/>That should be for my
                      heart<milestone unit="said" ana="intStart"/>, said Perion, <milestone
                      unit="said" ana="intEnd"/><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c119"/>which is now stript and naked of all my
                      joy<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c120"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>As how?<milestone
+                  <anchor ana="start" synch="#M0_p1_c120"/><milestone unit="said" ana="start" resp="#Darioleta"/>As how?<milestone
                      unit="said" ana="end"/> said the Damsel.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c121"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>Thus<milestone unit="said"
+                  <anchor ana="start" synch="#M0_p1_c121"/><milestone unit="said" ana="start" resp="#Perion"/>Thus<milestone unit="said"
                      ana="intStart"/>, quoth he,<milestone unit="said" ana="intEnd"/> coming into
                   this land with entire liberty,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c122"/>and apprehending nothing but the chance
@@ -429,15 +414,13 @@
                   <anchor ana="start" synch="#M0_p1_c110"/>and laying his right hand upon the cross
                   of its hilt,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>pronounced these words,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c150"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>I swear by this Cross, and this
+                  <anchor ana="start" synch="#M0_p1_c150"/><milestone unit="said" ana="start" resp="#Perion"/>I swear by this Cross, and this
                   Sword wherewith I received the order of Knighthood, to perform whatever you shall
                      require<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c151"/>for the Lady Elisena<milestone
                      unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c152"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>Be you then of good
+                  <anchor ana="start" synch="#M0_p1_c152"/><milestone unit="said" ana="start" resp="#Darioleta"/>Be you then of good
                      cheer<milestone unit="said" ana="intStart"/>, said she, <milestone unit="said"
                      ana="intEnd"/><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c153"/>for I also will effect my
@@ -468,15 +451,13 @@
                      contented,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c169"/>but recollecting herself, she
                      replied,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c171"/>
-                  <milestone unit="said" ana="start" resp="#Helisena"/>how shall this be brought to
+                  <anchor ana="start" synch="#M0_p1_c171"/><milestone unit="said" ana="start" resp="#Helisena"/>how shall this be brought to
                      pass,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c172"/>seeing that my father will lodge in the
                   chamber with King Perion?<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c174"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>Leave that to me <milestone
+                  <anchor ana="start" synch="#M0_p1_c174"/><milestone unit="said" ana="start" resp="#Darioleta"/>Leave that to me <milestone
                      unit="said" ana="end"/>said the Damsel,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c175"/>and with that they parted.<anchor
                      ana="end"/>
@@ -490,14 +471,12 @@
                   <anchor ana="start" type="report" synch="#M0_p1_c178"/>if he was of gentle birth.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c179"/>
-                  <milestone unit="said" ana="start" resp="#Squire1"/>Aye, <milestone unit="said"
+                  <anchor ana="start" synch="#M0_p1_c179"/><milestone unit="said" ana="start" resp="#Squire1"/>Aye, <milestone unit="said"
                      ana="intStart"/>said he,<milestone unit="said" ana="intEnd"/><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c180"/>the son of a Knight!<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c181"/>but why ask ye?<milestone unit="said"
                      ana="end"/><anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c183"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>for the desire I
+                  <anchor ana="start" synch="#M0_p1_c183"/><milestone unit="said" ana="start" resp="#Darioleta"/>for the desire I
                      have,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c182"/>quoth she,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c183"/>to know one thing,<anchor ana="end"/>
@@ -509,9 +488,8 @@
                   <anchor ana="start" synch="#M0_p1_c192"/>Who is the Lady whom your Master loveth
                      best?<anchor ana="end"/>
                </s>
-               <anchor ana="start" synch="#M0_p1_c193"/>
                <milestone unit="said" ana="end"/>
-               <s>
+               <s><anchor ana="start" synch="#M0_p1_c193"/>
                   <milestone unit="said" ana="start" resp="#Squire1"/>My Master<milestone
                      unit="said" ana="intStart"/>, replied the Squire, <milestone unit="said"
                      ana="intEnd"/>loves all in general,<anchor ana="end"/>
@@ -526,11 +504,9 @@
                   <anchor ana="start" type="report" synch="#M0_p1_c198"/>what he had to say to her.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c199"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>In sooth my Lord,<anchor
+                  <anchor ana="start" synch="#M0_p1_c199"/><milestone unit="said" ana="start" resp="#Darioleta"/>In sooth my Lord,<anchor
                      ana="end"/>
-                  <anchor ana="start" type="add"/>
-                  <milestone unit="said" ana="intStart"/>quoth she, <milestone unit="said"
+                  <anchor ana="start" type="add"/><milestone unit="said" ana="intStart"/>quoth she, <milestone unit="said"
                      ana="intEnd"/><anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c22"/>he tells me that his Master<anchor
                      ana="end"/>
@@ -541,8 +517,7 @@
                   <anchor ana="start" type="add"/>Garinter hearing that<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c203"/>went to King Perion and said,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c204"/>
-                  <milestone unit="said" ana="start" resp="#Garinter"/>My Lord I have many affairs
+                  <anchor ana="start" synch="#M0_p1_c204"/><milestone unit="said" ana="start" resp="#Garinter"/>My Lord I have many affairs
                   to settle, and must rise at the hour of matins,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c205"/>and that you may not be disturbed,<anchor
                      ana="end"/>
@@ -552,8 +527,7 @@
                </s>
                <s>
                   <anchor ana="start" synch="#M0_p1_c207"/>King Perion replied,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c208"/>
-                  <milestone unit="said" ana="start" resp="#Perion"/>do as shall seem best to your
+                  <anchor ana="start" synch="#M0_p1_c208"/><milestone unit="said" ana="start" resp="#Perion"/>do as shall seem best to your
                      liking<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
                   <anchor ana="start" synch="#M0_p1_c210"/>Then Garinter understood that Darioleta

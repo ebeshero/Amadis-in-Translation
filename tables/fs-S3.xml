@@ -24,8 +24,9 @@
             <head>Chapter 3. </head>
             <fs corresp="#M2_p1_c1">
                <f name="southey" n="5" ana="1.6">
-                  <string>King
-                     Perion having departed from</string>
+                  <string ana="persName" corresp="#Perion">King
+                     Perion</string>
+                  <string> having departed from</string>
                </f>
                <f name="montalvo" n="13">
                   <string>Partido el rey Perión de la Pequeña Bretaña como ya se vos contó:</string>
@@ -35,9 +36,8 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
-                  <string>
-                  Alima</string>
+               <f name="southey" n="1">
+                  <string ana="placeName" corresp="#Alima">Alima</string>
                </f>
                <f name="type" select="add">
                   <string>Comments</string>
@@ -67,9 +67,8 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
-                  <string>
-                  Elisena</string>
+               <f name="southey" n="1">
+                  <string ana="persName" corresp="#Helisena">Elisena</string>
                </f>
                <f name="type" select="add">
                   <string>Comments</string>
@@ -318,7 +317,9 @@
             <fs corresp="#M2_p1_c28">
                <f name="southey" n="17" ana="0">
                   <string>Then one of them
-                  whose name was Ungan the Picard, the most expert
+                  whose name was </string>
+                  <string ana="persName" corresp="#Ungan">Ungan the Picard</string>
+                  <string>, the most expert
                   of them, thus answered,</string>
                </f>
                <f name="montalvo" n="17">
@@ -355,7 +356,8 @@
             </fs>
             <fs corresp="#M2_p1_c30.1">
                <f name="southey" n="7" ana="-0.14">
-                  <string>Let it be so, said
+                  <string>Let it be so</string>
+                  <string>, said
                   the King;</string>
                </f>
                <f name="montalvo" n="6">
@@ -416,7 +418,9 @@
             <fs corresp="#M2_p1_c35">
                <f name="southey" n="11" ana="-0.27">
                   <string>He
-                  first took Alberto of Champaigne apart, and
+                  first took </string>
+                  <string ana="persName" corresp="#Alberto">Alberto of Champaigne</string>
+                  <string> apart, and
                   said to him,</string>
                </f>
                <f name="montalvo" n="8">
@@ -646,7 +650,9 @@
             <fs corresp="#M2_p1_c48.1">
                <f name="southey" n="14" ana="-0.07">
                   <string>And the
-                  other heart? quoth the King, which he said should remain with me,</string>
+                  other heart?</string>
+                  <string> quoth the King, </string>
+                  <string>which he said should remain with me,</string>
                </f>
                <f name="montalvo" n="13">
                   <string>y el otro coraçón dixo el rey que me dezía que me quedava/</string>
@@ -669,7 +675,8 @@
             </fs>
             <fs corresp="#M2_p1_c49">
                <f name="southey" n="5" ana="6.6">
-                  <string>It seemeth by this, answered</string>
+                  <string>It seemeth by this</string>
+                  <string>, answered</string>
                </f>
                <f name="montalvo" n="38">
                   <string>y me lo haría perder sin su grado. Esso dixo el maestro parece que otro entrará en tu tierra a te tomar lo semejante más constreñido por fuerça de alguno que se lo mande que de su voluntad:</string>
@@ -713,7 +720,9 @@
             </fs>
             <fs corresp="#M2_p1_c50.1">
                <f name="southey" n="11" ana="0.36">
-                  <string>The King then commanded Anteles to say what he had discovered.</string>
+                  <string>The King then commanded </string>
+                  <string ana="persName" corresp="#Anteles">Anteles</string>
+                  <string> to say what he had discovered.</string>
                </f>
                <f name="montalvo" n="15">
                   <string>El rey mandó al otro que Anteles avía nombre que dixesse lo que hallava.</string>
@@ -756,7 +765,10 @@
             <fs corresp="#M2_p1_c52">
                <f name="southey" n="9" ana="0.33">
                   <string>that
-                  my art shows me  it is already done,</string>
+                  my art shows me </string>
+                  <string ana="note" resp="#Southey">mis suertes me
+                     muestran.</string>
+                  <string> it is already done,</string>
                </f>
                <f name="montalvo" n="12">
                   <string>Sino tanto que mis suertes me muestran que es ya hecho:</string>
@@ -777,20 +789,12 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="M2_p1_c54">
-               <f name="montalvo" n="5">
-                  <string>y esto me haze maravillar: </string>
-               </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs corresp="#M2_p1_c55">
-               <f name="southey" n="4" ana="1.5">
+            <fs corresp="#M2_p1_c54">
+               <f name="southey" n="4" ana="0.25">
                   <string>this makes me marvel,</string>
                </f>
-               <f name="montalvo" n="10">
-                  <string>porque aún agora no es perdido nada de tu reino:</string>
+               <f name="montalvo" n="5">
+                  <string>y esto me haze maravillar:</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
@@ -821,9 +825,12 @@
                </f>
             </fs>
             <fs corresp="#M2_p1_c56.1">
-               <f name="southey" n="13" ana="0.31">
+               <f name="southey" n="14" ana="0.21">
                   <string>Hearing this the King smiled
                   a little, for it seemed he had said</string>
+                  <string ana="note" resp="#Southey">que no
+                     avia dicho nada.</string>
+                  <string> something.</string>
                </f>
                <f name="montalvo" n="17">
                   <string>Oído esto por el rey sonrióse un poco que le paresció que no avía dicho nada.</string>
@@ -834,7 +841,9 @@
             </fs>
             <fs corresp="#M2_p1_c57">
                <f name="southey" n="17" ana="0.06">
-                  <string>But Ungan the Picard who
+                  <string>But </string>
+                  <string ana="persName" corresp="#Ungan">Ungan the Picard</string>
+                  <string> who
                   knew much more then they, held down his head and laughed heartily,</string>
                </f>
                <f name="montalvo" n="18">
@@ -880,7 +889,9 @@
             </fs>
             <fs corresp="#M2_p1_c60.1">
                <f name="southey" n="16" ana="0.12">
-                  <string>Sire, said he, peradventure I have seen into things which should be manifested to you
+                  <string>Sire,</string>
+                  <string> said he, </string>
+                  <string>peradventure I have seen into things which should be manifested to you
                      alone,</string>
                </f>
                <f name="montalvo" n="18">
@@ -1099,7 +1110,9 @@
             </fs>
             <fs corresp="#M2_p1_c74.1">
                <f name="southey" n="13" ana="0.31">
-                  <string>Master, said the King, what
+                  <string>Master,</string>
+                  <string> said the King, </string>
+                  <string>what
                   meaneth then the casting thereof into the river?</string>
                </f>
                <f name="montalvo" n="17">
@@ -1112,7 +1125,8 @@
             <fs corresp="#M2_p1_c74.2">
                <f name="southey" n="6" ana="0.5">
                   <string>He
-                  replied, seek not to know</string>
+                  replied, </string>
+                  <string>seek not to know</string>
                </f>
                <f name="montalvo" n="9">
                   <string>Esso señor dixo él no lo quieras saber:</string>
@@ -1135,7 +1149,9 @@
             <fs corresp="#M2_p1_c75.1">
                <f name="southey" n="8" ana="0.12">
                   <string>Tell me
-                     howbeit, quoth Perion, and fear nothing.</string>
+                     howbeit,</string>
+                  <string> quoth Perion, </string>
+                  <string>and fear nothing.</string>
                </f>
                <f name="montalvo" n="9">
                   <string>Todavíadixo él me lo dezid y no temáis.</string>
@@ -1147,7 +1163,9 @@
             <fs corresp="#M2_p1_c75.2">
                <f name="southey" n="33" ana="-0.09">
                   <string>Since you are pleased to hear
-                     it, answered Ungan, I demand assurance that for any thing which I may
+                     it,</string>
+                  <string> answered Ungan, </string>
+                  <string>I demand assurance that for any thing which I may
                   reveal, you will never hereafter be wrath with her who loveth you so
                      loyally</string>
                </f>
@@ -1171,7 +1189,9 @@
             </fs>
             <fs corresp="#M2_p1_c76">
                <f name="southey" n="13" ana="0">
-                  <string>Know then, said the Master, that what you saw cast
+                  <string>Know then</string>
+                  <string>, said the Master, </string>
+                  <string>that what you saw cast
                   into the river,</string>
                </f>
                <f name="montalvo" n="13">
@@ -1195,7 +1215,8 @@
             </fs>
             <fs corresp="#M2_p1_c77.1">
                <f name="southey" n="9" ana="0.44">
-                  <string>And that other heart that remained?what should
+                  <string>And that other heart that remained?</string>
+                  <string>what should
                   that be?</string>
                </f>
                <f name="montalvo" n="13">
@@ -1207,7 +1228,8 @@
             </fs>
             <fs corresp="#M2_p1_c77.2">
                <f name="southey" n="9" ana="0.33">
-                  <string>—You may interpret the one by the other,
+                  <string>—You may interpret the one by the other,</string>
+                  <string>
                      answered</string>
                </f>
                <f name="montalvo" n="12">
@@ -1252,7 +1274,8 @@
             <fs corresp="#M2_p1_c79.1">
                <f name="southey" n="7" ana="4.43">
                   <string>Strange things hast
-                  thou told me! said</string>
+                  thou told me!</string>
+                  <string> said</string>
                </f>
                <f name="montalvo" n="38">
                   <string>Grandes cosas me avéis dicho dixo el rey y a Dios plega por la su merced que lo postrimero de los hijos no salga tan verdadero como lo que de la dueña que yo amo me dexistes.</string>
@@ -1284,7 +1307,8 @@
             </fs>
             <fs corresp="#M2_p1_c79.2">
                <f name="southey" n="19" ana="0.11">
-                  <string>The Master answered, None can alter the things which were ordained by God, nor know
+                  <string>The Master answered, </string>
+                  <string>None can alter the things which were ordained by God, nor know
                   wherein they shall end.</string>
                </f>
                <f name="montalvo" n="21">
@@ -1412,8 +1436,9 @@
             </fs>
             <fs corresp="#M2_p1_c87.1">
                <f name="southey" n="8" ana="-0.12">
-                  <string>the kingdom of
-                     Ireland shall lose its flower!</string>
+                  <string ana="placeName" corresp="#Ireland">the kingdom of
+                     Ireland</string>
+                  <string> shall lose its flower!</string>
                </f>
                <f name="montalvo" n="7">
                   <string>perderá el señorío de Irlanda su flor:</string>
@@ -1460,8 +1485,13 @@
             </fs>
             <fs corresp="#M2_p2_c90">
                <f name="southey" n="14" ana="-0.07">
-                  <string>He was called the 
-                  Child of the Sea, for so they had named
+                  <string>He was called the </string>
+                  <string ana="note" resp="#Southey">Footnote: We have no word for the Donzel
+                     of the Spaniards, and Damoisel of the French.</string>
+                  <string>
+                  </string>
+                  <string ana="persName" corresp="#Amadis">Child of the Sea</string>
+                  <string>, for so they had named
                      him,</string>
                </f>
                <f name="montalvo" n="13">
@@ -1515,7 +1545,9 @@
             </fs>
             <fs corresp="#M2_p2_c94">
                <f name="southey" n="5" ana="0.2">
-                  <string>One day Gandales rode forth,</string>
+                  <string>One day </string>
+                  <string ana="persName" corresp="#Gandales">Gandales</string>
+                  <string> rode forth,</string>
                </f>
                <f name="montalvo" n="6">
                   <string>Y un día cavalgó Gandales armado/</string>
@@ -1570,8 +1602,10 @@
             </fs>
             <fs corresp="#M2_p2_c99">
                <f name="southey" n="13" ana="0">
-                  <string>He, as he rode along, met a
-                     Damsel, that thus spake to him.</string>
+                  <string>He, as he rode along, met </string>
+                  <string ana="persName" corresp="#Urganda">a
+                     Damsel</string>
+                  <string>, that thus spake to him.</string>
                </f>
                <f name="montalvo" n="13">
                   <string>y yendo assí armado como os digo halló una donzella que le dixo.</string>
@@ -1616,7 +1650,8 @@
             </fs>
             <fs corresp="#M2_p2_c102">
                <f name="southey" n="7" ana="0.29">
-                  <string>She replied, Because thou nourishest their
+                  <string>She replied, </string>
+                  <string>Because thou nourishest their
                      death.</string>
                </f>
                <f name="montalvo" n="9">
@@ -1672,7 +1707,9 @@
             </fs>
             <fs corresp="#M2_p2_c107.1">
                <f name="southey" n="12" ana="-0.08">
-                  <string>I shall not tell thee, she answered, but so it
+                  <string>I shall not tell thee,</string>
+                  <string> she answered, </string>
+                  <string>but so it
                   must be.</string>
                </f>
                <f name="montalvo" n="11">
@@ -1743,7 +1780,10 @@
             </fs>
             <fs corresp="#M2_p2_c111">
                <f name="southey" n="5" ana="0.8">
-                  <string>Sir Knight, God
+                  <string>Sir Knight, God</string>
+                  <string ana="note" resp="#Southey">A
+                     quien Dios de ma’a ventura. It is the Irish phrase, Bad luck to you!</string>
+                  <string>
                   confound thee,</string>
                </f>
                <f name="montalvo" n="9">
@@ -1766,7 +1806,9 @@
             </fs>
             <fs corresp="#M2_p2_c113">
                <f name="southey" n="19" ana="0.05">
-                  <string>What? said the other, wouldst thou protect her, who by her art has made me
+                  <string>What?</string>
+                  <string> said the other, </string>
+                  <string>wouldst thou protect her, who by her art has made me
                   lose body and soul?</string>
                </f>
                <f name="montalvo" n="20">
@@ -1778,7 +1820,8 @@
             </fs>
             <fs corresp="#M2_p2_c114">
                <f name="southey" n="7" ana="0.14">
-                  <string>Of that know I nothing, said Gandales,</string>
+                  <string>Of that know I nothing,</string>
+                  <string> said Gandales,</string>
                </f>
                <f name="montalvo" n="8">
                   <string>De esso no sé nada dixo Gandales:</string>
@@ -1823,7 +1866,8 @@
             </fs>
             <fs corresp="#M2_p2_c116.1">
                <f name="southey" n="7" ana="2.43">
-                  <string>The Knight answered, that we shall see</string>
+                  <string>The Knight answered, </string>
+                  <string>that we shall see</string>
                </f>
                <f name="montalvo" n="24">
                   <string>Agora lo veréis dixo el cavallero y metiendo su espada en la vaina tornóse a una arboleda donde estava una donzella muy hermosa:</string>
@@ -1933,7 +1977,9 @@
             </fs>
             <fs corresp="#M2_p2_c129">
                <f name="southey" n="18" ana="-0.17">
-                  <string>that shall I do willingly, said he, as
+                  <string>that shall I do willingly</string>
+                  <string>, said he, </string>
+                  <string>as
                   to the thing in the world which I most love</string>
                </f>
                <f name="montalvo" n="15">
@@ -2112,7 +2158,9 @@
             </fs>
             <fs corresp="#M2_p2_c142">
                <f name="southey" n="18" ana="0.11">
-                  <string>That, said Gandales, you may; but I shall not give over the battle, unless
+                  <string>That</string>
+                  <string>, said Gandales, </string>
+                  <string>you may; but I shall not give over the battle, unless
                   he confess himself vanquished.</string>
                </f>
                <f name="montalvo" n="20">
@@ -2124,7 +2172,8 @@
             </fs>
             <fs corresp="#M2_p2_c143">
                <f name="southey" n="21" ana="-0.05">
-                  <string>She answered, give it over, for though you were the
+                  <string>She answered, </string>
+                  <string>give it over, for though you were the
                   best Knight in the world, I could make him vanquish you.</string>
                </f>
                <f name="montalvo" n="20">
@@ -2147,7 +2196,9 @@
             <fs corresp="#M2_p2_c145">
                <f name="southey" n="20" ana="-0.05">
                   <string>Then tell
-                     me, said he, the meaning of what you said, that I nourished the death of many
+                     me</string>
+                  <string>, said he, </string>
+                  <string>the meaning of what you said, that I nourished the death of many
                   great personages.</string>
                </f>
                <f name="montalvo" n="19">
@@ -2343,7 +2394,9 @@
             </fs>
             <fs corresp="#M2_p2_c163">
                <f name="southey" n="22" ana="-0.05">
-                  <string>Ah Lady! said Gandales, tell me
+                  <string>Ah Lady!</string>
+                  <string> said Gandales, </string>
+                  <string>tell me
                   for God’s sake where I can find you to talk with you upon this child’s
                      affairs?</string>
                </f>
@@ -2356,7 +2409,8 @@
             </fs>
             <fs corresp="#M2_p2_c164">
                <f name="southey" n="7" ana="0.71">
-                  <string>She answered, that shalt thou never know.</string>
+                  <string>She answered, </string>
+                  <string>that shalt thou never know.</string>
                </f>
                <f name="montalvo" n="12">
                   <string>esto no sabrás tú por mí ni por otro dixo ella.</string>
@@ -2427,8 +2481,10 @@
             </fs>
             <fs corresp="#M2_p2_c170">
                <f name="southey" n="6" ana="0.5">
-                  <string>My name is Urganda the
-                     Unknown,</string>
+                  <string>My name is </string>
+                  <string ana="persName" corresp="#Urganda">Urganda the
+                     Unknown</string>
+                  <string>,</string>
                </f>
                <f name="montalvo" n="9">
                   <string>Y sabe que mi nombre es Urganda la Desconocida:</string>
@@ -2582,7 +2638,8 @@
             </fs>
             <fs corresp="#M2_p2_c183">
                <f name="southey" n="5" ana="1">
-                  <string>Doubt not that, said Urganda,</string>
+                  <string>Doubt not that</string>
+                  <string>, said Urganda,</string>
                </f>
                <f name="montalvo" n="10">
                   <string>No pienses en esso dixo Urganda que esse desamparado/</string>
@@ -2782,7 +2839,9 @@
             </fs>
             <fs corresp="#M2_p3_c202.1">
                <f name="southey" n="12" ana="-0.17">
-                  <string>Ah, the wretch, quoth she, how she knows
+                  <string>Ah, the wretch,</string>
+                  <string> quoth she, </string>
+                  <string>how she knows
                   to beguile every one!</string>
                </f>
                <f name="montalvo" n="10">
@@ -2856,7 +2915,8 @@
             </fs>
             <fs corresp="#M2_p3_c207">
                <f name="southey" n="17" ana="0.29">
-                  <string>Gandales answered, it is a wild thought to hope to injure her who knows your
+                  <string>Gandales answered, </string>
+                  <string>it is a wild thought to hope to injure her who knows your
                   very intentions,</string>
                </f>
                <f name="montalvo" n="22">
@@ -3130,8 +3190,9 @@
             </fs>
             <fs corresp="#M2_p3_c223">
                <f name="southey" n="22" ana="0.59">
-                  <string>King
-                     Languines and his Queen and household, passing through his Kingdom
+                  <string ana="persName" corresp="#Languines">King
+                     Languines</string>
+                  <string> and his Queen and household, passing through his Kingdom
                   from one town to another, came to the castle of Gandales,</string>
                </f>
                <f name="montalvo" n="35">
@@ -3154,8 +3215,12 @@
             </fs>
             <fs corresp="#M2_p3_c225">
                <f name="southey" n="18" ana="0.11">
-                  <string>but the Child of
-                     the Sea, and Gandalin and the
+                  <string>but </string>
+                  <string ana="persName" corresp="#Amadis">the Child of
+                     the Sea</string>
+                  <string>, and </string>
+                  <string ana="persName" corresp="#Gandalin">Gandalin</string>
+                  <string> and the
                   other children were removed to the back Court</string>
                </f>
                <f name="montalvo" n="20">
@@ -3186,8 +3251,9 @@
             </fs>
             <fs corresp="#M2_p3_c227">
                <f name="southey" n="27" ana="-0.11">
-                  <string>the
-                     Queen was lodged in one of the highest apartments of the Castle, and
+                  <string ana="persName" corresp="#Guirnalda">the
+                     Queen</string>
+                  <string> was lodged in one of the highest apartments of the Castle, and
                   looking from her window she saw the children at play with their bows,</string>
                </f>
                <f name="montalvo" n="24">
@@ -3561,7 +3627,9 @@
             </fs>
             <fs corresp="#M2_p3_c256">
                <f name="southey" n="21" ana="0">
-                  <string>I had rather you would strike me, said he, than that any
+                  <string>I had rather you would strike me</string>
+                  <string>, said he, </string>
+                  <string>than that any
                   one before me should dare to beat my brother&gt;</string>
                </f>
                <f name="montalvo" n="21">

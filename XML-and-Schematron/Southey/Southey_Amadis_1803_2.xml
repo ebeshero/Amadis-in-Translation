@@ -29,13 +29,11 @@
    <text>
       <body>
          <div type="chapter" xml:id="S2">
-            <head>Chapter 2. <locus from="9" to="16"/>
-            </head>
+            <head>Chapter 2. <locus from="9" to="16"/></head>
             <p>
                <s>
                   <anchor ana="start" synch="#M1_p1_c1"/>At night when all was husht,<anchor ana="end"/> 
-                  <anchor ana="start" synch="#M1_p1_c2"/>
-                  <persName ref="#Darioleta">Darioleta</persName> rose,<anchor ana="end"/> 
+                  <anchor ana="start" synch="#M1_p1_c2"/><persName ref="#Darioleta">Darioleta</persName> rose,<anchor ana="end"/> 
                   <anchor ana="start" type="add"/>and threw a mantle over her mistress,<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c3"/>and they went into the garden.<anchor ana="end"/>
                </s>
@@ -45,8 +43,7 @@
                   <anchor ana="start" synch="#M1_p1_c13"/>her whole body trembled, and her voice that she could not speak.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M1_p1_c18"/>
-                  <persName ref="#Perion">King Perion</persName> had fallen asleep,<anchor ana="end"/> 
+                  <anchor ana="start" synch="#M1_p1_c18"/><persName ref="#Perion">King Perion</persName> had fallen asleep,<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c19"/>he dreamt that some one, he knew not who, entered his chamber by a secret door,<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c20"/>who thrusting a hand between his ribs,<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c21"/>took out his heart and threw it into the river.<anchor ana="end"/>
@@ -67,8 +64,7 @@
                   <anchor ana="start" synch="#M1_p1_c29"/>and leaping from the bed he caught up his sword and shield.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M1_p1_c31"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>What is this?<milestone unit="said" ana="end"/><anchor ana="end"/> 
+                  <anchor ana="start" synch="#M1_p1_c31"/><milestone unit="said" ana="start" resp="#Darioleta"/>What is this?<milestone unit="said" ana="end"/><anchor ana="end"/> 
                   <anchor ana="start" type="add"/>cried<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c30"/>Darioleta.<anchor ana="end"/>
                </s>
@@ -118,12 +114,9 @@
                   <anchor ana="start" synch="#M1_p1_c83"/>Darioleta returned to the chamber.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M1_p1_c84"/>
-                  <milestone unit="said" ana="start" resp="#Darioleta"/>I know, Lady,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M1_p1_c83"/>
-                  <milestone unit="said" ana="intStart"/> said she,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M1_p1_c84"/>
-                  <milestone unit="said" ana="intEnd"/>that heretofore you have been better pleased with me than you are now; but we must go, for time<anchor ana="end"/> 
+                  <anchor ana="start" synch="#M1_p1_c84"/><milestone unit="said" ana="start" resp="#Darioleta"/>I know, Lady,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M1_p1_c83"/><milestone unit="said" ana="intStart"/> said she,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M1_p1_c84"/><milestone unit="said" ana="intEnd"/>that heretofore you have been better pleased with me than you are now; but we must go, for time<anchor ana="end"/> 
                   <anchor ana="start" type="add"/>calleth us.<anchor ana="end"/>
                   <milestone unit="said" ana="end"/>
                </s>

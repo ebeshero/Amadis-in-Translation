@@ -48,11 +48,17 @@
     </xsl:template>
     <xsl:template match="anchor[@ana = 'start']">
         <xsl:variable name="match" select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]"/>
-        <xsl:variable name="text"
+        <!--  heb: We create a variable with the Southey's chunks of text, 
+            eliminating the notes so these are not taken into account
+        for the word count statistics-->
+        <xsl:variable name="southey-text"
             select="
                 current()/following::text()
                 except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()//following::note//text()"/>
-        <xsl:variable name="correction" select="string-join($text/replace(., '[.,/?:;]', ''))"/>
+        <!--  heb: We replace the punctuation marks and join the different chunks of text with an space so 
+            as to be sure that the tokenization is done correctly-->
+        <xsl:variable name="correction"
+            select="string-join($southey-text/replace(., '[.,/?:;]', ''))"/>
         <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
         <xsl:variable name="montalvo-words" select="count(tokenize($match, '\s+'))"/>
         <xsl:element name="fs">
@@ -67,8 +73,7 @@
                     <xsl:value-of select="$southey-words"/>
                 </xsl:attribute>
                 <xsl:if test="@synch">
-                    <xsl:attribute name="ana">
-                        <xsl:value-of
+                    <xsl:attribute name="ana"><xsl:value-of
                             select="round-half-to-even(($montalvo-words - $southey-words) div $southey-words, 2)"
                         />
                     </xsl:attribute>
@@ -76,13 +81,37 @@
                 <xsl:if test="current()/parent::note">
                     <xsl:attribute name="rendition">note</xsl:attribute>
                 </xsl:if>
-                <string>
-                    <xsl:value-of
-                        select="
-                            current()/following::text()
-                            except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()//following::note//text()"
-                    />
-                </string>
+                <xsl:for-each
+                    select="
+                        current()/following::node()
+                        except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()/following::node()//text()
+                        except current()/following::anchor except current()/following::note/*  except current()/following::milestone">
+                    <xsl:element name="string">                        
+                        <xsl:if test=".[name() = 'persName']">
+                            <xsl:attribute name="ana">persName</xsl:attribute>
+                        </xsl:if>
+                        <xsl:if test=".[name() = 'placeName']">
+                            <xsl:attribute name="ana">placeName</xsl:attribute>
+                        </xsl:if>
+                        <xsl:if test=".[name() = 'note']">
+                            <xsl:attribute name="ana">note</xsl:attribute>
+                        </xsl:if>
+                        <xsl:if test=".[@resp]">
+                            <xsl:attribute name="resp"><xsl:value-of select="@resp"/></xsl:attribute>
+                        </xsl:if>
+                        <xsl:if test=".[@rend]">
+                            <xsl:attribute name="rend">
+                                <xsl:value-of select="@rend"/>
+                            </xsl:attribute>
+                        </xsl:if>
+                        <xsl:if test=".[@ref]">
+                            <xsl:attribute name="corresp">
+                                <xsl:value-of select="@ref"/>
+                            </xsl:attribute>
+                        </xsl:if>
+                        <xsl:value-of select="."/>
+                    </xsl:element>
+                </xsl:for-each>
             </xsl:element>
             <xsl:if test="@synch">
                 <xsl:element name="f">
@@ -122,7 +151,7 @@
                         [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
                         following-sibling::cl">
                     <xsl:value-of select="."/>
-                    <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') but it 
+                    <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') as I did for Southey but it 
                    didn't work. To compensate for the last extra space, I was forced to add a ' -1 ' to the count() 
                    function -->
                     <xsl:text> </xsl:text>
@@ -160,4 +189,5 @@
             </xsl:element>
         </xsl:if>
     </xsl:template>
+    <xsl:template match="persName"/>
 </xsl:stylesheet>

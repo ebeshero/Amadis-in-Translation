@@ -26,12 +26,10 @@
    <text>
       <body>
          <div type="chapter" xml:id="S21">
-            <head>Chapter 21. <locus from="189" to="194"/>
-            </head>
+            <head>Chapter 21. <locus from="189" to="194"/></head>
 
             <p>
-               <anchor ana="start" synch="#M20_p1_c1"/>
-               <s>Such speed made <persName ref="#Arcalaus">Arcalaus</persName> in the armour and on
+               <anchor ana="start" synch="#M20_p1_c1"/><s>Such speed made <persName ref="#Arcalaus">Arcalaus</persName> in the armour and on
                   the horse of him whom he had enchanted, that on the tenth day he met <persName ref="#Lisuarte">King Lisuarte</persName> riding abroad in the morning to take
                   the air,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c2"/>accompanied with a great train.<anchor ana="end"/>
@@ -46,8 +44,7 @@
                </s>
                <s>
                   <anchor ana="start" synch="#M20_p1_c10"/>Arcalaus came before the King and said,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c11"/>
-                  <milestone unit="said" ana="start" resp="#Arcalaus"/>I come, Sir, to acquit a
+                  <anchor ana="start" synch="#M20_p1_c11"/><milestone unit="said" ana="start" resp="#Arcalaus"/>I come, Sir, to acquit a
                   promise wherein I stand bound, to let you understand how I have slain a Knight in
                   battle.</s>
                <s>And albeit I must be content to declare mine own praise, which were more
@@ -59,9 +56,8 @@
                   <anchor ana="start" synch="#M20_p1_c14"/>and present himself before you as this
                      day.<anchor ana="end"/>
                </s>
-               <s>
-                  <anchor ana="start" synch="#M20_p1_c15"/>
-                  <!-- st 8.26.15 all inside c.15 but Southey reverses the order -->If he slew me, I
+               <s><!-- st 8.26.15 all inside c.15 but Southey reverses the order -->
+                  <anchor ana="start" synch="#M20_p1_c15"/>If he slew me, I
                   told him it was Arcalaus whom he would slay; and much was I grieved when he said
                   he was the Queen's Knight<anchor ana="end"/>, <anchor ana="start" synch="#M20_p1_c16"/>and by name Amadis of Gaul.<anchor ana="end"/>
                </s>
@@ -75,8 +71,7 @@
             </p>
             <p resp="#Southey">
                <s>
-                  <anchor ana="start" synch="#M20_p1_c19"/>
-                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Holy Mary!<milestone unit="said" ana="intStart"/> exclaimed the King,<milestone unit="said" ana="intEnd"/> is the best Knight in the world slain?<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c19"/><milestone unit="said" ana="start" resp="#Lisuarte"/>Holy Mary!<milestone unit="said" ana="intStart"/> exclaimed the King,<milestone unit="said" ana="intEnd"/> is the best Knight in the world slain?<anchor ana="end"/>
                   <milestone unit="said" ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c21"/>and with that they all began to
                      lament.<anchor ana="end"/>
@@ -87,7 +82,7 @@
                      death,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c22"/>which they with their own swords would at
                   once have given him but for his own tale,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/> how Amadis was slain in an accorded
+                  <anchor ana="start" type="add"/>how Amadis was slain in an accorded
                      battle.<anchor ana="end"/>
                </s>
             </p>
@@ -101,8 +96,7 @@
                   <anchor ana="start" synch="#M20_p1_c26"/>and she and all her Ladies
                   lamented, for greatly was Amadis beloved by all;<anchor ana="end"/>
                   <anchor ana="start" type="add"/>but<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c27"/>
-                  <persName ref="#Oriana">Oriana</persName>
+                  <anchor ana="start" synch="#M20_p1_c27"/><persName ref="#Oriana">Oriana</persName>
                   hearing their lamentation sent the <persName ref="#Damsel_Denmark">Damsel of
                      Denmark</persName> to enquire its cause,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c28"/>who presently returned beating her
@@ -110,13 +104,11 @@
                   <anchor ana="start" synch="#M20_p1_c29"/>and with a wild cry looked at
                   Oriana.</s><anchor ana="end"/>
                <s>
-                  <anchor ana="start" synch="#M20_p1_c30"/>
-                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Ah, Lady! what a
+                  <anchor ana="start" synch="#M20_p1_c30"/><milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Ah, Lady! what a
                   grief--what a misery!<milestone unit="said" ana="end"/>
                </s>
                <s>So that Oriana trembled from head to foot, and exclaimed,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c31"/>
-                  <milestone unit="said" ana="start" resp="#Oriana"/>Holy Virgin, if Amadis should be dead!<milestone unit="said" ana="end"/><anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c31"/><milestone unit="said" ana="start" resp="#Oriana"/>Holy Virgin, if Amadis should be dead!<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" synch="#M20_p1_c32"/>The Damsel answered, <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>ah me, he is dead!<milestone unit="said" ana="end"/> and with that Oriana's heart died away within her, and
@@ -125,8 +117,7 @@
                <s>
                   <anchor ana="start" synch="#M20_p1_c33"/>Then ran the Damsel to <persName ref="#Mabilia">Mabilia</persName><anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c34"/>tearing her hair,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c35"/>
-                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>help, help, for my Lady is dying.<milestone unit="said" ana="end"/><anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c35"/><milestone unit="said" ana="start" resp="#Damsel_Denmark"/>help, help, for my Lady is dying.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" synch="#M20_p1_c38"/>Mabilia, though her own grief was so
@@ -160,15 +151,12 @@
                   <anchor ana="start" synch="#M20_p1_c65"/>her hands clenched upon her breast<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c69"/>that Mabilia thought she was indeed dead,
                   and cried,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c70"/>
-                  <milestone unit="said" ana="start" resp="#Mabilia"/>Oh God! let me die also, since they whom I loved best are
+                  <anchor ana="start" synch="#M20_p1_c70"/><milestone unit="said" ana="start" resp="#Mabilia"/>Oh God! let me die also, since they whom I loved best are
                      gone.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M20_p1_c71"/>
-                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>For God's sake, dear Lady,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c70"/>
-                  <milestone unit="said" ana="intStart"/>quoth the Damsel,<milestone unit="said" ana="intEnd"/><anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c71"/><milestone unit="said" ana="start" resp="#Damsel_Denmark"/>For God's sake, dear Lady,<anchor ana="end"/>
+                  <anchor ana="start" synch="#M20_p1_c70"/><milestone unit="said" ana="intStart"/>quoth the Damsel,<milestone unit="said" ana="intEnd"/><anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c71"/>let not your good sense fail you now,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>when it is so needed.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
@@ -183,15 +171,14 @@
                   that she revived.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" type="add"/>
-                  <milestone unit="said" ana="start" resp="#Mabilia"/>Take heart,<milestone unit="said" ana="intStart"/> said Mabilia,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/><milestone unit="said" ana="start" resp="#Mabilia"/>Take heart,<milestone unit="said" ana="intStart"/> said Mabilia,<anchor ana="end"/>
                   <milestone unit="said" ana="intEnd"/>
                   <anchor ana="start" synch="#M20_p1_c58"/>and do not so readily believe such
                      tidings;<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c83"/>that Knight may have borrowed the arms of
                      Amadis,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c84"/>or stolen them:<anchor ana="end"/>
-                  <anchor ana="start" type="add"/> who shall vouch for his truth?</s>
+                  <anchor ana="start" type="add"/>who shall vouch for his truth?</s>
                <milestone unit="said" ana="end"/>
                <s>But Oriana<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c88"/>had fixed her eyes upon the window where
@@ -221,8 +208,7 @@
                <s>
                   <anchor ana="start" synch="#M20_p1_c117"/>But the next day, at the hour when they
                   were about to lay the napkins before the King,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M20_p1_c118"/>
-                  <persName>Brandoyuas</persName> entered
+                  <anchor ana="start" synch="#M20_p1_c118"/><persName>Brandoyuas</persName> entered
                   the palace, leading <persName ref="#Grindalaya">Grindalaya</persName>,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c121"/>and they both went and knelt before the
                      King.<anchor ana="end"/>
@@ -280,7 +266,7 @@
                   <anchor ana="start" type="add"/>and Mabilia<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c145"/>sent for<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c149"/>Grindalaya that they might hear<anchor ana="end"/>
-                  <anchor ana="start" type="add"/> the whole from her own mouth,<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>the whole from her own mouth,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c151"/>and the Princesses would suffer her to
                   eat no where but at their own table,<anchor ana="end"/>
                   <anchor ana="start" synch="#M20_p1_c152"/>that she might relate it more at
