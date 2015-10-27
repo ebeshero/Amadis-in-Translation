@@ -261,6 +261,10 @@ td
     border: 1px solid #330f01;
     padding: 0.5em;
 }
+
+td[title]{
+    font-style:italic
+}
 td.omission{
     background-color: #d61d08;
     color: #faecd2;

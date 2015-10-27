@@ -53,7 +53,6 @@
                 current()/following::text()
                 except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()//following::note//text()"/>
         <xsl:variable name="correction" select="string-join($text/replace(., '[.,/?:;]', ''))"/>
-        
         <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
         <xsl:variable name="montalvo-words" select="count(tokenize($match, '\s+'))"/>
         <xsl:element name="fs">
@@ -73,6 +72,9 @@
                             select="round-half-to-even(($montalvo-words - $southey-words) div $southey-words, 2)"
                         />
                     </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="current()/parent::note">
+                    <xsl:attribute name="rendition">note</xsl:attribute>
                 </xsl:if>
                 <string>
                     <xsl:value-of
@@ -113,22 +115,22 @@
             <xsl:variable name="omission">
                 <xsl:for-each
                     select="
-                    $match/following-sibling::cl[not(@xml:id = current()/
-                    (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                    except $match/following-sibling::cl[not(@xml:id = current()/
-                    (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                    [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
-                    following-sibling::cl">
+                        $match/following-sibling::cl[not(@xml:id = current()/
+                        (following::anchor | preceding::anchor)/substring(@synch, 2))]
+                        except $match/following-sibling::cl[not(@xml:id = current()/
+                        (following::anchor | preceding::anchor)/substring(@synch, 2))]
+                        [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
+                        following-sibling::cl">
                     <xsl:value-of select="."/>
-                   <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') but it 
+                    <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') but it 
                    didn't work. To compensate for the last extra space, I was forced to add a ' -1 ' to the count() 
                    function -->
                     <xsl:text> </xsl:text>
                 </xsl:for-each>
             </xsl:variable>
             <xsl:element name="fs">
-                    <xsl:variable name="corresp">
-                        <xsl:for-each
+                <xsl:variable name="corresp">
+                    <xsl:for-each
                         select="
                             $match/following-sibling::cl[not(@xml:id = current()/
                             (following::anchor | preceding::anchor)/substring(@synch, 2))]
@@ -136,17 +138,25 @@
                             (following::anchor | preceding::anchor)/substring(@synch, 2))]
                             [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
                             following-sibling::cl">
-                            <xsl:value-of select="./@xml:id"/>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:attribute name="corresp"><xsl:value-of select="replace($corresp,'(\d)M', '$1 #M' )"/></xsl:attribute>
+                        <xsl:value-of select="./@xml:id"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:attribute name="corresp">
+                    <xsl:value-of select="replace($corresp, '(\d)M', '$1 #M')"/>
+                </xsl:attribute>
                 <xsl:element name="f">
                     <xsl:variable name="correction" select="$omission/replace(., '[.,/?:;]', '')"/>
-                    <xsl:attribute name="name">montalvo</xsl:attribute>                    
-                    <xsl:attribute name="n"><xsl:value-of select="count(tokenize($correction, '\s+')) - 1"/></xsl:attribute>
-                    <string><xsl:value-of select="$omission"/></string>
+                    <xsl:attribute name="name">montalvo</xsl:attribute>
+                    <xsl:attribute name="n">
+                        <xsl:value-of select="count(tokenize($correction, '\s+')) - 1"/>
+                    </xsl:attribute>
+                    <string>
+                        <xsl:value-of select="$omission"/>
+                    </string>
                 </xsl:element>
-                <f name="type" select="omission"><string>Comments</string></f>
+                <f name="type" select="omission">
+                    <string>Comments</string>
+                </f>
             </xsl:element>
         </xsl:if>
     </xsl:template>

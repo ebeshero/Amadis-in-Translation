@@ -90,6 +90,9 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
     <xsl:template match="fs">
         <tr>
             <xsl:element name="td">
+                <xsl:if test="current()/f[@rendition]">
+                    <xsl:attribute name="title">note</xsl:attribute>
+                </xsl:if>
                 <xsl:if test="current()/not(f[@name = 'montalvo'])">
                     <xsl:attribute name="class">add</xsl:attribute>
                 </xsl:if>
