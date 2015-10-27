@@ -29,6 +29,13 @@
                   the air,
                   accompanied with a great train.
                </string>
+                  <string>Such speed made </string>
+                  <string>Arcalaus</string>
+                  <string> in the armour and on
+                  the horse of him whom he had enchanted, that on the tenth day he met </string>
+                  <string>King Lisuarte</string>
+                  <string> riding abroad in the morning to take
+                  the air,</string>
                </f>
                <f name="montalvo" n="39">
                   <string>Anduvo tanto Arcaláus después que se partió de Amadís donde lo dexó encantado en su cavallo y armado de todas sus armas que a los diez días llegó a casa del rey Lisuarte una mañana cuando el sol salía:</string>
@@ -59,6 +66,7 @@
             <fs corresp="#M20_p1_c5">
                <f name="southey" n="8" ana="0.12">
                   <string>They seeing the horse and arms of </string>
+                  <string>Amadis</string>
                </f>
                <f name="montalvo" n="9">
                   <string>y cuando conocieron el cavallo y también las armas/</string>
@@ -138,6 +146,8 @@
                   and present himself before you as this
                      day.
                </string>
+                  <string>And albeit I must be content to declare mine own praise, which were more
+                  honourable for me being reported by another in mine absence,</string>
                </f>
                <f name="montalvo" n="38">
                   <string>Señor yo vengo a vos porque hize tal pleito de parecer aquí a contar cómo maté en una batalla un cavallero y cierto yo vengo con vergüença porque antes de otros que de mí querría ser loado:</string>
@@ -324,6 +334,7 @@
                      face,
                   and with a wild cry looked at
                   Oriana.</string>
+                  <string>The news spread</string>
                </f>
                <f name="montalvo" n="20">
                   <string>el rey se fue para su palacio muy pensoso y triste a maravilla: y las nuevas sonaron a todas partes:</string>
@@ -373,8 +384,11 @@
             </fs>
             <fs corresp="#M20_p1_c27">
                <f name="southey" n="13" ana="0.77">
+                  <string>Oriana</string>
                   <string>
                   hearing their lamentation sent the </string>
+                  <string>Damsel of
+                     Denmark</string>
                   <string> to enquire its cause,</string>
                </f>
                <f name="montalvo" n="23">
@@ -446,6 +460,7 @@
             <fs corresp="#M20_p1_c33">
                <f name="southey" n="6" ana="2">
                   <string>Then ran the Damsel to </string>
+                  <string>Mabilia</string>
                </f>
                <f name="montalvo" n="18">
                   <string>la donzella que assí la vio dexó de llorar y fuesse a Mabilia que fazía muy gran duelo:</string>
@@ -504,6 +519,12 @@
                   the Princess in her arms, and poured</string>
                   <string ana="note">The
                         English translation says, she unlaced her
+                     garments to give her more liberty, and bathed her temples and pulses with
+                     vinegar and cold water.</string>
+                  <string>The
+                        </string>
+                  <string>English translation</string>
+                  <string> says, she unlaced her
                      garments to give her more liberty, and bathed her temples and pulses with
                      vinegar and cold water.</string>
                   <string> cold water on her face,</string>

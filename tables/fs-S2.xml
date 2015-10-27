@@ -35,6 +35,7 @@
             </fs>
             <fs corresp="#M1_p1_c2">
                <f name="southey" n="2" ana="8">
+                  <string>Darioleta</string>
                   <string> rose,</string>
                </f>
                <f name="montalvo" n="18">
@@ -81,6 +82,7 @@
             <fs>
                <f name="southey" n="3">
                   <string>When </string>
+                  <string>Elisena</string>
                   <string> came</string>
                </f>
                <f name="type" select="add">
@@ -130,6 +132,7 @@
             </fs>
             <fs corresp="#M1_p1_c18">
                <f name="southey" n="5" ana="0">
+                  <string>King Perion</string>
                   <string> had fallen asleep,</string>
                </f>
                <f name="montalvo" n="5">
@@ -4722,6 +4725,7 @@
             <fs>
                <f name="southey" n="2">
                   <string>at </string>
+                  <string>Alima</string>
                   <string>,</string>
                </f>
                <f name="type" select="add">
@@ -4791,6 +4795,7 @@
             <fs corresp="#M1_p1_c100">
                <f name="southey" n="12" ana="0.08">
                   <string>He took leave of </string>
+                  <string>Garinter</string>
                   <string> and the Queen, and having armed himself,</string>
                </f>
                <f name="montalvo" n="13">
@@ -4892,6 +4897,7 @@
             <fs corresp="#M1_p1_c107">
                <f name="southey" n="7" ana="3.43">
                   <string>but making his </string>
+                  <string>Squire</string>
                   <string> procure him another,</string>
                </f>
                <f name="montalvo" n="31">
@@ -5127,6 +5133,7 @@
             <fs corresp="#M1_p1_c126">
                <f name="southey" n="16" ana="0">
                   <string>This so cruel and abominable a custom endured, till the coming of the good </string>
+                  <string>King Arthur</string>
                   <string>,</string>
                </f>
                <f name="montalvo" n="16">
@@ -5150,7 +5157,9 @@
             <fs corresp="#M1_p1_c128">
                <f name="southey" n="18" ana="-0.11">
                   <string>and he revoked it at the time when he slew </string>
+                  <string>Floyon</string>
                   <string> in battle, before the gates of </string>
+                  <string>Paris</string>
                   <string>.</string>
                </f>
                <f name="montalvo" n="16">

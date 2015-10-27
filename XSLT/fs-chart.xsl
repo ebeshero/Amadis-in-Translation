@@ -84,7 +84,7 @@
                         <xsl:for-each
                             select="
                             current()/following::node() 
-                            except (current()/following::node()[@ana = 'end'][1]/following::node()) except current()/following::node()//text()
+                            except (current()/following::node()[@ana = 'end'][1]/following::node())
                             except current()/following::note/* 
                             except current()/following::milestone except current()/following::persName except current()/following::anchor
                             except current()/following::placeName">

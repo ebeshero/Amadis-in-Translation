@@ -24,6 +24,8 @@
             <head>Chapter 3. </head>
             <fs corresp="#M2_p1_c1">
                <f name="southey" n="5" ana="1.6">
+                  <string>King
+                     Perion</string>
                   <string> having departed from</string>
                </f>
                <f name="montalvo" n="13">
@@ -34,7 +36,9 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1"/>
+               <f name="southey" n="1">
+                  <string>Alima</string>
+               </f>
                <f name="type" select="add">
                   <string>Comments</string>
                </f>
@@ -63,7 +67,9 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1"/>
+               <f name="southey" n="1">
+                  <string>Elisena</string>
+               </f>
                <f name="type" select="add">
                   <string>Comments</string>
                </f>
@@ -312,6 +318,7 @@
                <f name="southey" n="17" ana="0">
                   <string>Then one of them
                   whose name was </string>
+                  <string>Ungan the Picard</string>
                   <string>, the most expert
                   of them, thus answered,</string>
                </f>
@@ -412,6 +419,7 @@
                <f name="southey" n="11" ana="-0.27">
                   <string>He
                   first took </string>
+                  <string>Alberto of Champaigne</string>
                   <string> apart, and
                   said to him,</string>
                </f>
@@ -713,6 +721,7 @@
             <fs corresp="#M2_p1_c50.1">
                <f name="southey" n="11" ana="0.36">
                   <string>The King then commanded </string>
+                  <string>Anteles</string>
                   <string> to say what he had discovered.</string>
                </f>
                <f name="montalvo" n="15">
@@ -758,6 +767,8 @@
                   <string>that
                   my art shows me </string>
                   <string ana="note">mis suertes me
+                     muestran.</string>
+                  <string>mis suertes me
                      muestran.</string>
                   <string> it is already done,</string>
                </f>
@@ -821,6 +832,8 @@
                   a little, for it seemed he had said</string>
                   <string ana="note">que no
                      avia dicho nada.</string>
+                  <string>que no
+                     avia dicho nada.</string>
                   <string> something.</string>
                </f>
                <f name="montalvo" n="17">
@@ -833,6 +846,7 @@
             <fs corresp="#M2_p1_c57">
                <f name="southey" n="17" ana="0.06">
                   <string>But </string>
+                  <string>Ungan the Picard</string>
                   <string> who
                   knew much more then they, held down his head and laughed heartily,</string>
                </f>
@@ -1208,6 +1222,8 @@
                   <string>And that other heart that remained?</string>
                   <string>what should
                   that be?</string>
+                  <string>what should
+                  that be?</string>
                </f>
                <f name="montalvo" n="13">
                   <string>Y el otro coraçón dixo el rey que me queda qué será?.</string>
@@ -1426,6 +1442,8 @@
             </fs>
             <fs corresp="#M2_p1_c87.1">
                <f name="southey" n="8" ana="-0.12">
+                  <string>the kingdom of
+                     Ireland</string>
                   <string> shall lose its flower!</string>
                </f>
                <f name="montalvo" n="7">
@@ -1476,8 +1494,15 @@
                   <string>He was called the </string>
                   <string ana="note">Footnote: We have no word for the Donzel
                      of the Spaniards, and Damoisel of the French.</string>
+                  <string>Footnote: We have no word for the </string>
+                  <string>Donzel</string>
+                  <string>
+                     of the Spaniards, and </string>
+                  <string>Damoisel</string>
+                  <string> of the French.</string>
                   <string>
                   </string>
+                  <string>Child of the Sea</string>
                   <string>, for so they had named
                      him,</string>
                </f>
@@ -1533,6 +1558,7 @@
             <fs corresp="#M2_p2_c94">
                <f name="southey" n="5" ana="0.2">
                   <string>One day </string>
+                  <string>Gandales</string>
                   <string> rode forth,</string>
                </f>
                <f name="montalvo" n="6">
@@ -1589,6 +1615,8 @@
             <fs corresp="#M2_p2_c99">
                <f name="southey" n="13" ana="0">
                   <string>He, as he rode along, met </string>
+                  <string>a
+                     Damsel</string>
                   <string>, that thus spake to him.</string>
                </f>
                <f name="montalvo" n="13">
@@ -1766,6 +1794,8 @@
                <f name="southey" n="5" ana="0.8">
                   <string>Sir Knight, God</string>
                   <string ana="note">A
+                     quien Dios de ma’a ventura. It is the Irish phrase, Bad luck to you!</string>
+                  <string>A
                      quien Dios de ma’a ventura. It is the Irish phrase, Bad luck to you!</string>
                   <string>
                   confound thee,</string>
