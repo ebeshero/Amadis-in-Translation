@@ -7,7 +7,7 @@
 
     <!--Command line from Amadis folder: 
         
-java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/chart-pages.xsl -o:html
+java -jar ../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/chart-pages.xsl -o:html
 
     -->
     <xsl:template match="/">
@@ -87,12 +87,9 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
         </xsl:for-each>
 
     </xsl:template>
-    <xsl:template match="fs">
+    <xsl:template match="fs[not(f[@name = 'note'])]">
         <tr>
             <xsl:element name="td">
-                <xsl:if test="current()/f[@rendition]">
-                    <xsl:attribute name="title">note</xsl:attribute>
-                </xsl:if>
                 <xsl:if test="current()/not(f[@name = 'montalvo'])">
                     <xsl:attribute name="class">add</xsl:attribute>
                 </xsl:if>
@@ -102,7 +99,17 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 <xsl:if test="current()/f[@select = 'direct']">
                     <xsl:attribute name="class">direct</xsl:attribute>
                 </xsl:if>
-                <xsl:value-of select="f[@name = 'southey']/string"/>
+                <xsl:if test="parent::f">
+                    <xsl:attribute name="title">note</xsl:attribute>
+                </xsl:if>
+                <xsl:for-each select="f[@name = 'southey']/string">
+                    <xsl:value-of select="current() except current()[@ana = 'note']"/>
+                    <xsl:if test="@ana = 'note'">
+                        <span class="embNote">
+                            <xsl:value-of select="current()"/>
+                        </span>
+                    </xsl:if>
+                </xsl:for-each>
             </xsl:element>
             <xsl:element name="td">
                 <xsl:if test="current()/not(f[@name = 'southey'])">

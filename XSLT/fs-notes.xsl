@@ -4,7 +4,7 @@
     <xsl:output method="xml" indent="yes"/>
 
     <!--    Command line from Amadis folder:
-    java -jar ../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-chart.xsl -o:tables
+    java -jar ../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-notes.xsl -o:tables
     -->
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
@@ -79,34 +79,31 @@
                         />
                     </xsl:attribute>
                 </xsl:if>
-               <xsl:choose>
-                    <xsl:when test="current()/following::note[following::anchor[@ana = 'end'][./preceding::anchor[1][current()]]]">
-                        <xsl:for-each
-                            select="
-                            current()/following::node() 
-                            except (current()/following::node()[@ana = 'end'][1]/following::node())
-                            except current()/following::note/* 
-                            except current()/following::milestone except current()/following::persName except current()/following::anchor
-                            except current()/following::placeName">
-                            <xsl:element name="string">
-                                <xsl:if test=".[name() = 'note']">
-                                    <xsl:attribute name="ana">note</xsl:attribute>
-                                </xsl:if>
-                                <xsl:value-of select="."/>
-                            </xsl:element>
-                        </xsl:for-each>
-                    </xsl:when>
-                    <xsl:otherwise>                        
-                        <string>
-                            <xsl:value-of
-                                select="
-                                current()/following::text()
-                                except (current()/following::node()[@ana = 'end'][1]/following::node())"
-                            />
+                <xsl:choose>
+                    <xsl:when test="current()/following::note[1] except (current()/following::node()[@ana = 'end'][1]/following::note)">
+                        <string ana="start">
+                            <xsl:value-of select="current()/following::text()
+                                except (current()/following::node()[@ana = 'end'][1]/following::node())  except current()/following::text()[ancestor::note]
+                                except (current()/following::note[1]/following::node())
+                                "/>
                         </string>
+                        <string ana="note">
+                            <xsl:value-of select="current()/following::text()[ancestor::note] except (current()/following::node()[@ana = 'end'][1]/following::node())"/>
+                        </string>
+                        <xsl:if test="current()/following::note[1]/following::text() except (current()/following::node()[@ana = 'end'][1]/following::node())">
+                        <string ana="end">
+                            <xsl:value-of select="current()/following::note[1]/following::text()
+                                except (current()/following::node()[@ana = 'end'][1]/following::node()) 
+                                "/>
+                        </string>   </xsl:if>                     
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <string><xsl:value-of select="current()/following::text()
+                            except (current()/following::node()[@ana = 'end'][1]/following::node())
+                            "/></string>
                     </xsl:otherwise>
                 </xsl:choose>
-                
+
             </xsl:element>
             <xsl:if test="@synch">
                 <xsl:element name="f">
@@ -184,7 +181,7 @@
             </xsl:element>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="anchor[@synch][parent::note]">
+    <xsl:template match="anchor[@ana = 'start'][parent::note][1]">
         <xsl:apply-templates select="parent::note"/>
     </xsl:template>
     <xsl:template match="note[.//anchor]">
@@ -250,58 +247,6 @@
                         <string>Comments</string>
                     </xsl:element>
                 </xsl:element>
-                <xsl:if
-                    test="
-                        $match[following-sibling::cl[1]
-                        [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
-                    <xsl:variable name="omission">
-                        <xsl:for-each
-                            select="
-                                $match/following-sibling::cl[not(@xml:id = current()/
-                                (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                                except $match/following-sibling::cl[not(@xml:id = current()/
-                                (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                                [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
-                                following-sibling::cl">
-                            <xsl:value-of select="."/>
-                            <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') as I did for Southey but it 
-                   didn't work. To compensate for the last extra space, I was forced to add a ' -1 ' to the count() 
-                   function -->
-                            <xsl:text> </xsl:text>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:element name="fs">
-                        <xsl:variable name="corresp">
-                            <xsl:for-each
-                                select="
-                                    $match/following-sibling::cl[not(@xml:id = current()/
-                                    (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                                    except $match/following-sibling::cl[not(@xml:id = current()/
-                                    (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                                    [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
-                                    following-sibling::cl">
-                                <xsl:value-of select="./@xml:id"/>
-                            </xsl:for-each>
-                        </xsl:variable>
-                        <xsl:attribute name="corresp">
-                            <xsl:value-of select="replace($corresp, '(\d)M', '$1 #M')"/>
-                        </xsl:attribute>
-                        <xsl:element name="f">
-                            <xsl:variable name="correction"
-                                select="$omission/replace(., '[.,/?:;]', '')"/>
-                            <xsl:attribute name="name">montalvo</xsl:attribute>
-                            <xsl:attribute name="n">
-                                <xsl:value-of select="count(tokenize($correction, '\s+')) - 1"/>
-                            </xsl:attribute>
-                            <string>
-                                <xsl:value-of select="$omission"/>
-                            </string>
-                        </xsl:element>
-                        <f name="type" select="omission">
-                            <string>Comments</string>
-                        </f>
-                    </xsl:element>
-                </xsl:if>
             </xsl:for-each>
         </f>
         </fs>

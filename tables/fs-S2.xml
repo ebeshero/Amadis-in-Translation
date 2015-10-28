@@ -35,8 +35,7 @@
             </fs>
             <fs corresp="#M1_p1_c2">
                <f name="southey" n="2" ana="8">
-                  <string>Darioleta</string>
-                  <string> rose,</string>
+                  <string>Darioleta rose,</string>
                </f>
                <f name="montalvo" n="18">
                   <string>Darioleta se levantó y tomó a Elisena assí desnuda como en su lecho estava solamente la camisa:</string>
@@ -81,9 +80,7 @@
             </fs>
             <fs>
                <f name="southey" n="3">
-                  <string>When </string>
-                  <string>Elisena</string>
-                  <string> came</string>
+                  <string>When Elisena came</string>
                </f>
                <f name="type" select="add">
                   <string>Comments</string>
@@ -132,8 +129,7 @@
             </fs>
             <fs corresp="#M1_p1_c18">
                <f name="southey" n="5" ana="0">
-                  <string>King Perion</string>
-                  <string> had fallen asleep,</string>
+                  <string>King Perion had fallen asleep,</string>
                </f>
                <f name="montalvo" n="5">
                   <string>y del sueño vencido adormióse/</string>
@@ -199,8 +195,7 @@
             </fs>
             <fs corresp="#M1_p1_c22.1">
                <f name="southey" n="11" ana="0.18">
-                  <string>and was answered--</string>
-                  <string>it is nothing! there is another heart left there</string>
+                  <string>and was answered--it is nothing! there is another heart left there</string>
                </f>
                <f name="montalvo" n="13">
                   <string>No es nada esto dezía él que allá os queda otro coraçón:</string>
@@ -433,8 +428,18 @@
             <fs corresp="#M1_p1_c43">
                <f name="southey" n="22" ana="0.68">
                   <string>in whom as he beheld her by the light of the three torches, he thought all the beauty of the world was</string>
+               </f>
+               <f name="montalvo" n="37">
+                  <string>que a la lumbre de tres hachas que en la cámara Ardían la mirava paresciéndole que toda la hermosura del mundo en ella era junta teniéndose por muy bienaventurado en que Dios a tal estado lo truxera:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="note">
                   <fs>
-                     <f name="southey" n="8" rendition="note">
+                     <f name="southey" n="8">
                         <string>Here, says the Spanish author, we should learn,</string>
                      </f>
                      <f name="type" select="add">
@@ -442,7 +447,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c52">
-                     <f name="southey" n="10" ana="0.2" rendition="note">
+                     <f name="southey" n="10" ana="0.2">
                         <string>that when women turn aside their thoughts from worldly things,</string>
                      </f>
                      <f name="montalvo" n="12">
@@ -453,7 +458,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c53">
-                     <f name="southey" n="10" ana="0" rendition="note">
+                     <f name="southey" n="10" ana="0">
                         <string>despising the great beauty with which Nature has endowed them,</string>
                      </f>
                      <f name="montalvo" n="10">
@@ -464,7 +469,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c54">
-                     <f name="southey" n="8" ana="0.12" rendition="note">
+                     <f name="southey" n="8" ana="0.12">
                         <string>the fresh youth which so much increases it,</string>
                      </f>
                      <f name="montalvo" n="9">
@@ -475,7 +480,7 @@
                      </f>
                   </fs>
                   <fs>
-                     <f name="southey" n="1" rendition="note">
+                     <f name="southey" n="1">
                         <string>and</string>
                      </f>
                      <f name="type" select="add">
@@ -483,7 +488,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c55">
-                     <f name="southey" n="16" ana="-0.12" rendition="note">
+                     <f name="southey" n="16" ana="-0.12">
                         <string>the delights and pleasures which with the riches of their parents they might hope to enjoy,</string>
                      </f>
                      <f name="montalvo" n="14">
@@ -494,7 +499,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c56">
-                     <f name="southey" n="26" ana="-0.27" rendition="note">
+                     <f name="southey" n="26" ana="-0.27">
                         <string>and chuse for the salvation of their souls to place themselves as recluses in poor habitations, and offer up with all obedience their own free will</string>
                      </f>
                      <f name="montalvo" n="19">
@@ -505,7 +510,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c57">
-                     <f name="southey" n="19" ana="-0.05" rendition="note">
+                     <f name="southey" n="19" ana="-0.05">
                         <string>to be subject to others, and pass their time without any of the pleasures or glories of the world,</string>
                      </f>
                      <f name="montalvo" n="18">
@@ -516,7 +521,7 @@
                      </f>
                   </fs>
                   <fs>
-                     <f name="southey" n="1" rendition="note">
+                     <f name="southey" n="1">
                         <string>though</string>
                      </f>
                      <f name="type" select="add">
@@ -524,7 +529,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c58">
-                     <f name="southey" n="7" ana="0.29" rendition="note">
+                     <f name="southey" n="7" ana="0.29">
                         <string>their sisters and kindred are enjoying them;</string>
                      </f>
                      <f name="montalvo" n="9">
@@ -535,7 +540,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c59">
-                     <f name="southey" n="9" ana="-0.11" rendition="note">
+                     <f name="southey" n="9" ana="-0.11">
                         <string>they ought with great earnestness to stop their ears,</string>
                      </f>
                      <f name="montalvo" n="8">
@@ -546,7 +551,7 @@
                      </f>
                   </fs>
                   <fs>
-                     <f name="southey" n="1" rendition="note">
+                     <f name="southey" n="1">
                         <string>and</string>
                      </f>
                      <f name="type" select="add">
@@ -554,7 +559,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c60">
-                     <f name="southey" n="3" ana="0" rendition="note">
+                     <f name="southey" n="3" ana="0">
                         <string>close their eyes,</string>
                      </f>
                      <f name="montalvo" n="3">
@@ -565,7 +570,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c61">
-                     <f name="southey" n="7" ana="-0.14" rendition="note">
+                     <f name="southey" n="7" ana="-0.14">
                         <string>and refuse to see friend or relation,</string>
                      </f>
                      <f name="montalvo" n="6">
@@ -576,7 +581,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c62">
-                     <f name="southey" n="9" ana="0" rendition="note">
+                     <f name="southey" n="9" ana="0">
                         <string>but retiring altogether to devout contemplation and holy prayer,</string>
                      </f>
                      <f name="montalvo" n="9">
@@ -587,7 +592,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c63">
-                     <f name="southey" n="9" ana="0" rendition="note">
+                     <f name="southey" n="9" ana="0">
                         <string>think them the true delights, as indeed they are;</string>
                      </f>
                      <f name="montalvo" n="9">
@@ -598,7 +603,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c64">
-                     <f name="southey" n="2" ana="1" rendition="note">
+                     <f name="southey" n="2" ana="1">
                         <string>lest by</string>
                      </f>
                      <f name="montalvo" n="4">
@@ -609,7 +614,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c65">
-                     <f name="southey" n="1" ana="6" rendition="note">
+                     <f name="southey" n="1" ana="6">
                         <string>seeing</string>
                      </f>
                      <f name="montalvo" n="7">
@@ -620,7 +625,7 @@
                      </f>
                   </fs>
                   <fs>
-                     <f name="southey" n="2" rendition="note">
+                     <f name="southey" n="2">
                         <string>and hearing,</string>
                      </f>
                      <f name="type" select="add">
@@ -628,7 +633,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c65">
-                     <f name="southey" n="5" ana="0.4" rendition="note">
+                     <f name="southey" n="5" ana="0.4">
                         <string>their religious purposes be overcome,</string>
                      </f>
                      <f name="montalvo" n="7">
@@ -639,7 +644,7 @@
                      </f>
                   </fs>
                   <fs>
-                     <f name="southey" n="2" rendition="note">
+                     <f name="southey" n="2">
                         <string>and it</string>
                      </f>
                      <f name="type" select="add">
@@ -647,7 +652,7 @@
                      </f>
                   </fs>
                   <fs corresp="#M1_p1_c66">
-                     <f name="southey" n="11" ana="0.18" rendition="note">
+                     <f name="southey" n="11" ana="0.18">
                         <string>should be with them as it was with the Princess Elisena.</string>
                      </f>
                      <f name="montalvo" n="13">
@@ -658,13 +663,6 @@
                      </f>
                   </fs>
                </f>
-               <f name="montalvo" n="37">
-                  <string>que a la lumbre de tres hachas que en la cámara Ardían la mirava paresciéndole que toda la hermosura del mundo en ella era junta teniéndose por muy bienaventurado en que Dios a tal estado lo truxera:</string>
-               
-               </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
             </fs>
             <fs corresp="M1_p1_c44 #M1_p1_c45 #M1_p1_c46 #M1_p1_c47 #M1_p1_c48 #M1_p1_c49 #M1_p1_c50 #M1_p1_c51">
                <f name="montalvo" n="80">
@@ -674,33 +672,6 @@
                         día/ cuando el su pensamiento más de aquello apartado y
                         desviado estava: el cual amor rompiendo aquellas fuertes ataduras de su
                         honesta y sancta vida se la hizo perder/ quedando de allí adelante dueña. Por donde se da a entender/ </string>
-               </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
-
-            <fs corresp="M1_p1_c67 #M1_p1_c68 #M1_p1_c69 #M1_p1_c70 #M1_p1_c71 #M1_p1_c72 #M1_p1_c73 #M1_p1_c74 #M1_p1_c75 #M1_p1_c76 #M1_p1_c77 #M1_p1_c78 #M1_p1_c79 #M1_p1_c80 #M1_p1_c81 #M1_p1_c82">
-               <f name="montalvo" n="227">
-                  <string>que en cabo de tanto tiempo que guardarse quiso/ en solo un momento viendo la gran hermosura de aquel rey
-                        Perión fue su propósito mudado de tal forma que si no fuera por la
-                        discreción de aquella donzella suya que su honra con el matrimonio reparar
-                        quiso en verdad ella de todo punto era determinada de caer en la peor y más
-                        baxa parte de su deshonra: assí como otras muchas que en este mundo contarse
-                        podrían/ que por no se guardar de lo ya dicho lo hizieron y
-                        adelante harán nolo mirando. Pues assí estando estos dos amantes en su solaz. Elisena preguntó al rey Perión si su partida sería
-                        breve: y él le dixo. 
-                        Por qué mi buena señora
-                        lo preguntáis?
-                        Porque esta buena
-                        ventura dixo ella que en tanto gozo y descanso mis mortales
-                        desseos ha puesto/ ya me amenaza con la gran tristura y congoxa que vuestra
-                        ausencia me porná a ser por ella más cerca de la muerte que no de la
-                            vida.
-                     Oídas por él estas razones dixo/ 
-                        No tengáis temor de esso
-                        que aunque este mi cuerpo de vuestra presencia sea partido: el mi coraçón junto con el vuestro quedará: que a entrambos dará su esfuerço/ a vos para sufrir y a mí para cedo me tornar: que yendo sin él/ no ay otra fuerça tan dura que detenerme pueda.
-                     </string>
                </f>
                <f name="type" select="omission">
                   <string>Comments</string>
@@ -912,9 +883,7 @@
             </fs>
             <fs>
                <f name="southey" n="2">
-                  <string>at </string>
-                  <string>Alima</string>
-                  <string>,</string>
+                  <string>at Alima,</string>
                </f>
                <f name="type" select="add">
                   <string>Comments</string>
@@ -982,9 +951,7 @@
             </fs>
             <fs corresp="#M1_p1_c100">
                <f name="southey" n="12" ana="0.08">
-                  <string>He took leave of </string>
-                  <string>Garinter</string>
-                  <string> and the Queen, and having armed himself,</string>
+                  <string>He took leave of Garinter and the Queen, and having armed himself,</string>
                </f>
                <f name="montalvo" n="13">
                   <string>Assí despedido del rey Garinter y de la reina armado de todas armas/</string>
@@ -1084,9 +1051,7 @@
             </fs>
             <fs corresp="#M1_p1_c107">
                <f name="southey" n="7" ana="3.43">
-                  <string>but making his </string>
-                  <string>Squire</string>
-                  <string> procure him another,</string>
+                  <string>but making his Squire procure him another,</string>
                </f>
                <f name="montalvo" n="31">
                   <string>y mandó a su escudero que otra espada le buscasse y assí armado solamente las manos y la cabeça encima de su cavallo no con otra compañía sino de su escudero/</string>
@@ -1320,9 +1285,7 @@
             </fs>
             <fs corresp="#M1_p1_c126">
                <f name="southey" n="16" ana="0">
-                  <string>This so cruel and abominable a custom endured, till the coming of the good </string>
-                  <string>King Arthur</string>
-                  <string>,</string>
+                  <string>This so cruel and abominable a custom endured, till the coming of the good King Arthur,</string>
                </f>
                <f name="montalvo" n="16">
                   <string>Y esta tan cruel costumbre y péssima duró hasta la venida del muy virtuoso rey Artur:</string>
@@ -1344,11 +1307,7 @@
             </fs>
             <fs corresp="#M1_p1_c128">
                <f name="southey" n="18" ana="-0.11">
-                  <string>and he revoked it at the time when he slew </string>
-                  <string>Floyon</string>
-                  <string> in battle, before the gates of </string>
-                  <string>Paris</string>
-                  <string>.</string>
+                  <string>and he revoked it at the time when he slew Floyon in battle, before the gates of Paris.</string>
                </f>
                <f name="montalvo" n="16">
                   <string>y la revocó al tiempo que mató en batalla ante las puertas de París al Floyón.</string>
@@ -1753,8 +1712,7 @@
             </fs>
             <fs corresp="#M1_p1_c159">
                <f name="southey" n="3" ana="0.67">
-                  <string>What?</string>
-                  <string> replied Darioleta,</string>
+                  <string>What? replied Darioleta,</string>
                </f>
                <f name="montalvo" n="5">
                   <string>Qué señora dixo ella?</string>
@@ -1776,8 +1734,7 @@
             </fs>
             <fs corresp="#M1_p1_c161">
                <f name="southey" n="5" ana="0.4">
-                  <string>Holy Mary,</string>
-                  <string> then said Elisena,</string>
+                  <string>Holy Mary, then said Elisena,</string>
                </f>
                <f name="montalvo" n="7">
                   <string>Ay Santa María dixo Elisena:</string>
@@ -2137,8 +2094,7 @@
             </fs>
             <fs corresp="#M1_p1_c185.1">
                <f name="southey" n="5" ana="0">
-                  <string>She answered, </string>
-                  <string>I know not.</string>
+                  <string>She answered, I know not.</string>
                </f>
                <f name="montalvo" n="5">
                   <string>No sé dixo ella.</string>
@@ -2149,9 +2105,7 @@
             </fs>
             <fs corresp="#M1_p1_c186">
                <f name="southey" n="9" ana="0.11">
-                  <string>You shall know,</string>
-                  <string> said the Damsel, </string>
-                  <string>when need is.</string>
+                  <string>You shall know, said the Damsel, when need is.</string>
                </f>
                <f name="montalvo" n="10">
                   <string>Saberlo héis dixo la donzella cuando menester será:</string>
@@ -2422,8 +2376,7 @@
             </fs>
             <fs corresp="#M1_p1_c208">
                <f name="southey" n="13" ana="0">
-                  <string>she answered, </string>
-                  <string>and launch him down the stream, and belike he may escape.</string>
+                  <string>she answered, and launch him down the stream, and belike he may escape.</string>
                </f>
                <f name="montalvo" n="13">
                   <string>y lançar en el río dixo ella y por ventura guarescer podrá.</string>
@@ -2514,26 +2467,30 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M1_ft1_p2_c214">
-               <f name="southey" n="8" ana="0" rendition="note">
-                  <string>Este es Amadis sin tiempo, hijo de rey;</string>
-               </f>
-               <f name="montalvo" n="8">
-                  <string>Este es Amadís Sin Tiempo hijo de rey:</string>
-               </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs corresp="#M1_p1_c215">
-               <f name="southey" n="11" ana="0" rendition="note">
-                  <string>y sin tiempo dezia ella porque creya que luego seria muerto.</string>
-               </f>
-               <f name="montalvo" n="11">
-                  <string>y sin tiempo dezía ella porque creía que luego sería muerto:</string>
-               </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
+            <fs>
+               <f name="note">
+                  <fs corresp="#M1_ft1_p2_c214">
+                     <f name="southey" n="8" ana="0">
+                        <string>Este es Amadis sin tiempo, hijo de rey;</string>
+                     </f>
+                     <f name="montalvo" n="8">
+                        <string>Este es Amadís Sin Tiempo hijo de rey:</string>
+                     </f>
+                     <f name="type" select="indefinite">
+                        <string>Comments</string>
+                     </f>
+                  </fs>
+                  <fs corresp="#M1_p1_c215">
+                     <f name="southey" n="11" ana="0">
+                        <string>y sin tiempo dezia ella porque creya que luego seria muerto.</string>
+                     </f>
+                     <f name="montalvo" n="11">
+                        <string>y sin tiempo dezía ella porque creía que luego sería muerto:</string>
+                     </f>
+                     <f name="type" select="indefinite">
+                        <string>Comments</string>
+                     </f>
+                  </fs>
                </f>
             </fs>
             <fs corresp="#M1_ft1_p2_c214">
@@ -2772,10 +2729,7 @@
             </fs>
             <fs corresp="#M1_p1_c233">
                <f name="southey" n="16" ana="0.44">
-                  <string>that there was a Knight of </string>
-                  <string>Scotland</string>
-                  <string> sailing on that sea, returning from </string>
-                  <string>the lesser Britain</string>
+                  <string>that there was a Knight of Scotland sailing on that sea, returning from the lesser Britain</string>
                </f>
                <f name="montalvo" n="23">
                   <string>que en la mar iva una barca en que un cavallero de Escocia iva con su muger que de la pequeña Bretaña llevava:</string>
@@ -2805,9 +2759,7 @@
             </fs>
             <fs corresp="#M1_p1_c234">
                <f name="southey" n="10" ana="0.4">
-                  <string>who had newly been delivered of a son called </string>
-                  <string>Gandalin</string>
-                  <string>.</string>
+                  <string>who had newly been delivered of a son called Gandalin.</string>
                </f>
                <f name="montalvo" n="14">
                   <string>parida de un hijo que se llamava Gandalín y el cavallero avía nombre Gandales/</string>
@@ -2971,12 +2923,8 @@
             </fs>
             <fs corresp="#M1_p1_c243">
                <f name="southey" n="43" ana="-0.09">
-                  <string>and the ring and the good sword, and he cursed the mother who had for fear abandoned so fair a child.</string>
-                  <string>
-               </string>
-                  <string>He carefully laid aside all the things that were contained in the ark, and desired his wife to breed up the infant, 
-                  and she ordered the nurse of her own child Gandalin to suckle him.
-               </string>
+                  <string>and the ring and the good sword, and he cursed the mother who had for fear abandoned so fair a child.
+               He carefully laid aside all the things that were contained in the ark, and desired his wife to breed up the infant,</string>
                </f>
                <f name="montalvo" n="39">
                   <string>y el anillo y la espada que muy hermosa le pareció y començó a maldezir la muger que por miedo tal criatura tan cruelmente desamparado avía y guardando aquellas cosas rogó a su muger que lo hiziesse criar:</string>
@@ -2998,9 +2946,7 @@
             </fs>
             <fs corresp="#M1_p1_c245">
                <f name="southey" n="22" ana="0">
-                  <string>So they went their way through the sea with a favourable time, and took port in a town in Scotland called </string>
-                  <string>Antalia</string>
-                  <string>,</string>
+                  <string>So they went their way through the sea with a favourable time, and took port in a town in Scotland called Antalia,</string>
                </f>
                <f name="montalvo" n="22">
                   <string>Pues assí caminaron por la mar con buen tiempo endereçado hasta que aportados fueron una villa de Escocia que Antalia avía nombre:</string>

@@ -265,6 +265,11 @@ td
 td[title]{
     font-style:italic
 }
+
+span.embNote {
+    display:none;
+}
+
 td.omission{
     background-color: #d61d08;
     color: #faecd2;
