@@ -120,7 +120,7 @@
                   donzella:</cl>
                <cl xml:id="M22_p1_c3">y siendo cerca del cavallero puso mano a su espada:</cl>
                <cl xml:id="M22_p1_c4">y dexóse correr al enano por le tajar la cabeça.</cl>
-               <cl xml:id="M22__p1_c5">El enano con miedo dexóse caer del rocín diziendo:</cl>
+               <cl xml:id="M22_p1_c5">El enano con miedo dexóse caer del rocín diziendo:</cl>
                <cl xml:id="M22_p1_c6"><milestone unit="said" resp="#dwarf" ana="start"/>acorredme señor
                   que me matan.<milestone unit="said" ana="end"/></cl>
                <cl xml:id="M22_p1_c7">Amadís que lo vio corrió muy aína y dixo <milestone unit="said"
@@ -141,8 +141,8 @@
                   al más correr de sus cavallos:</cl>
                <cl xml:id="M22_p1_c17">y encontráronse en los escudos tan fuertemente que los falsaron
                   y las lórigas tanbién/</cl>
-               <cl xml:id="M22_c18">y juntáronse los cavallos y ellos de los cuerpos y de los yelmos
-                  de tal guisa que cayeron a sendas <!--pies-->partes grandes caídas:</cl>
+               <cl xml:id="M22_p1_c18">y juntáronse los cavallos y ellos de los cuerpos y de los yelmos
+                  de tal guisa que cayeron a sendas partes grandes caídas:</cl>
                <cl xml:id="M22_p1_c19">pero luego fueron en pie:</cl>
                <cl xml:id="M22_p1_c20">y començaron la batalla de las espadas tan cruel y tan fuerte
                   que no avía persona que la viesse que de ello no fuesse espantado:</cl>
@@ -246,7 +246,7 @@
                   Amadís:</cl>
                <cl xml:id="M22_p1_c69">que esse es vuestro hermano don Galaor el que vos
                      buscáis.<milestone unit="said" ana="end"/></cl>
-               <cl xml:id="M22_c70">Cuando Amadís lo oyó dexó caer la espada y el escudo en el
+               <cl xml:id="M22_p1_c70">Cuando Amadís lo oyó dexó caer la espada y el escudo en el
                   campo:</cl>
                <cl xml:id="M22_p1_c71">y fue contra él diziendo.</cl>
                <cl xml:id="M22_p1_c72"><milestone unit="said" ana="start" resp="#Amadis"/>Ay hermano
