@@ -843,12 +843,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="M20_p1_c80 #M20_p1_c81 #M20_p1_c82">
-               <f name="montalvo" n="25">
+            <fs corresp="M20_p1_c80 #M20_p1_c81">
+               <f name="montalvo" n="8">
                   <string>y díxole: 
                   ay señora qué poco seso
-                  este: que assí os dexáis morir con nuevas tan livianas como aquel
-                  cavallero traxo no sabiendo ser verdad: </string>
+                  este: </string>
                </f>
                <f name="type" select="omission">
                   <string>Comments</string>
@@ -862,24 +861,15 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c58">
-               <f name="southey" n="8" ana="1.38">
+            <fs corresp="#M20_p1_c82">
+               <f name="southey" n="8" ana="1.12">
                   <string>and do not so readily believe such
                      tidings;</string>
                </f>
-               <f name="montalvo" n="19">
-                  <string>que aunque en la tierra fría es su morada donde desfechos y consumidos serán aquel gran encendimiento de amor/</string>
+               <f name="montalvo" n="17">
+                  <string>que assí os dexáis morir con nuevas tan livianas como aquel cavallero traxo no sabiendo ser verdad:</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs corresp="M20_p1_c59">
-               <f name="montalvo" n="10">
-                  <string>que seyendo en esta vida apartados con tanta afición
-                  sostenían: </string>
-               </f>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>

@@ -4,7 +4,7 @@
     <xsl:output method="xml" indent="yes"/>
 
     <!--    Command line from Amadis folder:
-    java -jar ../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-notes.xsl -o:tables
+    java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-notes.xsl -o:tables
     -->
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
