@@ -22,6 +22,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                         Text Encoding Initiative, romance of chivalry, libro de caballerías, libro de caballería, digital humanities, 
                         dh, textual scholarship, digital scholarship, translation studies, studies in translation"/>
                         <link rel="stylesheet" type="text/css" href="amadis.css"/>
+                        <script type="text/javascript" src="notes.js">/**/</script>
                     </head>
                     <body>
                         <h1>Alignment charts</h1>
@@ -102,10 +103,13 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 <xsl:if test="parent::f">
                     <xsl:attribute name="title">note</xsl:attribute>
                 </xsl:if>
+                <xsl:if test="current()/f[string[@ana='note']]">
+                    <xsl:attribute name="class">embNote</xsl:attribute>
+                </xsl:if>
                 <xsl:for-each select="f[@name = 'southey']/string">
                     <xsl:value-of select="current() except current()[@ana = 'note']"/>
                     <xsl:if test="@ana = 'note'">
-                        <span class="embNote">
+                        <span class="noteContents">
                             <xsl:value-of select="current()"/>
                         </span>
                     </xsl:if>

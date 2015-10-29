@@ -266,9 +266,13 @@ td[title]{
     font-style:italic
 }
 
-span.embNote {
-    /*display:none;*/
-    font-style:italic
+span.noteContents {
+    display:none;
+}
+
+td.embNote {
+    text-decoration:underline;
+    cursor:pointer;
 }
 
 td.omission{
