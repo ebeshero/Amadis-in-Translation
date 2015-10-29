@@ -267,7 +267,8 @@ td[title]{
 }
 
 span.embNote {
-    display:none;
+    /*display:none;*/
+    font-style:italic
 }
 
 td.omission{
