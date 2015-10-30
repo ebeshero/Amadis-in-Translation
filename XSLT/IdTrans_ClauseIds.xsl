@@ -62,7 +62,7 @@
         <!--ebb 2015-08-26: This is for placing xml:ids on lines of poetry, which will most likely, 
             Stacey says, sit within floatingText elements. 
             Line-groups may or may not be positioned inside
-            paragraphs, and since they're fundamentallly distinct from our <cl> units, it seems simplest just 
+            paragraphs, and since they're fundamentally distinct from our <cl> units, it seems simplest just 
             to encode their relationship to their ancestor <floatingText>. 
           
             We don't care about getting stanza numbers or line positions inside stanzas, so 
