@@ -79,7 +79,7 @@
                   <anchor ana="start" type="add"/>and Perion<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c42"/>remained alone with<anchor ana="end"/> 
                   <anchor ana="start" type="add"/>Elisena,<anchor ana="end"/> 
-                  <anchor ana="start" synch="#M1_p1_c43"/>in whom as he beheld her by the light of the three torches, he thought all the beauty of the world was<anchor ana="end"/>
+                  <anchor ana="start" synch="#M1_p1_c43"/>in whom as he beheld her by the light of the three torches, he thought all the beauty of the world was
                   <note anchored="true" resp="#Southey">
                      <anchor ana="start" type="add"/>Here, says the Spanish author, we should learn,<anchor ana="end"/> 
                      <anchor ana="start" synch="#M1_p1_c52"/>that when women turn aside their thoughts from worldly things,<anchor ana="end"/> 
@@ -103,8 +103,8 @@
                      <anchor ana="start" synch="#M1_p1_c65"/>their religious purposes be overcome,<anchor ana="end"/> 
                      <anchor ana="start" type="add"/>and it<anchor ana="end"/> 
                      <anchor ana="start" synch="#M1_p1_c66"/>should be with them as it was with the Princess Elisena.<anchor ana="end"/>
-                  </note> centered.</s> 
-<!--               heb: this word has no anchor-->
+                  </note> centered.<anchor ana="end"/></s> 
+<!--2015-11-3 ebb: Addressed in response to heb: Altered the Schematron to permit this word (and others like it) to be caught in a sequence of anchors in the main text vs. the notes. -->
             </p>
             
            

@@ -85,25 +85,40 @@
   </pattern>
   
   <pattern> 
-    <rule context="tei:anchor[@ana][preceding::tei:anchor[@ana]]/@ana">
-      <report test="matches(., preceding::tei:anchor[@ana][1]/@ana)">
-        The @ana must NOT be the same on two subsequent milestones for transUnit!
+    <rule context="tei:anchor[@ana][not(ancestor::tei:note)][preceding::tei:anchor[@ana][not(ancestor::tei:note)]]/@ana">
+      <report test="matches(., preceding::tei:anchor[@ana][not(ancestor::tei:note)][1]/@ana)">
+        The @ana must NOT be the same on two subsequent anchor elements in the main text!
+      </report>   
+    </rule>
+    <rule context="tei:anchor[@ana][ancestor::tei:note][preceding::tei:anchor[@ana][ancestor::tei:note]]/@ana">
+      <report test="matches(., preceding::tei:anchor[@ana][ancestor::tei:note][1]/@ana)">
+        The @ana must NOT be the same on two subsequent anchor elements within a note!
       </report>   
     </rule>
   </pattern>
 
   <pattern>
-    <rule context="tei:anchor[@ana eq 'start']">
-      <report test="following::tei:anchor[@ana][1][@ana eq 'intEnd']">
-        In tagging a disconnected (interrupted) series of translations, the value of @ana for the next milestone after "start" must never be "intEnd"!
+    <rule context="tei:anchor[@ana eq 'start'][not(ancestor::tei:note)]">
+      <report test="following::tei:anchor[@ana][not(ancestor::tei:note)][1][@ana eq 'intEnd']">
+        In tagging a disconnected (interrupted) series of translations in the main text, the value of @ana for the next anchor after "start" must never be "intEnd"!
+      </report>
+    </rule>
+    <rule context="tei:anchor[@ana eq 'start'][ancestor::tei:note]">
+      <report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">
+        In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
       </report>
     </rule>
   </pattern>
 
   <pattern>
-    <rule context="tei:anchor[@ana eq 'intStart']">
-      <assert test="following::tei:anchor[@ana][1][@ana eq 'intEnd']">
-        After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
+    <rule context="tei:anchor[@ana eq 'intStart'][not(ancestor::tei:note)]">
+      <assert test="following::tei:anchor[@ana][not(ancestor::tei:note)][1][@ana eq 'intEnd']">
+        After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!
+      </assert>
+    </rule>
+    <rule context="tei:anchor[@ana eq 'intStart'][ancestor::tei:note]">
+      <assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">
+        After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!
       </assert>
     </rule>
   </pattern>
@@ -177,7 +192,7 @@
       <!-- but I'm not sure, and would need to test; but I'd be inclined to -->
       <!-- add normalize-space(), too. -sb                                  -->
       <assert test="compare(tokenize(parent::tei:div/tei:head/string(), ' ')[2], $Roman_Cnum) eq 0">
-      The xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!</assert>
+      The @xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!</assert>
       <assert test="contains(tokenize(base-uri(), '_')[last()], $M_C)">
         The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
       </assert>
@@ -188,7 +203,7 @@
     <rule context="tei:div[@type eq 'chapter']/@xml:id[contains(., 'S')]">
       <let name="S_Cnum" value="substring-after(., 'S')"/>
       <assert test="contains(parent::tei:div/tei:head/string(), $S_Cnum)">
-        The xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+        The @xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
       </assert>
       <assert test="contains(tokenize(base-uri(), '_')[last()], $S_Cnum)">
         The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
