@@ -7,13 +7,13 @@
 
     <!--Command line from Amadis folder: 
         
-java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/toc2.xsl -o:html
+java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/toc-overlapped-bars.xsl -o:html
 
     -->
 
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
-        <xsl:result-document href="{'../html/toc2.html'}">
+        <xsl:result-document href="{'../html/toc.html'}">
             <html>
                 <head>
                     <title>Table of contents</title>
@@ -61,30 +61,29 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
         <xsl:variable name="clauses"
             select="
                 $montalvo-chapter//cl[not(@xml:id = current()//anchor/substring(@synch, 2))]"/>
-        <xsl:variable name="allCl" select="$montalvo-chapter//cl"/>
+        <xsl:variable name="montalvo-clauses" select="$montalvo-chapter//cl"/>
+        <xsl:variable name="southey-chapter"  select="//head/substring-before(., '.')"/>
         <li>
             <h2>
-                <a>
+                <a href="{concat(replace($southey-chapter, '\s+', ''), '.html')}">
                     <xsl:value-of select="$clauses/ancestor::div//head/text()[1]"/>
-                </a>
                 <xsl:text> --- </xsl:text>
-                <a>
-                    <xsl:value-of select="//head/substring-before(., '.')"/>
+                    <xsl:value-of select="$southey-chapter"/>
                 </a>
             </h2>
-            <xsl:variable name="width1" select="count($allCl)"/>
+            <xsl:variable name="width1" select="count($montalvo-clauses)"/>
             <xsl:variable name="montalvo-match"
                 select="$montalvo-chapter//cl[@xml:id = current()//anchor/substring(@synch, 2)]"/>
-            <xsl:variable name="montalvo-clauses" select="count($montalvo-match)"/>
-            <xsl:variable name="southey-clauses1" select="count(current()//anchor[@ana = 'start'])"/>
-            <xsl:variable name="width2" select="($width1 - $montalvo-clauses) + 80"/>
+            <xsl:variable name="montalvo-matched-clauses" select="count($montalvo-match)"/>
+            <xsl:variable name="southey-clauses" select="count(current()//anchor[@ana = 'start'])"/>
+            <xsl:variable name="width2" select="($width1 - $montalvo-matched-clauses) + 80"/>
             <div class="svg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="75">
                     <g>
                         <rect y="12" fill="#d61d08" stroke="#550b03" stroke-width="2" height="20"
                             opacity="0.7" stroke-opacity="1" x="{$width2}"
-                            width="{$southey-clauses1}"/>
-                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses1 + 7}"
+                            width="{$southey-clauses}"/>
+                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses + 7}"
                             >Southey</text>
                     </g>
                     <g>
@@ -108,27 +107,27 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                 <xsl:variable name="correction"
                     select="string-join($text/replace(., '[.,/?:;]', ''))"/>
                 <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
-                <xsl:variable name="southey-clauses" select="count(//anchor[@synch])"/>
+                <xsl:variable name="southey-matched-clauses" select="count(//anchor[@synch])"/>
                 <xsl:variable name="montalvo-words"
                     select="count(tokenize(string-join($montalvo-match/replace(., '[.,/?:;]', ''), ' '), '\s+'))"/>
 
-                <xsl:variable name="width5" select="$montalvo-words div $montalvo-clauses * 4"/>
-                <xsl:variable name="width6" select="$southey-words div $southey-clauses * 4"/>
+                <xsl:variable name="width3" select="$montalvo-words div $montalvo-matched-clauses * 4"/>
+                <xsl:variable name="width4" select="$southey-words div $southey-matched-clauses * 4"/>
                 <svg xmlns="http://www.w3.org/2000/svg" width="350" height="100">
                     <g>
                         <rect fill="#adc2bb" stroke="#220a00" stroke-width="2" height="20"
-                            width="{$width5}" y="1" x="80"/>
+                            width="{$width3}" y="1" x="80"/>
                         <text y="16" fill="#220a00">Montalvo</text>
-                        <text y="16" fill="#220a00" x="{$width5 + 85}" font-size="13"><xsl:value-of
-                                select="round-half-to-even(($width5 div 4), 2)"/> words per
+                        <text y="16" fill="#220a00" x="{$width3 + 85}" font-size="13"><xsl:value-of
+                                select="round-half-to-even(($width3 div 4), 2)"/> words per
                             match</text>
                     </g>
                     <g>
                         <rect fill="#adc2bb" stroke="#220a00" stroke-width="2" height="20"
-                            width="{$width6}" y="21" x="80"/>
+                            width="{$width4}" y="21" x="80"/>
                         <text y="36" fill="#220a00">Southey</text>
-                        <text y="36" fill="#220a00" x="{$width6 + 85}" font-size="13"><xsl:value-of
-                                select="round-half-to-even(($width6 div 4), 2)"/> words per
+                        <text y="36" fill="#220a00" x="{$width4 + 85}" font-size="13"><xsl:value-of
+                                select="round-half-to-even(($width4 div 4), 2)"/> words per
                             match</text>
                     </g>
                     <text fill="#461801" y="65" x="81" font-size="18">Word count comparison</text>
