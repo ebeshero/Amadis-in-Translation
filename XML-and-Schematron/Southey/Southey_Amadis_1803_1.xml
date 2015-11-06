@@ -158,8 +158,7 @@
                </s>
                <s>
                   <anchor ana="start" synch="#M0_p1_c41"/>If you know where he may be found, I pray
-                  you tell me.</s>
-               <milestone unit="said" ana="end"/><anchor ana="end"/>
+                  you tell me.<milestone unit="said" ana="end"/><anchor ana="end"/></s>
                <s>
                   <anchor ana="start" synch="#M0_p1_c42"/>The King answered,<anchor ana="end"/>
                   <anchor ana="start" synch="#M0_p1_c43"/><milestone unit="said" ana="start"
