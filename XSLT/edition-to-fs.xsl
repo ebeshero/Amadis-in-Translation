@@ -54,7 +54,7 @@
         <xsl:variable name="southey-text"
             select="
             current()/following::text()
-            except (current()/following::node()[@ana = 'end'][parent::*[. eq current()/..]][1]/following::node()) except current()//following::note//text()"/>
+            except (current()/anchor[@ana eq 'end'][parent::node()/name() eq current()/parent::node()/name()][1]/following::node()) except current()//following::note//text()"/>
         <!--  heb: We replace the punctuation marks and join the different chunks of text with an space so 
             as to be sure that the tokenization is done correctly-->
         <xsl:variable name="correction"
@@ -80,15 +80,15 @@
                     </xsl:attribute>
                 </xsl:if>
                 <xsl:choose>
-                    <xsl:when test="current()/following::note[1][not(.//anchor[@synch])] except (current()/following::node()[@ana = 'end']/following::note)">
+                    <xsl:when test="current()/following::note[1][not(.//anchor[@synch])] except (current()/following::anchor[@ana eq 'end']/following::note)">
                         <string ana="start">
                             <xsl:value-of select="current()/following::text()
-                                except (current()/following::node()[@ana = 'end'][1]/following::node())  except current()/following::text()[ancestor::note]
+                                except (current()/following::anchor[@ana eq 'end'][1]/following::node())  except current()/following::text()[ancestor::note]
                                 except (current()/following::note[1]/following::node())
                                 "/>
                         </string>
                         <string ana="note">
-                            <xsl:value-of select="current()/following::text()[ancestor::note] except (current()/following::node()[@ana = 'end'][1]/following::node())"/>
+                            <xsl:value-of select="current()/following::text()[ancestor::note] except (current()/following::anchor[@ana eq 'end'][1]/following::node())"/>
                         </string>
                         <xsl:if test="current()/following::note[1]/following::text() except (current()/following::node()[@ana = 'end'][1]/following::node())">
                             <string ana="end">
@@ -97,19 +97,19 @@
                                     "/>
                             </string>   </xsl:if>                     
                     </xsl:when>
-                    <xsl:when test="current()/following::note[1][//anchor[@synch]] except (current()/following::node()[@ana = 'end'][1]/following::note)">
+                    <xsl:when test="current()/following::note[1][//anchor[@synch]] except (current()/following::anchor[@ana eq 'end'][1]/following::note)">
                         <string ana="start"><xsl:value-of select="current()/following::text()
-                            except (current()/following::node()[@ana = 'end'][1][parent::s]/following::node())  except current()/following::text()[ancestor::note]
+                            except (current()/following::anchor[@ana eq 'end'][1][parent::s]/following::node())  except current()/following::text()[ancestor::note]
                             except (current()/following::note[1]/following::node())"/></string>
-                        <xsl:apply-templates select="following::note[1][.//anchor] except (current()/following::node()[@ana = 'end'][1]/following::note)"/>
+                        <xsl:apply-templates select="following::note[1][.//anchor] except (current()/following::anchor[@ana eq 'end'][1]/following::note)"/>
                         <xsl:if test="current()/following::note[1]/following::text()
-                            except current()/following::node()[@ana = 'end'][parent::s][1]/following::node()"><string ana="end"><xsl:value-of select="current()/following::note[1]/following::text()
-                            except current()/following::node()[@ana = 'end'][parent::s][1]/following::node()
+                            except current()/following::anchor[@ana eq 'end'][parent::s][1]/following::node()"><string ana="end"><xsl:value-of select="current()/following::note[1]/following::text()
+                                except current()/following::anchor[@ana eq 'end'][parent::s][1]/following::node()
                             "/></string></xsl:if>
                     </xsl:when>
                     <xsl:otherwise>
                         <string><xsl:value-of select="current()/following::text()
-                            except current()/following::node()[@ana = 'end'][1][parent::s]/following::node()
+                            except current()/following::anchor[@ana eq 'end'][1][parent::s]/following::node()
                             "/></string>
                     </xsl:otherwise>
                 </xsl:choose>

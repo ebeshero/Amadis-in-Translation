@@ -23,7 +23,7 @@
          <div type="table" xml:id="S2">
             <head>Chapter 2. </head>
             <fs corresp="#M1_p1_c1">
-               <f name="southey" n="6" ana="-0.17">
+               <f name="southey" n="1648" ana="-1">
                   <string>At night when all was husht,</string>
                </f>
                <f name="montalvo" n="5">
@@ -34,7 +34,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c2">
-               <f name="southey" n="2" ana="8">
+               <f name="southey" n="1642" ana="-0.99">
                   <string>Darioleta rose,</string>
                </f>
                <f name="montalvo" n="18">
@@ -45,7 +45,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="7">
+               <f name="southey" n="1640">
                   <string>and threw a mantle over her mistress,</string>
                </f>
                <f name="type" select="add">
@@ -53,7 +53,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c3">
-               <f name="southey" n="6" ana="0.83">
+               <f name="southey" n="1633" ana="-0.99">
                   <string>and they went into the garden.</string>
                </f>
                <f name="montalvo" n="11">
@@ -79,7 +79,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="3">
+               <f name="southey" n="1627">
                   <string>When Elisena came</string>
                </f>
                <f name="type" select="add">
@@ -87,7 +87,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c11">
-               <f name="southey" n="4" ana="1.25">
+               <f name="southey" n="1624" ana="-0.99">
                   <string>to the chamber door</string>
                </f>
                <f name="montalvo" n="9">
@@ -107,7 +107,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c13">
-               <f name="southey" n="12" ana="-0.08">
+               <f name="southey" n="1620" ana="-0.99">
                   <string>her whole body trembled, and her voice that she could not speak.</string>
                </f>
                <f name="montalvo" n="11">
@@ -128,7 +128,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c18">
-               <f name="southey" n="5" ana="0">
+               <f name="southey" n="1608" ana="-1">
                   <string>King Perion had fallen asleep,</string>
                </f>
                <f name="montalvo" n="5">
@@ -139,7 +139,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c19">
-               <f name="southey" n="16" ana="0.12">
+               <f name="southey" n="1603" ana="-0.99">
                   <string>he dreamt that some one, he knew not who, entered his chamber by a secret door,</string>
                </f>
                <f name="montalvo" n="18">
@@ -150,7 +150,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c20">
-               <f name="southey" n="7" ana="0.14">
+               <f name="southey" n="1587" ana="-0.99">
                   <string>who thrusting a hand between his ribs,</string>
                </f>
                <f name="montalvo" n="8">
@@ -161,7 +161,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c21">
-               <f name="southey" n="10" ana="-0.1">
+               <f name="southey" n="1580" ana="-0.99">
                   <string>took out his heart and threw it into the river.</string>
                </f>
                <f name="montalvo" n="9">
@@ -172,7 +172,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c21.1">
-               <f name="southey" n="2" ana="0.5">
+               <f name="southey" n="1570" ana="-1">
                   <string>He asked</string>
                </f>
                <f name="montalvo" n="3">
@@ -183,7 +183,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c22">
-               <f name="southey" n="5" ana="0">
+               <f name="southey" n="1568" ana="-1">
                   <string>why that cruelty was committed,</string>
                </f>
                <f name="montalvo" n="5">
@@ -194,7 +194,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c22.1">
-               <f name="southey" n="11" ana="0.18">
+               <f name="southey" n="1563" ana="-0.99">
                   <string>and was answered--it is nothing! there is another heart left there</string>
                </f>
                <f name="montalvo" n="13">
@@ -205,7 +205,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c23">
-               <f name="southey" n="6" ana="-0.17">
+               <f name="southey" n="1552" ana="-1">
                   <string>which I must take from you,</string>
                </f>
                <f name="montalvo" n="5">
@@ -216,7 +216,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c24">
-               <f name="southey" n="4" ana="0.75">
+               <f name="southey" n="1546" ana="-1">
                   <string>though against my will</string>
                </f>
                <f name="montalvo" n="7">
@@ -227,7 +227,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c25">
-               <f name="southey" n="11" ana="0.27">
+               <f name="southey" n="1542" ana="-0.99">
                   <string>Then the King suddenly awoke in great fear, and blessed himself.</string>
                </f>
                <f name="montalvo" n="14">
@@ -238,7 +238,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c26">
-               <f name="southey" n="10" ana="0">
+               <f name="southey" n="1531" ana="-0.99">
                   <string>At this moment the two damsels had opened the door,</string>
                </f>
                <f name="montalvo" n="10">
@@ -249,7 +249,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c27">
-               <f name="southey" n="23" ana="0.17">
+               <f name="southey" n="1521" ana="-0.98">
                   <string>and were entering; he heard them, and being full of his dream suspected treason, when he saw a door open behind the hangings,</string>
                </f>
                <f name="montalvo" n="27">
@@ -260,7 +260,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c28">
-               <f name="southey" n="6" ana="0.17">
+               <f name="southey" n="1498" ana="-1">
                   <string>of which he had not known,</string>
                </f>
                <f name="montalvo" n="7">
@@ -280,7 +280,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c29">
-               <f name="southey" n="12" ana="0.83">
+               <f name="southey" n="1492" ana="-0.99">
                   <string>and leaping from the bed he caught up his sword and shield.</string>
                </f>
                <f name="montalvo" n="22">
@@ -291,7 +291,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c31">
-               <f name="southey" n="3" ana="0.67">
+               <f name="southey" n="1480" ana="-1">
                   <string>What is this?</string>
                </f>
                <f name="montalvo" n="5">
@@ -312,7 +312,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="1477">
                   <string>cried</string>
                </f>
                <f name="type" select="add">
@@ -320,7 +320,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c30">
-               <f name="southey" n="1" ana="6">
+               <f name="southey" n="1476" ana="-1">
                   <string>Darioleta.</string>
                </f>
                <f name="montalvo" n="7">
@@ -331,7 +331,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c33">
-               <f name="southey" n="28" ana="0.32">
+               <f name="southey" n="1475" ana="-0.97">
                   <string>The King then knew her, and saw Elisena his beloved; he dropt his shield and sword and throwing a mantle about him which was ready by the bed,</string>
                </f>
                <f name="montalvo" n="37">
@@ -342,7 +342,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c34">
-               <f name="southey" n="3" ana="2.33">
+               <f name="southey" n="1447" ana="-0.99">
                   <string>he went and</string>
                </f>
                <f name="montalvo" n="10">
@@ -353,7 +353,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c35">
-               <f name="southey" n="5" ana="1.4">
+               <f name="southey" n="1444" ana="-0.99">
                   <string>embraced her whom he loved.</string>
                </f>
                <f name="montalvo" n="12">
@@ -377,7 +377,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c40">
-               <f name="southey" n="13" ana="0.92">
+               <f name="southey" n="1439" ana="-0.98">
                   <string>Darioleta then took up the sword in token of his promise and oath,</string>
                </f>
                <f name="montalvo" n="25">
@@ -388,7 +388,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c41">
-               <f name="southey" n="5" ana="1.6">
+               <f name="southey" n="1426" ana="-0.99">
                   <string>and went into the garden,</string>
                </f>
                <f name="montalvo" n="13">
@@ -399,7 +399,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="1421">
                   <string>and Perion</string>
                </f>
                <f name="type" select="add">
@@ -407,7 +407,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c42">
-               <f name="southey" n="3" ana="1.33">
+               <f name="southey" n="1419" ana="-1">
                   <string>remained alone with</string>
                </f>
                <f name="montalvo" n="7">
@@ -418,7 +418,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="1416">
                   <string>Elisena,</string>
                </f>
                <f name="type" select="add">
@@ -426,7 +426,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c43">
-               <f name="southey" n="23" ana="0.61">
+               <f name="southey" n="1415" ana="-0.97">
                   <string ana="start">in whom as he beheld her by the light of the three torches, he thought all the beauty of the world was
                   </string>
                   <fs>
@@ -680,7 +680,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="8">
+               <f name="southey" n="1392">
                   <string>When it was time that they should part,</string>
                </f>
                <f name="type" select="add">
@@ -688,7 +688,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c83">
-               <f name="southey" n="5" ana="2">
+               <f name="southey" n="1384" ana="-0.99">
                   <string>Darioleta returned to the chamber.</string>
                </f>
                <f name="montalvo" n="15">
@@ -699,7 +699,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c84">
-               <f name="southey" n="3" ana="7.33">
+               <f name="southey" n="1379" ana="-0.98">
                   <string>I know, Lady,</string>
                </f>
                <f name="montalvo" n="25">
@@ -710,7 +710,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c83">
-               <f name="southey" n="3" ana="4">
+               <f name="southey" n="1377" ana="-0.99">
                   <string> said she,</string>
                </f>
                <f name="montalvo" n="15">
@@ -721,7 +721,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c84">
-               <f name="southey" n="19" ana="0.32">
+               <f name="southey" n="1374" ana="-0.98">
                   <string>that heretofore you have been better pleased with me than you are now; but we must go, for time</string>
                </f>
                <f name="montalvo" n="25">
@@ -732,7 +732,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="1355">
                   <string>calleth us.</string>
                </f>
                <f name="type" select="add">
@@ -740,7 +740,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c85">
-               <f name="southey" n="2" ana="0.5">
+               <f name="southey" n="1353" ana="-1">
                   <string>Elisena rose.</string>
                </f>
                <f name="montalvo" n="3">
@@ -751,7 +751,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c89">
-               <f name="southey" n="3" ana="2.33">
+               <f name="southey" n="1351" ana="-0.99">
                   <string>I beseech you,</string>
                </f>
                <f name="montalvo" n="10">
@@ -762,7 +762,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c86">
-               <f name="southey" n="2" ana="1.5">
+               <f name="southey" n="1348" ana="-1">
                   <string>said Perion,</string>
                </f>
                <f name="montalvo" n="5">
@@ -783,7 +783,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c89">
-               <f name="southey" n="5" ana="1">
+               <f name="southey" n="1346" ana="-0.99">
                   <string>do not forget the place!</string>
                </f>
                <f name="montalvo" n="10">
@@ -794,7 +794,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c90">
-               <f name="southey" n="6" ana="0">
+               <f name="southey" n="1341" ana="-1">
                   <string>and she departed with the damsel.</string>
                </f>
                <f name="montalvo" n="6">
@@ -805,7 +805,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c91">
-               <f name="southey" n="5" ana="1.2">
+               <f name="southey" n="1335" ana="-0.99">
                   <string>He remained in his room,</string>
                </f>
                <f name="montalvo" n="11">
@@ -816,7 +816,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="1330">
                   <string>and recollecting</string>
                </f>
                <f name="type" select="add">
@@ -824,7 +824,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c92">
-               <f name="southey" n="6" ana="0.17">
+               <f name="southey" n="1328" ana="-0.99">
                   <string>his dream, which still affrighted him,</string>
                </f>
                <f name="montalvo" n="7">
@@ -835,7 +835,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="8">
+               <f name="southey" n="1322">
                   <string>a wish to know its signification made him</string>
                </f>
                <f name="type" select="add">
@@ -843,7 +843,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c93">
-               <f name="southey" n="12" ana="0.58">
+               <f name="southey" n="1314" ana="-0.99">
                   <string>desirous to return to his own country, where were many wise men</string>
                </f>
                <f name="montalvo" n="19">
@@ -854,7 +854,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c94">
-               <f name="southey" n="7" ana="0">
+               <f name="southey" n="1302" ana="-0.99">
                   <string>skilful in the solution of such things.</string>
                </f>
                <f name="montalvo" n="7">
@@ -873,7 +873,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c97">
-               <f name="southey" n="5" ana="3.4">
+               <f name="southey" n="1295" ana="-0.98">
                   <string>Ten days King Perion sojourned</string>
                </f>
                <f name="montalvo" n="22">
@@ -884,7 +884,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="1290">
                   <string>at Alima,</string>
                </f>
                <f name="type" select="add">
@@ -892,7 +892,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c97">
-               <f name="southey" n="6" ana="2.67">
+               <f name="southey" n="1288" ana="-0.98">
                   <string>and every night his beloved mistress</string>
                </f>
                <f name="montalvo" n="22">
@@ -903,7 +903,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="1282">
                   <string>visited him.</string>
                </f>
                <f name="type" select="add">
@@ -911,7 +911,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="7">
+               <f name="southey" n="1280">
                   <string>Then it was necessary that he should</string>
                </f>
                <f name="type" select="add">
@@ -919,7 +919,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c99">
-               <f name="southey" n="1" ana="12">
+               <f name="southey" n="1273" ana="-0.99">
                   <string>depart,</string>
                </f>
                <f name="montalvo" n="13">
@@ -930,7 +930,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c98">
-               <f name="southey" n="5" ana="0.8">
+               <f name="southey" n="1272" ana="-0.99">
                   <string>despite of his own inclination,</string>
                </f>
                <f name="montalvo" n="9">
@@ -941,7 +941,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c99">
-               <f name="southey" n="5" ana="1.6">
+               <f name="southey" n="1267" ana="-0.99">
                   <string>and the tears of Elisena.</string>
                </f>
                <f name="montalvo" n="13">
@@ -952,7 +952,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c100">
-               <f name="southey" n="12" ana="0.08">
+               <f name="southey" n="1262" ana="-0.99">
                   <string>He took leave of Garinter and the Queen, and having armed himself,</string>
                </f>
                <f name="montalvo" n="13">
@@ -963,7 +963,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c101">
-               <f name="southey" n="13" ana="-0.38">
+               <f name="southey" n="1250" ana="-0.99">
                   <string>when he looked for his sword to gird it on, he missed it;</string>
                </f>
                <f name="montalvo" n="8">
@@ -974,7 +974,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c103">
-               <f name="southey" n="5" ana="0">
+               <f name="southey" n="1237" ana="-1">
                   <string>though the loss grieved him,</string>
                </f>
                <f name="montalvo" n="5">
@@ -985,7 +985,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c104">
-               <f name="southey" n="4" ana="0.5">
+               <f name="southey" n="1232" ana="-1">
                   <string>for it was a</string>
                </f>
                <f name="montalvo" n="6">
@@ -1005,7 +1005,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="1228">
                   <string>tried</string>
                </f>
                <f name="type" select="add">
@@ -1013,7 +1013,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c104">
-               <f name="southey" n="2" ana="2">
+               <f name="southey" n="1227" ana="-1">
                   <string>and goodly</string>
                </f>
                <f name="montalvo" n="6">
@@ -1033,7 +1033,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="1225">
                   <string>weapon,</string>
                </f>
                <f name="type" select="add">
@@ -1041,7 +1041,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c102">
-               <f name="southey" n="6" ana="0">
+               <f name="southey" n="1224" ana="-1">
                   <string>he durst not enquire for it,</string>
                </f>
                <f name="montalvo" n="6">
@@ -1052,7 +1052,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c107">
-               <f name="southey" n="7" ana="3.43">
+               <f name="southey" n="1218" ana="-0.97">
                   <string>but making his Squire procure him another,</string>
                </f>
                <f name="montalvo" n="31">
@@ -1063,7 +1063,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c108">
-               <f name="southey" n="7" ana="0.29">
+               <f name="southey" n="1211" ana="-0.99">
                   <string>he departed straight for his own kingdom.</string>
                </f>
                <f name="montalvo" n="9">
@@ -1074,7 +1074,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c109">
-               <f name="southey" n="6" ana="0">
+               <f name="southey" n="1204" ana="-1">
                   <string>Albeit before his departure Darioleta came</string>
                </f>
                <f name="montalvo" n="6">
@@ -1085,7 +1085,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c110">
-               <f name="southey" n="15" ana="0.07">
+               <f name="southey" n="1198" ana="-0.99">
                   <string>and told him of the great affliction and loneliness in which his Lady was left.</string>
                </f>
                <f name="montalvo" n="16">
@@ -1096,7 +1096,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c111">
-               <f name="southey" n="7" ana="1">
+               <f name="southey" n="1183" ana="-0.99">
                   <string>I commend her to you my friend,</string>
                </f>
                <f name="montalvo" n="14">
@@ -1107,7 +1107,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c110">
-               <f name="southey" n="2" ana="7">
+               <f name="southey" n="1176" ana="-0.99">
                   <string>said he,</string>
                </f>
                <f name="montalvo" n="16">
@@ -1118,7 +1118,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c111">
-               <f name="southey" n="5" ana="1.8">
+               <f name="southey" n="1174" ana="-0.99">
                   <string>as mine own proper heart</string>
                </f>
                <f name="montalvo" n="14">
@@ -1129,7 +1129,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c112">
-               <f name="southey" n="12" ana="0.17">
+               <f name="southey" n="1169" ana="-0.99">
                   <string>then taking from his finger a ring of two which he wore,</string>
                </f>
                <f name="montalvo" n="14">
@@ -1140,7 +1140,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c113">
-               <f name="southey" n="4" ana="0.5">
+               <f name="southey" n="1157" ana="-0.99">
                   <string>each resembling the other,</string>
                </f>
                <f name="montalvo" n="6">
@@ -1151,7 +1151,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c114">
-               <f name="southey" n="8" ana="0.38">
+               <f name="southey" n="1153" ana="-0.99">
                   <string>he bade her carry it to his love.</string>
                </f>
                <f name="montalvo" n="11">
@@ -1162,7 +1162,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c115">
-               <f name="southey" n="11" ana="0.27">
+               <f name="southey" n="1145" ana="-0.99">
                   <string>So Elisena remained, leading a solitary life, and in great grief.</string>
                </f>
                <f name="montalvo" n="14">
@@ -1173,7 +1173,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c116">
-               <f name="southey" n="7" ana="1.57">
+               <f name="southey" n="1134" ana="-0.98">
                   <string>Darioleta comforted her the best she could,</string>
                </f>
                <f name="montalvo" n="18">
@@ -1193,7 +1193,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c118">
-               <f name="southey" n="18" ana="-0.22">
+               <f name="southey" n="1127" ana="-0.99">
                   <string>and the time past on, till she felt herself great with child, and lost the appetite for food</string>
                </f>
                <f name="montalvo" n="14">
@@ -1204,7 +1204,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c119">
-               <f name="southey" n="5" ana="-0.4">
+               <f name="southey" n="1109" ana="-1">
                   <string>and the pleasure of sleep,</string>
                </f>
                <f name="montalvo" n="3">
@@ -1215,7 +1215,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c120">
-               <f name="southey" n="7" ana="-0.14">
+               <f name="southey" n="1104" ana="-0.99">
                   <string>and the fresh colour of her countenance.</string>
                </f>
                <f name="montalvo" n="6">
@@ -1226,7 +1226,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c121">
-               <f name="southey" n="7" ana="0.57">
+               <f name="southey" n="1097" ana="-0.99">
                   <string>Then was her sorrow and carefulness greater,</string>
                </f>
                <f name="montalvo" n="11">
@@ -1237,7 +1237,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c122">
-               <f name="southey" n="4" ana="0">
+               <f name="southey" n="1090" ana="-1">
                   <string>and not without cause,</string>
                </f>
                <f name="montalvo" n="4">
@@ -1248,7 +1248,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c123">
-               <f name="southey" n="17" ana="0.12">
+               <f name="southey" n="1086" ana="-0.98">
                   <string>for in that time was there a law, that any woman, of what quality or estate soever,</string>
                </f>
                <f name="montalvo" n="19">
@@ -1267,7 +1267,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="4">
+               <f name="southey" n="1069">
                   <string>offending in such sort,</string>
                </f>
                <f name="type" select="add">
@@ -1275,7 +1275,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c125">
-               <f name="southey" n="6" ana="0.5">
+               <f name="southey" n="1065" ana="-0.99">
                   <string>could not excuse herself from death.</string>
                </f>
                <f name="montalvo" n="9">
@@ -1286,7 +1286,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c126">
-               <f name="southey" n="16" ana="0">
+               <f name="southey" n="1059" ana="-0.98">
                   <string>This so cruel and abominable a custom endured, till the coming of the good King Arthur,</string>
                </f>
                <f name="montalvo" n="16">
@@ -1297,7 +1297,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c127">
-               <f name="southey" n="9" ana="0.11">
+               <f name="southey" n="1043" ana="-0.99">
                   <string>who was the best King that ever there reigned,</string>
                </f>
                <f name="montalvo" n="10">
@@ -1308,7 +1308,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c128">
-               <f name="southey" n="18" ana="-0.11">
+               <f name="southey" n="1034" ana="-0.98">
                   <string>and he revoked it at the time when he slew Floyon in battle, before the gates of Paris.</string>
                </f>
                <f name="montalvo" n="16">
@@ -1328,7 +1328,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c130">
-               <f name="southey" n="18" ana="0.39">
+               <f name="southey" n="1016" ana="-0.98">
                   <string>And albeit because of the words which Perion swore upon his sword, she was without fault before God,</string>
                </f>
                <f name="montalvo" n="25">
@@ -1339,7 +1339,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c131">
-               <f name="southey" n="7" ana="0">
+               <f name="southey" n="998" ana="-0.99">
                   <string>yet was she not before the world,</string>
                </f>
                <f name="montalvo" n="7">
@@ -1350,7 +1350,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c132">
-               <f name="southey" n="6" ana="-0.33">
+               <f name="southey" n="991" ana="-1">
                   <string>for they had been so secret.</string>
                </f>
                <f name="montalvo" n="4">
@@ -1361,7 +1361,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c133">
-               <f name="southey" n="12" ana="0.08">
+               <f name="southey" n="985" ana="-0.99">
                   <string>To let him know her condition, was what she could not think,</string>
                </f>
                <f name="montalvo" n="13">
@@ -1372,7 +1372,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c134">
-               <f name="southey" n="23" ana="-0.74">
+               <f name="southey" n="973" ana="-0.99">
                   <string>for he was young and proud of heart, and took no delight elsewhere than where renown was to be gained, and so was</string>
                </f>
                <f name="montalvo" n="6">
@@ -1392,7 +1392,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c135">
-               <f name="southey" n="2" ana="3">
+               <f name="southey" n="950" ana="-0.99">
                   <string>for ever</string>
                </f>
                <f name="montalvo" n="8">
@@ -1403,7 +1403,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c136">
-               <f name="southey" n="9" ana="0.11">
+               <f name="southey" n="948" ana="-0.99">
                   <string>going an Errant Knight from one place to another.</string>
                </f>
                <f name="montalvo" n="10">
@@ -1414,7 +1414,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c137">
-               <f name="southey" n="8" ana="0.38">
+               <f name="southey" n="939" ana="-0.99">
                   <string>So she found no remedy for her life;</string>
                </f>
                <f name="montalvo" n="11">
@@ -1425,7 +1425,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c138">
-               <f name="southey" n="19" ana="0.26">
+               <f name="southey" n="931" ana="-0.97">
                   <string>yet did not the loss of life afflict her so much as that of her dear and beloved Lord.</string>
                </f>
                <f name="montalvo" n="24">
@@ -1436,7 +1436,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c139">
-               <f name="southey" n="2" ana="2">
+               <f name="southey" n="912" ana="-0.99">
                   <string>But God,</string>
                </f>
                <f name="montalvo" n="6">
@@ -1447,7 +1447,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c140">
-               <f name="southey" n="13" ana="-0.15">
+               <f name="southey" n="910" ana="-0.99">
                   <string>by whose permission all this had come to pass for his holy service,</string>
                </f>
                <f name="montalvo" n="11">
@@ -1458,7 +1458,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c141">
-               <f name="southey" n="9" ana="0.89">
+               <f name="southey" n="897" ana="-0.98">
                   <string>gave such discretion to Darioleta, that she remedied all.</string>
                </f>
                <f name="montalvo" n="17">
@@ -1477,7 +1477,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c143">
-               <f name="southey" n="15" ana="-0.2">
+               <f name="southey" n="888" ana="-0.99">
                   <string>In the palace of King Garinter there was an arched chamber separated from the rest,</string>
                </f>
                <f name="montalvo" n="12">
@@ -1488,7 +1488,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c144">
-               <f name="southey" n="4" ana="0.75">
+               <f name="southey" n="873" ana="-0.99">
                   <string>which overlooked the river;</string>
                </f>
                <f name="montalvo" n="7">
@@ -1499,7 +1499,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c145">
-               <f name="southey" n="26" ana="-0.73">
+               <f name="southey" n="869" ana="-0.99">
                   <string>it had a little iron door through which the Damsels sometime were wont to go out by the water side, but now none inhabited the apartment.</string>
                </f>
                <f name="montalvo" n="7">
@@ -1521,7 +1521,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c147">
-               <f name="southey" n="5" ana="3.6">
+               <f name="southey" n="843" ana="-0.97">
                   <string>This chamber, by Darioleta’s advice,</string>
                </f>
                <f name="montalvo" n="23">
@@ -1532,7 +1532,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c148">
-               <f name="southey" n="1" ana="4">
+               <f name="southey" n="838" ana="-0.99">
                   <string>did</string>
                </f>
                <f name="montalvo" n="5">
@@ -1543,7 +1543,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c147">
-               <f name="southey" n="1" ana="22">
+               <f name="southey" n="837" ana="-0.97">
                   <string>Elisena</string>
                </f>
                <f name="montalvo" n="23">
@@ -1554,7 +1554,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c148">
-               <f name="southey" n="1" ana="4">
+               <f name="southey" n="836" ana="-0.99">
                   <string>request</string>
                </f>
                <f name="montalvo" n="5">
@@ -1565,7 +1565,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c147">
-               <f name="southey" n="10" ana="1.3">
+               <f name="southey" n="835" ana="-0.97">
                   <string>of her father, as suiting her disposition and solitary life,</string>
                </f>
                <f name="montalvo" n="23">
@@ -1576,7 +1576,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c149">
-               <f name="southey" n="10" ana="0.1">
+               <f name="southey" n="825" ana="-0.99">
                   <string>where she might perform her prayers undisturbed, with no companion</string>
                </f>
                <f name="montalvo" n="11">
@@ -1587,7 +1587,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c150">
-               <f name="southey" n="2" ana="2.5">
+               <f name="southey" n="815" ana="-0.99">
                   <string>but Darioleta,</string>
                </f>
                <f name="montalvo" n="7">
@@ -1598,7 +1598,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="3">
+               <f name="southey" n="813">
                   <string>who had always</string>
                </f>
                <f name="type" select="add">
@@ -1606,7 +1606,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c151">
-               <f name="southey" n="4" ana="0.5">
+               <f name="southey" n="810" ana="-0.99">
                   <string>served and accompanied her.</string>
                </f>
                <f name="montalvo" n="6">
@@ -1617,7 +1617,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c152">
-               <f name="southey" n="5" ana="2.8">
+               <f name="southey" n="806" ana="-0.98">
                   <string>This request she lightly obtained,</string>
                </f>
                <f name="montalvo" n="19">
@@ -1636,7 +1636,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c154">
-               <f name="southey" n="12" ana="0.17">
+               <f name="southey" n="801" ana="-0.98">
                   <string>and hereupon was the key of the iron door given to Darioleta,</string>
                </f>
                <f name="montalvo" n="14">
@@ -1647,7 +1647,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c155">
-               <f name="southey" n="10" ana="0">
+               <f name="southey" n="789" ana="-0.99">
                   <string>to open when it pleased the Princess to recreate herself</string>
                </f>
                <f name="montalvo" n="10">
@@ -1658,7 +1658,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="3">
+               <f name="southey" n="779">
                   <string>by the river.</string>
                </f>
                <f name="type" select="add">
@@ -1666,7 +1666,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c156">
-               <f name="southey" n="5" ana="2.4">
+               <f name="southey" n="776" ana="-0.98">
                   <string>Here was Elisena somewhat comforted,</string>
                </f>
                <f name="montalvo" n="17">
@@ -1686,7 +1686,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="11">
+               <f name="southey" n="771">
                   <string>to find herself in a place so convenient for her purpose,</string>
                </f>
                <f name="type" select="add">
@@ -1694,7 +1694,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c158">
-               <f name="southey" n="12" ana="0">
+               <f name="southey" n="760" ana="-0.98">
                   <string>and she required council of her damsel what should be done with</string>
                </f>
                <f name="montalvo" n="12">
@@ -1705,7 +1705,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="6">
+               <f name="southey" n="748">
                   <string>the fruit that she travailed withal?</string>
                </f>
                <f name="type" select="add">
@@ -1713,7 +1713,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c159">
-               <f name="southey" n="3" ana="0.67">
+               <f name="southey" n="742" ana="-0.99">
                   <string>What? replied Darioleta,</string>
                </f>
                <f name="montalvo" n="5">
@@ -1724,7 +1724,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c160">
-               <f name="southey" n="6" ana="0">
+               <f name="southey" n="739" ana="-0.99">
                   <string>it must suffer to save you.</string>
                </f>
                <f name="montalvo" n="6">
@@ -1735,7 +1735,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c161">
-               <f name="southey" n="5" ana="0.4">
+               <f name="southey" n="733" ana="-0.99">
                   <string>Holy Mary, then said Elisena,</string>
                </f>
                <f name="montalvo" n="7">
@@ -1746,7 +1746,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c162">
-               <f name="southey" n="16" ana="0.12">
+               <f name="southey" n="728" ana="-0.98">
                   <string>shall I consent to destroy the child of him whom I love best in the world?</string>
                </f>
                <f name="montalvo" n="18">
@@ -1757,7 +1757,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c163">
-               <f name="southey" n="2" ana="3.5">
+               <f name="southey" n="712" ana="-0.99">
                   <string>Leave alone</string>
                </f>
                <f name="montalvo" n="9">
@@ -1768,7 +1768,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="710">
                   <string>those thoughts,</string>
                </f>
                <f name="type" select="add">
@@ -1776,7 +1776,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c163">
-               <f name="southey" n="3" ana="2">
+               <f name="southey" n="708" ana="-0.99">
                   <string>the damsel answered,</string>
                </f>
                <f name="montalvo" n="9">
@@ -1787,7 +1787,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c164">
-               <f name="southey" n="4" ana="0">
+               <f name="southey" n="705" ana="-0.99">
                   <string>if they kill you</string>
                </f>
                <f name="montalvo" n="4">
@@ -1798,7 +1798,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c165">
-               <f name="southey" n="4" ana="0">
+               <f name="southey" n="701" ana="-0.99">
                   <string>they will not spare</string>
                </f>
                <f name="montalvo" n="4">
@@ -1824,7 +1824,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="697">
                   <string>the infant:</string>
                </f>
                <f name="type" select="add">
@@ -1832,7 +1832,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c169">
-               <f name="southey" n="10" ana="0.7">
+               <f name="southey" n="695" ana="-0.98">
                   <string>it were great folly to destroy yourself and your lover,</string>
                </f>
                <f name="montalvo" n="17">
@@ -1843,7 +1843,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c170">
-               <f name="southey" n="6" ana="0">
+               <f name="southey" n="685" ana="-0.99">
                   <string>who could not live after you,</string>
                </f>
                <f name="montalvo" n="6">
@@ -1863,7 +1863,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c169">
-               <f name="southey" n="5" ana="2.4">
+               <f name="southey" n="679" ana="-0.97">
                   <string>for the sake of saving</string>
                </f>
                <f name="montalvo" n="17">
@@ -1874,7 +1874,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="9">
+               <f name="southey" n="674">
                   <string>the child, who if you die, must die also.</string>
                </f>
                <f name="type" select="add">
@@ -1882,7 +1882,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c173">
-               <f name="southey" n="7" ana="-0.14">
+               <f name="southey" n="665" ana="-0.99">
                   <string>As this Damsel was of quick mind</string>
                </f>
                <f name="montalvo" n="6">
@@ -1893,7 +1893,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="658">
                   <string>herself,</string>
                </f>
                <f name="type" select="add">
@@ -1901,7 +1901,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c174">
-               <f name="southey" n="1" ana="6">
+               <f name="southey" n="657" ana="-0.99">
                   <string>and</string>
                </f>
                <f name="montalvo" n="7">
@@ -1912,7 +1912,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="656">
                   <string>now</string>
                </f>
                <f name="type" select="add">
@@ -1920,7 +1920,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c174">
-               <f name="southey" n="6" ana="0.17">
+               <f name="southey" n="655" ana="-0.99">
                   <string>guided by the grace of God,</string>
                </f>
                <f name="montalvo" n="7">
@@ -1931,7 +1931,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c175">
-               <f name="southey" n="10" ana="-0.2">
+               <f name="southey" n="649" ana="-0.99">
                   <string>she determined to have the remedy ready before the need;</string>
                </f>
                <f name="montalvo" n="8">
@@ -1942,7 +1942,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c176">
-               <f name="southey" n="10" ana="0.3">
+               <f name="southey" n="639" ana="-0.98">
                   <string>and it was in this guise: she took four boards</string>
                </f>
                <f name="montalvo" n="13">
@@ -1953,7 +1953,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="4">
+               <f name="southey" n="629">
                   <string>and with them made</string>
                </f>
                <f name="type" select="add">
@@ -1961,7 +1961,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c177">
-               <f name="southey" n="13" ana="-0.15">
+               <f name="southey" n="625" ana="-0.98">
                   <string>an ark large enough to contain a new born child and its garments,</string>
                </f>
                <f name="montalvo" n="11">
@@ -1972,7 +1972,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c178">
-               <f name="southey" n="2" ana="2">
+               <f name="southey" n="612" ana="-0.99">
                   <string>and long</string>
                </f>
                <f name="montalvo" n="6">
@@ -1983,7 +1983,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="610">
                   <string>enough for</string>
                </f>
                <f name="type" select="add">
@@ -1991,7 +1991,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c178">
-               <f name="southey" n="2" ana="2">
+               <f name="southey" n="608" ana="-0.99">
                   <string>the sword,</string>
                </f>
                <f name="montalvo" n="6">
@@ -2002,7 +2002,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c179">
-               <f name="southey" n="6" ana="1.17">
+               <f name="southey" n="606" ana="-0.98">
                   <string>she fastened them together with bitumen</string>
                </f>
                <f name="montalvo" n="13">
@@ -2013,7 +2013,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="3">
+               <f name="southey" n="600">
                   <string>in such sort,</string>
                </f>
                <f name="type" select="add">
@@ -2021,7 +2021,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c180">
-               <f name="southey" n="9" ana="-0.33">
+               <f name="southey" n="597" ana="-0.99">
                   <string>as the water should have no place to enter.</string>
                </f>
                <f name="montalvo" n="6">
@@ -2032,7 +2032,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c181">
-               <f name="southey" n="7" ana="0.71">
+               <f name="southey" n="588" ana="-0.98">
                   <string>She hid all this under her bed</string>
                </f>
                <f name="montalvo" n="12">
@@ -2043,7 +2043,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="5">
+               <f name="southey" n="581">
                   <string>till she had compleated it;</string>
                </f>
                <f name="type" select="add">
@@ -2051,7 +2051,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c182">
-               <f name="southey" n="13" ana="1.08">
+               <f name="southey" n="576" ana="-0.95">
                   <string>and it was even and close as if a master had made it.</string>
                </f>
                <f name="montalvo" n="27">
@@ -2062,7 +2062,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c183">
-               <f name="southey" n="6" ana="-0.17">
+               <f name="southey" n="563" ana="-0.99">
                   <string>Then she showed it to Elisena</string>
                </f>
                <f name="montalvo" n="5">
@@ -2073,7 +2073,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c184">
-               <f name="southey" n="2" ana="0">
+               <f name="southey" n="557" ana="-1">
                   <string>and asked</string>
                </f>
                <f name="montalvo" n="2">
@@ -2084,7 +2084,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c185">
-               <f name="southey" n="7" ana="0.29">
+               <f name="southey" n="555" ana="-0.98">
                   <string>for what she thought it was designed?</string>
                </f>
                <f name="montalvo" n="9">
@@ -2095,7 +2095,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c185.1">
-               <f name="southey" n="5" ana="0">
+               <f name="southey" n="548" ana="-0.99">
                   <string>She answered, I know not.</string>
                </f>
                <f name="montalvo" n="5">
@@ -2106,7 +2106,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c186">
-               <f name="southey" n="9" ana="0.11">
+               <f name="southey" n="543" ana="-0.98">
                   <string>You shall know, said the Damsel, when need is.</string>
                </f>
                <f name="montalvo" n="10">
@@ -2117,7 +2117,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="534">
                   <string>Elisena</string>
                </f>
                <f name="type" select="add">
@@ -2125,7 +2125,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c187">
-               <f name="southey" n="1" ana="2">
+               <f name="southey" n="533" ana="-0.99">
                   <string>replied,</string>
                </f>
                <f name="montalvo" n="3">
@@ -2136,7 +2136,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c188">
-               <f name="southey" n="14" ana="-0.21">
+               <f name="southey" n="532" ana="-0.98">
                   <string>but little do I care to know what is done or what is said,</string>
                </f>
                <f name="montalvo" n="11">
@@ -2147,7 +2147,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c189">
-               <f name="southey" n="11" ana="-0.09">
+               <f name="southey" n="518" ana="-0.98">
                   <string>for I am near to lose all my joy and comfort.</string>
                </f>
                <f name="montalvo" n="10">
@@ -2158,7 +2158,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c190">
-               <f name="southey" n="5" ana="0.8">
+               <f name="southey" n="507" ana="-0.98">
                   <string>Then had Darioleta great grief,</string>
                </f>
                <f name="montalvo" n="9">
@@ -2169,7 +2169,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c191">
-               <f name="southey" n="4" ana="1.75">
+               <f name="southey" n="502" ana="-0.98">
                   <string>and she went apart</string>
                </f>
                <f name="montalvo" n="11">
@@ -2180,7 +2180,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c192">
-               <f name="southey" n="7" ana="-0.29">
+               <f name="southey" n="498" ana="-0.99">
                   <string>not bearing to see her mistress weep.</string>
                </f>
                <f name="montalvo" n="5">
@@ -2191,7 +2191,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c193">
-               <f name="southey" n="8" ana="0.62">
+               <f name="southey" n="491" ana="-0.97">
                   <string>It was not long before her travail came,</string>
                </f>
                <f name="montalvo" n="13">
@@ -2202,7 +2202,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c194">
-               <f name="southey" n="7" ana="1">
+               <f name="southey" n="483" ana="-0.97">
                   <string>and in those new and strange pains,</string>
                </f>
                <f name="montalvo" n="14">
@@ -2213,7 +2213,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c195">
-               <f name="southey" n="4" ana="0.75">
+               <f name="southey" n="476" ana="-0.99">
                   <string>in bitterness of heart,</string>
                </f>
                <f name="montalvo" n="7">
@@ -2224,7 +2224,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c196">
-               <f name="southey" n="8" ana="0.25">
+               <f name="southey" n="472" ana="-0.98">
                   <string>and not daring to cry out or groan,</string>
                </f>
                <f name="montalvo" n="10">
@@ -2243,7 +2243,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c198">
-               <f name="southey" n="12" ana="0.42">
+               <f name="southey" n="464" ana="-0.96">
                   <string>it pleased the Lord that she was safely delivered of a son.</string>
                </f>
                <f name="montalvo" n="17">
@@ -2254,7 +2254,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c199">
-               <f name="southey" n="7" ana="0">
+               <f name="southey" n="452" ana="-0.98">
                   <string>The Damsel took him in her arms,</string>
                </f>
                <f name="montalvo" n="7">
@@ -2265,7 +2265,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c200">
-               <f name="southey" n="3" ana="1.33">
+               <f name="southey" n="445" ana="-0.98">
                   <string>and saw that</string>
                </f>
                <f name="montalvo" n="7">
@@ -2276,7 +2276,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="6">
+               <f name="southey" n="442">
                   <string>the boy was a fair boy</string>
                </f>
                <f name="type" select="add">
@@ -2284,7 +2284,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c200">
-               <f name="southey" n="8" ana="-0.12">
+               <f name="southey" n="436" ana="-0.98">
                   <string>had he not been born to hard fortune,</string>
                </f>
                <f name="montalvo" n="7">
@@ -2295,7 +2295,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c201">
-               <f name="southey" n="9" ana="0.11">
+               <f name="southey" n="428" ana="-0.98">
                   <string>but she delayed not to execute what of necessity</string>
                </f>
                <f name="montalvo" n="10">
@@ -2314,7 +2314,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="3">
+               <f name="southey" n="419">
                   <string>had been resolved.</string>
                </f>
                <f name="type" select="add">
@@ -2322,7 +2322,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c203">
-               <f name="southey" n="6" ana="0">
+               <f name="southey" n="416" ana="-0.99">
                   <string>She wrapt him in rich garments,</string>
                </f>
                <f name="montalvo" n="6">
@@ -2333,7 +2333,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c204">
-               <f name="southey" n="9" ana="0.56">
+               <f name="southey" n="410" ana="-0.97">
                   <string>and laying him by his mother brought the ark.</string>
                </f>
                <f name="montalvo" n="14">
@@ -2344,7 +2344,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c205">
-               <f name="southey" n="2" ana="0.5">
+               <f name="southey" n="401" ana="-0.99">
                   <string>Elisena cried</string>
                </f>
                <f name="montalvo" n="3">
@@ -2355,7 +2355,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c206">
-               <f name="southey" n="4" ana="0.25">
+               <f name="southey" n="399" ana="-0.99">
                   <string>what will you do?</string>
                </f>
                <f name="montalvo" n="5">
@@ -2366,7 +2366,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c207">
-               <f name="southey" n="3" ana="0">
+               <f name="southey" n="395" ana="-0.99">
                   <string>Place him here,</string>
                </f>
                <f name="montalvo" n="3">
@@ -2377,7 +2377,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c208">
-               <f name="southey" n="13" ana="0">
+               <f name="southey" n="392" ana="-0.97">
                   <string>she answered, and launch him down the stream, and belike he may escape.</string>
                </f>
                <f name="montalvo" n="13">
@@ -2388,7 +2388,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c209">
-               <f name="southey" n="13" ana="-0.15">
+               <f name="southey" n="379" ana="-0.97">
                   <string>Then the Mother took him in her arms, and wept bitterly over him.</string>
                </f>
                <f name="montalvo" n="11">
@@ -2410,7 +2410,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="366">
                   <string>But</string>
                </f>
                <f name="type" select="add">
@@ -2418,7 +2418,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c211">
-               <f name="southey" n="3" ana="0.33">
+               <f name="southey" n="365" ana="-0.99">
                   <string>Darioleta took ink</string>
                </f>
                <f name="montalvo" n="4">
@@ -2429,7 +2429,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c212">
-               <f name="southey" n="2" ana="0">
+               <f name="southey" n="362" ana="-0.99">
                   <string>and parchment,</string>
                </f>
                <f name="montalvo" n="2">
@@ -2440,7 +2440,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c213">
-               <f name="southey" n="2" ana="2">
+               <f name="southey" n="360" ana="-0.98">
                   <string>and wrote</string>
                </f>
                <f name="montalvo" n="6">
@@ -2451,7 +2451,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="358">
                   <string>upon it,</string>
                </f>
                <f name="type" select="add">
@@ -2459,7 +2459,7 @@
                </f>
             </fs>
             <fs corresp="#M1_ft1_p2_c214">
-               <f name="southey" n="7" ana="0.14">
+               <f name="southey" n="356" ana="-0.98">
                   <string ana="start">this is Amadis,
                            </string>
                   <fs>
@@ -2499,7 +2499,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="6">
+               <f name="southey" n="349">
                   <string>It was the name of her</string>
                </f>
                <f name="type" select="add">
@@ -2507,7 +2507,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c216">
-               <f name="southey" n="8" ana="1.38">
+               <f name="southey" n="343" ana="-0.94">
                   <string>saint, and of great reverence in that country.</string>
                </f>
                <f name="montalvo" n="19">
@@ -2518,7 +2518,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c217">
-               <f name="southey" n="18" ana="0">
+               <f name="southey" n="335" ana="-0.95">
                   <string>She covered the parchment with wax, and hung it by a string round the neck of the babe,</string>
                </f>
                <f name="montalvo" n="18">
@@ -2529,7 +2529,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c218">
-               <f name="southey" n="2" ana="5.5">
+               <f name="southey" n="317" ana="-0.96">
                   <string>and Elisena</string>
                </f>
                <f name="montalvo" n="13">
@@ -2540,7 +2540,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c219">
-               <f name="southey" n="4" ana="1.25">
+               <f name="southey" n="315" ana="-0.97">
                   <string>fastened upon the string</string>
                </f>
                <f name="montalvo" n="9">
@@ -2551,7 +2551,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c218">
-               <f name="southey" n="11" ana="0.18">
+               <f name="southey" n="311" ana="-0.96">
                   <string>the ring which King Perion had given her at his departure.</string>
                </f>
                <f name="montalvo" n="13">
@@ -2562,7 +2562,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="300">
                   <string>Darioleta</string>
                </f>
                <f name="type" select="add">
@@ -2570,7 +2570,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c220">
-               <f name="southey" n="14" ana="0.14">
+               <f name="southey" n="299" ana="-0.95">
                   <string>then placed the infant in the ark, and laid his father’s sword beside him;</string>
                </f>
                <f name="montalvo" n="16">
@@ -2592,7 +2592,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c224">
-               <f name="southey" n="12" ana="0">
+               <f name="southey" n="285" ana="-0.96">
                   <string>this done, she covered the ark, which was securely joined and calked,</string>
                </f>
                <f name="montalvo" n="12">
@@ -2611,7 +2611,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c227">
-               <f name="southey" n="3" ana="3">
+               <f name="southey" n="273" ana="-0.96">
                   <string>and opening the</string>
                </f>
                <f name="montalvo" n="12">
@@ -2622,7 +2622,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="1">
+               <f name="southey" n="270">
                   <string>iron</string>
                </f>
                <f name="type" select="add">
@@ -2630,7 +2630,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c227">
-               <f name="southey" n="12" ana="0">
+               <f name="southey" n="269" ana="-0.96">
                   <string>door, took it in her arms, and placed it in the river,</string>
                </f>
                <f name="montalvo" n="12">
@@ -2641,7 +2641,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="4">
+               <f name="southey" n="257">
                   <string>commending it to God.</string>
                </f>
                <f name="type" select="add">
@@ -2649,7 +2649,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c228">
-               <f name="southey" n="12" ana="0.17">
+               <f name="southey" n="253" ana="-0.94">
                   <string>The tide ran strong, and soon carried the ark into the sea,</string>
                </f>
                <f name="montalvo" n="14">
@@ -2660,7 +2660,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c229">
-               <f name="southey" n="8" ana="0.12">
+               <f name="southey" n="241" ana="-0.96">
                   <string>which was not more than a half-league distant.</string>
                </f>
                <f name="montalvo" n="9">
@@ -2671,7 +2671,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c230">
-               <f name="southey" n="4" ana="1.75">
+               <f name="southey" n="233" ana="-0.95">
                   <string>Now the dawn appeared,</string>
                </f>
                <f name="montalvo" n="11">
@@ -2690,7 +2690,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c232">
-               <f name="southey" n="3" ana="1">
+               <f name="southey" n="229" ana="-0.97">
                   <string>and it pleased</string>
                </f>
                <f name="montalvo" n="6">
@@ -2701,7 +2701,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c31">
-               <f name="southey" n="1" ana="4">
+               <f name="southey" n="226" ana="-0.98">
                   <string>God</string>
                </f>
                <f name="montalvo" n="5">
@@ -2722,7 +2722,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c233">
-               <f name="southey" n="16" ana="0.44">
+               <f name="southey" n="225" ana="-0.9">
                   <string>that there was a Knight of Scotland sailing on that sea, returning from the lesser Britain</string>
                </f>
                <f name="montalvo" n="23">
@@ -2733,7 +2733,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="3">
+               <f name="southey" n="209">
                   <string>to his country,</string>
                </f>
                <f name="type" select="add">
@@ -2741,7 +2741,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c233">
-               <f name="southey" n="3" ana="6.67">
+               <f name="southey" n="206" ana="-0.89">
                   <string>with his wife,</string>
                </f>
                <f name="montalvo" n="23">
@@ -2752,7 +2752,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c234">
-               <f name="southey" n="10" ana="0.4">
+               <f name="southey" n="203" ana="-0.93">
                   <string>who had newly been delivered of a son called Gandalin.</string>
                </f>
                <f name="montalvo" n="14">
@@ -2771,7 +2771,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c236">
-               <f name="southey" n="3" ana="3.33">
+               <f name="southey" n="193" ana="-0.93">
                   <string>The morning was</string>
                </f>
                <f name="montalvo" n="13">
@@ -2782,7 +2782,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="190">
                   <string>both calm</string>
                </f>
                <f name="type" select="add">
@@ -2790,7 +2790,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c236">
-               <f name="southey" n="3" ana="3.33">
+               <f name="southey" n="188" ana="-0.93">
                   <string>and clear, whereby</string>
                </f>
                <f name="montalvo" n="13">
@@ -2820,7 +2820,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c236">
-               <f name="southey" n="7" ana="0.86">
+               <f name="southey" n="182" ana="-0.93">
                   <string>saw the ark floating among the waves,</string>
                </f>
                <f name="montalvo" n="13">
@@ -2831,7 +2831,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c237">
-               <f name="southey" n="10" ana="0.1">
+               <f name="southey" n="175" ana="-0.94">
                   <string>and he ordered the mariners to put out a boat</string>
                </f>
                <f name="montalvo" n="11">
@@ -2842,7 +2842,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c238">
-               <f name="southey" n="4" ana="0">
+               <f name="southey" n="165" ana="-0.98">
                   <string>and take it up.</string>
                </f>
                <f name="montalvo" n="4">
@@ -2853,7 +2853,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c239">
-               <f name="southey" n="4" ana="3.25">
+               <f name="southey" n="161" ana="-0.89">
                   <string>They speedily overtook it,</string>
                </f>
                <f name="montalvo" n="17">
@@ -2864,7 +2864,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="2">
+               <f name="southey" n="157">
                   <string>and Gandales</string>
                </f>
                <f name="type" select="add">
@@ -2872,7 +2872,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c240">
-               <f name="southey" n="10" ana="1">
+               <f name="southey" n="155" ana="-0.87">
                   <string>opened the cover, and beholding the babe within he cried,</string>
                </f>
                <f name="montalvo" n="20">
@@ -2883,7 +2883,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c241">
-               <f name="southey" n="3" ana="1.67">
+               <f name="southey" n="145" ana="-0.94">
                   <string>this is from</string>
                </f>
                <f name="montalvo" n="8">
@@ -2894,7 +2894,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c241">
-               <f name="southey" n="3" ana="1.67">
+               <f name="southey" n="142" ana="-0.94">
                   <string>no mean place!</string>
                </f>
                <f name="montalvo" n="8">
@@ -2905,7 +2905,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c242">
-               <f name="southey" n="9" ana="0">
+               <f name="southey" n="139" ana="-0.94">
                   <string>and this he said because of the rich garments,</string>
                </f>
                <f name="montalvo" n="9">
@@ -2928,7 +2928,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c244">
-               <f name="southey" n="13" ana="1.46">
+               <f name="southey" n="87" ana="-0.63">
                   <string>and she ordered the nurse of her own child Gandalin to suckle him.</string>
                </f>
                <f name="montalvo" n="32">
@@ -2939,7 +2939,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c245">
-               <f name="southey" n="22" ana="0">
+               <f name="southey" n="74" ana="-0.7">
                   <string>So they went their way through the sea with a favourable time, and took port in a town in Scotland called Antalia,</string>
                </f>
                <f name="montalvo" n="22">
@@ -2950,7 +2950,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c246">
-               <f name="southey" n="19" ana="-0.21">
+               <f name="southey" n="52" ana="-0.71">
                   <string>and from thence departing they came to his castle, which was one of the good ones of the land;</string>
                </f>
                <f name="montalvo" n="15">
@@ -2961,7 +2961,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c247">
-               <f name="southey" n="11" ana="0">
+               <f name="southey" n="33" ana="-0.67">
                   <string>there he had the child brought up like his own son,</string>
                </f>
                <f name="montalvo" n="11">
@@ -2972,7 +2972,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c248">
-               <f name="southey" n="7" ana="0.29">
+               <f name="southey" n="22" ana="-0.59">
                   <string>and such he was believed to be,</string>
                </f>
                <f name="montalvo" n="9">
@@ -2983,7 +2983,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c249">
-               <f name="southey" n="14" ana="-0.29">
+               <f name="southey" n="15" ana="-0.33">
                   <string>because the mariners who took up the ark, had sailed away to other parts.</string>
                </f>
                <f name="montalvo" n="10">

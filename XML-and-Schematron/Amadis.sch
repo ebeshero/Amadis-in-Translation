@@ -107,6 +107,14 @@
       <report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">
         In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
       </report>
+    </rule>   
+  </pattern>
+  <pattern>
+    <rule context="tei:anchor[@ana eq 'start'][not(parent::tei:note)]">
+      <assert test="following::tei:anchor[@ana eq 'end'][not(parent::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">Every anchor[@ana='start'] must have a correlative anchor[@ana='end'] with the same "type" of parent</assert>
+    </rule>
+    <rule context="tei:anchor[@ana eq 'start'][parent::tei:note]">
+      <assert test="following-sibling::tei:anchor[@ana eq 'end']">Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent</assert>
     </rule>
   </pattern>
 

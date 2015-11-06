@@ -438,9 +438,8 @@
                <s>
                   <anchor ana="start" synch="#M1_p1_c236"/>The morning was<anchor ana="end"/> 
                   <anchor ana="start" type="add"/>both calm<anchor ana="end"/> 
-                  <anchor ana="start" synch="#M1_p1_c236"/>and clear, whereby<anchor ana="end"/> 
-                  <persName ref="#Gandales">
-                     <anchor ana="start" synch="#M1_p1_c234"/>the Knight Gandales</persName><anchor ana="end"/> 
+                  <anchor ana="start" synch="#M1_p1_c236"/>and clear, whereby<anchor ana="end"/>
+                  <anchor ana="start" synch="#M1_p1_c234"/><persName ref="#Gandales">the Knight Gandales</persName><anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c236"/>saw the ark floating among the waves,<anchor ana="end"/> 
                   <anchor ana="start" synch="#M1_p1_c237"/>and he ordered the mariners to put out a boat<anchor ana="end"/>
                   <anchor ana="start" synch="#M1_p1_c238"/>and take it up.<anchor ana="end"/>

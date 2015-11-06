@@ -359,7 +359,7 @@
                      resp="#Perion"/>fair friend, what demand ye?<milestone unit="said" ana="end"
                      /><anchor ana="end"/>
                </s>
-               <anchor ana="start" synch="#M0_p1_c117"/><s>
+               <s><anchor ana="start" synch="#M0_p1_c117"/>
                   <milestone unit="said" ana="start" resp="#Darioleta"/>I bring you wherewith to
                   cloathe yourself<milestone unit="said" ana="end"/>, she replied.<anchor ana="end"
                   />
