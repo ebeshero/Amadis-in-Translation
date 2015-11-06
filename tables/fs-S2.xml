@@ -426,8 +426,9 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c43">
-               <f name="southey" n="22" ana="0.68">
-                  <string>in whom as he beheld her by the light of the three torches, he thought all the beauty of the world was</string>
+               <f name="southey" n="23" ana="0.61">
+                  <string ana="start">in whom as he beheld her by the light of the three torches, he thought all the beauty of the world was
+                  </string>
                   <fs>
                      <f name="note">
                         <fs>
@@ -656,6 +657,7 @@
                         </fs>
                      </f>
                   </fs>
+                  <string ana="end"> centered.</string>
                </f>
                <f name="montalvo" n="37">
                   <string>que a la lumbre de tres hachas que en la cámara Ardían la mirava paresciéndole que toda la hermosura del mundo en ella era junta teniéndose por muy bienaventurado en que Dios a tal estado lo truxera:</string>
@@ -2457,8 +2459,9 @@
                </f>
             </fs>
             <fs corresp="#M1_ft1_p2_c214">
-               <f name="southey" n="3" ana="1.67">
-                  <string>this is Amadis,</string>
+               <f name="southey" n="7" ana="0.14">
+                  <string ana="start">this is Amadis,
+                           </string>
                   <fs>
                      <f name="note">
                         <fs corresp="#M1_ft1_p2_c214">
@@ -2485,17 +2488,8 @@
                         </fs>
                      </f>
                   </fs>
-               </f>
-               <f name="montalvo" n="8">
-                  <string>Este es Amadís Sin Tiempo hijo de rey:</string>
-               </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs corresp="#M1_ft1_p2_c214">
-               <f name="southey" n="4" ana="1">
-                  <string>son of a King.</string>
+                  <string ana="end">
+                          son of a King</string>
                </f>
                <f name="montalvo" n="8">
                   <string>Este es Amadís Sin Tiempo hijo de rey:</string>
@@ -2807,7 +2801,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c234">
-               <f name="southey" n="3" ana="3.67">
+               <f name="southey" n="185" ana="-0.92">
                   <string>the Knight Gandales</string>
                </f>
                <f name="montalvo" n="14">
@@ -2922,7 +2916,7 @@
                </f>
             </fs>
             <fs corresp="#M1_p1_c243">
-               <f name="southey" n="43" ana="-0.09">
+               <f name="southey" n="130" ana="-0.7">
                   <string>and the ring and the good sword, and he cursed the mother who had for fear abandoned so fair a child.
                He carefully laid aside all the things that were contained in the ark, and desired his wife to breed up the infant,</string>
                </f>

@@ -390,12 +390,12 @@
                   <body>
                      <p>
                         <s>
-                           <anchor ana="start" synch="#M1_ft1_p2_c214"/>this is Amadis,<anchor ana="end"/>
+                           <anchor ana="start" synch="#M1_ft1_p2_c214"/>this is Amadis,
                            <note anchored="true" resp="#Southey">
                               <anchor ana="start" synch="#M1_ft1_p2_c214"/>Este es Amadis sin tiempo, hijo de rey;<anchor ana="end"/> 
                               <anchor ana="start" synch="#M1_p1_c215"/>y sin tiempo dezia ella porque creya que luego seria muerto.<anchor ana="end"/>
-                           </note> 
-                           <anchor ana="start" synch="#M1_ft1_p2_c214"/>son of a King.<anchor ana="end"/>
+                           </note>
+                          son of a King<anchor ana="end"/>
                         </s>
                      </p>
                   </body>

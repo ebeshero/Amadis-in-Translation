@@ -53,10 +53,10 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
             </html>
         </xsl:result-document>
     </xsl:template>
-    <xsl:template match="div[@type = 'chapter']">
+    <xsl:template match="div[@type eq 'chapter']">
         <xsl:variable name="montalvo-chapter"
             select="
-                $montalvo//div[@type[. = 'chapter']][number(substring(@xml:id, 2)) + 1 =
+                $montalvo//div[@type[. eq 'chapter']][number(substring(@xml:id, 2)) + 1 =
                 number(substring(current()/@xml:id, 2))]"/>
         <xsl:variable name="clauses"
             select="
@@ -66,8 +66,15 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
         <li>
             <h2>
                 <a href="{concat(replace($southey-chapter, '\s+', ''), '.html')}">
-                    <xsl:value-of select="$clauses/ancestor::div//head/text()[1]"/>
-                <xsl:text> --- </xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="$clauses/ancestor::div/head[choice]">
+                            <xsl:value-of select="$clauses/ancestor::div/head//reg"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$clauses/ancestor::div//head/text()[1]"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:text> --- </xsl:text>
                     <xsl:value-of select="$southey-chapter"/>
                 </a>
             </h2>
