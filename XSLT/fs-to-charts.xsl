@@ -60,7 +60,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:apply-templates select="//fs"/>
+                                        <xsl:apply-templates select="//fs[not(f[@name = 'note'])]"/>
                                     </tbody>
                                 </table>
                             </main>
@@ -88,7 +88,7 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
         </xsl:for-each>
 
     </xsl:template>
-    <xsl:template match="fs[not(f[@name = 'note'])]">
+    <xsl:template match="fs">
         <tr>
             <xsl:element name="td">
                 <xsl:if test="current()/not(f[@name = 'montalvo'])">

@@ -23,7 +23,7 @@
          <div type="table" xml:id="S23">
             <head>Chapter 23. </head>
             <fs corresp="#M22_p1_c1">
-               <f name="southey" n="730" ana="-0.99">
+               <f name="southey" n="1" ana="9">
                   <string>Amadis</string>
                </f>
                <f name="montalvo" n="10">
@@ -34,7 +34,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c1.1">
-               <f name="southey" n="729" ana="-0.97">
+               <f name="southey" n="12" ana="0.67">
                   <string>rode on without any adventure till he entered the forest of Angaduza,</string>
                </f>
                <f name="montalvo" n="20">
@@ -54,7 +54,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c2">
-               <f name="southey" n="718" ana="-0.98">
+               <f name="southey" n="8" ana="0.62">
                   <string>where he met a Knight and a Damsel;</string>
                </f>
                <f name="montalvo" n="13">
@@ -65,7 +65,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c3">
-               <f name="southey" n="710" ana="-0.99">
+               <f name="southey" n="8" ana="0.25">
                   <string>and the Knight coming near drew his sword,</string>
                </f>
                <f name="montalvo" n="10">
@@ -76,7 +76,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c4">
-               <f name="southey" n="702" ana="-0.99">
+               <f name="southey" n="10" ana="0">
                   <string>and ran at the Dwarf to cut off his head.</string>
                </f>
                <f name="montalvo" n="10">
@@ -87,7 +87,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c5">
-               <f name="southey" n="692" ana="-0.99">
+               <f name="southey" n="10" ana="-0.1">
                   <string>The Dwarf fell from his horse with fear, and cried</string>
                </f>
                <f name="montalvo" n="9">
@@ -98,7 +98,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="682">
+               <f name="southey" n="1">
                   <string>lustily</string>
                </f>
                <f name="type" select="add">
@@ -106,7 +106,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c6">
-               <f name="southey" n="681" ana="-0.99">
+               <f name="southey" n="2" ana="1.5">
                   <string>for help.</string>
                </f>
                <f name="montalvo" n="5">
@@ -117,7 +117,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c7">
-               <f name="southey" n="679" ana="-0.98">
+               <f name="southey" n="8" ana="0.75">
                   <string>Amadis with all speed went to protect him.</string>
                </f>
                <f name="montalvo" n="14">
@@ -128,7 +128,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c8">
-               <f name="southey" n="672" ana="-0.99">
+               <f name="southey" n="7" ana="0">
                   <string>
                Why would you slay my Dwarf?</string>
                </f>
@@ -140,7 +140,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c7">
-               <f name="southey" n="665" ana="-0.98">
+               <f name="southey" n="3" ana="3.67">
                   <string>quoth he; </string>
                </f>
                <f name="montalvo" n="14">
@@ -151,7 +151,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="663">
+               <f name="southey" n="2">
                   <string>trust me</string>
                </f>
                <f name="type" select="add">
@@ -159,7 +159,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c9">
-               <f name="southey" n="661" ana="-0.98">
+               <f name="southey" n="13" ana="-0.15">
                   <string>it is but poor manhood to lay hands on so poor a wretch:</string>
                </f>
                <f name="montalvo" n="11">
@@ -170,7 +170,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c10">
-               <f name="southey" n="648" ana="-0.99">
+               <f name="southey" n="3" ana="0.33">
                   <string>he is mine,</string>
                </f>
                <f name="montalvo" n="4">
@@ -189,7 +189,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c12">
-               <f name="southey" n="645" ana="-0.99">
+               <f name="southey" n="5" ana="0">
                   <string>and I shall defend him.</string>
                </f>
                <f name="montalvo" n="5">
@@ -200,7 +200,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c13">
-               <f name="southey" n="640" ana="-0.99">
+               <f name="southey" n="8" ana="0.12">
                   <string>For that, replied the other, I am sorry;</string>
                </f>
                <f name="montalvo" n="9">
@@ -211,7 +211,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c14">
-               <f name="southey" n="632" ana="-0.99">
+               <f name="southey" n="9" ana="-0.11">
                   <string>but at any rate I must have his head.</string>
                </f>
                <f name="montalvo" n="8">
@@ -222,7 +222,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c15">
-               <f name="southey" n="623" ana="-0.99">
+               <f name="southey" n="5" ana="0.2">
                   <string>Do battle first, quoth Amadis.</string>
                </f>
                <f name="montalvo" n="6">
@@ -233,7 +233,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c16">
-               <f name="southey" n="618" ana="-0.97">
+               <f name="southey" n="9" ana="0.89">
                   <string>They took their shields, and ran at each other;</string>
                </f>
                <f name="montalvo" n="17">
@@ -244,7 +244,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c17">
-               <f name="southey" n="609" ana="-0.98">
+               <f name="southey" n="7" ana="1">
                   <string>both shields were pierced and both breast-plates.</string>
                </f>
                <f name="montalvo" n="14">
@@ -255,7 +255,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c18">
-               <f name="southey" n="602" ana="-0.96">
+               <f name="southey" n="14" ana="0.64">
                   <string>Their horses shocked together and their bodies, and both were driven to the ground;</string>
                </f>
                <f name="montalvo" n="23">
@@ -274,7 +274,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c20">
-               <f name="southey" n="588" ana="-0.96">
+               <f name="southey" n="11" ana="1.27">
                   <string>but the sword-battle that ensued none could have seen without affright,</string>
                </f>
                <f name="montalvo" n="25">
@@ -293,7 +293,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c22">
-               <f name="southey" n="577" ana="-0.98">
+               <f name="southey" n="4" ana="2.25">
                   <string>for never before had</string>
                </f>
                <f name="montalvo" n="13">
@@ -313,7 +313,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="573">
+               <f name="southey" n="2">
                   <string>either warrior</string>
                </f>
                <f name="type" select="add">
@@ -321,7 +321,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c22">
-               <f name="southey" n="571" ana="-0.98">
+               <f name="southey" n="2" ana="5.5">
                   <string>found himself</string>
                </f>
                <f name="montalvo" n="13">
@@ -341,7 +341,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="569">
+               <f name="southey" n="2">
                   <string>so matched,</string>
                </f>
                <f name="type" select="add">
@@ -349,7 +349,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c22">
-               <f name="southey" n="567" ana="-0.98">
+               <f name="southey" n="4" ana="2.25">
                   <string>nor in such peril;</string>
                </f>
                <f name="montalvo" n="13">
@@ -369,7 +369,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c24">
-               <f name="southey" n="563" ana="-0.98">
+               <f name="southey" n="4" ana="1.75">
                   <string>their shields were shivered,</string>
                </f>
                <f name="montalvo" n="11">
@@ -380,7 +380,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c28">
-               <f name="southey" n="559" ana="-0.98">
+               <f name="southey" n="5" ana="1.6">
                   <string>their helmets hacked and bruised,</string>
                </f>
                <f name="montalvo" n="13">
@@ -391,7 +391,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c25">
-               <f name="southey" n="554" ana="-0.99">
+               <f name="southey" n="2" ana="2.5">
                   <string>their mail</string>
                </f>
                <f name="montalvo" n="7">
@@ -410,7 +410,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c24">
-               <f name="southey" n="552" ana="-0.98">
+               <f name="southey" n="2" ana="4.5">
                   <string>sliced away,</string>
                </f>
                <f name="montalvo" n="11">
@@ -421,7 +421,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c27">
-               <f name="southey" n="550" ana="-0.97">
+               <f name="southey" n="8" ana="1">
                   <string>and every where free openings for the sword.</string>
                </f>
                <f name="montalvo" n="16">
@@ -432,7 +432,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c29">
-               <f name="southey" n="542" ana="-0.99">
+               <f name="southey" n="7" ana="-0.14">
                   <string>Both at length drew back to breathe.</string>
                </f>
                <f name="montalvo" n="6">
@@ -443,7 +443,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c31">
-               <f name="southey" n="535" ana="-0.98">
+               <f name="southey" n="1" ana="8">
                   <string>Knight</string>
                </f>
                <f name="montalvo" n="9">
@@ -454,7 +454,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c30">
-               <f name="southey" n="534" ana="-0.99">
+               <f name="southey" n="3" ana="1">
                   <string>said the stranger,</string>
                </f>
                <f name="montalvo" n="6">
@@ -465,7 +465,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c31">
-               <f name="southey" n="531" ana="-0.98">
+               <f name="southey" n="12" ana="-0.25">
                   <string>do not suffer this any longer for the sake of a Dwarf:</string>
                </f>
                <f name="montalvo" n="9">
@@ -476,7 +476,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c32">
-               <f name="southey" n="519" ana="-0.97">
+               <f name="southey" n="2" ana="6">
                   <string>let me</string>
                </f>
                <f name="montalvo" n="14">
@@ -487,7 +487,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="517">
+               <f name="southey" n="4">
                   <string>cut off his head,</string>
                </f>
                <f name="type" select="add">
@@ -495,7 +495,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c32">
-               <f name="southey" n="513" ana="-0.97">
+               <f name="southey" n="11" ana="0.27">
                   <string>and I will make amends to you for the wrong hereafter.</string>
                </f>
                <f name="montalvo" n="14">
@@ -506,7 +506,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c33">
-               <f name="southey" n="502" ana="-0.97">
+               <f name="southey" n="14" ana="0.21">
                   <string>Talk not to me of that, said Amadis: the Dwarf shall not be harmed.</string>
                </f>
                <f name="montalvo" n="17">
@@ -517,7 +517,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c34">
-               <f name="southey" n="488" ana="-0.96">
+               <f name="southey" n="14" ana="0.36">
                   <string>I must either perish, said the Knight, or give his head to that Damsel.</string>
                </f>
                <f name="montalvo" n="19">
@@ -528,7 +528,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c35">
-               <f name="southey" n="474" ana="-0.97">
+               <f name="southey" n="8" ana="0.62">
                   <string>Said Amadis, one of us shall perish first!</string>
                </f>
                <f name="montalvo" n="13">
@@ -539,7 +539,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c36">
-               <f name="southey" n="466" ana="-0.97">
+               <f name="southey" n="12" ana="0.17">
                   <string>and, resuming his shield and sword, he renewed the combat more fiercely,</string>
                </f>
                <f name="montalvo" n="14">
@@ -550,7 +550,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="454">
+               <f name="southey" n="2">
                   <string>provoked at</string>
                </f>
                <f name="type" select="add">
@@ -558,7 +558,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c37">
-               <f name="southey" n="452" ana="-0.96">
+               <f name="southey" n="4" ana="3.75">
                   <string>the Knight’s unreasonable will.</string>
                </f>
                <f name="montalvo" n="19">
@@ -569,7 +569,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c38">
-               <f name="southey" n="448" ana="-0.98">
+               <f name="southey" n="10" ana="0">
                   <string>But if he was strong, the other was not weak,</string>
                </f>
                <f name="montalvo" n="10">
@@ -588,7 +588,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c40">
-               <f name="southey" n="438" ana="-0.94">
+               <f name="southey" n="20" ana="0.4">
                   <string>and the battle continued till each expected nothing but death, though neither of them a whit abated of his courage.</string>
                </f>
                <f name="montalvo" n="28">
@@ -607,7 +607,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c43">
-               <f name="southey" n="418" ana="-0.94">
+               <f name="southey" n="13" ana="1">
                   <string>When they were in this plight a Knight came up, who crossed himself</string>
                </f>
                <f name="montalvo" n="26">
@@ -618,7 +618,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c44">
-               <f name="southey" n="405" ana="-0.97">
+               <f name="southey" n="6" ana="1">
                   <string>to see so desperate a combat,</string>
                </f>
                <f name="montalvo" n="12">
@@ -629,7 +629,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c45">
-               <f name="southey" n="399" ana="-0.97">
+               <f name="southey" n="4" ana="1.75">
                   <string>and asked the Damsel</string>
                </f>
                <f name="montalvo" n="11">
@@ -640,7 +640,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="395">
+               <f name="southey" n="3">
                   <string>how it began.</string>
                </f>
                <f name="type" select="add">
@@ -648,7 +648,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c46">
-               <f name="southey" n="392" ana="-0.98">
+               <f name="southey" n="6" ana="0.33">
                   <string>I set them on, said she,</string>
                </f>
                <f name="montalvo" n="8">
@@ -659,7 +659,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c47">
-               <f name="southey" n="386" ana="-0.98">
+               <f name="southey" n="11" ana="-0.27">
                   <string>and end as it will it must be to my joy:</string>
                </f>
                <f name="montalvo" n="8">
@@ -670,7 +670,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c48">
-               <f name="southey" n="376" ana="-0.96">
+               <f name="southey" n="15" ana="0">
                   <string> I shall be glad if either of them be killed, much more if both.</string>
                </f>
                <f name="montalvo" n="15">
@@ -681,7 +681,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c49">
-               <f name="southey" n="361" ana="-0.99">
+               <f name="southey" n="4" ana="0.25">
                   <string>That, quoth the Knight,</string>
                </f>
                <f name="montalvo" n="5">
@@ -692,7 +692,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c50">
-               <f name="southey" n="357" ana="-0.98">
+               <f name="southey" n="4" ana="0.75">
                   <string>is an evil disposition:</string>
                </f>
                <f name="montalvo" n="7">
@@ -711,7 +711,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c52">
-               <f name="southey" n="353" ana="-0.98">
+               <f name="southey" n="6" ana="0.17">
                   <string>wherefore do you so hate them?</string>
                </f>
                <f name="montalvo" n="7">
@@ -722,7 +722,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c53">
-               <f name="southey" n="347" ana="-0.98">
+               <f name="southey" n="4" ana="0.75">
                   <string>I will tell you:</string>
                </f>
                <f name="montalvo" n="7">
@@ -733,7 +733,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c54">
-               <f name="southey" n="343" ana="-0.92">
+               <f name="southey" n="22" ana="0.32">
                   <string>he who hath most of his shield left, is the man whose death my uncle Arcalaus most desires, and is named Amadis;</string>
                </f>
                <f name="montalvo" n="29">
@@ -744,7 +744,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c55">
-               <f name="southey" n="321" ana="-0.97">
+               <f name="southey" n="5" ana="1">
                   <string>the other is called Galaor,</string>
                </f>
                <f name="montalvo" n="10">
@@ -755,7 +755,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c56">
-               <f name="southey" n="316" ana="-0.97">
+               <f name="southey" n="9" ana="0.11">
                   <string>and he slew the man whom I loved best.</string>
                </f>
                <f name="montalvo" n="10">
@@ -766,7 +766,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c57">
-               <f name="southey" n="307" ana="-0.94">
+               <f name="southey" n="17" ana="0">
                   <string>I obtained a boon from him, and have asked him one which will cost him his life;</string>
                </f>
                <f name="montalvo" n="17">
@@ -777,7 +777,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c58">
-               <f name="southey" n="290" ana="-0.94">
+               <f name="southey" n="19" ana="-0.05">
                   <string>for, because that other Knight is the best in the world, I have demanded the head of his Dwarf;</string>
                </f>
                <f name="montalvo" n="18">
@@ -788,7 +788,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c59">
-               <f name="southey" n="271" ana="-0.91">
+               <f name="southey" n="5" ana="3.8">
                   <string>both are brought near death</string>
                </f>
                <f name="montalvo" n="24">
@@ -799,7 +799,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="266">
+               <f name="southey" n="1">
                   <string>hereby</string>
                </f>
                <f name="type" select="add">
@@ -807,7 +807,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c60">
-               <f name="southey" n="265" ana="-0.97">
+               <f name="southey" n="4" ana="1">
                   <string>to my great pleasure.</string>
                </f>
                <f name="montalvo" n="8">
@@ -818,7 +818,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c62">
-               <f name="southey" n="261" ana="-0.93">
+               <f name="southey" n="5" ana="2.4">
                   <string>A curse upon thee, woman!</string>
                </f>
                <f name="montalvo" n="17">
@@ -829,7 +829,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c61">
-               <f name="southey" n="256" ana="-0.98">
+               <f name="southey" n="3" ana="1">
                   <string>cried the Knight;</string>
                </f>
                <f name="montalvo" n="6">
@@ -840,7 +840,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c63">
-               <f name="southey" n="253" ana="-0.9">
+               <f name="southey" n="12" ana="1.08">
                   <string>and he drew his sword and smote her head from her shoulders:</string>
                </f>
                <f name="montalvo" n="25">
@@ -859,7 +859,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c65">
-               <f name="southey" n="241" ana="-0.94">
+               <f name="southey" n="12" ana="0.25">
                   <string>take this for the sake of thy uncle Arcalaus and his prison,</string>
                </f>
                <f name="montalvo" n="15">
@@ -870,7 +870,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c66">
-               <f name="southey" n="229" ana="-0.97">
+               <f name="southey" n="6" ana="0">
                   <string>from whence that Knight released me!</string>
                </f>
                <f name="montalvo" n="6">
@@ -881,7 +881,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c67">
-               <f name="southey" n="223" ana="-0.96">
+               <f name="southey" n="4" ana="1.5">
                   <string>and with that he</string>
                </f>
                <f name="montalvo" n="10">
@@ -892,7 +892,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="220">
+               <f name="southey" n="5">
                   <string> gallopped to the combatants.</string>
                </f>
                <f name="type" select="add">
@@ -900,7 +900,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c68">
-               <f name="southey" n="216" ana="-0.99">
+               <f name="southey" n="3" ana="0">
                   <string>–-Hold, Sir Amadis,</string>
                </f>
                <f name="montalvo" n="3">
@@ -911,7 +911,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c69">
-               <f name="southey" n="213" ana="-0.95">
+               <f name="southey" n="6" ana="0.83">
                   <string>for it is your brother Galaor!</string>
                </f>
                <f name="montalvo" n="11">
@@ -922,7 +922,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c70">
-               <f name="southey" n="207" ana="-0.93">
+               <f name="southey" n="8" ana="0.75">
                   <string>Then Amadis threw down his shield and sword,</string>
                </f>
                <f name="montalvo" n="14">
@@ -942,7 +942,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="199">
+               <f name="southey" n="4">
                   <string>and the brethren embraced,</string>
                </f>
                <f name="type" select="add">
@@ -950,7 +950,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c74">
-               <f name="southey" n="195" ana="-0.95">
+               <f name="southey" n="8" ana="0.12">
                   <string>and Galaor knelt down and besought his pardon.</string>
                </f>
                <f name="montalvo" n="9">
@@ -969,7 +969,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c76">
-               <f name="southey" n="187" ana="-0.87">
+               <f name="southey" n="1" ana="24">
                   <string>Brother!</string>
                </f>
                <f name="montalvo" n="25">
@@ -980,7 +980,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c65">
-               <f name="southey" n="186" ana="-0.92">
+               <f name="southey" n="2" ana="6.5">
                   <string>quoth Amadis,</string>
                </f>
                <f name="montalvo" n="15">
@@ -991,7 +991,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c76">
-               <f name="southey" n="184" ana="-0.86">
+               <f name="southey" n="19" ana="0.32">
                   <string>the danger through which I have passed is well requited, since it has proved to me your great prowess;</string>
                </f>
                <f name="montalvo" n="25">
@@ -1002,7 +1002,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c77">
-               <f name="southey" n="165" ana="-0.96">
+               <f name="southey" n="6" ana="0.17">
                   <string>and then they unlaced their helmets,</string>
                </f>
                <f name="montalvo" n="7">
@@ -1013,7 +1013,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c78">
-               <f name="southey" n="159" ana="-0.97">
+               <f name="southey" n="4" ana="0.25">
                   <string>for they had need</string>
                </f>
                <f name="montalvo" n="5">
@@ -1024,7 +1024,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="155">
+               <f name="southey" n="2">
                   <string>of air,</string>
                </f>
                <f name="type" select="add">
@@ -1032,7 +1032,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c79">
-               <f name="southey" n="153" ana="-0.93">
+               <f name="southey" n="5" ana="1">
                   <string>and the Knight told them</string>
                </f>
                <f name="montalvo" n="10">
@@ -1051,7 +1051,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="148">
+               <f name="southey" n="9">
                   <string>how he had served the Damsel for her wickedness.</string>
                </f>
                <f name="type" select="add">
@@ -1059,7 +1059,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c81">
-               <f name="southey" n="139" ana="-0.91">
+               <f name="southey" n="17" ana="-0.24">
                   <string>Good fortune befall you for doing it, quoth Galaor; for now am I clear of my boon.</string>
                </f>
                <f name="montalvo" n="13">
@@ -1070,7 +1070,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c82">
-               <f name="southey" n="122" ana="-0.87">
+               <f name="southey" n="18" ana="-0.11">
                   <string>And indeed, Sir Knight, said the Dwarf, I am better pleased that you are quit by these means,</string>
                </f>
                <f name="montalvo" n="16">
@@ -1081,7 +1081,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c83">
-               <f name="southey" n="104" ana="-0.93">
+               <f name="southey" n="7" ana="0">
                   <string>than in the way you first designed.</string>
                </f>
                <f name="montalvo" n="7">
@@ -1101,7 +1101,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="97">
+               <f name="southey" n="5">
                   <string>Now, said the stranger, </string>
                </f>
                <f name="type" select="add">
@@ -1109,7 +1109,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c90">
-               <f name="southey" n="93" ana="-0.83">
+               <f name="southey" n="6" ana="1.67">
                   <string>come with me to my Castle.</string>
                </f>
                <f name="montalvo" n="16">
@@ -1129,7 +1129,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c92">
-               <f name="southey" n="88" ana="-0.89">
+               <f name="southey" n="9" ana="0.11">
                   <string>I am the happiest man in the world, Sir</string>
                </f>
                <f name="montalvo" n="10">
@@ -1140,7 +1140,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="80">
+               <f name="southey" n="2">
                   <string> Amadis,</string>
                </f>
                <f name="type" select="add">
@@ -1148,7 +1148,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c92">
-               <f name="southey" n="78" ana="-0.87">
+               <f name="southey" n="7" ana="0.43">
                   <string>to have requited you with this service</string>
                </f>
                <f name="montalvo" n="10">
@@ -1159,7 +1159,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c93">
-               <f name="southey" n="71" ana="-0.77">
+               <f name="southey" n="12" ana="0.33">
                   <string>for delivering me from the cruellest dungeon in which ever wretch lay.</string>
                </f>
                <f name="montalvo" n="16">
@@ -1170,7 +1170,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c94">
-               <f name="southey" n="60" ana="-0.92">
+               <f name="southey" n="3" ana="0.67">
                   <string>–-Where was that?</string>
                </f>
                <f name="montalvo" n="5">
@@ -1181,7 +1181,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c95">
-               <f name="southey" n="58" ana="-0.59">
+               <f name="southey" n="5" ana="3.8">
                   <string>–-In the Castle of Arcalaus:</string>
                </f>
                <f name="montalvo" n="24">
@@ -1201,7 +1201,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c97">
-               <f name="southey" n="53" ana="-0.91">
+               <f name="southey" n="4" ana="0.25">
                   <string>my name is Balays</string>
                </f>
                <f name="montalvo" n="5">
@@ -1212,7 +1212,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c98">
-               <f name="southey" n="49" ana="-0.55">
+               <f name="southey" n="2" ana="10">
                   <string>of Carsante.</string>
                </f>
                <f name="montalvo" n="22">
@@ -1233,7 +1233,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c102">
-               <f name="southey" n="47" ana="-0.53">
+               <f name="southey" n="4" ana="4.5">
                   <string>So they went to</string>
                </f>
                <f name="montalvo" n="22">
@@ -1254,7 +1254,7 @@
                </f>
             </fs>
             <fs>
-               <f name="southey" n="44">
+               <f name="southey" n="4">
                   <string> that good Knight’s</string>
                </f>
                <f name="type" select="add">
@@ -1262,7 +1262,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c102">
-               <f name="southey" n="41" ana="-0.46">
+               <f name="southey" n="2" ana="10">
                   <string> Castle,</string>
                </f>
                <f name="montalvo" n="22">
@@ -1283,7 +1283,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c110">
-               <f name="southey" n="39" ana="-0.64">
+               <f name="southey" n="6" ana="1.33">
                   <string>where they were laid in bed,</string>
                </f>
                <f name="montalvo" n="14">
@@ -1294,7 +1294,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c111">
-               <f name="southey" n="33" ana="-0.45">
+               <f name="southey" n="4" ana="3.5">
                   <string>and their wounds dressed;</string>
                </f>
                <f name="montalvo" n="18">
@@ -1328,7 +1328,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c126">
-               <f name="southey" n="29" ana="0.17">
+               <f name="southey" n="14" ana="1.43">
                   <string>and Amadis dispatched his Dwarf to inform Queen Brisena that he had found Galaor,</string>
                </f>
                <f name="montalvo" n="34">
@@ -1339,7 +1339,7 @@
                </f>
             </fs>
             <fs corresp="#M22_p1_c127">
-               <f name="southey" n="15" ana="-0.2">
+               <f name="southey" n="14" ana="-0.14">
                   <string>and would bring him to Windsor as soon as they were able to travel.</string>
                </f>
                <f name="montalvo" n="12">

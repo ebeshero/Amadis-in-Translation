@@ -54,7 +54,7 @@
         <xsl:variable name="southey-text"
             select="
             current()/following::text()
-            except (current()/anchor[@ana eq 'end'][parent::node()/name() eq current()/parent::node()/name()][1]/following::node()) except current()//following::note//text()"/>
+            except (current()/following::anchor[@ana eq 'end'][parent::node()/name() eq current()/parent::node()/name()][1]/following::node()) except current()//following::note//text()"/>
         <!--  heb: We replace the punctuation marks and join the different chunks of text with an space so 
             as to be sure that the tokenization is done correctly-->
         <xsl:variable name="correction"
