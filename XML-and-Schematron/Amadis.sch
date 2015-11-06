@@ -210,5 +210,9 @@
       </assert>
     </rule>
   </pattern>
-  
+  <pattern>
+    <rule context="tei:div[@type eq 'chapter'][@xml:id[contains(., 'M')]]/tei:head/tei:locus">
+      <assert test="matches(@from, '[ivxlcdm]+\-[r|v]') and matches(@to, '[ivxlcdm]+\-[r|v]')">The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'</assert>
+    </rule>
+  </pattern>
 </schema>
