@@ -26,7 +26,7 @@
         <body>
             <div type="chapter" xml:id="M1">
                 <!--pdf 7-->
-                <head>Capítulo primero <locus from="iiii-r" to="v-v"/>
+                <head><choice><orig>Capítulo primero</orig><reg>Capítulo I</reg></choice> <locus from="iiii-r" to="v-v"/>
                 </head>
                 <argument>
                     <p>Cómo la infanta <persName ref="#Helisena">Elisena</persName> y su donzella

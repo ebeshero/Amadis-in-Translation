@@ -31,7 +31,7 @@
             -->
             <div type="chapter" xml:id="M0">
                 <!--PDF, page 4-->
-                <head>Comiença la obra. <locus from="ii-v" to="iiii-r"/>
+                <head><choice><orig>Comiença la obra.</orig><reg>Comiença la obra</reg></choice> <locus from="ii-v" to="iiii-r"/>
                 </head>
                 <!-- st 9.20.15: scholars are divided on whether they modernize Roman numerals, so as long as we're consistent with this, fine by me 
                     -->

@@ -25,7 +25,7 @@
     <text>
         <body>
             <div type="chapter" xml:id="M2">
-                <head>Capítu. II <locus from="v-v" to="vii-v"/>
+                <head><choice><orig>Capítu. II</orig><reg>Capítulo II</reg></choice> <locus from="v-v" to="vii-v"/>
                     <!--pdf page 10-->
                 </head>
                 <argument>
