@@ -111,10 +111,12 @@
   </pattern>
   <pattern>
     <rule context="tei:anchor[@ana eq 'start'][not(parent::tei:note)]">
-      <assert test="following::tei:anchor[@ana eq 'end'][not(parent::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">Every anchor[@ana='start'] must have a correlative anchor[@ana='end'] with the same "type" of parent</assert>
+      <assert test="following::tei:anchor[@ana eq 'end'][not(parent::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">
+        Every anchor[@ana='start'] must have a correlating anchor[@ana='end'] with the same kind of parent element. 
+      This prevents ambiguous pairings of anchor elements between main text and notes.</assert>
     </rule>
     <rule context="tei:anchor[@ana eq 'start'][parent::tei:note]">
-      <assert test="following-sibling::tei:anchor[@ana eq 'end']">Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent</assert>
+      <assert test="following-sibling::tei:anchor[@ana eq 'end']">Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent.</assert>
     </rule>
   </pattern>
 
@@ -220,7 +222,7 @@
   </pattern>
   <pattern>
     <rule context="tei:div[@type eq 'chapter'][@xml:id[contains(., 'M')]]/tei:head/tei:locus">
-      <assert test="matches(@from, '[ivxlcdm]+\-[r|v]') and matches(@to, '[ivxlcdm]+\-[r|v]')">The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'</assert>
+      <assert test="matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'</assert>
     </rule>
   </pattern>
 </schema>
