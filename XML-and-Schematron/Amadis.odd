@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:rng="http://relaxng.org/ns/structure/1.0"
+     version="2.9.1"
+     xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -34,7 +38,7 @@
   <text>
     <body>
       <head>TEI for Amadis</head>
-      <schemaSpec ident="Amadis-ODD"
+      <schemaSpec ident="Amadis"
 		  start="TEI teiCorpus"
 		  prefix="amadis."
 		  docLang="en">
@@ -83,6 +87,13 @@
 	</elementSpec>
 
 	<elementSpec ident="anchor" module="linking" mode="change">
+	  <constraintSpec scheme="isoschematron" ident="refer-to-Montalvo">
+	    <constraint>
+	      <sch:rule context="tei:anchor[@ana eq 'start'][not(@type eq 'add')]">
+		<sch:report test="not(@synch)">A @synch must be present on this anchor to point to a corresponding unit in Montalvo!</sch:report>
+	      </sch:rule>
+	    </constraint>
+	  </constraintSpec>	    
 	  <attList>
 	    <attDef ident="ana" mode="change" usage="req">
 	      <valList type="open" mode="replace">
@@ -99,9 +110,18 @@
 	    </attDef>
 	    <attDef ident="type" mode="change">
 	      <valList type="closed" mode="replace">
-		<valItem ident="add"/>
-		<valItem ident=" report"/>
-		<valItem ident=" direct"/>
+		<valItem ident="add">
+		  <gloss>addition</gloss>
+		  <desc>indicates an addition by Southey [FIXME, as Syd does
+		  not understand how in the heck an element with no content
+		  can be an addition.]</desc>
+		</valItem>
+		<valItem ident="report">
+		  <desc>FIXME</desc>
+		</valItem>
+		<valItem ident="direct">
+		  <desc>FIXME</desc>
+		</valItem>
 	      </valList>
 	    </attDef>
 	  </attList>
