@@ -10,7 +10,7 @@
 	<title>Amadis ODD</title>
 	<author>Elisa Beshero-Bondar</author>
 	<respStmt>
-	  <persName>Syd Bauman</persName>
+	  <name>Syd Bauman</name>
 	  <resp>TEI &amp; ODD help</resp>
 	</respStmt>
       </titleStmt>
@@ -82,7 +82,12 @@
 	    <attDef ident="xml:base" mode="delete"/>
 	    <attDef ident="xml:space" mode="delete"/>
 	    <attDef ident="ana" mode="change" usage="req">
-	      <defaultVal>start, end, intStart, intEnd</defaultVal>
+	    	<valList type="closed" mode="replace">
+	    		<valItem ident="start"/>
+	    		<valItem ident=" end"/>
+	    		<valItem ident=" intStart"/>
+	    		<valItem ident=" intEnd"/>
+	    	</valList>
 	    </attDef>
 	  </attList>
 	</elementSpec>
@@ -91,13 +96,13 @@
 	  <constraintSpec scheme="isoschematron" ident="refer-to-Montalvo">
 	    <constraint>
 	      <sch:rule context="tei:anchor[@ana eq 'start'][not(@type eq 'add')]">
-		<sch:report test="not(@synch)">A @synch must be present on this anchor to point to a corresponding unit in Montalvo!</sch:report>
+		<sch:report test="not(@corresp)">An @corresp must be present on this anchor to point to a corresponding unit in Montalvo!</sch:report>
 	      </sch:rule>
 	    </constraint>
 	  </constraintSpec>	    
 	  <attList>
 	    <attDef ident="ana" mode="change" usage="req">
-	      <valList type="open" mode="replace">
+	      <valList type="closed" mode="replace">
 		<valItem ident="start"/>
 		<valItem ident="end"/>
 		<valItem ident="intStart"/>
@@ -113,7 +118,7 @@
 	      <valList type="closed" mode="replace">
 		<valItem ident="add">
 		  <gloss>addition</gloss>
-		  <desc>indicates an addition by Southey [FIXME, as Syd does
+		  <desc>This attribute value appears to mark the start of an addition by Southey [ebb: I think I've FIXED this, but I'm leaving the FIXME square brackets while I test stuff. FIXME, as Syd does
 		  not understand how in the heck an element with no content
 		  can be an addition.]</desc>
 		</valItem>
