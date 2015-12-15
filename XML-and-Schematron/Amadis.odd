@@ -54,7 +54,8 @@
 	<moduleRef key="namesdates"/>
 	<moduleRef key="spoken"/>
 	<moduleRef key="textcrit"/>
-	<moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/> <!-- required -->
+	<moduleRef key="textstructure"
+		   except="div1 div2 div3 div4 div5 div6 div7"/> <!-- required -->
 	<moduleRef key="transcr"/>
 	<moduleRef key="verse"/>
 
@@ -103,9 +104,9 @@
 	    <attDef ident="ana" mode="change" usage="req">
 	      <valList type="closed" mode="replace">
 		<valItem ident="start"/>
-		<valItem ident=" end"/>
-		<valItem ident=" intStart"/>
-		<valItem ident=" intEnd"/>
+		<valItem ident="end"/>
+		<valItem ident="intStart"/>
+		<valItem ident="intEnd"/>
 	      </valList>
 	    </attDef>
 	    <attDef ident="cert" mode="change">
