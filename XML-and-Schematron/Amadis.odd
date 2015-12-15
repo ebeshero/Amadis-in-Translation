@@ -82,12 +82,12 @@
 	    <attDef ident="xml:base" mode="delete"/>
 	    <attDef ident="xml:space" mode="delete"/>
 	    <attDef ident="ana" mode="change" usage="req">
-	    	<valList type="closed" mode="replace">
-	    		<valItem ident="start"/>
-	    		<valItem ident=" end"/>
-	    		<valItem ident=" intStart"/>
-	    		<valItem ident=" intEnd"/>
-	    	</valList>
+	      <valList type="closed" mode="replace">
+		<valItem ident="start"/>
+		<valItem ident="end"/>
+		<valItem ident="intStart"/>
+		<valItem ident="intEnd"/>
+	      </valList>
 	    </attDef>
 	  </attList>
 	</elementSpec>
