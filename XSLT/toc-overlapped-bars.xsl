@@ -44,10 +44,9 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/
                                     src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png"
                                 /></a><a rel="license"
                                 href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                                /><strong>Last modified:</strong>
+                                /><xsl:text> </xsl:text><strong>Last modified:</strong>
                             <!--#echo var="LAST_MODIFIED" -->. <a
-                                href="http://newtfire.org/firebellies.html">Powered by +
-                                firebellies</a>.</span>
+                                href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
                     </p>
                 </body>
             </html>
