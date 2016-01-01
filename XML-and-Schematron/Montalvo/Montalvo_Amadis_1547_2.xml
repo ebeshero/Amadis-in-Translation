@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
 <?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -29,11 +28,11 @@
                     <!--pdf page 10-->
                 </head>
                 <argument>
-                    <p>Cómo el rey <persName ref="#Perion">Perión</persName> iva por el camino con
+                    <p>Cómo el rey <persName ref="#Perionidiot">Perión</persName> iva por el camino con
                         su escudero con coraçón más acompañado de tristeza que de alegría.</p>
                 </argument>
                 <p>
-                    <cl xml:id="M2_p1_c1">Partido el rey <persName ref="#Perion">Perión</persName>
+                    <cl xml:id="M2_p1_c1">Partido el rey <persName ref="#Perionidiot">Perión</persName>
                         de la <placeName>Pequeña Bretaña</placeName> como ya se vos contó:</cl>
                     <cl xml:id="M2_p1_c2">de mucha congoxa era su <sic>aio</sic> atormentado:</cl>
                     <cl xml:id="M2_p1_c3">assí por la gran soledad que de su amiga sentía que mucho
