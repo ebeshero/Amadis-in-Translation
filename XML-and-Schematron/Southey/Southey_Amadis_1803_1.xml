@@ -52,10 +52,10 @@
                   <anchor ana="start" corresp="#M0_p1_c5"/>The eldest was married to <persName
                      ref="#Languines">Languines King of Scotland</persName>; she was called
                      <persName ref="#Guirnalda">the Lady of the Garland</persName>,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c6"/>because her husband<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c6_1"/>because her husband<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c7"/>taking great pleasure to behold her
                   beautiful tresses,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c6"/>would have them covered only with a chaplet
+                  <anchor ana="start" corresp="#M0_p1_c6_2"/>would have them covered only with a chaplet
                   of flowers.<anchor ana="end"/>
                </s>
                <s>
@@ -120,8 +120,7 @@
                <s>
                   <anchor ana="start" corresp="#M0_p1_c29"/>This done<anchor ana="end"/>
                   <anchor ana="start" type="add"/><persName ref="#Perion">the
-                     Stranger</persName><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c29"/>came towards the King,<anchor ana="end"/>
+                     Stranger</persName> came towards the King,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c30"/>and seeing him alone, said,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c31"/><milestone unit="said" ana="start"
@@ -131,10 +130,10 @@
                <s>
                   <anchor ana="start" corresp="#M0_p1_c32"/>The King replied,<anchor ana="end"/>
                   <milestone unit="said" ana="start" resp="#Garinter"/>
-                  <anchor ana="start" corresp="#M0_p1_c33"/>Marvel not at this, Knight,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c33_1"/>Marvel not at this, Knight,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c34"/>for our Country yields<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c33"/>as others do, both good and bad:<anchor
+                  <anchor ana="start" corresp="#M0_p1_c33_2"/>as others do, both good and bad:<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c35"/>as for these men, they have often
                      offended,<anchor ana="end"/>
@@ -147,11 +146,10 @@
             <p>
                <milestone unit="said" ana="start" resp="#Perion"/>
                <s>
-                  <anchor ana="start" corresp="#M0_p1_c39"/>This King you speak of,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c38"/>replied<anchor ana="end"/>
-                  <anchor ana="start" type="add"/><persName ref="#Perion">the
+                  <anchor ana="start" corresp="#M0_p1_c39_1"/>This King you speak of,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c38"/>replied <persName ref="#Perion">the
                      Stranger</persName>,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c39"/>I come to seek him from a far land,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c39_2"/>I come to seek him from a far land,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c40"/>and bring him tidings from a dear
                      friend.<anchor ana="end"/>
@@ -200,7 +198,7 @@
                      resp="#Perion"/>Fierce as you are<milestone unit="said" ana="intStart"
                      />,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c53"/>said King Perion,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c54"/><milestone unit="said" ana="intEnd"/> you
+                  <anchor ana="start" corresp="#M0_p1_c54_1"/><milestone unit="said" ana="intEnd"/> you
                   shall leave us part of the game!<milestone unit="said" ana="end"/><anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c55"/>and he took his arms and alighted from his
@@ -215,9 +213,8 @@
                      him,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c60"/>they closed,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>and Perion<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c60"/>at the moment when he was under the
-                     beast<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>and in most danger,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c60_2"/>at the moment when he was under the
+                     beast and in most danger,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c61"/>thrust his sword into his belly.<anchor
                      ana="end"/>
                </s>
@@ -239,10 +236,10 @@
                <s>
                   <anchor ana="start" corresp="#M0_p1_c66"/>The Queen being advised of her
                      guest<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c68"/>they found<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c68_2"/>they found<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c67"/>the palace richly adorned,<anchor
                      ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c68"/>and the tables covered.<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c68_1"/>and the tables covered.<anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" corresp="#M0_p1_c69"/>At the highest the Kings seated
@@ -326,22 +323,20 @@
                      ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" corresp="#M0_p1_c107"/>She found his <persName ref="#Squire1"
+                  <anchor ana="start" corresp="#M0_p1_c107_1"/>She found his <persName ref="#Squire1"
                      >Squire</persName> at the door with the King's garments which he was about to
                   give him;<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c108"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c108_1"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>friend<milestone unit="said" ana="intStart"/>,<anchor
                      ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c107"/>said she<milestone unit="said"
+                  <anchor ana="start" corresp="#M0_p1_c107_2"/>said she<milestone unit="said"
                      ana="intEnd"/>,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c108"/>go you about your other affairs,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c108_2"/>go you about your other affairs,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c109"/>for I must wait upon your
                      master<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" corresp="#M0_p1_c110"/>The Squire, thinking it<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>was the custom of the country,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c110"/>gave her the garments<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c110"/>The Squire, thinking it was the custom of the country, gave her the garments<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c111"/>and went away.<anchor ana="end"/>
                </s>
                <s>
@@ -417,13 +412,12 @@
                <s>
                   <anchor ana="start" corresp="#M0_p1_c146"/>The King whose will was already disposed
                   by God<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c149"/>that that which ensued might come to
+                  <anchor ana="start" corresp="#M0_p1_c147"/>that that which ensued might come to
                      pass,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c148"/>took his sword which was by him,<anchor
                      ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c110"/>and laying his right hand upon the cross
-                  of its hilt,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>pronounced these words,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c149"/>and laying his right hand upon the cross
+                  of its hilt, pronounced these words,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c150"/><milestone unit="said" ana="start"
                      resp="#Perion"/>I swear by this Cross, and this Sword wherewith I received the
                   order of Knighthood, to perform whatever you shall require<anchor ana="end"/>
@@ -444,9 +438,9 @@
                   <anchor ana="start" corresp="#M0_p1_c155"/>and told her how she had sped;<anchor
                      ana="end"/>
                   <milestone unit="said" ana="start" resp="#Darioleta"/>
-                  <anchor ana="start" corresp="#M0_p1_c160"/>you know,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c160_1"/>you know,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c159"/>said she,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c160"/>that in the chamber where King Perion
+                  <anchor ana="start" corresp="#M0_p1_c160_2"/>that in the chamber where King Perion
                   lodgeth there is a door opening to the garden,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c161"/>whence your father used to go out,<anchor
                      ana="end"/>
@@ -490,10 +484,10 @@
                   <anchor ana="start" corresp="#M0_p1_c180"/>the son of a Knight!<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c181"/>but why ask ye?<milestone unit="said"
                      ana="end"/><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c183"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c183_1"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>for the desire I have,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c182"/>quoth she,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c183"/>to know one thing,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c183_2"/>to know one thing,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c184"/>which I beseech you by the faith you owe
                   to God and to the King your master,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>not to hide from me.<anchor ana="end"/>
@@ -523,7 +517,7 @@
                      resp="#Darioleta"/>In sooth my Lord,<anchor ana="end"/>
                   <anchor ana="start" type="add"/><milestone unit="said" ana="intStart"/>quoth she,
                      <milestone unit="said" ana="intEnd"/><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M0_p1_c22"/>he tells me that his Master<anchor
+                  <anchor ana="start" corresp="#M0_p1_c202"/>he tells me that his Master<anchor
                      ana="end"/>
                   <anchor ana="start" type="add"/>is wont to be alone,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c201"/>and certainly I think he will feel
