@@ -118,9 +118,8 @@
                   both slain.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" corresp="#M0_p1_c29"/>This done<anchor ana="end"/>
-                  <anchor ana="start" type="add"/><persName ref="#Perion">the
-                     Stranger</persName> came towards the King,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c29"/>This done <persName ref="#Perion">the
+                     Stranger</persName> came towards the King, came towards the King,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c30"/>and seeing him alone, said,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M0_p1_c31"/><milestone unit="said" ana="start"
