@@ -37,525 +37,518 @@
                   Perhaps the <s> elements and <cl> elements don't really need to be sitting in the same hierarchical positions in the file anyway, since we are using <milestone/> markers to stitch the Southey together with units of the Montalvo text.-->
             <p>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c1"/>Not many years after the passion of our
+                  <anchor ana="start" corresp="#M0_p1_c1"/>Not many years after the passion of our
                      Redeemer<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c2"/>there was a Christian King in the lesser
+                  <anchor ana="start" corresp="#M0_p1_c2"/>there was a Christian King in the lesser
                   Britain, by name <persName ref="#Garinter">Garinter</persName>,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c3"/>who being in the law of truth, was of much
+                  <anchor ana="start" corresp="#M0_p1_c3"/>who being in the law of truth, was of much
                   devotion and good ways.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c4"/>This King had two Daughters by a noble Lady
+                  <anchor ana="start" corresp="#M0_p1_c4"/>This King had two Daughters by a noble Lady
                   his wife.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c5"/>The eldest was married to <persName
+                  <anchor ana="start" corresp="#M0_p1_c5"/>The eldest was married to <persName
                      ref="#Languines">Languines King of Scotland</persName>; she was called
                      <persName ref="#Guirnalda">the Lady of the Garland</persName>,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c6"/>because her husband<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c7"/>taking great pleasure to behold her
+                  <anchor ana="start" corresp="#M0_p1_c6_1"/>because her husband<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c7"/>taking great pleasure to behold her
                   beautiful tresses,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c6"/>would have them covered only with a chaplet
+                  <anchor ana="start" corresp="#M0_p1_c6_2"/>would have them covered only with a chaplet
                   of flowers.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c8"/><persName ref="#Agrajes">Agrayes</persName>
+                  <anchor ana="start" corresp="#M0_p1_c8"/><persName ref="#Agrajes">Agrayes</persName>
                   and <persName ref="#Mabilia">Mabilia</persName> were their children,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c9"/>a Knight and Damsel of whom in this history
+                  <anchor ana="start" corresp="#M0_p1_c9"/>a Knight and Damsel of whom in this history
                   much mention is made.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c10"/><persName ref="#Helisena"
+                  <anchor ana="start" corresp="#M0_p1_c10"/><persName ref="#Helisena"
                      >Elisena</persName> the other daughter was far more beautiful,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c11"/>and although she had been demanded in
+                  <anchor ana="start" corresp="#M0_p1_c11"/>and although she had been demanded in
                   marriage by many great Princes,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c12"/>yet she would wed with none, but for her
+                  <anchor ana="start" corresp="#M0_p1_c12"/>yet she would wed with none, but for her
                   solitary and holy life was commonly called the Lost Devotee <note anchored="true"
                      resp="#Southey">La Beata perdida. <hi rend="italic">Methodist, Puritan,</hi> or
                         <hi rend="italic">the Elect,</hi> would perhaps express the meaning of <hi
                         rend="italic">Beata,</hi> which is in common use, if they were not sectarian
-                     words.</note><anchor ana="end"/><anchor ana="start" synch="#M0_p1_c13"/>,
+                     words.</note><anchor ana="end"/><anchor ana="start" corresp="#M0_p1_c13"/>,
                   because it was considered that for one of such rank,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c14"/>gifted with such beauty<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c15"/>and sought in marriage by so many
+                  <anchor ana="start" corresp="#M0_p1_c14"/>gifted with such beauty<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c15"/>and sought in marriage by so many
                      chiefs,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c16"/>this way of life was not fitting.<anchor
+                  <anchor ana="start" corresp="#M0_p1_c16"/>this way of life was not fitting.<anchor
                      ana="end"/>
                </s>
             </p>
             <p>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c17"/>King Garinter who was somewhat striken in
+                  <anchor ana="start" corresp="#M0_p1_c17"/>King Garinter who was somewhat striken in
                      years,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c18"/>took delight in hunting.<anchor ana="end"
+                  <anchor ana="start" corresp="#M0_p1_c18"/>took delight in hunting.<anchor ana="end"
                   />
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c19"/>It happened one day, that having gone from
+                  <anchor ana="start" corresp="#M0_p1_c19"/>It happened one day, that having gone from
                   his town of <placeName ref="#Alima">Alima</placeName><anchor ana="end"/>
                   <anchor ana="start" type="add"/>to the chace,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c20"/>and being separated<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c21"/>from his people, as he went along the
+                  <anchor ana="start" corresp="#M0_p1_c20"/>and being separated<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c21"/>from his people, as he went along the
                   forest saying his prayers,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c22"/>he saw to the left a brave battle of one
+                  <anchor ana="start" corresp="#M0_p1_c22"/>he saw to the left a brave battle of one
                   Knight against two.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c23"/>Soon had he knowledge of the twain, in
+                  <anchor ana="start" corresp="#M0_p1_c23"/>Soon had he knowledge of the twain, in
                   that they were his own vassals,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c24"/>who being proud men<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c25"/>and of powerful lineage had often by their
+                  <anchor ana="start" corresp="#M0_p1_c24"/>who being proud men<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c25"/>and of powerful lineage had often by their
                   evil customs offended him.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c26"/>Who the third was he knew not, but not
+                  <anchor ana="start" corresp="#M0_p1_c26"/>Who the third was he knew not, but not
                   relying so much in the worth of the one, as he feared the two,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c27"/>he drew aside and waited the event,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c27"/>he drew aside and waited the event,<anchor
                      ana="end"/>
                   <anchor ana="start" type="add"/>which sorted to such effect,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c28"/>as by the hand of that one the others were
+                  <anchor ana="start" corresp="#M0_p1_c28"/>as by the hand of that one the others were
                   both slain.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c29"/>This done<anchor ana="end"/>
-                  <anchor ana="start" type="add"/><persName ref="#Perion">the
-                     Stranger</persName><anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c29"/>came towards the King,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c30"/>and seeing him alone, said,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c29"/>This done <persName ref="#Perion">the
+                     Stranger</persName> came towards the King, came towards the King,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c30"/>and seeing him alone, said,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c31"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c31"/><milestone unit="said" ana="start"
                      resp="#Perion"/>Gentle Sir, what country is this wherein Knights Errant are
                   thus assailed?<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c32"/>The King replied,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c32"/>The King replied,<anchor ana="end"/>
                   <milestone unit="said" ana="start" resp="#Garinter"/>
-                  <anchor ana="start" synch="#M0_p1_c33"/>Marvel not at this, Knight,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c33_1"/>Marvel not at this, Knight,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c34"/>for our Country yields<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c33"/>as others do, both good and bad:<anchor
+                  <anchor ana="start" corresp="#M0_p1_c34"/>for our Country yields<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c33_2"/>as others do, both good and bad:<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c35"/>as for these men, they have often
+                  <anchor ana="start" corresp="#M0_p1_c35"/>as for these men, they have often
                      offended,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c36"/>even against their Lord and King, who
+                  <anchor ana="start" corresp="#M0_p1_c36"/>even against their Lord and King, who
                   could do no justice upon them, because of their kindred,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c37"/>and also because they harboured in this
+                  <anchor ana="start" corresp="#M0_p1_c37"/>and also because they harboured in this
                   covered mountain.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
             </p>
             <p>
                <milestone unit="said" ana="start" resp="#Perion"/>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c39"/>This King you speak of,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c38"/>replied<anchor ana="end"/>
-                  <anchor ana="start" type="add"/><persName ref="#Perion">the
+                  <anchor ana="start" corresp="#M0_p1_c39_1"/>This King you speak of,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c38"/>replied <persName ref="#Perion">the
                      Stranger</persName>,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c39"/>I come to seek him from a far land,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c39_2"/>I come to seek him from a far land,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c40"/>and bring him tidings from a dear
+                  <anchor ana="start" corresp="#M0_p1_c40"/>and bring him tidings from a dear
                      friend.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c41"/>If you know where he may be found, I pray
+                  <anchor ana="start" corresp="#M0_p1_c41"/>If you know where he may be found, I pray
                   you tell me.<milestone unit="said" ana="end"/><anchor ana="end"/></s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c42"/>The King answered,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c43"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c42"/>The King answered,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c43"/><milestone unit="said" ana="start"
                      resp="#Garinter"/>Befall what may, I shall not fail to speak what is
                      true.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c44"/>I am the King.<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c44"/>I am the King.<anchor ana="end"/>
                </s>
                <milestone unit="said" ana="end"/>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c45"/>The Knight then loosing his shield and
+                  <anchor ana="start" corresp="#M0_p1_c45"/>The Knight then loosing his shield and
                   helmet gave them to his Squire, and went to embrace Garinter, saying that he was
                   King Perion of Gaul who had long desired to know him.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c46"/>Greatly were these Kings contented that
+                  <anchor ana="start" corresp="#M0_p1_c46"/>Greatly were these Kings contented that
                   their meeting was in such a manner,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c47"/>and conferring together they took their
+                  <anchor ana="start" corresp="#M0_p1_c47"/>and conferring together they took their
                      way<anchor ana="end"/>
                   <anchor ana="start" type="add"/>through the wood towards the city,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c48"/>when suddenly a Hart ran before them
+                  <anchor ana="start" corresp="#M0_p1_c48"/>when suddenly a Hart ran before them
                      which<anchor ana="end"/>
                   <anchor ana="start" type="add"/>had escaped the toils.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c49"/>They followed at full speed, thinking to
+                  <anchor ana="start" corresp="#M0_p1_c49"/>They followed at full speed, thinking to
                   kill it,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c50"/>but a Lion springing from a thicket before
+                  <anchor ana="start" corresp="#M0_p1_c50"/>but a Lion springing from a thicket before
                   them, seized the Hart,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c51"/>and having torn it open with his mighty
+                  <anchor ana="start" corresp="#M0_p1_c51"/>and having torn it open with his mighty
                      claws,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c52"/>stood fiercely looking at the
+                  <anchor ana="start" corresp="#M0_p1_c52"/>stood fiercely looking at the
                      Kings.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c54"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c54"/><milestone unit="said" ana="start"
                      resp="#Perion"/>Fierce as you are<milestone unit="said" ana="intStart"
                      />,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c53"/>said King Perion,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c54"/><milestone unit="said" ana="intEnd"/> you
+                  <anchor ana="start" corresp="#M0_p1_c53"/>said King Perion,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c54_1"/><milestone unit="said" ana="intEnd"/> you
                   shall leave us part of the game!<milestone unit="said" ana="end"/><anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c55"/>and he took his arms and alighted from his
+                  <anchor ana="start" corresp="#M0_p1_c55"/>and he took his arms and alighted from his
                      horse,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c56"/>who being affrighted at the wild beast
+                  <anchor ana="start" corresp="#M0_p1_c56"/>who being affrighted at the wild beast
                   would not go near him, and placing his shield before him<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c57"/>went towards the Lion sword in
+                  <anchor ana="start" corresp="#M0_p1_c57"/>went towards the Lion sword in
                      hand.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c59"/>The Lion left his prey and came against
+                  <anchor ana="start" corresp="#M0_p1_c59"/>The Lion left his prey and came against
                      him,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c60"/>they closed,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c60"/>they closed,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>and Perion<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c60"/>at the moment when he was under the
-                     beast<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>and in most danger,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c61"/>thrust his sword into his belly.<anchor
+                  <anchor ana="start" corresp="#M0_p1_c60_2"/>at the moment when he was under the
+                     beast and in most danger,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c61"/>thrust his sword into his belly.<anchor
                      ana="end"/>
                </s>
                <s>
                   <anchor ana="start" type="add"/>When Garinter saw him fall,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c62"/>he said within himself<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c63"/>not without cause is that Knight famed to
+                  <anchor ana="start" corresp="#M0_p1_c62"/>he said within himself<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c63"/>not without cause is that Knight famed to
                   be the best in the world.<anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" type="add"/>Meanwhile<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c64"/>their train came up, and then was their
+                  <anchor ana="start" corresp="#M0_p1_c64"/>their train came up, and then was their
                   prey and venison laid on two horses<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c65"/>and carried to the City.<anchor ana="end"
+                  <anchor ana="start" corresp="#M0_p1_c65"/>and carried to the City.<anchor ana="end"
                   />
                </s>
             </p>
             <p>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c66"/>The Queen being advised of her
+                  <anchor ana="start" corresp="#M0_p1_c66"/>The Queen being advised of her
                      guest<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c68"/>they found<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c67"/>the palace richly adorned,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c68_2"/>they found<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c67"/>the palace richly adorned,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c68"/>and the tables covered.<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c68_1"/>and the tables covered.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c69"/>At the highest the Kings seated
+                  <anchor ana="start" corresp="#M0_p1_c69"/>At the highest the Kings seated
                      themselves:<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c70"/>at the other sate the Queen with Elisena
+                  <anchor ana="start" corresp="#M0_p1_c70"/>at the other sate the Queen with Elisena
                   her daughter,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c71"/>and there were they served, as in the
+                  <anchor ana="start" corresp="#M0_p1_c71"/>and there were they served, as in the
                   house of such a man beseemed.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c72"/>Then being in that solace, as that
+                  <anchor ana="start" corresp="#M0_p1_c72"/>Then being in that solace, as that
                   Princess was so beautiful<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c73"/>and King Perion on his part equal,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c73"/>and King Perion on his part equal,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c75"/>in that hour and point they so regarded
+                  <anchor ana="start" corresp="#M0_p1_c75"/>in that hour and point they so regarded
                   each other, that her great modesty and holy life could not now avail,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c76"/>but that she was taken with great and
+                  <anchor ana="start" corresp="#M0_p1_c76"/>but that she was taken with great and
                   incurable love;<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c77"/>and the King in like manner,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c77"/>and the King in like manner,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c78"/>though till then his heart had been
+                  <anchor ana="start" corresp="#M0_p1_c78"/>though till then his heart had been
                      free,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c79"/>so that during the meal both the one and
+                  <anchor ana="start" corresp="#M0_p1_c79"/>so that during the meal both the one and
                   the other appeared absent in thought.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c80"/>When the tables were removed, the Queen
+                  <anchor ana="start" corresp="#M0_p1_c80"/>When the tables were removed, the Queen
                   would depart to her chamber;<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c80.1"/>Elisena rising dropt a ring from her
+                  <anchor ana="start" corresp="#M0_p1_c80.1"/>Elisena rising dropt a ring from her
                   lap, which she had taken off when she wash'd her hands,<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c81"/>and in her confusion of mind
+                  <anchor ana="start" corresp="#M0_p1_c81"/>and in her confusion of mind
                      forgotten.<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c82"/>She stooped for it<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c83"/>and Perion who was near her<anchor
+                  <anchor ana="start" corresp="#M0_p1_c82"/>She stooped for it<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c83"/>and Perion who was near her<anchor
                      ana="end"/>
                   <anchor ana="start" type="add"/>stooped also,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c84"/>so that their hands met,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c85"/>and he taking her hand prest it.<anchor
+                  <anchor ana="start" corresp="#M0_p1_c84"/>so that their hands met,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c85"/>and he taking her hand prest it.<anchor
                      ana="end"/>
                </s>
                <s>
                   <anchor ana="start" type="add"/>She<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c86"/>coloured deeply<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c87"/>and thanked the King for his
+                  <anchor ana="start" corresp="#M0_p1_c86"/>coloured deeply<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c87"/>and thanked the King for his
                      service.<anchor ana="end"/>
                </s>
                <s>
                   <milestone unit="said" ana="start" resp="#Perion"/>
-                  <anchor ana="start" synch="#M0_p1_c88"/>Ah, Lady, said he,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c89"/>it shall not be the last,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c90"/>for all my life shall be spent in your
+                  <anchor ana="start" corresp="#M0_p1_c88"/>Ah, Lady, said he,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c89"/>it shall not be the last,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c90"/>for all my life shall be spent in your
                      service.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
             </p>
             <p>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c91"/>She followed her mother, but so
+                  <anchor ana="start" corresp="#M0_p1_c91"/>She followed her mother, but so
                      disturbed<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c92"/>that her sight was dizzy,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c93"/>and now not able to endure her
+                  <anchor ana="start" corresp="#M0_p1_c92"/>that her sight was dizzy,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c93"/>and now not able to endure her
                      feelings<anchor ana="end"/>
                   <anchor ana="start" type="add"/>she went and<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c94"/>discovered them to the damsel <anchor
+                  <anchor ana="start" corresp="#M0_p1_c94"/>discovered them to the damsel <anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c96"/><persName ref="#Darioleta"
+                  <anchor ana="start" corresp="#M0_p1_c96"/><persName ref="#Darioleta"
                      >Darioleta</persName><anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c95"/>in whom she confided,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c97"/>and with tears from her eyes and from her
+                  <anchor ana="start" corresp="#M0_p1_c95"/>in whom she confided,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c97"/>and with tears from her eyes and from her
                   heart, besought her to find out if King Perion loved any other woman.<anchor
                      ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c100"/>Darioleta suprized at this
+                  <anchor ana="start" corresp="#M0_p1_c100"/>Darioleta suprized at this
                      alteration,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c101"/>pitied and comforted her mistress,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c101"/>pitied and comforted her mistress,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c106"/>and went to King Perion's chamber.<anchor
+                  <anchor ana="start" corresp="#M0_p1_c106"/>and went to King Perion's chamber.<anchor
                      ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c107"/>She found his <persName ref="#Squire1"
+                  <anchor ana="start" corresp="#M0_p1_c107_1"/>She found his <persName ref="#Squire1"
                      >Squire</persName> at the door with the King's garments which he was about to
                   give him;<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c108"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c108_1"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>friend<milestone unit="said" ana="intStart"/>,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c107"/>said she<milestone unit="said"
+                  <anchor ana="start" corresp="#M0_p1_c107_2"/>said she<milestone unit="said"
                      ana="intEnd"/>,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c108"/>go you about your other affairs,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c108_2"/>go you about your other affairs,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c109"/>for I must wait upon your
+                  <anchor ana="start" corresp="#M0_p1_c109"/>for I must wait upon your
                      master<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c110"/>The Squire, thinking it<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>was the custom of the country,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c110"/>gave her the garments<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c111"/>and went away.<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c110"/>The Squire, thinking it was the custom of the country, gave her the garments<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c111"/>and went away.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c112"/>She then entered the chamber where the
+                  <anchor ana="start" corresp="#M0_p1_c112"/>She then entered the chamber where the
                   King was in bed.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c113"/>He, who had seen her converse with
+                  <anchor ana="start" corresp="#M0_p1_c113"/>He, who had seen her converse with
                      Elisena<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c114"/>confidently, now hoped that she might
+                  <anchor ana="start" corresp="#M0_p1_c114"/>confidently, now hoped that she might
                   bring some remedy to his passion,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c115"/>and said to her all in trembling,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c115"/>and said to her all in trembling,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c116"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c116"/><milestone unit="said" ana="start"
                      resp="#Perion"/>fair friend, what demand ye?<milestone unit="said" ana="end"
                      /><anchor ana="end"/>
                </s>
-               <s><anchor ana="start" synch="#M0_p1_c117"/>
+               <s><anchor ana="start" corresp="#M0_p1_c117"/>
                   <milestone unit="said" ana="start" resp="#Darioleta"/>I bring you wherewith to
                   cloathe yourself<milestone unit="said" ana="end"/>, she replied.<anchor ana="end"
                   />
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c118"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c118"/><milestone unit="said" ana="start"
                      resp="#Perion"/>That should be for my heart<milestone unit="said"
                      ana="intStart"/>, said Perion, <milestone unit="said" ana="intEnd"/><anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c119"/>which is now stript and naked of all my
+                  <anchor ana="start" corresp="#M0_p1_c119"/>which is now stript and naked of all my
                      joy<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c120"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c120"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>As how?<milestone unit="said" ana="end"/> said the
                      Damsel.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c121"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c121"/><milestone unit="said" ana="start"
                      resp="#Perion"/>Thus<milestone unit="said" ana="intStart"/>, quoth
                      he,<milestone unit="said" ana="intEnd"/> coming into this land with entire
                      liberty,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c122"/>and apprehending nothing but the chance
+                  <anchor ana="start" corresp="#M0_p1_c122"/>and apprehending nothing but the chance
                   of arms, here in this house I have been wounded by a mortal wound,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c123"/>for which if you fair Damsel, can procure
+                  <anchor ana="start" corresp="#M0_p1_c123"/>for which if you fair Damsel, can procure
                   me remedy,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c124"/>you shall be well recompensed<milestone
+                  <anchor ana="start" corresp="#M0_p1_c124"/>you shall be well recompensed<milestone
                      unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" type="report" synch="#M0_p1_c126"/>He then charged her not to
+                  <anchor ana="start" type="report" corresp="#M0_p1_c126"/>He then charged her not to
                   discover him<anchor ana="end"/>
-                  <anchor ana="start" type="report" synch="#M0_p1_c127"/>but where it was
+                  <anchor ana="start" type="report" corresp="#M0_p1_c127"/>but where it was
                      requisite,<anchor ana="end"/>
-                  <anchor ana="start" type="report" synch="#M0_p1_c133"/>and told her his love for
+                  <anchor ana="start" type="report" corresp="#M0_p1_c133"/>and told her his love for
                      Elisena.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c139"/>Then said Darioleta, <milestone
+                  <anchor ana="start" corresp="#M0_p1_c139"/>Then said Darioleta, <milestone
                      unit="said" ana="start" resp="#Darioleta"/>my Lord, promise me on the faith of
                   a King and a Knight,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c140"/>that you will take to wife my Lady
+                  <anchor ana="start" corresp="#M0_p1_c140"/>that you will take to wife my Lady
                   Elisena, when time shall serve,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c141"/>and right soon will I bring ye, where not
+                  <anchor ana="start" corresp="#M0_p1_c141"/>and right soon will I bring ye, where not
                   only your heart shall be satisfied,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c142"/>but hers also, who, it may be, is in as
+                  <anchor ana="start" corresp="#M0_p1_c142"/>but hers also, who, it may be, is in as
                   much or more thought and dolour than you, with the same wound.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c143"/>But without<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c143"/>But without<anchor ana="end"/>
                   <anchor ana="start" type="add"/>this promise<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c144"/>you shall never win her.<anchor ana="end"
+                  <anchor ana="start" corresp="#M0_p1_c144"/>you shall never win her.<anchor ana="end"
                   />
                </s>
                <milestone unit="said" ana="end"/>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c146"/>The King whose will was already disposed
+                  <anchor ana="start" corresp="#M0_p1_c146"/>The King whose will was already disposed
                   by God<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c149"/>that that which ensued might come to
+                  <anchor ana="start" corresp="#M0_p1_c147"/>that that which ensued might come to
                      pass,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c148"/>took his sword which was by him,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c148"/>took his sword which was by him,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c110"/>and laying his right hand upon the cross
-                  of its hilt,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>pronounced these words,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c150"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c149"/>and laying his right hand upon the cross
+                  of its hilt, pronounced these words,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c150"/><milestone unit="said" ana="start"
                      resp="#Perion"/>I swear by this Cross, and this Sword wherewith I received the
                   order of Knighthood, to perform whatever you shall require<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c151"/>for the Lady Elisena<milestone
+                  <anchor ana="start" corresp="#M0_p1_c151"/>for the Lady Elisena<milestone
                      unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c152"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c152"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>Be you then of good cheer<milestone unit="said"
                      ana="intStart"/>, said she, <milestone unit="said" ana="intEnd"/><anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c153"/>for I also will effect my
+                  <anchor ana="start" corresp="#M0_p1_c153"/>for I also will effect my
                      promise<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
             </p>
             <p>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c154"/>Darioleta returned to the Princess<anchor
+                  <anchor ana="start" corresp="#M0_p1_c154"/>Darioleta returned to the Princess<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c155"/>and told her how she had sped;<anchor
+                  <anchor ana="start" corresp="#M0_p1_c155"/>and told her how she had sped;<anchor
                      ana="end"/>
                   <milestone unit="said" ana="start" resp="#Darioleta"/>
-                  <anchor ana="start" synch="#M0_p1_c160"/>you know,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c159"/>said she,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c160"/>that in the chamber where King Perion
+                  <anchor ana="start" corresp="#M0_p1_c160_1"/>you know,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c159"/>said she,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c160_2"/>that in the chamber where King Perion
                   lodgeth there is a door opening to the garden,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c161"/>whence your father used to go out,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c161"/>whence your father used to go out,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c162"/>and which at this present is covered with
+                  <anchor ana="start" corresp="#M0_p1_c162"/>and which at this present is covered with
                   the hangings;<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c163"/>but I have the key thereof,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c163"/>but I have the key thereof,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c166"/>and we can go in<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c165"/>at night, when all in the palace are at
+                  <anchor ana="start" corresp="#M0_p1_c166"/>and we can go in<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c165"/>at night, when all in the palace are at
                      rest<milestone unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c168"/>When Elisena heard this she was highly
+                  <anchor ana="start" corresp="#M0_p1_c168"/>When Elisena heard this she was highly
                      contented,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c169"/>but recollecting herself, she
+                  <anchor ana="start" corresp="#M0_p1_c169"/>but recollecting herself, she
                      replied,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c171"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c171"/><milestone unit="said" ana="start"
                      resp="#Helisena"/>how shall this be brought to pass,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c172"/>seeing that my father will lodge in the
+                  <anchor ana="start" corresp="#M0_p1_c172"/>seeing that my father will lodge in the
                   chamber with King Perion?<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c174"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c174"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>Leave that to me <milestone unit="said" ana="end"/>said the
                      Damsel,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c175"/>and with that they parted.<anchor
+                  <anchor ana="start" corresp="#M0_p1_c175"/>and with that they parted.<anchor
                      ana="end"/>
                </s>
             </p>
             <p>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c177"/>When it was night Darioleta drew aside
+                  <anchor ana="start" corresp="#M0_p1_c177"/>When it was night Darioleta drew aside
                   the <persName ref="#Squire1">Squire of Perion</persName>, and asked him<anchor
                      ana="end"/>
-                  <anchor ana="start" type="report" synch="#M0_p1_c178"/>if he was of gentle
+                  <anchor ana="start" type="report" corresp="#M0_p1_c178"/>if he was of gentle
                      birth.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c179"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c179"/><milestone unit="said" ana="start"
                      resp="#Squire1"/>Aye, <milestone unit="said" ana="intStart"/>said he,<milestone
                      unit="said" ana="intEnd"/><anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c180"/>the son of a Knight!<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c181"/>but why ask ye?<milestone unit="said"
+                  <anchor ana="start" corresp="#M0_p1_c180"/>the son of a Knight!<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c181"/>but why ask ye?<milestone unit="said"
                      ana="end"/><anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c183"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c183_1"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>for the desire I have,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c182"/>quoth she,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c183"/>to know one thing,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c184"/>which I beseech you by the faith you owe
+                  <anchor ana="start" corresp="#M0_p1_c182"/>quoth she,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c183_2"/>to know one thing,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c184"/>which I beseech you by the faith you owe
                   to God and to the King your master,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>not to hide from me.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c192"/>Who is the Lady whom your Master loveth
+                  <anchor ana="start" corresp="#M0_p1_c192"/>Who is the Lady whom your Master loveth
                      best?<anchor ana="end"/>
                </s>
                <milestone unit="said" ana="end"/>
-               <s><anchor ana="start" synch="#M0_p1_c193"/>
+               <s><anchor ana="start" corresp="#M0_p1_c193"/>
                   <milestone unit="said" ana="start" resp="#Squire1"/>My Master<milestone
                      unit="said" ana="intStart"/>, replied the Squire, <milestone unit="said"
                      ana="intEnd"/>loves all in general,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c194"/>and none as you mean<milestone
+                  <anchor ana="start" corresp="#M0_p1_c194"/>and none as you mean<milestone
                      unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c195"/>While they thus talked Garinter came
+                  <anchor ana="start" corresp="#M0_p1_c195"/>While they thus talked Garinter came
                      nigh,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c196"/>who seeing Darioleta in conference with
+                  <anchor ana="start" corresp="#M0_p1_c196"/>who seeing Darioleta in conference with
                   Perion's Squire,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c197"/>called her and asked<anchor ana="end"/>
-                  <anchor ana="start" type="report" synch="#M0_p1_c198"/>what he had to say to
+                  <anchor ana="start" corresp="#M0_p1_c197"/>called her and asked<anchor ana="end"/>
+                  <anchor ana="start" type="report" corresp="#M0_p1_c198"/>what he had to say to
                      her.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c199"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c199"/><milestone unit="said" ana="start"
                      resp="#Darioleta"/>In sooth my Lord,<anchor ana="end"/>
                   <anchor ana="start" type="add"/><milestone unit="said" ana="intStart"/>quoth she,
                      <milestone unit="said" ana="intEnd"/><anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c22"/>he tells me that his Master<anchor
+                  <anchor ana="start" corresp="#M0_p1_c202"/>he tells me that his Master<anchor
                      ana="end"/>
                   <anchor ana="start" type="add"/>is wont to be alone,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c201"/>and certainly I think he will feel
+                  <anchor ana="start" corresp="#M0_p1_c201"/>and certainly I think he will feel
                   himself embarrassed by your company<milestone unit="said" ana="end"/><anchor
                      ana="end"/>.</s>
                <s>
                   <anchor ana="start" type="add"/>Garinter hearing that<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c203"/>went to King Perion and said,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c203"/>went to King Perion and said,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c204"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c204"/><milestone unit="said" ana="start"
                      resp="#Garinter"/>My Lord I have many affairs to settle, and must rise at the
                   hour of matins,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c205"/>and that you may not be disturbed,<anchor
+                  <anchor ana="start" corresp="#M0_p1_c205"/>and that you may not be disturbed,<anchor
                      ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c206"/>you had better be alone in your
+                  <anchor ana="start" corresp="#M0_p1_c206"/>you had better be alone in your
                      chamber.<anchor ana="end"/>
                   <milestone unit="said" ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c207"/>King Perion replied,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c208"/><milestone unit="said" ana="start"
+                  <anchor ana="start" corresp="#M0_p1_c207"/>King Perion replied,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M0_p1_c208"/><milestone unit="said" ana="start"
                      resp="#Perion"/>do as shall seem best to your liking<milestone unit="said"
                      ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c210"/>Then Garinter understood that Darioleta
+                  <anchor ana="start" corresp="#M0_p1_c210"/>Then Garinter understood that Darioleta
                   had told him rightly of his guest's inclination, and ordered his bed to be removed
                   from Perion's apartment.<anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" synch="#M0_p1_c212"/>These tidings Darioleta carried to her
+                  <anchor ana="start" corresp="#M0_p1_c212"/>These tidings Darioleta carried to her
                      mistress,<anchor ana="end"/>
-                  <anchor ana="start" synch="#M0_p1_c223"/>and they waited the hour when all should
+                  <anchor ana="start" corresp="#M0_p1_c223"/>and they waited the hour when all should
                   retire to sleep.<anchor ana="end"/>
                </s>
             </p>

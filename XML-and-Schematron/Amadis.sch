@@ -20,8 +20,8 @@
 
   <pattern>
     <rule context="tei:anchor[@ana eq 'start'][not(@type eq 'add')]">
-      <report test="not(@synch)">
-        A @synch must be present on this anchor to point to a corresponding unit in Montalvo! This rule applies as long as the anchor is NOT an addition by Southey (@type="add"). 
+      <report test="not(@corresp)">
+        A @corresp must be present on this anchor to point to a corresponding unit in Montalvo! This rule applies as long as the anchor is NOT an addition by Southey (@type="add"). 
       </report>
     </rule>
   </pattern>
@@ -37,7 +37,7 @@
   <pattern>
     <rule context="tei:anchor[@type]">
       <assert test="@type = ('add','report','direct')">
-        When using an @type attribute on the anchor element, legitimate values are "add" and "report."
+        When using an @type attribute on the anchor element, legitimate values are "add," "direct" and "report."
       </assert>
     </rule>
   </pattern>
@@ -51,10 +51,9 @@
   </pattern>
 
   <pattern>
-    <!-- umm... "unclear" isn't really a type of milestone, is it? -sb -->
     <rule context="tei:milestone[@unit eq 'said'][@ana eq 'start'][@type]">
       <assert test="@type eq 'unclear'">
-        A milestone with an @type attribute must be set to "unclear." This simply designates when the @resp attribute is up to the reader's interpretation!
+        When the @resp is hard to attribute, add a @cert whose value should be “low“ or “medium,” if you suggest a speaker, or “unknown,” if you don't.
       </assert>
     </rule>
   </pattern>
@@ -132,6 +131,7 @@
       </assert>
     </rule>
   </pattern>
+
   
   <pattern>
     <rule context="tei:cl">
@@ -152,17 +152,18 @@
 
   
   <pattern>
-    <rule context="@ref | @resp | @corresp">
+    <rule context="@ref | @resp">
       <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
       <assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</assert>
     </rule>
   </pattern>
 
   <pattern>
-    <rule context="@synch">
+    <rule context="tei:anchor[@corresp]">
       <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
       <assert test="every $token in $tokens satisfies $token = $M_ids">The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!</assert>
-    </rule> 
+      <report test="./@corresp = following::tei:anchor/@corresp">Every anchor must have and unique ID. Add a seg element in Montalvo with its own ID if needed</report>
+    </rule>
   </pattern>
 
   <pattern>
