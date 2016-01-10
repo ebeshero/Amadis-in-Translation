@@ -7,7 +7,7 @@
 
     <!--Command line from Amadis folder: 
         
-java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-to-charts.xsl -o:html
+java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-to-charts.xsl -o:html
 
     -->
     <xsl:template match="/">

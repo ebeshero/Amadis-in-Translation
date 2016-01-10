@@ -126,7 +126,7 @@
             <!--ebb 2015-08-05: Look at Chapter 17 of the TEI Guidelines for clause and grammatical unit markup: We may want this, right? -->
 
             <argument>
-               <p> Cómo <persName>Arcaláus</persName> llevó nuevas a la corte del rey
+               <p>Cómo <persName>Arcaláus</persName> llevó nuevas a la corte del rey
                      <persName>Lisuarte</persName> como <persName>Amadís</persName> era muerto y de
                   los grandes llantos que en toda la corte por el se fizieron/ en especial
                      <persName>Oriana</persName>
@@ -215,9 +215,9 @@
                   remediar lo que convenía:</cl>
                <cl xml:id="M20_p1_c39">y mandó a la donzella que la puerta de la cámara
                   cerrase:</cl>
-               <cl xml:id="M20_p1_c40">porque ninguno assí no la viesse y fue a tomar a Oriana entre
+               <cl xml:id="M20_p1_c40"><seg xml:id="M20_p1_c40_1">porque ninguno assí no la viesse</seg><seg xml:id="M20_p1_c40_2"> y fue a tomar a Oriana entre
                   sus braços e hízole echar agua fría por el rostro con que luego acordó ya
-                  cuanto:</cl>
+                  cuanto:</seg></cl>
                <cl xml:id="M20_p1_c41">y como hablar pudo:</cl>
                <cl xml:id="M20_p1_c42">dixo llorando.</cl>
                <cl xml:id="M20_p1_c43">
@@ -247,7 +247,7 @@
                   consumidos serán aquel gran encendimiento de amor/</cl>
                <cl xml:id="M20_p1_c59">que seyendo en esta vida apartados con tanta afición
                   sostenían:</cl>
-               <cl xml:id="M20_p1_c60">muy mayor en la otra seyendo juntos/</cl>
+               <cl xml:id="M20_p1_c60"><seg xml:id="M20_p1_c60_1">muy mayor</seg> <seg xml:id="M20_p1_c60_2">en la otra seyendo juntos/</seg></cl>
                <cl xml:id="M20_p1_c61">si possible fuesse de les ser otorgado sosternán.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c62">
@@ -263,11 +263,11 @@
                   continuamente acaece.</cl>
                <cl xml:id="M20_p1_c69">Mabilia que verdaderamente cuidó que muerta era dixo:</cl>
                <cl xml:id="M20_p1_c70">
-                  <milestone unit="said" resp="#Mabilia" ana="start"/>ay Dios Señor no te plega de
-                  yo más bivir pues las dos cosas que en este mundo más amava son muertas<milestone unit="said" ana="end"/> la donzella le dijo.</cl>
+                  <seg xml:id="M20_p1_c70_1"><milestone unit="said" resp="#Mabilia" ana="start"/>ay Dios Señor no te plega de
+                     yo más bivir pues las dos cosas que en este mundo más amava son muertas<milestone unit="said" ana="end"/></seg> <seg xml:id="M20_p1_c70_2">la donzella le dixo.</seg></cl>
                <cl xml:id="M20_p1_c71">
-                  <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Por Dios señora no
-                  fallezca a tal hora vuestra discreción:</cl>
+                  <seg xml:id="M20_p1_c71_1"><milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Por Dios señora</seg> <seg xml:id="M20_p1_c71_2">no
+                  fallezca a tal hora vuestra discreción:</seg></cl>
                <cl xml:id="M20_p1_c72">y acorred a lo que remedio tiene.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c73">Mabilia tomando esfuerzo se levantó:</cl>
@@ -322,8 +322,8 @@
                </cl>
                <cl xml:id="M20_p1_c102">Mabilia con semblante sañudo le dixo.</cl>
                <cl xml:id="M20_p1_c103">
-                  <milestone unit="said" ana="start" resp="#Mabilia"/>Cómo señora pensáis vos que si
-                  yo estas nuevas creyesse que ternía esfuerzo para ninguno consolar? No es assí
+                  <seg xml:id="M20_p1_c103_1"><milestone unit="said" ana="start" resp="#Mabilia"/>Cómo señora pensáis vos</seg> <seg xml:id="M20_p1_c103_2">que si
+                     yo estas nuevas creyesse que ternía esfuerzo para ninguno consolar?</seg></cl> <cl xml:id="M20_p1_c103_4">No es assí
                   pequeño ni liviano el amor que a mi cormano tengo:</cl>
                <cl xml:id="M20_p1_c104">antes assí Dios me salve si con razón lo pudiesse
                      <sic>crer</sic> a vos ni a cuantos en este mundo que bien le quieren no daría
@@ -367,8 +367,8 @@
                <cl xml:id="M20_p1_c124">cómo tardastes tanto que mucho os emos desseado<milestone unit="said" ana="end"/>? </cl>
                <cl xml:id="M20_p1_c125">A la razón que el rey dezía respondió y dixo.</cl>
                <cl xml:id="M20_p1_c126">
-                  <milestone unit="said" ana="start" resp="#Brandoivas"/>Señor fue metido en tan
-                  gran prisión donde no pudiera salir en ninguna guisa/</cl>
+                  <seg xml:id="M20_p1_c126_1"><milestone unit="said" ana="start" resp="#Brandoivas"/>Señor</seg> <seg xml:id="M20_p1_c126_2">fue metido en tan
+                  gran prisión donde no pudiera salir en ninguna guisa/</seg></cl>
                <cl xml:id="M20_p1_c127">sino por el muy buen cavallero Amadís de Gaula que por su
                   cortesía sacó a mí y a esta dueña y a otros muchos/</cl>
                <cl xml:id="M20_p1_c128">haciendo tanto en armas cual otro ninguno hazer

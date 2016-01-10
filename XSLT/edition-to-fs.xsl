@@ -4,7 +4,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!--    Command line from Amadis folder:
-    java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/edition-to-fs.xsl -o:tables
+    java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/edition-to-fs.xsl -o:tables
     -->
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
@@ -47,7 +47,7 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="anchor[@ana = 'start'][not(parent::note)]">
-        <xsl:variable name="match" select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]"/>
+        <xsl:variable name="match" select="$montalvo//cl[@xml:id = current()/substring(@corresp, 2)]|$montalvo//seg[@xml:id = current()/substring(@corresp, 2)]"/>
         <!--  heb: We create a variable with the Southey's chunks of text, 
             eliminating the notes so these are not taken into account
         for the word count statistics-->
@@ -62,9 +62,9 @@
         <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
         <xsl:variable name="montalvo-words" select="count(tokenize($match, '\s+'))"/>
         <xsl:element name="fs">
-            <xsl:if test="current()/@synch">
+            <xsl:if test="current()/@corresp">
                 <xsl:attribute name="corresp">
-                    <xsl:value-of select="@synch"/>
+                    <xsl:value-of select="@corresp"/>
                 </xsl:attribute>
             </xsl:if>
             <xsl:element name="f">
@@ -72,7 +72,7 @@
                 <xsl:attribute name="n">
                     <xsl:value-of select="$southey-words"/>
                 </xsl:attribute>
-                <xsl:if test="@synch">
+                <xsl:if test="@corresp">
                     <xsl:attribute name="ana">
                         <xsl:value-of
                             select="round-half-to-even(($montalvo-words - $southey-words) div $southey-words, 2)"
@@ -80,7 +80,7 @@
                     </xsl:attribute>
                 </xsl:if>
                 <xsl:choose>
-                    <xsl:when test="current()/following::note[1][not(.//anchor[@synch])] except (current()/following::anchor[@ana eq 'end']/following::note)">
+                    <xsl:when test="current()/following::note[1][not(.//anchor[@corresp])] except (current()/following::anchor[@ana eq 'end']/following::note)">
                         <string ana="start">
                             <xsl:value-of select="current()/following::text()
                                 except (current()/following::anchor[@ana eq 'end'][1]/following::node())  except current()/following::text()[ancestor::note]
@@ -97,7 +97,7 @@
                                     "/>
                             </string>   </xsl:if>                     
                     </xsl:when>
-                    <xsl:when test="current()/following::note[1][//anchor[@synch]] except (current()/following::anchor[@ana eq 'end'][1]/following::note)">
+                    <xsl:when test="current()/following::note[1][//anchor[@corresp]] except (current()/following::anchor[@ana eq 'end'][1]/following::note)">
                         <string ana="start"><xsl:value-of select="current()/following::text()
                             except (current()/following::anchor[@ana eq 'end'][1][parent::s]/following::node())  except current()/following::text()[ancestor::note]
                             except (current()/following::note[1]/following::node())"/></string>
@@ -115,10 +115,10 @@
                 </xsl:choose>
                 
             </xsl:element>
-            <xsl:if test="@synch">
+            <xsl:if test="@corresp">
                 <xsl:element name="f">
                     <xsl:variable name="match"
-                        select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]"/>
+                        select="$montalvo//cl[@xml:id = current()/substring(@corresp, 2)]|$montalvo//seg[@xml:id = current()/substring(@corresp, 2)]"/>
                     <xsl:attribute name="name">montalvo</xsl:attribute>
                     <xsl:attribute name="n">
                         <xsl:value-of select="$montalvo-words"/>
@@ -141,16 +141,17 @@
         </xsl:element>
         <xsl:if
             test="
-            $match[following-sibling::cl[1]
-            [not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2))]]">
+            $match[../following-sibling::cl[1][not(seg)]] or
+            $match[../following-sibling::cl[1][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@corresp, 2))]] or
+            $match[following-sibling::cl[1][not(@xml:id = current()/(following::anchor | preceding::anchor)/substring(@corresp, 2))]]">
             <xsl:variable name="omission">
                 <xsl:for-each
                     select="
                     $match/following-sibling::cl[not(@xml:id = current()/
-                    (following::anchor | preceding::anchor)/substring(@synch, 2))]
+                    (following::anchor | preceding::anchor)/substring(@corresp, 2))]
                     except $match/following-sibling::cl[not(@xml:id = current()/
-                    (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                    [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
+                    (following::anchor | preceding::anchor)/substring(@corresp, 2))]
+                    [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@corresp, 2)]]/
                     following-sibling::cl">
                     <xsl:value-of select="."/>
                     <!-- heb: I add this space to separate the clauses. I intended to use string-join(., ' ') as I did for Southey but it 
@@ -160,21 +161,21 @@
                 </xsl:for-each>
             </xsl:variable>
             <xsl:element name="fs">
-                <xsl:variable name="corresp">
+                <!--<xsl:variable name="corresp">
                     <xsl:for-each
                         select="
                         $match/following-sibling::cl[not(@xml:id = current()/
-                        (following::anchor | preceding::anchor)/substring(@synch, 2))]
+                        (following::anchor | preceding::anchor)/substring(@corresp, 2))]
                         except $match/following-sibling::cl[not(@xml:id = current()/
-                        (following::anchor | preceding::anchor)/substring(@synch, 2))]
-                        [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@synch, 2)]]/
+                        (following::anchor | preceding::anchor)/substring(@corresp, 2))]
+                        [following-sibling::cl[1][@xml:id = current()/(following::anchor | preceding::anchor)/substring(@corresp, 2)]]/
                         following-sibling::cl">
                         <xsl:value-of select="./@xml:id"/>
                     </xsl:for-each>
                 </xsl:variable>
                 <xsl:attribute name="corresp">
                     <xsl:value-of select="replace($corresp, '(\d)M', '$1 #M')"/>
-                </xsl:attribute>
+                </xsl:attribute>-->
                 <xsl:element name="f">
                     <xsl:variable name="correction" select="$omission/replace(., '[.,/?:;]', '')"/>
                     <xsl:attribute name="name">montalvo</xsl:attribute>
@@ -195,7 +196,7 @@
         <fs>
             <f name="note">
                 <xsl:for-each select="anchor[@ana = 'start']">
-                    <xsl:variable name="match" select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]"/>
+                    <xsl:variable name="match" select="$montalvo//cl[@xml:id = current()/substring(@corresp, 2)]|$montalvo//seg[@xml:id = current()/substring(@corresp, 2)]"/>
                     <xsl:variable name="southey-text"
                         select="
                         current()/following::text()
@@ -205,9 +206,9 @@
                     <xsl:variable name="southey-words" select="count(tokenize($correction, '\s+'))"/>
                     <xsl:variable name="montalvo-words" select="count(tokenize($match, '\s+'))"/>
                     <xsl:element name="fs">
-                        <xsl:if test="current()/@synch">
+                        <xsl:if test="current()/@corresp">
                             <xsl:attribute name="corresp">
-                                <xsl:value-of select="@synch"/>
+                                <xsl:value-of select="@corresp"/>
                             </xsl:attribute>
                         </xsl:if>
                         <xsl:element name="f">
@@ -215,7 +216,7 @@
                             <xsl:attribute name="n">
                                 <xsl:value-of select="$southey-words"/>
                             </xsl:attribute>
-                            <xsl:if test="@synch">
+                            <xsl:if test="@corresp">
                                 <xsl:attribute name="ana">
                                     <xsl:value-of
                                         select="round-half-to-even(($montalvo-words - $southey-words) div $southey-words, 2)"
@@ -230,10 +231,10 @@
                                 />
                             </string>
                         </xsl:element>
-                        <xsl:if test="@synch">
+                        <xsl:if test="@corresp">
                             <xsl:element name="f">
                                 <xsl:variable name="match"
-                                    select="$montalvo//cl[@xml:id = current()/substring(@synch, 2)]"/>
+                                    select="$montalvo//cl[@xml:id = current()/substring(@corresp, 2)]|$montalvo//seg[@xml:id = current()/substring(@corresp, 2)]"/>
                                 <xsl:attribute name="name">montalvo</xsl:attribute>
                                 <xsl:attribute name="n">
                                     <xsl:value-of select="$montalvo-words"/>
