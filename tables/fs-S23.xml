@@ -45,7 +45,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c1.2">
+               <f name="montalvo" n="5">
+                  <string> el enano iva
+                  delante: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -117,11 +121,6 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
             <fs corresp="#M22_p1_c7_1">
                <f name="southey" n="8" ana="-0.12">
                   <string>Amadis with all speed went to protect
@@ -131,11 +130,6 @@
                   <string>Amadís que lo vio corrió muy aína</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -160,11 +154,6 @@
                   <string>y dixo qué es esso señor cavallero?</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -200,7 +189,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c11">
+               <f name="montalvo" n="13">
+                  <string>y no me lo aver demandado a derecho no pongáis mano en él: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -288,7 +280,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c19">
+               <f name="montalvo" n="5">
+                  <string>pero luego fueron en pie: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -305,7 +300,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c21">
+               <f name="montalvo" n="8">
+                  <string>y assí lo era el uno del otro: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -318,11 +316,6 @@
                   <string>que nunca hasta allí</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -345,7 +338,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c23">
+               <f name="montalvo" n="14">
+                  <string>Assí anduvieron hiriéndose de muy grandes y esquivos golpes una
+                  gran pieça del día: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -369,7 +366,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c23">
+               <f name="montalvo" n="14">
+                  <string>Assí anduvieron hiriéndose de muy grandes y esquivos golpes una
+                  gran pieça del día: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -408,7 +409,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c26">
+               <f name="montalvo" n="9">
+                  <string>en que ya muy poca defensa en ellos avía: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -448,11 +452,6 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
             <fs corresp="#M22_p1_c30">
                <f name="southey" n="3" ana="1">
                   <string>said the
@@ -462,11 +461,6 @@
                   <string>y dixo el cavallero a Amadís.</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -482,11 +476,6 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
             <fs corresp="#M22_p1_c32_1">
                <f name="southey" n="2" ana="3">
                   <string>let me</string>
@@ -495,11 +484,6 @@
                   <string>y dexadme hazer de él lo que quiero</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -520,11 +504,6 @@
                   <string>y después yo os lo emendaré.</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -606,7 +585,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c39">
+               <f name="montalvo" n="8">
+                  <string>antes se vino a él con gran denuedo: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -624,7 +606,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c41 #M22_p1_c42">
+               <f name="montalvo" n="17">
+                  <string>pero que el cavallero estava muy maltrecho: mas no tanto que se no combatiesse con gran esfuerço: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -730,7 +715,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c51">
+               <f name="montalvo" n="11">
+                  <string>antes es de rogar a Dios por tan buenos dos hombres: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -881,7 +869,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c64">
+               <f name="montalvo" n="2">
+                  <string>y dixo. </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -962,7 +953,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c71 #M22_p1_c72 #M22_p1_c73">
+               <f name="montalvo" n="28">
+                  <string>y fue contra él diziendo. Ay hermano
+                  buena ventura aya quién nos hizo conocer. Galaor dixo ay cativo malaventurado que he hecho contra mi hermano y mi señor: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -998,11 +993,6 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
             <fs corresp="#M22_p1_c75">
                <f name="southey" n="2" ana="2.5">
                   <string>quoth Amadis,</string>
@@ -1011,11 +1001,6 @@
                   <string>Amadís lo alçó y abráçolo y dixo:</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -1028,11 +1013,6 @@
                   <string>por bien empleado tengo el peligro que con vos passé pues que fue testimonio que yo provasse vuestra tan alta proeza y bondad.</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -1078,7 +1058,10 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c80">
+               <f name="montalvo" n="5">
+                  <string>y como él la matara. </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1127,7 +1110,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c84 #M22_p1_c85 #M22_p1_c86 #M22_p1_c87 #M22_p1_c88 #M22_p1_c89">
+               <f name="montalvo" n="41">
+                  <string>mas mucho me maravillo porque ella me desamava: que nunca la vi. Galaor contó cuanto con ella y con su amigo le aviniera: como ya lo avéis oído: y el cavallero les dixo. Señores mal
+                  llagados soys ruego os que cavalguéis: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1151,7 +1138,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c91">
+               <f name="montalvo" n="13">
+                  <string>Dios os dé
+                  buena ventura dixo Amadís por lo que por nos hazéis: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1165,11 +1156,6 @@
                   <string>cierto señor yo por bienaventurado me tengo</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -1190,11 +1176,6 @@
                   <string>en vos servir:</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -1233,7 +1214,11 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c96">
+               <f name="montalvo" n="5">
+                  <string>Como avéis
+                     nombre dixo Amadís? </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1260,7 +1245,12 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c99 #M22_p1_c100 #M22_p1_c101">
+               <f name="montalvo" n="19">
+                  <string>don Galaor dixo: vamos con
+                  este cavallero que os tanto ama. Vamos
+                     hermano dixo Amadís pues que os plaze. </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1273,11 +1263,6 @@
                   <string>Entonces cavalgaron como mejor pudieron y llegaron al</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -1300,7 +1285,12 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c103 #M22_p1_c104 #M22_p1_c105 #M22_p1_c106 #M22_p1_c107 #M22_p1_c108 #M22_p1_c109">
+               <f name="montalvo" n="70">
+                  <string>y Baláis les dixo. Amigos vedes
+                  que traigo toda la flor de la cavallería del mundo: el uno es Amadís aquel que de la dura prisión me sacó: el otro su hermano don Galaor: y fallélos en tal punto que si Dios por su merced no me llevara
+                  aquella vía muriera el uno de ellos o por ventura entrambos:  servildos y honraldos como devéis. Entonces los tomaron de sus cavallos: </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1327,7 +1317,25 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c112 #M22_p1_c113 #M22_p1_c113.1 #M22_p1_c114 #M22_p1_c115 #M22_p1_c116 #M22_p1_c117 #M22_p1_c118 #M22_p1_c119 #M22_p1_c120 #M22_p1_c121 #M22_p1_c122 #M22_p1_c123 #M22_p1_c124 #M22_p1_c125">
+               <f name="montalvo" n="214">
+                  <string>mas la dueña su muger fue delante Amadís y con mucha humildad
+                  le gradeció lo que por su marido avía hecho: en le sacar de la prisión de Arcalaus
+                     
+                     .
+                    Pues allí estando como oís Amadís contó a
+                  Galaor como avía salido de la casa del rey Lisuarte por le buscar: y que avía prometido de lo llevar allí: y rogóle que con él se fuesse pues que en todo el mundo no avía
+                  casa tan honrada: ni donde tantos hombres buenos morassen. Señor
+                     hermano dixo don Galaor todo lo que os pluguiere tengo yo de seguir y
+                  hazer: aunque por dicho me tenía de no ser en essa corte conocido
+                  hasta que mis obras les dieran testimonio como en alguna cosa parecieran a las
+                  vuestras: o morir en la demanda. Cierto
+                     hermano dixo Amadís por esso no lo dexéis: que vuestra gran fama es allá tal: que ya la mía si alguna es se va escureciendo. Ay
+                     señor dixo don Galaor por Dios no digáis cosa tan desaguisada: que no solamente con la obra mas ni con el pensamiento no
+                  podría alcançar ni llegar a las vuestras grandes fuerças. Agora
+                  dexemos esto dixo Amadís que en lo vuestro y mio de razón según la gran
+                  bondad de nuestro padre no deve aver ninguna diferencia. </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
@@ -1356,7 +1364,12 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs>
+            <fs corresp="M22_p1_c128">
+               <f name="montalvo" n="29">
+                  <string> El enano cumpliendo el mandado de su señor se puso en el
+                  camino de Vindilisora donde el rey a la sazón era con toda
+                  su cavallería muy acompañado. </string>
+               </f>
                <f name="type" select="omission">
                   <string>Comments</string>
                </f>
