@@ -123,14 +123,14 @@
                   <anchor ana="start" corresp="#M20_p1_c38"/>Mabilia, though her own grief was so
                   great that greater none could be, yet not for that did she neglect what remedy
                   might profit;<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c40"/>she took
+                  <anchor ana="start" corresp="#M20_p1_c40_2"/>she took
                   the Princess in her arms, and poured<note anchored="true" resp="#Southey">The
                         <bibl corresp="#Munday">English translation</bibl> says, she unlaced her
                      garments to give her more liberty, and bathed her temples and pulses with
                      vinegar and cold water.</note> cold water on her face,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c39"/>and bade the Damsel fasten the door
                   of the chamber,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c40"/>that
+                  <anchor ana="start" corresp="#M20_p1_c40_1"/>that
                   none might see her in that passion.</s>
                <s>She recovering her senses,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c42"/>exclaimed,<anchor ana="end"/>
@@ -142,22 +142,22 @@
                   hour after him!<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c58"/>What though his dwelling be in the cold
                   earth, where all love ceaseth,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c60"/>yet greater<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>shall be<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c60"/>our loves when in the other world we are united!<milestone unit="said" ana="end"/><anchor ana="end"/>
+                  <anchor ana="start" corresp="#M20_p1_c60_1"/>yet greater<anchor ana="end"/>
+                  <anchor ana="start" type="add"/>shall be our loves<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M20_p1_c60_2"/>when in the other world we are united!<milestone unit="said" ana="end"/><anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c62"/>and then again she swooned;<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c64"/>her long hair hanging to the
                      ground,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c65"/>her hands clenched upon her breast<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c69"/>that Mabilia thought she was indeed dead,
                   and cried,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c70"/><milestone unit="said" ana="start" resp="#Mabilia"/>Oh God! let me die also, since they whom I loved best are
+                  <anchor ana="start" corresp="#M20_p1_c70_1"/><milestone unit="said" ana="start" resp="#Mabilia"/>Oh God! let me die also, since they whom I loved best are
                      gone.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
-                  <anchor ana="start" corresp="#M20_p1_c71"/><milestone unit="said" ana="start" resp="#Damsel_Denmark"/>For God's sake, dear Lady,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c70"/><milestone unit="said" ana="intStart"/>quoth the Damsel,<milestone unit="said" ana="intEnd"/><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c71"/>let not your good sense fail you now,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M20_p1_c71_1"/><milestone unit="said" ana="start" resp="#Damsel_Denmark"/>For God's sake, dear Lady,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M20_p1_c70_2"/><milestone unit="said" ana="intStart"/>quoth the Damsel,<milestone unit="said" ana="intEnd"/><anchor ana="end"/>
+                  <anchor ana="start" corresp="#M20_p1_c71_2"/>let not your good sense fail you now,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>when it is so needed.<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
                <s>
@@ -190,13 +190,12 @@
                   <anchor ana="start" corresp="#M20_p1_c91"/>long as thou shalt last, never will two
                   others discourse in thee with such pure and perfect truth!<milestone unit="said" ana="end"/><anchor ana="end"/>
                </s>
-               <s>
-                  <milestone unit="said" ana="start" resp="#Mabilia"/>
-                  <anchor ana="start" corresp="#M20_p1_c103"/>Think you,<anchor ana="end"/>
+               <s>                  
+                  <anchor ana="start" corresp="#M20_p1_c103_1"/><milestone unit="said" ana="start" resp="#Mabilia"/>Think you,<anchor ana="end"/>
                   <milestone unit="said" ana="intStart"/>
                   <anchor ana="start" corresp="#M20_p1_c102"/>said Mabilia,<anchor ana="end"/>
                   <milestone unit="said" ana="intEnd"/>
-                  <anchor ana="start" corresp="#M20_p1_c103"/>that if I believed his death I should
+                  <anchor ana="start" corresp="#M20_p1_c103_2"/>that if I believed his death I should
                   have power to comfort you?<anchor ana="end"/>
                   <milestone unit="said" ana="end"/>
                   <anchor ana="start" type="add"/>and thus with such consolation all that day they
@@ -219,10 +218,9 @@
                   <anchor ana="start" corresp="#M20_p1_c124"/>enquired where he had tarried.<anchor ana="end"/>
                </s>
                <s>
-                  <milestone unit="said" ana="start" resp="#Brandoivas"/>
-                  <anchor ana="start" corresp="#M20_p1_c126"/>Sir,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M20_p1_c126_1"/><milestone unit="said" ana="start" resp="#Brandoivas"/>Sir,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c125"/>said he,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c126"/>in a dungeon, whence I should never have
+                  <anchor ana="start" corresp="#M20_p1_c126_2"/>in a dungeon, whence I should never have
                   come out,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c127"/>but for the good Knight Amadis, who
                   delivered me and this Lady, and many others,<anchor ana="end"/>

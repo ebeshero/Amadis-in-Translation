@@ -474,8 +474,8 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c40">
-               <f name="southey" n="14" ana="1.07">
+            <fs corresp="#M20_p1_c40_2">
+               <f name="southey" n="14" ana="0.71">
                   <string ana="start">she took
                   the Princess in her arms, and poured</string>
                   <string ana="note">The
@@ -484,8 +484,8 @@
                      vinegar and cold water.</string>
                   <string ana="end"> cold water on her face,</string>
                </f>
-               <f name="montalvo" n="29">
-                  <string>porque ninguno assí no la viesse y fue a tomar a Oriana entre sus braços e hízole echar agua fría por el rostro con que luego acordó ya cuanto:</string>
+               <f name="montalvo" n="24">
+                  <string>y fue a tomar a Oriana entre sus braços e hízole echar agua fría por el rostro con que luego acordó ya cuanto:</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
@@ -503,14 +503,14 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c40">
-               <f name="southey" n="12" ana="1.42">
+            <fs corresp="#M20_p1_c40_1">
+               <f name="southey" n="12" ana="-0.5">
                   <string>that
                   none might see her in that passion.
                She recovering her senses,</string>
                </f>
-               <f name="montalvo" n="29">
-                  <string>porque ninguno assí no la viesse y fue a tomar a Oriana entre sus braços e hízole echar agua fría por el rostro con que luego acordó ya cuanto:</string>
+               <f name="montalvo" n="6">
+                  <string>porque ninguno assí no la viesse</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
@@ -607,40 +607,31 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c60">
-               <f name="southey" n="2" ana="2.5">
+            <fs corresp="#M20_p1_c60_1">
+               <f name="southey" n="2" ana="0">
                   <string>yet greater</string>
                </f>
-               <f name="montalvo" n="7">
-                  <string>muy mayor en la otra seyendo juntos/</string>
+               <f name="montalvo" n="2">
+                  <string>muy mayor</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="M20_p1_c61">
-               <f name="montalvo" n="8">
-                  <string>si possible fuesse de les ser otorgado sosternán.
-                </string>
-               </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
             <fs>
-               <f name="southey" n="2">
-                  <string>shall be</string>
+               <f name="southey" n="4">
+                  <string>shall be our loves</string>
                </f>
                <f name="type" select="add">
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c60">
-               <f name="southey" n="10" ana="-0.3">
-                  <string>our loves when in the other world we are united!</string>
+            <fs corresp="#M20_p1_c60_2">
+               <f name="southey" n="8" ana="-0.38">
+                  <string>when in the other world we are united!</string>
                </f>
-               <f name="montalvo" n="7">
-                  <string>muy mayor en la otra seyendo juntos/</string>
+               <f name="montalvo" n="5">
+                  <string>en la otra seyendo juntos/</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
@@ -719,55 +710,46 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c70">
-               <f name="southey" n="14" ana="0.93">
+            <fs corresp="#M20_p1_c70_1">
+               <f name="southey" n="14" ana="0.57">
                   <string>Oh God! let me die also, since they whom I loved best are
                      gone.</string>
                </f>
-               <f name="montalvo" n="27">
-                  <string>ay Dios Señor no te plega de yo más bivir pues las dos cosas que en este mundo más amava son muertas la donzella le dijo.</string>
+               <f name="montalvo" n="22">
+                  <string>ay Dios Señor no te plega de yo más bivir pues las dos cosas que en este mundo más amava son muertas</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c71">
-               <f name="southey" n="5" ana="1.2">
+            <fs corresp="#M20_p1_c71_1">
+               <f name="southey" n="5" ana="-0.4">
                   <string>For God's sake, dear Lady,</string>
                </f>
-               <f name="montalvo" n="11">
-                  <string>Por Dios señora no fallezca a tal hora vuestra discreción:</string>
+               <f name="montalvo" n="3">
+                  <string>Por Dios señora</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="M20_p1_c72">
-               <f name="montalvo" n="7">
-                  <string>y acorred a lo que remedio tiene.
-                </string>
-               </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs corresp="#M20_p1_c70">
-               <f name="southey" n="3" ana="8">
+            <fs corresp="#M20_p1_c70_2">
+               <f name="southey" n="3" ana="0.33">
                   <string>quoth the Damsel,</string>
                </f>
-               <f name="montalvo" n="27">
-                  <string>ay Dios Señor no te plega de yo más bivir pues las dos cosas que en este mundo más amava son muertas la donzella le dijo.</string>
+               <f name="montalvo" n="4">
+                  <string>la donzella le dixo.</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c71">
-               <f name="southey" n="8" ana="0.38">
+            <fs corresp="#M20_p1_c71_2">
+               <f name="southey" n="8" ana="-0.12">
                   <string>let not your good sense fail you now,</string>
                </f>
-               <f name="montalvo" n="11">
-                  <string>Por Dios señora no fallezca a tal hora vuestra discreción:</string>
+               <f name="montalvo" n="7">
+                  <string>no fallezca a tal hora vuestra discreción:</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
@@ -981,34 +963,14 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c103">
-               <f name="southey" n="2" ana="14">
+            <fs corresp="#M20_p1_c103_1">
+               <f name="southey" n="2" ana="1">
                   <string>Think you,</string>
                </f>
-               <f name="montalvo" n="30">
-                  <string>Cómo señora pensáis vos que si yo estas nuevas creyesse que ternía esfuerzo para ninguno consolar? No es assí pequeño ni liviano el amor que a mi cormano tengo:</string>
+               <f name="montalvo" n="4">
+                  <string>Cómo señora pensáis vos</string>
                </f>
                <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
-            </fs>
-            <fs corresp="M20_p1_c104 #M20_p1_c105 #M20_p1_c106 #M20_p1_c107 #M20_p1_c108 #M20_p1_c109 #M20_p1_c110 #M20_p1_c111 #M20_p1_c112">
-               <f name="montalvo" n="138">
-                  <string>antes assí Dios me salve si con razón lo pudiesse
-                     crer a vos ni a cuantos en este mundo que bien le quieren no daría
-                  ventaja de lo que por su muerte se devía mostrar y hazer assí que lo hazéis sin
-                  ningún provecho y podría mucho daño acarrear: pues que con ello muy presto se podría descubrir lo que tan
-                  encelado tenemos/
-                Oriana oyendo esto le dixo: 
-                  de esso ya poco cuidado
-                  tengo: que agora tarde o aína no puede tardar de ser a todos
-                  manifiesto: aunque yo pune de lo encubrir: que quien bivir no dessea ningún peligro temer puede aunque
-                  le viniesse:
-                 en esto que oís estuvieron todo aquel día diziendo la
-                  donzella de Denamarcha a todos cómo Oriana no se osava
-                  apartar de Mabilia porque se no matasse: tan grande cuita era la suya/ </string>
-               </f>
-               <f name="type" select="omission">
                   <string>Comments</string>
                </f>
             </fs>
@@ -1023,21 +985,22 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c103">
-               <f name="southey" n="13" ana="1.31">
+            <fs corresp="#M20_p1_c103_2">
+               <f name="southey" n="13" ana="-0.08">
                   <string>that if I believed his death I should
                   have power to comfort you?</string>
                </f>
-               <f name="montalvo" n="30">
-                  <string>Cómo señora pensáis vos que si yo estas nuevas creyesse que ternía esfuerzo para ninguno consolar? No es assí pequeño ni liviano el amor que a mi cormano tengo:</string>
+               <f name="montalvo" n="12">
+                  <string>que si yo estas nuevas creyesse que ternía esfuerzo para ninguno consolar?</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="M20_p1_c104 #M20_p1_c105 #M20_p1_c106 #M20_p1_c107 #M20_p1_c108 #M20_p1_c109 #M20_p1_c110 #M20_p1_c111 #M20_p1_c112">
-               <f name="montalvo" n="138">
-                  <string>antes assí Dios me salve si con razón lo pudiesse
+            <fs corresp="M20_p1_c103_4 #M20_p1_c104 #M20_p1_c105 #M20_p1_c106 #M20_p1_c107 #M20_p1_c108 #M20_p1_c109 #M20_p1_c110 #M20_p1_c111 #M20_p1_c112">
+               <f name="montalvo" n="151">
+                  <string>No es assí
+                  pequeño ni liviano el amor que a mi cormano tengo: antes assí Dios me salve si con razón lo pudiesse
                      crer a vos ni a cuantos en este mundo que bien le quieren no daría
                   ventaja de lo que por su muerte se devía mostrar y hazer assí que lo hazéis sin
                   ningún provecho y podría mucho daño acarrear: pues que con ello muy presto se podría descubrir lo que tan
@@ -1189,12 +1152,12 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c126">
-               <f name="southey" n="1" ana="14">
+            <fs corresp="#M20_p1_c126_1">
+               <f name="southey" n="1" ana="0">
                   <string>Sir,</string>
                </f>
-               <f name="montalvo" n="15">
-                  <string>Señor fue metido en tan gran prisión donde no pudiera salir en ninguna guisa/</string>
+               <f name="montalvo" n="1">
+                  <string>Señor</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>
@@ -1211,13 +1174,13 @@
                   <string>Comments</string>
                </f>
             </fs>
-            <fs corresp="#M20_p1_c126">
-               <f name="southey" n="10" ana="0.5">
+            <fs corresp="#M20_p1_c126_2">
+               <f name="southey" n="10" ana="0.3">
                   <string>in a dungeon, whence I should never have
                   come out,</string>
                </f>
-               <f name="montalvo" n="15">
-                  <string>Señor fue metido en tan gran prisión donde no pudiera salir en ninguna guisa/</string>
+               <f name="montalvo" n="13">
+                  <string>fue metido en tan gran prisión donde no pudiera salir en ninguna guisa/</string>
                </f>
                <f name="type" select="indefinite">
                   <string>Comments</string>

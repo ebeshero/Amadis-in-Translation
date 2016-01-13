@@ -34,9 +34,9 @@
                      type="add"/><placeName ref="#Alima">Alima</placeName><anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c2"/>went his way in great heaviness,<anchor
                      ana="end"/>
-                  <anchor ana="start" corresp="#M2_p1_c3"/>as well as for the loneliness wherein he
-                  had left<anchor ana="end"/><anchor ana="start" type="add"/><persName ref="#Helisena">Elisena</persName><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p1_c3"/>whom in his heart he loved,<anchor
+                  <anchor ana="start" corresp="#M2_p1_c3_1"/>as well as for the loneliness<anchor ana="end"/> <anchor ana="start" type="add"/>wherein he
+                  had left<persName ref="#Helisena">Elisena</persName><anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p1_c3_2"/>whom in his heart he loved,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c4"/>as also for the dream which in such a
                   season had come upon him.<anchor ana="end"/></s><s><anchor ana="start"
@@ -97,17 +97,17 @@
                   <anchor ana="start" type="add"/>to me.<milestone unit="said" ana="end"
                      /></s><s><milestone unit="said" ana="start" resp="#Alberto"/>Sire<milestone
                      unit="said" ana="intStart"/>,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p1_c38"/>answered<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p1_c38_1_3"/>answered<anchor ana="end"/>
                   <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/>
-                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c38"/>then
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c38_1_2"/>then
                   let the rest be called into your presence<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c39"/>for before them will I tell you.<anchor
                      ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
                      type="add"/>Whereupon<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c41"/>they were sent for,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p1_c42"/>and being all met,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p1_c42_1"/>and being all met,<anchor ana="end"/>
                   <anchor ana="start" type="add"/>Alberto<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p1_c42"/>began.<anchor ana="end"/></s><s><milestone
+                  <anchor ana="start" corresp="#M2_p1_c42_2"/>began.<anchor ana="end"/></s><s><milestone
                      unit="said" ana="start" resp="#Alberto"/><anchor ana="start" corresp="#M2_p1_c44"
                   />It appears to me that the closed chamber,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c45"/>and he whom you saw enter by the secret
@@ -123,12 +123,11 @@
                   other heart?<milestone unit="said" ana="intStart"/> quoth the King, <milestone
                      unit="said" ana="intEnd"/>which he said should remain with me,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c49"/>and yet he must take it away against his
-                     will.<anchor ana="end"/><milestone unit="said" ana="end"/></s><s><milestone
-                     unit="said" ana="start" resp="#Alberto"/><anchor ana="start" corresp="#M2_p1_c49"
-                  />It seemeth by this<milestone unit="said" ana="intStart"/>, answered<anchor
+                     will.<milestone unit="said" ana="end"/></s><s><milestone
+                     unit="said" ana="start" resp="#Alberto"/>It seemeth by this<milestone unit="said" ana="intStart"/>, answered<anchor
                      ana="end"/>
                   <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/>
-                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c49"/>that
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c49_1"/>that
                   some other shall invade your country, as the first did, yet constrained more by
                   another commanding him to do so, than by any will in himself,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c50"/>and upon this, Sire, I know nothing more
@@ -137,11 +136,11 @@
                      ref="#Anteles">Anteles</persName> to say what he had discovered.<anchor
                      ana="end"/></s><s><anchor ana="start" corresp="#M2_p1_c51"/>He agreed to all that
                   the other had said,<anchor ana="end"/>
-                  <milestone unit="said" ana="start" resp="#Anteles"/><anchor ana="start"
-                     corresp="#M2_p1_c52"/>except in this<anchor ana="end"/><milestone unit="said"
+                  <anchor ana="start"
+                     corresp="#M2_p1_c52_1"/><milestone unit="said" ana="start" resp="#Anteles"/>except in this<anchor ana="end"/><milestone unit="said"
                      ana="intStart"/>
                   <anchor ana="start" type="add"/>quoth he,<anchor ana="end"/>
-                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c52"/>that
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c52_2"/>that
                   my art shows me <note anchored="true" resp="#Southey">mis suertes me
                      muestran.</note> it is already done,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c53"/>and by the person that most loveth
@@ -174,9 +173,9 @@
                      together.<anchor ana="end"/></s></p>
 
             <p><s><milestone unit="said" ana="start" resp="#Ungan"/><anchor ana="start"
-                     corresp="#M2_p1_c63"/>Know, King,<anchor ana="end"/><milestone unit="said"
+                     corresp="#M2_p1_c63_1"/>Know, King,<anchor ana="end"/><milestone unit="said"
                      ana="intStart"/>
-                  <anchor ana="start" corresp="#M2_p1_c62"/>said he,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p1_c62_2"/>said he,<anchor ana="end"/>
                   <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c63"/>that
                   what I laughed at was a word of which you thought little,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c64"/>when he said it was already done, and by
@@ -239,7 +238,7 @@
                   <anchor ana="start" corresp="#M2_p1_c79"/>who will in some manner be taken away
                   against the will of her that caused the loss of the first.<anchor ana="end"
                      /><milestone unit="said" ana="end"/></s><s><milestone unit="said" ana="start"
-                     resp="#Perion"/><anchor ana="start" corresp="#M2_p1_c79.1"/>Strange things hast
+                     resp="#Perion"/><anchor ana="start" corresp="#M2_p1_c79.1_1"/>Strange things hast
                   thou told me!<milestone unit="said" ana="intStart"/> said<anchor ana="end"/>
                   <anchor ana="start" type="add"/>Perion,<anchor ana="end"/>
                   <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c79.1"/>and
@@ -382,7 +381,7 @@
                   <anchor ana="start" corresp="#M2_p2_c131"/>to the wonder of Gandales;<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M2_p2_c132"/>then she bade him<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p2_c116" type="report"/>tell the Damsel under the
+                  <anchor ana="start" corresp="#M2_p2_c133" type="report"/>tell the Damsel under the
                   trees, to get her away immediately, or he would take her head off.<anchor
                      ana="end"/></s><s><anchor ana="start" corresp="#M2_p2_c134"/>He turned to
                      her<anchor ana="end"/>
@@ -523,9 +522,7 @@
                      ana="start" corresp="#M2_p3_c202.1"/>Ah, the wretch,<milestone unit="said"
                      ana="intStart"/> quoth she, <milestone unit="said" ana="intEnd"/>how she knows
                   to beguile every one!<anchor ana="end"/></s><s><anchor ana="start"
-                     corresp="#M2_p3_c203"/>she has taken from me the<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>fair<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p3_c203"/>Knight<anchor ana="end"/>
+                     corresp="#M2_p3_c203"/>she has taken from me the fair Knight<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c204"/>who would more willingly be mine,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c206"/>but I will be revenged if I can.<anchor
@@ -544,35 +541,35 @@
                      ana="end"/>
                   <anchor ana="start" type="add"/>and lovingly embraced him, and remembering all
                   that Urganda had told him,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p3_c211"/>he said in his heart,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p3_c211_2"/>he said in his heart,<anchor ana="end"/>
                   <milestone unit="said" ana="start" resp="#Gandales"/><anchor ana="start"
                      corresp="#M2_p3_c212"/>my fair child God let me live to see thy good days!<anchor
                      ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
-                     corresp="#M2_p3_c211"/>and with that the tears came.<anchor ana="end"
+                     corresp="#M2_p3_c211_1"/>and with that the tears came.<anchor ana="end"
                      /></s><s><anchor ana="start" corresp="#M2_p3_c213"/>At this time the child was of
                   three years,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c214"/>and his beauty was marvellous to
                      behold,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p3_c215"/>and he seeing the tears, put up
+                  <anchor ana="start" corresp="#M2_p3_c215_1"/>and he seeing the tears, put up
                      his<anchor ana="end"/>
                   <anchor ana="start" type="add"/>little<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p3_c215"/>hands to wipe them away,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p3_c215_2"/>hands to wipe them away,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c216"/>whereat Gandales rejoiced<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c217"/>as a sign that<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c218"/>he would be gentle-hearted,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c219"/>and thenceforward he taught him with a
-                  kinder will.<anchor ana="end"/></s><s><anchor ana="start" corresp="#M2_p3_c219"/>And
+                  kinder will.</s><s>And
                   when he came to the age of five,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c220"/>he made a bow for him suited to his
                   strength, and another for his son Gandalin,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c221"/>and they used to shoot before him.<anchor
                      ana="end"/></s></p>
 
-            <p><s><anchor ana="start" corresp="#M2_p3_c223"/>When<anchor ana="end"/>
+            <p><s><anchor ana="start" corresp="#M2_p3_c223_1"/>When<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c222"/>he was seven years old,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p3_c223"/><persName ref="#Languines">King
+                  <anchor ana="start" corresp="#M2_p3_c223_2"/><persName ref="#Languines">King
                      Languines</persName> and his Queen and household, passing through his Kingdom
                   from one town to another, came to the castle of Gandales,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c224"/>where they were well feasted;<anchor
@@ -633,7 +630,7 @@
                      hand,<anchor ana="end"/>
                   <milestone unit="said" ana="start" resp="#anon"/><anchor ana="start"
                      corresp="#M2_p3_c252"/>how is this, Child of the Sea, said he, that you dare beat
-                  the boys?<anchor ana="end"/></s><s><anchor ana="start" corresp="#M2_p3_c254"/>I
+                  the boys?<anchor ana="end"/></s><s><anchor ana="start" corresp="#M2_p3_c253"/>I
                   shall punish you!<anchor ana="end"/></s><milestone unit="said" ana="end"
                      /><s><anchor ana="start" corresp="#M2_p3_c254"/>but the Child fell upon his
                      knees,<anchor ana="end"/>
@@ -641,8 +638,7 @@
                      corresp="#M2_p3_c256"/>I had rather you would strike me<milestone unit="said"
                      ana="intStart"/>, said he, <milestone unit="said" ana="intEnd"/>than that any
                   one before me should dare to beat my brother><milestone unit="said" ana="end"
-                     />;<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p3_c256"/>and the tears came in his eyes.<anchor
+                     />; and the tears came in his eyes.<anchor
                      ana="end"/></s><s><anchor ana="start" corresp="#M2_p3_c258"/>The Tutor was moved,
                   and told him<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p3_c259" type="report"/>to do so no more.<anchor

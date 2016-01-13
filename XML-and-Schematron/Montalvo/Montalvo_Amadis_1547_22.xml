@@ -123,8 +123,8 @@
                <cl xml:id="M22_p1_c5">El enano con miedo dexóse caer del rocín diziendo:</cl>
                <cl xml:id="M22_p1_c6"><milestone unit="said" resp="#dwarf" ana="start"/>acorredme señor
                   que me matan.<milestone unit="said" ana="end"/></cl>
-               <cl xml:id="M22_p1_c7">Amadís que lo vio corrió muy aína y dixo <milestone unit="said"
-                     resp="#Amadis" ana="start"/>qué es esso señor cavallero?</cl>
+               <cl xml:id="M22_p1_c7"><seg xml:id="M22_p1_c7_1">Amadís que lo vio corrió muy aína</seg> <seg xml:id="M22_p1_c7_2">y dixo <milestone unit="said"
+                     resp="#Amadis" ana="start"/>qué es esso señor cavallero?</seg></cl>
                <cl xml:id="M22_p1_c8">Por qué me queréis matar mi enano?</cl>
                <cl xml:id="M22_p1_c9">No hazeis como cortés en meter mano en tan cativa cosa/</cl>
                <cl xml:id="M22_p1_c10">de más ser mío:</cl>
@@ -147,8 +147,8 @@
                <cl xml:id="M22_p1_c20">y començaron la batalla de las espadas tan cruel y tan fuerte
                   que no avía persona que la viesse que de ello no fuesse espantado:</cl>
                <cl xml:id="M22_p1_c21">y assí lo era el uno del otro:</cl>
-               <cl xml:id="M22_p1_c22">que nunca hasta allí fallaron quien en tan gran estrecho sus
-                  vidas pudiesse.</cl>
+               <cl xml:id="M22_p1_c22"><seg xml:id="M22_p1_c22_1">que nunca hasta allí</seg> <seg xml:id="M22_p1_c22_2">fallaron quien</seg> <seg xml:id="M22_p1_c22_3">en tan gran estrecho sus
+                  vidas pudiesse.</seg></cl>
                <cl xml:id="M22_p1_c23">Assí anduvieron hiriéndose de muy grandes y esquivos golpes una
                   gran pieça del día:</cl>
                <cl xml:id="M22_p1_c24">tanto que sus escudos eran rajados y cortados por muchas
@@ -161,10 +161,10 @@
                   partes:</cl>
                <cl xml:id="M22_p1_c29">y siendo muy cansados tiráronse afuera:</cl>
                <cl xml:id="M22_p1_c30">y dixo el cavallero a Amadís.</cl>
-               <cl xml:id="M22_p1_c31"><milestone unit="said" ana="start" resp="#Galaor"/>Cavallero no
-                  sufráis más de afán por este enamo:</cl>
-               <cl xml:id="M22_p1_c32">y dexadme hazer de él lo que quiero y después yo os lo
-                     emendaré.<milestone unit="said" ana="end"/></cl>
+               <cl xml:id="M22_p1_c31"><seg xml:id="M22_p1_c31_1"><milestone unit="said" ana="start" resp="#Galaor"/>Cavallero</seg> <seg xml:id="M22_p1_c31_2">no
+                  sufráis más de afán por este enamo:</seg></cl>
+               <cl xml:id="M22_p1_c32"><seg xml:id="M22_p1_c32_1">y dexadme hazer de él lo que quiero</seg> <seg xml:id="M22_p1_c32_2">y después yo os lo
+                     emendaré.</seg><milestone unit="said" ana="end"/></cl>
                <cl xml:id="M22_p1_c33"><milestone unit="said" ana="start" resp="#Amadis"/>No habléis en
                   esso <milestone unit="said" ana="intStart"/>dixo Amadís <milestone unit="said"
                      ana="intEnd"/>que el enano amparar os lo he yo en todas guisas:<milestone
@@ -257,9 +257,9 @@
                <cl xml:id="M22_p1_c74">y hincándosele de inojos delante le demandó llorando
                   perdón.</cl>
                <cl xml:id="M22_p1_c75">Amadís lo alçó y abráçolo y dixo:</cl>
-               <cl xml:id="M22_p1_c76"><milestone unit="said" ana="start" resp="#Amadis"/>mi hermano
-                  por bien empleado tengo el peligro que con vos passé pues que fue testimonio que
-                  yo provasse vuestra tan alta proeza y bondad.<milestone unit="said" ana="end"/></cl>
+               <cl xml:id="M22_p1_c76"><seg xml:id="M22_p1_c76_1"><milestone unit="said" ana="start" resp="#Amadis"/>mi hermano</seg>
+                  <seg xml:id="M22_p1_c76_2">por bien empleado tengo el peligro que con vos passé pues que fue testimonio que
+                  yo provasse vuestra tan alta proeza y bondad.<milestone unit="said" ana="end"/></seg></cl>
                <cl xml:id="M22_p1_c77">Entonces se desenlazaron los yelmos por holgar/</cl>
                <cl xml:id="M22_p1_c78">que muy necessario les era:</cl>
                <cl xml:id="M22_p1_c79">el cavallero les contó lo que la donzella le dixera:</cl>
@@ -284,8 +284,8 @@
                <cl xml:id="M22_p1_c91"><milestone unit="said" ana="start" resp="#Amadis"/>Dios os dé
                   buena ventura <milestone unit="said" ana="intStart"/>dixo Amadís<milestone unit="said" ana="intEnd"/> por lo que por nos hazéis:<milestone unit="said"
                      ana="end"/></cl>
-               <cl xml:id="M22_p1_c92"><milestone unit="said" ana="start" resp="#Balays"/>cierto señor
-                  yo por bienaventurado me tengo en vos servir:</cl>
+               <cl xml:id="M22_p1_c92"><milestone unit="said" ana="start" resp="#Balays"/><seg xml:id="M22_p1_c92_1">cierto señor
+                  yo por bienaventurado me tengo</seg> <seg xml:id="M22_p1_c92_2">en vos servir:</seg></cl>
                <cl xml:id="M22_p1_c93">que vos me sacastes de la más cruel y esquiva prisión en que
                   nunca hombre fue.<milestone unit="said" ana="end"/></cl>
                <cl xml:id="M22_p1_c94"><milestone unit="said" ana="start" resp="#Amadis"/>Donde fue
@@ -311,9 +311,9 @@
                      hermano<milestone unit="said" ana="intStart"/> dixo Amadís<milestone
                      unit="said" ana="intEnd"/> pues que os plaze.<milestone unit="said" ana="end"
                   /></cl>
-               <cl xml:id="M22_p1_c102">Entonces cavalgaron como mejor pudieron y llegaron al castillo
+               <cl xml:id="M22_p1_c102"><seg xml:id="M22_p1_c102_1">Entonces cavalgaron como mejor pudieron y llegaron al</seg> <seg xml:id="M22_p1_c102_2">castillo
                   donde hallaron cavalleros y dueñas y donzellas que con gran amor los
-                  rescibieron:</cl>
+                  rescibieron:</seg></cl>
                <cl xml:id="M22_p1_c103">y Baláis les dixo.</cl>
                <cl xml:id="M22_p1_c104"><milestone unit="said" ana="start" resp="#Balays"/>Amigos vedes
                   que traigo toda la flor de la cavallería del mundo:</cl>

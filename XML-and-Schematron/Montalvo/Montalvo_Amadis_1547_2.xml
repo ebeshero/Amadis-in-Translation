@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -28,15 +29,15 @@
                     <!--pdf page 10-->
                 </head>
                 <argument>
-                    <p>Cómo el rey <persName ref="#Perionidiot">Perión</persName> iva por el camino con
+                    <p>Cómo el rey <persName ref="#Perion">Perión</persName> iva por el camino con
                         su escudero con coraçón más acompañado de tristeza que de alegría.</p>
                 </argument>
                 <p>
-                    <cl xml:id="M2_p1_c1">Partido el rey <persName ref="#Perionidiot">Perión</persName>
+                    <cl xml:id="M2_p1_c1">Partido el rey <persName ref="#Perion">Perión</persName>
                         de la <placeName>Pequeña Bretaña</placeName> como ya se vos contó:</cl>
                     <cl xml:id="M2_p1_c2">de mucha congoxa era su <sic>aio</sic> atormentado:</cl>
-                    <cl xml:id="M2_p1_c3">assí por la gran soledad que de su amiga sentía que mucho
-                        de coraçón amava/</cl>
+                    <cl xml:id="M2_p1_c3"><seg xml:id="M2_p1_c3_1">assí por la gran soledad</seg> <seg xml:id="M2_p1_c3_2">que de su amiga sentía que mucho
+                        de coraçón amava/</seg></cl>
                     <cl xml:id="M2_p1_c4">como por el sueño que ya oísteis que en tal sazón le
                         sobreviniera.</cl>
                     <cl xml:id="M2_p1_c5">Pues llegado en su reino embió por todos sus ricos
@@ -100,17 +101,18 @@
                         <choice>
                             <sic/>
                             <corr>.</corr>
-                        </choice>
-                        <milestone unit="said" resp="#Alberto" ana="start"/>Pues vengan los otros
-                            <milestone unit="said" ana="intStart"/>dixo el clérigo<milestone
-                            unit="said" ana="intEnd"/>:</cl>
+                        </choice></cl>
+                    <cl xml:id="M2_p1_c38_1">
+                        <seg xml:id="M2_p1_c38_1_2"><milestone unit="said" resp="#Alberto" ana="start"/>Pues vengan los otros</seg>
+                        <seg xml:id="M2_p1_c38_1_3"><milestone unit="said" ana="intStart"/>dixo el clérigo<milestone
+                            unit="said" ana="intEnd"/>:</seg></cl>
                     <cl xml:id="M2_p1_c39">y delante de ellos lo diré<milestone unit="said"
                             ana="end"/>:</cl>
                     <cl xml:id="M2_p1_c40">
                         <milestone unit="said" resp="#Perion" ana="start"/>vengan<milestone
                             unit="said" ana="end"/> dixo el rey:</cl>
                     <cl xml:id="M2_p1_c41">e hízolos llamar.</cl>
-                    <cl xml:id="M2_p1_c42"> Pues siendo assí todos juntos aquel dixo.</cl>
+                    <cl xml:id="M2_p1_c42"><seg xml:id="M2_p1_c42_1">Pues siendo assí todos juntos</seg> <seg xml:id="M2_p1_c42_2">aquel dixo.</seg></cl>
                     <cl xml:id="M2_p1_c43">
                         <milestone unit="said" resp="#Alberto" ana="start"/>Señor yo te diré lo que
                         entiendo.</cl>
@@ -127,7 +129,8 @@
                         />dixo el rey<milestone unit="said" ana="intEnd"/> que me dezía que me
                         quedava/</cl>
                     <cl xml:id="M2_p1_c49">y me lo haría perder sin su grado.<milestone unit="said"
-                            ana="end"/>
+                            ana="end"/></cl>
+                    <cl xml:id="M2_p1_c49_1">
                         <milestone unit="said" resp="#Alberto" ana="start"/>Esso <milestone
                             unit="said" ana="intStart"/>dixo el maestro<milestone unit="said"
                             ana="intEnd"/> parece que otro entrará en tu tierra a te tomar lo
@@ -139,8 +142,8 @@
                         lo que hallava.</cl>
                     <cl xml:id="M2_p1_c51">Él otorgó en todo lo que el otro avía dicho:</cl>
                     <cl xml:id="M2_p1_c52">
-                        <milestone unit="said" resp="#Anteles" ana="start"/>Sino tanto que mis
-                        suertes me muestran que es ya hecho:</cl>
+                        <seg xml:id="M2_p1_c52_1"><milestone unit="said" resp="#Anteles" ana="start"/>Sino</seg> <seg xml:id="M2_p1_c52_2">tanto que mis
+                        suertes me muestran que es ya hecho:</seg></cl>
                     <cl xml:id="M2_p1_c53">y por aquel que más te ama:</cl>
                     <cl xml:id="M2_p1_c54">y esto me haze maravillar:</cl>
                     <cl xml:id="M2_p1_c55">porque aún agora no es perdido nada de tu reino:</cl>
@@ -166,8 +169,8 @@
                     <cl xml:id="M2_p1_c61">y cerrando las puertas quedaron ambos.</cl>
                     <cl xml:id="M2_p1_c62">El maestro dixo.</cl>
                     <cl xml:id="M2_p1_c63">
-                        <milestone unit="said" resp="#Ungan" ana="start"/>Sabed rey que de lo que yo
-                        me reía fue de aquellas palabras que en poco tuviste:</cl>
+                        <milestone unit="said" resp="#Ungan" ana="start"/><seg xml:id="M2_p1_c63_1">Sabed rey</seg> <seg xml:id="M2_p1_c63_2">que de lo que yo
+                        me reía fue de aquellas palabras que en poco tuviste:</seg></cl>
                     <cl xml:id="M2_p1_c64">que dixo que ya era hecho por aquél que más te ama.</cl>
                     <cl xml:id="M2_p1_c65">Agora te quiero dezir aquello que muy encubierto
                         tienes:</cl>
@@ -225,11 +228,11 @@
                     <cl xml:id="M2_p1_c79">y por alguna guisa lo perderéis contra la voluntad de
                         aquella que agora vos hará el primero perder.<milestone unit="said"
                             ana="end"/></cl><cl xml:id="M2_p1_c79.1">
-                        <milestone unit="said" resp="#Perion" ana="start"/>Grandes cosas me avéis
-                        dicho <milestone unit="said" ana="intStart"/>dixo el rey<milestone
-                            unit="said" ana="intEnd"/> y a Dios plega por la su merced que lo
+                                <milestone unit="said" resp="#Perion" ana="start"/><seg xml:id="M2_p1_c79.1_1">Grandes cosas me avéis
+                        dicho <milestone unit="said" ana="intStart"/>dixo el rey</seg><milestone
+                            unit="said" ana="intEnd"/> <seg xml:id="M2_p1_c79.1_2">y a Dios plega por la su merced que lo
                         postrimero de los hijos no salga tan verdadero como lo que de la dueña que
-                        yo amo me dexistes.<milestone unit="said" ana="end"/></cl><cl
+                        yo amo me dexistes.</seg><milestone unit="said" ana="end"/></cl><cl
                         xml:id="M2_p1_c79.2">
                         <milestone unit="said" resp="#Ungan" ana="start"/>Las cosas ordenadas y
                         permitidas de Dios <milestone unit="said" ana="intStart"/>dixo el
@@ -371,7 +374,7 @@
                     <cl xml:id="M2_p2_c134">El cavallero se tornó contra ella/</cl>
                     <cl xml:id="M2_p2_c135">y díxole.</cl>
                     <cl xml:id="M2_p2_c136">
-                        <milestone unit="said" resp="#anon" ana="start"/> Ay mala yo me maravillo
+                        <milestone unit="said" resp="#anon" ana="start"/>Ay mala yo me maravillo
                         que la cabeça no te tiro.<milestone unit="said" ana="end"/>
                     </cl>
                     <cl xml:id="M2_p2_c137">La donzella vio que su amigo era encantado:</cl>
@@ -562,8 +565,8 @@
                         la fazienda de su donzel:</cl>
                     <cl xml:id="M2_p3_c210">y llegando al castillo ante que se desarmasse le tomó en
                         sus braços:</cl>
-                    <cl xml:id="M2_p3_c211">y començólo de besar viniéndole las lágrimas a los ojos
-                        diziendo en su coraçón.</cl>
+                    <cl xml:id="M2_p3_c211"><seg xml:id="M2_p3_c211_1">y començólo de besar viniéndole las lágrimas a los ojos</seg>
+                        <seg xml:id="M2_p3_c211_2">diziendo en su coraçón.</seg></cl>
                     <cl xml:id="M2_p3_c212">
                         <milestone resp="#Gandales" unit="said" ana="start"/>Mi hermoso hijo si
                         querrá Dios que yo llegue al vuestro buen tiempo<choice>
@@ -573,8 +576,8 @@
                     </cl>
                     <cl xml:id="M2_p3_c213">En esta sazón avía el donzel tres años/</cl>
                     <cl xml:id="M2_p3_c214">y su gran hermosura por maravilla era mirada:</cl>
-                    <cl xml:id="M2_p3_c215">y como vio a su amo llorar púsole las manos ante
-                            <sic>las</sic> ojos como que se los quería limpiar/</cl>
+                    <cl xml:id="M2_p3_c215"><seg xml:id="M2_p3_c215_1">y como vio a su amo llorar púsole las</seg> <seg xml:id="M2_p3_c215_2">manos ante
+                            <sic>las</sic> ojos como que se los quería limpiar/</seg></cl>
                     <cl xml:id="M2_p3_c216">de que Gandales fue alegre:</cl>
                     <cl xml:id="M2_p3_c217"> considerando que siendo en más edad:</cl>
                     <cl xml:id="M2_p3_c218">más se dolería de su tristeza y púsole en tierra y fuese
@@ -585,9 +588,9 @@
                         Gandalín:</cl>
                     <cl xml:id="M2_p3_c221">y fazíalo tirar ante sí:</cl>
                     <cl xml:id="M2_p3_c222">y assí lo fue criando hasta la edad de siete años.</cl>
-                    <cl xml:id="M2_p3_c223">Pues a esta sazón el rey Languines passando por su reino
+                    <cl xml:id="M2_p3_c223"><seg xml:id="M2_p3_c223_1">Pues a esta sazón</seg> <seg xml:id="M2_p3_c223_2">el rey Languines passando por su reino
                         con su muger y toda la casa de una villa a otra y vínose al castillo de
-                        Gandales que por ahí era el camino:</cl>
+                        Gandales que por ahí era el camino:</seg></cl>
                     <cl xml:id="M2_p3_c224">donde fue muy bien festejado:</cl>
                     <cl xml:id="M2_p3_c225">mas a su Donzel del Mar y a su hijo Gandalín y a otros
                         donzeles mandólos meter en un corral/</cl>
