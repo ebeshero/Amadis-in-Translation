@@ -82,20 +82,56 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                     $montalvo-chapter//seg[@xml:id = current()//anchor/substring(@corresp, 2)]"/>
             <xsl:variable name="montalvo-matched-clauses" select="count($montalvo-match) * $variable"/>
             <xsl:variable name="southey-clauses" select="count(current()//anchor[@ana = 'start']) * $variable"/>
-            <xsl:variable name="width2" select="(300 - $montalvo-matched-clauses) + 80"/>
+            <xsl:variable name="position" select="(300 - $montalvo-matched-clauses) + 80"/>
+            <xsl:variable name="omissions" select="round-half-to-even((count($montalvo-clauses) - count($montalvo-match)) * 100 div count($montalvo-clauses), 1) "/>
+            <xsl:variable name="common-text-m" select="round-half-to-even((count($montalvo-match) * 100) div count($montalvo-clauses), 1) "/>
+            <xsl:variable name="common-text-s" select="round-half-to-even(count(current()//anchor[@corresp]) * 100
+                div count(current()//anchor[@ana eq 'start']), 1)"/>
+            <xsl:variable name="additions" select="round-half-to-even(count(current()//anchor[@type eq 'add']) * 100 div count(current()//anchor[@ana = 'start']), 1)"/>
+            <p>Overlapping bars.</p>
+            <p>Montalvo has a fixed width so the attention is focused on the omissions and additions
+            (because the chapter lenghts are not considered).</p>
+            <p>Calculations made attending to the number of clauses/anchors.</p>
             <div class="svg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="510" height="75">
                     <g>
                         <rect y="12" fill="#d61d08" stroke="#550b03" stroke-width="2" height="20"
-                            opacity="0.7" stroke-opacity="1" x="{$width2}"
+                            opacity="0.7" stroke-opacity="1" x="{$position}"
                             width="{$southey-clauses}"/>
-                        <text y="29" fill="#220a00" x="{$width2 + $southey-clauses + 7}"
+                        <text y="29" fill="#220a00" x="{$position + $southey-clauses + 7}"
                             >Southey</text>
                     </g>
                     <g>
                         <rect fill="#fdd221" stroke="#550b03" stroke-width="2" height="20"
                             opacity="0.7" stroke-opacity="1" width="300" y="12" x="80"/>
                         <text y="29" fill="#220a00">Montalvo</text>
+                    </g>
+                    <text fill="#461801" y="65" x="84" font-size="18">Omissions and additions by
+                        Southey</text>
+                </svg>
+            </div>
+            <p>Overlapping bars.</p>
+            <p>Montalvo has a fixed width.</p>
+            <p>Percentagens are included to increase readibility</p>
+            <p>Stroke is deleted.</p>
+            <p>Calculations made attending to the number of clauses/anchors.</p>
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="510" height="75">
+                    <g>
+                        <rect y="12" fill="#d61d08" height="20"
+                            opacity="0.7" x="{$position}"
+                            width="{$southey-clauses}"/>
+                        <text y="29" fill="#220a00" x="{$position + $southey-clauses + 7}"
+                            >Southey</text>
+                    </g>
+                    <g>
+                        <rect fill="#fdd221" height="20"
+                            opacity="0.7" width="300" y="12" x="80"/>
+                        <text y="29" fill="#220a00">Montalvo</text>
+                        <text y="25" fill="#220a00" x="82" font-size="9"><xsl:value-of select="$omissions"/>%</text>                        
+                        <text y="25" fill="#220a00" x="381" font-size="9"><xsl:value-of select="$additions"/>%</text>
+                        <text y="25" fill="#220a00" x="{$position + 30}" font-size="9">(<xsl:value-of select="$common-text-m"/>% M)</text>
+                        <text y="25" fill="#220a00" x="{$southey-clauses div 2 + $position}" font-size="9">(<xsl:value-of select="$common-text-s"/>% S)</text>
                     </g>
                     <text fill="#461801" y="65" x="84" font-size="18">Omissions and additions by
                         Southey</text>
