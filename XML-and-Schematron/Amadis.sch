@@ -138,6 +138,22 @@
       <report test=".//tei:cl">Nested clauses!</report>
     </rule>
   </pattern>
+  <pattern>
+    <rule context="tei:cl[preceding::tei:cl]">
+      <assert test="number(substring-after(@xml:id, '_c')) gt number(substring-after(preceding::tei:cl[1]/@xml:id, '_c'))">
+        The clause number on the xml:id (even when a decimal) should be larger than the clause number on the preceding @xml:id.
+      </assert>
+    </rule>
+  </pattern>
+  
+  <pattern>
+    <rule context="tei:seg">
+      <assert test="contains(@xml:id, parent::tei:cl/@xml:id)">
+        A seg's @xml:id must contain the @xml:id of its cl parent. 
+      </assert>
+    </rule>
+  </pattern>
+ 
   
   <!--ebb 2015-08-27 Rules for Pointing to Other Files and xml:ids-->
   
@@ -160,9 +176,9 @@
 
   <pattern>
     <rule context="tei:anchor[@corresp]">
-      <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
+      <let name="tokens" value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
       <assert test="every $token in $tokens satisfies $token = $M_ids">The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!</assert>
-      <report test="./@corresp = following::tei:anchor/@corresp">Every anchor must have and unique ID. Add a seg element in Montalvo with its own ID if needed</report>
+      <report test="./@corresp = following::tei:anchor/@corresp">Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed</report>
     </rule>
   </pattern>
 

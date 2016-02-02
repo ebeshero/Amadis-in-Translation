@@ -97,9 +97,9 @@
                   <anchor ana="start" type="add"/>to me.<milestone unit="said" ana="end"
                      /></s><s><milestone unit="said" ana="start" resp="#Alberto"/>Sire<milestone
                      unit="said" ana="intStart"/>,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M2_p1_c38_1_3"/>answered<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p1_c38.1_2"/>answered<anchor ana="end"/>
                   <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/>
-                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c38_1_2"/>then
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c38.1_1"/>then
                   let the rest be called into your presence<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c39"/>for before them will I tell you.<anchor
                      ana="end"/><milestone unit="said" ana="end"/></s><s><anchor ana="start"
@@ -127,7 +127,7 @@
                      unit="said" ana="start" resp="#Alberto"/>It seemeth by this<milestone unit="said" ana="intStart"/>, answered<anchor
                      ana="end"/>
                   <anchor ana="start" type="add"/>Alberto,<anchor ana="end"/>
-                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c49_1"/>that
+                  <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c49.1"/>that
                   some other shall invade your country, as the first did, yet constrained more by
                   another commanding him to do so, than by any will in himself,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c50"/>and upon this, Sire, I know nothing more
@@ -175,7 +175,7 @@
             <p><s><milestone unit="said" ana="start" resp="#Ungan"/><anchor ana="start"
                      corresp="#M2_p1_c63_1"/>Know, King,<anchor ana="end"/><milestone unit="said"
                      ana="intStart"/>
-                  <anchor ana="start" corresp="#M2_p1_c62_2"/>said he,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M2_p1_c62"/>said he,<anchor ana="end"/>
                   <milestone unit="said" ana="intEnd"/><anchor ana="start" corresp="#M2_p1_c63"/>that
                   what I laughed at was a word of which you thought little,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M2_p1_c64"/>when he said it was already done, and by
