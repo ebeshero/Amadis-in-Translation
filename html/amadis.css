@@ -4,13 +4,16 @@ html{
     font-family: "Calisto MT", "Palatino Linotype", "Book Antiqua", Palantino, serif;
 }
 
-body.left{
-            h2{margin-left:2%;
+body.left h2{
+margin-left:2%;
             text-align:left;
-            
-            .svg {margin-left:2%;
-            justify-content:flex-start;}
-}
+            color: #330000;
+    display: block;
+    font-size: 1.2em;}
+    
+body.left div.svg{margin-left:2%;
+ justify-content:flex-start}
+
 
 body{
     /*background-color: #BBD6F1;*/
