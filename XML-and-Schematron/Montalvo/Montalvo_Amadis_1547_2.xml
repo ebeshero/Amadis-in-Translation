@@ -102,9 +102,9 @@
                             <sic/>
                             <corr>.</corr>
                         </choice></cl>
-                    <cl xml:id="M2_p1_c38_1">
-                        <seg xml:id="M2_p1_c38_1_2"><milestone unit="said" resp="#Alberto" ana="start"/>Pues vengan los otros</seg>
-                        <seg xml:id="M2_p1_c38_1_3"><milestone unit="said" ana="intStart"/>dixo el clérigo<milestone
+                    <cl xml:id="M2_p1_c38.1">
+                        <seg xml:id="M2_p1_c38.1_1"><milestone unit="said" resp="#Alberto" ana="start"/>Pues vengan los otros</seg>
+                        <seg xml:id="M2_p1_c38.1_2"><milestone unit="said" ana="intStart"/>dixo el clérigo<milestone
                             unit="said" ana="intEnd"/>:</seg></cl>
                     <cl xml:id="M2_p1_c39">y delante de ellos lo diré<milestone unit="said"
                             ana="end"/>:</cl>
@@ -130,7 +130,7 @@
                         quedava/</cl>
                     <cl xml:id="M2_p1_c49">y me lo haría perder sin su grado.<milestone unit="said"
                             ana="end"/></cl>
-                    <cl xml:id="M2_p1_c49_1">
+                    <cl xml:id="M2_p1_c49.1">
                         <milestone unit="said" resp="#Alberto" ana="start"/>Esso <milestone
                             unit="said" ana="intStart"/>dixo el maestro<milestone unit="said"
                             ana="intEnd"/> parece que otro entrará en tu tierra a te tomar lo
