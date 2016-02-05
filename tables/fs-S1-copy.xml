@@ -30,8 +30,8 @@
                <f name="montalvo" n="13">
                   <string>No muchos años después de la passión de nuestro redentor y salvador Jesuchristo:</string>
                </f>
-               <f name="type" select="Idiomatic">
-                  <string>The meaning is exactly the same, but the idiom for Jesus is adapted (it could be “semantic” too)</string>
+               <f name="type" select="Approximate">
+                  <string>Cultural</string>
                </f>
             </fs>
             <fs corresp="#M0_p1_c2">
@@ -42,7 +42,7 @@
                <f name="montalvo" n="12">
                   <string>fue un rey christiano en la pequeña Bretaña por nombre llamado Garinter:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string>Exact match</string>
                </f>
             </fs>
@@ -54,7 +54,7 @@
                <f name="montalvo" n="16">
                   <string>el cual siendo en la ley de la verdad de mucha devoción y buenas maneras acompañado.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -66,7 +66,7 @@
                <f name="montalvo" n="11">
                   <string>Este rey ovo dos hijas en una noble dueña su muger:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string>Exact match.</string>
                </f>
             </fs>
@@ -78,7 +78,7 @@
                <f name="montalvo" n="17">
                   <string>y la mayor casada con Languines rey de Escocia y fue llamada la dueña de la Guirnalda:</string>
                </f>
-               <f name="type" select="Semantic">
+               <f name="type" select="Literal">
                   <string>La traducción semántica se distingue de la traducción fiel únicamente en que debe tener más en cuenta el valor estético del texto de la lengua
                      de origen, lo que quiere decir tener que contemporizar, donde convenga, con el “significado” de tal forma que ni la asonancia, ni el juego de 
                      palabras, ni la repetición produzcan un efecto desagradable en la versión final.</string>
@@ -91,7 +91,7 @@
                <f name="montalvo" n="5">
                   <string>porque el Rey su marido</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string>Exact match.</string>
                </f>
             </fs>
@@ -104,7 +104,7 @@
                   <string>tanto era pagado de los ver.</string>
                </f>
                <f name="type" select="Semantic">
-                  <string>Maybe “Faithful with transposition“?</string>
+                  <string>Maybe “Literal with transposition“?</string>
                </f>
             </fs>
             <fs corresp="#M0_p1_c6_2">
@@ -116,7 +116,7 @@
                   <string>nunca la consintió cubrir sus hermosos cabellos sino de una muy rica guirnalda/</string>
                </f>
                <f name="type" select="Semantic">
-                  <string>Maybe “Faithful with transposition“?</string>
+                  <string>Maybe “Literal with transposition“?</string>
                </f>
             </fs>
             <fs corresp="#M0_p1_c8">
@@ -162,7 +162,7 @@
                <f name="montalvo" n="11">
                   <string>E comoquiera que de muy grandes príncipes en casamiento demandada fuesse:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string>Exact match.</string>
                </f>
             </fs>
@@ -201,7 +201,7 @@
                <f name="montalvo" n="4">
                   <string>dotada de tanta hermosura:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -403,7 +403,7 @@
                <f name="montalvo" n="6">
                   <string>y como solo lo viesse díxole.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -415,7 +415,7 @@
                <f name="montalvo" n="14">
                   <string>Buen hombre qué tierra es esta que assí son los cavalleros andantes salteados?</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -426,7 +426,7 @@
                <f name="montalvo" n="4">
                   <string>El rey le dixo.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -437,7 +437,7 @@
                <f name="montalvo" n="6">
                   <string>No os maravilléis de esso cavallero</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -495,7 +495,7 @@
                <f name="montalvo" n="11">
                   <string>y también por esta montaña tan espessa donde se acogían.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -506,7 +506,7 @@
                <f name="montalvo" n="6">
                   <string>Pues a esse rey que dezís</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -529,7 +529,7 @@
                <f name="montalvo" n="7">
                   <string>vengo yo a buscar de luenga tierra:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -541,7 +541,7 @@
                <f name="montalvo" n="9">
                   <string>y le traigo nuevas de un su gran amigo:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -553,7 +553,7 @@
                <f name="montalvo" n="12">
                   <string>y si sabéis dónde hallarlo pueda ruégoos que me lo digáis.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -564,7 +564,7 @@
                <f name="montalvo" n="4">
                   <string>El rey le dixo:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -576,7 +576,7 @@
                <f name="montalvo" n="11">
                   <string>Comoquier que acontezca no dexaré de os dezir la verdad:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -672,7 +672,7 @@
                <f name="montalvo" n="8">
                   <string>y aviéndole abierto con sus muy fuertes uñas/</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -730,7 +730,7 @@
                <f name="montalvo" n="7">
                   <string>y tomando sus armas descendió del cavallo/</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -754,7 +754,7 @@
                <f name="montalvo" n="9">
                   <string>la espada en la mano al León se fue/</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -775,7 +775,7 @@
                <f name="montalvo" n="10">
                   <string>El león assimismo dexando la presa contra él se vino:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -848,7 +848,7 @@
                <f name="montalvo" n="12">
                   <string>No sin causa tiene aquel fama del mejor cavallero del mundo.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -883,7 +883,7 @@
                <f name="montalvo" n="8">
                   <string>Donde siendo de tal huésped la reina avisada:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -894,7 +894,7 @@
                <f name="montalvo" n="1">
                   <string>hallaron:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -928,7 +928,7 @@
                <f name="montalvo" n="9">
                   <string>en la una más alta se sentaron los reyes:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -952,7 +952,7 @@
                <f name="montalvo" n="13">
                   <string>y allí fueron servidos como en casa de tan buen hombre ser devía.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -964,7 +964,7 @@
                <f name="montalvo" n="11">
                   <string>Pues estando en aquel solaz como aquella infanta tan hermosa fuesse:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -975,7 +975,7 @@
                <f name="montalvo" n="7">
                   <string>y el rey Perión por el semejante:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -996,7 +996,7 @@
                <f name="montalvo" n="19">
                   <string>en tal punto y hora se miraron que las gran honestidad y sancta vida de ella no pudo tanto/</string>
                </f>
-               <f name="type" select="Faithful?">
+               <f name="type" select="Literal?">
                   <string>Honesty vs modesty?</string>
                </f>
             </fs>
@@ -1019,7 +1019,7 @@
                <f name="montalvo" n="6">
                   <string>y el rey assimesmo de ella:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1055,7 +1055,7 @@
                <f name="montalvo" n="12">
                   <string>Pues alçadas las mesas la reina se quiso acoger a su cámara:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1090,7 +1090,7 @@
                <f name="montalvo" n="4">
                   <string>y baxóse por tomarlo:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1131,7 +1131,7 @@
                <f name="montalvo" n="8">
                   <string>y el rey tomóle la mano y apretósela.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1165,7 +1165,7 @@
                <f name="montalvo" n="5">
                   <string>Ay señora dixo él:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1176,7 +1176,7 @@
                <f name="montalvo" n="4">
                   <string>no será el postrimero:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1188,7 +1188,7 @@
                <f name="montalvo" n="13">
                   <string>mas todo el tiempo de mi vida será empleado en vos servir.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1200,7 +1200,7 @@
                <f name="montalvo" n="10">
                   <string>Ella se fue tras su madre con tan gran alteración/</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1342,7 +1342,7 @@
                <f name="montalvo" n="16">
                   <string>y halló su escudero a la puerta con los paños que le quería dar de vestir</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1353,7 +1353,7 @@
                <f name="montalvo" n="1">
                   <string>Amigo</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1364,7 +1364,7 @@
                <f name="montalvo" n="2">
                   <string>y díxole.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1375,7 +1375,7 @@
                <f name="montalvo" n="5">
                   <string>id vos a hacer ál:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1409,7 +1409,7 @@
                <f name="montalvo" n="4">
                   <string>y partióse de allí.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1527,7 +1527,7 @@
                <f name="montalvo" n="13">
                   <string>En que viniendo yo a esta tierra dixo el rey con entera libertad:</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1551,7 +1551,7 @@
                <f name="montalvo" n="12">
                   <string>y si vos buena donzella alguna melezina para ella me procurassedes/</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1562,7 +1562,7 @@
                <f name="montalvo" n="7">
                   <string>de mí seríades muy bien galardonada.</string>
                </f>
-               <f name="type" select="Faithful">
+               <f name="type" select="Literal">
                   <string></string>
                </f>
             </fs>
@@ -1585,8 +1585,8 @@
                <f name="montalvo" n="15">
                   <string>Si me vos prometéis dixo el rey como leal donzella de lo no descubrir:</string>
                </f>
-               <f name="type" select="Reported speech">
-                  <string></string>
+               <f name="type" select="Approximate">
+                  <string>Reported speech</string>
                </f>
             </fs>
             <fs corresp="#M0_p1_c127">
@@ -1597,8 +1597,8 @@
                <f name="montalvo" n="5">
                   <string>sino allí donde es razón/</string>
                </f>
-               <f name="type" select="Reported speech">
-                  <string></string>
+               <f name="type" select="Approximate">
+                  <string>Reported speech</string>
                </f>
             </fs>
             <fs corresp="M0_p1_c128 #M0_p1_c129 #M0_p1_c130 #M0_p1_c131 #M0_p1_c132">
@@ -1624,8 +1624,8 @@
                <f name="montalvo" n="13">
                   <string>que atormentado de cuitas y congoxas soy hasta en punto de la muerte:</string>
                </f>
-               <f name="type" select="Reported speech">
-                  <string></string>
+               <f name="type" select="Approximate">
+                  <string>Reported speech</string>
                </f>
             </fs>
             <fs corresp="M0_p1_c134 #M0_p1_c135 #M0_p1_c136 #M0_p1_c137 #M0_p1_c138">
@@ -2075,8 +2075,8 @@
                <f name="montalvo" n="9">
                   <string>Ay amigo dezidme si sois hombre hidalgo.</string>
                </f>
-               <f name="type" select="Reported speech">
-                  <string></string>
+               <f name="type" select="Approximate">
+                  <string>Reported speech</string>
                </f>
             </fs>
             <fs corresp="#M0_p1_c179">
@@ -2257,8 +2257,8 @@
                <f name="montalvo" n="12">
                   <string>Tú qué tienes que hablar con el escudero del rey.</string>
                </f>
-               <f name="type" select="Reported speech">
-                  <string></string>
+               <f name="type" select="Approximate">
+                  <string>Reported speech</string>
                </f>
             </fs>
             <fs corresp="#M0_p1_c199">
