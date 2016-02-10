@@ -327,7 +327,7 @@
                   <string>apartándose de ellos la batalla mirava:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs>
                <f name="southey" n="5">
@@ -559,7 +559,7 @@
                      para se acoger a la villa:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="compressed liberal"/>
+               <f name="subtype" select="compressed aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c48">
                <f name="southey" n="8" ana="0.75">
@@ -621,7 +621,7 @@
                   <string>Pues no estaréis tan sañudo/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal syntax"/>
+               <f name="subtype" select="aesthetic syntax"/>
             </fs>
             <fs corresp="#M0_p1_c53">
                <f name="southey" n="3" ana="2">
@@ -641,7 +641,7 @@
                   <string>que parte de la caça no nos dexéis:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c55">
                <f name="southey" n="10" ana="-0.3">
@@ -662,7 +662,7 @@
                      delante/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c57">
                <f name="southey" n="7" ana="0.29">
@@ -715,7 +715,7 @@
                   <string>teniéndole el león debaxo en punto de le matar:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c61">
                <f name="southey" n="6" ana="2.33">
@@ -764,7 +764,7 @@
                      y el ciervo:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c65">
                <f name="southey" n="5" ana="0.6">
@@ -813,7 +813,7 @@
                   <string>y las mesas puestas</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c69">
                <f name="southey" n="7" ana="0.29">
@@ -832,7 +832,7 @@
                   <string>y en otra junto con ella Elisena su hija:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal">
+               <f name="subtype" select="aesthetic">
                   <string ana="annotation">Maybe mistranslation</string>
                </f>
             </fs>
@@ -937,7 +937,7 @@
                   <string>Pues alçadas las mesas la reina se quiso acoger a su cámara:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c80.1">
                <f name="southey" n="18" ana="0">
@@ -949,7 +949,7 @@
                      se lavar del dedo quitara/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c81">
                <f name="southey" n="7" ana="0.71">
@@ -959,7 +959,7 @@
                   <string>y con la gran turbación no tuvo acuerdo de lo allí tornar/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal compressed"/>
+               <f name="subtype" select="aesthetic compressed"/>
             </fs>
             <fs corresp="#M0_p1_c82">
                <f name="southey" n="4" ana="0">
@@ -994,7 +994,7 @@
                   <string>assí que las manos llegaron|a una sazón:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c85">
                <f name="southey" n="7" ana="0.14">
@@ -1014,7 +1014,7 @@
                   <string>Elisena tornó muy colorada:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c87">
                <f name="southey" n="7" ana="1.14">
@@ -1071,7 +1071,7 @@
                   <string>que casi la vista perdida llevava/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c93">
                <f name="southey" n="8" ana="1.88">
@@ -1129,7 +1129,7 @@
                      podría saber si el rey Perión otra muger alguna amasse:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="M0_p1_c98 #M0_p1_c99">
                <f name="montalvo" n="26">
@@ -1157,7 +1157,7 @@
                   <string>aviendo piedad de tan piadosas lágrimas le dixo.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="compressed liberal"/>
+               <f name="subtype" select="compressed aesthetic"/>
             </fs>
             <fs corresp="M0_p1_c102 #M0_p1_c103 #M0_p1_c104 #M0_p1_c105">
                <f name="montalvo" n="40">
@@ -1282,7 +1282,7 @@
                      remedio para sus mortales desseos allí era venida:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="omission liberal"/>
+               <f name="subtype" select="omission aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c115">
                <f name="southey" n="7" ana="-0.14">
@@ -1292,7 +1292,7 @@
                   <string>y estremeciéndosele el coraçón le dixo.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c116">
                <f name="southey" n="5" ana="0.6">
@@ -1302,7 +1302,7 @@
                   <string>Buena donzella qué es lo que quereis?</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c117">
                <f name="southey" n="10" ana="-0.4">
@@ -1413,7 +1413,7 @@
                   <string>sino allí donde es razón/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal reported"/>
+               <f name="subtype" select="aesthetic reported"/>
             </fs>
             <fs corresp="M0_p1_c128 #M0_p1_c129 #M0_p1_c130 #M0_p1_c131 #M0_p1_c132">
                <f name="montalvo" n="35">
@@ -1452,7 +1452,7 @@
                      que ninguno otro que lo no sea obligado sois:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="compressed liberal cultural"/>
+               <f name="subtype" select="compressed aesthetic cultural"/>
             </fs>
             <fs corresp="#M0_p1_c140">
                <f name="southey" n="13" ana="0.85">
@@ -1464,7 +1464,7 @@
                      peligros avrá passado de la tomar por muger cuando fuere tiempo/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal compressed"/>
+               <f name="subtype" select="aesthetic compressed"/>
             </fs>
             <fs>
                <f name="southey" n="3">
@@ -1505,7 +1505,7 @@
                   <string>y si esto no se haze/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c144">
                <f name="southey" n="5" ana="-0.2">
@@ -1515,7 +1515,7 @@
                   <string>ni vos la cobraréis/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="M0_p1_c145">
                <f name="montalvo" n="12">
@@ -1533,7 +1533,7 @@
                      Dios:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c147">
                <f name="southey" n="8" ana="0.25">
@@ -1543,7 +1543,7 @@
                   <string>para que de esto se siguiesse lo que adelante oiréis:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c148">
                <f name="southey" n="7" ana="0">
@@ -1959,7 +1959,7 @@
                      hablando:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="compressed liberal"/>
+               <f name="subtype" select="compressed aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c196">
                <f name="southey" n="8" ana="-0.12">
@@ -1969,7 +1969,7 @@
                   <string>y vio a Darioleta con el escudero:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal antecedent"/>
+               <f name="subtype" select="aesthetic antecedent"/>
             </fs>
             <fs corresp="#M0_p1_c197">
                <f name="southey" n="4" ana="0">
@@ -1998,7 +1998,7 @@
                   <string>Por Dios señor yo os lo diré:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal compressed"/>
+               <f name="subtype" select="aesthetic compressed"/>
             </fs>
             <fs>
                <f name="southey" n="2">
@@ -2051,7 +2051,7 @@
                   <string>Mi señor yo tengo muchas cosas de librar en mi hazienda/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal compressed"/>
+               <f name="subtype" select="aesthetic compressed"/>
             </fs>
             <fs corresp="#M0_p1_c204.1">
                <f name="southey" n="8" ana="0">
@@ -2073,7 +2073,7 @@
                   <string>y por no vos dar enojo/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c206">
                <f name="southey" n="8" ana="0.25">
@@ -2083,7 +2083,7 @@
                   <string>tengo por bien que quedéis solo en la cámara.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="#M0_p1_c207">
                <f name="southey" n="3" ana="0.67">
@@ -2120,7 +2120,7 @@
                      reposteros que luego sacassen su cama de la Cámara del rey Perión.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
             <fs corresp="M0_p1_c211">
                <f name="montalvo" n="16">
@@ -2159,7 +2159,7 @@
                   <string>Assí estuvieron ellas hasta que todos se fueron a dormir.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="liberal"/>
+               <f name="subtype" select="aesthetic"/>
             </fs>
          </div>
       </body>

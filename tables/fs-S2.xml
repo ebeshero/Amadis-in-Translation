@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="translation-types.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,16 +23,20 @@
       <body>
          <div type="table" xml:id="S2">
             <head>Chapter 2. </head>
+            <fs>
+               <f name="southey" n="2">
+                  <string>At night</string>
+               </f>
+               <f name="type" select="addition"/>
+            </fs>
             <fs corresp="#M1_p1_c1">
-               <f name="southey" n="6" ana="-0.17">
-                  <string>At night when all was husht,</string>
+               <f name="southey" n="4" ana="0.25">
+                  <string>when all was husht,</string>
                </f>
                <f name="montalvo" n="5">
                   <string>Como la gente fue sossegada:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c2">
                <f name="southey" n="2" ana="8">
@@ -40,17 +45,13 @@
                <f name="montalvo" n="18">
                   <string>Darioleta se levantó y tomó a Elisena assí desnuda como en su lecho estava solamente la camisa:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="7">
                   <string>and threw a mantle over her mistress,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c3">
                <f name="southey" n="6" ana="0.83">
@@ -59,9 +60,7 @@
                <f name="montalvo" n="11">
                   <string>y cubierta de un manto y salieron ambas a la huerta:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c4 #M1_p1_c5 #M1_p1_c6 #M1_p1_c7 #M1_p1_c8 #M1_p1_c9 #M1_p1_c10">
                <f name="montalvo" n="75">
@@ -74,18 +73,14 @@
                         dezir que nací en buena ventura en ser llegada a tal cavallero.
                      </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="3">
                   <string>When Elisena
                      came</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c11">
                <f name="southey" n="4" ana="1.25">
@@ -94,18 +89,14 @@
                <f name="montalvo" n="9">
                   <string>Assí llegaron a la puerta de la cámara·</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c12">
                <f name="montalvo" n="14">
                   <string>Y comoquiera que Elisena fuesse a la cosa que en el mundo
                         más amava/ </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c13">
                <f name="southey" n="12" ana="-0.08">
@@ -115,9 +106,7 @@
                <f name="montalvo" n="11">
                   <string>tremíale todo el cuerpo y la palabra que no podía hablar:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c14 #M1_p1_c15 #M1_p1_c16 #M1_p1_c17">
                <f name="montalvo" n="42">
@@ -125,9 +114,7 @@
                             Perión que assí con la gran congoxa
                         que en su coraçón tenía: como con la esperança en que la donzella le puso/ no avía podido dormir:  y aquella sazón ya cansado: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c18">
                <f name="southey" n="5" ana="0">
@@ -137,9 +124,7 @@
                <f name="montalvo" n="5">
                   <string>y del sueño vencido adormióse/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c19">
                <f name="southey" n="16" ana="0.12">
@@ -149,9 +134,7 @@
                <f name="montalvo" n="18">
                   <string>y soñava que entrava en aquella cámara por una falsa puerta y no sabía quién a él iva:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c20">
                <f name="southey" n="7" ana="0.14">
@@ -161,9 +144,7 @@
                <f name="montalvo" n="8">
                   <string>y le metía las manos por los costados/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c21">
                <f name="southey" n="10" ana="-0.1">
@@ -173,9 +154,7 @@
                <f name="montalvo" n="9">
                   <string>y sacándole el coraçón le echava en un río.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c21.1">
                <f name="southey" n="2" ana="0.5">
@@ -184,9 +163,7 @@
                <f name="montalvo" n="3">
                   <string>Y él dezía:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c22">
                <f name="southey" n="5" ana="0">
@@ -196,9 +173,8 @@
                <f name="montalvo" n="5">
                   <string>por qué hezisteis crueza?</string>
                </f>
-               <f name="type" select="report">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="approximate"/>
+               <f name="subtype" select="report"/>
             </fs>
             <fs corresp="#M1_p1_c22.1">
                <f name="southey" n="11" ana="0.18">
@@ -208,9 +184,7 @@
                <f name="montalvo" n="13">
                   <string>No es nada esto dezía él que allá os queda otro coraçón:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c23">
                <f name="southey" n="6" ana="-0.17">
@@ -219,9 +193,7 @@
                <f name="montalvo" n="5">
                   <string>que yo vos tomaré:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c24">
                <f name="southey" n="4" ana="0.75">
@@ -230,9 +202,7 @@
                <f name="montalvo" n="7">
                   <string>aunque no será por mi voluntad.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c25">
                <f name="southey" n="11" ana="0.27">
@@ -242,9 +212,7 @@
                <f name="montalvo" n="14">
                   <string>El rey que gran cuita en sí sentía despertó despavorido y començóse a santiguar.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c26">
                <f name="southey" n="10" ana="0">
@@ -254,9 +222,7 @@
                <f name="montalvo" n="10">
                   <string>A esta sazón avían ya las donzellas la puerta abierto/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c27">
                <f name="southey" n="23" ana="0.17">
@@ -267,9 +233,7 @@
                <f name="montalvo" n="27">
                   <string>y entravan por ella y como lo sintió temióse de traición por lo que soñara y levantando la cabeça vio por entre las cortinas abierta la puerta/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c28">
                <f name="southey" n="6" ana="0.17">
@@ -278,18 +242,14 @@
                <f name="montalvo" n="7">
                   <string>de lo que él nada no sabía:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c28.1">
                <f name="montalvo" n="14">
                   <string>y con la Luna que por ella entrava vio el bulto de las
                         donzellas. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c29">
                <f name="southey" n="12" ana="0.83">
@@ -299,9 +259,7 @@
                <f name="montalvo" n="22">
                   <string>Assí que saltando de la cama do yazía tomó su espada y escudo y fue contra aquella parte do visto las avía.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c31">
                <f name="southey" n="3" ana="0.67">
@@ -310,9 +268,7 @@
                <f name="montalvo" n="5">
                   <string>Qué es esso señor?</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c32">
                <f name="montalvo" n="10">
@@ -320,17 +276,13 @@
                             ternán.
                      </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>cried</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c30">
                <f name="southey" n="1" ana="6">
@@ -339,9 +291,7 @@
                <f name="montalvo" n="7">
                   <string>E Darioleta cuando assí lo vido díxole.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c33">
                <f name="southey" n="28" ana="0.32">
@@ -352,9 +302,7 @@
                <f name="montalvo" n="37">
                   <string>El rey que la conoció miró y vio a Elisena su muy amada y echando la espada y su escudo en tierra cubrióse de un manto que ante la Cama tenía con que algunas vezes se levantava/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c34">
                <f name="southey" n="3" ana="2.33">
@@ -363,9 +311,7 @@
                <f name="montalvo" n="10">
                   <string>y fue a tomar a su señora entre los braços:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c35">
                <f name="southey" n="5" ana="1.4">
@@ -374,9 +320,7 @@
                <f name="montalvo" n="12">
                   <string>y ella le abraçó como aquel que más que a sí amava.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c36 #M1_p1_c37 #M1_p1_c38 #M1_p1_c39">
                <f name="montalvo" n="37">
@@ -387,9 +331,7 @@
                             otro.
                      </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c40">
                <f name="southey" n="13" ana="0.92">
@@ -399,9 +341,7 @@
                <f name="montalvo" n="25">
                   <string>E Darioleta miró por la espada do el rey la avía arrojado y tomóla en señal de la jura y promessa que le avía hecho/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c41">
                <f name="southey" n="5" ana="1.6">
@@ -410,17 +350,13 @@
                <f name="montalvo" n="13">
                   <string>en razón del casamiento de su señora y salióse a la huerta.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>and Perion</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c42">
                <f name="southey" n="3" ana="1.33">
@@ -429,17 +365,13 @@
                <f name="montalvo" n="7">
                   <string>El rey quedó solo con su amiga/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>Elisena,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c43">
                <f name="southey" n="23" ana="0.61">
@@ -452,9 +384,7 @@
                               <string>Here, says the Spanish author, we should
                         learn,</string>
                            </f>
-                           <f name="type" select="add">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="addition"/>
                         </fs>
                         <fs corresp="#M1_p1_c52">
                            <f name="southey" n="10" ana="0.2">
@@ -464,9 +394,7 @@
                            <f name="montalvo" n="12">
                               <string>que assí como las mugeres apartando sus pensamientos de las mundales cosas:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c53">
                            <f name="southey" n="10" ana="0">
@@ -476,9 +404,7 @@
                            <f name="montalvo" n="10">
                               <string>despreciando la gran hermosura de que la natura las dotó:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c54">
                            <f name="southey" n="8" ana="0.12">
@@ -488,17 +414,13 @@
                            <f name="montalvo" n="9">
                               <string>la fresca juventud que en mucho grado la acrecienta:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs>
                            <f name="southey" n="1">
                               <string>and</string>
                            </f>
-                           <f name="type" select="add">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="addition"/>
                         </fs>
                         <fs corresp="#M1_p1_c55">
                            <f name="southey" n="16" ana="-0.12">
@@ -508,9 +430,7 @@
                            <f name="montalvo" n="14">
                               <string>los vicios y deleites que con las sobradas riquezas de sus padres esperavan gozar:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c56">
                            <f name="southey" n="26" ana="-0.27">
@@ -521,9 +441,7 @@
                            <f name="montalvo" n="19">
                               <string>quieren por salvación de sus ánimas ponerse en las casas pobres encerradas ofreciendo con toda obediencia sus libres voluntades/</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c57">
                            <f name="southey" n="19" ana="-0.05">
@@ -533,17 +451,13 @@
                            <f name="montalvo" n="18">
                               <string>a que subjetas de las agenas sean viendo passar su tiempo sin ninguna fama ni gloria del mundo/</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs>
                            <f name="southey" n="1">
                               <string>though</string>
                            </f>
-                           <f name="type" select="add">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="addition"/>
                         </fs>
                         <fs corresp="#M1_p1_c58">
                            <f name="southey" n="7" ana="0.29">
@@ -553,9 +467,7 @@
                            <f name="montalvo" n="9">
                               <string>como saben que sus hermanas y parientas lo gozan:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c59">
                            <f name="southey" n="9" ana="-0.11">
@@ -565,17 +477,13 @@
                            <f name="montalvo" n="8">
                               <string>assí deven con mucho cuidado atapar las orejas/</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs>
                            <f name="southey" n="1">
                               <string>and</string>
                            </f>
-                           <f name="type" select="add">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="addition"/>
                         </fs>
                         <fs corresp="#M1_p1_c60">
                            <f name="southey" n="3" ana="0">
@@ -584,9 +492,7 @@
                            <f name="montalvo" n="3">
                               <string>cerrar los ojos/</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c61">
                            <f name="southey" n="7" ana="-0.14">
@@ -596,9 +502,7 @@
                            <f name="montalvo" n="6">
                               <string>escusándose de ver parientes y vezinos/</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c62">
                            <f name="southey" n="9" ana="0">
@@ -608,9 +512,7 @@
                            <f name="montalvo" n="9">
                               <string>recogéndose en las devotas contemplaciones en las oraciones sanctas:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c63">
                            <f name="southey" n="9" ana="0">
@@ -620,9 +522,7 @@
                            <f name="montalvo" n="9">
                               <string>tomándolo por verdaderos deleites assí como lo son:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c64">
                            <f name="southey" n="2" ana="1">
@@ -631,9 +531,7 @@
                            <f name="montalvo" n="4">
                               <string>porque con las hablas/</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs corresp="#M1_p1_c65_1">
                            <f name="southey" n="1" ana="2">
@@ -642,17 +540,13 @@
                            <f name="montalvo" n="3">
                               <string>con las vistas</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs>
                            <f name="southey" n="2">
                               <string>and hearing,</string>
                            </f>
-                           <f name="type" select="add">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="addition"/>
                         </fs>
                         <fs corresp="#M1_p1_c65_2">
                            <f name="southey" n="5" ana="-0.2">
@@ -662,17 +556,13 @@
                            <f name="montalvo" n="4">
                               <string>su sancto propósito dañan:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                         <fs>
                            <f name="southey" n="2">
                               <string>and it</string>
                            </f>
-                           <f name="type" select="add">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="addition"/>
                         </fs>
                         <fs corresp="#M1_p1_c66">
                            <f name="southey" n="11" ana="0.18">
@@ -682,9 +572,7 @@
                            <f name="montalvo" n="13">
                               <string>do no sea assí como lo fue el de esta hermosa infanta Elisena:</string>
                            </f>
-                           <f name="type" select="indefinite">
-                              <string>Comments</string>
-                           </f>
+                           <f name="type" select="indefinite"/>
                         </fs>
                      </f>
                   </fs>
@@ -693,9 +581,7 @@
                <f name="montalvo" n="37">
                   <string>que a la lumbre de tres hachas que en la cámara Ardían la mirava paresciéndole que toda la hermosura del mundo en ella era junta teniéndose por muy bienaventurado en que Dios a tal estado lo truxera:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c44 #M1_p1_c45 #M1_p1_c46 #M1_p1_c47 #M1_p1_c48 #M1_p1_c49 #M1_p1_c50 #M1_p1_c51">
                <f name="montalvo" n="80">
@@ -706,17 +592,13 @@
                         desviado estava: el cual amor rompiendo aquellas fuertes ataduras de su
                         honesta y sancta vida se la hizo perder/ quedando de allí adelante dueña. Por donde se da a entender/ </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="8">
                   <string>When it was time that they should part,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c83_1">
                <f name="southey" n="5" ana="1.6">
@@ -726,9 +608,7 @@
                <f name="montalvo" n="13">
                   <string>Darioleta que vio ser sazón de ir de allí entró en la cámara</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c84_1">
                <f name="southey" n="3" ana="-0.33">
@@ -737,9 +617,7 @@
                <f name="montalvo" n="2">
                   <string>Señora sé</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c83_2">
                <f name="southey" n="3" ana="-0.33">
@@ -748,9 +626,7 @@
                <f name="montalvo" n="2">
                   <string>y dixo.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c84_2">
                <f name="southey" n="19" ana="0.11">
@@ -760,17 +636,13 @@
                <f name="montalvo" n="21">
                   <string>que otra vez os plugo comigo más que no ahora mas conviene que vos levantéis y vayamos que ya tiempo es.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>calleth us.</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c85">
                <f name="southey" n="2" ana="0.5">
@@ -779,9 +651,7 @@
                <f name="montalvo" n="3">
                   <string>Elisena se levantó:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c89_1">
                <f name="southey" n="3" ana="-0.33">
@@ -790,9 +660,7 @@
                <f name="montalvo" n="2">
                   <string>y ruégovos</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c86">
                <f name="southey" n="2" ana="1.5">
@@ -801,9 +669,7 @@
                <f name="montalvo" n="5">
                   <string>y el rey le dixo:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c87 #M1_p1_c88">
                <f name="montalvo" n="14">
@@ -811,9 +677,7 @@
                         Yo me deterné aquí más
                         que no pensáis/ y esto será por vos: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c89_2">
                <f name="southey" n="5" ana="0.4">
@@ -822,9 +686,7 @@
                <f name="montalvo" n="7">
                   <string>que no se os olvide este lugar.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c90">
                <f name="southey" n="6" ana="0">
@@ -833,9 +695,7 @@
                <f name="montalvo" n="6">
                   <string>Ellas se fueron a sus camas:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c91">
                <f name="southey" n="5" ana="1.2">
@@ -844,17 +704,13 @@
                <f name="montalvo" n="11">
                   <string>y él quedó en su cama muy pagado de su amiga:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>and recollecting</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c92">
                <f name="southey" n="6" ana="0.17">
@@ -864,17 +720,13 @@
                <f name="montalvo" n="7">
                   <string>pero espantado del sueño que ya oísteis:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="8">
                   <string>a wish to know its signification made him</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c93">
                <f name="southey" n="12" ana="0.58">
@@ -884,9 +736,7 @@
                <f name="montalvo" n="19">
                   <string>y por él avía más cuita de se ir a su tierra donde avía a la sazón muchos sabios/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c94">
                <f name="southey" n="7" ana="0">
@@ -896,17 +746,13 @@
                <f name="montalvo" n="7">
                   <string>que semejantes cosas sabían soltar y declarar/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c95 #M1_p1_c96">
                <f name="montalvo" n="11">
                   <string>y aún él mismo sabía algo: que cuando más moço aprendiera. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c97_1">
                <f name="southey" n="5" ana="1.4">
@@ -915,17 +761,13 @@
                <f name="montalvo" n="12">
                   <string>En este vicio y placer estuvo allí el rey Perión diez días</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>at Alima,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c97_2">
                <f name="southey" n="8" ana="0.25">
@@ -935,17 +777,13 @@
                <f name="montalvo" n="10">
                   <string>holgando todas las noches con aquella su muy amada amiga/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="7">
                   <string>Then it was necessary that he should</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c99_2">
                <f name="southey" n="1" ana="2">
@@ -954,9 +792,7 @@
                <f name="montalvo" n="3">
                   <string>de se partir.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c98">
                <f name="southey" n="5" ana="0.8">
@@ -965,9 +801,7 @@
                <f name="montalvo" n="9">
                   <string>en cabo de los cuales acordó forçando su voluntad:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c99_1">
                <f name="southey" n="5" ana="1">
@@ -976,9 +810,7 @@
                <f name="montalvo" n="10">
                   <string>y las lágrimas de su señora que no fueron pocas</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c100">
                <f name="southey" n="12" ana="0.08">
@@ -988,9 +820,7 @@
                <f name="montalvo" n="13">
                   <string>Assí despedido del rey Garinter y de la reina armado de todas armas/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c101">
                <f name="southey" n="13" ana="-0.38">
@@ -1000,9 +830,7 @@
                <f name="montalvo" n="8">
                   <string>cuando quiso su espada ceñir no la halló:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c103">
                <f name="southey" n="5" ana="0">
@@ -1011,9 +839,7 @@
                <f name="montalvo" n="5">
                   <string>comoquiera que mucho le dolía/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c104_1">
                <f name="southey" n="4" ana="-0.5">
@@ -1022,17 +848,13 @@
                <f name="montalvo" n="2">
                   <string>porque era</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>tried</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c104_2">
                <f name="southey" n="2" ana="1">
@@ -1041,26 +863,20 @@
                <f name="montalvo" n="4">
                   <string>muy buena y hermosa:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c105 #M1_p1_c106">
                <f name="montalvo" n="19">
                   <string> esto hazía porque sus amores con Elisena descubiertos
                         no fuessen/ y por no dar enojo al rey Garinter/ </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>weapon,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c102">
                <f name="southey" n="6" ana="0">
@@ -1069,9 +885,7 @@
                <f name="montalvo" n="6">
                   <string>y no osó preguntar por ella:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c107">
                <f name="southey" n="7" ana="3.43">
@@ -1080,9 +894,7 @@
                <f name="montalvo" n="31">
                   <string>y mandó a su escudero que otra espada le buscasse y assí armado solamente las manos y la cabeça encima de su cavallo no con otra compañía sino de su escudero/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c108">
                <f name="southey" n="7" ana="0.29">
@@ -1092,9 +904,7 @@
                <f name="montalvo" n="9">
                   <string>se puso en el camino derecho de su reino.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c109">
                <f name="southey" n="6" ana="0">
@@ -1104,9 +914,7 @@
                <f name="montalvo" n="6">
                   <string>Pero antes habló con él Darioleta/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c110_1">
                <f name="southey" n="15" ana="-0.2">
@@ -1116,9 +924,7 @@
                <f name="montalvo" n="12">
                   <string>diziéndole la gran cuita y soledad en que a su amiga dexava</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c111_1">
                <f name="southey" n="7" ana="0">
@@ -1128,9 +934,7 @@
                <f name="montalvo" n="7">
                   <string>Ay mi amiga yo vos la encomiendo</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c110_2">
                <f name="southey" n="2" ana="1">
@@ -1139,9 +943,7 @@
                <f name="montalvo" n="4">
                   <string>y él le dixo.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c111_2">
                <f name="southey" n="5" ana="0">
@@ -1150,9 +952,7 @@
                <f name="montalvo" n="5">
                   <string>como a mi propio coraçón.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c112">
                <f name="southey" n="12" ana="0.17">
@@ -1161,9 +961,7 @@
                <f name="montalvo" n="14">
                   <string>E sacando de su dedo un muy hermoso anillo de dos que él traía:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c113">
                <f name="southey" n="4" ana="0.5">
@@ -1172,9 +970,7 @@
                <f name="montalvo" n="6">
                   <string>tal el uno como el otro/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c114">
                <f name="southey" n="8" ana="0.38">
@@ -1184,9 +980,7 @@
                <f name="montalvo" n="11">
                   <string>se lo dio que le levasse y traxesse por su amor.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c115">
                <f name="southey" n="11" ana="0.27">
@@ -1196,9 +990,7 @@
                <f name="montalvo" n="14">
                   <string>Assí que Elisena quedó con mucha soledad y con grande dolor de su amigo:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c116">
                <f name="southey" n="7" ana="1.57">
@@ -1208,18 +1000,14 @@
                <f name="montalvo" n="18">
                   <string>tanto que si no fuera por aquella donzella que la esforçava mucho a gran pena se pudiera sufrir:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c117">
                <f name="montalvo" n="9">
                   <string>mas aviendo sus fablas con ella algún descanso
                         sentía. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c118">
                <f name="southey" n="18" ana="-0.22">
@@ -1229,9 +1017,7 @@
                <f name="montalvo" n="14">
                   <string>Pues assí fueron passando su tiempo hasta que preñada se sintió perdiendo el comer:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c119">
                <f name="southey" n="5" ana="-0.4">
@@ -1240,9 +1026,7 @@
                <f name="montalvo" n="3">
                   <string>y el dormir/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c120">
                <f name="southey" n="7" ana="-0.14">
@@ -1252,9 +1036,7 @@
                <f name="montalvo" n="6">
                   <string>y la su muy hermosa color.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c121">
                <f name="southey" n="7" ana="0.57">
@@ -1264,9 +1046,7 @@
                <f name="montalvo" n="11">
                   <string>Allí fueron las cuitas y los dolores en mayor grado/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c122">
                <f name="southey" n="4" ana="0">
@@ -1275,9 +1055,7 @@
                <f name="montalvo" n="4">
                   <string>y no sin causa/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c123">
                <f name="southey" n="17" ana="0.12">
@@ -1287,25 +1065,19 @@
                <f name="montalvo" n="19">
                   <string>porque en aquella sazón era por ley establecido que cualquiera muger por de estado grande y señorío que fuesse/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c124">
                <f name="montalvo" n="5">
                   <string>si en adulterio se hallava: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="4">
                   <string>offending in such sort,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c125">
                <f name="southey" n="6" ana="0.5">
@@ -1315,9 +1087,7 @@
                <f name="montalvo" n="9">
                   <string>no se podía en ninguna guisa escusar la muerte.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c126">
                <f name="southey" n="16" ana="0">
@@ -1328,9 +1098,7 @@
                <f name="montalvo" n="16">
                   <string>Y esta tan cruel costumbre y péssima duró hasta la venida del muy virtuoso rey Artur:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c127">
                <f name="southey" n="9" ana="0.11">
@@ -1340,9 +1108,7 @@
                <f name="montalvo" n="10">
                   <string>que fue el mejor rey de los que allí reinaron:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c128">
                <f name="southey" n="18" ana="-0.11">
@@ -1353,18 +1119,14 @@
                <f name="montalvo" n="16">
                   <string>y la revocó al tiempo que mató en batalla ante las puertas de París al Floyón.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c129">
                <f name="montalvo" n="14">
                   <string>Pero muchos reyes reinaron entre él y el rey
                             Lisuarte que esta ley sostuvieron. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c130">
                <f name="southey" n="18" ana="0.39">
@@ -1374,9 +1136,7 @@
                <f name="montalvo" n="25">
                   <string>Y como quiera que por aquellas palabras que el rey Perión en su espada prometiera como se os ha dicho ante Dios sin culpa fuesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c131">
                <f name="southey" n="7" ana="0">
@@ -1386,9 +1146,7 @@
                <f name="montalvo" n="7">
                   <string>no lo era emperó ante el mundo/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c132">
                <f name="southey" n="6" ana="-0.33">
@@ -1397,9 +1155,7 @@
                <f name="montalvo" n="4">
                   <string>aviendo sido tan ocultas:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c133">
                <f name="southey" n="12" ana="0.08">
@@ -1409,9 +1165,7 @@
                <f name="montalvo" n="13">
                   <string>pues pensar de lo hazer saber a su amigo no podía ser:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c134">
                <f name="southey" n="23" ana="-0.74">
@@ -1422,18 +1176,14 @@
                <f name="montalvo" n="6">
                   <string>que como él tan mancebo fuesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c134.1">
                <f name="montalvo" n="18">
                   <string>y tan orgulloso de coraçón que nunca tomava folgança
                         en ninguna parte sino por ganar honra y fama: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c135">
                <f name="southey" n="2" ana="3">
@@ -1442,9 +1192,7 @@
                <f name="montalvo" n="8">
                   <string>que nunca su tiempo en otra cosa passava:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c136">
                <f name="southey" n="9" ana="0.11">
@@ -1454,9 +1202,7 @@
                <f name="montalvo" n="10">
                   <string>sino andar de unas partes a otaas como cavallero andante.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c137">
                <f name="southey" n="8" ana="0.38">
@@ -1466,9 +1212,7 @@
                <f name="montalvo" n="11">
                   <string>Assí que por ninguna guisa ella remedio para su vida hallava:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c138">
                <f name="southey" n="19" ana="0.26">
@@ -1478,9 +1222,7 @@
                <f name="montalvo" n="24">
                   <string>no le pesando tanto por perder la vida del mundo con la muerte como la de aquel su muy amado señor y verdadero amigo:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c139">
                <f name="southey" n="2" ana="2">
@@ -1489,9 +1231,7 @@
                <f name="montalvo" n="6">
                   <string>mas aquel muy poderoso señor Dios:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c140">
                <f name="southey" n="13" ana="-0.15">
@@ -1501,9 +1241,7 @@
                <f name="montalvo" n="11">
                   <string>por permissión del cual todo esto passava para su sancto servicio/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c141">
                <f name="southey" n="9" ana="0.89">
@@ -1513,17 +1251,13 @@
                <f name="montalvo" n="17">
                   <string>puso tal esfuerço y discreción a Darioleta que ella bastó con su ayuda de todo la reparar/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c142">
                <f name="montalvo" n="3">
                   <string>como agora oiréis. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c143">
                <f name="southey" n="15" ana="-0.2">
@@ -1533,9 +1267,7 @@
                <f name="montalvo" n="12">
                   <string>Avía en aquel palacio del rey Garinter una cámara apartada de bóveda/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c144">
                <f name="southey" n="4" ana="0.75">
@@ -1544,9 +1276,7 @@
                <f name="montalvo" n="7">
                   <string>sobre un río que por allí passava:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c145">
                <f name="southey" n="26" ana="-0.73">
@@ -1557,9 +1287,7 @@
                <f name="montalvo" n="7">
                   <string>y tenía una puerta de hierro pequeña:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c146">
                <f name="montalvo" n="20">
@@ -1567,9 +1295,7 @@
                         folgar y estava yerva
                         que en ella no albergava ninguno: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c147_1">
                <f name="southey" n="5" ana="0.2">
@@ -1579,9 +1305,7 @@
                <f name="montalvo" n="6">
                   <string>la cual por consejo de Darioleta</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c148">
                <f name="southey" n="3" ana="0.67">
@@ -1590,9 +1314,7 @@
                <f name="montalvo" n="5">
                   <string>que siempre procurava tener demandó:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c147_2">
                <f name="southey" n="10" ana="0.7">
@@ -1602,9 +1324,7 @@
                <f name="montalvo" n="17">
                   <string>Elisena a su padre y a su madre para reparo de su mala disposición y vida solitaria:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c149">
                <f name="southey" n="10" ana="0.1">
@@ -1614,9 +1334,7 @@
                <f name="montalvo" n="11">
                   <string>y para rezar sus horas sin que de ninguno estorvada fuesse/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c150">
                <f name="southey" n="2" ana="2.5">
@@ -1625,17 +1343,13 @@
                <f name="montalvo" n="7">
                   <string>salvo de Darioleta que sus dolencias sabía/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="3">
                   <string>who had always</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c151">
                <f name="southey" n="4" ana="0.5">
@@ -1644,9 +1358,7 @@
                <f name="montalvo" n="6">
                   <string>que la sirviesse y la acompañasse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c152">
                <f name="southey" n="5" ana="2.8">
@@ -1656,17 +1368,13 @@
                <f name="montalvo" n="19">
                   <string>lo cual ligeramente por ellos le fue otorgado creyendo ser su intención solamente reparar el cuerpo con más salud:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c153">
                <f name="montalvo" n="7">
                   <string>y el alma con vida más estrecha: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c154">
                <f name="southey" n="12" ana="0.17">
@@ -1676,9 +1384,7 @@
                <f name="montalvo" n="14">
                   <string>y dieron la llave de la puerta pequeña a la donzella que la guardasse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c155">
                <f name="southey" n="10" ana="0">
@@ -1688,17 +1394,13 @@
                <f name="montalvo" n="10">
                   <string>y abriesse cuando su fija por allí se quisiesse solazar.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="3">
                   <string>by the river.</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c156">
                <f name="southey" n="5" ana="2.4">
@@ -1708,27 +1410,21 @@
                <f name="montalvo" n="17">
                   <string>Pues aposentada Elisena allí donde oides con algo de más descanso por se ver en tal lugar:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c157">
                <f name="montalvo" n="14">
                   <string>que a su parecer antes allí que en otro alguno su
                         peligro reparar podía: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="11">
                   <string>to find herself in a place so convenient for her
                      purpose,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c158">
                <f name="southey" n="12" ana="0">
@@ -1738,17 +1434,13 @@
                <f name="montalvo" n="12">
                   <string>ovo consejo con su donzella qué se faría de lo que pariesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="6">
                   <string>the fruit that she travailed withal?</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c159">
                <f name="southey" n="3" ana="0.67">
@@ -1757,9 +1449,7 @@
                <f name="montalvo" n="5">
                   <string>Qué señora dixo ella?</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c160">
                <f name="southey" n="6" ana="0">
@@ -1768,9 +1458,7 @@
                <f name="montalvo" n="6">
                   <string>que padezca porque vos seáis libre.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c161">
                <f name="southey" n="5" ana="0.4">
@@ -1779,9 +1467,7 @@
                <f name="montalvo" n="7">
                   <string>Ay Santa María dixo Elisena:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c162">
                <f name="southey" n="16" ana="0.12">
@@ -1791,9 +1477,7 @@
                <f name="montalvo" n="18">
                   <string>y cómo consentiré yo matar aquello que fue engendrado por la cosa del mundo que yo más amo/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c163">
                <f name="southey" n="7" ana="0.29">
@@ -1803,9 +1487,7 @@
                <f name="montalvo" n="9">
                   <string>No curéis de esso dixo la donzella:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c164">
                <f name="southey" n="4" ana="0">
@@ -1814,9 +1496,7 @@
                <f name="montalvo" n="4">
                   <string>que si vos mataren:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c165">
                <f name="southey" n="4" ana="0">
@@ -1825,9 +1505,7 @@
                <f name="montalvo" n="4">
                   <string>no dexarán a ello.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c166 #M1_p1_c167 #M1_p1_c168">
                <f name="montalvo" n="24">
@@ -1840,17 +1518,13 @@
                             donzella:
                      </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>the infant:</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c169_1">
                <f name="southey" n="4" ana="0">
@@ -1859,9 +1533,7 @@
                <f name="montalvo" n="4">
                   <string>que gran locura sería</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c169_3">
                <f name="southey" n="6" ana="0.17">
@@ -1871,9 +1543,7 @@
                <f name="montalvo" n="7">
                   <string>condenássemos a vos y a vuestro amado:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c170">
                <f name="southey" n="6" ana="0">
@@ -1882,18 +1552,14 @@
                <f name="montalvo" n="6">
                   <string>que sin vos no podría bivir:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c171 #M1_p1_c172">
                <f name="montalvo" n="18">
                   <string>y vos biviendo y él otros fijos y fijas avréis: que el desseo de este vos hará perder.
                      </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c169_2">
                <f name="southey" n="5" ana="0.2">
@@ -1902,17 +1568,13 @@
                <f name="montalvo" n="6">
                   <string>por salvar una cosa sin provecho</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="9">
                   <string>the child, who if you die, must die also.</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c173">
                <f name="southey" n="7" ana="-0.14">
@@ -1921,17 +1583,13 @@
                <f name="montalvo" n="6">
                   <string>Como esta donzella muy sesuda fuesse/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>herself,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c174_1">
                <f name="southey" n="1" ana="0">
@@ -1940,17 +1598,13 @@
                <f name="montalvo" n="1">
                   <string>y</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>now</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c174_2">
                <f name="southey" n="6" ana="0">
@@ -1959,9 +1613,7 @@
                <f name="montalvo" n="6">
                   <string>por la merced de Dios guiada:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c175">
                <f name="southey" n="10" ana="-0.2">
@@ -1971,9 +1623,7 @@
                <f name="montalvo" n="8">
                   <string>quiso antes de la pessa tener el remedio.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c176">
                <f name="southey" n="10" ana="0.3">
@@ -1983,17 +1633,13 @@
                <f name="montalvo" n="13">
                   <string>Y fue assí de esta guisa que ella ovo cuatro tablas tan grandes/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="4">
                   <string>and with them made</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c177">
                <f name="southey" n="13" ana="-0.15">
@@ -2003,9 +1649,7 @@
                <f name="montalvo" n="11">
                   <string>que assí como arca una criatura con sus paños encerrar pudiesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c178">
                <f name="southey" n="6" ana="0">
@@ -2014,9 +1658,7 @@
                <f name="montalvo" n="6">
                   <string>y tanto larga como una espada:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c179">
                <f name="southey" n="6" ana="1.17">
@@ -2026,17 +1668,13 @@
                <f name="montalvo" n="13">
                   <string>e hizo traer ciertas cosas para un betumen con que las pudiesse juntar:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="3">
                   <string>in such sort,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c180">
                <f name="southey" n="9" ana="-0.33">
@@ -2046,9 +1684,7 @@
                <f name="montalvo" n="6">
                   <string>sin que ella ningún agua entrasse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c181">
                <f name="southey" n="7" ana="0.71">
@@ -2057,17 +1693,13 @@
                <f name="montalvo" n="12">
                   <string>y guardólo todo debaxo de su cama sin que Elisena lo sintiesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="5">
                   <string>till she had compleated it;</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c182">
                <f name="southey" n="13" ana="1.08">
@@ -2077,9 +1709,7 @@
                <f name="montalvo" n="27">
                   <string>hasta que por su mano juntó las tablas con aquel rezio betumen y la fizo tan igual y tan bien formada como si la fiziera un maestro.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c183">
                <f name="southey" n="6" ana="-0.17">
@@ -2088,9 +1718,7 @@
                <f name="montalvo" n="5">
                   <string>Entonces la mostró a Elisena:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c184">
                <f name="southey" n="2" ana="0">
@@ -2099,9 +1727,7 @@
                <f name="montalvo" n="2">
                   <string>y díxole.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c185">
                <f name="southey" n="7" ana="0.29">
@@ -2111,9 +1737,8 @@
                <f name="montalvo" n="9">
                   <string>Para qué os paresce que fue esto fecho?</string>
                </f>
-               <f name="type" select="report">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="approximate"/>
+               <f name="subtype" select="report"/>
             </fs>
             <fs corresp="#M1_p1_c185.1">
                <f name="southey" n="5" ana="0">
@@ -2122,9 +1747,7 @@
                <f name="montalvo" n="5">
                   <string>No sé dixo ella.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c186">
                <f name="southey" n="9" ana="0.11">
@@ -2134,17 +1757,13 @@
                <f name="montalvo" n="10">
                   <string>Saberlo héis dixo la donzella cuando menester será:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>Elisena</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c187">
                <f name="southey" n="1" ana="2">
@@ -2153,9 +1772,7 @@
                <f name="montalvo" n="3">
                   <string>y ella dixo.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c188">
                <f name="southey" n="14" ana="-0.21">
@@ -2165,9 +1782,7 @@
                <f name="montalvo" n="11">
                   <string>Poco daría por saber cosa que se haze ni dize/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c189">
                <f name="southey" n="11" ana="-0.09">
@@ -2177,9 +1792,7 @@
                <f name="montalvo" n="10">
                   <string>que cerca estoy de perder mi bien y alegría.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c190">
                <f name="southey" n="5" ana="0.8">
@@ -2188,9 +1801,7 @@
                <f name="montalvo" n="9">
                   <string>La donzella ovo gran duelo de assí la ver.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c191">
                <f name="southey" n="4" ana="1.75">
@@ -2199,9 +1810,7 @@
                <f name="montalvo" n="11">
                   <string>Y viniéndole las lágrimas a los ojos se le tiró delante:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c192">
                <f name="southey" n="7" ana="-0.29">
@@ -2211,9 +1820,7 @@
                <f name="montalvo" n="5">
                   <string>porque no la viesse llorar.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c193">
                <f name="southey" n="8" ana="0.62">
@@ -2223,9 +1830,7 @@
                <f name="montalvo" n="13">
                   <string>Pues no tardó mucho que a Elisena le vino el tiempo de parir:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c194">
                <f name="southey" n="7" ana="1">
@@ -2235,9 +1840,7 @@
                <f name="montalvo" n="14">
                   <string>de que los dolores sintiendo como cosa tan nueva y tan extraña para ella:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c195">
                <f name="southey" n="4" ana="0.75">
@@ -2246,9 +1849,7 @@
                <f name="montalvo" n="7">
                   <string>en grande amargura su coraçón era puesto:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c196">
                <f name="southey" n="8" ana="0.25">
@@ -2258,17 +1859,13 @@
                <f name="montalvo" n="10">
                   <string>como aquella que le convenía no poder gemir ni quexar/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c197">
                <f name="montalvo" n="7">
                   <string>que su angustia con ello se doblava: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c198">
                <f name="southey" n="12" ana="0.42">
@@ -2278,9 +1875,7 @@
                <f name="montalvo" n="17">
                   <string>mas en cabo de una pieça quiso el Señor poderoso que sin peligro suyo un hijo pariesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c199">
                <f name="southey" n="7" ana="0">
@@ -2289,9 +1884,7 @@
                <f name="montalvo" n="7">
                   <string>y tomándole la donzella en sus manos:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c200">
                <f name="southey" n="17" ana="-0.59">
@@ -2301,9 +1894,7 @@
                <f name="montalvo" n="7">
                   <string>vido que era hermoso si ventura oviesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c201">
                <f name="southey" n="9" ana="0.11">
@@ -2313,25 +1904,19 @@
                <f name="montalvo" n="10">
                   <string>mas no tardó de poner en execución lo que convenía/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c202">
                <f name="montalvo" n="5">
                   <string>según de antes lo pensara. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="3">
                   <string>had been resolved.</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c203">
                <f name="southey" n="6" ana="0">
@@ -2340,9 +1925,7 @@
                <f name="montalvo" n="6">
                   <string>y enbolvióle en muy ricos paños:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c204">
                <f name="southey" n="9" ana="0.56">
@@ -2352,9 +1935,7 @@
                <f name="montalvo" n="14">
                   <string>y púsolo cerca de su madre y traxo allí el arca que ya oísteis:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c205">
                <f name="southey" n="2" ana="0.5">
@@ -2363,9 +1944,7 @@
                <f name="montalvo" n="3">
                   <string>y díxole Elisena:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c206">
                <f name="southey" n="4" ana="0.25">
@@ -2374,9 +1953,7 @@
                <f name="montalvo" n="5">
                   <string>qué queréis hazer?</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c207">
                <f name="southey" n="3" ana="0">
@@ -2385,9 +1962,7 @@
                <f name="montalvo" n="3">
                   <string>Ponerlo aquí:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c208">
                <f name="southey" n="13" ana="0">
@@ -2396,9 +1971,7 @@
                <f name="montalvo" n="13">
                   <string>y lançar en el río dixo ella y por ventura guarescer podrá.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c209">
                <f name="southey" n="13" ana="-0.15">
@@ -2408,9 +1981,7 @@
                <f name="montalvo" n="11">
                   <string>La madre lo tenía en sus braços llorando fieramente y diziendo.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c210">
                <f name="montalvo" n="12">
@@ -2419,17 +1990,13 @@
                         grave es a mí la vuestra cuita.
                      </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>But</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c211">
                <f name="southey" n="3" ana="0.33">
@@ -2438,9 +2005,7 @@
                <f name="montalvo" n="4">
                   <string>La donzella tomó tinta:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c212">
                <f name="southey" n="2" ana="0">
@@ -2449,9 +2014,7 @@
                <f name="montalvo" n="2">
                   <string>y pargamino:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c213">
                <f name="southey" n="2" ana="2">
@@ -2460,17 +2023,13 @@
                <f name="montalvo" n="6">
                   <string>y fizo una carta que dezía.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>upon it,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_ft1_p2_c214_1">
                <f name="southey" n="3" ana="0.67">
@@ -2479,9 +2038,7 @@
                <f name="montalvo" n="5">
                   <string>Este es Amadís Sin Tiempo</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_ft1_p2_c214_2">
                <f name="southey" n="5" ana="-0.4">
@@ -2490,17 +2047,13 @@
                <f name="montalvo" n="3">
                   <string>hijo de rey:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="6">
                   <string>It was the name of her</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c216">
                <f name="southey" n="8" ana="1.38">
@@ -2510,9 +2063,7 @@
                <f name="montalvo" n="19">
                   <string>y este nombre era allí muy preciado porque assí se llamava un sancto a quien la donzella lo encomendó.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c217">
                <f name="southey" n="18" ana="0">
@@ -2522,9 +2073,7 @@
                <f name="montalvo" n="18">
                   <string>Esta carta cubrió toda de cera y puesta en una cuerda se la puso al cuello del niño.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c218_1">
                <f name="southey" n="2" ana="-0.5">
@@ -2533,9 +2082,7 @@
                <f name="montalvo" n="1">
                   <string>Elisena</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c219">
                <f name="southey" n="4" ana="1.25">
@@ -2544,9 +2091,7 @@
                <f name="montalvo" n="9">
                   <string>y metiólo en la misma cuerda de la cera:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c218_2">
                <f name="southey" n="11" ana="0.09">
@@ -2556,17 +2101,13 @@
                <f name="montalvo" n="12">
                   <string>tenía el anillo que el rey Perión le diera cuando se partió:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>Darioleta</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c220">
                <f name="southey" n="14" ana="0.14">
@@ -2576,9 +2117,7 @@
                <f name="montalvo" n="16">
                   <string>y assimismo poniendo el niño dentro en el Arca le pusieron la espada del rey Perión:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c221 #M1_p1_c221.1 #M1_p1_c222 #M1_p1_c223">
                <f name="montalvo" n="52">
@@ -2587,9 +2126,7 @@
                         preguntar: porque el rey Garinter no oviesse enojo con aquellos que
                         en la cámara entravan. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c224">
                <f name="southey" n="12" ana="0">
@@ -2599,17 +2136,13 @@
                <f name="montalvo" n="12">
                   <string>Esto assí fecho puso la tabla encima tan junta y bien calafeteada/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c225 #M1_p1_c226">
                <f name="montalvo" n="12">
                   <string>que agua ni otra cosa podía entrar: y tomándola en sus braços: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c227_1">
                <f name="southey" n="3" ana="0">
@@ -2618,17 +2151,13 @@
                <f name="montalvo" n="3">
                   <string>y abriendo la</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="1">
                   <string>iron</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c227_2">
                <f name="southey" n="12" ana="-0.25">
@@ -2638,17 +2167,13 @@
                <f name="montalvo" n="9">
                   <string>puerta la puso en el río y dexóla ir:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="4">
                   <string>commending it to God.</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c228">
                <f name="southey" n="12" ana="0.17">
@@ -2658,9 +2183,7 @@
                <f name="montalvo" n="14">
                   <string>y como el agua era grande y rezia presto la passó a la mar:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c229">
                <f name="southey" n="8" ana="0.12">
@@ -2670,9 +2193,7 @@
                <f name="montalvo" n="9">
                   <string>que más de media legua de allí no estava.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c230">
                <f name="southey" n="4" ana="1.75">
@@ -2681,9 +2202,7 @@
                <f name="montalvo" n="11">
                   <string>A esta sazón el alva parescía y acaesció una fermosa maravilla:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c232">
                <f name="southey" n="3" ana="1">
@@ -2692,9 +2211,7 @@
                <f name="montalvo" n="6">
                   <string>cuando a Él plaze suele hazer:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c231">
                <f name="southey" n="1" ana="6">
@@ -2703,9 +2220,7 @@
                <f name="montalvo" n="7">
                   <string>de aquéllas que el Señor muy alto/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c233_1">
                <f name="southey" n="11" ana="0.18">
@@ -2714,9 +2229,7 @@
                <f name="montalvo" n="13">
                   <string>que en la mar iva una barca en que un cavallero de Escocia</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c233_3">
                <f name="southey" n="5" ana="0.2">
@@ -2726,17 +2239,13 @@
                <f name="montalvo" n="6">
                   <string>que de la pequeña Bretaña llevava:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="3">
                   <string>to his country,</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c233_2">
                <f name="southey" n="3" ana="0.33">
@@ -2745,9 +2254,7 @@
                <f name="montalvo" n="4">
                   <string>iva con su muger</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c234_1">
                <f name="southey" n="10" ana="-0.2">
@@ -2757,9 +2264,7 @@
                <f name="montalvo" n="8">
                   <string>parida de un hijo que se llamava Gandalín</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c236_1">
                <f name="southey" n="3" ana="0">
@@ -2768,17 +2273,13 @@
                <f name="montalvo" n="3">
                   <string>siendo ya mañana</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>both calm</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c236_2">
                <f name="southey" n="3" ana="2.33">
@@ -2787,9 +2288,7 @@
                <f name="montalvo" n="10">
                   <string>clara vieron el arca que por el agua nadando iva/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c234_2">
                <f name="southey" n="3" ana="1">
@@ -2799,17 +2298,13 @@
                <f name="montalvo" n="6">
                   <string>y el cavallero avía nombre Gandales/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c235">
                <f name="montalvo" n="9">
                   <string>y yendo a más andar su vía contra Escocia: </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
             <fs corresp="#M1_p1_c236">
                <f name="southey" n="7" ana="0.86">
@@ -2819,9 +2314,7 @@
                <f name="montalvo" n="13">
                   <string>siendo ya mañana clara vieron el arca que por el agua nadando iva/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c237">
                <f name="southey" n="10" ana="0.1">
@@ -2831,9 +2324,7 @@
                <f name="montalvo" n="11">
                   <string>y llamando cuatro marineros les mandó que presto echassen un batel:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c238">
                <f name="southey" n="4" ana="0">
@@ -2842,9 +2333,7 @@
                <f name="montalvo" n="4">
                   <string>y aquello le traxessen:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c239">
                <f name="southey" n="4" ana="3.25">
@@ -2853,17 +2342,13 @@
                <f name="montalvo" n="17">
                   <string>lo cual prestamente se hizo comoquiera que ya el arca muy lexos de la barca passado avía.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs>
                <f name="southey" n="2">
                   <string>and Gandales</string>
                </f>
-               <f name="type" select="add">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="addition"/>
             </fs>
             <fs corresp="#M1_p1_c240">
                <f name="southey" n="10" ana="1">
@@ -2873,9 +2358,7 @@
                <f name="montalvo" n="20">
                   <string>El cavallero tomó el arca y tiró la cobertura y vio el donzel que en sus braços tomó y dixo.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c241">
                <f name="southey" n="6" ana="0.33">
@@ -2884,9 +2367,7 @@
                <f name="montalvo" n="8">
                   <string>Éste de algún buen lugar es:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c242">
                <f name="southey" n="9" ana="-0.11">
@@ -2896,9 +2377,7 @@
                <f name="montalvo" n="8">
                   <string>y esto dezía él por los ricos paños:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c243">
                <f name="southey" n="43" ana="-0.12">
@@ -2910,9 +2389,7 @@
                <f name="montalvo" n="38">
                   <string>y el anillo y la espada que muy hermosa le pareció y començó a maldezir la muger que por miedo tal criatura tan cruelmente desamparado avía y guardando aquellas cosas rogó a su muger que lo hiziesse criar:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c244">
                <f name="southey" n="13" ana="1.46">
@@ -2922,9 +2399,7 @@
                <f name="montalvo" n="32">
                   <string>la cual hizo darle la teta de aquella ama que a Gandalín su hijo criava y tomóla con gran gana de mamar de que el cavallero y la dueña mucho alegres fueron.</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c245">
                <f name="southey" n="22" ana="0">
@@ -2934,9 +2409,7 @@
                <f name="montalvo" n="22">
                   <string>Pues assí caminaron por la mar con buen tiempo endereçado hasta que aportados fueron una villa de Escocia que Antalia avía nombre:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c246">
                <f name="southey" n="19" ana="-0.21">
@@ -2946,9 +2419,7 @@
                <f name="montalvo" n="15">
                   <string>y de allí partiendo llegaron a un castillo suyo de los buenos de aquella tierra:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c247">
                <f name="southey" n="11" ana="0">
@@ -2958,9 +2429,7 @@
                <f name="montalvo" n="11">
                   <string>donde hizo criar el donzel como si su hijo propio fuesse:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c248">
                <f name="southey" n="7" ana="0.29">
@@ -2969,9 +2438,7 @@
                <f name="montalvo" n="9">
                   <string>y assí lo creían todos que lo fuesse/</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="#M1_p1_c249">
                <f name="southey" n="14" ana="-0.29">
@@ -2981,18 +2448,14 @@
                <f name="montalvo" n="10">
                   <string>que de los marineros no se pudo saber su hazienda:</string>
                </f>
-               <f name="type" select="indefinite">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="indefinite"/>
             </fs>
             <fs corresp="M1_p1_c249.1">
                <f name="montalvo" n="11">
                   <string>porque en la barca que era suya a otras partes
                         navegaron. </string>
                </f>
-               <f name="type" select="omission">
-                  <string>Comments</string>
-               </f>
+               <f name="type" select="omission"/>
             </fs>
          </div>
       </body>

@@ -119,7 +119,7 @@
                             <xsl:value-of select="functx:capitalize-first(f[@name eq 'subtype']/@select)"/>
                         </xsl:if>
                         <xsl:if test="f[@name eq 'subtype']/@select eq 'addition'">
-                            <xsl:text>Liberal with added contents</xsl:text>
+                            <xsl:text>Aesthetic with added contents</xsl:text>
                         </xsl:if>
                         <xsl:if test="f[@name eq 'subtype']/@select eq 'omission'">
                             <xsl:text>Compressed by omission</xsl:text>
@@ -127,10 +127,13 @@
                         <xsl:if test="f[@name eq 'subtype']/@select eq 'syntax'">
                             <xsl:text>Altered syntax</xsl:text>
                         </xsl:if>
+                        <xsl:if test="f[@name eq 'subtype']/@select eq 'antecedent'">
+                            <xsl:text>Clarified antecedent</xsl:text>
+                        </xsl:if>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="functx:capitalize-first(replace(replace(string-join(tokenize(f[@name eq 'subtype']/@select, '\s'), ', '), 'omission', 'compressed by omission'),
-                            'syntax', 'altered syntax'))"/>
+                        <xsl:value-of select="functx:capitalize-first(replace(replace(replace(string-join(tokenize(f[@name eq 'subtype']/@select, '\s'), ', '), 'omission', 'compressed by omission'),
+                            'syntax', 'altered syntax'), 'antecedent', 'clarified antecedent'))"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </td>

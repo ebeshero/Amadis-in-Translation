@@ -13,11 +13,11 @@
     </pattern>
     <pattern>
         <rule context="tei:f[@name eq 'subtype']">
-            <let name="values" value="('compressed', 'cultural', 'omission', 'syntax', 'reported', 'liberal', 'addition', 'antecedent')"/>
+            <let name="values" value="('compressed', 'cultural', 'omission', 'syntax', 'reported', 'aesthetic', 'addition', 'direct', 'antecedent')"/>
             <let name="subtypes" value="for $i in tokenize(current()/@select, '\s+') return $i"/>
             <assert test="if (preceding-sibling::tei:f[@select eq 'literal']) then current()/@select eq 'close' else true()">The only valid subtype of a literal translation is 'close'.</assert>
             <assert test="if (preceding-sibling::tei:f[@select eq 'approximate']) then every $subtype 
-                in $subtypes satisfies $subtype = $values else true()">Valid values for a subtype of an approximate translation are: 'compressed', 'omission' 'cultural', 'syntax', 'reported', 'antecedent', 'addition', and 'liberal'.
+                in $subtypes satisfies $subtype = $values else true()">Valid values for a subtype of an approximate translation are: 'compressed', 'omission' 'cultural', 'syntax', 'reported', 'antecedent', 'addition', and 'aesthetic'.
             </assert>
         </rule>
     </pattern>

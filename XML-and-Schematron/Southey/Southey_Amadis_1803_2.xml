@@ -32,7 +32,8 @@
             <head>Chapter 2. <locus from="9" to="16"/></head>
             <p>
                <s>
-                  <anchor ana="start" corresp="#M1_p1_c1"/>At night when all was husht,<anchor
+                  <anchor ana="start" type="add"/>At night<anchor
+                     ana="end"/> <anchor ana="start" corresp="#M1_p1_c1"/>when all was husht,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c2"/><persName ref="#Darioleta"
                      >Darioleta</persName> rose,<anchor ana="end"/>
