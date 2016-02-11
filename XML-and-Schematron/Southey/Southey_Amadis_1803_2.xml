@@ -144,8 +144,8 @@
                      <anchor ana="start" type="add"/>and hearing,<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c65_2"/>their religious purposes be
                         overcome,<anchor ana="end"/>
-                     <anchor ana="start" type="add"/>and it<anchor ana="end"/>
-                     <anchor ana="start" corresp="#M1_p1_c66"/>should be with them as it was with
+                     <anchor ana="start" corresp="#M1_p1_c66"/>and it
+                     should be with them as it was with
                      the Princess Elisena.<anchor ana="end"/>
                   </note> centered.<anchor ana="end"/></s>
             </p>
@@ -278,7 +278,7 @@
                   <anchor ana="start" corresp="#M1_p1_c122"/>and not without cause,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c123"/>for in that time was there a law, that
                   any woman, of what quality or estate soever,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>offending in such sort,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c124"/>offending in such sort,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c125"/>could not excuse herself from
                      death.<anchor ana="end"/>
                </s>
@@ -493,7 +493,7 @@
                      fortune,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c201"/>but she delayed not to execute what of
                      necessity<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>had been resolved.<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c202"/>had been resolved.<anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" corresp="#M1_p1_c203"/>She wrapt him in rich garments,<anchor
@@ -524,21 +524,20 @@
                   <anchor ana="start" type="add"/>But<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c211"/>Darioleta took ink<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c212"/>and parchment,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c213"/>and wrote<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>upon it,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c213"/>and wrote upon it,<anchor ana="end"/>
                </s>
                <!--ebb 2015-09-14: We can't wrap a floatingText inside an <s> element in TEI, more's the pity. So I've had to artificially end the sentence here. Can't use a <div> element either.-->
                <floatingText>
                   <body>
                      <p>
                         <s>
-                           <anchor ana="start" corresp="#M1_ft1_p2_c214_1"/>this is Amadis,<anchor ana="end"/> <note
+                           <anchor ana="start" corresp="#M1_ft1_p2_c214_1"/>this is Amadis, <note
                               anchored="true" resp="#Southey">
                               <anchor ana="start" corresp="#M1_ft1_p2_c214"/>Este es Amadis sin
                               tiempo, hijo de rey;<anchor ana="end"/>
                               <anchor ana="start" corresp="#M1_p1_c215"/>y sin tiempo dezia ella
                               porque creya que luego seria muerto.<anchor ana="end"/>
-                           </note> <anchor ana="start" corresp="#M1_ft1_p2_c214_2"/> son of a King<anchor ana="end"/>
+                           </note><anchor ana="end"/> <anchor ana="start" corresp="#M1_ft1_p2_c214_2"/> son of a King<anchor ana="end"/>
                         </s>
                      </p>
                   </body>
@@ -596,7 +595,7 @@
                   <anchor ana="start" corresp="#M1_p1_c236_2"/>and clear, whereby<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c234_2"/><persName ref="#Gandales">the Knight
                      Gandales</persName><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c236"/>saw the ark floating among the
+                  <anchor ana="start" corresp="#M1_p1_c236_3"/>saw the ark floating among the
                      waves,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c237"/>and he ordered the mariners to put out
                   a boat<anchor ana="end"/>
@@ -631,7 +630,8 @@
                   <anchor ana="start" corresp="#M1_p1_c248"/>and such he was believed to be,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c249"/>because the mariners who took up the
-                  ark, had sailed away to other parts.<anchor ana="end"/>
+                  ark,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c249.1"/>had sailed away to other parts.<anchor ana="end"/>
                </s>
             </p>
 

@@ -8,16 +8,24 @@
     </pattern>
     <pattern>
         <rule context="tei:f[@name eq 'type']">
-            <assert test="@select = ('literal', 'approximate', 'omission', 'addition', 'mistranslation')">Valid values for "type of translation" are: literal, approximate, omission, addition.</assert>
+            <assert test="@select = ('literal', 'approximate', 'omission', 'addition', 'mistranslation', 'quotation')">Valid values for "type of translation" are: 
+                literal, approximate, omission, addition, quotation.</assert>
         </rule>
     </pattern>
     <pattern>
         <rule context="tei:f[@name eq 'subtype']">
-            <let name="values" value="('compressed', 'cultural', 'omission', 'syntax', 'reported', 'aesthetic', 'addition', 'direct', 'antecedent')"/>
+            <let name="approxValues" value="('compressed', 'cultural', 'syntax', 'reported', 'aesthetic', 'new', 'voice', 'direct', 'antecedent')"/>
+            <let name="addValues" value="('cultural', 'aesthetic', 'voice', 'antecedent')"/>
+            <let name="misValues" value="('cultural','voice')"/>
             <let name="subtypes" value="for $i in tokenize(current()/@select, '\s+') return $i"/>
             <assert test="if (preceding-sibling::tei:f[@select eq 'literal']) then current()/@select eq 'close' else true()">The only valid subtype of a literal translation is 'close'.</assert>
             <assert test="if (preceding-sibling::tei:f[@select eq 'approximate']) then every $subtype 
-                in $subtypes satisfies $subtype = $values else true()">Valid values for a subtype of an approximate translation are: 'compressed', 'omission' 'cultural', 'syntax', 'reported', 'antecedent', 'addition', and 'aesthetic'.
+                in $subtypes satisfies $subtype = $approxValues else true()">Valid values for a subtype of an approximate translation are: 'compressed', 'cultural', 'syntax', 'reported', 'antecedent', 'addition', and 'aesthetic'.
+            </assert>
+            <assert test="if (preceding-sibling::tei:f[@select eq 'mistranslation']) then every $subtype 
+                in $subtypes satisfies $subtype = $misValues else true()">Valid values for a subtype of a mistranslation are: 'cultural', and 'voice'.</assert>
+            <assert test="if (preceding-sibling::tei:f[@select eq 'addition']) then every $subtype 
+                in $subtypes satisfies $subtype = $addValues else true()">Valid values for a subtype of an addition are: 'cultural', 'antecedent', 'voice', and 'aesthetic'.
             </assert>
         </rule>
     </pattern>
