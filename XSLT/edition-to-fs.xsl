@@ -151,7 +151,7 @@
             <xsl:if test="@type eq 'report'">
                 <xsl:element name="f">
                     <xsl:attribute name="name">subtype</xsl:attribute>
-                    <xsl:attribute name="select">report</xsl:attribute>
+                    <xsl:attribute name="select">reported</xsl:attribute>
                 </xsl:element>
             </xsl:if>
             <xsl:if test="@type eq 'direct'">

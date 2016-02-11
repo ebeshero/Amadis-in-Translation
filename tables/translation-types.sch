@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" queryBinding="xslt2">
     <ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     <pattern>
-        <rule context="tei:fs">
+        <rule context="tei:fs[not(tei:f[@name eq 'note'])]">
             <assert test="tei:f[@name eq 'type']">There must be a &lt;f&gt; element with a @name = 'type' attribute declaring the type of match.</assert>
         </rule>
     </pattern>

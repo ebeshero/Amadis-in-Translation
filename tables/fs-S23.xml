@@ -103,7 +103,7 @@
                   <string>acorredme señor que me matan.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M22_p1_c7_1">
                <f name="southey" n="8" ana="-0.12">

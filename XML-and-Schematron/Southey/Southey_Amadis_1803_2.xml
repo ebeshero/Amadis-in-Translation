@@ -37,9 +37,8 @@
                      ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c2"/><persName ref="#Darioleta"
                      >Darioleta</persName> rose,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>and threw a mantle over her mistress,<anchor
-                     ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c3"/>and they went into the garden.<anchor
+                  <anchor ana="start" corresp="#M1_p1_c3"/>and threw a mantle over her mistress,
+                  and they went into the garden.<anchor
                      ana="end"/>
                </s>
                <s>
@@ -71,7 +70,7 @@
                   <anchor ana="start" corresp="#M1_p1_c24"/>though against my will<milestone
                      unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" corresp="#M1_p1_c25"/>Then the King suddenly awoke in great
+                  <anchor ana="start" type="add"/>Then<anchor ana="end"/> <anchor ana="start" corresp="#M1_p1_c25"/>the King suddenly awoke in great
                   fear, and blessed himself.<anchor ana="end"/>
                </s>
                <s>
@@ -96,8 +95,7 @@
                   <anchor ana="start" corresp="#M1_p1_c33"/>The King then knew her, and saw Elisena
                   his beloved; he dropt his shield and sword and throwing a mantle about him which
                   was ready by the bed,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c34"/>he went and<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c35"/>embraced her whom he loved.<anchor
+                  <anchor ana="start" corresp="#M1_p1_c34"/>he went and embraced her whom he loved.<anchor
                      ana="end"/>
                </s>
                <s>
@@ -305,7 +303,7 @@
                <s>
                   <anchor ana="start" corresp="#M1_p1_c133"/>To let him know her condition, was what
                   she could not think,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c134"/>for he was young and proud of heart,
+                  <anchor ana="start" corresp="#M1_p1_c134.1"/>for he was young and proud of heart,
                   and took no delight elsewhere than where renown was to be gained, and so
                      was<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c135"/>for ever<anchor ana="end"/>
@@ -333,7 +331,9 @@
                   was an arched chamber separated from the rest,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c144"/>which overlooked the river;<anchor
                      ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c145"/>it had a little iron door through which
+                  <anchor ana="start" corresp="#M1_p1_c145"/>it had a little iron door<anchor
+                     ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c146"/>through which
                   the Damsels sometime were wont to go out by the water side, but now none inhabited
                   the apartment.<anchor ana="end"/>
                </s>

@@ -1639,7 +1639,7 @@
                   <string>Dezid a aquella donzella de so el árbol que se vaya luego si no que la tajaredes la cabeça.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M2_p2_c134">
                <f name="southey" n="4" ana="0.5">
@@ -1780,7 +1780,7 @@
                   <string>Tú me harás pleito como leal cavallero que otro por ti nunca lo sabrá hasta que te lo yo mande/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="M2_p2_c149">
                <f name="montalvo" n="4">
@@ -2828,7 +2828,7 @@
                   <string>El Donzel del Mar dixo me firió.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M2_p3_c251">
                <f name="southey" n="11" ana="-0.18">
@@ -2910,7 +2910,7 @@
                   <string>Si otra vez lo hazéis yo os haré bien llorar.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M2_p3_c260">
                <f name="southey" n="5" ana="0.2">

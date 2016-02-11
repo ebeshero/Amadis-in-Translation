@@ -1323,7 +1323,7 @@
                   <string>Si me vos prometéis dixo el rey como leal donzella de lo no descubrir:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M0_p1_c127">
                <f name="southey" n="5" ana="0">
@@ -1334,7 +1334,7 @@
                   <string>sino allí donde es razón/</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="M0_p1_c128 #M0_p1_c129 #M0_p1_c130 #M0_p1_c131 #M0_p1_c132">
                <f name="montalvo" n="35">
@@ -1358,7 +1358,7 @@
                   <string>que atormentado de cuitas y congoxas soy hasta en punto de la muerte:</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="M0_p1_c134 #M0_p1_c135 #M0_p1_c136 #M0_p1_c137 #M0_p1_c138">
                <f name="montalvo" n="38">
@@ -1744,7 +1744,7 @@
                   <string>Ay amigo dezidme si sois hombre hidalgo.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M0_p1_c179">
                <f name="southey" n="3" ana="0.67">
@@ -1895,7 +1895,7 @@
                   <string>Tú qué tienes que hablar con el escudero del rey.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="report"/>
+               <f name="subtype" select="reported"/>
             </fs>
             <fs corresp="#M0_p1_c199">
                <f name="southey" n="4" ana="1">
