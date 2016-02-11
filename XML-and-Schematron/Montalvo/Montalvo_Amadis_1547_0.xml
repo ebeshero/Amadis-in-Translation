@@ -199,9 +199,7 @@
                     <cl xml:id="M0_p1_c75">en tal punto y hora se miraron que las gran honestidad y
                         sancta vida de ella no pudo tanto/</cl>
                     <cl xml:id="M0_p1_c76">que de incurable y muy gran amor presa no fuesse:</cl>
-                    <cl xml:id="M0_p1_c77">y el rey <sic>assimesmo</sic>
-                        <!--st 9.21.15 I've seen mesmo very frequently in 16th c Spanish.-->de
-                        ella:</cl>
+                    <cl xml:id="M0_p1_c77">y el rey assimesmo de ella:</cl>
                     <cl xml:id="M0_p1_c78">que hasta entonces su coraçón sin ser sojuzgado a otra
                         ninguna libre tenía:</cl>
                     <cl xml:id="M0_p1_c79">de guisa que assí el uno como el otro estuvieron todo el
@@ -245,7 +243,8 @@
                     <cl xml:id="M0_p1_c100">La donzella espantada de mudança tan súpita en persona
                         tan desviada de auto semejante:</cl>
                     <cl xml:id="M0_p1_c101">aviendo piedad de tan piadosas lágrimas le
-                            dixo.<milestone unit="said" resp="#Darioleta" ana="start"/>Señora bien
+                            dixo.</cl>
+                    <cl xml:id="M0_p1_c101.1"><milestone unit="said" resp="#Darioleta" ana="start"/>Señora bien
                         veo yo que según la demasiada passión que aquel tirano amor en vos ha puesto
                         que no ha dexado en vuestro juizio lugar donde consejo ni razón aposentados
                         ser puedan:</cl>
@@ -496,7 +495,7 @@
                     <cl xml:id="M0_p1_c203">y fuesse al Rey Perión y dixole.</cl>
                     <cl xml:id="M0_p1_c204">
                         <milestone unit="said" resp="#Garinter" ana="start"/>Mi señor yo tengo
-                        muchas cosas de librar en mi hazienda/ y levántome a la hora de los
+                        muchas cosas de librar en mi hazienda/</cl> <cl xml:id="M0_p1_c204.1">levántome a la hora de los
                         maitines/</cl>
                     <cl xml:id="M0_p1_c205">y por no vos dar enojo/</cl>
                     <cl xml:id="M0_p1_c206">tengo por bien que quedéis solo en la cámara.<milestone
