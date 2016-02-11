@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    
     <xsl:output method="xml" indent="yes"/>
     
     <!--    Command line from Amadis folder:
-    java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/edition-to-fs.xsl -o:tables
+    java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/edition-to-fs.xsl -o:tables
     -->
     <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
     <xsl:template match="/">
@@ -13,6 +14,7 @@
                 <xsl:value-of select="//body/div[@type = 'chapter']/@xml:id"/>
             </xsl:variable>
             <xsl:result-document href="{concat('../tables/fs-', $title, '.xml')}">
+                <xsl:processing-instruction name="xml-model">href="translation-types.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
                 <TEI>
                     <teiHeader>
                         <fileDesc>
@@ -141,13 +143,23 @@
             <xsl:element name="f">
                 <xsl:attribute name="name">type</xsl:attribute>
                 <xsl:attribute name="select">
-                    <xsl:if test="@type">
-                        <xsl:value-of select="@type"/>
-                    </xsl:if>
+                    <xsl:if test="@type eq 'add'">addition</xsl:if>
+                    <xsl:if test="@type eq 'report' or @type eq 'direct'">approximate</xsl:if>
                     <xsl:if test="not(@type)">indefinite</xsl:if>
                 </xsl:attribute>
-                <string>Comments</string>
-            </xsl:element>
+            </xsl:element>            
+            <xsl:if test="@type eq 'report'">
+                <xsl:element name="f">
+                    <xsl:attribute name="name">subtype</xsl:attribute>
+                    <xsl:attribute name="select">reported</xsl:attribute>
+                </xsl:element>
+            </xsl:if>
+            <xsl:if test="@type eq 'direct'">
+                <xsl:element name="f">
+                    <xsl:attribute name="name">subtype</xsl:attribute>
+                    <xsl:attribute name="select">direct</xsl:attribute>
+                </xsl:element>
+            </xsl:if>
         </xsl:element>
         <xsl:if
             test="
@@ -198,9 +210,7 @@
                         <xsl:value-of select="$omission"/>
                     </string>
                 </xsl:element>
-                <f name="type" select="omission">
-                    <string>Comments</string>
-                </f>
+                <f name="type" select="omission"/>
             </xsl:element>
         </xsl:if>
         <xsl:if
@@ -249,9 +259,7 @@
                         <xsl:value-of select="$omission"/>
                     </string>
                 </xsl:element>
-                <f name="type" select="omission">
-                    <string>Comments</string>
-                </f>
+                <f name="type" select="omission"/> 
             </xsl:element>
         </xsl:if>
     </xsl:template>
@@ -312,13 +320,23 @@
                         <xsl:element name="f">
                             <xsl:attribute name="name">type</xsl:attribute>
                             <xsl:attribute name="select">
-                                <xsl:if test="@type">
-                                    <xsl:value-of select="@type"/>
-                                </xsl:if>
+                                <xsl:if test="@type eq 'add'">addition</xsl:if>
+                                <xsl:if test="@type eq 'report' or @type eq 'direct'">approximate</xsl:if>
                                 <xsl:if test="not(@type)">indefinite</xsl:if>
                             </xsl:attribute>
-                            <string>Comments</string>
-                        </xsl:element>
+                        </xsl:element>            
+                        <xsl:if test="@type eq 'report'">
+                            <xsl:element name="f">
+                                <xsl:attribute name="name">subtype</xsl:attribute>
+                                <xsl:attribute name="select">report</xsl:attribute>
+                            </xsl:element>
+                        </xsl:if>
+                        <xsl:if test="@type eq 'direct'">
+                            <xsl:element name="f">
+                                <xsl:attribute name="name">subtype</xsl:attribute>
+                                <xsl:attribute name="select">direct</xsl:attribute>
+                            </xsl:element>
+                        </xsl:if>
                     </xsl:element>
                 </xsl:for-each>
             </f>

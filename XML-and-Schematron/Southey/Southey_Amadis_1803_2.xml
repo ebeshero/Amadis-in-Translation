@@ -32,13 +32,13 @@
             <head>Chapter 2. <locus from="9" to="16"/></head>
             <p>
                <s>
-                  <anchor ana="start" corresp="#M1_p1_c1"/>At night when all was husht,<anchor
+                  <anchor ana="start" type="add"/>At night<anchor
+                     ana="end"/> <anchor ana="start" corresp="#M1_p1_c1"/>when all was husht,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c2"/><persName ref="#Darioleta"
                      >Darioleta</persName> rose,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>and threw a mantle over her mistress,<anchor
-                     ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c3"/>and they went into the garden.<anchor
+                  <anchor ana="start" corresp="#M1_p1_c3"/>and threw a mantle over her mistress,
+                  and they went into the garden.<anchor
                      ana="end"/>
                </s>
                <s>
@@ -70,7 +70,7 @@
                   <anchor ana="start" corresp="#M1_p1_c24"/>though against my will<milestone
                      unit="said" ana="end"/><anchor ana="end"/>.</s>
                <s>
-                  <anchor ana="start" corresp="#M1_p1_c25"/>Then the King suddenly awoke in great
+                  <anchor ana="start" type="add"/>Then<anchor ana="end"/> <anchor ana="start" corresp="#M1_p1_c25"/>the King suddenly awoke in great
                   fear, and blessed himself.<anchor ana="end"/>
                </s>
                <s>
@@ -95,8 +95,7 @@
                   <anchor ana="start" corresp="#M1_p1_c33"/>The King then knew her, and saw Elisena
                   his beloved; he dropt his shield and sword and throwing a mantle about him which
                   was ready by the bed,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c34"/>he went and<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c35"/>embraced her whom he loved.<anchor
+                  <anchor ana="start" corresp="#M1_p1_c34"/>he went and embraced her whom he loved.<anchor
                      ana="end"/>
                </s>
                <s>
@@ -145,8 +144,8 @@
                      <anchor ana="start" type="add"/>and hearing,<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c65_2"/>their religious purposes be
                         overcome,<anchor ana="end"/>
-                     <anchor ana="start" type="add"/>and it<anchor ana="end"/>
-                     <anchor ana="start" corresp="#M1_p1_c66"/>should be with them as it was with
+                     <anchor ana="start" corresp="#M1_p1_c66"/>and it
+                     should be with them as it was with
                      the Princess Elisena.<anchor ana="end"/>
                   </note> centered.<anchor ana="end"/></s>
             </p>
@@ -279,7 +278,7 @@
                   <anchor ana="start" corresp="#M1_p1_c122"/>and not without cause,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c123"/>for in that time was there a law, that
                   any woman, of what quality or estate soever,<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>offending in such sort,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c124"/>offending in such sort,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c125"/>could not excuse herself from
                      death.<anchor ana="end"/>
                </s>
@@ -304,7 +303,7 @@
                <s>
                   <anchor ana="start" corresp="#M1_p1_c133"/>To let him know her condition, was what
                   she could not think,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c134"/>for he was young and proud of heart,
+                  <anchor ana="start" corresp="#M1_p1_c134.1"/>for he was young and proud of heart,
                   and took no delight elsewhere than where renown was to be gained, and so
                      was<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c135"/>for ever<anchor ana="end"/>
@@ -332,7 +331,9 @@
                   was an arched chamber separated from the rest,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c144"/>which overlooked the river;<anchor
                      ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c145"/>it had a little iron door through which
+                  <anchor ana="start" corresp="#M1_p1_c145"/>it had a little iron door<anchor
+                     ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c146"/>through which
                   the Damsels sometime were wont to go out by the water side, but now none inhabited
                   the apartment.<anchor ana="end"/>
                </s>
@@ -492,7 +493,7 @@
                      fortune,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c201"/>but she delayed not to execute what of
                      necessity<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>had been resolved.<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c202"/>had been resolved.<anchor ana="end"/>
                </s>
                <s>
                   <anchor ana="start" corresp="#M1_p1_c203"/>She wrapt him in rich garments,<anchor
@@ -523,21 +524,20 @@
                   <anchor ana="start" type="add"/>But<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c211"/>Darioleta took ink<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c212"/>and parchment,<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c213"/>and wrote<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>upon it,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c213"/>and wrote upon it,<anchor ana="end"/>
                </s>
                <!--ebb 2015-09-14: We can't wrap a floatingText inside an <s> element in TEI, more's the pity. So I've had to artificially end the sentence here. Can't use a <div> element either.-->
                <floatingText>
                   <body>
                      <p>
                         <s>
-                           <anchor ana="start" corresp="#M1_ft1_p2_c214_1"/>this is Amadis,<anchor ana="end"/> <note
+                           <anchor ana="start" corresp="#M1_ft1_p2_c214_1"/>this is Amadis, <note
                               anchored="true" resp="#Southey">
                               <anchor ana="start" corresp="#M1_ft1_p2_c214"/>Este es Amadis sin
                               tiempo, hijo de rey;<anchor ana="end"/>
                               <anchor ana="start" corresp="#M1_p1_c215"/>y sin tiempo dezia ella
                               porque creya que luego seria muerto.<anchor ana="end"/>
-                           </note> <anchor ana="start" corresp="#M1_ft1_p2_c214_2"/> son of a King<anchor ana="end"/>
+                           </note><anchor ana="end"/> <anchor ana="start" corresp="#M1_ft1_p2_c214_2"/> son of a King<anchor ana="end"/>
                         </s>
                      </p>
                   </body>
@@ -595,7 +595,7 @@
                   <anchor ana="start" corresp="#M1_p1_c236_2"/>and clear, whereby<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c234_2"/><persName ref="#Gandales">the Knight
                      Gandales</persName><anchor ana="end"/>
-                  <anchor ana="start" corresp="#M1_p1_c236"/>saw the ark floating among the
+                  <anchor ana="start" corresp="#M1_p1_c236_3"/>saw the ark floating among the
                      waves,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c237"/>and he ordered the mariners to put out
                   a boat<anchor ana="end"/>
@@ -630,7 +630,8 @@
                   <anchor ana="start" corresp="#M1_p1_c248"/>and such he was believed to be,<anchor
                      ana="end"/>
                   <anchor ana="start" corresp="#M1_p1_c249"/>because the mariners who took up the
-                  ark, had sailed away to other parts.<anchor ana="end"/>
+                  ark,<anchor ana="end"/>
+                  <anchor ana="start" corresp="#M1_p1_c249.1"/>had sailed away to other parts.<anchor ana="end"/>
                </s>
             </p>
 
