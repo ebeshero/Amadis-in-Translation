@@ -138,7 +138,7 @@
                   <anchor ana="start" corresp="#M20_p1_c43"/>Ah friends, let me die<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c44"/>and be at rest:<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c45"/>why would ye make me so faithless<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c41"/>that I should live even an
+                  <anchor ana="start" corresp="#M20_p1_c46"/>that I should live even an
                   hour after him!<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c58"/>What though his dwelling be in the cold
                   earth, where all love ceaseth,<anchor ana="end"/>
@@ -178,10 +178,10 @@
                   <anchor ana="start" corresp="#M20_p1_c83"/>that Knight may have borrowed the arms of
                      Amadis,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c84"/>or stolen them:<anchor ana="end"/>
-                  <anchor ana="start" type="add"/>who shall vouch for his truth?</s>
+                  <anchor ana="start" type="add"/>who shall vouch for his truth?<anchor ana="end"/></s>
                <milestone unit="said" ana="end"/>
-               <s>But Oriana<anchor ana="end"/>
-                  <anchor ana="start" corresp="#M20_p1_c88"/>had fixed her eyes upon the window where
+               <s><anchor ana="start" corresp="#M20_p1_c88"/>But Oriana
+                  had fixed her eyes upon the window where
                   first she talked with Amadis,<anchor ana="end"/>
                   <anchor ana="start" corresp="#M20_p1_c89"/>and in a faint and feeble voice
                      exclaimed,<anchor ana="end"/>
