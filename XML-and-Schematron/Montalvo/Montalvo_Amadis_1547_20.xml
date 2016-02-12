@@ -164,7 +164,7 @@
                <cl xml:id="M20_p1_c18">y yo quedé con la honra y prez de la batalla.<milestone unit="said" ana="end"/>
                </cl>
                <cl xml:id="M20_p1_c19">
-                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Ay Sancta María val<milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
+                  <milestone unit="said" ana="start" resp="#Lisuarte"/>Ay Sancta María val <milestone unit="said" ana="intStart"/>dixo el rey<milestone unit="said" ana="intEnd"/>
                   muerto es el mejor cavallero y más esforçado del mundo:</cl>
                <cl xml:id="M20_p1_c20">ay Dios Señor por qué os plugo de hazer tan buen comienço y
                   en tal cavallero:</cl>
@@ -194,7 +194,7 @@
                <cl xml:id="M20_p1_c29">y llorando muy fieramente catava a Oriana y díxole.</cl>
                <cl xml:id="M20_p1_c30">
                   <milestone unit="said" ana="start" resp="#Damsel_Denmark"/>Ay señora qué cuita y
-                  qué gran dolor<milestone unit="said" ana="end"/>Oriana se estremeció toda y
+                  qué gran dolor <milestone unit="said" ana="end"/>Oriana se estremeció toda y
                   dixo.</cl>
                <cl xml:id="M20_p1_c31">
                   <milestone unit="said" ana="start" resp="#Oriana"/>Ay Sancta María si es muerto
