@@ -2,6 +2,13 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" queryBinding="xslt2">
     <ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
+    <!--2016-06-14 ebb: Note: This should be part of the master schema; 
+        it's not easy to locate for anyone attempting to survey the rules of this project. 
+        WARNING: The error-reporting text values in this file have not been carefully updated; there appear to
+        be many inconsistencies though I have made some corrections and updates today.
+    We will incorporate this in a simpler and better-documented way in ODD, with the other project rules.
+    -->
+    
     <pattern>
         <rule context="tei:fs[not(tei:f[@name eq 'note'])]">
             <assert test="tei:f[@name eq 'type']">There must be a &lt;f&gt; element with a @name =
@@ -36,7 +43,7 @@
                 satisfies $subtype = $litValues
                 else
                 true()"
-                >The only valid subtypes of a literal translation are 'close' and 'unnatural'.</assert>
+                >The only valid subtypes of a literal translation are 'close', 'archaism', and 'unnatural'.</assert>
             <assert
                 test="
                     if (preceding-sibling::tei:f[@select eq 'approximate']) then
@@ -55,7 +62,7 @@
                             satisfies $subtype = $misValues
                     else
                         true()"
-                >Valid values for a subtype of a mistranslation are: 'cultural', and
+                >Valid values for a subtype of a mistranslation are: 'cultural', 'archaism', and
                 'voice'.</assert>
             <assert
                 test="
