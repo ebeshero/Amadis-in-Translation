@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schemas/odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Title of your TEI Customization]</title>
+        <author><persName>[you!]</persName></author>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>[publisher]</publisher>
+        <availability>
+          <p>[Statement of availability]</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>[Information about the creation of the ODD]</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="#ebb" when="2016-06-17">[Description of changes]</change>  
+    </revisionDesc>
+  </teiHeader>
+  <text>
+      <!-- 
+           This template is intended to give you a quick starting point for
+           writing ODD files. You may find it useful to copy and paste 
+           specific constructs from odd_extended_template.xml, which contains
+           commented templates for specific ODD-writing tasks.
+      -->
+    <body>
+      <p>[One or more paragraphs describing the customization.]</p>
+
+      <!-- The <schemaSpec> element is in effect the root element for
+           the schema specification portion of the ODD. 
+              - @ident is required; it is allowed to be any name.
+	      - @source establishes the base version oF TEI to build with
+              - @start says what element(s) are allowed as the root element
+                  of documents conforming to this schema.  -->
+      <schemaSpec ident="test" source="tei:current" start="TEI">
+
+        <!-- 
+             The <moduleRef> elements specify which TEI modules will
+             be included in the schema. The value of the @key
+             attribute is the name of the module. The first four listed here 
+             are required: core, tei, header, textstructure. 
+        
+             To trim the contents of these modules, use @include OR @except:
+               - @include lists the elements from the module that will be included in the schema
+               - @except lists the elements from the module that will be excluded from the schema        
+        -->
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="analysis"/>
+           
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schemas/odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- could use schemas from web, currently at: -->
+<!-- http://www.wwp.northeastern.edu/outreach/seminars/_current/handouts/ODD_exercise/schemas/odd4odds.rnc -->
+<!-- http://www.wwp.northeastern.edu/outreach/seminars/_current/handouts/ODD_exercise/schemas/odd4odds.isosch -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Title of your TEI Customization]</title>
+        <author><persName>[you!]</persName></author>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>[publisher]</publisher>
+        <availability>
+          <licence>
+            <p>[Statement of license used for availability]</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>[Information about the creation of the ODD]</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="[ptr-to-yourself]" when="[date]">[Description of changes]</change>  
+    </revisionDesc>
+  </teiHeader>
+  <text>
+
+    <body>
+      <p>[One or more paragraphs describing the customization.]</p>
+
+      <!-- The <schemaSpec> element is in effect the root element for
+           the schema specification portion of the ODD. 
+              - @ident is required; it is allowed to be any name.[1]
+	      - @source establishes the base version oF TEI to build with
+              - @start says what element(s) are allowed as the root element
+                  of documents conforming to this schema. It is a
+                  space-separated list of 1 or more TEI elements; a
+                  document is non-conformant if its root element is
+                  anything other than "TEI" or "teiCorpus", but it is
+                  often useful for testing or to generate sub-files -->
+      <!-- [1] However, Syd & James think life is easier if it matches
+           the filename of the ODD file w/o the ".odd" (or ".xml" or ".tei"). -->
+      <schemaSpec ident="[change this to match the name of your copy of this file]"
+		  start="TEI"
+		  source="tei:current">
+	<desc>[1- or 2- sentence description of schema]</desc>
+
+        <!-- The <moduleRef> elements specify which TEI modules (which
+             correspond directly to chapters in the Guidelines) will
+             be included in the schema. The value of the @key
+             attribute is the name of the module. For any element, you 
+             can find the name of the module containing it in the 
+             reference documentation for that element. A complete 
+             list of modules is available at
+             http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STMA.
+
+             To trim the contents of these modules, use @include OR @except:
+               - @include lists the elements from the module that will be included in the schema
+               - @except lists the elements from the module that will be excluded from the schema        
+             -->
+        <!-- The four required modules: -->
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="textstructure"/>
+        <!-- optional modules: -->
+        <moduleRef key="[fill in]"/>
+        
+        <!-- The <classSpec> is used to make wholesale changes to
+             model classes and attribute classes: for instance,
+             deleting an attribute class from the schema (rather than
+             just deleting an attribute from a single element). -->     
+        <!-- This example would delete the designated attribute class
+             from the schema altogether, so that all of its attributes
+             will now be eliminated from all elements in the schema.
+             Individual attributes can be restored to individual
+             elements using <elementSpec> as described below. To
+             change an attribute class, the @type attribute on
+             <classSpec> must be "atts". To delete a model class, the
+             value of @type should be "model". -->
+        <classSpec type="atts" ident="[fill in]" mode="delete"/>
+        
+        <!-- To add a new attribute and assign it to a specific
+             attribute class, use <classSpec>. The @ident names the
+             attribute class to which the new attribute will be added,
+             and the @mode attribute is "change" (since that attribute
+             class is being changed). The @module tells the processor
+             what module the attribute class belongs to. -->
+        <classSpec ident="[fill in]" type="atts" mode="[add|change|replace]" module="tei">
+          <attList>
+            <!-- an enumerated attribute: -->
+            <attDef ident="[fill in]" mode="[add|change|replace]">
+              <gloss>[fill in or delete]</gloss>
+              <desc>[fill in]</desc>
+              <datatype>
+                <macroRef key="data.enumerated"/>
+              </datatype>
+              <valList type="[open|closed|semi]">
+                <valItem ident="[fill in]">
+                  <gloss>[fill in or delete]</gloss>
+                  <desc>[fill in]</desc>
+                </valItem>
+                <valItem ident="[fill in]">
+                  <gloss>[fill in or delete]</gloss>
+                  <desc>[fill in]</desc>
+                </valItem>
+                <valItem ident="[fill in]">
+                  <gloss>[fill in or delete]</gloss>
+                  <desc>[fill in]</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <!-- an attribute other than enumerated -->
+            <attDef ident="[fill in]" mode="[add|change|replace]">
+              <gloss>[fill in or delete]</gloss>
+              <desc>[fill in]</desc>
+              
+              <!-- you can find a list of the TEI's datatypes at 
+                   http://www.tei-c.org/release/doc/tei-p5-doc/en/html/REF-MACROS.html
+              -->
+              <datatype>
+                <macroRef name="[fill in]"/>
+              </datatype>
+            </attDef>
+            <!-- deleting an existing attr (same as previous <classSpec>) -->
+            <attDef ident="[fill in]" mode="delete"/>
+          </attList>
+        </classSpec>
+        
+        
+        <!-- The <elementSpec> is used to make changes to content
+             models, to delete unwanted elements from modules included
+             above, or to add and delete attributes from a specific
+             element. There are a few crucial attributes you need to
+             use:
+
+             1. @module: This indicates the module in which the
+             element appears. This is required for proper working of
+             roma.
+
+             2. @ident: This gives the name of the element being
+             specified or altered.
+
+             3. @mode: This indicates the status of this element
+             specification, in relation to the main TEI specification
+             for this element. The possibilities are:
+
+             "add": Used when defining a new element
+
+             "delete": Used when deleting an element from the
+             customization
+
+             "change": Used to indicate that the custom specification
+             alters only the specified parts of the main TEI
+             specification for this element, but leaves the rest
+             unchanged.
+
+             "replace": Used to indicate that the custom specification
+             entirely replaces all of the main TEI specification for
+             this element. This will eliminate any documentation
+             associated with the element, any additional attributes
+             the element may carry, etc. -->
+        
+        <!-- This <elementSpec>s is an example of a deletion of a
+             specific unwanted attribute that comes with an element
+             in an included module. The @mode value on <elementSpec>
+             should be "change", but the @mode value on <attDef>
+             should be "delete". Note that if we want to delete a
+             given attribute from the schema altogether we can do so
+             with <classSpec>. -->  
+        <elementSpec module="[fill in]" ident="[fill in]" mode="change">
+          <attList>
+            <attDef ident="[fill in]" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- This <elementSpec> is for making a change to (an)
+             attribute(s), for instance to designate a specific
+             list of permitted values, or to add new attributes. -->
+        <elementSpec ident="[fill in]" mode="change" module="[fill in]">
+          <attList>
+            <!-- Use mode="change" on <attDef> if the attribute
+                 already exists; use mode="add" if this is a new
+                 attribute. -->
+            <attDef ident="[fill in]" mode="[add|change]">
+              <!-- The <desc> element provides documentation -->
+              <desc>[fill in]</desc>
+              <!-- The <datatype> element indicates what datatype the
+                   attribute values are. To indicate the value is from
+                   a controlled value list, fill in "data.enumerated". -->
+              <datatype>
+                <dataRef key="[fill in]"/>
+              </datatype>
+              <!-- The <valList> contains the possible values; @type
+                   indicates whether the list is closed (no other
+                   values permitted) or semi-closed (these values will
+                   show up in a menu but others are permitted) or open
+                   (the values given are suggestions only). -->
+              <valList type="[open|closed|semi]">
+                <valItem ident="[fill in]">
+                  <gloss>[fill in or delete]</gloss>
+                  <desc>[fill in]</desc>
+                </valItem>
+                <valItem ident="[fill in]">
+                  <gloss>[fill in or delete]</gloss>
+                  <desc>[fill in]</desc>
+                </valItem>
+                <valItem ident="[fill in]">
+                  <gloss>[fill in or delete]</gloss>
+                  <desc>[fill in]</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- This <elementSpec> is for changing the content models of
+             an element, or its class membership. -->
+        <elementSpec ident="[fill in]" mode="change" module="[fill in]">
+	  <classes mode="change">
+	    <memberOf key="[fill in]" mode="[add|delete]"/>
+	  </classes>
+	  <!-- There are 3 possibilities for the content of the <content> element:
+	       a) A combination of TEI <alternate>, <classRef>, <elementRef>, <macroRef>, and <sequence> elements
+	       b) A single TEI <valList> element
+	       c) A RELAX NG pattern
+	  -->
+          <content>
+	    [fill in]
+          </content>
+        </elementSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

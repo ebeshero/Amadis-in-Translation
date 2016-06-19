@@ -1,0 +1,183 @@
+/* CSS2 for the XHTML written by hand or created by admin.xslt. */
+
+@import url(./spans-html.css) ;
+
+body {
+	background: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: #202020;
+	background-color: #FFFFFF;
+	padding: 0em 2em 2em 2em;
+}
+
+h1	 {	font-size: 150%;	color: black;	background-color:#A0BEBE;	text-align: center;	margin-top: 1em;	margin-bottom: 0ex;}h2 {	color: black;	font-size: 125%;	background-color:#A0BEBE;	margin-top: 1em;	margin-bottom: 0ex;	}h3 {	font-size: 110%;	color: black;	text-align: left;	margin: 0;	margin-top: 1em;	margin-bottom: 0em;	padding: 0 0 0 0;}h4 {	padding-left: 1em; padding-right: 1em;	margin-right: 25%;	margin-top: 1em;	margin-bottom: 0em;	font-size: 95%;	color: black;	text-align: left;}h5 {	padding-left: 2em; padding-right: 2em;	margin-top: 1em;	margin-bottom: 0em;	margin-right: 25%;	font-size: 90%;	color: black;	text-align: left;}pre.eg, pre.eg_valid, pre.eg_well-formed {
+	background: #E0E0E0;
+	padding: 6pt;
+	font-style: roman;
+	font-size: normal;
+	margin-left: 1em;
+	margin-top: 6pt;
+}
+
+pre.eg_invalid, pre.eg_ill-formed {
+	background: #F0F0F0;
+	padding: 6pt;
+	font-style: roman;
+	font-size: normal;
+	margin-left: 1em;
+	margin-top: 6pt;
+	border: 0.5ex solid red;
+}
+
+p.byline {
+	text-align: right;
+	font-size: large;
+	color: green;
+	width: 50%;
+	margin: 0;
+	padding: 0 0 0 50%;
+	}
+
+p.dateLine {
+	text-align: right;
+	font-size: large;
+	color: blue;
+	margin: 0;
+	padding: 0;
+	}
+
+p {
+	padding: 0ex;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+    }
+
+/* essentially a special-case for short schedules, usuallly on index page */
+/* "se" is for "session entry" */
+p.se {
+    margin-bottom: -1ex;
+}
+
+table {
+    margin-left: 2em;
+	border: solid black 3px;
+}
+tr {
+	
+}
+td {
+	padding: 1ex;
+	border: 1px solid black;
+}
+tr.row_label {
+	background-color: lightgrey;
+}
+td.cell_label {
+	background-color: lightgrey;
+}
+
+ul {
+ list-style-type:square;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+
+}
+ul.nobul {
+	list-style-type: none;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+}
+
+li:first-child {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0.2ex;
+	margin-left: 2ex;
+}
+
+ul.nobul > li {
+	margin: 0.2ex 0.2ex 0 0.2ex;
+	margin-left: 2ex;
+	list-style-type: none;
+}
+ul > li {
+	margin: 0.2ex 0.2ex 0 0.2ex;
+	margin-left: 2ex;
+	list-style-type: square;
+}
+ol > li {
+	margin: 0.2ex 0.2ex 0 0.2ex;
+	margin-left: 2ex;
+}
+
+pre, tt {
+	font-family: Monaco, monospace;
+	color: black;
+	font-size: 90%;
+}
+
+div.quote {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+	color: teal;
+	text-align: justify;
+	font-size: xx-large;
+}
+
+address {
+	font-style:  normal;
+	font-family: cursive;
+	letter-spacing: .1em;
+	font-size: x-small;
+}
+
+a:link {
+	color:  #000066;
+}
+a:visited {
+	color:  #660033;
+}
+
+/* a:active {
+	color:  purple;
+	background: yellow;
+}
+a:hover {
+	color:  blue;
+	background:     silver;
+} */
+
+/* essentially a special case for the element list: */
+span.att > a:link  {text-decoration: none;}
+span.gi  > a:link  {text-decoration: none;}
+span.tag > a:link  {text-decoration: none;}
+span.tag_empty > a:link  {text-decoration: none;}
+span.att > a:visited { text-decoration: none; }
+span.gi  > a:visited { text-decoration: none; }
+span.tag > a:visited { text-decoration: none; }
+span.tag_empty > a:visited { text-decoration: none; }
+
+dt { 
+	margin-top: 0.2ex;
+     font-weight: bold;
+}
+dt > span.att {
+         margin-top 0.2ex;
+         font-weight: normal;
+         }
+dt > span.gi, dt > span.tag, dt > span.tag_empty {
+         margin-top 0.2ex;
+         font-weight: normal;
+         }
+
+dl dt:first-child {
+	margin-top: 0;
+}
+
+dd {
+	display: block;
+	margin-left: 2em;
+}

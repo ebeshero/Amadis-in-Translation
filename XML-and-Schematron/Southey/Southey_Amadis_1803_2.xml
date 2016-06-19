@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--2016-06-19 ebb: I have commented out our original schema lines to test our new implementation of an ODD-based schema on this file.
+    
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--2016-06-19 ebb: new ODD-extracted schema lines below. Note: the only problem here is a known TEI bug with floatingText: not our problem.-->
+<?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -141,7 +146,7 @@
                      indeed they are;<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c64"/>lest by<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c65_1"/>seeing<anchor ana="end"/>
-                     <anchor ana="start" type="add"/>and hearing,<anchor ana="end"/>
+                     <anchor ana="start" type="add"/>and hearing,<s ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c65_2"/>their religious purposes be
                         overcome,<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c66"/>and it
@@ -527,7 +532,7 @@
                   <anchor ana="start" corresp="#M1_p1_c213"/>and wrote upon it,<anchor ana="end"/>
                </s>
                <!--ebb 2015-09-14: We can't wrap a floatingText inside an <s> element in TEI, more's the pity. So I've had to artificially end the sentence here. Can't use a <div> element either.-->
-               <floatingText>
+              <floatingText>
                   <body>
                      <p>
                         <s>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--2016-06-19 ebb: I have commented out our original schema lines to test our new implementation of an ODD-based schema on this file.
+    
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--2016-06-19 ebb: new ODD-extracted schema lines below. Note: the only problem here is a known TEI bug with floatingText: not our problem.-->
+<?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -444,15 +450,22 @@
                     </cl>
                     <cl xml:id="M1_p1_c211">La donzella tomó tinta:</cl>
                     <cl xml:id="M1_p1_c212">y pargamino:</cl>
-                    <cl xml:id="M1_p1_c213">y fizo una carta que dezía.</cl>
+                    <cl xml:id="M1_p1_c213">y fizo una carta que dezía.
+                        <note><p>Diagnostic Stuff.</p><p>More stuff proving that paragraphs can be written
+                        inside note elements that are inside paragraph elements.</p></note></cl>
+               
                     <floatingText xml:id="M1_ft1">
                         <body>
-                            <p>
-                                <cl xml:id="M1_ft1_p2_c214"><seg xml:id="M1_ft1_p2_c214_1">Este es <persName ref="#Amadis">Amadís
+                            <!--2016-06-19 ebb: Verified with Syd Bauman, the error below is a known bug in the TEI, 
+                                which is not properly processing floatingText.-->
+                               <p>
+                                <cl xml:id="M1_t1_p2_c214"><seg xml:id="M1_ft1_p2_c214_1">Este es <persName ref="#Amadis">Amadís
                                     Sin Tiempo</persName></seg> <seg xml:id="M1_ft1_p2_c214_2">hijo de rey:</seg></cl>
-                            </p>
+                              </p>
                         </body>
+                        
                     </floatingText>
+             
                     <cl xml:id="M1_p1_c215">y sin tiempo dezía
                         ella<!-- st 8.25.15 This part is indirect discourse and not part of the letter or floating text in and of itself. It's pretty normal for Amadís to quote a letter and then reiterate its content in indirect discourse. I don't see it as an overlap. -->
                         porque creía que luego sería muerto:</cl>
