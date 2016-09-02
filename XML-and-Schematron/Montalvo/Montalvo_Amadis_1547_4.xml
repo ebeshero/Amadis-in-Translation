@@ -13,7 +13,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-               
+
                 <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
                         Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
                     from the Biblioteca Virtual de Andalucía. This text is very similar to the text
@@ -29,14 +29,15 @@
                     century. Evidence in the form of character names and references in poetry dates
                     to the fourteenth century. The primitive or medieval Amadís is now thought to be
                     Castilian and not Portuguese or French. The attribution to Portuguese knight
-                    Vasco de Lobeira is now known to be apocryphal.<ptr target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"/>
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
                 </p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>This
-                    digital critical edition seeks to reproduce the reading experience of the
+                <p>This digital critical edition seeks to reproduce the reading experience of the
                         <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
                     which Robert Southey worked for his translation in order to facilitate
                     comparisons. The following modifications have been made to the 1547 print
@@ -106,15 +107,24 @@
     </teiHeader>
     <text>
         <body>
-            <div type="chapter" xml:id="">
-                <!--st this is a problem because it is a template-->
-                <head>Capítulo <!-- put Roman numeral here --> <locus from="xlii-r" to="xlv-r"/><!-- change to folio numbers -->
+            <div type="chapter" xml:id="M4">
+
+                <head>Capítulo IV <locus from="lxi-r" to="xi-r"
+                    /><!-- change to folio numbers -->
                 </head>
                 <argument>
-                    <p> <!-- put chapter heading (argument) here --> </p>
+                    <p>
+                        Como el rey Lisuarte navegó por la mar aportó al reino de Escocia donde con mucha honra fuere recebido. 
+                    </p>
                 </argument>
                 <p>
-                    <!-- transcribe the text of the chapter in here -->
+                    La embaxada oída por el rey Lisuarte ayudándole su suegro con gran flota en la mar entró. Por onde navegando fue aportado del reino de Escocia. Donde con mucha honra el re Languines recebido fue. Este Lisuarte traía conmigo a Brisena su mujer y una hija que en ella ovo cuando en Denmarcha morara que Oriana avía nombre de anos.
+                    La más hermoas criatura que núnca le vio.Tanto que fue la que sin par se llamo porque enn su tiempo ninguna ovo que igual fuesse y porque ve la mar enojada andava acordó de la dexar allí rogando al rey Languines y la reina que gela guardassen. Ellos fueron muy alegres dello y la reina dixo: Creed que yo guardaré como su madre lo haría.
+                    Y entrando Lisuarte en sus naos con mucha priessa en la Gran Bretana arriabado y halló algunos que los estorvaron como hazer se suele en semejantes casos y por esta causa en se membró de su hija por algun tiempo.
+                    y fue el rey cpm gram trabjao que aí tomó y fuel el mejor rey que ende ovo ni que mejor manteniesse la cavallería en su derecho hasta que el rey Artur reinó que passó a todos los reyes de bondad que ante dél fueron, aunque muchos reinaron entre el uno y el otro. El autor dexa reinado a Lisuarte con muchas paz y sossiego en la Gran Bretana
+                    y torna al Donsel del Mar que esta sazón era de doce anos, y e su gradeza y miembros parescía bien de de quinze. Él servía ante la reina y assí della como todas las duenas y donzellas era mucho amado. Más que allí fue Oriana la hija del rey Lisuarte diole la Reina al Donzel del Mar que la sirviesse, diziendo:
+                    Amiga ese es un donzel que la servirá. Ella dijo que la plazía. El donzel tuvo esta palabra en su corazón de tal guisa que después nunca de la memoria la apartó que sin falta assí como esta historia lo dize, en días que su vida no fue enojado de la servir y en ella su corazon fue siempre otorgado, y este amorburo quanto ellos turaron, 
+                    que assí como la amava assí amava ella a él. 
                 </p>
             </div>
         </body>
