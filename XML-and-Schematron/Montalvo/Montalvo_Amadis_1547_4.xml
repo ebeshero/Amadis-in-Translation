@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href= "../Amadis.sch" type= "application/xml" schematypens= "http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -116,17 +116,17 @@
                         mucha honra fuere recebido. </p>
                 </argument>
                 <p> La embaxada oída por el rey Lisuarte ayudándole su suegro con gran flota en la
-                    mar entró. Por onde navegando fue aportado del reino de Escocia. Donde con mucha
+                    mar entró. Por donde navegando fue aportado del reino de Escocia. Donde con mucha
                     honra el re Languines recebido fue. Este Lisuarte traía conmigo a Brisena su
                     mujer y una hija que en ella ovo cuando en Denmarcha morara que Oriana avía
-                    nombre de anos. La más hermoas criatura que núnca le vio.Tanto que fue la que
-                    sin par se llamo porque enn su tiempo ninguna ovo que igual fuesse y porque ve
+                    nombre de años. La más hermosas criatura que núnca le vio.Tanto que fue la que
+                    sin par se llamo porque en su tiempo ninguna ovo que igual fuesse y porque ve
                     la mar enojada andava acordó de la dexar allí rogando al rey Languines y la
                     reina que gela guardassen. Ellos fueron muy alegres dello y la reina dixo: Creed
                     que yo guardaré como su madre lo haría. Y entrando Lisuarte en sus naos con
                     mucha priessa en la Gran Bretana arriabado y halló algunos que los estorvaron
                     como hazer se suele en semejantes casos y por esta causa en se membró de su hija
-                    por algun tiempo. y fue el rey cpm gram trabjao que aí tomó y fuel el mejor rey
+                    por algun tiempo. y fue el rey con gran trabajo que aí tomó y fue el mejor rey
                     que ende ovo ni que mejor manteniesse la cavallería en su derecho hasta que el
                     rey Artur reinó que passó a todos los reyes de bondad que ante dél fueron,
                     aunque muchos reinaron entre el uno y el otro. El autor dexa reinado a Lisuarte
@@ -142,9 +142,9 @@
                     assí amava ella a él.En tal guisa que una hora nunca de amar le se dexaron, mas
                     el Donzel delmarque no conoscía ni sabía nada de como ella le amava, teníase por
                     muy osado en aver en ella puesto su pensamiento según la gradeza y hermosura
-                    suya sin cuidar de ser olado a le dezir una sola palabra.Y ella ue lo amavade
+                    suya sin cuidar de ser olado a le dezir una sola palabra.Y ella ue lo amava de
                     corazon guardavase de fablar com el más que con otro, porque ningúna cosa
-                    sespechassen. Mas los ojos avían gran plazer y mostrar al corazón la cosa del
+                    sospechassen. Mas los ojos avían gran plazer y mostrar al corazón la cosa del
                     mundo que mas amava. Assí bivían encubiertamente sin que de su hazienda ningua
                     cosa el uno al otro se dixessen. Pues passando el tiempo como os digo entendió
                     el Donzel del mar en sí que ya podría tomar armas, si oviesse quien le hiziesse
@@ -162,7 +162,7 @@
                     complir esso que avéis dicho, no se essorçaría mi coraçón para lo ser. Y pues a
                     la vuestra mereced soy criado complid en esto conmigo lo que devéis, sino
                     buscare otro que lo haga. El rey que temió que assi lo haría dixo, Donzel del
-                    Mar, yo se cuando os será menester que lo seáis y más vuesra honra, prométoos os
+                    Mar, yo se cuando os será menester que lo seáis y más vuestra honra, prométoos os
                     que lo haré, y en tanto atatiar seban vuestras aramas y aparejos. Pero ¿a quién
                     cuidádaves vos ir? El rey Perión dixo él, que me dizen es buen cavallero y
                     casado con la hermana de la reina mi señora, y hazerle he saber cómo era cirado
@@ -179,13 +179,13 @@
                     mis ojos la miraron, pues que periendo la su lubre con la muerta pagarán,
                     aquella gran locure en que al coraçón ha puesto. Y assí estando cuasi sin ningún
                     sentido, entró un Donzel, y díxole, Donzel del Mar allí fuera está una donzella
-                    estraña que os trae donas y os quiere ver. Él quiso salir a ella, más aquella
+                    estraña que os trae donas y os quiere ver. Él quiso salir a ella, mas aquella
                     que lo amava cuando lo oyó estremeicósele el coraçón, de manera que si en ello
                     alguno mirara pudiera bien ver su grand alteración, más tal cosa no la
                     pensavan.Y ella dixo, Donzel del Mar quedad y entre la donzella y veremos las
                     donas. Él estuvo quedo, y la donzella entró.Y ésta era la que embiava Gandales,
                     y dixo, Señor Donzel del Mar vuestro amo Gandales vos saludo mucho, assí como
-                    aquel que os ama, y embíaos esta espada y este annilo y esta cera, y ruégaos que
+                    aquel que os ama, y embíaos esta espada y este anillo y esta cera, y ruégaos que
                     trayáis esta espada en cuanto vos durare por su amor.Él tomó las donas y puso el
                     anilo y la cera en su regaço y començó a desenbolver del espada un paño de lino
                     que la cobría maravillándose se cómo no traía vaina y en tanto Oriana tomó la
@@ -214,12 +214,12 @@
                     guerrea, y es con todo su poder en mi tierra, y acógese en la Desierta, y viene
                     con él Danagel su coermano, y ambos han tan gran gente ayuntada conrta mí, que
                     mucho me son menester parientes y amgios, assí por aver en la guerra mucha gente
-                    de la mía perdido, como por me fallescer otros muchos en que me fiava.Languines
+                    de la mía perdido, como por me fallescer otros muchos en que me fiava. Languines
                     le dixo: hermano mucho me pesa de vuestero mal, y yo vos faré ayuda como mejor
                     puediere.Agrajes era ya cavallero y fincando los inojos ante su padre dixo:
                     Señor yo os pido un don. Y él que lo amava como a sí dixo, Fijo demanda lo que
                     quisieres.Demándoos, Señor, que me otorguéis que yo vaya a defender a la reina
-                    mi tía. Yo lo otorgo dixo él: te embiaré lo mas horraadamente y más apuesto que
+                    mi tía. Yo lo otorgo dixo él: te embiaré lo mas horradamente y más apuesto que
                     yo pudiere. El rey Perión fue ende muy alegre. </p>
             </div>
         </body>
