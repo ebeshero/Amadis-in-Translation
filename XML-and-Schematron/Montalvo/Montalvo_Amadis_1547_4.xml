@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+ <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href= "../Amadis.sch" type= "application/xml" schematypens= "http://purl.oclc.org/dsdl/schematron"?>
@@ -116,111 +116,257 @@
                         mucha honra fuere recebido. </p>
                 </argument>
                 <p> La embaxada oída por el rey Lisuarte ayudándole su suegro con gran flota en la
-                    mar entró. Por donde navegando fue aportado del reino de Escocia. Donde con mucha
-                    honra el re Languines recebido fue. Este Lisuarte traía conmigo a Brisena su
-                    mujer y una hija que en ella ovo cuando en Denmarcha morara que Oriana avía
-                    nombre de años. La más hermosas criatura que núnca le vio.Tanto que fue la que
-                    sin par se llamo porque en su tiempo ninguna ovo que igual fuesse y porque ve
-                    la mar enojada andava acordó de la dexar allí rogando al rey Languines y la
-                    reina que gela guardassen. Ellos fueron muy alegres dello y la reina dixo: Creed
-                    que yo guardaré como su madre lo haría. Y entrando Lisuarte en sus naos con
-                    mucha priessa en la Gran Bretana arriabado y halló algunos que los estorvaron
-                    como hazer se suele en semejantes casos y por esta causa en se membró de su hija
-                    por algun tiempo. y fue el rey con gran trabajo que aí tomó y fue el mejor rey
-                    que ende ovo ni que mejor manteniesse la cavallería en su derecho hasta que el
-                    rey Artur reinó que passó a todos los reyes de bondad que ante dél fueron,
-                    aunque muchos reinaron entre el uno y el otro. El autor dexa reinado a Lisuarte
-                    con muchas paz y sossiego en la Gran Bretana y torna al Donsel del Mar que esta
-                    sazón era de doce anos, y e su gradeza y miembros parescía bien de de quinze. Él
+                    mar entró/ Por donde navegando fue aportado del reino de Escocia: Donde con
+                    mucha honra el rey Languines recebido fue. Este Lisuarte traía conmigo a Brisena
+                    su mujer y una hija que en ella ovo cuando en Denmarcha morara que Oriana avía
+                    nombre de años: La más hermosas criatura que núnca le vio.Tanto que fue la que
+                    sin par se llamó porque en su tiempo ninguna ovo que igual fuesse y porque ve la
+                    mar enojada andava acordó de la dexar allí rogando al rey Languines y la reina
+                    que gela guardassen/ Ellos fueron muy alegres dello y la reina dixo: Creed que
+                    yo guardaré como su madre lo haría.Y entrando Lisuarte en sus naos con mucha
+                    priessa en la Gran Bretana arriabado y halló algunos que los estorvaron como
+                    hazer se suele en semejantes casos y por esta causa en se membró de su hija por
+                    algun tiempo/ y fue el rey con gran trabajo que aí tomó y fue el mejor rey que
+                    ende ovo ni que mejor manteniesse la cavallería en su derecho hasta que el rey
+                    Artur reinó que passó a todos los reyes de bondad que ante dél fueron, aunque
+                    muchos reinaron entre el uno y el otro. El autor dexa reinado a Lisuarte con
+                    muchas paz y sossiego en la Gran Bretana y torna al Donsel del Mar que esta
+                    sazón era de doce anos: y en su gradeza y miembros parescía bien de quinze. Él
                     servía ante la reina y assí della como todas las duenas y donzellas era mucho
-                    amado. Más que allí fue Oriana la hija del rey Lisuarte diole la Reina al Donzel
+                    amado/ Más que allí fue Oriana la hija del rey Lisuarte diole la Reina al Donzel
                     del Mar que la sirviesse, diziendo: Amiga ese es un donzel que la servirá. Ella
-                    dijo que la plazía. El donzel tuvo esta palabra en su corazón de tal guisa que
+                    dijo que la plazía. El donzel tuvo esta palabra en su coraçón de tal guisa que
                     después nunca de la memoria la apartó que sin falta assí como esta historia lo
-                    dize, en días que su vida no fue enojado de la servir y en ella su corazon fue
-                    siempre otorgado, y este amorburo quanto ellos turaron, que assí como la amava
-                    assí amava ella a él.En tal guisa que una hora nunca de amar le se dexaron, mas
+                    dize: en días que su vida no fue enojado de la servir y en ella su corazon fue
+                    siempre otorgado: y este amorburo quanto ellos turaron: que assí como la amava
+                    assí amava ella a él. En tal guisa que una hora nunca de amar le se dexaron, mas
                     el Donzel delmarque no conoscía ni sabía nada de como ella le amava, teníase por
                     muy osado en aver en ella puesto su pensamiento según la gradeza y hermosura
-                    suya sin cuidar de ser olado a le dezir una sola palabra.Y ella ue lo amava de
-                    corazon guardavase de fablar com el más que con otro, porque ningúna cosa
-                    sospechassen. Mas los ojos avían gran plazer y mostrar al corazón la cosa del
+                    suya sin cuidar de ser olado a le dezir una sola palabra/ Y ella que lo amava de
+                    coraçón guardavase de fablar com el más que con otro: porque ningúna cosa
+                    sospechassen. Mas los ojos avían gran plazer y mostrar al coraçón la cosa del
                     mundo que mas amava. Assí bivían encubiertamente sin que de su hazienda ningua
                     cosa el uno al otro se dixessen. Pues passando el tiempo como os digo entendió
-                    el Donzel del mar en sí que ya podría tomar armas, si oviesse quien le hiziesse
+                    el Donzel del Mar en sí que ya podría tomar armas, si oviesse quien le hiziesse
                     cavallero.Y el desseava él cosiderando que él sería tal y haría tales cosas por
                     donde muriesse,o biviendo su señora le preciaría, y con este desseo fue al rey
-                    que en una huea estava y hincados los insojos le dixo: Señor si a vos pluguiesse
-                    tiempo sería de ser yo cavallero. El rey dixo: ¡Como Doznel del Mar!, ¿ya os
+                    que en una huela estava y hincados los insojos le dixo: Señor si a vos pluguiesse
+                    tiempo sería de ser yo cavallero: El rey dixo: ¡Como Doznel del Mar!, ¿ya os
                     esforzáis para mantener cavallería? Sabed que es ligero de aver y grae de
                     mantener. Y quien este nombre de cavallería ganar quiesse y mantenerlo en su
                     honra, tantas y tan graves son las cosas que ha de fazer, que muchas vezes se le
-                    enoja el corazón, si tal cavallero es que por miedo o codicia dexa hazer lo que
-                    conviene,más le valdría la muerte, que en verguença bivir,y por ende ternía por
-                    bien que por algún tiempo os sufráis. El Donzel del Mar le dixo, ni por todo
+                    enoja el coraçón, si tal cavallero es que por miedo o codicia dexa hazer lo que
+                    conviene: más le valdría la muerte: que en verguença bivir,y por ende ternía por
+                    bien que por algún tiempo os sufráis. El Donzel del Mar le dixo: ni por todo
                     esso no dexaré yo de ser cavallero ue si en mi pensamiento no tuviesse de
                     complir esso que avéis dicho, no se essorçaría mi coraçón para lo ser. Y pues a
-                    la vuestra mereced soy criado complid en esto conmigo lo que devéis, sino
-                    buscare otro que lo haga. El rey que temió que assi lo haría dixo, Donzel del
-                    Mar, yo se cuando os será menester que lo seáis y más vuestra honra, prométoos os
-                    que lo haré, y en tanto atatiar seban vuestras aramas y aparejos. Pero ¿a quién
-                    cuidádaves vos ir? El rey Perión dixo él, que me dizen es buen cavallero y
-                    casado con la hermana de la reina mi señora, y hazerle he saber cómo era cirado
+                    la vuestra mereced soy criado complid en esto conmigo lo que devéis: sino
+                    buscare otro que lo haga. El rey que temió que assi lo haría dixo: Donzel del
+                    Mar: yo sé cuando os será menester que lo seáis y más vuestra honra: prométoos
+                    os que lo haré: y en tanto atatiar seban vuestras aramas y aparejos. Pero ¿a
+                    quién cuidádaves vos ir? El rey Perión dixo él: que me dizen es buen cavallero y
+                    casado con la hermana de la reina mi señora: y hazerle he saber cómo era cirado
                     della y con esto pensava y yo que de grado me amaría cavallero. Agora dixo el
-                    rey estad ue cuando sazóm fuere horadamente lo seréis. Y luego mandó que le
-                    aparejassen las cosas a la orden de cavallería necessarías, hizo saber a
+                    rey estad ue cuando sazón fuere honradamente lo seréis. Y luego mandó que le
+                    aparejassen las cosas a la orden de cavallería necessarías: hizo saber a
                     Sandales todo cuanto con su cirado le contesciera, de que Gandales fue muy
-                    algre, y embibóle por una donzella la espada y en anillo y la carta embuelta en
+                    alegre: y embibóle por una donzella la espada y en anillo y la carta embuelta en
                     la cera como lo hallara en el arca donde a él balló. Y estando un día la hermosa
                     Oriana con otras dueñas y donzellas en el palacio holgando, en tanto que la
-                    reina dormía era allí con ellas del Donzel del mar, que solo catar no osava a su
-                    señora y dezía entre sí, ¡Ay dios! ¿Por que vos plugo de poner tanta beldad en
+                    reina dormía era allí con ellas del Donzel del Mar: que solo catar no osava a su
+                    señora y dezía entre sí: ¡Ay dios! ¿Por que vos plugo de poner tanta beldad en
                     esta señora, y en mí tan grand cuita y dolor por causa della? En fuerte punto
-                    mis ojos la miraron, pues que periendo la su lubre con la muerta pagarán,
+                    mis ojos la miraron, pues que periendo la su lubre con la muerta pagarán:
                     aquella gran locure en que al coraçón ha puesto. Y assí estando cuasi sin ningún
-                    sentido, entró un Donzel, y díxole, Donzel del Mar allí fuera está una donzella
+                    sentido, entró un Donzel: y díxole: Donzel del Mar allí fuera está una donzella
                     estraña que os trae donas y os quiere ver. Él quiso salir a ella, mas aquella
-                    que lo amava cuando lo oyó estremeicósele el coraçón, de manera que si en ello
-                    alguno mirara pudiera bien ver su grand alteración, más tal cosa no la
-                    pensavan.Y ella dixo, Donzel del Mar quedad y entre la donzella y veremos las
-                    donas. Él estuvo quedo, y la donzella entró.Y ésta era la que embiava Gandales,
-                    y dixo, Señor Donzel del Mar vuestro amo Gandales vos saludo mucho, assí como
-                    aquel que os ama, y embíaos esta espada y este anillo y esta cera, y ruégaos que
+                    que lo amava cuando lo oyó estremeicósele el coraçón: de manera que si en ello
+                    alguno mirara pudiera bien ver su grand alteración: más tal cosa no la
+                    pensavan.Y ella dixo: Donzel del Mar quedad y entre la donzella y veremos las
+                    donas. Él estuvo quedo: y la donzella entró.Y ésta era la que embiava Gandales,
+                    y dixo: Señor Donzel del Mar vuestro amo Gandales vos saludo mucho, assí como
+                    aquel que os ama: y embíaos esta espada y este anillo y esta cera, y ruégaos que
                     trayáis esta espada en cuanto vos durare por su amor.Él tomó las donas y puso el
                     anilo y la cera en su regaço y començó a desenbolver del espada un paño de lino
                     que la cobría maravillándose se cómo no traía vaina y en tanto Oriana tomó la
-                    cera, que o creía que aí otra cosa oviese, y díxole, esto quiero destas donas. A
+                    cera, que o creía que aí otra cosa oviese: y díxole: esto quiero destas donas. A
                     él pluguiera más tomara el anillo, que era uno de los hermosos del mundo. Él
-                    mirando la espada entró el rey y idjo, ¿Donzel de Mar que os parece dessa
-                    espada? Señor paréseme muy hermosa, más no sé por qué está fin vaina. Bien ha
+                    mirando la espada entró el rey y dixo: ¿Donzel de Mar que os parece dessa
+                    espada? Señor paréseme muy hermosa: más no sé por qué está fin vaina. Bien ha
                     quinze años dixo el rey que no la ovo. Y tomándole por la mano le apartó con el
-                    y díxole: Vos queréis ser cavallero y no sabéis si de derecho os conviene, y
+                    y díxole: Vos queréis ser cavallero y no sabéis si de derecho os conviene: y
                     querio que sepaéis vuestra haziendo como yo lo sé. Yo contóle como fuera en la
                     mar hallado con aquella espada y anillo en el arca metido y allí como lo oístes.
-                    Dixo él, yo creo lo que me dezís por que aquella donzella me dixo que mi amo
+                    Dixo él: yo creo lo que me dezís por que aquella donzella me dixo que mi amo
                     Gandales me embiava esta espada y yo pensé que errara en su palabra en me no
                     dezir que mi padre. Mas a mí no pesa de quanto me dezís, sí no por no conoscer
                     mi lenaje, ni ellos a mí. Pero yo me tengo por hidalgo, que mi coraçón a ello me
-                    essfuerça. Y ahora, señor, me conviene más que ante cavallería, y ser tal que
-                    gane honra y prez, como quel no sabe parte de donde viene y como sí todos los y
+                    essfuerça. Y ahora: señor/ me conviene más que ante cavallería, y ser tal que
+                    gane honra y prez: como quel no sabe parte de donde viene y como sí todos los y
                     mi lenaje muertos fuessen, que por tales los cuento, pues no me conoscen, ni yo
                     a ellos. El rey creyó que sería hombre bueno, y essorçado para todo bien, y
                     estando en estas hablas vino en cavallero que le dixo: Señor, el Rey Perión de
                     Gaula es venido en vuestra casa. ¿Cómo en mi casa? dixo el rey. En vuestro
                     palacio está dixo el cavallero. Él fue allá muy aína como aquella que sabía
-                    honrar a todos, y como se vieron saludáronse ambos, y Anguines le dixo: Señor ¿a
+                    honrar a todos: y como se vieron saludáronse ambos, y Anguines le dixo: Señor ¿a
                     qué venistes a et tierra tan si sospecha? Vine a buscar amigos dixo el Rey
-                    Perión ca los he menester agora más que nunca, que el Rey Abiés de Irlanda me
-                    guerrea, y es con todo su poder en mi tierra, y acógese en la Desierta, y viene
-                    con él Danagel su coermano, y ambos han tan gran gente ayuntada conrta mí, que
+                    Perión ca los he menester agora más que nunca: que el Rey Abiés de Irlanda me
+                    guerrea: y es con todo su poder en mi tierra: y acógese en la Desierta, y viene
+                    con él Danagel su coermano, y ambos han tan gran gente ayuntada conrta mí: que
                     mucho me son menester parientes y amgios, assí por aver en la guerra mucha gente
-                    de la mía perdido, como por me fallescer otros muchos en que me fiava. Languines
+                    de la mía perdido: como por me fallescer otros muchos en que me fiava. Languines
                     le dixo: hermano mucho me pesa de vuestero mal, y yo vos faré ayuda como mejor
-                    puediere.Agrajes era ya cavallero y fincando los inojos ante su padre dixo:
+                    puediere. Agrajes era ya cavallero y fincando los inojos ante su padre dixo:
                     Señor yo os pido un don. Y él que lo amava como a sí dixo, Fijo demanda lo que
-                    quisieres.Demándoos, Señor, que me otorguéis que yo vaya a defender a la reina
+                    quisieres.Demándoos/ Señor,que me otorguéis que yo vaya a defender a la reina
                     mi tía. Yo lo otorgo dixo él: te embiaré lo mas horradamente y más apuesto que
-                    yo pudiere. El rey Perión fue ende muy alegre. </p>
+                    yo pudiere. El rey Perión fue ende muy alegre. El Donzel del Mar que aí estava
+                    mirava mucho al rey Perión: no por pardre que no lo sabía/mas por la gran bondad
+                    de armas que dél oyera dezir/ y mas desseava ser cavallero y su mano que de otro
+                    ninguno que en el mundo fuesse. Y creyó que el ruego de la reina valdría mucho
+                    para ello. Mas halládola muy triste por la pérdida de su hermana/no le quiso
+                    hablar: y fuese donde su señora Oriana era/ y hincados los inojos ante ella
+                    dixo. Señora Oriana ¿podría yo por vos saber la causa de la tristeza que la
+                    reina tiene? Oriana que assí vio ante sí aquel que más que a sí amava/sin que él
+                    ni otro alguno lo suspiesse/ al coraçón gran sobresalto le ocurrió: y díxole:
+                    ¡Ay Donzel del Mar! esta es la primera cosa que me demadastres: y yo la faré de
+                    buena voluntad. Él y señora dixo él que yo no soy tan osado/ ni dino de a tal
+                    señora ninguna cosa pedir: sino hazer lo que por vos me fuere mandado. ¡Y
+                    incómo! dixo ella ¿tan flaco es vuestro coraçón: que para rogar no basta? Tan
+                    flaco dixo él que en todas las cosas contra vos me deve fallescer: sino en vos
+                    servir como aquel que sin ser suyo es todo vuestro. Mío dixo ella: ¿desde
+                    cuando? Desde cuando os plugo dixo él.Y como me plugo dixo Oriana: Acuérdese
+                    señora dixo el Donzel que el día que aquí vuestro padre partió me tomó la reina
+                    por la mano: y poniéndome ante vos dixo. Este Donzel os doy que os sirva: y
+                    dexistres que os plazía: desde entonces me tengo y me terné por vuestro para os
+                    servír: sin que otro ni yo mismo sobre mí señorío tenga en cuanto biva. Essa
+                    palabra dixo ella tomastes vos con menor entendimiento que a la fin que se dixo/
+                    mas bien me plaze que assí sea.Él fue tan atónito del plazer que ende vuestro
+                    que no supo responder ninguna cosa: y ella vio que todo señorío tenía sobre él:
+                    y él dél partiendo se fue a la reina/ y supo que la causa de su tristeza era por
+                    la pérdida y su hermana: lo cual tornando al Donzel del Mar le manifestó. El
+                    Donzel le dixo. Si a vos señora pluguiesse que yo fuesse cavallero/ sería en
+                    ayuda dessa hermana de la reina: otorgándome vos la ida. Y si la yo no otorgasse
+                    dixo ella ¿no iríades allå?: no dixo ella: porque este mí vencido coraçón sin el
+                    favor de cuyo es: no pordría ser sostenido en ninuna afrenta: ni ahun sin ella.
+                    Ella se rió con buen semblante y díxole pues que assí os he ganado otórgoos que
+                    seaís mi cavallero: y ayudeís aquella hermana de la reina. El Donzel le besó las
+                    mans: y dixo, pues que el rey mi señor no me ha querido bazer cavallero: mas a
+                    mi voluntad lo podría agora ser deste rey Perión a vuestro ruego. Yo faré en
+                    ello lo que pudiere dixo ella: mas menester será de lo dezir a la infanta Mabilia
+                    que su ruego mucho valdrá ante el rey su tío. Entonces se fue a ella y díxole
+                    cómo el Donzel del Mar quería ser cavallero por mano del rey Perión: y que avía
+                    menester para ello el reugo suyo dellas Mabilia que muy animosa era: y al Donzel
+                    amava de sano amor dixo. Pues hagámoslo por él que lo meresce: y véngase a la
+                    capilla de mi madre armado de todas armas: y nos le haremos compañía con otras
+                    donzellas: y queriendo el rey Perión cavalgar para se ir que según he labido
+                    será antes del alva: yo le embiaré rogar que me vea: y allí hará el nuestro
+                    reugo: con mucho es cavallero de buenas maneras. Bien dezís dixo Oriana: y
+                    llamado entrambas al Donzel le dixeron cómo lo tenían acordado: él se lo tuvo en
+                    merced. Allí le partieron de aquella habla en que todos tres fueron acoradados:
+                    y el Donzel llamó a Gandalín y díxole. Hermano lleva mis armas todas a la
+                    capilla de la reina encuibertamente: que pienso esta noche ser cavallero: y
+                    porque en la hora me convienve de aquí partir: quiero saber si querrás y irte
+                    conmigo.Señor yo os digo que a mí grado nunca de vos seré partido. Al Donzel le
+                    vinieron las lágrimas a los ojos y besóle en la faz y díxole. Amigo agora haz lo
+                    que te dixe. Gandalín puso las armas en la capilla en tanto que la reina cenava:
+                    y los manteles alçados: fuese el Donzel a la capilla y armóse de sus armas todas
+                    salvo la cabeça y las manos y hizo su oración ante el altar rogando a Dios que
+                    assí en las armas: como en aquellos mortales desseos que por su señora tenía le
+                    diesse victoria. Desque la reina fue a dormir Oriana y Mabilia con algunas
+                    donzellas se fueron a él por le acompañar. Y como Mabilia supo que el rey Perión
+                    quería cavalgar embióle dezir que la viesse ante. Él vino luego, y díxole
+                    Mabilia. Señor hazed lo que los rogare Oriana hija del rey Lisuarte. El rey dixo
+                    que de grado lo haría: que el merescimiento de su padre a ello le obigava.
+                    Oriana vino ante el rey: y como la vio tan hermosa bien creía que en el mundo su
+                    igual no se podría hallar y dixo. Yo vos quiero pedir un don. De grado dixo el
+                    rey lo haré. Pues hazedme esse mi donzel cavallero: y mostróselo: que de
+                    rodillas ante el altar estava. El rey vio el Donzel tan hermoso que mucho fue
+                    maravillado: y llegándose a él dixo. Queréis recebir orden de cavallería: Quiero
+                    dixo él: en el nombre a Dios: y él mande que tan bien empleada en vos sea y tan
+                    crecida en honra como él los os cresció en fermosura: y poniéndole la espuela
+                    diestra le dixo. Agora sois cavallero/ y la espada podeís tomar: el rey la tomó
+                    y diógela: y el Donzel la ciñó muy apuestmente y el rey dixo: cierto este acto y
+                    os armar cavallero y según vuestro gesto y aparencia como mayor honra lo
+                    quisiera aver fecho/ mas yo espero en Dios que vuestra fama será tan que dará
+                    testimonio de lo que con más honra se devía hazer: y Mabilia y Oriana quedaron
+                    muy alegres y besaron las manos al rey: y encomedando el donzel a dios se fue su
+                    camino. Aqueste fue el comienço de los amores deste cavallero y desta infanta: y
+                    si al que lo leyere estas palabras simples le paresieren no se maraville dello:
+                    porque no sólo a tan tierna edad como la suya: mas a otros que con gran
+                    discreción muchas cosas en este mundo passsaron el grande desasiado amor tuvo
+                    tal fuerça/ que el sentido y la lengua en semejantes autos les fue turbado. Assí
+                    que con mucha razón ellos en las dezir: y el autor en más polidas no las
+                    escrevir deven ser sin culpa: porque a cada cosa se deve dar lo que
+                    conviene.Seyendo armado cavallero el Donzel del Mar como de suso es dicho: y
+                    queriéndose despedir de Oriana su señora y de Mabilia y de las otras donzellas:
+                    que con él en la capilla velaron: Oriana que le parescía partírsele el coraçón:
+                    sin selo dar a entender le sacó aparte y le dixo. Donzel del Mar yo os tengo por
+                    tan bueno que no creyo que seaís hijo de Gandales: si ál en ello sabeís
+                    dezídmelo. El Donzel le dixo de su haziendo aquello que del rey Languines
+                    supiera: y ella quedando muy alegre en lo saber lo encomendó a Dios/ y él halló
+                    a la puerta del palacio a Gandalín que le tenía la lança y el escudo y el
+                    cavallo: y cavalgando en él se fue su vía: sin que de ninguno visto fuesse: por
+                    ser ahún noche: y anduvo tanto que entró por una floresta donde el medio día
+                    passado comió de lo que Gandalín le lleava: y seyendo ya tarde oyó a su diestra
+                    parte unas bozes muy dolorosas: como de hombre que gran cuita sentía: y fue aína
+                    contra allá: y en el camino halló un cavallero muerto y passando por él vio otro
+                    que estava mal llagado: estava sobre el una muger que la hazía dar las bozes/
+                    mentiéndole las manos por las llagas: y quando el cavallero vio al Donzel del
+                    Mar y dixo. Al señor cavallero acorredme: y no me dexeís assí matar y esta
+                    alevosa: el donzel le dixo. Tiraos afuera dueña/ que os no coviene lo que
+                    hazeís. Ella se apartó/ y el cavallero quedó amortecido: y el Donzel del Mar
+                    decendió del cavallo/ que mucho dessava saber quién fuesse: y tomó al cavallero
+                    en sus braços: y tanto que acordado fue dixo.O señor muerto soy/ y llevadme
+                    donde aya consejo de mi amlma. El donzel le dixo. Señor cavallero essforçad: y
+                    dezidme si os pluguiere qué fortuna es esta y que estáis. La que yo quise tomar
+                    dixo el cavallo/ que yo siendo rico y de gran linaje casé con aquella muger que
+                    vistes/ por grande amor que le avía: seyendo ella en todo al contrario: y esta
+                    nocha passada iváseme con aquel cavallor que allí muerto yaze: que le nunca vi
+                    sino esta nocha que se aposentó conmigo.Y desupés que en battla lo maté: díxle
+                    que la perdonaría si jurava de no me fazer más tuerto ni dehonra. Y ella assí lo
+                    otorgó: mas de que vio írseme tanta sangre y las feridas que no tenía essfuerço:
+                    quísome matar mentiendo en ellas las manos: assí que soy muerto y ruégoos que me
+                    llevéis aquí adelante donde mora un hermanitaño que curará de mi alma. El Donzel
+                    lo hizo cavalgar ante Ganalín: y cavalgó y fuéronse yendo contra la hermita: mas
+                    la mala muger madrara dezir a tres hermanos suyos que viniessen por aquel camino
+                    con recelo y su marido que tras ella iría: y éstos encontráronla: y preguntaron
+                    como anduava assí. Ella dixo/ ay señores acorredme por dios que aquel mal
+                    cavallero que allí va: mató esse que aí véis: y a mi señor lleva tal como
+                    muerto: y Id tras éll y mataldo: y un hombre que consigo lleva: que hizo tanto
+                    mal como él. Esto dexia ella proque muriendo ambos no se sabría su maldad/ que
+                    su marido no sería creído.Y calvalgando en su palafrén se fue con ellos por se
+                    los mostrar.El Donzel del Mar dexara ya el cavallero en la hemrita/ y tornava a
+                    su camino: mas vio como la donzella venía con los tres cavallero que dezían.
+                    Estad traidores estad. Mentís dixo él: que traidor no soy: antes me defenderé
+                    bien de traición: y venid a mí como cavalleros.Traidor dixo él delantero: todos
+                    te devemos hazer mal/ y assí lo faremos.El Donzel del Mar que su escudo tenía y
+                    yelmo enlazado dexóse ir al primero y él a él: y heriólo en el escudo tan
+                    duramente que se lo passó: y el braço en que lo tenía: y derribó a él y al
+                    cavallo en tierra tan bravamente que el cavallo ovo la espalda diestra quebrada/
+                    y el cavallo de la gran caída la una pierna de guisa que el uno ni el otro le
+                    pudieron levantar: quebró la lança: y echó mano a su espada que le guardara
+                    Gandlaes: y dexóse ir los dos: y ellos a él: y encontráronle en el escudo que
+                    gelo falsaron: mas no el arnés que fuerte era. Y el Donzel hirió al uno por cima
+                    del escudo: y cortóse fasta la embraçadura/ y la espada alançó en el ombro: de
+                    guisa que con la punta le cortó la carne y los huessos que el arnés no le valió:
+                    y al tirar la espada fue el cavallero en tierra: y fuesse al otro que lo hería
+                    con su espada: y diole por cima del yelmo: y hirióle de tanta fuerça en la
+                    cabeça que le hizo abraçar con la cerviz del cavallo/y déxole caer por no le
+                    atender otro golpe: y la alevosa quiso fuir: mas el Donzel del Mar dio bozes a
+                    Gandalín que la tomasse. El cavallero que a pie estava dixo. Señor no sabemos si
+                    esta batalla fue a derecho a tuerto. A derecho no podía ser dixo él/ que aquella
+                    muger mala matava a su marido. Engañados somos dixo él y dad os sergurança y
+                    sabréis la razón por que os acometimos. La segurança dixo os doy: mas no os
+                    quito la batalla. El cavallero le contó la causa por que a él vinieron.Y el
+                    Donzel se santiguó muchas vezes de lo oír/ y díxoles lo que sabía: y vees aquí
+                    su marido en esta hermita que assí como yo vos lo dirá. Pues que assí es dixo el
+                    cavallero: nos seamos en la vuestra mereced. Esso no haré yo si no juráis como
+                    leales cavalleros/ que llevaréis este cavallero herido y a su muger con él a
+                    casa del rey Languines: y diréis quanto della acontesció: y que la embía un
+                    cavallero novel que oy salió de la villa donde él es: y que mande hazer lo que
+                    por bien tuviere. Esto otrogaron los dos: y el oro después que muy malo lo
+                    sacaron debaxo del cavallo.</p>
             </div>
         </body>
     </text>
