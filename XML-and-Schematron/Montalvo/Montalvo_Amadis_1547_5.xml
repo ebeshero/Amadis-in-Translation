@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="">
+                <head>Capítulo V <locus from="xlii-r" to="xlv-r"/><!-- change to folio numbers -->
+                </head>
+                <argument>
+                    <p> Cómo Urganda la Desconocida una lança al Donzel del Mar </p>
+                </argument>
+                <p> Dio el Donzel del mar su escudo yelmoa Gandalín: y fuese su vía y no aduvo mucho
+                    que vino una donzella en su palafrén y traía una lança con una trena: y vio otra
+                    donzella que con ella se juntó: que por otro camino venía: y viniéronse ambas
+                    fablando conta él: y como llegaron la donzella de la lança le dixo. Señor tomad
+                    esta lança: y dígoos que ante de tercero día haréis con ella tales golples
+                    porque libraréis la casa onde primero salistes: él fue maravillado de lo que
+                    dezía: y dixo. Donzella la casa ¿cómo puede morir ni bivir? assí será como lo yo
+                    digo dixo ella: y la lança os dó por algunas merecedes que de vos espero. La
+                    primera será quando hizierdes una honrra a un vuestro amigo por donde será
+                    puesto en la mayor afrenta y peligro que fue puesto cavallero passados ha diez
+                    años. Donzella dixo él: tal honra no haré yo a mi amgio si Dios quisiere. Yo sé
+                    bien dixo ella que assí acadscerá como o lo yo digo: y dando de las espuelas al
+                    palafrén se fue su vía: y sabed que ésta era Urganda la Desconocida: la otra
+                    donzella quedó con él y dixo. Señor cavallero/ lo de tierrra estraña y si
+                    quisierdes aguardaros he fasta terecero día: y dexaré de ir donde es mi señora.
+                    Y ¿dande sois vos? dixo él de Denmarcha dixo la donzella: y él conosció que
+                    dezía verdad en su lenguaje: que algunas vezes oyera hablar a su señora Oriana
+                    quando era más niña: y dixo. Donzella bien me plaze si por afán no lo tuvierdes:
+                    y preguntóale si conosció la donzella que la lanza le dio. Ella dixo que la
+                    nunca viera sino entonces: mas que le díxera que la traía para el mejor
+                    cavallero del mundo y díxome:</p>
+            </div>
+        </body>
+    </text>
+</TEI>
