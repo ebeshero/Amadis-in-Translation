@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="">
+                <head>Capítulo VI <locus from="xiii" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Cómo el Donzel del Mar se combatió con los peones del cavallero que Galpano
+                        se llamava: y después con su hermanos del señor del castillo y con el mismo
+                        señor. </p>
+                </argument>
+                <p> Pues llegando el Donzel del Mar cerca del castillo vio venir contra él una
+                    donzella haziendo muy gran duelo: y con ella un escudero y un donzel que la
+                    guardavan: la donzella era muy hermosa: y de hermosos cabellos: y ívalos
+                    messando. El Donzel del Mar le dixo: amiga que es la causa de tan grande cuita:
+                    ay señor dixo ella es tanto el mal que vos lo no puedo dezir. Dezídme lo dixo
+                    él: y si con derecho vos puedo remediar hazer lo he. Señor dixo ella: yo vengo
+                    con madando de mi señor a un cavallero mançebo de los buenos que agora se saben:
+                    y tomáronme allí quatro peones: y llevándome al castillo fue escarnida de una
+                    traidor: y sobre todo hízome jurar que no aya otro amigo en tanto que él biua.
+                    El Donzel la tomó por el freno: y díxole. Venid conmigo: daros de derecho si
+                    puedo: y tomándola por la rienda se fue con ella hablando: diziéndole quién era
+                    el cavallero a quien el mandado llevava. Saber lo heis dixo ella: si me vengáis:
+                    y dígovos que es él tal/ que avrá mucha cuita quando mi deshonrra él supiere:
+                    derecho es dixo el Donzel del Mar. Malos traidores porque herzistes mal a esta
+                    donzella: por quanto no ovimos miedo dixeron ellos de le vos dar derecho. Agora
+                    lo veréis dixo él: y metió mano a la pesada/ y dexóse ir a ellos: y dio a uno
+                    que alçava una hacha para se herir tal golpe: que el braço le cortó: y le echó
+                    en tierra. Él cayó dando bozes después hirió a otro por las narizes al través
+                    que le cortó hasta las orejas: quando los dos esto vieron começaron de huir
+                    contra un río por una xara espessa. Él metió su espada en la vaina: y tomó la
+                    donzella por el freno y dixo Vamos adelante. La donzella le dixo: aquella cerca
+                    aí una puerta donde vi dos cavalleros aramados. Sea dixo él: que verlos quiero:
+                    entonces dixo: donzella venid emps de mí: y no temáis. Y entrando por la puerta
+                    del castillo vio un cavallero aramado ante si que cavalgava en un cavallo: y
+                    salido fuera echaron tras él una puerta colgadiza. Y el cavallero le dixo con
+                    gran sobervía: venid recebiréis vuestra deshonrra/ dexemos esso dixo el Donzel
+                    al que saberlo puede: mas pregúntoos si sois el que hizo fuerça a esta donzella.
+                    Ao dixo el cavallero: mas que lo fuesse que sería por ende: Vengarla yo dixo él
+                    si pudiesse: pues ver quiero yo como os combatis: y dexóse a él ir quanto el
+                    cavallo levar lo pudo: y fallesció de su golpe: y el Donzel del Mar lo hirió con
+                    su lança en el esucdo tan fuerte mente que ninguna arma que traxesse le
+                    aprovechó/ y passóle el hierro a las espaldas y dio con él muerto en tiera:
+                    sacando la lança del se fue a otro cvallero que contra él venía diziendo: en mal
+                    punto acá entrastes: y el cavallero lo hirió en el escudo que se lo passó: mas
+                    detúvose el hierro en el arnés que era fuerte: mas él le hirió de guisa con su
+                    lança en el yelmo y derribóselo de la cabeça: y el cavallero fue a tierra sin
+                    detenencia ninguna: y como assí se vio/ començo a dar grandes bozes: y salieron
+                    tres peones armados de una cámara: y díxoles matad este traidor: ellos le hic
+                    ieron el cavallo de manera que le derribaron con él: mas levantándose muy sañudo
+                    de su cavallo que le mataran fue ferir al cavallero con su lança en la cara: que
+                    el hierro salió entre la oreja y el pescueço y cayó luego/ y tornó a los de pie
+                    que le herían/ y lo avían llagado en la una espalda: donde perdía mucha sangre:
+                    mas tanta era su saña que lo no sentía: y hirío con su espada aquel lo llagara
+                    por la cabeça: de manera que la oreja le cortó y la faz: y quanto le alanço: y
+                    la espada descedió hasta los pechos: y los otros dos fueron contra el corral:
+                    diziendo a grandes bozes. Venid señor venid: que todos somos muertos. El Donzel
+                    del Mar cavalgó en el cavallo del cavallero que matara: y fue en pos dellos: y
+                    vio a una puerta un cavallero desarmado que le dixo/ que es esso cavallero:
+                    venistes aquí a me matar mis bombres: Vine dixo él por vengar esta donzella de
+                    la fuerça que aquí le hizieron: si hallaré aquel que gela hizo. La donzella
+                    dixo. Señor esse es por quien yo soy escarnida. El Donzel del Mar le dixo. Ay
+                    cavallero sobervió lleno de villanía agora comparéis la maldad que hezistes.
+                    Armadvos luego/ si no matarvos he assí desarmado: que con los malos como vos se
+                    se devía tener templança. Ay señor dixo la donzella matadle a esse traidor: y no
+                    deis lugar a que mas mal haga/ ue ya todo sería a vuestro cargo. Ay mala dixo el
+                    cavallo en punto malo él vos creyó. y con vos vino: y entrose en un gran
+                    palacio: y dixo. Vos cavallero atendedme: y no huyáis: que en ninguna parte me
+                    podréis guarecer. Yo vos digo dixo el Donel del Mar si vos yo de aquel fuyere.
+                    que me no dexéis en ningun lugar de los mas guardados: y no tardó mucho que lo
+                    vio venir encima de un cavallo blanco/ y él todo armado que le no fallescía
+                    nada/ y venía diziendo/ ay cavallero mal andante: en mal punto vistes la
+                    donzella: que aquí perderéis la cabeça.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
