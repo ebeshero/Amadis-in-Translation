@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="10">
+                <head>Capítulo XI <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como el Donzel del Mar fue conocido por el rey Perión su padre y por su
+                        madre Elisena. </p>
+                </argument>
+                <p> Al comiençó ya se contó como el rey Perión dio a la reina Elisena siendo su
+                    amiga uno de dos anillos que el traía en su mano tal el uno como el otro: sin
+                    que en ellos ninguna diferencia pareciesse: y como al tiempo que el ODnzel del
+                    Mar fue en el río lançado en el arca llevó al cuello aquel anillo: y como
+                    después le fue dado con la pesada al Donzel por su mano Gandales: y el rey
+                    Perión avía perguntado a la reina algunas vezes por el anillo: y ella con
+                    verguença que no supiesse donde la pusiera dezía le que lo avía perdido: pues
+                    assí acaeció que passando el Donzel del Mar por una sala hablando con su
+                    donzella vio a melicia hija del rey niña que estava llorando/ y preguntóle que
+                    avía.La niña dixo. Señor perdí un anillo que el rey me dio aguardar en tanto que
+                    él duerme. Pues yo vos daré dixo él otro tan bueno o mejor que le déis. Entonces
+                    sacó de su dedo un anillo y dioselo: ella dixo. Este es él que yo perdí: no es
+                    dixo él. Pues es el anillo del mundo que mas le paresce dixo la niña. Por esto
+                    esta mejor dixo él Donzel del mar/ que en lugar del otro le daréis: y
+                    dexándolase fue con la donzella a su cámara: y cortóse en un lecho y ella en
+                    otro que ende avía. El rey despertó y demando a su hija que le diesse el anillo/
+                    y ella le dio aquel que tenía: él lo metió en su dedo creyendo que el suyo
+                    fuesse: mas vio hazer a uno cabo de la cámara el otro que su hija perdió: y
+                    tomando lo juntólo con el otro vio que era él que el a la reina avía dado: y
+                    dixo a la niña: como fue esto del te anillo: ella que mucho le temía dixo.Por
+                    dios señor el vuestro perdí yo/ y passó por aquel Donzel del mar: y como vio que
+                    yo loorava diome esse que le traía: y yo pens´que el vuestro era. El rey uno
+                    sospecha de la reina: que la gran bondad del Donzel del Mar: junto con la su muy
+                    demasía de hermosura no la oviessen puesto en algun pensamiento indevido: y
+                    tomando su espada entró en la cámara de la reina y cerrada la puerta dixo. Dueña
+                    vos me negastes siempre el anillo que os yo diera: y el Donzel del Mar a lo dado
+                    agora a Melicia: como pudo ser esto que véis le aquí: dezidme de que parte le
+                    ovo/ y si me mentis vuestra cabeça lo pagara. La reina que ayudado lo vio cayó a
+                    sus pies/ y díxole. Aí señor por Dios merced: pues de mi mal sospecháis: ahora
+                    vos diré la mi cuita que fasta aquí os uno negado. Entonces començó de llorar
+                    muy rezió: heriendo con sus mano en el rostro: y dixo como echara su hio en el
+                    río/ y que llevara consigo el espada y aquel anillo. Para sancta maria dixo el
+                    rey: yo creo que este es nuestro hijo. La reina tenido las manos diziendo. Assí
+                    pluguiesse al señor del mundo: agora vamos allá vos y yo dixo el rey: y
+                    pregunttemos le de su hazienda. Luego fueron entran bososlos a la cámara donde
+                    él estava: y fallaronlo durmiendo muy assossegadamente: y la reina no hazía sino
+                    llorar por la sspecha que tanto conra razón della se tomara. Mas el rey tomó en
+                    su mano la espada que a la cabecera de la cama era puesta: y cantándola/ la
+                    conoció luego: coo aquel que con ella diera muchos golpes y buenos: y dixo
+                    contra la reina por dios esta espada conzco yo bien: y adora creo mas lo que me
+                    dexistes.Ay señor dixo la reina no le dexemos mas dormir: que mi coraçón se
+                    aquexa mucho y fue para él y tomándole por la mano tiróle un poco contra si
+                    diziendo. Amigo señor acorredme en esta priessa y congoxa en que esto y. El
+                    despertó viola muy reziamente llorar y dixo. Señora que es esso que avéis: si mi
+                    servicio puede algo remediar mandámelo: que hasta la muerte se cumplirá. Aí
+                    amigo dixo la reina pues agora nos acorred con vuestra palabra en dezir cuyo
+                    hijo sois. assí dios me ayude dixo él no lo se que yo fui fallado en la mar por
+                    gran aventura. La reina cayó a sus pies toda turbada/ y él hincó los inojos ante
+                    ella y dixo. Aí dios que es esto. Ella dixo llorando: hijo ves aquí tu padre/ y
+                    madre. Cuando él esto oyó dixo. Santa María que será esto que oyó: la reina
+                    teniéndolo entre sus braços tornó y dixo. Es hijo que quiso dios por su merced
+                    que cobrassemos aquel yerro que por gran miedo yo hize: y mi hijo yo como mala
+                    madre os eche en la mar: y véis aquí el rey que os engendro. Entonces hincó los
+                    inojos: y les beso las manos con muchas lágrimas de plazer: dando gracias a Dios
+                    porque assí le avía sacando de tantos peligros para enlafin le dar tanta honrra
+                    y buena ventura con tal padre y madre. La reina le dixo. Hijo sabéis vos si
+                    avéis otro nombre sino este: señora si se dixo él: que al partir de la batalla
+                    me dio aquella donzella una carta que lleve embuelta en cera cuando en la mar
+                    fui echado: en que dize llamarme Amadis. Entonces sacándola de su sen sela dio:
+                    y vieron como escriviera/ y dixo. Mi amado hijo cuando esta carta se escrinió
+                    era yo en toda cuita y dolor: y agora soy en toda folgança y alegría: bendito
+                    sea dios: y de aquí adelante por este nombre vos llamad. Assí lo haré dixo él/ y
+                    fue llamado Amadis: y en otras muchas partes Amadis de Gaula. El plazer que
+                    Agrajes su primo con estas nuevas uno y todos los otros del reino sería escusado
+                    de dezir: que hallando los hijos perdidos aunque reuessados y mal condicionados
+                    sean reciben los padres y los parientes con solación y alegría. Pues mirad que
+                    tal podía ser con él que en todo el mundo era un claro y luziente espejo. Assí
+                    que dexando de mas hablar en esto contaremos los que después acaeció. La
+                    donzella de Denamarcha dixo. Amadis señor yo me quiero ir con estas buenas
+                    nuevas: de que mi señora aura gran plazer: y vos quedad a dar gozo y alegría
+                    aquellos ojos/ que a hilo por la faz le cayan: y dixo. Mi amiga a dios vayáis en
+                    comendada: y a vos encomiendo mi vida que della ayáis piedad/ que a mi señora
+                    agora me hizo: y yo seré allá a la servir muy presto con otras tales armas como
+                    en la batalla del rey Abies tuve: por donde me podáis conocer sino oviere lugar
+                    para lo saber de mi Agrajes assí mesmo se despidió del/ diziéndole como la
+                    Donzella a quien él dio la cabeça de Galpano en vengança de la deshonrra que le
+                    hizo: le traxo mandado de Olinade su señora hija del rey Ganaín de Avrvega ue
+                    leugo la fuesse a ver. La cual él ganara por amiga al tiempo que él y su tío del
+                    Galvanes fueron en aquel reino. Este don Galvanes era hermano de su padre: y
+                    porque no avía mas heredad de un pobre castllo llamavan le Galvaanes sin tierra/
+                    y díxole. Señor primo mas quisiera yo vuestra compañía que otra cosa mas mi
+                    coraçón que en mucha cuita es no m dexa sino que vaya a ver aquella que cerca o
+                    lexos siempre en su poder esto: y quiero saber de vos donde os podría hallar
+                    cuando buelva: señor dixo Amadis creo que me hallaréis en la casa del rey
+                    Lisuarte que me dizen ser allí mantenida cavallería en la mayor alteza que en
+                    ninguna casa de rey ni empador que en el undo aya: y ruégoos que me encomendéis
+                    al rey vuestro padre y madre y que assí comoa vos en su srvicio me pueden contar
+                    por la cirança que me hizieron. Entonces se despidio Agrajes del rey y de la
+                    reina su tia: y cavalgando con su compañía/ y el rey y Amadis con el por le
+                    hazer honra: saliendo por al puerta de la villa econtraaron una donzella que
+                    tomando al rey por el freno le dixo. Miembra te rey que te dixo una donzella que
+                    cuando cobrasses te pedida: pedería al señorío de irlanda su flor: y cata si
+                    dixo verdad que cobraste este hijo que pedido tenías: y murrió aquel esforçado
+                    rey Abies: que la flor de Irlanda era. E aun mas te digo que la nunca cobrara
+                    por señor que aí aya hasta que venga el buen hermano de la señora que hara aí
+                    venir soberviosamente por fuerça de armas parias de otra tiera: y este morira
+                    por mano de aquel que srá muerto por la cosa del mundo que mas amara. este fue
+                    marlote de Irlanda hermano de la reina de Irlanda: aquel que mato Cristan de
+                    leonis sobre las parias que al rey Mars de Cornvalla su tio demandava/ y tristan
+                    murió después por causa de la reina y leo que era la cosa del mundo que él mas
+                    amava. Y esto te embía a dezir Urganda mi señora. Amadis le dixo. Donzella dezid
+                    a vuestra señora/ que se le encomienda muchho el cavallero a quien dio la lança:
+                    y que agora veo ser verdad lo que me dixo: que con ella libraría la casa donde
+                    primero salí: que libre al rey mi padre que en punto de muerte estava. La
+                    donzella se fue su via: y Agrajes despedido del rey y de Amadis donde le
+                    dexaremos basta su tiempo. El rey Perión mando llegar cortes porque todos
+                    viessen a su hijo Amadis: donde se hizieron muchas alegrías y juegos en honor y
+                    servicio de aquel señor que dios les diera: con el cual y con su padre esperavan
+                    vivir en mucha honra y descansó: allí supo Amadis como el gigante llevarar a don
+                    Galaor su hermano: y puso en su voluntad de punar mucho por saber que se
+                    hiziera: y le obrar por fuerça de armas o en otra cualquier manera que menester
+                    fuesse muchas cosas se hizieron en aquellas cortes y muchos y grandes dones el
+                    rey en ellas dio que sería largo de contar. En fin de las cuales Amadis habló
+                    con su padre diziendo que él se quería ir a la gran bretaña: que pues no tenia
+                    necessidad le diesse licencia. Mucho trabajo el rey y la reina por lo detener:
+                    mas por ninguna via pudieron/ que la gran cuita que por su señora passavan no le
+                    deava/ ni dava lugar a que otra obediencia tuviesse sino aquella que su coraçón
+                    sojuzgava: y tomando consigo solamente a Gandalín/ y otras tales armas como las
+                    que el rey Abies le despedaçara en la batalla assí partió: y anduvo tanto hasta
+                    que llegó a la mar: y entrando en una susta en la gran bretaña aportó a una
+                    buena villa que avía nombre Brestoya y allí supo como el rey Lisuarte era en una
+                    su villa que se llamava Gindillisora: y que estava muy poderoso y muy
+                    acompañíado de buenos cavalleros: y que todos los mas reyes de las insulas le
+                    obedecian. Él partió de allí: y entró en su camino/ mas no anduvo mucho por él:
+                    que halló una donzela que le dixo. Es este el camino de Bristoya: si dixo él:
+                    por ventura sabéis si fallaría allí alguna susta que pudiesse passar en Gaula: a
+                    que vaís allá dixo él/ voy a demandar por un buen cavalero hijo del rey Gaula:
+                    que ha nombre Amadis: y no ha mucho que se conosció con su padre. El se
+                    maravillo y dixo. Donzella por quien sabéis vos esso: por aquella que las cosas
+                    esconder no se le pueden y supo antes su hacienda que él ni su padre/ que es
+                    Uranda la desconocida: y ha le tanto menester que sipor él no: por otro ninguno
+                    puede cobrar lo que mucho dessea: a dios merced dixo él porque aquella a quien
+                    han menester todos/ me aya menester a mí. Sabed donzella que yo soy él que
+                    demandáis: y agora vamos por do quisierdes como dixo ella: vos sois el que yo
+                    husco: yo soy sin falta dixo él. Pues seguid me dixo la donzella/ y llevaros he
+                    donde es mi señora. Amadis dexo su camino: y entró por él que la donzella le
+                    guiava. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

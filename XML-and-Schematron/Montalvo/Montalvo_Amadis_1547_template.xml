@@ -13,7 +13,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-               
+
                 <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
                         Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
                     from the Biblioteca Virtual de Andalucía. This text is very similar to the text
@@ -29,14 +29,15 @@
                     century. Evidence in the form of character names and references in poetry dates
                     to the fourteenth century. The primitive or medieval Amadís is now thought to be
                     Castilian and not Portuguese or French. The attribution to Portuguese knight
-                    Vasco de Lobeira is now known to be apocryphal.<ptr target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"/>
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
                 </p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>This
-                    digital critical edition seeks to reproduce the reading experience of the
+                <p>This digital critical edition seeks to reproduce the reading experience of the
                         <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
                     which Robert Southey worked for his translation in order to facilitate
                     comparisons. The following modifications have been made to the 1547 print
@@ -106,16 +107,32 @@
     </teiHeader>
     <text>
         <body>
-            <div type="chapter" xml:id="">
-                <!--st this is a problem because it is a template-->
-                <head>Capítulo <!-- put Roman numeral here --> <locus from="xlii-r" to="xlv-r"/><!-- change to folio numbers -->
+            <div type="chapter" xml:id="11">
+                <head>Capítulo XI <locus from="xlii-r" to="xlv-r"/>
                 </head>
                 <argument>
-                    <p> <!-- put chapter heading (argument) here --> </p>
+                    <p> Como el gigante lleava a amar cavallero a Galaor por la mano del rey
+                        Lisuarte: el cual le armó cavallero muy hornadamente Amadís. </p>
                 </argument>
-                <p>
-                    <!-- transcribe the text of the chapter in here -->
-                </p>
+                <p> Con Galaor estando con el gigante como vos contamos aprendiendo a cavalgar: y a
+                    esgremir: y todas las otras cosas que a cavallero convenían: seyendo ya en ello
+                    muy diestro: el año cumplido: que el gigante por plazo le pusiera. Él le dixo:
+                    padre agora os ruego que me hagáis cavallero/ pues yo he atendido lo que
+                    mandastes: el gigante que vio ser ya tiempo díxole. Hijo plaze me de lo hazer/ y
+                    dezid me quien es vuestra voluntad que lo haga: el rey Lisuarte dixo él: de
+                    quien tanta fama corre: yo os llevaré allá dixo el gigante: y al terero día
+                    eniendo todo el aprejo partieron de allí/ y fueron su camino: y al quinto día
+                    falláronse cerca de un castillo muy fuerte que estava sobre una gua salada: y el
+                    cestillo avía nobre Bradoyd: y era el mas hermoso que avía en toda aquella
+                    tierra: y era assentado en un alta peña: y de la una parte corría aquel agua: y
+                    della otra avía un gran tremedal: y de la parte del agua no podían entrar si no
+                    por harca y de contra el tremedal avía una calçada tan ancha/ que podía ir una
+                    carreta y otra venir: mas a la entrada del tremedal avía una puente estrecha: y
+                    era echadiza: y cuando la alcançavan quedava el agua muy honrada: y a la entrada
+                    de la puente estava dos olmos altos/ y el gigante y Galaor vieron debaxo dellos
+                    dos donzellas y un escudero: y vieron un cavallero armado sobre un cavallo
+                    blanco con unas armas de leones: y llegara a la puente que alçada estava/ y no
+                    podía passar/ y dava bozes a los del castillo. </p>
             </div>
         </body>
     </text>
