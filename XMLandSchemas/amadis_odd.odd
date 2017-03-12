@@ -74,85 +74,6 @@
         
         <!--ebb div element specs-->
         <elementSpec ident="div" module="textstructure" mode="change">
-          <constraintSpec ident="checking-div-ids" scheme="isoschematron">
-            <constraint>
-              <sch:pattern>
-                <sch:let name="M_files" value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
-                <sch:let name="M_ids" value="$M_files//@xml:id"/>
-                <sch:let name="S_files" value="collection('../Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
-                <sch:let name="S_ids" value="$S_files//@xml:id"/>
-                <sch:rule context=".[@type='chapter']">
-                  <!--ebb: adding the predicate in case we ever decide to add more div types-->
-                  <sch:report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
-                  </sch:report>
-                </sch:rule>
-              </sch:pattern>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="checking-Montalvo-chapter-id_starter" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]">
-                <sch:assert test="starts-with(@xml:id, 'M')">The xml:id defined for a Montalvo chapter must begin with the letter M.</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="checking-Southey-chapter-id_starter" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]">
-                <sch:assert test="starts-with(@xml:id, 'S')">The xml:id defined for a Southey chapter must begin with the letter S.</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="checking-Montalvo-ch-numbers" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]">
-               <!--2017-03-11 ebb: The variable conversion and assert test for Roman numeral checking worked in my old Schematron, but xsl:variable isn't working in the ODD context (even in the converted Relax NG XML syntax). I've commented it out here, and will try associating a separate Schematron file as a patch with the ODD-generated schema.-->
-                <sch:let name="M_C" value="substring-after(@xml:id, 'M')"/>
-                <!--<sch:let name="M_Cnum" value="number($M_C)"/>
-                <!-\-2017-03-11 ebb: note: tei_odds doesn't like the xsl:variable stuff here. See if it works on processing anyway, because it worked in my original Schematron.-\->
-                <xsl:variable name="Roman_Cnum">
-                  <xsl:number value="$M_Cnum" format="I"/>
-                </xsl:variable>
-                <sch:assert test="if (tei:head[tei:choice]) then tokenize(tei:head//tei:reg/string(), ' ')[2] eq $Roman_Cnum else compare(tokenize(tei:head/string(), ' ')[2], $Roman_Cnum) eq 0 ">
-                  The @xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>-->
-                <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $M_C)]">
-                  The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="checking-Southey-ch-numbers" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@type='chapter'][contains(@xml:id, 'S')]">
-                <sch:let name="S_Cnum" value="substring-after(@xml:id, 'S')"/>
-                <sch:assert test="contains(tei:head/string(), $S_Cnum)">
-                  The @xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>
-                <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $S_Cnum)]">
-                  The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="Montalvo-locus-presence" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@type='chapter'][contains(@xml:id, 'M')]">
-                <sch:assert test="tei:head/tei:locus">
-                  A Montalvo chapter div must contain a child head element, which must contain a locus element.
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="Montalvo-locus-checking" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@type='chapter'][contains(@xml:id, 'M')]">
-                <sch:assert test="tei:head/tei:locus/matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">
-                  The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'.
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
           <attList>
             <attDef ident="xml:id" mode="change" usage="req"/>
             <attDef ident="type" mode="replace" usage="req">
@@ -172,54 +93,6 @@
             <memberOf key="att.global.rendition" mode="delete"/>
             <memberOf key="att.edition" mode="delete"/>
           </classes>
-          <constraintSpec ident="milestone-distinct-anas" scheme="isoschematron">
-            <constraint>
-             <sch:rule context=".[@unit='said']">
-               <sch:report test="not(@ana)">
-                 Every milestone related to speech (marked with @unit='said') must have an @ana attribute to mark whether this is a start, end, or interruption marker for a spoken passage. 
-               </sch:report>
-             </sch:rule>
-              <sch:rule context=".[@unit='said']">
-                <sch:report test="@ana = preceding::tei:milestone[@unit eq 'said'][@ana][1]/@ana">
-                 For speeches: the @ana must NOT be the same on two subsequent milestones!
-                </sch:report>   
-             </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="milestone_speeches_Sequencing1" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@unit='said'][@ana='start']">
-                <sch:report test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">In tagging speeches, the value of @ana for the next milestone after "start" must never be "intEnd"!
-                </sch:report>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="milestone_speeches_Sequencing2" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@unit='said'][@ana='intStart']">
-                <sch:assert test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">For speeches: After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>      
-       <constraintSpec ident="milestone-start-resp" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@unit='said'][@ana='start']">
-                <sch:assert test="@resp">
-                  A milestone marking the start of a speech must always have an @resp attribute pointing to the #xml:id for the speaker.
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="unclear_speech_resp" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@unit='said'][@ana='start'][@type]">
-                <sch:assert test="@cert">
-                 @cert needs to be present with @type='unclear'. (When the @resp is hard to attribute, set an @type of 'unclear' and add an @cert of "low", "medium" or "unknown".) 
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
           <attList>
             <attDef ident="unit" mode="replace" usage="req">
               <datatype>
@@ -267,104 +140,9 @@
           </classes>
           <constraintSpec ident="anchor-distinct-anas" scheme="isoschematron">
             <constraint>
-             <sch:rule context=".">
-              <sch:report test="@ana = preceding::tei:anchor[1]/@ana">
+              <sch:report test="@ana = preceding-sibling::tei:anchor[1]/@ana">
                 The @ana must NOT be the same on two subsequent anchors!
               </sch:report>   
-            </sch:rule>
-            </constraint>
-          </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Main1" scheme="isoschematron">
-          <constraint>
-            <sch:rule context=".[not(ancestor::tei:note)][preceding::tei:anchor[not(ancestor::tei:note)]]">
-              <sch:report test="matches(@ana, preceding::tei:anchor[not(ancestor::tei:note)][1]/@ana)">
-                The @ana must NOT be the same on two subsequent anchor elements in the main text!</sch:report>
-            </sch:rule>
-          </constraint>
-        </constraintSpec> 
-          <constraintSpec ident="anchor_Sequencing_Notes1" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[ancestor::tei:note][preceding::tei:anchor[ancestor::tei:note]]">
-                <sch:report test="matches(@ana, preceding::tei:anchor[ancestor::tei:note][1]/@ana)">
-                  The @ana must NOT be the same on two subsequent anchor elements within a note! 
-                </sch:report>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="anchor_Sequencing_Main2" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana='start'][ancestor::tei:note]">
-                <sch:report test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations in the main text, the value of @ana for the next anchor after "start" must never be "intEnd"!
-                </sch:report>  
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="anchor_Sequencing_Notes2" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana='start'][not(ancestor::tei:note)]">
-                <sch:report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
-                </sch:report>  
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="anchor_Sequencing_Main3" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana='start'][not(ancestor::tei:note)]">
-                <sch:assert test="following::tei:anchor[@ana eq 'end'][not(ancestor::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">
-                  Every anchor[@ana='start'] must have a correlating anchor[@ana='end'] with the same kind of parent element. 
-                  This prevents ambiguous pairings of anchor elements between main text and notes.</sch:assert> 
-            </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="anchor_Sequencing_Notes3" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana eq 'start'][ancestor::tei:note]">
-                <sch:assert test="following-sibling::tei:anchor[@ana eq 'end']">
-                  Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent.
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="anchor_Sequencing_Main4" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana eq 'intStart'][not(ancestor::tei:note)]">
-                <sch:assert test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!  
-                </sch:assert>
-              </sch:rule>
-            </constraint>            
-          </constraintSpec>
-          <constraintSpec ident="anchor_Sequencing_Notes4" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana eq 'intStart'][ancestor::tei:note]">
-                <sch:assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']"> After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!   
-                </sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="anchor-corresp" scheme="isoschematron">
-            <constraint>
-              <sch:rule context=".[@ana='start'][not(@type='add')]">
-                <sch:report test="not(@corresp)">
-                  An @corresp must be present on this anchor to point to a corresponding unit in Montalvo. This rule applies as long as the anchor is NOT an addition by Southey (@type='add').
-                </sch:report>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>  
-          <constraintSpec ident="checking-corresp-atts" scheme="isoschematron">
-            <constraint>
-              <sch:pattern>
-                <sch:rule context=".[@corresp]">
-                  <sch:let name="M_files" value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
-                  <sch:let name="M_ids" value="$M_files//@xml:id"/>
-                  <sch:let name="tokens" value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
-                  <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
-                    The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
-                  </sch:assert>
-                  <sch:report test="./@corresp = following::tei:anchor/@corresp">
-                    Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
-                  </sch:report>
-                </sch:rule>
-              </sch:pattern>
             </constraint>
           </constraintSpec>
           <attList>
@@ -429,7 +207,235 @@
             <sch:assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</sch:assert>
           </sch:rule>
         </sch:pattern></constraint></constraintSpec>
-       
+        
+        <!--ebb: Schematron rules for chapter divs and div heads-->
+        <constraintSpec ident="checking-div-ids" scheme="isoschematron">
+          <constraint>
+            <sch:pattern>
+              <sch:let name="M_files" value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+              <sch:let name="M_ids" value="$M_files//@xml:id"/>
+              <sch:let name="S_files" value="collection('../Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
+              <sch:let name="S_ids" value="$S_files//@xml:id"/>
+              <sch:rule context="tei:div[@type='chapter']">
+                <!--ebb: adding the predicate in case we ever decide to add more div types-->
+                <sch:report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
+                </sch:report>
+              </sch:rule>
+            </sch:pattern>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="checking-Montalvo-chapter-id_starter" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]">
+              <sch:assert test="starts-with(@xml:id, 'M')">The xml:id defined for a Montalvo chapter must begin with the letter M.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="checking-Southey-chapter-id_starter" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]">
+              <sch:assert test="starts-with(@xml:id, 'S')">The xml:id defined for a Southey chapter must begin with the letter S.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="checking-Montalvo-ch-numbers" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]">
+              <!--2017-03-11 ebb: The variable conversion and assert test for Roman numeral checking worked in my old Schematron, but xsl:variable isn't working in the ODD context (even in the converted Relax NG XML syntax). I've commented it out here, and will try associating a separate Schematron file as a patch with the ODD-generated schema.-->
+              <sch:let name="M_C" value="substring-after(@xml:id, 'M')"/>
+              <!--<sch:let name="M_Cnum" value="number($M_C)"/>
+                <!-\-2017-03-11 ebb: note: tei_odds doesn't like the xsl:variable stuff here. See if it works on processing anyway, because it worked in my original Schematron.-\->
+                <xsl:variable name="Roman_Cnum">
+                  <xsl:number value="$M_Cnum" format="I"/>
+                </xsl:variable>
+                <sch:assert test="if (tei:head[tei:choice]) then tokenize(tei:head//tei:reg/string(), ' ')[2] eq $Roman_Cnum else compare(tokenize(tei:head/string(), ' ')[2], $Roman_Cnum) eq 0 ">
+                  The @xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+                </sch:assert>-->
+              <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $M_C)]">
+                The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="checking-Southey-ch-numbers" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'S')]">
+              <sch:let name="S_Cnum" value="substring-after(@xml:id, 'S')"/>
+              <sch:assert test="contains(tei:head/string(), $S_Cnum)">
+                The @xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+              </sch:assert>
+              <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $S_Cnum)]">
+                The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="Montalvo-locus-presence" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')]">
+              <sch:assert test="tei:head/tei:locus">
+                A Montalvo chapter div must contain a child head element, which must contain a locus element.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="Montalvo-locus-checking" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')]/tei:head/tei:locus">
+              <sch:assert test="matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">
+                The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!--ebb: Schematron rules for milestone and anchor elements -->
+        <!--milestone-->
+        <constraintSpec ident="milestone-distinct-anas" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:milestone[@unit='said']">
+              <sch:report test="not(@ana)">
+                Every milestone related to speech (marked with @unit='said') must have an @ana attribute to mark whether this is a start, end, or interruption marker for a spoken passage. 
+              </sch:report>
+            </sch:rule>
+            <sch:rule context="tei:milestone[@unit='said']">
+              <sch:report test="@ana = preceding::tei:milestone[@unit eq 'said'][@ana][1]/@ana">
+                For speeches: the @ana must NOT be the same on two subsequent milestones!
+              </sch:report>   
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="milestone_speeches_Sequencing1" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:milestone[@unit='said'][@ana='start']">
+              <sch:report test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">In tagging speeches, the value of @ana for the next milestone after "start" must never be "intEnd"!
+              </sch:report>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="milestone_speeches_Sequencing2" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:milestone[@unit='said'][@ana='intStart']">
+              <sch:assert test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">For speeches: After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>      
+        <constraintSpec ident="milestone-start-resp" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:milestone[@unit='said'][@ana='start']">
+              <sch:assert test="@resp">
+                A milestone marking the start of a speech must always have an @resp attribute pointing to the #xml:id for the speaker.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="unclear_speech_resp" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:milestone[@unit='said'][@ana='start'][@type]">
+              <sch:assert test="@cert">
+                @cert needs to be present with @type='unclear'. (When the @resp is hard to attribute, set an @type of 'unclear' and add an @cert of "low", "medium" or "unknown".) 
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!--anchor-->
+        <constraintSpec ident="anchor_Sequencing_Main1" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[not(ancestor::tei:note)][preceding::tei:anchor[not(ancestor::tei:note)]]">
+              <sch:report test="matches(@ana, preceding::tei:anchor[not(ancestor::tei:note)][1]/@ana)">
+                The @ana must NOT be the same on two subsequent anchor elements in the main text!</sch:report>
+            </sch:rule>
+          </constraint>
+        </constraintSpec> 
+        <constraintSpec ident="anchor_Sequencing_Notes1" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[ancestor::tei:note][preceding::tei:anchor[ancestor::tei:note]]">
+              <sch:report test="matches(@ana, preceding::tei:anchor[ancestor::tei:note][1]/@ana)">
+                The @ana must NOT be the same on two subsequent anchor elements within a note! 
+              </sch:report>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="anchor_Sequencing_Main2" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana='start'][ancestor::tei:note]">
+              <sch:report test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations in the main text, the value of @ana for the next anchor after "start" must never be "intEnd"!
+              </sch:report>  
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="anchor_Sequencing_Notes2" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana='start'][not(ancestor::tei:note)]">
+              <sch:report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
+              </sch:report>  
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="anchor_Sequencing_Main3" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana='start'][not(ancestor::tei:note)]">
+              <sch:assert test="following::tei:anchor[@ana eq 'end'][not(ancestor::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">
+                Every anchor[@ana='start'] must have a correlating anchor[@ana='end'] with the same kind of parent element. 
+                This prevents ambiguous pairings of anchor elements between main text and notes.</sch:assert> 
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="anchor_Sequencing_Notes3" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana eq 'start'][ancestor::tei:note]">
+              <sch:assert test="following-sibling::tei:anchor[@ana eq 'end']">
+                Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="anchor_Sequencing_Main4" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana eq 'intStart'][not(ancestor::tei:note)]">
+              <sch:assert test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!  
+              </sch:assert>
+            </sch:rule>
+          </constraint>            
+        </constraintSpec>
+        <constraintSpec ident="anchor_Sequencing_Notes4" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana eq 'intStart'][ancestor::tei:note]">
+              <sch:assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']"> After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!   
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="anchor-corresp" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:anchor[@ana='start'][not(@type='add')]">
+              <sch:report test="not(@corresp)">
+                An @corresp must be present on this anchor to point to a corresponding unit in Montalvo. This rule applies as long as the anchor is NOT an addition by Southey (@type='add').
+              </sch:report>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>  
+        <constraintSpec ident="checking-corresp-atts" scheme="isoschematron">
+          <constraint>
+            <sch:pattern>
+              <sch:rule context="tei:anchor[@corresp]">
+                <sch:let name="M_files" value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+                <sch:let name="M_ids" value="$M_files//@xml:id"/>
+                <sch:let name="tokens" value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
+                <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
+                  The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
+                </sch:assert>
+                <sch:report test="@corresp = following::tei:anchor/@corresp">
+                  Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
+                </sch:report>
+              </sch:rule>
+            </sch:pattern>
+          </constraint>
+        </constraintSpec>
+ 
+
         <!--ebb: The following is a model copied from Syd's slide to show me how to tuck Schematron into ODD-->
        <!-- <elementSpec module="core" ident="anchor" mode="change">
           <constraintSpec ident="subtype-matched-type" scheme="isoschematron">

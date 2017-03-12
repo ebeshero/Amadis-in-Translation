@@ -146,7 +146,7 @@
                      indeed they are;<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c64"/>lest by<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c65_1"/>seeing<anchor ana="end"/>
-                     <anchor ana="start" type="add"/>and hearing,<s ana="end"/>
+                     <anchor ana="start" type="add"/>and hearing,<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c65_2"/>their religious purposes be
                         overcome,<anchor ana="end"/>
                      <anchor ana="start" corresp="#M1_p1_c66"/>and it
@@ -536,13 +536,12 @@
                   <body>
                      <p>
                         <s>
-                           <anchor ana="start" corresp="#M1_ft1_p2_c214_1"/>this is Amadis, <note
+                           <anchor ana="start" corresp="#M1_t1_p2_c214_ft1"/>this is Amadis, <note
                               anchored="true" resp="#Southey">
-                              <anchor ana="start" corresp="#M1_ft1_p2_c214"/>Este es Amadis sin
-                              tiempo, hijo de rey;<anchor ana="end"/>
+                              Este es Amadis sin tiempo, hijo de rey;
                               <anchor ana="start" corresp="#M1_p1_c215"/>y sin tiempo dezia ella
                               porque creya que luego seria muerto.<anchor ana="end"/>
-                           </note><anchor ana="end"/> <anchor ana="start" corresp="#M1_ft1_p2_c214_2"/> son of a King<anchor ana="end"/>
+                           </note><anchor ana="end"/> <anchor ana="start" corresp="#M1_t1_p2_c214_ft2"/> son of a King<anchor ana="end"/>
                         </s>
                      </p>
                   </body>

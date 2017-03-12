@@ -459,8 +459,8 @@
                             <!--2016-06-19 ebb: Verified with Syd Bauman, the error below is a known bug in the TEI, 
                                 which is not properly processing floatingText.-->
                                <p>
-                                <cl xml:id="M1_t1_p2_c214"><seg xml:id="M1_ft1_p2_c214_1">Este es <persName ref="#Amadis">Amadís
-                                    Sin Tiempo</persName></seg> <seg xml:id="M1_ft1_p2_c214_2">hijo de rey:</seg></cl>
+                                   <cl xml:id="M1_t1_p2_c214"><seg xml:id="M1_t1_p2_c214_ft1">Este es <persName ref="#Amadis">Amadís
+                                    Sin Tiempo</persName></seg> <seg xml:id="M1_t1_p2_c214_ft2">hijo de rey:</seg></cl>
                               </p>
                         </body>
                         

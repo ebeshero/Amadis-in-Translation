@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-03-12T02:25:34Z. .
+Schema generated from ODD source 2017-03-12T03:49:43Z. .
 TEI Edition: Version 3.1.0. Last updated on
 	15th December 2016, revision d3f5e70
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -3893,76 +3893,6 @@ Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syl
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks a boundary point separating any kind of section of a text, typically but not necessarily indicating a point at which some part of a standard reference system changes, where the change is not represented by a structural element. [3.10.3. Milestone
 Elements]</a:documentation>
          <empty/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-milestone-milestone-distinct-anas-constraint-rule-10">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@unit='said']">
-               <sch:report test="not(@ana)">
-                 Every milestone related to speech (marked with @unit='said') must have an @ana attribute to mark whether this is a start, end, or interruption marker for a spoken passage. 
-               </sch:report>
-             </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-milestone-milestone-distinct-anas-constraint-rule-11">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@unit='said']">
-                <sch:report test="@ana = preceding::tei:milestone[@unit eq 'said'][@ana][1]/@ana">
-                 For speeches: the @ana must NOT be the same on two subsequent milestones!
-                </sch:report>   
-             </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-milestone-milestone_speeches_Sequencing1-constraint-rule-12">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@unit='said'][@ana='start']">
-                <sch:report test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">In tagging speeches, the value of @ana for the next milestone after "start" must never be "intEnd"!
-                </sch:report>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-milestone-milestone_speeches_Sequencing2-constraint-rule-13">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@unit='said'][@ana='intStart']">
-                <sch:assert test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">For speeches: After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-milestone-milestone-start-resp-constraint-rule-14">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@unit='said'][@ana='start']">
-                <sch:assert test="@resp">
-                  A milestone marking the start of a speech must always have an @resp attribute pointing to the #xml:id for the speaker.
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-milestone-unclear_speech_resp-constraint-rule-15">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@unit='said'][@ana='start'][@type]">
-                <sch:assert test="@cert">
-                 @cert needs to be present with @type='unclear'. (When the @resp is hard to attribute, set an @type of 'unclear' and add an @cert of "low", "medium" or "unknown".) 
-                </sch:assert>
-              </sch:rule>
-         </pattern>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.typed.attribute.subtype"/>
          <ref name="att.spanning.attributes"/>
@@ -4490,7 +4420,7 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
             </choice>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-relatedItem-targetorcontent1-constraint-report-11">
+                  id="AmadisODD-relatedItem-targetorcontent1-constraint-report-8">
             <rule context="tei:relatedItem">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4502,7 +4432,7 @@ relatedItem element must be empty</sch:report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-relatedItem-targetorcontent1-constraint-assert-10">
+                  id="AmadisODD-relatedItem-targetorcontent1-constraint-assert-7">
             <rule context="tei:relatedItem">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4536,7 +4466,7 @@ relatedItem element must be empty</sch:report>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-l-abstractModel-structure-l-constraint-report-12">
+                  id="AmadisODD-l-abstractModel-structure-l-constraint-report-9">
             <rule context="tei:l">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -4594,7 +4524,7 @@ relatedItem element must be empty</sch:report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-lg-atleast1oflggapl-constraint-assert-11">
+                  id="AmadisODD-lg-atleast1oflggapl-constraint-assert-8">
             <rule context="tei:lg">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4605,7 +4535,7 @@ relatedItem element must be empty</sch:report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-lg-abstractModel-structure-l-constraint-report-13">
+                  id="AmadisODD-lg-abstractModel-structure-l-constraint-report-10">
             <rule context="tei:lg">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5191,7 +5121,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
             <ref name="model.pLike"/>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-quotation-quotationContents-constraint-report-14">
+                  id="AmadisODD-quotation-quotationContents-constraint-report-11">
             <rule context="tei:quotation">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6383,99 +6313,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                </group>
             </optional>
          </group>
-         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-                <sch:let name="M_files"
-                     value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
-                <sch:let name="M_ids" value="$M_files//@xml:id"/>
-                <sch:let name="S_files"
-                     value="collection('../Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
-                <sch:let name="S_ids" value="$S_files//@xml:id"/>
-                <sch:rule context=".[@type='chapter']">
-                  
-                  <sch:report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
-                  </sch:report>
-                </sch:rule>
-              </sch:pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-checking-Montalvo-chapter-id_starter-constraint-rule-17">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]">
-                <sch:assert test="starts-with(@xml:id, 'M')">The xml:id defined for a Montalvo chapter must begin with the letter M.</sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-checking-Southey-chapter-id_starter-constraint-rule-18">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]">
-                <sch:assert test="starts-with(@xml:id, 'S')">The xml:id defined for a Southey chapter must begin with the letter S.</sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-checking-Montalvo-ch-numbers-constraint-rule-19">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]">
-               
-                <sch:let name="M_C" value="substring-after(@xml:id, 'M')"/>
-                
-                <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $M_C)]">
-                  The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-checking-Southey-ch-numbers-constraint-rule-20">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@type='chapter'][contains(@xml:id, 'S')]">
-                <sch:let name="S_Cnum" value="substring-after(@xml:id, 'S')"/>
-                <sch:assert test="contains(tei:head/string(), $S_Cnum)">
-                  The @xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>
-                <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $S_Cnum)]">
-                  The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-Montalvo-locus-presence-constraint-rule-21">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@type='chapter'][contains(@xml:id, 'M')]">
-                <sch:assert test="tei:head/tei:locus">
-                  A Montalvo chapter div must contain a child head element, which must contain a locus element.
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-Montalvo-locus-checking-constraint-rule-22">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@type='chapter'][contains(@xml:id, 'M')]">
-                <sch:assert test="tei:head/tei:locus/matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">
-                  The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'.
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-abstractModel-structure-l-constraint-report-16">
+                  id="AmadisODD-div-abstractModel-structure-l-constraint-report-12">
             <rule context="tei:div">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -6486,7 +6325,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-div-abstractModel-structure-p-constraint-report-17">
+                  id="AmadisODD-div-abstractModel-structure-p-constraint-report-13">
             <rule context="tei:div">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7036,7 +6875,7 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-s-noNestedS-constraint-report-18">
+                  id="AmadisODD-s-noNestedS-constraint-report-14">
             <rule context="tei:s">
                <report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -7347,138 +7186,17 @@ Suggested values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] 
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anchor point) attaches an identifier to a point within a text, whether or not it corresponds with a textual element. [8.4.2. Synchronization and Overlap 16.5. Correspondence and Alignment]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor-distinct-anas-constraint-rule-23">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".">
-              <sch:report test="@ana = preceding::tei:anchor[1]/@ana">
+                  id="AmadisODD-anchor-anchor-distinct-anas-constraint-report-15">
+            <rule context="tei:anchor">
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                           test="@ana = preceding-sibling::tei:anchor[1]/@ana">
                 The @ana must NOT be the same on two subsequent anchors!
-              </sch:report>   
-            </sch:rule>
+              </sch:report>
+            </rule>
          </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Main1-constraint-rule-24">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[not(ancestor::tei:note)][preceding::tei:anchor[not(ancestor::tei:note)]]">
-              <sch:report test="matches(@ana, preceding::tei:anchor[not(ancestor::tei:note)][1]/@ana)">
-                The @ana must NOT be the same on two subsequent anchor elements in the main text!</sch:report>
-            </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Notes1-constraint-rule-25">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[ancestor::tei:note][preceding::tei:anchor[ancestor::tei:note]]">
-                <sch:report test="matches(@ana, preceding::tei:anchor[ancestor::tei:note][1]/@ana)">
-                  The @ana must NOT be the same on two subsequent anchor elements within a note! 
-                </sch:report>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Main2-constraint-rule-26">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana='start'][ancestor::tei:note]">
-                <sch:report test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations in the main text, the value of @ana for the next anchor after "start" must never be "intEnd"!
-                </sch:report>  
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Notes2-constraint-rule-27">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana='start'][not(ancestor::tei:note)]">
-                <sch:report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
-                </sch:report>  
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Main3-constraint-rule-28">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana='start'][not(ancestor::tei:note)]">
-                <sch:assert test="following::tei:anchor[@ana eq 'end'][not(ancestor::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">
-                  Every anchor[@ana='start'] must have a correlating anchor[@ana='end'] with the same kind of parent element. 
-                  This prevents ambiguous pairings of anchor elements between main text and notes.</sch:assert> 
-            </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Notes3-constraint-rule-29">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana eq 'start'][ancestor::tei:note]">
-                <sch:assert test="following-sibling::tei:anchor[@ana eq 'end']">
-                  Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent.
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Main4-constraint-rule-30">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana eq 'intStart'][not(ancestor::tei:note)]">
-                <sch:assert test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!  
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor_Sequencing_Notes4-constraint-rule-31">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana eq 'intStart'][ancestor::tei:note]">
-                <sch:assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']"> After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!   
-                </sch:assert>
-              </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="AmadisODD-anchor-anchor-corresp-constraint-rule-32">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context=".[@ana='start'][not(@type='add')]">
-                <sch:report test="not(@corresp)">
-                  An @corresp must be present on this anchor to point to a corresponding unit in Montalvo. This rule applies as long as the anchor is NOT an addition by Southey (@type='add').
-                </sch:report>
-              </sch:rule>
-         </pattern>
-         <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-                <sch:rule context=".[@corresp]">
-                  <sch:let name="M_files"
-                        value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
-                  <sch:let name="M_ids" value="$M_files//@xml:id"/>
-                  <sch:let name="tokens"
-                        value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
-                  <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
-                    The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
-                  </sch:assert>
-                  <sch:report test="./@corresp = following::tei:anchor/@corresp">
-                    Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
-                  </sch:report>
-                </sch:rule>
-              </sch:pattern>
          <ref name="att.global.linking.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
          <optional>
@@ -8559,7 +8277,7 @@ Feature Value]</a:documentation>
       </choice>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="AmadisODD-nestedClauses-constraint-rule-34">
+            id="AmadisODD-nestedClauses-constraint-rule-10">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -8569,7 +8287,7 @@ Feature Value]</a:documentation>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="AmadisODD-clauseNumbering-constraint-rule-35">
+            id="AmadisODD-clauseNumbering-constraint-rule-11">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -8581,7 +8299,7 @@ Feature Value]</a:documentation>
             </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="AmadisODD-segIds-constraint-rule-36">
+            id="AmadisODD-segIds-constraint-rule-12">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -8604,4 +8322,286 @@ Feature Value]</a:documentation>
             <sch:assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</sch:assert>
           </sch:rule>
         </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+              <sch:let name="M_files"
+               value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+              <sch:let name="M_ids" value="$M_files//@xml:id"/>
+              <sch:let name="S_files"
+               value="collection('../Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
+              <sch:let name="S_ids" value="$S_files//@xml:id"/>
+              <sch:rule context="tei:div[@type='chapter']">
+                
+                <sch:report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
+                </sch:report>
+              </sch:rule>
+            </sch:pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-checking-Montalvo-chapter-id_starter-constraint-rule-15">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]">
+              <sch:assert test="starts-with(@xml:id, 'M')">The xml:id defined for a Montalvo chapter must begin with the letter M.</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-checking-Southey-chapter-id_starter-constraint-rule-16">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]">
+              <sch:assert test="starts-with(@xml:id, 'S')">The xml:id defined for a Southey chapter must begin with the letter S.</sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-checking-Montalvo-ch-numbers-constraint-rule-17">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:div[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]">
+              
+              <sch:let name="M_C" value="substring-after(@xml:id, 'M')"/>
+              
+              <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $M_C)]">
+                The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-checking-Southey-ch-numbers-constraint-rule-18">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:div[@type='chapter'][contains(@xml:id, 'S')]">
+              <sch:let name="S_Cnum" value="substring-after(@xml:id, 'S')"/>
+              <sch:assert test="contains(tei:head/string(), $S_Cnum)">
+                The @xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+              </sch:assert>
+              <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $S_Cnum)]">
+                The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-Montalvo-locus-presence-constraint-rule-19">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:div[@type='chapter'][contains(@xml:id, 'M')]">
+              <sch:assert test="tei:head/tei:locus">
+                A Montalvo chapter div must contain a child head element, which must contain a locus element.
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-Montalvo-locus-checking-constraint-rule-20">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:div[@type='chapter'][contains(@xml:id, 'M')]/tei:head/tei:locus">
+              <sch:assert test="matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">
+                The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'.
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-milestone-distinct-anas-constraint-rule-21">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:milestone[@unit='said']">
+              <sch:report test="not(@ana)">
+                Every milestone related to speech (marked with @unit='said') must have an @ana attribute to mark whether this is a start, end, or interruption marker for a spoken passage. 
+              </sch:report>
+            </sch:rule>
+   </pattern> 
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-milestone-distinct-anas-constraint-rule-22">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:milestone[@unit='said']">
+              <sch:report test="@ana = preceding::tei:milestone[@unit eq 'said'][@ana][1]/@ana">
+                For speeches: the @ana must NOT be the same on two subsequent milestones!
+              </sch:report>   
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-milestone_speeches_Sequencing1-constraint-rule-23">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:milestone[@unit='said'][@ana='start']">
+              <sch:report test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">In tagging speeches, the value of @ana for the next milestone after "start" must never be "intEnd"!
+              </sch:report>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-milestone_speeches_Sequencing2-constraint-rule-24">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:milestone[@unit='said'][@ana='intStart']">
+              <sch:assert test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">For speeches: After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-milestone-start-resp-constraint-rule-25">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:milestone[@unit='said'][@ana='start']">
+              <sch:assert test="@resp">
+                A milestone marking the start of a speech must always have an @resp attribute pointing to the #xml:id for the speaker.
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-unclear_speech_resp-constraint-rule-26">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:milestone[@unit='said'][@ana='start'][@type]">
+              <sch:assert test="@cert">
+                @cert needs to be present with @type='unclear'. (When the @resp is hard to attribute, set an @type of 'unclear' and add an @cert of "low", "medium" or "unknown".) 
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Main1-constraint-rule-27">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[not(ancestor::tei:note)][preceding::tei:anchor[not(ancestor::tei:note)]]">
+              <sch:report test="matches(@ana, preceding::tei:anchor[not(ancestor::tei:note)][1]/@ana)">
+                The @ana must NOT be the same on two subsequent anchor elements in the main text!</sch:report>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Notes1-constraint-rule-28">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[ancestor::tei:note][preceding::tei:anchor[ancestor::tei:note]]">
+              <sch:report test="matches(@ana, preceding::tei:anchor[ancestor::tei:note][1]/@ana)">
+                The @ana must NOT be the same on two subsequent anchor elements within a note! 
+              </sch:report>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Main2-constraint-rule-29">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana='start'][ancestor::tei:note]">
+              <sch:report test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations in the main text, the value of @ana for the next anchor after "start" must never be "intEnd"!
+              </sch:report>  
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Notes2-constraint-rule-30">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana='start'][not(ancestor::tei:note)]">
+              <sch:report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
+              </sch:report>  
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Main3-constraint-rule-31">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana='start'][not(ancestor::tei:note)]">
+              <sch:assert test="following::tei:anchor[@ana eq 'end'][not(ancestor::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">
+                Every anchor[@ana='start'] must have a correlating anchor[@ana='end'] with the same kind of parent element. 
+                This prevents ambiguous pairings of anchor elements between main text and notes.</sch:assert> 
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Notes3-constraint-rule-32">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana eq 'start'][ancestor::tei:note]">
+              <sch:assert test="following-sibling::tei:anchor[@ana eq 'end']">
+                Every anchor[@ana='start'] inside a note must have an anchor[@ana='end'] within the same parent.
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Main4-constraint-rule-33">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana eq 'intStart'][not(ancestor::tei:note)]">
+              <sch:assert test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!  
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor_Sequencing_Notes4-constraint-rule-34">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana eq 'intStart'][ancestor::tei:note]">
+              <sch:assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']"> After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!   
+              </sch:assert>
+            </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AmadisODD-anchor-corresp-constraint-rule-35">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:anchor[@ana='start'][not(@type='add')]">
+              <sch:report test="not(@corresp)">
+                An @corresp must be present on this anchor to point to a corresponding unit in Montalvo. This rule applies as long as the anchor is NOT an addition by Southey (@type='add').
+              </sch:report>
+            </sch:rule>
+   </pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+              <sch:rule context="tei:anchor[@corresp]">
+                <sch:let name="M_files"
+                  value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+                <sch:let name="M_ids" value="$M_files//@xml:id"/>
+                <sch:let name="tokens"
+                  value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
+                <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
+                  The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
+                </sch:assert>
+                <sch:report test="@corresp = following::tei:anchor/@corresp">
+                  Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
+                </sch:report>
+              </sch:rule>
+            </sch:pattern>
 </grammar>
