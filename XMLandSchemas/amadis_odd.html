@@ -6692,6 +6692,7 @@ teidata.xmlName = xsd:NCName</pre></td></tr><tr><td class="wovenodd-col1"><span 
 &lt;sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]"&gt;
 &lt;sch:let name="M_C"
  value="substring-after(@xml:id, 'M')"/&gt;
+&lt;sch:let name="M_Cnum" value="number($M_C)"/&gt;
 &lt;sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $M_C)]"&gt; The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
 &lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
@@ -6794,6 +6795,6 @@ teidata.xmlName = xsd:NCName</pre></td></tr><tr><td class="wovenodd-col1"><span 
 	  Generated from index.xml using XSLT stylesheets version 7.43.0a
 
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2017-03-12T03:49:33Z.
+	       on 2017-03-12T05:18:57Z.
 	       SAXON PE 9.6.0.7.
 		 --></address></div></body></html>

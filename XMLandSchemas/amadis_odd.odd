@@ -243,11 +243,13 @@
             <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]">
               <!--2017-03-11 ebb: The variable conversion and assert test for Roman numeral checking worked in my old Schematron, but xsl:variable isn't working in the ODD context (even in the converted Relax NG XML syntax). I've commented it out here, and will try associating a separate Schematron file as a patch with the ODD-generated schema.-->
               <sch:let name="M_C" value="substring-after(@xml:id, 'M')"/>
-              <!--<sch:let name="M_Cnum" value="number($M_C)"/>
-                <!-\-2017-03-11 ebb: note: tei_odds doesn't like the xsl:variable stuff here. See if it works on processing anyway, because it worked in my original Schematron.-\->
-                <xsl:variable name="Roman_Cnum">
+              <sch:let name="M_Cnum" value="number($M_C)"/>
+                <!---2017-03-11 ebb: note: tei_odds doesn't like the xsl:variable stuff here. See if it works on processing anyway, because it worked in my original Schematron.-->
+              <!--  <xsl:variable name="Roman_Cnum">
                   <xsl:number value="$M_Cnum" format="I"/>
-                </xsl:variable>
+                </xsl:variable>-->
+               <!-- <xsl:number value="$M_Cnum" format="I"/>
+              </sch:let>
                 <sch:assert test="if (tei:head[tei:choice]) then tokenize(tei:head//tei:reg/string(), ' ')[2] eq $Roman_Cnum else compare(tokenize(tei:head/string(), ' ')[2], $Roman_Cnum) eq 0 ">
                   The @xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
                 </sch:assert>-->

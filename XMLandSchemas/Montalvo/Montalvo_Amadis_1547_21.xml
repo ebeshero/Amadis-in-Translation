@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis_RomanNumeralTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -966,7 +965,7 @@
                     <cl xml:id="M21_p2_c412">Amadís se maravilló de la discreción de persona de tan
                         poca edad y dixo la donzella.</cl>
                     <cl xml:id="M21_p2_c413">
-                        <milestone unit="said" ana="start" resp="#anon" type="unclear"/>Cierto yo creo que si bive
+                        <milestone unit="said" ana="start" resp="#anon" type="unclear" cert="unknown"/>Cierto yo creo que si bive
                         avrá en sí dos cosas muy estremadas de las otras que serán ser muy hermosa y
                         de gran seso.<milestone unit="said" ana="end"/>
                </cl>
