@@ -120,40 +120,40 @@
     </rule>
   </pattern>-->
 
-  <pattern>
-    <rule context="tei:anchor[@ana eq 'intStart'][not(ancestor::tei:note)]">
+ <!-- <pattern>
+   <!-\- <rule context="tei:anchor[@ana eq 'intStart'][not(ancestor::tei:note)]">
       <assert test="following::tei:anchor[@ana][not(ancestor::tei:note)][1][@ana eq 'intEnd']">
         After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!
       </assert>
-    </rule>
+    </rule>-\->
     <rule context="tei:anchor[@ana eq 'intStart'][ancestor::tei:note]">
       <assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">
         After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!
       </assert>
     </rule>
-  </pattern>
+  </pattern>-->
 
   
-  <pattern>
+<!--  <pattern>
     <rule context="tei:cl">
       <report test=".//tei:cl">Nested clauses!</report>
     </rule>
-  </pattern>
-  <pattern>
+  </pattern>-->
+ <!-- <pattern>
     <rule context="tei:cl[preceding::tei:cl]">
       <assert test="number(substring-after(@xml:id, '_c')) gt number(substring-after(preceding::tei:cl[1]/@xml:id, '_c'))">
         The clause number on the xml:id (even when a decimal) should be larger than the clause number on the preceding @xml:id.
       </assert>
     </rule>
   </pattern>
-  
-  <pattern>
+  -->
+<!--  <pattern>
     <rule context="tei:seg">
       <assert test="contains(@xml:id, parent::tei:cl/@xml:id)">
         A seg's @xml:id must contain the @xml:id of its cl parent. 
       </assert>
     </rule>
-  </pattern>
+  </pattern>-->
  
   
   <!--ebb 2015-08-27 Rules for Pointing to Other Files and xml:ids-->
@@ -168,45 +168,45 @@
   <let name="S_ids" value="$S_files//@xml:id"/>
 
   
-  <pattern>
+<!--  <pattern>
     <rule context="@ref | @resp">
       <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
       <assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</assert>
     </rule>
-  </pattern>
-
+  </pattern>-->
+<!--
   <pattern>
     <rule context="tei:anchor[@corresp]">
       <let name="tokens" value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
       <assert test="every $token in $tokens satisfies $token = $M_ids">The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!</assert>
       <report test="./@corresp = following::tei:anchor/@corresp">Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed</report>
     </rule>
-  </pattern>
+  </pattern>-->
 
   <pattern>
-    <rule context="tei:div[@type eq 'chapter']">
-      <assert test="@xml:id">
+    <!--  <rule context="tei:div[@type eq 'chapter']">
+     <assert test="@xml:id">
         The chapter div element must contain an @xml:id.
-      </assert>
-      <report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">
+      </assert>-->
+     <!-- <report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">
         Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
       </report>
-      <!--<report test="@xml:id = $S_ids[base-uri() ne ./base-uri()]">
+      <!-\-<report test="@xml:id = $S_ids[base-uri() ne ./base-uri()]">
           Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
-          </report>-->
-    </rule>
-    <rule context="tei:div[@type eq 'chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]/@xml:id">
+          </report>-\->
+    </rule>-->
+   <!-- <rule context="tei:div[@type eq 'chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]/@xml:id">
       <assert test="starts-with(., 'M')">
         The xml:id defined for a Montalvo chapter must begin with the letter M. 
       </assert>
-    </rule>
-    <rule context="tei:div[@type eq 'chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]/@xml:id">
+    </rule>-->
+<!--    <rule context="tei:div[@type eq 'chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]/@xml:id">
       <assert test="starts-with(., 'S')">
         The xml:id defined for a Southey chapter must begin with the letter S. 
       </assert>
     </rule>
-  </pattern>
-
+  </pattern>-->
+<!--
   <pattern>
     <rule context="tei:div[@type eq 'chapter']/@xml:id[contains(., 'M')][not(. eq'M0')]">
       <let name="M_C" value="substring-after(., 'M')"/>
@@ -214,20 +214,20 @@
       <xsl:variable name="Roman_Cnum">
         <xsl:number value="$M_Cnum" format="I"/>
       </xsl:variable>
-      <!-- I think the following might be more concisely and clearly        -->
-      <!-- specified as                                                     -->
-      <!-- tokenize(parent::tei:div/tei:head/string(),' ')[2] eq $Roman_Cnum-->
-      <!-- but I'm not sure, and would need to test; but I'd be inclined to -->
-      <!-- add normalize-space(), too. -sb                                  -->
+      <!-\- I think the following might be more concisely and clearly        -\->
+      <!-\- specified as                                                     -\->
+      <!-\- tokenize(parent::tei:div/tei:head/string(),' ')[2] eq $Roman_Cnum-\->
+      <!-\- but I'm not sure, and would need to test; but I'd be inclined to -\->
+      <!-\- add normalize-space(), too. -sb                                  -\->
       <assert test="if (parent::tei:div/tei:head[tei:choice]) then tokenize(parent::tei:div/tei:head//tei:reg/string(),' ')[2] eq $Roman_Cnum else compare(tokenize(parent::tei:div/tei:head/string(), ' ')[2], $Roman_Cnum) eq 0">
       The @xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!</assert>
       <assert test="contains(tokenize(base-uri(), '_')[last()], $M_C)">
         The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
       </assert>
     </rule>
-  </pattern>
+  </pattern>-->
 
-  <pattern>
+  <!--<pattern>
     <rule context="tei:div[@type eq 'chapter']/@xml:id[contains(., 'S')]">
       <let name="S_Cnum" value="substring-after(., 'S')"/>
       <assert test="contains(parent::tei:div/tei:head/string(), $S_Cnum)">
@@ -237,10 +237,10 @@
         The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
       </assert>
     </rule>
-  </pattern>
+  </pattern>-->
   <pattern>
-    <rule context="tei:div[@type eq 'chapter'][@xml:id[contains(., 'M')]]/tei:head/tei:locus">
+  <!--  <rule context="tei:div[@type eq 'chapter'][@xml:id[contains(., 'M')]]/tei:head/tei:locus">
       <assert test="matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'</assert>
     </rule>
   </pattern>
-</schema>
+</schema>-->

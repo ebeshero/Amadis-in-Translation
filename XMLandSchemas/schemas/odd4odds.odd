@@ -5703,12 +5703,12 @@
               </sequence>
             </content>
             <constraintSpec scheme="isoschematron" ident="classSpec-type-matches-ident">
-              <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="classSpec[ @type eq 'atts']">
+              <constraint><sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="classSpec[ @type eq 'atts']">
                 <sch:assert test="starts-with( @ident,'att.')">an attribute class specification must be about an attribute class</sch:assert>
               </sch:rule>
               <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="classSpec[ @type eq 'model']">
                 <sch:assert test="starts-with( @ident,'model.')">a model class specification must be about a model class</sch:assert>
-              </sch:rule>
+              </sch:rule></constraint>
             </constraintSpec>
             <attList>
               <attDef ident="ident" mode="replace" usage="req">

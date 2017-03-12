@@ -6,6 +6,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
   xmlns:rng="http://relaxng.org/ns/structure/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="2.9.1"
   xml:lang="en">
   <teiHeader>
@@ -58,25 +59,108 @@
                - @include lists the elements from the module that will be included in the schema
                - @except lists the elements from the module that will be excluded from the schema        
         -->
-        <moduleRef key="core" except="addrLine address binaryObject cb divGen postBox postCode sp speaker stage street teiCorpus"/>
-          <!--2016-06-15: attributes in use on milestone are:
-          @unit='p', 'said'
-          @ana='start','end','intStart','intEnd'
-          @resp
-          @type='unclear' with @cert='low', 'medium', 'unknown'
-          -->
-        
+        <moduleRef key="core" except="addrLine address binaryObject cb divGen postBox postCode sp speaker stage street teiCorpus"/>     
         <moduleRef key="tei"/>
         <moduleRef key="header"/>
         <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
         <moduleRef key="analysis" include="cl s"/>
         <moduleRef key="gaiji" include="charDecl char mapping glyph"/>
-        <moduleRef key="transcr" include="facsimile"></moduleRef>
+        <moduleRef key="transcr" include="facsimile supplied"></moduleRef>
         <moduleRef key="linking" include="anchor seg"/>
         <moduleRef key="namesdates" include="listPerson person persName forename surname roleName listPlace place placeName geo"/>
         <moduleRef key="iso-fs"/>
         <moduleRef key="figures" include="figure"/>
         <moduleRef key="msdescription" include="locus"/>    
+        
+        <!--ebb div element specs-->
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <constraintSpec ident="checking-div-ids" scheme="isoschematron">
+            <constraint>
+              <sch:pattern>
+                <sch:let name="M_files" value="collection('./Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+                <sch:let name="M_ids" value="$M_files//@xml:id"/>
+                <sch:let name="S_files" value="collection('./Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
+                <sch:let name="S_ids" value="$S_files//@xml:id"/>
+                <sch:rule context=".[@type='chapter']">
+                  <!--ebb: adding the predicate in case we ever decide to add more div types-->
+                  <sch:report test="@xml:id = $M_ids[not(base-uri() eq current()/base-uri())] | $S_ids[not(base-uri() eq current()/base-uri())]">Fix the xml:id! The xml:id on this document matches another xml:id defined on a different file!
+                  </sch:report>
+                </sch:rule>
+              </sch:pattern>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="checking-Montalvo-chapter-id_starter" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]">
+                <sch:assert test="starts-with(@xml:id, 'M')">The xml:id defined for a Montalvo chapter must begin with the letter M.</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="checking-Southey-chapter-id_starter" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]">
+                <sch:assert test="starts-with(@xml:id, 'S')">The xml:id defined for a Southey chapter must begin with the letter S.</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="checking-Montalvo-ch-numbers" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]]">
+                <sch:let name="M_C" value="substring-after(@xml:id, 'M')"/>
+                <sch:let name="M_Cnum" value="number($M_C)"/>
+                <!--2017-03-11 ebb: note: tei_odds doesn't like the xsl:variable stuff here. See if it works on processing anyway, because it worked in my original Schematron.-->
+                <xsl:variable name="Roman_Cnum">
+                  <xsl:number value="$M_Cnum" format="I"/>
+                </xsl:variable>
+                <sch:assert test="if (tei:head[tei:choice]) then tokenize(tei:head//tei:reg/string(), ' ')[2] eq $Roman_Cnum else compare(tokenize(tei:head/string(), ' ')[2], $Roman_Cnum) eq 0 ">
+                  The @xml:id isn't matching the Roman numeral chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+                </sch:assert>
+                <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $M_C)]">
+                  The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="checking-Southey-ch-numbers" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@type='chapter'][contains(@xml:id, 'S')]">
+                <sch:let name="S_Cnum" value="substring-after(@xml:id, 'S')"/>
+                <sch:assert test="contains(tei:head/string(), $S_Cnum)">
+                  The @xml:id isn't matching the chapter number given in the head element on this Chapter div. One of these must be wrong: check what chapter you're actually working on!
+                </sch:assert>
+                <sch:assert test="@xml:id[contains(tokenize(base-uri(), '_')[last()], $S_Cnum)]">
+                  The chapter number in this file name doesn't match the @xml:id. One of these must be wrong: check what chapter you're actually working on!
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="Montalvo-locus-presence" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@type='chapter'][@xml:id[contains(., 'M')]]">
+                <sch:assert test="tei:head/tei:locus">
+                  A Montalvo chapter div must contain a child head element, which must contain a locus element.
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="Montalvo-locus-checking" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@type='chapter'][@xml:id[contains(., 'M')]]/tei:head/tei:locus">
+                <sch:assert test="matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">
+                  The number of folia must be coded as a Roman numeral (lower case), followed by a hyphen and either the letter 'r' or 'v'.
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="xml:id" mode="change" usage="req"/>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="chapter"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
         
         <!--ebb: milestone element specs -->
         <elementSpec module="core" ident="milestone" mode="change">
@@ -239,14 +323,46 @@
               </sch:rule>
             </constraint>
           </constraintSpec>
-          
+          <constraintSpec ident="anchor_Sequencing_Main4" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@ana eq 'intStart'][not(ancestor::tei:note)]">
+                <sch:assert test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!  
+                </sch:assert>
+              </sch:rule>
+            </constraint>            
+          </constraintSpec>
+          <constraintSpec ident="anchor_Sequencing_Notes4" scheme="isoschematron">
+            <constraint>
+              <sch:rule context=".[@ana eq 'intStart'][ancestor::tei:note]">
+                <sch:assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']"> After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!   
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
           <constraintSpec ident="anchor-corresp" scheme="isoschematron">
             <constraint>
-              <sch:rule context=".[not(@type='add']">
+              <sch:rule context=".[@ana='start'][not(@type='add']">
                 <sch:report test="not(@corresp)">
                   An @corresp must be present on this anchor to point to a corresponding unit in Montalvo. This rule applies as long as the anchor is NOT an addition by Southey (@type='add').
                 </sch:report>
               </sch:rule>
+            </constraint>
+          </constraintSpec>  
+          <constraintSpec ident="checking-corresp-atts" scheme="isoschematron">
+            <constraint>
+              <sch:pattern>
+                <sch:rule context=".[@corresp]">
+                  <sch:let name="M_files" value="collection('./Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
+                  <sch:let name="M_ids" value="$M_files//@xml:id"/>
+                  <sch:let name="tokens" value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
+                  <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
+                    The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
+                  </sch:assert>
+                  <sch:report test="./@corresp = following::tei:anchor/@corresp">
+                    Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
+                  </sch:report>
+                </sch:rule>
+              </sch:pattern>
             </constraint>
           </constraintSpec>
           <attList>
@@ -269,8 +385,30 @@
             </attDef>
           </attList>
         </elementSpec>
-        
-        
+        <constraintSpec ident="nestedClauses" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:cl">
+              <sch:report test="descendant::tei:cl">Nested clauses!</sch:report>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="clauseNumbering" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:cl[preceding::tei:cl]">
+              <sch:assert test="number(substring-after(@xml:id, '_c')) gt number(substring-after(preceding::tei:cl[1]/@xml:id, '_c'))">
+                The clause number on the xml:id (even when a decimal) should be larger than the clause number on the preceding @xml:id.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="segIds" scheme="isoschematron">
+          <constraint>
+            <sch:rule context="tei:seg">
+              <sch:assert test="contains(@xml:id, parent::tei:cl/@xml:id)">
+                A seg's @xml:id must contain the @xml:id of its cl parent. 
+              </sch:assert>
+          </sch:rule></constraint>
+        </constraintSpec>
         <constraintSpec ident="checking-ref-resp-atts" scheme="isoschematron">
           <constraint>  
        <!-- <sch:let name="si" value="doc('SI-Amadis.xml')//@xml:id"/>
@@ -281,8 +419,6 @@
         
         <sch:let name="S_files" value="collection('./Southey')[contains(tokenize(./base-uri(), '/')[last()], 'South')]"/>
         <sch:let name="S_ids" value="$S_files//@xml:id"/>-->
-        
-        
         <sch:pattern>
           <sch:rule context="@ref | @resp">
             <sch:let name="si" value="doc('SI-Amadis.xml')//@xml:id"/>
@@ -291,9 +427,7 @@
             <sch:assert test="every $token in $tokens satisfies $token = $si">The attribute (after the hashtag, #) must match a defined @xml:id in the Site Index file!</sch:assert>
           </sch:rule>
         </sch:pattern></constraint></constraintSpec>
-        
-        
-        
+       
         <!--ebb: The following is a model copied from Syd's slide to show me how to tuck Schematron into ODD-->
        <!-- <elementSpec module="core" ident="anchor" mode="change">
           <constraintSpec ident="subtype-matched-type" scheme="isoschematron">
