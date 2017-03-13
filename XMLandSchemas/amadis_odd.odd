@@ -29,6 +29,7 @@
     <revisionDesc>
       <change who="#ebb" when="2016-06-14">initiated this ODD</change> 
       <change who="#ebb" when="2017-03-11">modified to comply with the tei_odds.rng schema, and to complete schema definitions.</change>
+      <change who="#ebb" when="2017-03-12">incorporated into this ODD the Schematron rules written by Helena Bermúdez Sabel for governing feature structures markup of translation types in this project.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -78,7 +79,9 @@
             <attDef ident="xml:id" mode="change" usage="req"/>
             <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
+                <valItem ident="book"/>
                 <valItem ident="chapter"/>
+                <valItem ident="table"/>
               </valList>
             </attDef>
           </attList>
@@ -165,6 +168,56 @@
             </attDef>
           </attList>
         </elementSpec>
+        <!--feature structures element specs -->
+        <elementSpec ident="f" module="iso-fs" mode="change">
+        <!--2017-03-12 ebb: We are occasionally outputting two <string> elements inside an <f> in feature structures (which contain main text and a note from Southey). However, TEI's content model for <f> permits only one element child, and my schematron rule below doesn't work to counteract that. I'd need to interfere with the RNG content model. And I don't think it's necessary because we can use the <vColl> element instead to wrap the double strings. I'm commenting out the rule, since it doesn't work anyway. --> 
+          <!--<constraintSpec ident="string-children-of-f" scheme="isoschematron">
+            <constraint>
+                  <sch:assert test="count(tei:string) le 2">We permit two string elements as a child of the f element in the special case when a string from the main text is output together with a string from a note.</sch:assert> 
+            </constraint>
+          </constraintSpec>-->
+          <attList>
+            <attDef ident="name" mode="replace" usage="req">
+              <datatype><rng:text/></datatype>
+              <valList type="closed">
+                <valItem ident="montalvo"/>
+                <valItem ident="southey"/>
+                <valItem ident="note"/>
+                <valItem ident="type"/>
+                <valItem ident="subtype"/>
+              </valList>
+            </attDef>
+            <attDef ident="select" mode="replace">
+              <datatype><rng:text/></datatype>
+              <valList type="semi">
+                <valItem ident="literal"/>
+                <valItem ident="approximate"/>
+                <valItem ident="omission"/>
+                <valItem ident="addition"/>
+                <valItem ident="mistranslation"/>
+                <valItem ident="quotation"/>
+                <valItem ident="compressed"/>
+                <valItem ident="cultural"/>
+                <valItem ident="syntax"/>
+                <valItem ident="reported"/>
+                <valItem ident="aesthetic"/>
+                <valItem ident="new"/>
+                <valItem ident="voice"/>
+                <valItem ident="direct"/>
+                <valItem ident="antecedent"/>
+                <valItem ident="annotated"/>
+                <valItem ident="archaism"/>
+                <valItem ident="unnatural"/>
+                <valItem ident="close"/>
+              </valList>
+            </attDef>
+            <attDef ident="ana" mode="replace">
+              <datatype><dataRef key="teidata.numeric"/></datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!--SCHEMATRON OUTSIDE ELEMENT SPECS -->
         <constraintSpec ident="nestedClauses" scheme="isoschematron">
           <constraint>
             <sch:rule context="tei:cl">
@@ -419,24 +472,78 @@
             </sch:rule>
           </constraint>
         </constraintSpec>  
-        <constraintSpec ident="checking-corresp-atts" scheme="isoschematron">
+        <constraintSpec ident="id-checking-corresps" scheme="isoschematron">
           <constraint>
             <sch:pattern>
-              <sch:rule context="tei:anchor[@corresp]">
+              <sch:rule context="*[@corresp]">
                 <sch:let name="M_files" value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
                 <sch:let name="M_ids" value="$M_files//@xml:id"/>
                 <sch:let name="tokens" value="for $i in tokenize(@corresp, '\s+') return substring-after($i,'#')"/>
                 <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
                   The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
                 </sch:assert>
+              </sch:rule>
+            </sch:pattern>
+          </constraint>
+        </constraintSpec>
+       <constraintSpec ident="keep-corresps-distinct" scheme="isoschematron">
+         <constraint>
+           <sch:pattern>
+             <sch:rule context="tei:anchor[@corresp]">
                 <sch:report test="@corresp = following::tei:anchor/@corresp">
                   Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
                 </sch:report>
               </sch:rule>
             </sch:pattern>
           </constraint>
+        </constraintSpec>   
+       <!--feature structures schematron constraints -->
+        <constraintSpec ident="featureStructures" scheme="isoschematron">
+          <constraint>
+            <sch:pattern>
+              <sch:rule context="tei:fs[not(tei:f[@name eq 'note'])]">
+                <sch:assert test="tei:f[@name eq 'type']">An &lt;f&gt; element with @name ='type' is necessary here to declare the type of match.</sch:assert>
+              </sch:rule>
+            </sch:pattern>
+            <sch:pattern>
+              <sch:rule context="tei:f[@name eq 'type']">
+                <sch:assert
+                  test="@select = ('literal', 'approximate', 'omission', 'addition', 'mistranslation', 'quotation')">Valid values for "type of translation" are: literal, approximate, omission, addition, quotation.</sch:assert>
+              </sch:rule>
+              </sch:pattern>
+              <sch:pattern>
+                <sch:let name="approxValues"
+                  value="('compressed', 'cultural', 'syntax', 'reported', 'aesthetic', 'new', 'voice', 'direct', 'antecedent', 'annotated', 'archaism')"/>
+                <sch:let name="addValues" value="('cultural', 'aesthetic', 'voice', 'antecedent', 'archaism')"/>
+                <sch:let name="misValues" value="('cultural', 'voice', 'archaism')"/>
+                <sch:let name="litValues" value="('unnatural', 'archaism', 'close')"/>               
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'literal']]">
+                  <sch:let name="subtypes"
+                    value=" for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $litValues">The only valid subtypes of a literal translation are 'close', 'archaism', and 'unnatural'.</sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'approximate']]">
+                  <sch:let name="subtypes"
+                    value=" for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $approxValues">Valid values for a subtype of an approximate translation are: 'compressed', 'cultural', 'syntax', 'reported', 'antecedent', 'new', 'annotated' and 'aesthetic'. </sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'mistranslation']]">
+                  <sch:let name="subtypes"
+                    value="for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $misValues">Valid values for a subtype of a mistranslation are: 'cultural', 'archaism', and 'voice'.</sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'addition']]">
+                  <sch:let name="subtypes"
+                    value=" for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $addValues">Valid values for a subtype of an addition are: 'cultural', 'antecedent', 'voice', and 'aesthetic'.</sch:assert>
+                </sch:rule>
+            </sch:pattern>
+          </constraint>
         </constraintSpec>
- 
 
         <!--ebb: The following is a model copied from Syd's slide to show me how to tuck Schematron into ODD-->
        <!-- <elementSpec module="core" ident="anchor" mode="change">

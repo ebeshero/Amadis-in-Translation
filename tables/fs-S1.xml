@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="translation-types.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../XMLandSchemas/out/amadis_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../XMLandSchemas/out/amadis_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -633,7 +634,7 @@
                <f name="type" select="approximate"/>
                <f name="subtype" select="compressed"/>
             </fs>
-            <fs corresp="#M0_p1_c54_1">
+            <fs corresp="#M0_p1_c54.1">
                <f name="southey" n="8" ana="0">
                   <string>you shall leave us part of the game!</string>
                </f>
@@ -1191,7 +1192,7 @@
                      vestir</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" selec="antecedent"/>
+               <f name="subtype" select="antecedent"/>
             </fs>
             <fs corresp="#M0_p1_c108_1">
                <f name="southey" n="1" ana="0">

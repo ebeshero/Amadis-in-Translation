@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-03-12T05:19:07Z. .
+Schema generated from ODD source 2017-03-13T00:48:04Z. .
 TEI Edition: Version 3.1.0. Last updated on
 	15th December 2016, revision d3f5e70
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -6367,7 +6367,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
+               <value>book</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>chapter</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>table</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
@@ -7992,11 +7996,100 @@ Feature Value]</a:documentation>
             <text/>
             <ref name="model.featureVal"/>
          </choice>
-         <ref name="att.global.attributes"/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.global.rendition.attribute.style"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.linking.attribute.corresp"/>
+         <ref name="att.global.linking.attribute.synch"/>
+         <ref name="att.global.linking.attribute.sameAs"/>
+         <ref name="att.global.linking.attribute.copyOf"/>
+         <ref name="att.global.linking.attribute.next"/>
+         <ref name="att.global.linking.attribute.prev"/>
+         <ref name="att.global.linking.attribute.exclude"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.change.attribute.change"/>
+         <ref name="att.global.responsibility.attribute.cert"/>
+         <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <ref name="att.datcat.attributes"/>
+         <optional>
+            <attribute name="select">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+Suggested values include: 1] literal; 2] approximate; 3] omission; 4] addition; 5] mistranslation; 6] quotation; 7] compressed; 8] cultural; 9] syntax; 10] reported; 11] aesthetic; 12] new; 13] voice; 14] direct; 15] antecedent; 16] annotated; 17] archaism; 18] unnatural; 19] close</a:documentation>
+               <choice>
+                  <value>literal</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>approximate</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>omission</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>addition</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>mistranslation</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>quotation</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>compressed</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>cultural</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>syntax</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>reported</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>aesthetic</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>new</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>voice</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>direct</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>antecedent</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>annotated</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>archaism</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>unnatural</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>close</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <text/>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="ana">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <data type="double"/>
+                  <data type="token">
+                     <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+                  </data>
+                  <data type="decimal"/>
+               </choice>
+            </attribute>
+         </optional>
          <attribute name="name">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a single word which follows the rules defining a legal XML name (see ), providing a name for the feature.</a:documentation>
-            <data type="Name"/>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>montalvo</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>southey</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>note</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>type</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>subtype</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
          </attribute>
          <optional>
             <attribute name="fVal">
@@ -8593,7 +8686,7 @@ Feature Value]</a:documentation>
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-              <sch:rule context="tei:anchor[@corresp]">
+              <sch:rule context="*[@corresp]">
                 <sch:let name="M_files"
                   value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
                 <sch:let name="M_ids" value="$M_files//@xml:id"/>
@@ -8602,9 +8695,59 @@ Feature Value]</a:documentation>
                 <sch:assert test="every $token in $tokens satisfies $token = $M_ids">
                   The attribute (after the hashtag, #) must match a defined @xml:id in the corresponding Montalvo 1547 edition file!
                 </sch:assert>
+              </sch:rule>
+            </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+             <sch:rule context="tei:anchor[@corresp]">
                 <sch:report test="@corresp = following::tei:anchor/@corresp">
                   Every anchor must have a unique ID. Add a seg element in Montalvo with its own ID if needed.
                 </sch:report>
               </sch:rule>
+            </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+              <sch:rule context="tei:fs[not(tei:f[@name eq 'note'])]">
+                <sch:assert test="tei:f[@name eq 'type']">An &lt;f&gt; element with @name ='type' is necessary here to declare the type of match.</sch:assert>
+              </sch:rule>
+            </sch:pattern> 
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+              <sch:rule context="tei:f[@name eq 'type']">
+                <sch:assert test="@select = ('literal', 'approximate', 'omission', 'addition', 'mistranslation', 'quotation')">Valid values for "type of translation" are: literal, approximate, omission, addition, quotation.</sch:assert>
+              </sch:rule>
+              </sch:pattern> 
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+                <sch:let name="approxValues"
+               value="('compressed', 'cultural', 'syntax', 'reported', 'aesthetic', 'new', 'voice', 'direct', 'antecedent', 'annotated', 'archaism')"/>
+                <sch:let name="addValues"
+               value="('cultural', 'aesthetic', 'voice', 'antecedent', 'archaism')"/>
+                <sch:let name="misValues" value="('cultural', 'voice', 'archaism')"/>
+                <sch:let name="litValues" value="('unnatural', 'archaism', 'close')"/>               
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'literal']]">
+                  <sch:let name="subtypes" value=" for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert test="every $subtype in $subtypes satisfies $subtype = $litValues">The only valid subtypes of a literal translation are 'close', 'archaism', and 'unnatural'.</sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'approximate']]">
+                  <sch:let name="subtypes" value=" for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert test="every $subtype in $subtypes satisfies $subtype = $approxValues">Valid values for a subtype of an approximate translation are: 'compressed', 'cultural', 'syntax', 'reported', 'antecedent', 'new', 'annotated' and 'aesthetic'. </sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'mistranslation']]">
+                  <sch:let name="subtypes" value="for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert test="every $subtype in $subtypes satisfies $subtype = $misValues">Valid values for a subtype of a mistranslation are: 'cultural', 'archaism', and 'voice'.</sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:f[@name eq 'subtype'][preceding-sibling::tei:f[@select eq 'addition']]">
+                  <sch:let name="subtypes" value=" for $i in tokenize(@select, '\s+') return $i"/>
+                  <sch:assert test="every $subtype in $subtypes satisfies $subtype = $addValues">Valid values for a subtype of an addition are: 'cultural', 'antecedent', 'voice', and 'aesthetic'.</sch:assert>
+                </sch:rule>
             </sch:pattern>
 </grammar>

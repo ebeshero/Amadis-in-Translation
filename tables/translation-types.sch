@@ -76,4 +76,5 @@
                 and 'aesthetic'. </assert>
         </rule>
     </pattern>
+    
 </schema>
