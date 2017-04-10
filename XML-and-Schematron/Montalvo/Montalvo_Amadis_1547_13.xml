@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="11">
+                <head>Capítulo XIII <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> De como Amadís le pidió Urganda de la Desconocida y llegó a una fortaleza: y
+                        de lo que en ella le avinó. </p>
+                </argument>
+                <p>Partido Amadís de Urganda la Desconocida con mucho plazer de su animo en aver
+                    sabido que aquel que hiziera cavallero era su hermano: y porque creya ser cedo
+                    donde su señora era: que aunque la no viesse le sería grande con suelo ver el
+                    lugar donde estava anduvo tanto contra aquella presto por una foresta sin que
+                    poblado fallasse que en ella le anocheció: y en cabo de una pieça vio lexos un
+                    huego que sobre los árboles parecía: y fue contra allá pesando hallar
+                    aposentamiento. Entonces desuiándose del camino anduvo hasta que lleg´ a una
+                    hermosa fortaleza que una torre della parecían por las finiestras aquellas
+                    lunbrs que de candelas eran: y oyó bozes de hombres y mugeres como que cantavan
+                    y hazían alegrías. Y lammó a la puerta más no le oyeron: y dende a poco los de
+                    la torre miraron por entre las alemnas: y vieronle que llamava. E díxole un
+                    cavallero. Quien sois que a tal honra llamáis: él le dixo. Señor soy un
+                    cavallero extraño. Assí parece dixo él del muro que sois estraño que dexáis de
+                    andar de día y andáis de noche: mas creo que lo haz´ís por no aver razón de os
+                    combatir que afora no hallaréis sino los diablos. Amadís le dixo. Sien vos algun
+                    bien oviesse algunas vezes veriades andar de nache a los que menos hazer no
+                    pueden. Agora os ir dixo el cavalloer/ que no entráis acá. Si me ayude Dios dixo
+                    Amadís yo cuido que no querriades hombre que algo valiesse en vuestra compañía.
+                    Pero querría antes que me vaya saber como avéis nombre. Yo te lo diré dixo él:
+                    con tal que queando me hallarés te combatas conmigo: Amadís que sañudo estava
+                    otorgóselo el cavallero dixo: sabe que yo he nombre Dardan que no puedes aver
+                    esta noche tan mala que no sea muy peor el día que conmigo encontrares. Pues yo
+                    quiero dixo Amadís salir luego desta promessa y alumbren os con estas candelas a
+                    que nos combatamos. Como dixo Dardan/ por yo ir a la batalla de tal como vos
+                    avía de tomar armas endemas de noche: Mal allá quien espuelas calçasse/ ni arnés
+                    vistiesse por ganar honra della. Entonces se partió del muro y Amadís fue su
+                    camino. Aquí retrata el auctor de los sobervios y dize. Sobervios que queréis/
+                    que pensameinto es el vuestro: ruego vos que me digáis la hermosa persona/ la
+                    gran valentía el ardimiento de coraçón/ si por ventura lo heredastes de vuestros
+                    padres: o lo comprastes con las riquezas: o lo alcançastes en la escuelas de los
+                    grandes sabios: o lo ganastes por merced de los grandes principes: cierto es
+                    diréis que no. Pues donde lo ovistes: paresceme a mi que de quel señor muy alto
+                    donde todas las buenas cosas ocurren y vienen. Y a este señor que gracias que
+                    servicios en pagó dello le dáis: Cierto no otros ningunos sino despreciar los
+                    virtuosos: y desonrar los buenos/ maltratar los de sus ordenees sanctas: matar
+                    los flacos con vuestras grandes sobervias: y otros muchos insultos en contra de
+                    su servicio. Creyendo a vuestro parescer: que assí como con esto la fama la
+                    honrra deste mundo ganáis: que assí con una peqeña penitencia en el sin de
+                    vuestros días la goria del otro ganaréis. O que pensamiento tan vano y tan loco/
+                    aviendo passado vuestro tiempo en las semejantes cosas sin arrepentimiento: sin
+                    satisfación que a vuestro señor devéis: guardarlo todo justo para aquella triste
+                    y peligrosa hora de la muerte que no sabéis cuanto ni en que forma os verna.
+                    Diréis vos que el poder y la gracía de Dios es muy grande junto con su piedad
+                    verdad es. Mas assí el vuestro poder avía de ser para forçar con tiempo vuestra
+                    irá y saña: y os quitar de aquellas consas que el tanto tiene aborrecidas:
+                    porque haziendo os digno: dignamente el su perdón alcançar pudiessedes.
+                    Considerando que no sin causa curel infierno fue por el establecido: mas quiero
+                    yo agora dexar esto aparte que no véis y poner me en razón con vosotros en lo
+                    presente que avemos visto y leído. Dezidme por que causa fue derribado del cielo
+                    en el hondo abismo aquel malo Lucifer. Ao por otra sino por su gran sobervía: y
+                    aquel fuerte gigante Menbrot que primero todo el humanal liage se floreó: porque
+                    fue de todos ellos desamparado: y como animalia bruta sin sentido alguno fueron
+                    por los desiertos sus días consumidos no por al salvó porque con su gran
+                    sobervía quiso hazer una escalera a manera de camino pensando por ella subir y
+                    mandar los Cielos. Pues porque diremos que fue por Mercoles assolada y destruida
+                    la gran troia: y muerto aquel su poderoso rey Laumendon no por otra causa sino
+                    por la sobervía embaxada que por sus mensajeros a los cavalleros giregos embió:
+                    que a salvase al su puerto de Simeonta arribaron. Muchos otros que por esta mala
+                    y maluada sobervia perecieron en este mundo y en el otro contarse podrían: con
+                    que esta razón aún mas autorizada fuesse. Pero porque seyendo mas prolixa mas
+                    enjosa de leer sería: se dexara de recontar: solamente vos será a la memroía
+                    taidor: si estos que en elcielo y en la tierra donde tan gran poder y honra
+                    tuvieron por la sobervía fueron perdidos: deshonrrados y dañaos: que fructo aí
+                    en aquellas viles palabras dichas por dardan y por otros semejantes: que mandó
+                    en lo uno ni en lo otro tienen o occurir les puede: la historia os lo mostara
+                    adelante. Partido Amadís con gran saña de aquel muy sobervio cavallero dardan:
+                    fuesse por la floresta buscando algun mató aprejado donde alvergar pudiesse. E
+                    assí iendo oyó ante si hablar: y iendo presto aguigando mas su cavallo halló dos
+                    donzellas en sus palafrenes/ y un escudero con ellas: él se llegó a ellas y
+                    salvandolas cortemente: y ellas le preguntaron de donde venía a tal hora armado:
+                    él les contó queado le aconteciera des que fuera noche. Sabéis vos dixeron ellas
+                    como ha nombre esse cavallero: si se dixo él que él me lo dixo: y dixo que avía
+                    nombre dardan verdad es dixeron ellas que el ha nombre Dardan el sobervio: y
+                    este es el mas sobrvioso cavalero que aí en esta tierra. Yo lo creo bien dixo
+                    Amadís: y las donzellas le dixeron. Señor cavallero nos tenemos aquí cerca
+                    nuestro aposentamiento: quedad con nos. Amadís selo otorgó y iendo de consumo
+                    hallaron dos tendejones armados donde las donzellas de aposentar se avían: y
+                    allí descendieron y desarmandose Amadís mucho fueron las donzellas alegres de su
+                    hermosura: y cenaron con mucho plazer: y hierion para él un tendejon donde
+                    durmiesse: y entanto pregunatronle las donzellas donde iva. Contra casa del rey
+                    Lisuarte dixo él: y nos allá imos dixeros ellas por ver como acaescera a una
+                    dueña que era una de las buenas de su manera de esta tierra: y mas hija dalgo: y
+                    cuanto en el mundo ha tiene metido en prueva de una batalla: y ha de parecer en
+                    estos diez días con quien haga su batalla por ella ante el rey Lisuarte: mas no
+                    sabemos que la acaefecera: que este contra quien se ha de defender es agora el
+                    mejor cavallero que aí en la gran Bretaña. Quien es esse dixo Amadís que tanto
+                    precian de armas onde tantos buenos aí: el mesmo del que agora os partistes
+                    dixeron ellas Dardan el sobervio. Porque rzón dixo él ha de ser esta batalla:
+                    dezid me lo assí dios os vala. Señor dixeron ellas: este cavallero ama una dueña
+                    desta tierra que fue hija de n cavallero que fue casado con esta otra dueña: y
+                    la amada dixo a su amigo Dardan que jamas le haría amor/ si la no llevasse a
+                    casa del rey Lisaurte/ y dizesse que el aver de su madrasta devía ser suyo: y
+                    que sobre esta razón se combatiesse con quien dixesse lo contrario: y hizolo el
+                    assí como lo mandó su amiga: y la otra dueña no fuera también razón nada como le
+                    fuera menester: y dixo que daria provador ante el Rey por si: y esto hizo por el
+                    gran derecho que tiene cuidando hallar quien lo matuviesse por ella: mas Dardan
+                    es tan buen cavallero de armas/ que a tuerto que a derecho todos dudan su
+                    batalla. Amadís fue muy alegre con estas nuevas: porque el cavallero fuera
+                    contra: el sobervio: y que podría vengar su saña teniendo derecho y porque la
+                    batalla se haría delante su señora Oriana: y començó a pensar en ello muy
+                    firmemente: las donzellas pararon mientes en su cuidado: y la una dellas dixo.
+                    Señor cavallero ruegoos yo mucho por cortesía que no digáis la razón de vuestro
+                    pensamiento: si buenamente dezirse puede. Amigas dixo el si me prometéis vos
+                    como leales donzellas de me tener poridad de a ninguno lo dezir: yo os lo diré
+                    de grado. Ellas selo otorgaron: y el dixo. Yo me pensava de combatir por aquella
+                    dueña que me dexistes: y assí lo haré: mas no quiero que ninguno lo sepa. Las
+                    donzellas selo tuvieron en mucho: pues que tanto selo avían loado en armas y
+                    dixeron. Señor vuestro pensamiento es bueno de gran esfuerço: Dios mandé que
+                    venga a bien: y fueronse a dormir a sus tendejones: a la mañana cavalgaron y
+                    entraron en su camino/ y las donzellas le rogaron que pues un viaje llevavan: y
+                    en aquella floresta andavan algunos hombres de mala fuerte/ que se no partiesse
+                    de su compaña: el se lo otrogó. Entonces se fueron de consuno hablando en muchas
+                    cosas: y las donzellas le rogaron pues que assí dios los avía juntado que les
+                    dixesse so nombre: selo dixo: y les enconmendo que persona ninguna lo supiesse.
+                    Pues caminando como oís alvergando en despobaldo: siendo vicioso en sus tiendas
+                    con la provisión que las donzellas llevavan/ acaecioles que vien dos cavalleros
+                    armados un árbol: que cavalgavan en sus cavallos: y su pusieron ante ellos en el
+                    camino: y él uno dellos dixo al otro cual destas donzellas queréis vos: y tomaré
+                    yo la otra: yo quiero esta donzella dixo el cavallo: pues yo esta otra/ y tome
+                    cada uno la suya. Amadís les dixo: que es esso señores: que queréis a las
+                    donzellas: dixeron ellos. Hazer como de nuestras amigas: tan ligeramente las
+                    queréis llevar dixo el fin les plazer: Pues quien nos las tirara dixeron ellos.
+                    Yo dixo Amadís si puedo. Entonces tomó su yelmo y escudo y laça y dixo. Agora
+                    conviene que dexéis las donzellas. Antes veréis dixo él uno como se justara: y
+                    dexaronse ir ambos a gran correr de los cavallos: y hirieronse con sus lanças
+                    bravamente. El cavallero quebró su lança y Amadís lo hirió tan duramente que lo
+                    derribó por cima del cavallo la cabeça ayudó y los pies arriba/ y quebrandole
+                    los lazos del yelmo le salió de la cabeça. El otro cavallero se vino contra el
+                    muy rezió/ y hirióle de guisa que salsándole las armas lo llagó: mas la llaga no
+                    fue grande/ y quebró la lança. Amadís erró el encuentro y juntáronse uno con
+                    otro assí los cavallos como los escudos: y Amadís travo del: y sacando lo de la
+                    silla lo batió en tierra/ y assi quedaron los cavalleros a pie/ y los cavallos
+                    sueltos. Amadís tornó delante si las donzellas y fueron por su camino hasta que
+                    llegaron a una ribera donde mandaron armar sus tenejones: y que les diessen de
+                    comer: pero antes aquel decendiessen llegaron los cavalleros con quien justara:
+                    y dixeronle. Conviene que defendáis las donzellas con la espada assí como con la
+                    lança: sino llevar las hemos. Ao llevaréis dixo el en tanto que las defender
+                    pueda. Pues dexad la lança dixeron ellos/ vayamos la batalla. Esso haré yo dixo
+                    él con que vengáis uno a uno: y dando su lança a Gandalín echó mano a su espada:
+                    y fue al uno dellos él que de herir mas se preciava/ y començaron su batalla/
+                    mas a poca de hora fue el cavallero tan maltratado que a su compañero le convino
+                    socorrerle: aunque lo contarario prometiera. E Amadís que lo vio dixo. Que es
+                    esso cavallero no mantenéis verdad: digo vos que no os precio nada. El cavallero
+                    llegó solgado y como era valiente hirió a Amadís de grandes golpes. Mas él que
+                    con ambos en la batalla se vía: no quiso ser perezoso: y hirió aquel que holgado
+                    llegara de toda su fuerça en el yelmo y salió el golpe en sosayo: assíque baxo
+                    al ombro: y cortóle las correas del arnés con la carne y huessos: y cay´se le la
+                    espada de la mano: el cavallero tuvo se por muerto: y començó de buir: y fue
+                    para el otro: y diole en el escudo al través en derecho del puño/ y cortóle
+                    tanto que lleg´ hasta la mano: y hendióse la hasta el braço: y el cavallero
+                    dixo. Aí señor muerto soy/ entonces dexo caer la espada de la mano y el escudo
+                    del cuello: y Amadís le dixo. Ao ha esso menester/ que no os dexaré sino juréais
+                    que nunca tomaréis dueña ni donzella contra su voluntad. El cavallero lo juró
+                    luego: y él hizo le meter la espada en la vaína y echr el escudo al cuello: y
+                    dexólo ir donde guareciesse Amadís se otrnó a las donzellas donde estavan cabe
+                    los tendejones y dixeronle. Cierto señor cavallero escarnidas fueramos si por
+                    vos no fuera/ en quien aí mas bondad de que cuidamos: y en gran esperança somos
+                    que no slamente seréis satisfecho de las sobervias palabras que Dardán vos dixo:
+                    mas aún la dueña lo será de la gran afrenta en que esta puesta/ si la fortuna
+                    guiaré que por ella toméis la batalla. Amadís ovo verguença porque assí loavan:
+                    y desarmándose comieron y holgaron una pieça. E tornando a su camino anduvieron
+                    tanto por el que llegaron a un castillo: y aí alvergaron con una dueña que les
+                    mucha honrra hizo. E otro día caminaron sin que cosa que de contar sea les
+                    acaeciesse hasta que llegaron a Aindilisora: donde era el rey Lisuarte: y
+                    llegando cerca de la villa dixo Aadís a las donzellas Amigas yo no quiero ser de
+                    ninguno conoscido/ y hasta que venga el cavallero a la batalla quedaré aquí en
+                    algún lugar en cubierto: emibado conmigo un donzel destos que sepa de mi/ y me
+                    llamé cuando tiempo será. Señor dixeron ellas de aquí al plazó no quedan sino
+                    dos días si os plugiere quedaremos nosotras con vos y ternemos en la villa quien
+                    nos diga cuando el cavallero aí será venido. Assí se haga dixo él. Entonces se
+                    apartaron del camino/ y hizieron armar sus tendejones junto cabe una ribera. E
+                    las donzellas dixeron que ellas querían llegar a la villa y tornar se luego.
+                    Amadís cavalgó en su cavallo: assí desarmado como estava y Gandalín con él/ y
+                    fueron a un otero/ donde a ellos les paresci´ que la villa mejor ver podrían/ y
+                    all´ˆcerca avía un gran camino. Amadís se assentó al pie de un árbol y començó a
+                    mirar la villa/ y vio las torrnes y los muros affaz altos y dixo en su coraçón.
+                    Aí dios donde esta all´ˆla flor del mundo. Aí vila como eres agora en gran
+                    alteza/ por ser en ti aquella señora que entre todas las del mundo no aí su par
+                    en bondad ni en hermosura/ y aún digo que es mas amada que todas las que amads
+                    son: y esto provaré yo al mejor cavallero del mundo si me della fuesse otorgado.
+                    Después que a su señora ovó loado: un tan gran cuidado le vino que las lágrimas
+                    fueron a sus ojos venidas: y falleciéndole el croacón cayó en un tan gran
+                    pensamiento/ que todo estava estor decido/ de quisa que de si ni de otro sabía
+                    parte. Gandalín vido venir por el gran camino una compaña de duennas y
+                    cavalleros y que venían contra donde su señor estava/ y fue a él y díxole. Señor
+                    no véis esta compañía que aquie viene: mas él no respondió nada/ y Gandalín le
+                    tomó por la mano: y tiróle contra si: y él acordó sospirando muy furetemente/ y
+                    la faz toda mojada de lágrimas: y díxole Gandalín. Assí me ayudé dios señor:
+                    mucho me pesa de vuestro pesar que tomáis tal cuidado cual otro cavallero del
+                    mundo no tomaría y devríades aver duelo de vos: y toma esfuerço como en las
+                    otras cosas tomáis. Amadís le dixo. Aí amigo Gandalín que sufre mi coraçón: si
+                    tu me amas se que antes me consejarías muerte que vivir en tan gran cuita
+                    desseando lo que no veo. Gandalín no se pudo sufrir de no llorar: y díxole.
+                    Señor esto es gran malaventura amor tan entranable: que assí me ayude dios yo
+                    creo que no aí tan buena ni tan hermoso que a vuestra bondad igual sea: y que la
+                    no aiáis. Amadís que esto le oy´ fue muy sañudo: y dixo. De loco sin sentido:
+                    como osas dezir tan gran desvarío/ avía yo de valer no otro ninguno tanto como
+                    aquella en quien todo el bien del mundo es: y si otra vez lo dizes no irás
+                    conmigo un passo. Gandalín dixo. Alimpia vuestros ojos/ y no os vean assí
+                    aquellos que vienen. Como dixo él viene alguno. Si Dios Gandalín. Entonces le
+                    mostró las duenas y los cavalleros que ya cerca del oterovenían. Amadís cavalgó
+                    en su cavallo: y fue contra ellos: y saludo los y ellos a él/ y vio entre ellos
+                    una dueña affaz hermosa y bien guarnida: que muy fieramente llorava: y Amadís le
+                    dixo. Dueña dios os haga alegre: y a vos de honrra dixo ella que alegría tengo
+                    afora mucho alongada: si me dios remedió no pudo. Dios le ponga dixo él. Mas que
+                    cuita es la que avéis: Amigo dixo ella tengo cuanto buen aventura y prueva de
+                    una bata;;a/ y él entendió luego que aquella era la dueña que le dixeron: y
+                    díxole dueña avéis quien por vos la haga: AO dixo ella: y mi plazo es mañana.
+                    Pues como cuidáis en ello hazer dixo él. Perder cuanto he dixo ella si en casa
+                    del rey no aí alguno que allá de mi duelo y tomé esta batalla por merced/ y por
+                    mantener derecho. Dios vos de buen remedio dixo Amadís/ que me plazería mucho
+                    assí por vos como porque desamo esse que contra vos es. Dios os haga hombre
+                    bueno dixo ella/ y de a vos y a mi presto del vengança. Amadís se fue a sus
+                    tendejones/ la dueña con su compaña a la villa: y las donzellas llegaron a poco
+                    rato/ y contaronle como Dardan era ya en la villa bien ataviado de hazer su
+                    batalla. E Amadís les contó como halló la dueña: y lo que passaron: aquella
+                    noche holgaron: y al alva del día las donzellas se levantaron y dixeron a Amadís
+                    como si ivan a la villa: y que le embiarían dezir lo que hazía el cavallero: con
+                    vos quiero ir dixo él: por estar mas legado: y cando Dardan al campo salieré
+                    venga la una a me lo dezir: y luego se armó y se fueron todos de consuno: y
+                    syendo cerca de la vlla quedo Amadís al de la foresta: y las donzellas se
+                    fueron. Él descavalagó de su cavallo tir´ el yelmo y el escudo: y estuvo
+                    esperando: y sería esto al salir del sol. A esta hora que oís calvalgó el rey
+                    Lisuarte con gran compañía de hombres buenos y fuesse a un campo que avía entre
+                    la villa y la foresta/ y allí vino Dardan muy armado sobre un hermoso cavallo: y
+                    traía a su amiga por la rienda la mas ataviada que él llevar la pudo: y assí se
+                    paró con ella ante el rey Lisuarte/ y dixo. Señor manda entregar a esta dueña de
+                    aquello que deveser suyo: y si aí cavallero que diga que no/ yo lo combatiré. El
+                    rey Lisuarte mandó luego a la otra dueña llamar: y vino ante él/ y díxole. Dueña
+                    avéis quien se combata por vos: Señor no dixo ella llorando: el rey ovo della
+                    muy gran duelo: porque era buena dueña. Dardan se paró en la plaza donde avía de
+                    atender hasta hora de tercía assí armado/ y sino viniesse al ningún cavallero
+                    dar le ya el rey juicio que assí era costumbre. Cuando las donzellas assí lo
+                    vieron fue la una cuanto mas pudo a lo dezir Amadís. Él calvalgó: y tomando sus
+                    armas dixo a Gandalín y a la donzella que se fueseen por otra parte: y que si él
+                    a su honrra de la batalla se partiesse que se fuessen a los tenejones que allí
+                    acudiría él: y luego salió de floresta todo armado y encima de n cavallo blanco/
+                    y él se iva hazía donde era Dardán adereçando sus armas. Cuando el rey y los
+                    dela villa vieron al cavallero salir de la foresta/ mucho se maravillaron quien
+                    sería: que ninguno lo pudo conoscer: mas dezían que nunca vieron cavallero que
+                    tan hermoso pareciesse armado/ y a cavallo. El rey dixo a la dueña reutada.
+                    Dueña quien es aquel cavallero que quiere sostener vuestra razón: Assí me ayude
+                    Dios dixo ella/ no se que nunca le vi que me miembre. Amadís entró en el campo
+                    donde estava Dardán: y díxole. Dardán agora manten razón de tu amiga que yo
+                    defenderé la otra dueña con él ayuda de dios/ y quitarme he de lo que te
+                    prometí. Y que me prometistes dixo él: que me combatiría contigo dixo Amadís: y
+                    esto fue por saber tu bombre cuando fueste villano contra mí. Agora vos preció
+                    menos que ante dixo Dardán. Agora no me pesa de cosa que me digáis dixo Amadís
+                    que cerca esto y de me vengar: dandóme dios ventura pues venga la dueña dixo
+                    Dardán y otorguete por su cavallo: y vengáte si pudieres. Entonces llegó el rey
+                    y los cavalleros por ver lo que passava y darán dixo a la dueña. Este cavallo
+                    quiere la batalla por vos: otorgáis le vuetro derecho: otorgó dixo ella: y dios
+                    le de ende buen Galardon. El rey miró a Amadís: y vio que tenía el escudo
+                    falsado por muchos lugares: y al derredor cortado de golpes de espada: y dixo
+                    contra los otros cavalleros. Si aquel cavallero estraño demandasse escudo
+                    darsélo ivan con derecho: mas tanto avía Amadís la cuita de se combatir con
+                    Dardán: que en otro tenía mientes: temendo aquellas fuzías palabras que le
+                    dixera e la memoria a muy mas frecas y rezientes que cuando passaron: en que
+                    todos devían tomar exemplo y poner freno a sus lenguas: especialmente con los
+                    que no conoscen: por que de lo semejante muchas vezes ban acá escido grandes
+                    cosas de notar. El rey se tiró afuera y todos los otros: y Dardan y Amadís
+                    movieron contra si d lejos: y los cavallos era conredores y ligeros: y ellos de
+                    gran fuerça que se hirieron con sus lança tan bravamente/ que sus armas todas
+                    hallaron: mas ninguno no fue llagado: y las lanças fueron quebradas y ellos se
+                    juntaron de los cuerpos de los cavallos: y con los escudos tan vravamente que
+                    maravilla era y Dradan fue en tierra de aquella primera justa: mas de tanto le
+                    vino bien que llevó las riendas en la mano y amadís passó por él: y Dardan se
+                    levantó aína y calvalgó como aquella que era muy liegero: y echó mano a su
+                    espada muy bravamente. Cuando Amadís tornó assí el su cvallo: vio lo estar
+                    demanera de lo acometer: y echo mano a la espada y fuerónse ambos acometer tan
+                    bravamente/ que todos se espantavan en ver tal batalla: y las gentes de la villa
+                    estavan por las torres y por el muro y por los lugares donde mejor los podían
+                    ver combatir: y las casas de la riena eran sobre el muro y avía aí muchas
+                    siniestras donde estavan muchas dueñas y donzellas: y vían la batalla de los
+                    cavalleros que les parescía espantosa de ver que ellos se herián por cima de los
+                    yelmos que eran de sino azero: de manera que a todos parescía que les ardían las
+                    cabeças/ segun el gran fuego que dellos salía: y delos arneses y otras armas
+                    hazían caer por tierra muchas pieças y mallas y muchas rajas de los escudos.
+                    Assí que su batalla era tan cruda/ que muy gran espanto tomavan los que la vían:
+                    mas elosno quedavan de servir por todas partes: y cada uno mostrava al otro su
+                    fuerça y ardimeinto. El rey Lisuarte que los mirava: como quiera que por muchas
+                    cosas de afrenta passado oviesse por su periona: y visto por sus ojos: todo le
+                    parescía tanto como nada/ y dixo. Esta es la mas brava batalla que bombre vido:
+                    y quiero over que fin avra: y haré figurar en la puerta de mi palacio aquel que
+                    la victoria oviere/ qe lo vean todos aquellos que ovieren de ganar honrra.
+                    Andando los cavalleros con mucho ardimiento en su batalla como oídes: hiriéndose
+                    de muy grandes gopes sin solo un poco holgar. Amadís que mucha saña tenían de
+                    Dardan: y que en quella casa de aquel rey donde su señora era esperava morir:
+                    porque por su mandado la sirviesse: viendo que el cavallero tanto se le detenía:
+                    començóle a cargar de grandes y duros golpes: como aquel que si alguna cosa
+                    valía allí mas que en otra parte donde su señora no fesse lo quer´â mostrar de
+                    manera que antes la tercía llegase consocieron todos que Dardan avía lo peor de
+                    la batalla: pero no de manera que se uvo defendiesse también que no estava allí
+                    tan ardid que con él se osasse combatir. Ma todo no valía nada: que el cavallero
+                    estaño no hazía sino me jorar en fuerça y ardimiento: y herialo tan fuertemente
+                    como en el comiençó: que todos dezían que nada le mengavana sino su cavallo que
+                    ya no era tan valiente como era menester. Y otro si aquel con quien se combatía
+                    que muchas vezestropeçava: y avaogavan econ ellos que a duro los podían sascar
+                    de passo/ y Dardan que mejorse cyidava combatir de pie que de cavallo dixo
+                    Amadís. Cavallero/ nuestros cavallos nos fallescen que son muy cansados: y esto
+                    haze durar mucho nuestra batalla: yo creo que si anduviessemos a pie/ que rato
+                    oviesse que te auría conquistado. Esto dezía tan alto que el rey y cuantos con
+                    él eran lo oían: y el cavallero estraño ovo ende muy gran verguença y dixo. Pues
+                    tu crees mejor defender de pie que de cavallo apeemonos: y defiendete que o has
+                    mucho menester/ qunque no me parece que Cavallero deve dexar su cavallo en
+                    cuanto pudiere estar en el. Assí que luego descendieron de los cavallos sin mas
+                    tardar: y tomó cada uno lo que le quedava de su escudo y con gran ardimiento se
+                    dexaron ir el uno al otro: y hirieonse muy mas bravamente que ante/ que era
+                    maravilla de los mirar. Pero de mucho avía muy gran mejoría el cavallo estraño
+                    que se pod´â mejor a él llegar: y hería lo de muy grandes golpes/ y muy amenudo
+                    que no le dexava holgar: pero veía que le era menester/ y muchas vezes lo hazía
+                    rebolver de uno a otro cabo: y algunas ahinojar/ tanto que todos dezían/ locura
+                    demando Dardan cuando quiso descendir a pie con el cavallero/ que se no podía a
+                    él llegar en su cavallo que era muy cansado. Assí traía el cavallero estraños a
+                    Dardan a toda su voluntad que ya punnava mas en se guardar de los golpes que
+                    herir: y fuesse tirando a fuera contra el palacio de la reina y las donzellas/ y
+                    todos dezían que moriría Dardan si mas en la batalla porsiasse. Cuando fueron
+                    debaxo de las siniestras dezían todos. Sancta María muerto es Dardan: entonces
+                    oyó hablar Amadís a la donzella de Denamarcha: y consció la en la habla/ y cato
+                    suso y vio a su señora Oriana que estava a una siniestra/ y la donzella con
+                    ella: y assí como la vido/ assí la espada se le rebolvió en la mano: y su
+                    batalla y todas las otras cosas le fallecieron por la ver. Dardan ovo ya cuanto
+                    de vagar/ y vio que se enemigo catava a otra parte/ y tomando la espada con
+                    ambas las manos díole un tal golpe por encima del yelmo que se lo hizo torcer en
+                    la cabeça. Amadís por aquel golpe no dio otro/ ni hizo sino adereçar su yelmo: y
+                    Dardan lo començo a herir por todas partes. Amadís lo hería pocas vezes/ que
+                    ten´â el pensamiento mudado en mirar a su señora: a esta hora començó a mejorar
+                    Dardan y él a empeorar: y la donzella de Denamarcha dixo. En mal punto vio aquel
+                    cavallero acá alguna: que a si perdiendo hizo cobrar a Dardan que al punto de la
+                    muerte llegado era. Cierto no deviera el cavallero a tal ora su obra fallescer.
+                    Amadís que oyó ovo tan gran verguença que quisiera ser muerto/ con temor que
+                    creería su señora que avía en el covar d´â : y dexóse ir a Dardan y hiriólo por
+                    cima del yelmo de tan fuerte golpe que hizo dar de las manos en tierra: y tom´le
+                    por el yelm y tiró tan rezio que gelo sacó de la cabeça: y diole con el tal
+                    herida que le hizo caer atordido: y dandóle con la mançana de la espada en el
+                    rostro le dixo. Dardan muerto eres si a la dueña no das por quita: él le dixo.
+                    Aí cavallero merced no muera: yo la do por quita: entonces se lleg´ el rey y los
+                    cavalleros y lo oyeron. Amadís que con veguença estava de lo que le aconteciera
+                    fue cavalgar en su cavallo: deóse ir lo mas que pudo contra la floresta. El
+                    amiga de Dardan llegó allí donde el tan maltrecho estava: y díxole. Dardan de oí
+                    mas no me catéis por amiga vos ni otro que en el mundo sea sino aquel buen
+                    cavallero que agora hizo esta batalla. Como dixo Dardan/ yo soy por tivencido y
+                    escarnido y quieres me desamparar por aquel que tu daño y en mi deshonra fue:
+                    por dios bien eres mujer que tal cosa dizes y yo te daré el galardon de tualeve:
+                    y metiendo mano a su esdad que aún tenía en su cinta diole con ella tal golpe
+                    que le hecho la cabeça a los pies después desto estuvo un poco pesando y dixo.
+                    Aí cativo que hizo: que maté la cosa del mundo que mas amava: mas yo vengaré su
+                    muerte: y tomando la espada por la puta la metió por si que le no pudieron
+                    acorrer aunque en ello se trabajaron: y como todos se llegassen a lo ver por
+                    maravilla: no fue ninguno enmpos de Amadís para lo conocer: mas de aquella
+                    muerte plug´ mucho a todos los mas: porque aunque este Dardan era el más
+                    valiente y esforçado cavallero de toda la gran bretaña su sobería mala conición
+                    hazía que lo no empleasse sino enjuría de muchos/ tomando las cosas defaforadas
+                    teniendo en mas su fuerça y gran ardimiento del corçón que el juicio del señor
+                    muy alto: que con muy poco del su poder haze que los muy fuertes de los muy
+                    flacos y vencidos y deshonrados sean. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

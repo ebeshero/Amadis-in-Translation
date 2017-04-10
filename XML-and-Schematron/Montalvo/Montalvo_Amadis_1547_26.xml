@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="26">
+                <head>Capítulo XXIX <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como recuenta lo que le acasció a Amadís yendo en requesta de la donzella
+                        que el cavallero maltractada la llevava.</p>
+                </argument>
+                <p> Amadís que iva tras el cavallero que a la donzella por fuerça llevava: y la iva
+                    heriendo/ anduvo mucho por lo alcançar: y antes que lo alcançasse encontróse con
+                    otro cavallero armado en su cavallo que le dixo. Que cuita avedes tan grande que
+                    con tanta priessa os haze venir: a vos que vos haze dixo Amadís de yo ir aína ni
+                    passó: si suides ante alugno amparar vos he yo. Ao he agora menester vuestra de
+                    sensa dixo Amadís. El cavallero le tomó por el freno y dixo: conviene que me lo
+                    digáis sino sois en la batalla/ mas me plaze de esso dixo Amadís: porque mas
+                    tardaré de os lo dezir: que de me quitar de vos por essa vía: que segun vuestra
+                    desmesura no os podría dezir tanto que mas no quisiessedes saber: el cavallero
+                    se tiró a fuera y vino para él al mas ir de su cavallo: y Amadís a él: y el
+                    cavallero le encontró reziamente en el escudo que la lança fue en pieças y
+                    Amadís hirió tan fuertemente que lo derribó en tierra: y el cavallo sobre él: y
+                    el cavallo se hirió tan mal en la una pierna que apenas se pudo levantar:
+                    passando por él fue adelante por su camino: y este fue al cavallo que soltó el
+                    cavallo a don Galaor: y Amadís se aquexo tanto de andar que alcançó al cavallero
+                    que la donzella llevava y dixo: gran pieça ha que suistes desmesurado: y agora
+                    vos reugo que lo no seades: y que desmesura hago y dixo el cavallero: la mayor
+                    que podiades dixo Amadís que levades la donzella forçada: y de mas heriades la:
+                    paresce dixo el cavallero que me queréis castigar: no vos castigo dixo él: mas
+                    digos lo que es vuestra por: entiendo que lo será mas vuestra en vos tornar por
+                    do venistes: Amadís ovo saña: y fue para el escudo y díxole: dexad la donzella
+                    sino muerto sois: el escudero con miedo puso la en el suelo: el cavallero dixo:
+                    don cavallero/ gran locura tomastes: agora loveremos dixo Amadís y baxando las
+                    lanças se hirieron de tal manera que fueron quebradas y el avallo fue en tierra
+                    y tanto que cayó levántose aína: y Amadís fue a él por lo herir con los pechos
+                    del cavallo: el otro le dixo: estad señor por ser yo demesurado no lo seáis vo
+                    sy aved de mi merced: pues jurad dixo Amadís: que a dueña ni a donzella no
+                    forçaréis conta su voluntad ninguna cosa: muy de grado dixo el cavallero: Amadís
+                    que llegóa a él para le tomar la jura. El otro que la espada tenían en la mano
+                    hirióle con ella en el cientre del cavallo que lo hizo caer con él/ Amadís salió
+                    luego del: y poniendo mano a la espada se dexo a él correr tan sañudo que
+                    maravilla era y el cavallero le dixo. Agora os haré ver que en mal punto aquí
+                    venistes: Amadís que gran irá llevava no le respondió: mas hirióle en el ylemo
+                    so la visera y cortóle del tanto: que la espada llegó al rostro assí que las
+                    narizes con la meitad ela cara le cortó: y cayó el cavallero: mas él no contentó
+                    cortóle la cabeça: y metiendo su espada en la vaína se fue a la donzella a tal
+                    ora que ya era noche cerrada: y la luna hazían clara: ella le dixo/ señor
+                    cavallo dios vos de honra por él acorró que me hezistes: y mas si le dierdes
+                    sin: que es llevar me a un castillo donde yo querría ir: que no ha cosa porque a
+                    tal hora cometiesse ningun camino: donzella dixo él yo os llevaré de grado:
+                    estando en esto llegó Gandalín: y Amadís le dixo/ dame aquel cavallo del cavallo
+                    pues que el mío me mató: y toma tu la donzella en el palafrén: y vayamonos a
+                    delante donde nos ella fuiaré: assí fueron dexando aquel camino a tomar otro que
+                    la donzella sabía:Amadís le preguntó si sabía el bombre del cavallero muerto del
+                    árbol de la encruzijada: ella dixo que si: y contóle toda su hazienda: y la
+                    razón su muerte/ que lo bien sabía. En esto llegaron a una ribera/ seyendo ya la
+                    medianoche: y porque a la donzella le tomava gran sueño: a ruego della acordaron
+                    de allí dormir alguna pieça: y descendiendo de las besitas pusieron él mantó de
+                    Gandalín en que ella durmiesse: y Amadís acostado en su yelmo se echó cerca
+                    della: y Gandalín de la otra parate. Pues durmiendo todos como oídes llegó a
+                    caso un caallero que venía por la ribera de contra suso/ y como assí los vio
+                    puso se con su cavallo encima dellos: y metió el cuento de la lança entre los
+                    braços de la donzella: y hizola despartar: y como vio el cavallero armado cuido
+                    que era él que la aguradava: y levántose soñolienta: y dixo queréis señor que
+                    andemos aquí ero dixo el cavallero. En el nombre de dios dixo ella: el cavallero
+                    se abaxó/ y tomándola por el braço la puso ante si: y començó de ir su camino
+                    ques esso dixo ella: mejor me llevara el escudero: no llevara dixo él pues
+                    qusistes vos ir conmigo: ella miró ante si y vio a Amadís que muy fuerte dormía
+                    y dio bozes. Aí señor acorredme: que me lleva no se quien/ el cavallero dio de
+                    las espuelas al cavallo: y fuesse con ella cuanto mas pudo. Amadís despertó a
+                    las bozes dela donzella: y vio como el cavallero la llevava: de que mucho pesar
+                    ovo: y llamó a priessa a Gandalín ue le diesse el cavallo: y en tanto en lazo el
+                    yelmo: y tomó el escudo y la lança/ y cavalgándose fue por donde el otro viera
+                    ir y no anduvo mucho/ que se halló entre unos árboles my espessos donde pedió la
+                    carrera: que no sabía donde ir. Y aunque él era el cavallero del mundo mas
+                    sufrido crescióle gran saña contra si/ diziendo: agora digo que la donzella
+                    puede bien dezir: que tanto le hize de tuerto como de amparamiento: que si de un
+                    forçador la defendí/ dexéla en poder de otro/ y assí anduvo una gran pieça por
+                    el campo haziendo a su cavallo mas mal que merescía/ y a poco de rato oyó sonar
+                    un cuerno: y fuesse yendo contra aquella parte cuidando que allí avía acudido el
+                    cavallero y no tardó que halló ante si una hermosa fortaleza en un otero alto/ y
+                    velavanla muy furte: y llegándose a ella vio el muro alto y las torres fuertes
+                    mas la puerta avían bien cerrada/ los veladores que le vieron: preguntáronle que
+                    bombre era que a tal ora andava armado. Soy un cavallero dixo él: y que
+                    demandáis dixeron ellos: demandó dixo él un cavallo que me tomó una donzella: no
+                    lo vimos dixeron los de suso: Amadís se fue en derredor del castillo/ y ela otra
+                    parte halló un postigo abierto/ y vido al cavallero que lleavara la donzella a
+                    pie: y sus hombres que le desensillavan el cavallo que no cabía por el postigo
+                    de otra manera. Amadís cuido que él era y dixo: señor cavallero atended un poco:
+                    y no vos acojáis: antes me dezid si sois vos él que me tomó una mi donzella/ si
+                    la yo tome dixo él mal la guardaste vos: forçastes me la por engaño dixo Amadís
+                    que de otra manera no fuera tan ligero de lo hazer y cierto no fuestes aí cortes
+                    ni ganastes aí prez de cavallero. El cavallero le dixo. Amigo yo tengo la
+                    donzella que de su voluntad quiso venirse conmigo y tengo que le no hize fuerça.
+                    Señor cavallero dixo Amadís mostrádmela: y si ella esso dize: dexaré de la
+                    demandar. Yo os la mostraré mañana acá dentro si qusierdes entrar con la
+                    costumbre del castillo: y que costumbre es essa: mañana vos lo diran y no la
+                    ternéis en poc si a ella vos aventuráis: si agora la quisiesse ver acogerme ían
+                    dentro: no dixo el cavallero por ser de noche: mas si al día aguardáis veremos
+                    lo que aí saréis: y cerrando el postigo se acogio dentro: y Amadís se tiró a
+                    fuera so unos árboles: donde descendió del cavallo/ y estuvo con Gandalín
+                    hablando en muchas cosas hasta la mañana: y el sol saldio vio abrir la puerta: y
+                    cavalgando en su cavallo llegóse a ella y vio estar un cavallero todo armado en
+                    un gran cavallo: y él postero que guardavale dixo. Señor cavallero queréis acá
+                    entrar: quiero dixo Amadís que por esso vengo aquel: pues ante vos diré dixo el
+                    postero la costumbre: porque vos no quexéis: y digovos de tanto que ante que
+                    entréis vos avéis de combatir con aquel cavallo y si vos vencé juraréis de hazer
+                    mandado de la señor deste castillo: sino echar os han una esquina prisión: y
+                    aunque vos vençáis no vos dexaremos alir: y avéis de ir adelante donde hallaréis
+                    a otra puerta otros dos cavalleros. Y mas adentro otros dos cavalleros: y con
+                    todos vos avéis de combatir por tal pelíto como él del primero: y si fueredes
+                    tan bueno que a vuestra honrra lo passedes de mas deganar gran prez de armas
+                    hazer vos han derecho de lo que demandardes. Cierto dixo Amadís si vos cerdad
+                    dezís caramente lo compara quien de aquí la levaré: mas como quier que ello sea
+                    todav´â quiero ver la donzella que acá me tiene si puedo. Entonces se metió por
+                    la puerta del castillo: y el cavallero le dio bozes que se guardasse: y dexóse a
+                    él correr: y Amadís a él: y hirieronse de las lanças en los escudos y el
+                    cavallero quebranto su lança: y Amadís le echó en tierra tan bravamente que le
+                    quebranto el braço diestro: y tornó sobre él/ y poniéndole la lança en los
+                    pechos dixo. Muerto sois sino vos otorgáis porvencido. El cavallero dixo. Señor
+                    merced: mostróle el braço quebrado. Amadís passó por él y fuesse adelante/ y vio
+                    a la otra puerta dos cavaleros armados y díxeronle. Entrad cavallo: sin con
+                    nosotros vos queréis combatir: sino seréis puesto. Cierto dixo él ante me
+                    combatiré que ser preso endonado: y cubriéndose de su escudo abaxo su lança y
+                    dexóse a ellos correr: y ellos a él: y el uno falleció de su golpe: y el otro lo
+                    hirió en el escudo de manera que gelo flasó: y hiriólo en el braço siniestro: y
+                    quebró la lança en pieças. Amadís le hirió tan fuertemente/ que derribó a él y
+                    al cavallo ent ierra: y fue assí atordido dela caída que no supo de si parate: y
+                    dexóse ir al otro que quedara a cavallo: y encontróle con la lança sin sierro
+                    que quedara en el escudo del otro en el yelmo: de manera que selo sacó de la
+                    cabeça: y el cavallo le hirió en el brocal del escudo en soslayo: y assí que el
+                    cuentro no prendió: y quedó allí la lança sana y pusieron a no alas espadas: y
+                    dieronse grandes glpes y Amadís le dixo. Cierto cavallero lo cura hazéis en vos
+                    combatir con la cabeça dearmada. La mi cabeça dixo él la guardaré yo mejor que
+                    vos la vuestra. Agora parecera dixo Amadís. Entonces lo hirió encima del escudo
+                    de tan fuerte golpe que la espada entró por él/ y el cavallero perdió las
+                    esriberas: y oviera de caer. Amadís que assí embarçado lo vio dio le de lano con
+                    la espada en la cabeça de que fue muy atordido: y pusole la mano en el ombro y
+                    dixo. Cavallero mal guardastes la cabeça: que la perdierades si os diera el
+                    golpe a derecho. El cavallero dexo caer la pesada de la mano y dixo: no quiero
+                    perder mi cuerpo con mas locura: pues que ya una vez me lo distes: y id
+                    adelante. Amadís le demandóla lança que hazían en el suelo: y él sela dio: y
+                    llegándola otra puerta vio dentro en el castillo dueñas y donzellas suso en el
+                    muro: y oyó que dezían si este cavallero passa la puente a pesar delos tres aura
+                    hecho la mejor cavallería del mundo. Entonces salieron a ellos tres cavalleros
+                    muy bien amrados: y en hermosos y grandes cavallos: y el uno le dixo cavallero
+                    sed preso: o jurad que haréis mandado de la señora del castillo: preso no sré
+                    dixo Amadís en tanto que me defender pueda: ni la voluntad de la señor no se
+                    cual es. Pues agora vos guardad dixeron ellos: y fueron todos juntos a lo herir
+                    tan bravamente que lo overion de derribar con el cavallo. Amadís hirió al uno
+                    tan rezio que le metió el hierro de la lança por los costados/ y allí quebró su
+                    lança assí como los otros las quebraran en el: y metiendo mano a las espadas le
+                    hirieron tan bravamente que los que los miravan eran mucho maravillados/ que los
+                    tres cavallos eran valientes: y vasados en armas: y aquel que ante si tenían no
+                    querría la verguença para si. La balla fue brava. Mas no duro mucho: que Amadís
+                    mostrando sus fuerças: les dava tales golpes que la espada les hazía llegar a
+                    las carnes y a las cabeça: assí que en poca de hora los parotales que le no
+                    podían sufrir y huyeron contra el castillo: y el empos dellos: y como los
+                    quexava: el uno dellos descendió del cavallo y Amadís le dixo no vos cale
+                    descendir que vos no dexaré sino vos otorgáis por vencido: cierto señor esso
+                    haré yo de grade dixo él: y todos los que con vos se combatieren lo deurían ser:
+                    segun lo que hazéis: y diole su espada. Amadís gela tornó y fue empos delos
+                    otros que vio entrar en un gran palacio: y vido a la puerta del bien veinte
+                    dueñas y donzellas: y la mas hermosa dellas dixo. Estad señor cavallero que
+                    mucho avéis hecho. Amadís estuvo quedo: y dixo señor pues otorguense por
+                    vencidos/ y a vos que vos haze dixo la dueña: porque me dixeron a la puerta qu
+                    eme convenía matar o vencer que de otra manera no alcançaría mi derecho mas
+                    dixeron vos dixo la dueña que si acá entrasedes a fuerça dellos que vos harían
+                    derecho delo que demandassedes. E agora dezíd lo que os pulguiere: yo demando
+                    dixo él una donzella que me tomó un cavallero en una ribera donde de noche
+                    dormía: y la ruxo a este castillo a su pesar: agora assentad vos dixo ella: y
+                    venga el cavallero y diga su razón: y vos la vuestra cada uno aura su derecho: y
+                    descendid un poco en tanto que viene el cavallo. Amadís descendió de su cavallo:
+                    y la dueña la assento cabe si: y díxole. Conocedes vos un cavallero que se llama
+                    Amadís: porque lo preguntáis dixo él: porque toda esta guarda que vistes en este
+                    castillo por él es puesta: y bien os digo que si él acá entrase que no saldría
+                    de aquí por ninguna manera hasta que se ovisse de quitar de una cosa que
+                    premetió: y que fue esso dixo él: yo vos lo diré dixo la dueña por pleíto que a
+                    todo vuestro poder lechagades partir delo que permeti´ quier por armas quier por
+                    otra cosa pues no lo hzio con derecho: Amadís dixo yo vos digo dueña que
+                    cualquiera cosa que Amadís aía prometido en tanto que sea le haré yo quitar a
+                    todo mi poder. Ella que no entendía a que sin era dicho dixo. pues agora sabed
+                    señor que esse Amadís que vos yo hablo prometió a Angriote destrevavs que le
+                    haría ver a su amiga: y desta promessa le hazed vos partir pues que tal
+                    juntamento mas por vluntad que por fuerça quiere dios y la razón que se haga.
+                    Cierto dixo Amadís vos dezídes razón/ y si puedo yo le haré quitar: la dueña
+                    selo agradesció mucho: para él no menos contento era: porque cumpliendo su
+                    premessa se quetava della: y dezíd dixo el por ventura sois vos señor aquella
+                    Angriote ama: dixo ella señor yo soy. Cierto señora dixo él a Angirote tengo yo
+                    por uno dellos buenos cavalleros del mundo: y al mi cuidar no aí tan alta dueña
+                    que se no devía preciar de aver tal cavallero: y esto no lo digo por no tener lo
+                    que prometí: mas digo lo: porque él es mejor cavallero que esse que le dio la
+                    promessa.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

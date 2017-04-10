@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="11">
+                <head>Capítulo XI <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como el gigante lleava a amar cavallero a Galaor por la mano del rey
+                        Lisuarte: el cual le armó cavallero muy hornadamente Amadís. </p>
+                </argument>
+                <p> Con Galaor estando con el gigante como vos contamos aprendiendo a cavalgar: y a
+                    esgremir: y todas las otras cosas que a cavallero convenían: seyendo ya en ello
+                    muy diestro: el año cumplido: que el gigante por plazo le pusiera. Él le dixo:
+                    padre agora os ruego que me hagáis cavallero/ pues yo he atendido lo que
+                    mandastes: el gigante que vio ser ya tiempo díxole. Hijo plaze me de lo hazer/ y
+                    dezid me quien es vuestra voluntad que lo haga: el rey Lisuarte dixo él: de
+                    quien tanta fama corre: yo os llevaré allá dixo el gigante: y al terero día
+                    eniendo todo el aprejo partieron de allí/ y fueron su camino: y al quinto día
+                    falláronse cerca de un castillo muy fuerte que estava sobre una gua salada: y el
+                    cestillo avía nobre Bradoyd: y era el mas hermoso que avía en toda aquella
+                    tierra: y era assentado en un alta peña: y de la una parte corría aquel agua: y
+                    della otra avía un gran tremedal: y de la parte del agua no podían entrar si no
+                    por harca y de contra el tremedal avía una calçada tan ancha/ que podía ir una
+                    carreta y otra venir: mas a la entrada del tremedal avía una puente estrecha: y
+                    era echadiza: y cuando la alcançavan quedava el agua muy honrada: y a la entrada
+                    de la puente estava dos olmos altos/ y el gigante y Galaor vieron debaxo dellos
+                    dos donzellas y un escudero: y vieron un cavallero armado sobre un cavallo
+                    blanco con unas armas de leones: y llegara a la puente que alçada estava/ y no
+                    podía passar/ y dava bozes a los del castillo. Galaor dixo contra el gigante: si
+                    vos pulguiere veamos que hara aquel cavallero: y no tardo muhco que vieron
+                    contra el castillo del cabo de la puente dos cavalleros armados y diez peones
+                    sin armas y dixeron al cavallero que quería: querría dixo el entrar allá: esso
+                    no puede ser dixeron ellos si ante con nosotros no os combatís/ pues por al no
+                    puede ser dixo el hazed baxar la puente y venid a la justa: los cavalleros
+                    hizieron a los prones que la baxassen: y el uno dellos de dixo correr al que
+                    llevana su lança baxa/ y el cavallo rezio cuanto llevar le pudo: el de las armas
+                    de los leones movió contra él: y hiriéronse ambos bravamente: el cavallero del
+                    castillo quebro su lança y el otro le hirió tan duramente/ que lo derribó en
+                    tierra y el cavallo sobre él: y fue para el otro que en la puente entrava: y
+                    juntáronse ambos de los cuerpos de los cavallos que las lanças fallescieron de
+                    los encuntros: y él de fuera encontró tan fuerte al del castillo: que a él y al
+                    cavallo derribó en el agua: yel cavallero fue leugo muerto: y él passó la uente
+                    y fuesse su yendo contra el castillo: los villanos alçaron la puente: y las
+                    conzellas desde fuera dávanle bozes que le alçavan la puente: y él que bolvía a
+                    ellos vio venir contra si tres cavalleros muy bien armados/ que le dieron: en
+                    mal punto acá passastes ca vos converna morir en el agua como muere él que vale
+                    mas que vos: y dexáronse todos tres a él correr: y hiriéronle tan bravamente:
+                    que el cavallo le hizieron ahinojar: y cerca estunvo de caer y quebraron las
+                    lanças: y quedo de los dos llagado: mas él hirió al uno dellos de maner aque
+                    armadura que traessse no le aprovechó: que la lança entró por él un costado/ y
+                    salió por el otro él hierró con un pedaço de la asta: y metió mano a su espada
+                    muy bravamente: y fue herir los dos cavalleros: y ellos a él: y començaron entre
+                    si una peligrosa batalla: mas él de las armas delos leones que se tenía de
+                    muerte puno de se librar dellos/ y dio al uno tal golpe de la espada en el braço
+                    diestro/ que selo hizo caer en tierra con la espada: y conenço a suyo contra el
+                    castillo diziendo a grandes bozes. Acordad amigos que mataran a vuestro señor: y
+                    cuando él de los leones oyó dezir que aquel era el señor quexóse mas de lo
+                    vencer: y dio le un tal golpe por cima del yelmo que la espada le metió por la
+                    carne: de que el cavallero fue tan desatinado: que perdió las estriberas: y
+                    cayera si se no abraçara al cuello del cavallo: y tomóle por el ylemo y sacó
+                    selo de la cabeça/ y el cavallero quiso huir pero vio que el otro estava entre
+                    él y el castillo: muerte sois dixo el dellos leones si por preso no vos
+                    otorgáis/ y él que ovo ran miedo de la esapada que ya sinitera en la cabeça
+                    dixo. Ay buen cavallero merced no me matéis tomad mi espada y otorgóme por
+                    preso: mas él de los leones que vio salir cavalleros y peones armados del
+                    castillo: tomóle por el brocal del escuudo: y pusole la punta de la espada en el
+                    rostro: y dixo. Mandad aquellos que se tornen sino mataros he: él les dio bozes:
+                    que se toranssen si su vida querían/ ellos veyendo su gran peligro assí lo
+                    hizieron: y díxole mas. Hazed a los peones que echen la puente/ y luego lo
+                    mando: en tonce le tomó consigo: y passó la puente con él y él del castillo que
+                    vios las conzellas conosció la una que era Urganda la Desconocida: y dixo. Ay
+                    señor cavallero si me no amparáis de aquella donzella muerto soy. Si dios me
+                    ayude dixo él esso no haré yo: antes aré de vos lo que ella mandaré. Entonces
+                    dixo a Urgada véis aquí el cavallero o señor del castillo: que queréis que le
+                    haga: cortadle la cabeça: si vos no diere mi amigo que allá tiene preso en esl
+                    castillo: y si me no metiere en mano la donzella que le hizo tener. Assí sea
+                    dixo él: y alço la espada por le espantar mas el cavallero dixo. Aí buen señor o
+                    me matéis/ yo haré cuanto ella manda.Pues luego sea sixo el fin mas tardar.
+                    Enonces llamó a uno de los peones: y díxole. Ve a mi hermano y dile si me quiere
+                    ver bivó: que traía luego el cavallero que allá está: y la donzella que le
+                    traxo: esto fue luego hecho/ y venido él de los leones le dixo. Cavallero véis
+                    allí vuestra amiga amalda: que mucha asan passó por vos sacar de prisión y amo
+                    dixo él mas que nunca. Urganda le fue abraçar: y él a ella. Pues que haréis de
+                    la donzella dixo el cavalero de los leones: matarla dixo Urganda que mucho la
+                    sufrí: y hizo un encantamiento: de manera que ella se y una termeindo a meter en
+                    el agua/ mas el cavallo dixo. Señora por dios no muera esta donzella pues por mi
+                    fue presa. Yo la dexare esta vez por vos mas si me yerra todo lo pagara junto/
+                    el señor de castillo dixo: señor pues cumplílo que mandastes quitadame de
+                    Urganda: ella le dixo. Yo os quito por la honrra deste que os venció: él dellos
+                    leones preguntó a la donzella/ porque de su grandose metía en el agua. Señor
+                    dixo ella parecíame que tenía de cada parte una hacha armdiendo que me queavan:
+                    y querría con el agua guarecer: él se començ´ a reir y dixo. Por dios donzella
+                    gran locura es la vuestra en hazer enojo a quien tan bien vengarse puede. Galaor
+                    que todo lo viera dixo al Gigante. Este quiero que me haga cavallero: que si el
+                    rey Lisuarte es tan nombrado sera por su randeza: mas este cavallero merece
+                    serlo por su gran esfuerço. Pues llegad a él dixo el gigante/ y si lo no hiziere
+                    será por su daño. Galaor se fue donde él de las armas dellos leones seyaso los
+                    olmos: y en su compañía consigo lleava cuatro escuderos y dos donzellas: y como
+                    llegó salváronse ambos/ y Galaor dixo. Señor cavallero demando os un don. Él que
+                    lo vio mas hermoso que nunca otro visto avía tomó lo por la mano y dixo. Sea con
+                    derecho y yo vos otorgo. Pues reugo vos por cortesía que me hagáis cavallero sin
+                    mas tardar/ y quitar me héis de ir al rey Lisuarte don de Agora iva. Amigo dixo
+                    el gran desuarió hariades en dexar para tal honra el mejor rey del mundo: y
+                    tomar a un pobre cavallero como lo yo soy. Señor dixo Gaaor la su grandeza del
+                    rey Lisuarte no me porna a mi essfuerço: assí como lo hará vuestra gran valentía
+                    que aquí vos vi haer: y complid lo que me prometistes. Buen escudero dixo él de
+                    cual quiera otro que demandéis seré yo muy mas contento que deste que en mi no
+                    cabe: ni a vos es honra. Allá sazó Urganda llega a ellos como que noa vía oído
+                    nada/ y dixo: señor que vos parece deste donzel: pareceme dixo él el mas hermoso
+                    que nunca vi/ demandame un don que a élni a mi cumple: y que es dixo ella: que
+                    le haga cavallero dixo sel seyendo puesto en camino para oír a pdeir al rey
+                    Lisuarte. Ciertamente dixo Urganda en el dexaro de ser cavallero le vernía mayor
+                    daño que por/ y a él digo que no vos quite el don: y a vos que lo cumpláis. E
+                    digo vos que cavallería será el mejor empleada que en ninguno de cuantos agora
+                    aí end todas las insulas del mar fueras ende un solo. pues que assí es dixo él/
+                    en el nobre de Dios sea y agora nos vamos alguna iglesia para tener la vigilia.
+                    Ao es necessaría dixo Galaor/ que ya oí he oído missa: y vi el verdadero cuerpo
+                    de dios. Esto hasta dixo él delos leones:y poniéndole la espuesla diestra: y
+                    besando lo le dixo. Agora sois cavallero: y tomad la espada de quien mas vos
+                    agradara. Vos me la daréis dixo Galaor/ que de otro ninguno no la tomaría a mi
+                    grado/ y llamó a un escudero que le traxesse una espada que en la mano tenía.
+                    Mas Urganda dixo ao vos dará essa: sino aquella que esa colgada deste árbol: con
+                    que seréis mas aelgre. Entonces miraron todos al árbol y no vieron nada. Ella
+                    començó a reir de gana/ y dixo. Por Dios bien ha diez años que assí está/ que la
+                    nunca vio ninguno que por aquí passasse: y agora la verán todos: y tornando a
+                    mirar vieron la espada colgada de un ramo del árbol: y parescía muy hermosa: y
+                    tan fresca como si entonces se pusiera: y la vaína muy ricamente labrada de seda
+                    y de oro. Él delas armas de los leones la tomó/ y ciño la a Galaor diziendo. Tan
+                    hermosa espada convenía a tan hermoso cavallo: y cierto que vos no desama quien
+                    de tan luengo tiempo os la gurado. Galaor fue della muy contento y dixo al de
+                    las armas de los leones. Señor a mí conviene ir a un lugar qu esucsar no puedo.
+                    Mucho desseo vuestra compañía mas que de otro cavallero nnguno a vos plugiere y
+                    dezídme donde vos hallaré. En casa del rey Lisuarte dio él: donde de seré alegre
+                    de os ver/ porque es razón de ir allí/ porque ha poco que fui cavallero: y tengo
+                    en tal casa de ganar alguna honrra como vos. Galaor fue de esto muy alegre y
+                    dixo a Urganda. Señora donzella muchos os gradezco esta espada que me distes/
+                    acordad vos de mí como de vuestro cavallero; y despdido dellos se tornó a donde
+                    dexara el gigante que escondidio quedara en una ribera de un río. En este medio
+                    tiempo que esto passó hablava una donzella de Galaor con la otra de Urganda: y
+                    della supo como aquel cavallero era Amadis de Gaula hijo del rey Perión: y como
+                    Urganda su señora le hizo venir allí que a su amigo de aquel castillo sacasse
+                    por fuerça de armas que él su gran saber no le aprovechava para ellos/ porque la
+                    señora de castillo que de aquella arte mucho sabía/ o tenía primero encantado/ y
+                    no se temiendo del saber de Urganda: quisiéronse assegurar de la fuerça de las
+                    armas con aquella costumbre que el cavallero de los leones venció y passó la
+                    puente. como se vos ha contado. E por esto le tenían allí su amigo que allí
+                    traxera una donzella sobrina de la señor del castillo: aquella que ya oístes que
+                    en el agua se quería ahogar. Assí quedaron Urganda y el cavalllero hablando una
+                    parte de aquel día: y ella le dixo. Buen cavallero no sabéis a quien armastes
+                    cavallero: no dixo él: pues razón es que lo sepáis/ que él es de tal coraçón/ y
+                    vos assí mesmo/ que si vos topassedes no os conociendo sería gran mala ventura.
+                    Sabed que es hijo de vuestro padre y madre. Y este es él que el giante les tomó
+                    siendo niño de dos años y medio/ y es tan grande y hermoso como agora vedes: y
+                    por amor vuestro y suyo gurade tanto tiempo para el aquella espada: y digo vos
+                    que hará con ella el mejor comiençó de cavallería que nunca hizo cavallero en la
+                    gran bretaña. A Amadís se le hinchieron los oos de agua de plazer y dixo. Ay
+                    señora dezídme donde lo hallaré: no es agora menesterdixo ella que lo busquéis/
+                    que toda via conviene que passélo lo que esta ordendado: pues podre lo ver aína:
+                    Si dixo ella mas no os será tan ligero de conscer como pesáis. Él se dexo de
+                    preguntar mas en ello. Y ella con su amigo se fue su vía. E Amadís con su
+                    escudero por otro camino con intenctión de ir a vindiliosora don de er a la
+                    razón el rey Lisuarte. Galaor llegó donde era el gigante y díxole. Padre yo soy
+                    cavallo lores a dios y al buen cavallero que lo hizo: dixo él. Hijo desso soy
+                    muy alegre y demando os un don: muy de grado dixo él lo otorgo con tanto que no
+                    sea estorvo de ir yo a ganar honrra. Hijo dixo el gigante antes si a Dios
+                    pluguiere será en gran acrescentamiento della. Pues pedil de dixo él/ que yo lo
+                    otrogo. Hijo dixo él: algunas vezes me oístes dezir como Albada el gigante mató
+                    a traición a mi padre/ y le tomó la pena de Galtares que deve ser mía.
+                    Demandavos que me deís derecho del/ que otro ninguno como vos me lo puede dar/ y
+                    acordad vos de la criança que en vos hize: y como pornía yo mi cuerpo a la
+                    muerte por vuestro amor. Esse don dixo Galaor no es de pedirle vos a mí: antes
+                    le demando yo a vos que me torguéis essa batalla pues tanto os cumple/ y si
+                    della bivo saliere todas las otras cosas que mas vuestra honrra y provecho sean
+                    hasta que esta vida pague aquella gran deuda en que vos es yo estoy aprejado de
+                    hazer: y luego vamos allá. En el nombre de dios dixo el gigante. Entonces
+                    entraron en el camino de la pena de Galtares: y no anduvieron mucho que
+                    encontraron con Urganda la Desconocido: y saludáronse cortesemente: y dixo a
+                    Galaor. Sabéis quien os hizo cavallo: si dixo él: el mejor cavallo de que nunca
+                    oy hablar. Verdad dixo ella: y mas vale que vos pesáis: y quiero que sepáis
+                    quien es. Entonces llamó a Gandalac el gigante y dixo.Gandalc no sabes tu que
+                    este cavallero que criaste es hijo del rey Perión y de la reina Elisena y por
+                    las palabras que yo te dixe le tomaste/ y los has criado: Verdad es dixo él.
+                    Entonces dixo a Galaor. MI amado hijo sabed que aquel que os hizo cavallero es
+                    vuestro hermano. y es mayor que vos dos años: y cuando le vierdes honralde como
+                    al mejor cavallero del mundo: punad de le parecer en el ardimiento y
+                    buentalante. Es verdad dixo Galaor que el rey Perión es mi padre y la reina mi
+                    madre: y que soy hermano de aquel tan buen cavallo: Sin falt dixo ella es. Adiós
+                    merced dixo él: agora os digo que soy puesto en mucho mayor cuydado que ante y
+                    la vida en mayor peligro: pues me conviene ser tal: que esto que vos donzella
+                    dzir/ assí ellos como todos los otros con razón lo devan creer. Urganda se
+                    despidió dellos: y el gigante y Galaor anduvieron su via como ante. Y
+                    preguntando Galaor al gigante quien era aquella tan sabida donzella: y el
+                    contándole como era Urganda la Desconocida: y que se llamava assí porque muchas
+                    vezes se transformava y del conocía llegaron a una ribera: y por ser la calor
+                    grande acordaron de en ella holgar en una tienda quemaron: y no tardo que vieron
+                    venir una donzella por un camino y otra por otro assí que se juntaron cabe la
+                    tienda: y cuando vieron el gigante que sieron huir: mas don Galaor salió a ellas
+                    y hizo las tornar assegurándolas: y preguntó donde ivan. La una le dixo voy por
+                    mandado de una mi señora a ver una batalla muy estraña de un solo cavallero que
+                    se ha de combatir con el fuerte gigante de la pena de Galtares para que le lleve
+                    las nuevas della. la otra donzella: dixo maravillóme de lo que dezís que aía
+                    cavallero que tan gran locura osasseacometer: y a ninunga que mi camino a otra
+                    parte es/ ir quiero con vos por ver cosa tan fuera de razón. Ellas que se ivan
+                    díxoles Galaor. Donzellas no vos aquexís de aí llegar que nosotros avamos a ver
+                    essa batalla: y ir en nuestra compañía. Ellas selo prometierion y mucho holgavan
+                    de le ver tan hermoso con aquellos paños de novel cavallero que muy mas puesto
+                    le hazían/ y todos juntos allí comieron y holgaron/ y Galaor sacó a parte al
+                    gigante/ y díxole. Padre a mi plazería mucho que me dexéis ir a hazer mi batalla
+                    y sin vos llegaré mas aína. Esto dezía él porque no supiessen que él era él que
+                    la vía de hazer: y no sospechassen que con su esfuerço quería acometer tan gran
+                    cosa. El gigante lo otrogó contra su voluntad: y Galaor se armó y entró en el
+                    camino/ y las donzellas ambas con ´´: y tres escuderos del Gigante que mandó ir
+                    con él que llevavan las armas y lo que avía menester: y assí anduvo tanto que
+                    allegó a dos lenguas de la pena de Galtares: y allí le anocheció en una casa de
+                    un hermanito: y sabiendo que era de orden se consessó con él. Y cuando le dixo
+                    aue ir va a hazer aquella batalla fue muy espantado y díxole: quien os pone en
+                    tan gran locura como esta: que en toda esta Comarca no aí tales diez cavalleros
+                    que le osassen acometer tanto es bravo y espantoso y fin ninguna merced: y vos
+                    siendo en tal edad poneros en tal peligor perder queréis el cuerpo y aún el
+                    alma/ que aquellos que concidamentese se ponen en la muerte pudiéndolo escusar
+                    ellos mesmos se mantan. Padre dixo con Galaor dios hará de mi su voluntad: pero
+                    la batalla no la dexaré por ninguna vía. El hombre bueno començó a llorar y
+                    díxole. Hijo dios os acorra y esfuerce pues en esto otra cosa no queréis hazer/
+                    y plazéme en vos hallar de buena vida/ y Galaor le rogó que rogasse a dios por
+                    él. Allí se aposen taron aquella noche: y otro día aviendo oído missa armose
+                    Galaor y fue se contra la Peña que ante si veía muy alta: y con muchas torrnes
+                    fuertes que hazían el castillo parescer muy hermoso a maravilla. Las donzella
+                    preguntaron a Galaor si conoscía el cavallero que la batalla avía de hacer. Él
+                    es dixo creo que yo le vi.Galaor preguntó a la donzella que de parte de su
+                    señora venía a ver la batalla/ que le dixesse quien era. Esto no puede saber
+                    otro sino el cavallero que se ha de combatir/ y hablando en esto llegaron al
+                    castillo/ y la puerta hallaron cerrada. Galaor llamó: y parecieron dos hombres
+                    sobre la puerta y díxoles: dezíd a Albadan que está aquí un cavallero de
+                    Grandalac que viene a se combatir con él: y que si allá tarda que no salirá
+                    hombre ni entrara que le yo no mate si puedo: los hombres se ríeron y dixeron.
+                    Este rencor durara poco porque o tu huirás o perderás la cabeça. Y fueron lo a
+                    dezir al gigante y las donzellas se llegaron a Galaor y dixeron. Amigo, señor
+                    sois vos el lidiador desta batalla: si dixo él. Si señor dixeron ellas dios os
+                    aude y lo dexe acabar a vuestra honra que gran hecho començáis: y que edad en
+                    buena ora que no osaremos atender al gigante: amigas no temáis y ved por lo
+                    venistes o vos tornad a casa del hermita˜õ que yo aí ser´si aquí no muer la una
+                    dixo cualquier mal que avenga ver quiero lo porque vine: entonces apartándose
+                    del castillo se metieron en una orlla de una foresta donde esperavan de huir si
+                    mal fuesse al cavallo. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

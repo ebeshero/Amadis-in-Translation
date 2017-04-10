@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="28">
+                <head>Capítulo XXIX <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como el rey Lisuarte hizo cortes: y delo que en ellas le acaesció. </p>
+                </argument>
+                <p> Con las nuevas en el enano truxo al rey Lisuarte de Amadís y don Ganalor fue muy
+                    alere teniendo en voluntad de hazer cortes las mas honradas y de mas cavallos
+                    que nunca en el gran bretañase hizieron solamente esperando a Amadís y Galaor.
+                    Paresci´ ante el rey un día olivas a se quexar del duque de bristoya que ava su
+                    cormano le matara a aleve. El rey auido su consejo con los que desto mas sabían:
+                    puso lazo de un mes al duque que a responder viniesse y que si por ventura que
+                    siesse meter en esta requesta dos cavallos consigo: que olivas los tenía de su
+                    parte tales que con toda igualeza de linage y bondad podrían mantener razón y
+                    derecho. Esto hecho mandó el rey apercebir a todos sus altos hombres que fuessen
+                    con él el día de fanta maría de se tiembre a las cortes: y la reina assí mismo y
+                    todas las dueñas y donzellas de gran guisa. Pues seyendo todos en el palacio con
+                    gran alegría hablando en las cosas que en las torres se avía de ordenar: no
+                    sabiendo ni pesando como en los semejantes tiempos la fortuna movible quiere con
+                    sus acebanças cruelmente herir: porque a todos sea notorio el pensamiento de los
+                    hombres no venir con aquella certenidad que ellos esperan. Acaeci´ de entrar en
+                    el palacio una donzella estraña affaz bien guarnida: y un gentil donzel que la
+                    acompañava y decendiendo de un palafrén pregunt´ quel era el rey él dixo:
+                    donzella yo soy. Señor dixo ella: bien semejáis rey en el cuerpo mas no se si lo
+                    seréis en el coraçón. Donzella dixo él: esto vedes vos agora: y cuando en lo
+                    otro me provardes saber lo éis. Señor dixo la donzella: a mi voluntad
+                    respondéis: y membrese os esta palabra que me dáis ante tantos hombres buenos:
+                    porque yo quiero provar el esfuerço de vuestro coraçón cuando me fuere menester
+                    y yo oí dezir que queréis tener cortes en londres por sancta maría de Setiembre:
+                    y allí donde muchos hombres buenos aura: quiero ver si sois tal que con razón
+                    deváis ser señor de tan gran reino/ y tan famosa cavallería. Donzella dixo el
+                    Rey pues que i obra a mi poder se hará mejor que él dicho: tanto mas plazer aure
+                    cuanto mas hombres buenos fueren aí presentes. Señor dixo la donzella si assí so
+                    los hechos como los dichos yo me tengo por muy bien con tenta: y a dios seáis
+                    encomendado. A dios vayáis donzel a dixo el rey y ass´ˆla saludaron todos los
+                    cavalleros. La donzella se fue su camino. Y el rey quedó hablando con sus
+                    cavalleros: pero digo vos que no ovo aí tal que mucho no le pesasse de aquello
+                    que el rey prometiera: temiendo que la donzella lo quería poner en algun gran
+                    peligro de su persona: y el rey era tal que por grande que fuesse no lo dudaría
+                    por no ser envergonçado/ y él era tan amado de todos lo suyos: que antes que
+                    sieran ser ellos puestos en gran afrenta y verguença que verselo a él padecer y
+                    no tuvieron por bien que un tan alto principe diesse assí en donado sin mas
+                    deliberación su palabra a estraña muger: seyendo obligaod a lo cumplir y no
+                    certificado de lo que ella le querría demandar. Pues aviendo en muchas cosas
+                    hablando queriéndose la reina acoger a su palacio: entraron por la puerta tres
+                    cavalleros: los dos armados de todas armas y el uno desarmado y era grande y
+                    bien hecho: y la cabeça casi toda cana por fresco y hermoso segun se edad esta
+                    traía ante si una arqueta pequeña: y preguntó por el rey: y mostraronselo: él
+                    descendió de su palafrén y sincando los inojos ante él con el arqueta en sus
+                    manos/ díxole. Dios os salve señor como al principe del mundo que mejor promesa
+                    ha hecho si la tenedes el rey dixo: y que promessa es esta o porque me lo dezis:
+                    a mí dixeron dixo el cavallero que queríades mantener cavallería en la mayor
+                    alteza y honra que ser pudiesse: y porque desto tal son muy pocos los principes
+                    que dello se trabajan es lo vuestro mucho mas que lo suyo de loar. Cierto
+                    cavallero dixo el rey: essa promessa terne yo quinto vida tuviere. Dios vos lo
+                    dexé acabar dixo el cavalero: y porque oí dezir que queríades tener cortes en
+                    londres de muchos hombres buenos traigo vos aquí lo que para tal hombre como vos
+                    y a tal fiesta conviene. Entonces abriendo el arqueta: sacó della un corona de
+                    oro tambiém obrada y con tantas piedras: y alijosar que fueron muy maravillados
+                    todos la ver y bien parecía que no devía ser puesta en cabeça sino de muy gran
+                    señor. El rey la mirava mucho con sabor de la aver para si: y el cavallero le
+                    dixo. Creed señor que esta obra es tal que ninguno de cuantos oí saben labrar de
+                    oro y poner piedras no la sabrían mirar. Si dios me ayude dio el rey: yo lo
+                    tengo assí. Pues como quiera dixo el cavallero que su obra y hermosura sea tan
+                    estraña: otra cosa si tiene que mucho mas es de preciar: y esto es que siempre
+                    el rey que en su cabeça la pusiere será matenidor acrecentando en su honra que
+                    assí lo hizo para que fue hecha hasta el día de su muerte y de enctonces acá
+                    nunca rey la tuvo en su cabeça: y si vos señor la quiserdes aver: dar vos la he
+                    por cosa que será repar´ de mi caebça/ que la tengo en aventura de perder. La
+                    riena que delante estava dixo. Cierto señor mucho vos conviene tal joya como
+                    essa y dalde por ella todo lo que el cavallero pidiere: y vos señor dixo él
+                    comprar me hedes un muy hermoso mantó que aquí traío: si dixo ella muy de grado/
+                    luego sacó de la arqueta un manto el mas rico y mejor obrado que nunca se vio:
+                    que de mas de las piedras y alijosar de gran valor que en el avía eran en el
+                    figuradas todas las aves y animalias del mundo: tan sotilmente que por maravilla
+                    lo miravan: la reina dixo: si dios me va la amigo paresce que este paño no fue
+                    por otra mano hecho sino por la de aquel señor que todo lo puede: cierto señora
+                    dixo el cavallero bien podéis creer sin falta: que por mano y consejo de hombre
+                    fue este paño hecho: mas muy caramente se podría gora hallar quien otro
+                    semejante hiziesse: y dixo. A un mas vos digo que conviene este manto mas a
+                    muger casada que a soltera: que tiene tal virtud que el día que lo cobijare no
+                    puede aver entre ella y su marido ninguna congoxa. Cierto dixo la reina: si ello
+                    es verdad no puede ser comprado por preció ninguno. Desto no podéis ver la
+                    verdad si el manto no ovierdes dixo el cavallero y la reina que mucho al rey
+                    amava ovo gana de aver el manto porque entre ellos fuessen los inojos escusados:
+                    y dixo. Cavallero dar vos he yo por esse manto lo que quiserdes. El rey dixo.
+                    Demandad por el manto y por la corona lo que vos pluguiere; señor dixo el
+                    cavallo yo yo agran cuita emplazado de aquel cuyo preso soy: y no tengo espacio
+                    para me detener: i para saber quinto estas donas valen: mas yo seré con vos en
+                    las cortes de londres: y entre tanto quede a vos la corona y a la reina el
+                    manto: por tal pleito que por elo me déis lo que yo vos demandaré: o me lo
+                    tornéis/ y auréis lo ya ensayado y provado que bien se que de mejor talante que
+                    agora entonces me lo pagaréis. El rey dixo cavallero agora creed que vos auréis
+                    lo que demandaresL o el manto y la corona: el cavallo dixo. Señores cavallos y
+                    dueñas oíd vos bien esto que el rey y la reina me prometen: que me darán mi
+                    corona: y mi manto: o aquello que les pidiere. Todos lo oímos dixeron ellos.
+                    Entonces se despidió el cavallo dixo: a dios quedéis que yo voy a la mas esquina
+                    prisión que nunca hombre tuvo. Y el uno delos dos cavalleros armados tiró su
+                    yelmo en tanto que allí estuvo: y pare´â ffaz mancebo y hermoso: pero el otro no
+                    lo quiso tirar y tuvo la cabeça abaxada ya cuanto y parecía tan grande y tan
+                    desmesurado: que no avía en casa del rey cavallero que le igual fuesse con un
+                    pie. Assí se fueron todos tres quedando en poder del rey el manto y la
+                    corona.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
