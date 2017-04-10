@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="11">
+                <head>Capítulo XV <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> En que tratalo que a Agrajes auino después que vino de la guera de Gaula y
+                        algunas cosas de las que hizo. Agrajes buelto de la guerra de Gaula al
+                        tiempo que Amadís aviendo en batalla muerto al rey Abies de Irlanda y averse
+                        conoscido con su padre y madre comose os ha contado. Teniendo aparesado para
+                        en Auruega passar: donde su señora Olinda era: fue un día a correr monte y
+                        siendo en la ribera de la mar encima de una peña: supitamente un granizo con
+                        grandíssimo viento sobrevino de que la mar en disgualada manera embravecer
+                        hizo: por lo quel una nao rebuleta muchas vezes con la fuerça de las olas en
+                        peligro de ser anegada vio. A gran piedad al movido/ la noche viniendo
+                        grandes fuegos hizo encender: porque la señal dellos causa de la salvación
+                        de la gente de la nao fuesse/ atendiendo el allí la fin que de aquel gran
+                        peligro reudasse. Finalmente la fuerça de lso veintos: la sabiduría de los
+                        mareantes: y sobre todo la miserciordía del verdadero señor aquella susta
+                        que muchas vezes por perdida se tuvo: al puerto seindo salva hizieron
+                        arribar. De donde sacadas unas donzellas con gran turbación del presente
+                        peligro a Agrajes que encima de las peñas estava dando bozes a sus monteros
+                        que con gran diligencia les ayudasse: fueron entregadas: él que las embió a
+                        unas caserías cerca donde su alvergo tenía. Pues salida la gente de la nao:
+                        y aposentados en aquellas casa después de aver cenado alderredor de los
+                        grandes fuegos que Agrajes les mandara hazer muy sieramente dormían. En este
+                        medio tiempo aposentadas las donzellas por su mandado en la su misma cámara
+                        porque mas honrra servicio las donzellas recibiessen: aún por él no eran
+                        vistas. Mas siendo ya la gente assossegada: como cavallero mancebo desseoso
+                        de ver mugeres: mas para las servir y honrra que para hazer su coraçón
+                        subjeto en otra parte que arte estava: quiso por entre las puertas de la
+                        cámara ver lo que hazían: y viendolas ser a derredor de un fuego hablando
+                        con mucho plazer en el remedio del peligro passado conci´ entre ellas
+                        aquella hermosa infanta Olinda se señora hija del rey de Auruega por quien
+                        él assí en el rey no de su padre como en el suyo della y en otras partes
+                        muchas cosas en armas avían hecho aquella que su coraçón siendo libre con
+                        tanta fuerça cativado y sojuzgado tenía: que atormentado de granes congoxas
+                        era atrayendo a sus ojos infinitas lágrimas. Pues alterado con tal vista
+                        ocurriéndole en la memroia en el gran peligro que la viera: y la parte donde
+                        sin él la veía: como fuera de sentido dixo. Aí sancta maría valme: que esta
+                        es la señora de mi corçón/ lo que el por ella oído no sospechando lo que era
+                        a una donzella mandó saber que fuesse aquello. Esta pues abriendo la puerta
+                        allí a Agrajes como trasportado vio estar: él qual haziendo se le conoscer:
+                        y ella diziendo se lo a suseñora no menos alegrese haziendo que el estava le
+                        mando allí entrar/ donde después de muchos autos amoroso entre ellos
+                        passados/ dando sin a sus grandes desseos aquella noche con gran plazer y
+                        gran goso de sus animos passaron/ y estuvo allí aquella compaña en mucho
+                        descanso seis días en tanto que la mar amasada fuesse: y todos ellos estuvo
+                        Agrajes co su señora sin que persona de los unos ni otros lo sinitessen sino
+                        sus donzellas. Pues entonces supo él como Olinda pasava a la gan Bretaña por
+                        bivir en la casa del rey Lisuarte con la reina Birsena donde su padre la
+                        embiava: y él le dixo como estava aprejado para passar en nuruega donde ella
+                        era/ y que pues dios le avía dado tal dicha que su vía jefe rebolvería donde
+                        éls uyo era la servir y ver a su cormano Amadís: que él allí pensava fallar.
+                        Linda selo gradescio mucho y él rogó y mandó que assí lo hiziesse. Esto
+                        concertado en cabo de aquellos seˆ días seyendo la mar en tanta onança que
+                        sin ningun peligro por ella navegar podrían: acogérsonse todos a la mar.
+                        Despidiéndose de Agrajes fueron su vía y sin entre ualo alguno que estorvo
+                        les diesse llegaron en la gran Bretaña: donde de la mar salidos y a la isla
+                        de Vinidiosora llegados donde el rey Lisuarte era: assí del como de la reina
+                        de su hija y de todas las otras dueñas y donzellas Olinda muy bien rescebida
+                        fue: considerando ser de tan alto lugar y sobrada hermosura. Agrajes que en
+                        la ribera del mar quedara mirando aquella nao en que aquella su muy amada
+                        señor iva: cuando la uvo perdido de vista tornose a Briantes aquella villa
+                        donde el rey Languines su padre era: y fallando allí a Don Galvanes si
+                        tierra su tio hablo que sería bueno irse a la corte del rey Lisuarte: donde
+                        tantos cavallerso buenos vivián: porque allí mas en orra parte honra y fama
+                        podrían ganar: lo qual se perdía todo en aquella tierra: donde no podían
+                        exercitar sus coraçónes sino con gentes poco prez de armas. Don Galvanes que
+                        buen cavallero era desseoso de ganar honrra: no le empiendo ningun señorió:
+                        que de governar oviesse: porque él no poesseya sino solamente un castllo:
+                        tuvo por bien de hazer aquel camino que Agrajes su sobrino le dixera: y
+                        despedidos del rey Languines entrando en la Mar solamente consigo sus armas
+                        y cavallos y sendos escuderos el tiempo endereçado que hazían los arribó en
+                        poco espacio de tiempo en la gran Bretaña en una villa que avía bombre
+                        Bristoya y de all´ˆpartiendo y caminando por una floresta a la salida della
+                        encontaraon una donzella la cual les puregunto si sabían que aquel camino
+                        fuesse a la peña de Galtares: no dixeronellos: mas porque lo preguntáis dixo
+                        Agrajes por saber dixo ella si fallaré aí un buen cavallero que me porna
+                        remedio a una gran cuita que conmigo trayó. Errada ir dixo Agrajes que en
+                        esse peña que os dezis no fallaréis otro cavallero sino aquel bravo gigante
+                        Albadan/ que si vos cita lleváis segun sus malas obras él la doblara. Si vos
+                        supiessedes lo que yo no lo terniades dixo ella por yerro que el cavallero
+                        que yo demando se comabtió con esse Gigante y lo mató en batalla de uno por
+                        otro. Cierto donzella dixo Gavlanes maravillas no dezis: que ningun
+                        cavallero con ningun gigante se tomasse: endemas con aquel que es él mas
+                        bravo y esquivo que aí en todas las insulas del mar. Sino fue el rey Abies
+                        de Irlanda que se combatió con uno: el armado y el Gigante desarmado y lo
+                        mató/ y aún assí lo tuvieron a la mayor locura del mundo. Señores dixo la
+                        donzella: mas a guisa de buen cavallero lo hizo este otro que yo digo.
+                        Entonces les contó como fuera la batalla: y ellos fueron maravillados: y
+                        Agrajes preguntó tal esfuerço acometiera: Si dixo ella/ pues ruego vos mucho
+                        dixo Agrajes por cortesía que nos lo digáis. Digo vos dixo ella que ha
+                        nombre don Galaor: y es hijo del rey de Gaula. Agrajes se estremeció todo y
+                        dixo. Aí donzella como me dezis las nuevas del mundo que mas alegre me
+                        hazen: en saber de aquel cormano que mas por muerto que por bivo tenía.
+                        Entonces contó a Don Galvanes lo que sabía de Galaor: como lo tomara el
+                        Gigante: y que hasta allí no supiera el ningunas naevas. Cierto dixo
+                        Galvanes la nida del y de su hermano Amadís no avía sido maravilla: y el
+                        comienço de sus armas tanto que dude si en el mundo otros que a allos
+                        iguales se pudiessen hallar. Agrajes dixo a la donzella amiga que queréis
+                        vos a esse cavallero que buscáis: señor dixo ella querría que acorriesse a
+                        una donzella que por él es presa: y hizola prender un enano traídor la mas
+                        falsa criatura que aí en todo el mundo: entonces les cont´ todo cuandto
+                        Galaor con el enano le avino: assí como es ya contado: pero de lo de Aldeva
+                        su amiga no les dixo nada: y señores porque la donzella no quiere otorgar
+                        con lo que el enano dize/ el duque de Bristoya jura que la hará que mar de
+                        aquí a diez días. Y esto es gran cuita de las otras duennas silla donzella
+                        con miedo de la muerte quiera condenar alguna dellas diziendo que llevó a
+                        Galaor allí a aquella fin y de los diez días son passados los cuatro. Pues
+                        que assí es dixo Agrajes/ no passéis mas adelante que no haremos lo que
+                        Galaor haría/ sino fuere en fuerça será un voluntad/ y agora nos guiad en el
+                        nombre de dios. La donzella tornó por el camino que avía venido/ y ellos la
+                        segu´ân y llegaron a casa del duque el día antes que la donzella avían de
+                        quemar: a la razón que el duque se assentava a comer: y descendiendo de los
+                        cavallos entraron ass´ˆarmados donde él estava. El duque los saludo/ y ellos
+                        a él: y dixo les que comiessen. Señor dixeron ellos antes vos diremos la
+                        razón de nuestra venida. Y don Galvanes le dixo. Duque vos tenéis una
+                        donzella presa por palabras falsas y malas que vos dixo un enano mucho vos
+                        rogamos la mandéis soltar/ pues no os tiene culpa/ y si sobre esto fuere
+                        menester batalla nos lo defenderemos a otros dos cavallos que la requesta
+                        tomar querran. Mucho avéis dicho dixo el duque/ y mandó llamar al enano y
+                        díxole. Que dizes a esto que estos cavalleros dizen/ que me heziste prender
+                        la donzella con falsedad: y que lo pornan en batalla: digo te que conviene
+                        que aías quien te defienda. Señor dixo el enano: yo aure quien haga verdad
+                        cuanto yo dixe. Entonces llam´ un cavallero su sobrino que era fuerte y
+                        membrudo que no parecía aver deudo con él y díxole. Sobrino conviene que
+                        mantengas mi razón contra estos cavalleros: el sobrino dixo. Cavalleros que
+                        dezis vos contra este leal enano: que tom´ gran desonrra del cavallero que
+                        la donzella aquí taxo: por ventura sois vos: y provaros ya que él hizo
+                        fuerto al enano: y que la falsa donzella deve morir: porque lo metió en la
+                        cámara del duque. Agrajes que mas se aquexava dixo. Cierto no es ningun de
+                        nos aquel: aun que le querríamos parescer en sus hechos/ ni en el no ovo
+                        tuerto y yo vos combatiré luego: y la donzella digo que no deve morir: y que
+                        el enano fue contra ellos deseal: pues luego sea la batalla dixo el sobrino
+                        del enano: y pidiendo sus armas se armó y calvagó en un buen cavallo: y dixo
+                        contra Agrajes. Cavallero agora dios mandasse que fuessedes vos él que aquí
+                        traxo la donzella que yo le haría comprar desmesura. Cierto dixo Agrajes él
+                        se ternía en poco de se combatir con tales dos como vos sobre cualquier
+                        razón: cuanto mas sobre estava en que derecho manternía: el duque dexo de
+                        comer y fuesse con ellos/ y meti´ los en un campo donde ya algunas otras
+                        pruevas fueron allí liliadas: y díxoles. La donzella que yo tengo presa no
+                        pongo en razón de uestra batalla/ pues que a ella no toca el tuerto que el
+                        enano rescibi´. Señor dixo Agrajes vos la prendistes por lo que el enano
+                        dixo: y yo digo que os dixo falsedad: y si yo este cavallero venciere que
+                        mantiene su razón dar nos la héis con derecho ya os dixe lo mio dixo el
+                        duque/ y no haré mas: y saliéndose de entre ellos se fueron a cometer a gran
+                        correr de los cavallos y hiriéronse bravamente de las lanças que luego
+                        fueron quebradas: y juntados de los cuerpos de los cavallos y de los
+                        escudos/ cayeron ellos a sendas partes: y cada uno selevantó bravamente: y
+                        con gran saña que se avían pusieron mano a sus espadas y acometiéronse a pie
+                        dandose tan grandes y duros golpes que todos los que miravan eran
+                        maravillados las espadas eran cortadoras y los cavalleros de gran fuerça: y
+                        en poca de hora fueron sus armas de tal guisa paradas que no avía en ellas
+                        mucha defensa: los escudos eran cortados por muchas partes y los yelmos
+                        abollados. Galvanes que vio andar a su sobrino esforçado y ligero y mas
+                        cometedor que el otro fue alegre: y si antes lo preciava: agora mucho mas y
+                        Agrajes tenía tal maña: que aunque al comienço muy bivo se mostrasse por
+                        donde parecía ser su fuerça que mucho mas ligero y cometedor se mostrava al
+                        cabo: assí que en algunas partes fue al príncipio en tampoco tenido: que a
+                        la sin ovo la vitoria de la batalla: pues assí catando Galvanes vio como el
+                        sobrino del enano se tir´ afuera/ y dixo contra Agrajes. Affaz no combatimos
+                        y paresce me que o es culpado el cavallero por quien vos combatis ni mi tío
+                        el enano: que de otra guisa la batalla no durara tanto: y si quisierdes
+                        parta se dando por leal al cavallo y al enano. Cierto dixo Agrajes el
+                        cavallo es leal y el enano falso y malo: y novos dexaré hasta que vuestra
+                        boca lo diga: y punad de os defender. El cavallero mostró su poder/ mas poca
+                        por le tuvo que era llagado mucho: y Agrajes l hería de grandes golpes
+                        amenudo y el cavallero no entend´â en al sino en se cubrir de su escudo.
+                        Cuando el duque assí lo vio en aventura de muerte ovo gran pesar: que lo
+                        mucho amava: y fuesse iendo contra su castillo por lo no ver matar y dixo.
+                        Agora juro que no haré a cavallero andante sino todo escarnio. Loca guerra
+                        cometistes dixo Galvanes en vos tomar con los cavallos andantes/ que quieren
+                        emendar los tuertos. A esta razón vino a caer a los pies de Agrajes el
+                        cavallero: y él le tiró el yelmo: y dio le grandes golpes de la mançana de
+                        la espada en el rostro y dixo. Conviene que digáis que le enano hizo tuerto
+                        al cavallero. Aí buen cavallero dixo el otro no me matéis/ y yo digo del
+                        cavallero porque vos combatistes que es bueno: y leal: y prometo vos de
+                        hazer quitar la donzella de prisión. Mas por dios no queréis que diga del
+                        enano que es mi tío y me crió que es falso. Esto oían todos los que al
+                        derredor miravan. Agrajes ovo duelo del cavallo y dixo por el enano no haría
+                        yo nada: mas por vos que os tengo por buen cavallero haré tanto que os daré
+                        por quito quitando a la donzella de la prisión a vuestro poder: el cvallero
+                        lo otorgó: el duque que nada desto oía iva ya cerca del castillo y tomólo
+                        Galvanes por el freno: y mostróle al sobrino del enano a los pies de Agrajes
+                        y dixo. Aquel muerto es o vencido: que nos dezís de la donzella: Cavallero
+                        dixo el duque as sois que loco si pensáis que yo haga de la donzella sino lo
+                        que tengo acordado y jurado: y que jurastes vos dixo Galvanes: que la
+                        quemaría mañana dixo el duque/ si me no dizesse a que meti´ el cavallero en
+                        mi palacio. Como dixo Galvanes/ no nos la daréis: ao dixo el duque: ni os
+                        detengáis mas en este lugar: sino yo mandaré en ello al hazer: entonces se
+                        llegaron muchos de su compaña/ y Galvanes tiró la mano del freno y dixo. Vos
+                        nos amenazáis y no quitades la donzella que es derecho: yo os desaño poreden
+                        por mi y por todos los cavalleros andantes: que me ayudar quisieren. E yo
+                        desafío a vos y a todos ellos dixo el duque: y en mal punto andaran por mi
+                        tierra. Don Galvanes se tornó donde Agrajes estava y dixo lo que con el
+                        duque passara: y como eran sus desafiados: de que fue muy sañudo y dixo tal
+                        hombre como este en que derecho no se puede alcançar: no devría ser señor de
+                        tierra: y cavalgando en su cavallo dixo contra el sobrino del enano.
+                        Miembrése os los que me promtistes en lo de la donzella; y cumplid lo luego
+                        a vuestro poder. Yo haré todo lo que en mi es dixo él. Esto era ya cerca de
+                        hisperas: que a tal hora se partió la batalla/ y luego se partieron de allí:
+                        y entraron en una floresta que llamavan Arunda: y dixo Galvanes. Sobrino nos
+                        hemos desafíado al duque aguardemos aquí y prender lo hemos: y alguno otro
+                        de que passare. Bien es dixo Agrajes.Entonces se desuviaron de la carrera y
+                        metiéronse en una mata espessa: y allí descendieron de los cavallos: y
+                        embiaron los escuderos a la villa que les traxessen lo que avían menester.
+                        Allí alvergaron aquella noche.El duque fue muy sañudo contra la donzella:
+                        mas que ante: y hizo le venir ante si: y dixo le que curasse de su alma: que
+                        otro día sería quemada/ si luego no le dixesse la verdad del cavallero pero
+                        ella no quiso dezir nada. El sobrino del enano hincó los inojos ante el
+                        duque y díxole la promessa que hiziera rogándole por dios que la donzella le
+                        diesse: mas esto fuera escusado que ante perdiera todo su estado que quebrar
+                        lo que jurara: al cavallero pesó mucho porque quisiera quitar su omenaje.
+                        Pues otro día de mañana mandó el duque traer ante si la donzella y dixo.
+                        Descoged en el fuego/ o en dezir lo que os preguntó: que de una destas no
+                        podéis escapar: ella dixo. Haréis vuestra voluntad: mas no razón: entonces
+                        la mandó el duque tomar a doze hombres armados y dos cavallerso armados con
+                        ellos/ y él cavalgó en una gran cavallo solamente un bastón en la mano: y
+                        fuesse con ellos a quemar la donzella a la orilla de la floresta. Y allí
+                        llegados dixo el duque. Agora le poned fuego y muera con su porsia. Esto
+                        todo vieron muy bien don Galvanes y su sobrino que estavan en regurado: no
+                        de aquello mas otra cualquier cosa en que al duque enojar pudiessen/ y como
+                        armados estavana cavalgaron presto/ y mandaron a un escudero que no
+                        entendiesse si no en tomar la donzella; y la poner en salvo/ y partiendo
+                        para allá vieron el huego/ y como querrías ya la donzella echar: mas ella
+                        ovo tn gran miedo que dixo. Señor yo diré la verdad: y el duque que se
+                        allegava por la oir: vio como venían por el campo don Galvanes y Agrajes/ y
+                        dezían a grandes bozes. Dexaros conviene la donzella: los dos cavalleros
+                        salieron a ellos/ y encontráronse con sus lanças my bravamente: pero los
+                        cavallos del duque feron ambos a tierra: y el que galvanes derribó no ovo
+                        menester maestro: el duque metió su compaña entre si y ellos: y Galvanes le
+                        dixo. Agora verás la guerra que tomaste: y dexarónse a él ir: y el duque
+                        dixo a sus hombres. Matad les los cavallos: y no se podrán ir: mas los
+                        cavalleros se metieron entre ellos tan bravamente hiriendo a todas partes
+                        con sus espadas y tropellando los con los cavallos assí que los esparzieron
+                        por el campo: los unos muertos y los otros tollidos: y los que quedavan
+                        fueron a mas andar. Cuando esto vio el duque: no fue seguro y començóse deir
+                        contra la villa cuanto mas pudo: y Galvanes fue tras el una pieça diziendo.
+                        Estad señor duque y veréis con quien tomastes omezillo: mas él no hazía sino
+                        huir y llamar a grandes bozes que le acorriessen: y tornándose Galvanes y su
+                        sobrino: hallaron que el escudero tenía la donzella en su palafrén: y él en
+                        una canallo de los cavalleros muertos: y fueronse con ella hazía la foresta.
+                        El duque se armó con toda su compaña: y llegando a la floresta no vio los
+                        cavaleros: y partió los suyos cinco a cinco a todas partes: y él se fue con
+                        otras cico por una carrera: y aquexóse mucho de andar: tanto que siendo
+                        encima de un valle miró abaxo: y vio los como iva con su donzella: y el
+                        duque dixo agora a ellos y no guardezcan: y fueron al mas ir de los
+                        cavallos. Galvanes que assí los vio dixo. Sobrino parezca vuestra bondad en
+                        vos saber defender: que este es el duque y los de su compaña: ellos son
+                        cinco: ni por esso no se sienta en vos covardia. Agrajes que muy essforçado
+                        era dixo. Cierto señor tío siendo yo con vos: poco daría por cinco de la
+                        compaña del duque. En esto llegó y díxoles. En mal punto me desonrrastes y
+                        pesáme que no seré vengado en matar tales como vos galvanes dixo. Agora a
+                        ellos. Entonces se dexaron correr: unos a otros: y hiriéronse de las lanças
+                        en los escudos tan duramente que luego fueron quebradas: mas los dos se
+                        tuvieron también que no los pudieron mover de las sillas y echando mano a
+                        sus espadas se sirieron de grandes golpes: como aquellos que lo bien sabían
+                        hazer: y los del duque los acometían bravamente: assí que la batalla de las
+                        espadas era entre ellos brava y curda. Agrajes fue a herir al duque con gran
+                        saña y hirióle su la visera del yelmo: y fue el golpe tan rezió/ que
+                        cortándole el yelmo le cort´ las narizes hasta las hazes: y el duque
+                        teniéndose por muerto: començó de huir cuanto mas pudo: y Agrajes empos del
+                        y no lo pudiendo alcançar tornó y vio como su tío se defendía de los cuatro
+                        y dixo entre si. Aí dios guarda tan buen cavalero estos traídores: y fue los
+                        herir bravamente: y Galanes hirió al uno assí que la espada le hizo caer de
+                        la mano: y como lo vio embaraçado tomóle por el brocal del escudo: y tiróle
+                        tan rezión que lo derribó en tierra: y vio que Agrajes de ribara uno de los
+                        otros: y dexóse ir Galvanes a los dos que herían: mas ellos no atendieron
+                        que huendo por la floresta no los pudieron alcançar: y tornando donde la
+                        donzella era la preguntaron: si avía aí cerca algun poblado. Si dixo ella:
+                        que aí una fortaleza de un cavallero que se llama Olivas: que por ser
+                        enemigo del duque por un su primo que le mató vos acogera degrado. Entonces
+                        los guió hasta que allá llegaron: el cavallero los acogi´ muy bien: y mucho
+                        mejor cuando supo lo que les acaeciera. Pues otro dio se armaron y tomaron
+                        su camino: mas Olivas los sac´ a parte y díxoles. Señores el duque me mató
+                        un primo con la mano buen cavallero a mala verdad: y yo quiero lo revtar
+                        ante el rey Lisuarte: demand´ vos consejo y ayudo: como a cavalleros que se
+                        andan poniendo en las grandes afrentas: por mantener lealtad: y hazer que la
+                        mantengan: los que sin temor de dios y de sus honrras la quebrantan.
+                        Cavallero dixo Galvanes: obligado sois a la demanda dessa muerte que dezís:
+                        si seamente se hizo: y nosotros a vos ayudar/ si menester fuere/ teniendo
+                        vos a ello justa causa: y assí lo haremos si el duque en la batalla algunos
+                        cavalleros querrámeter: porque como vos lo desamamos: y somos sus
+                        desafíados. Mucho vos lo agradezco dixo él: y quiero me ir con vos. En el
+                        nombre de dios dixeron ellos: entonces se armó y metióse con ellos en el
+                        camino de Vindilosora donde al rey Lisuarte cuida uan halalar.</p>
+                </argument>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
