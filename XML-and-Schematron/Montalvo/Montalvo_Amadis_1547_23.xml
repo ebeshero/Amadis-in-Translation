@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Chapter 2</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>To copy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>To copy</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="M23">
+                <head><choice><orig>Capítu. XXIII</orig><reg>Capítulo XXIII</reg></choice> <locus from="xlvi-r" to="xlvii-v"/>
+                    <!--pdf page 93-->
+                </head>
+                <argument>
+                    <p>Cómo el rey <persName ref="#Lisuarte">Lisuarte</persName> saliendo a caça
+                        como otras vezes solía: vio venir por el camino tres cavalleros armados / y
+                        de lo que con ellos le acaeció.</p>
+                </argument>
+                <p>
+               <cl xml:id="M23_p1_c1">Como el rey <persName>Lisuarte</persName> muy caçador y montero fuesse:</cl>
+               <cl xml:id="M23_p1_c2">siendo
+                    desocupado de otras cosas que más a su estado convenían:</cl>
+               <cl xml:id="M23_p1_c3">salía muchas veçes a
+                    caçar en una floresta que cabe la villa de Vindilisora estava:</cl>
+               <cl xml:id="M23_p1_c4">que por ser muy
+                    guardada muchos venados y otras animalías brutas avía:</cl>
+               <cl xml:id="M23_p1_c5">y siempre acostumbrava ir
+                    en paños de monte proveyendo en cada cosa con aquello que le convenía.</cl>
+               <cl xml:id="M23_p1_c6">Y estando
+                    un día en sus armadas cerca de un gran camino vio venir por él tres cavalleros
+                    armados:</cl>
+               <cl xml:id="M23_p1_c7">y embió a ellos un escudero que les dixesse de su parte que e viniessen
+                    a él.</cl>
+               <cl xml:id="M23_p1_c8">Lo cual por ellos sabido desviándose del camino entraron en la floresta a
+                    la parte donde el escudero los guiava:</cl>
+               <cl xml:id="M23_p1_c9">y sabed que estos eran don
+                        <persName>Galvanes sin tierra</persName> y <persName>Agrajes</persName> su
+                    sobrino:</cl>
+               <cl xml:id="M23_p1_c10">y <persName>Olivas</persName> que con ellos iva para reptar al duque de
+                    Bristoya:</cl>
+               <cl xml:id="M23_p1_c11">y llevavan la donzella consigo que salvaron de la muerte cuando la
+                    querían quemar.</cl>
+               <cl xml:id="M23_p1_c12">Y cuando cerca del rey fueron conoció muy bien a don Galvanes /</cl>
+               <cl xml:id="M23_p1_c13">                    y díxole.</cl>
+               <cl xml:id="M23_p1_c14">Don Galvanes mi buen amigo seades muy bienvenido:</cl>
+               <cl xml:id="M23_p1_c15">y fue lo abraçar
+                    diziéndole.</cl>
+               <cl xml:id="M23_p1_c16">Mucho me plaze con vos y assí con buen talante rescibió a los otros:</cl>
+               <cl xml:id="M23_p1_c17">                    que él era el hombre del mundo que con más afición y honra recebía los
+                    cavalleros que a su corte venían:</cl>
+               <cl xml:id="M23_p1_c18">don Galvanes le dixo.</cl>
+               <cl xml:id="M23_p1_c19">Señor veis aquí a
+                    Agrajes mi sobrino y yo vos lo do por uno de los mejores cavalleros del mundo:</cl>
+               <cl xml:id="M23_p1_c20">y
+                    si tal no fuesse no le daría a tan alto hombre como vos a quien tantos buenos y
+                    preciados sirven:</cl>
+               <cl xml:id="M23_p1_c21">el rey que ya avía oído loar mucho las cosas de Agrajes fue
+                    muy alegre con él:</cl>
+               <cl xml:id="M23_p1_c22">y abraçole y dixo.</cl>
+               <cl xml:id="M23_p1_c23">Cierto buen amigo mucho devo agradecer vos
+                    esta venida/</cl>
+               <cl xml:id="M23_p1_c24">y a mí <sic>tenermer</sic> por culpado sabiendo vuestro gran calor
+                    en no vos aver rogado que la hiziéssedes:</cl>
+               <cl xml:id="M23_p1_c25">el rey conosció muy bien a Olivas que
+                    era de los de su corte y dixo.</cl>
+               <cl xml:id="M23_p1_c26">Amigo Olivas mucho ha que vos no vi:</cl>
+               <cl xml:id="M23_p1_c27">cierto tan
+                    buen cavallero como fos soys no querría que de mi fuesse partido.</cl>
+               <cl xml:id="M23_p1_c28">Señor dixo él
+                    las cosas que por mí han passado sin mi voluntad me dieron causa de os no aver
+                    visto ni servido:</cl>
+               <cl xml:id="M23_p1_c29">y agroa no vengo tan fuera dellas que me no convenga tomar
+                    mucha afrenta y trabajo.</cl>
+               <cl xml:id="M23_p1_c30">Entonce le contó como el <persName>duque de
+                        Bristoya</persName> ya le matara a su primo:</cl>
+               <cl xml:id="M23_p1_c31">de que el rey uvo pesar porque
+                    fuera buen cavallero/</cl>
+               <cl xml:id="M23_p1_c32">y dixo a Olivas.</cl>
+               <cl xml:id="M23_p1_c33">Amigo yo oyo lo que dezís:</cl>
+               <cl xml:id="M23_p1_c34">y assí me lo
+                    dezid en mi corte:</cl>
+               <cl xml:id="M23_p1_c35">y darán plazo al duque que venga a responder:</cl>
+               <cl xml:id="M23_p1_c36">y tomadolos
+                    consigo dexando la caça se fue con ellos a la villa:</cl>
+               <cl xml:id="M23_p1_c37">y por el camino supo como
+                    aquella donzella que traían la avían librado de la muerte que por causa de don
+                    Galaor le querían dar:</cl>
+               <cl xml:id="M23_p1_c38">el rey les dixo como Amadís le avía ido a buscar:</cl>
+               <cl xml:id="M23_p1_c39">y el
+                    gran sobresalto en que Arcaláus les pusiera diziendo que lo avía muerto.</cl>
+               <cl xml:id="M23_p1_c40">Agrajes
+                    fue mucho maravillado de lo oír:</cl>
+               <cl xml:id="M23_p1_c41">y dixo al rey.</cl>
+               <cl xml:id="M23_p1_c42">Señor sabeys cierto ser
+                        <sic>vino</sic> Amadís?</cl>
+               <cl xml:id="M23_p1_c43">Se lo cierto dixo:</cl>
+               <cl xml:id="M23_p1_c44">y contóle como lo supiera de
+                        <persName>Brandoivas</persName> y de <persName>Grindalaya</persName>:</cl>
+               <cl xml:id="M23_p1_c45">y no
+                    lo devéis dudar pue que yo en mi voluntad estoy satisfecho:</cl>
+               <cl xml:id="M23_p1_c46">que no daría a
+                    ninguno ventaje de dessear su vida y honra.</cl>
+               <cl xml:id="M23_p1_c47">Assí lo creemos dixo Agrajes:</cl>
+               <cl xml:id="M23_p1_c48">que
+                    según su gran valor bien meresce del vuestro ser querido y amado con aquella
+                    afición que los buenos lo bueno dessean.</cl>
+               <cl xml:id="M23_p1_c49">Llegado el rey con estos cavalleros al
+                    su palacio las nuevas de su venida fueron luego en la casa de la reyna sabidas
+                    de que muchas ovieron plazer:</cl>
+               <cl xml:id="M23_p1_c50">más sobre todas la hermosa Olinda amiga de Agrajes
+                    que lo amava como a sí misma:</cl>
+               <cl xml:id="M23_p1_c51">y después lo fue Mabilia su hermana:</cl>
+               <cl xml:id="M23_p1_c52">que como de
+                    su venida supo salióse a la cámara de la reyna:</cl>
+               <cl xml:id="M23_p1_c53">y encontróse con Olinda que
+                    díxole.</cl>
+               <cl xml:id="M23_p1_c54">Señora no os plaze mucho de la venida de vuestro hermano?</cl>
+               <cl xml:id="M23_p1_c55">Si plaze dixo
+                    Mabilia que lo mucho amo.</cl>
+               <cl xml:id="M23_p1_c56">Pues pedid a la reina que lo haga venir y verlo edes:</cl>
+               <cl xml:id="M23_p1_c57">                    porque de vuestro plazer redundará parte a los que bien vos queremos.</cl>
+               <cl xml:id="M23_p1_c58">Mabilia
+                    fue a la reyna y díxole.</cl>
+               <cl xml:id="M23_p1_c59">Señora bien será que veáis a Agrajes mi hermano y a don
+                    Galvanes mi tío:</cl>
+               <cl xml:id="M23_p1_c60">pues que a vuestro servicio vienen:</cl>
+               <cl xml:id="M23_p1_c61">y yo tengo desseo de los
+                    ver.</cl>
+               <cl xml:id="M23_p1_c62">Amiga dixo la reyna esso haré yo de grado:</cl>
+               <cl xml:id="M23_p1_c63">que muy alegre estoy de ver
+                    tales dos cavalleros en casa del rey mi señor:</cl>
+               <cl xml:id="M23_p1_c64">y luego mandó a una donzella que
+                    de su parte rogasse al rey que se los embiasse para los ver.</cl>
+               <cl xml:id="M23_p1_c65">La donzella se lo
+                    dixo:</cl>
+               <cl xml:id="M23_p1_c66">y el rey les dixo a ellos.</cl>
+               <cl xml:id="M23_p1_c67">La reyna os quiere ver bien será que allá
+                    vayáis:</cl>
+               <cl xml:id="M23_p1_c68">cuando Agrajes lo oyó mucho fue ledo porque esperava ver aquella su
+                    señora a quien él tanto amava:</cl>
+               <cl xml:id="M23_p1_c69">
+                  <sic>oonde</sic> todo su coraçaon y sus desseos
+                    eran:</cl>
+               <cl xml:id="M23_p1_c70">también le plugo a don Galvanes por ver la reyna y sus dueñas y donzellas/</cl>
+               <cl xml:id="M23_p1_c71">                    no porque a ninguna de estremado amor amasse:</cl>
+               <cl xml:id="M23_p1_c72">assí que fueron luego ante la
+                    reyna que los muy bien acogió:</cl>
+               <cl xml:id="M23_p1_c73">y haziéndolos sentar ante sí hablava con ellos en
+                    muchas cosas:</cl>
+               <cl xml:id="M23_p1_c74">mostrándoles amor como aquella que sin falta era una de las dueñas
+                    del mundo que más sesudamente hablava con hombres buenos:</cl>
+               <cl xml:id="M23_p1_c75">por causa de lo cual
+                    muy preciada y amada era:</cl>
+               <cl xml:id="M23_p1_c76">no solamente de aquellos que la conocían mas aun de
+                    los que la nunca vieran:</cl>
+               <cl xml:id="M23_p1_c77">que esta tal preminencia la humanidad en los grandes
+                    tiene sin que otro gasto en ello ponga más de lo que la virtud y nobleza a ello
+                    les obliga y a los que al contrario lo hazen al contrario les viene:</cl>
+               <cl xml:id="M23_p1_c78">aquello que
+                    en las cosas temporales por peor se deve contar que es ser defamados y
+                        <sic>aborrecidas</sic>.</cl>
+               <cl xml:id="M23_p1_c79">Olinda se leegó a Mabilia considerando que Agrajes
+                    allí acudiría:</cl>
+               <cl xml:id="M23_p1_c80">mas el que con la reina hablava no podía partir los ojos de
+                    aquella donde su coraçon era.</cl>
+               <cl xml:id="M23_p1_c81">La reina que pensó que a su hermana Mabilia mirava
+                    con desseo de la hablar/</cl>
+               <cl xml:id="M23_p1_c82">díxole.</cl>
+               <cl xml:id="M23_p1_c83">Buen amigo/</cl>
+               <cl xml:id="M23_p1_c84">id a vuestra hermana que vos tiene
+                    mucho desseado.</cl>
+               <cl xml:id="M23_p1_c85">Agrajes se fue a ella:</cl>
+               <cl xml:id="M23_p1_c86">y recibiéronse con aquel verdadero amor
+                    de hermanos que se mucho aman:</cl>
+               <cl xml:id="M23_p1_c87">que pocas vezes con el nombre
+                        <sic>concuerdo</sic>:</cl>
+               <cl xml:id="M23_p1_c88">y Olinda lo saluó mucho más con el corazón que con el
+                    semblante:</cl>
+               <cl xml:id="M23_p1_c89">retrayendo la razón a la voluntad:</cl>
+               <cl xml:id="M23_p1_c90">que assí mismo duramente se puede
+                    hazer:</cl>
+               <cl xml:id="M23_p1_c91">sino es en medio la gran discreción de que esta donzella dotada era.</cl>
+               <cl xml:id="M23_p1_c92">                    Agrajes hizo sentar a su hermana entre él y su amiga porque en tanto que allí
+                    estuviesse nunca los ojos della apartasse:</cl>
+               <cl xml:id="M23_p1_c93">que gran consuelo y descanso su vista
+                    le dava.</cl>
+               <cl xml:id="M23_p1_c94">Assí estuvo con ellas hablando:</cl>
+               <cl xml:id="M23_p1_c95">mas como el su pensamiento y los ojos
+                    en su señora puestos eran muy poco el juizio endendía de lo que su hermana le
+                    hablava.</cl>
+               <cl xml:id="M23_p1_c96">Assí que no le dava respuesta ni recaudo a sus preguntas.</cl>
+               <cl xml:id="M23_p1_c97">Mabilia que
+                    muy cuerta dera sintiólo luego conociendo amar su hermano más que a ella a
+                    Olinda/</cl>
+               <cl xml:id="M23_p1_c98">y Olinda a él:</cl>
+               <cl xml:id="M23_p1_c99">según lo que ante ella le avía dicho y se aver assentado
+                    con ella por razón de la hablar:</cl>
+               <cl xml:id="M23_p1_c100">y como a este hermano como a si misma amasse:</cl>
+               <cl xml:id="M23_p1_c101">                    pensó que pues en todo le avía de buscar plazer:</cl>
+               <cl xml:id="M23_p1_c102">que más en aquello que en otra
+                    cosa ninguna le podría agradar:</cl>
+               <cl xml:id="M23_p1_c103">y díxole Señor hermano llamad a mi tío que de
+                    grado querría hablarle.</cl>
+               <cl xml:id="M23_p1_c104">Agrajes plugo mucho dello:</cl>
+               <cl xml:id="M23_p1_c105">y dixo contra la reina.</cl>
+               <cl xml:id="M23_p1_c106">                    Señora sea la vuestra merced de nos embiar aca esse cavallero para que su
+                    sobrina le hable.</cl>
+               <cl xml:id="M23_p1_c107">La reina le mandó ir <supplied reason="unclear">y</supplied>
+                    Mabilia fue contra él y quísole besar las manos:</cl>
+               <cl xml:id="M23_p1_c108">mas él las tiró a sí y la
+                    abraço y dixo.</cl>
+               <cl xml:id="M23_p1_c109">Sobrina señora sentémonos:</cl>
+               <cl xml:id="M23_p1_c110">y preguntar vos he como vos halláis en
+                    esta tierra.</cl>
+               <cl xml:id="M23_p1_c111">Señor dixo ella vayámonos aquella finiestra que no quiero que mi
+                    hermano oya la mi poridad:</cl>
+               <cl xml:id="M23_p1_c112">y Galvanes dixo riendo.</cl>
+               <cl xml:id="M23_p1_c113">Cierto mucho me plaze que nos
+                    es él tal que deva oír tan buena poridad como es la vuestra y la mía:</cl>
+               <cl xml:id="M23_p1_c114">y fuéronse
+                    para la finiestra/</cl>
+               <cl xml:id="M23_p1_c115">y Agrajes quedó con su señora omo él lo desseava:</cl>
+               <cl xml:id="M23_p1_c116">y viéndose
+                    solo con ella dixo.</cl>
+               <cl xml:id="M23_p1_c117">Señora por cumplir lo que me mandastes:</cl>
+               <cl xml:id="M23_p1_c118">y porque en otra
+                    parte mi coraçón reposo no hallava soy venido aquí os servir que vuestra vista
+                    será para mí galardón de las cuitas y mortales desseos que contino padezco.</cl>
+               <cl xml:id="M23_p1_c119">Ay
+                    amigo señor dixo ella el plazer que con vuestra venida mi coraçón siente/</cl>
+               <cl xml:id="M23_p1_c120">aquel
+                    señor que todo lo sabe es dello testigo que siendo vos de mi absente no podría
+                    aver bien ni vicio/</cl>
+               <cl xml:id="M23_p1_c121">aunque todas las cosas del mundo uviesse a mi voluntad.</cl>
+               <cl xml:id="M23_p1_c122">Yo
+                    cuido que no venistes a esta tierra sino por mí:</cl>
+               <cl xml:id="M23_p1_c123">y yo devo trabajar de os dar
+                    ende el galardón.</cl>
+               <cl xml:id="M23_p1_c124">Ay señora dixo Agrajes:</cl>
+               <cl xml:id="M23_p1_c125">todo lo que hiziérdes en lo vuestro se
+                    haze que esta vida nunca cessara de ser puesta contra todos los del mundo en
+                    vuestro servicio:</cl>
+               <cl xml:id="M23_p1_c126">y a todos ellos teniendo a vos por señora terná por estraños.</cl>
+               <cl xml:id="M23_p1_c127">                    Amigo señor dixo ella vos soys tal que a todos ellos ganareys/</cl>
+               <cl xml:id="M23_p1_c128">y a mí que os
+                    nunca falleceré:</cl>
+               <cl xml:id="M23_p1_c129">que si Dios me ayude mucho soy alegre de como vos veo loar a
+                    todos aquellos que de vuestras grandes cosas noticia tienen.</cl>
+               <cl xml:id="M23_p1_c130">Agrajes baxó los
+                    ojos con vergüença de ser oír loar:</cl>
+               <cl xml:id="M23_p1_c131">y ella se dexó dello:</cl>
+               <cl xml:id="M23_p1_c132">y díxolo.</cl>
+               <cl xml:id="M23_p1_c133">Amigo pues
+                    aquí soys como haréis?</cl>
+               <cl xml:id="M23_p1_c134">Como vos mandardes dixo él:</cl>
+               <cl xml:id="M23_p1_c135">que yo no vengo a esta tierra
+                    sino por hazer vuestro mandado.</cl>
+               <cl xml:id="M23_p1_c136">Pues yo quiero dixo ella que andéis aquí con
+                    vuestro primo Amadís que yo sé que vos ama de grande amor:</cl>
+               <cl xml:id="M23_p1_c137">y si él vos consejara
+                    que seáis de la mesnada del rey hazeldo.</cl>
+               <cl xml:id="M23_p1_c138">Señora dixo él en todo me hazéis gran
+                    merced:</cl>
+               <cl xml:id="M23_p1_c139">que dexando lo vuestro aparte no ay cosa en que más plazer yo sienta que
+                    en poner mi hazienda en consejo de mi primo.</cl>
+               <cl xml:id="M23_p1_c140">Pues assí hablando en esto que oís
+                    llamólos la reyna y fueron los cavalleros ambos ante ella:</cl>
+               <cl xml:id="M23_p1_c141">y la reina conoció
+                    bien a don Galvanes del tiempo que fuera infanta morando en el reino de
+                    Denamarcha donde era natural/</cl>
+               <cl xml:id="M23_p1_c142">que assí allí como en el reino de Nuruega muchas
+                    cavallerías él avía fecho:</cl>
+               <cl xml:id="M23_p1_c143">por donde era tenido en reputación de muy buen
+                    cavallero.</cl>
+               <cl xml:id="M23_p1_c144">En tanto que la reuna fablava con don Galvanes:</cl>
+               <cl xml:id="M23_p1_c145">Oriana habló con
+                    Agrajes que mucho lo conocía/</cl>
+               <cl xml:id="M23_p1_c146">y lo amava assó por saber que Amadís lo quería y
+                    preciava/</cl>
+               <cl xml:id="M23_p1_c147">como por se tener ella por cosa de su padre y madre que la criaron con
+                    mucha honra al tiempo que el rey Lisuarte en su poder la dexó:</cl>
+               <cl xml:id="M23_p1_c148">como vos hemos
+                    contado:</cl>
+               <cl xml:id="M23_p1_c149">y díxole mi buen amigo gran plazer nos avéis dado con vuestra venida:</cl>
+               <cl xml:id="M23_p1_c150">                    especial a vuestra gonra que tanto lo avía menester que si supiéssedes lo que
+                    con ella passe de las nuevas de la muerte de Amadís vuestro primo:</cl>
+               <cl xml:id="M23_p1_c151">por maravilla
+                    lo terníades.</cl>
+               <cl xml:id="M23_p1_c152">Cierto señora dixo el con gran razón mi honra de tal cosa se devía
+                    sentir:</cl>
+               <cl xml:id="M23_p1_c153">y no solamente ella:</cl>
+               <cl xml:id="M23_p1_c154">mas todos los que de su linaje somos pues que él
+                    muriendo moría el principal caudillo de nosotros:</cl>
+               <cl xml:id="M23_p1_c155">y el mejor cavallero que nunca
+                    escudo echó al cuello/</cl>
+               <cl xml:id="M23_p1_c156">ni tomó lança en la mano y su muerte fuera vengada o
+                    acompañada de otras muchas.</cl>
+               <cl xml:id="M23_p1_c157">Mala muerte muera dixo Oriana aquel traidor de
+                    Arcaláus que mucho nos supo hazer gran pesar:</cl>
+               <cl xml:id="M23_p1_c158">hablando en esto los llamaron de
+                    parte del rey:</cl>
+               <cl xml:id="M23_p1_c159">y fueron allá:</cl>
+               <cl xml:id="M23_p1_c160">y halláronlo que quería comer:</cl>
+               <cl xml:id="M23_p1_c161">y híxolo senter a
+                    una mesa donde estavan otros cavalleros de gran cuenta:</cl>
+               <cl xml:id="M23_p1_c162">y poniendo los manteles
+                    entraron por la puerta del palacio dos cavalleros:</cl>
+               <cl xml:id="M23_p1_c163">y hincaron los inojos ante el
+                    rey:</cl>
+               <cl xml:id="M23_p1_c164">el los saluó.</cl>
+               <cl xml:id="M23_p1_c165">El uno de ellos deixo:</cl>
+               <cl xml:id="M23_p1_c166">señor es aquí Amadís de Gaula?</cl>
+               <cl xml:id="M23_p1_c167">No dixo
+                    el rey:</cl>
+               <cl xml:id="M23_p1_c168">mas mucho nos plazería que lo fuesse.</cl>
+               <cl xml:id="M23_p1_c169">Cierto señor dixo el cavallero/</cl>
+               <cl xml:id="M23_p1_c170">y
+                    yo mucho sería alegre de lo hallar como quien por él atiende de cobrar el
+                    alegría de que agora soy muy apartado.</cl>
+               <cl xml:id="M23_p1_c171">Y como avéis nombre dixo el rey?</cl>
+               <cl xml:id="M23_p1_c172">Angriote
+                    de Estraváus respondió él:</cl>
+               <cl xml:id="M23_p1_c173">y este otro es mi hermano.</cl>
+               <cl xml:id="M23_p1_c174">El rey Arbán de Norgales
+                    que oyó ser aquel Angriote levantóse de la mesa y fue a él:</cl>
+               <cl xml:id="M23_p1_c175">que aun de inojos
+                    ante el rey estava:</cl>
+               <cl xml:id="M23_p1_c176">levantólo por la mano y dixo.</cl>
+               <cl xml:id="M23_p1_c177">Señore conocéis a Angriote?</cl>
+               <cl xml:id="M23_p1_c178">No
+                    dixo el rey que nunca lo vi.</cl>
+               <cl xml:id="M23_p1_c179">Cierto señor pues los que lo conocen le tiene por
+                    uno de los mejores cavalleros en armas de toda vuestra tierra.</cl>
+               <cl xml:id="M23_p1_c180">El rey se levantó
+                    y díxole.</cl>
+               <cl xml:id="M23_p1_c181">Buen amigo perdonadme si no vos hize la honra que vuestro valor
+                    merece:</cl>
+               <cl xml:id="M23_p1_c182">la causa dello fue no os conocer:</cl>
+               <cl xml:id="M23_p1_c183">y plázeme mucho con vos.</cl>
+               <cl xml:id="M23_p1_c184">Muchas
+                    mercedes dixo Angriote:</cl>
+               <cl xml:id="M23_p1_c185">y assi me plazería a mí en vos servir.</cl>
+               <cl xml:id="M23_p1_c186">Amigo dixo el rey
+                    donde conocéis vos a Amadís?</cl>
+               <cl xml:id="M23_p1_c187">Señor yo lo conosco mas no ha mucho:</cl>
+               <cl xml:id="M23_p1_c188">y cuando lo
+                    conoscí mucho me costó caro hasta ser llegando al punto de la muerte:</cl>
+               <cl xml:id="M23_p1_c189">mas él que
+                    el daño me fizo me puso la melezina:</cl>
+               <cl xml:id="M23_p1_c190">que para lo ganar mas conveniente era:</cl>
+               <cl xml:id="M23_p1_c191">como
+                    aquel que es el cavallero del mundo de mejor talante.</cl>
+               <cl xml:id="M23_p1_c192">Entonces contó allí cuando
+                    con él le aviniera como el cuento lo ha mostrado.</cl>
+               <cl xml:id="M23_p1_c193">El rey dixo a Arban que
+                    llevasse consigo Angriote:</cl>
+               <cl xml:id="M23_p1_c194">y el assí lo hizo:</cl>
+               <cl xml:id="M23_p1_c195">y lo sentó a las mesa cabe sí/</cl>
+               <cl xml:id="M23_p1_c196">y
+                    aviendo ya comido hablando en muchas cosas entró Ardián el enano de Amadís:</cl>
+               <cl xml:id="M23_p1_c197">y
+                    Angriote que lo vio dixo.</cl>
+               <cl xml:id="M23_p1_c198">Ay enano tu seas bien venido:</cl>
+               <cl xml:id="M23_p1_c199">donde dexas tu señor
+                    Amadís con quien yo te vi?</cl>
+               <cl xml:id="M23_p1_c200">Señor dixo el enano:</cl>
+               <cl xml:id="M23_p1_c201">donde quier que yo lo dexo mucho
+                    vos ama y os precia.</cl>
+               <cl xml:id="M23_p1_c202">Entonces se fue al rey y todos calleron por oír lo que
+                    diría y dixo.</cl>
+               <cl xml:id="M23_p1_c203">Señor Amadís se os manda mucho encomendar:</cl>
+               <cl xml:id="M23_p1_c204">y manta saluar a todos
+                    sus amigos:</cl>
+               <cl xml:id="M23_p1_c205">quando ellos oyeron las nuevas de Amadís en gran manera fueron
+                    alegres.</cl>
+               <cl xml:id="M23_p1_c206">Ell rey dixo.</cl>
+               <cl xml:id="M23_p1_c207">Enano si Dios te ayude dinos donde dexas a Amadís.</cl>
+               <cl xml:id="M23_p1_c208">Sennor
+                    dixo él/</cl>
+               <cl xml:id="M23_p1_c209">déxole donde queda sano y con salud:</cl>
+               <cl xml:id="M23_p1_c210">y si más de él queréis saber
+                    ponedme ante la reyna y dezirlo he:</cl>
+               <cl xml:id="M23_p1_c211">ni por esso se quedará de las no saber dixo
+                    el rey:</cl>
+               <cl xml:id="M23_p1_c212">y mandó venir allí a la reina la cual luego vino con hasta .xv.</cl>
+               <cl xml:id="M23_p1_c213">de sus
+                    dueñas y donzellas y tales aí uvo que bendezían al enano:</cl>
+               <cl xml:id="M23_p1_c214">porque fuera causa que
+                    ellos a sus amigas viessen.</cl>
+               <cl xml:id="M23_p1_c215">El enano fue ante ella y dixo.</cl>
+               <cl xml:id="M23_p1_c216">Señora el vuestro
+                    cavallero Amadís vos manda besar las manos/</cl>
+               <cl xml:id="M23_p1_c217">y embíaos a dezir que halló a Galaor
+                    que él demandava.</cl>
+               <cl xml:id="M23_p1_c218">Es verdad dixo la reyna?</cl>
+               <cl xml:id="M23_p1_c219">Señora es verdad dixo el enano sin
+                    duda:</cl>
+               <cl xml:id="M23_p1_c220">mas en su conoscencia vuestra de aver gran desaventura/</cl>
+               <cl xml:id="M23_p1_c221">si Dios a la sazón
+                    no traxera por allí un cavallero que Baláis se llama.</cl>
+               <cl xml:id="M23_p1_c222">Entonces les contó todo
+                    cuanto aviniera:</cl>
+               <cl xml:id="M23_p1_c223">y como Baláis matara la donzella que los avía juntado para que
+                    se matassen:</cl>
+               <cl xml:id="M23_p1_c224">de que fue del rey:</cl>
+               <cl xml:id="M23_p1_c225">y de todos muy loado.</cl>
+               <cl xml:id="M23_p1_c226">La reyna dixo al enano.</cl>
+               <cl xml:id="M23_p1_c227">                    Amigo donde los dexaste tú?</cl>
+               <cl xml:id="M23_p1_c228">Yo los dexé en un castillo de aquel Baláis:</cl>
+               <cl xml:id="M23_p1_c229">Que tal
+                    le pareció Galaor dixo la reina?</cl>
+               <cl xml:id="M23_p1_c230">Señora dixo él es uno de los más fermosos
+                    cavalleros del mundo:</cl>
+               <cl xml:id="M23_p1_c231">y si junto con mi señor lo veis a duro podríades conocer
+                    cual es el uno o el otro.</cl>
+               <cl xml:id="M23_p1_c232">Cierto dixo la reina mucho me plazería que ya fuessen
+                    aquí:</cl>
+               <cl xml:id="M23_p1_c233">tando que guaridos sean dixo el enano se vernán:</cl>
+               <cl xml:id="M23_p1_c234">y aquí los tengo de
+                    atender/</cl>
+               <cl xml:id="M23_p1_c235">y contóles entonce todo cuanto le aviniera a Amadís en tando que él le
+                    guardara.</cl>
+               <cl xml:id="M23_p1_c236">Mucho fueron alegres el rey y la reyna y los cavalleros todos con
+                    estas buenas nuevas:</cl>
+               <cl xml:id="M23_p1_c237">mas sobre todos lo fue Agrajes que no quedava de preguntar
+                    al enano.</cl>
+               <cl xml:id="M23_p1_c238">El rey rogó y mandó a los que allí eran que no se partiessen de la
+                    corte fasta que Amadís y Galaor viniessen/</cl>
+               <cl xml:id="M23_p1_c239">porque tenía pensado de hazer unas
+                    cortes muy honradas:</cl>
+               <cl xml:id="M23_p1_c240">y ellos se lo otorgaron:</cl>
+               <cl xml:id="M23_p1_c241">y loaron mucho:</cl>
+               <cl xml:id="M23_p1_c242">y mandó a la reina
+                    que enbiasse por las más hermosas donzellas y de mayor guisa que aver pudiesse:</cl>
+               <cl xml:id="M23_p1_c243">                    porque más de ser ella bien acompañada/</cl>
+               <cl xml:id="M23_p1_c244">por causa dellas vernían muchos
+                    cavalleros de gran valor a lo servir a quien el haría mucha honra y grandes
+                    partidos y mercedes.</cl>
+            </p>
+            </div>
+        </body>
+    </text>
+</TEI>
