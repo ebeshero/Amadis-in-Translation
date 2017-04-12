@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="30">
+                <head>Capítulo XXX <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como Amadís y Galaor y Baláis se vinieron al palacio del rey Lisuarte: y
+                        delo que después les aconteció. </p>
+                </argument>
+                <p> Partido Amadís/ y Galaor del Castillo de la Donzella: y Baláis con ellos
+                    anduvieron tanto por su camino: que sin contraste alguno llegaron a casa del rey
+                    Lisuarte donde fueron con tanta honrra y alegría rescebidos del rey y de la
+                    reina de todos los de la corte: quel nunca lo fuera en ninguna razón otros
+                    cavallero en parte donde llegassen: a Galaor porque nunca le vieran y sab´ân sus
+                    grandes cosas en armas por oídeas que avía hecho: y Amadís por la nueva de su
+                    muerte que allí llegara: que segun de todos era muy amado no se creían verle
+                    bivo. Assí que tanta era la gente que por los mirar salían: que apenas podían ir
+                    por las calles: ni entrar en el palacio y el rey los tomó a todos tres: y hizo
+                    los desamar en una cámara y queando las gente los vieron desarmados tan hermosos
+                    y apuestos y en tal hedad maldez: an a Arcalavs que a tales dos hermanos
+                    quisisera matar. Considerando que no biviera el uno sin el otro. El rey embió
+                    dezir a la reina por un donzel: que recibiesse muy bien aquellos dos cavallos
+                    Amadís y Galaor que la ivan a ver. Enonces los tomó consigo: y Agrajes que los
+                    tenía baraçados a cada uno con su braço y tan alegre con ellos que mas ser no
+                    podía: y fuesse con ellos a la cámara de la reina y don Galvanes y el rey Arban
+                    de Norgales/ y cuando entraron por la puerta vio Amadís a Oriana su señora: y
+                    estremeciósele el coraç´n con gra plazer: pero no menos lo ovo ella: assí que
+                    cual quiera que lo mirara lo pudiera muy claro conocer y como quiera que
+                    ellamuchas nuevas del oyera a un sospechava que no era bivo: y cuando sano y
+                    alegre lo vio membrándose de la cuita y del duelo que por él oviera las lágrimas
+                    le vinieron a los ojos sin su grado: dexando ir a la riena ante si detuvo se ya
+                    cuanto y alimpió os ojos que o lo vido ninguno: porque todos tenían mientes en
+                    mirar los cavalleros: Amadís hinc´ los inojos ante la reina tomando a Galaor por
+                    la mano: y dixo. Señora vedes aquí el cavallero que me embiastes a buscar. Mucho
+                    soy dello alegre dixo: y alçando lo por la mano lo abraçó y luego a don Galaor.
+                    El rey le dixo dueña quiero que partáis conmigo: y que dixo ella: que me déis a
+                    Galaor dixo él pues que Amadís es vuestro: cierto señor dixo ella no me pedís
+                    poco/ que nunc tan gran do se dio en la gran bretaña mas así es derecho: pues
+                    que vos sois el mejor rey que en ella reino y dixo conta Galaor/ amigo que vos
+                    parece que haga que me vos pide el rey mi señor. Señora dixo él parece me que
+                    toda cosa que tan gran señor pida se le deve dar si aver se puede/ y vos avéis a
+                    mi para vos servir en esto y en todo/ fueras la voluntad de mi hermano y mi
+                    señor Amadís/ que yo no haré al sino lo que él mandaré: mucho me plaze dixo la
+                    reina de azer mandado de vuestro hermano que luego auré yo parte en vos: assí
+                    como en el que es mio: Amaís le dixo. Señor hermano hazed mandado de la reina
+                    que assí os lo ruego yo/ y assí me plaze agora. Entonces Galaor dixo contra la
+                    reina/ señora pues que yo soy libre desta voluntad agena que tanto poder sobre
+                    mi tiene/ agora me pongo en la vuestra merced que haga de milo que mas le
+                    plugiere/ ella le tomó por la mano: y dixo contra el rey. Señor agora vos doy a
+                    don Galaor que me pedistes y digo vos que lo améis segun la gran bondad que en
+                    el ha que no será poco. Si me ayudé dios dixo el rey. Yo creo que a duro podría
+                    ninguno amar a él ni a otro tanto/ que el amor a la su gran bondad alcançasse.
+                    Cuando esta palabra oyó Amadís: paro mientes contra su señora: y sosprió no
+                    teniendo en nada lo que el rey dezía/ considerando ser mayor el amor que tenía a
+                    su señora que la bondad de si mesmo ninuno todos aquellos que armas traían: pues
+                    assí como oídes quedo Galaor por vassallo del rey ent al hora que nunca por
+                    cosas que después vinieron entre Amadís y el rey dexo delo ser/ assí como lo
+                    contaremos adelante. Y el rey se assentó cabe la reina y llmaron a Galaor que
+                    fuesse ante ellos para le hablar/ Amadís quedó con Agrajes su cormano/ Oriana y
+                    mabilia y Olina estavan justas a parte delas otras todas/ porque eran las mas
+                    honradas que mas valían: Mabilia dixo contra Agarajes: señor hermano traed nos
+                    esse cavallero que hemos desseado mucho: ellos se fueron para ellas: y como ella
+                    sabía muy bien con que melezinas sus coraçones podían ser curados metió se entre
+                    ellas amabas: y puso a la parte de Oriana Amadís y a la de Olinda Agrajes: y
+                    dixo agora estoy enre las cuatro personas deeste mundo que yo mas amo. Cuando
+                    Amadís se vio ante su señora/ el coraçón le faltava de una parte a otra guiando
+                    los ojos a que mirassen la cosa del mundo que él mas amava: y llegóse a ella con
+                    mucha humilidad: y ella lo saludo: y tendiendo las manos por entre las puntas
+                    del manto: tomóle las suyaas del: y apreto selas ya cuanto en señal del abarçar
+                    y díxole. Amigo que cuita y que dolor me hizo passar aquel traídor que las
+                    nuevas de vuestra muerte truxo. Creed que nunca muger fue en tan gran peligro
+                    como yo. Cierto amigo señor esto era con gran razón porque nunca persona tan
+                    gran pedida hizo como yo perdiendo a vos: que assí soy mas amada que todas las
+                    otras: assí mi buena ventura quiso que lo fuesse del aquel que mas que todos
+                    vale: cuando Amadís se oyóloar de su señora baxo los ojos en tierra: que solo
+                    mirar no la osava: y parecióle tan hermosa que el sentido alterdo la palabra en
+                    la boca le hizo morir: assí que no respondió. Oriana que los ojos en el hincados
+                    tenía conciólo luego y dixo. Aí amigo señor como vos no amaría mas que a otra
+                    cosa que todos los que vos conocen os aman y precían: y seyendo yo aquella que
+                    vos mas amáis y preciáis: en mucho mas que todos ellos es gran razón que yo vos
+                    tenga. Amadís que ya algo su turbación amansava le dixo. Señora de aquella
+                    dolorosa muerte que cada día por vuestra causa padezco pido yo que vos doláis:
+                    que de la otra se dixo ante si me viniesse sería en gran escanco y consolación
+                    puesto: y sino fuesse señor este mitriste coraçón con aquel gran desseo que de
+                    serviros tiene sostenido: que contra las muchas amargas lágrimas que del salen
+                    con gran fuerça: la su gran fuerça resiste: ya en ellas sería del todo
+                    dese=hecho y consumido: no porque dexe de conoscer ser los sus mortales desseos
+                    en mucho grado satisfechos en que solamente vuestra memroía dellos se acuerde:
+                    pero como a la grandez de su necessidad se requiere mayor merced de la que el
+                    merece: para ser sotenido y reparado si esto para esto no viniesse muy presto
+                    será en la su curel sin caído. Cuando estas palabras Amadís dezía las lágrimas
+                    caían a silo de sus oos por las hazes sin que ningun remedi en ellas poner
+                    pudiesse que en esta razón era el tan cuitado: que si aquel eradero amor que en
+                    el tal desconsuelo le ponía: no le consolara con aquella esperança que en los
+                    semejantes estrechos a los sus sojuzgados fuer le poner no fuera maravilla de
+                    ser en la presencía de su señora su anima del despedida. Aí mi amigo por dios no
+                    me habléis dixo Oriana en la vuestra muerte: que el coraçón me fallece: conmo
+                    quien una hora sola despues della vivir no espero: y si yo del mundo he sabor:
+                    por vos que en el bivis lo he. Esto que me dezís sin ninguna duda lo creo yo por
+                    mi misma que soy en vuestro estado: y si la vuestra cuita mayor la mía paresceno
+                    es por al sino porque seyendo en mi el aquere como lo es en vos: y falleciéndome
+                    el poder que a vos no hallece para traer en efecto aquello que nuestros
+                    coraçones tanto dessean: muy mayor el amor y el dolor en vos mas que em mi se
+                    muestra. Mas como quiera que avenga yo vos prometo que si la fortuna o mi juizio
+                    alguna vía de descanso no nos muestra: que la mi flaca osadía la hallara que si
+                    della peligro nos ocurriere sea antes con desamor de mi padre y de mi madre y de
+                    otros que con el cobrado amor nuestro nos podría venir estando como agora
+                    suspensos padesciendo y sufriendo tan graves y cureles desseo como de cada día
+                    se no augmentan y sobrevienen. Amadís que esto oyó sospiro muy de coraçón: y
+                    quiso hablar mas no pudo: y a ella que le paresci´ ser todo trasportado tomóle
+                    por la mano: y llególe a si y díxole. Amigo señor no vos desconortéis que yo
+                    haré cierta la promessa que vos doy: y en tanto no os partáis destas cortes que
+                    el rey mi padre quiere hazer que él y la riena os los rogara: que saben cuanto
+                    con vos serán honradas y ensalçadas. Pues a esta razón que oídes/ la riena llamó
+                    a Amadís: y hizolo sentar cabe don galaor: y las dueñas y donzellas las miravan
+                    diziendo mas hermsos que otros cavallos y mejores en otras bondades y semejavan
+                    se tanto a duro se podían cocer sino que don Galaor era algo mas blanco: y
+                    Amadís avía los cabellos crespos y ruvios: y el rostro algo mas encendido: y era
+                    mas mebrudo algun tanto: assí estuverion hablando con la reina una pieça hasta
+                    que Oriana y Mabilia hizieron señal a la reina que les embiasse a Don Galaor: y
+                    ella le tomó por la mano y dixo aquellas donzellas vos quiere que las conocéis:
+                    por sabed que la una es mi hija y la otra es vuestra prima hermava: él se fue
+                    para ellas y cuando vio la gran hermsoura de Oriana y espantado fue: que n
+                    pudiera pesar que ninguna tanta presci´n la pudier alcançar: y sospechó que
+                    segun la gran bondad de Amadís su hermano: y la afición de mosrar en aquella
+                    casa mas que otra ninguna que en el avía visto en le venía sino porque a él no a
+                    otro ninguno era dad de amar persona tan señalada en el mundo. Ellas le salvaron
+                    y recibieron con muy buen talante: y diziéndole don Galaor vos seáis muy bien
+                    venido. Cierto señoras: yo no viniera aquí en estos cinco años: si no fuera por
+                    aquel que haze venir aquellos todos que armas traen assí por fuerça como por
+                    buen talante: que lo uno y otro es en el mas cumplidamente que en ninguno de
+                    cuantos oí biven. Oriana alçó los ojos y mirando a Amadís sospiro: y Galaor que
+                    la mirava conosció ser su sospecha mas verdadera de lo que ante pensava: pero no
+                    porque otra cosa sinitesse sino parecer le que con mas razón su hermano avía de
+                    ser amado de aquella que otro ninguno. Pues hablando con ellas en muchas cosas:
+                    llegó el rey y estuvo allí con gran algería hablando y riendo: porque de su
+                    plazer a todos cupiesse parte: y tomando los consigo se salió alegría palacio
+                    donde muchos altos hombres y cavalleros de gran prez estavan: y hallando puestas
+                    ls mesas se asentaron a comer. Y el rey mandó assentar a una dellas Amadís y
+                    Galaor y Galvanes sin tierra y Agrjes sin que otro cavallero alguno con ellos
+                    estuviesse: y assí como estos cuatro cavalleros se hallaron en aquel comer
+                    justos assí despues en muchas partes lo fueron: donde sufrieron grandes pelgiros
+                    y afrentas en armas porque estos se acompañaron mucho con el gran deudo y amor
+                    que se avían: y aunque de galvanes no tuviesse dude sino con solo Agrajes:
+                    Amadís y Galaor nunca lo llamava sin tío: y él a ellos sobrinos: que fue gran
+                    causa de acrecentar mucho en su honra y estima segun adelante se contara. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
