@@ -9,7 +9,6 @@
 <!--2016-06-19 ebb: new ODD-extracted schema lines below. Note: the only problem here is a known TEI bug with floatingText: not our problem.-->
 <?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../out/amadis_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Amadis_RomanNumeralTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -460,8 +459,8 @@
                             <!--2016-06-19 ebb: Verified with Syd Bauman, the error below is a known bug in the TEI, 
                                 which is not properly processing floatingText.-->
                                <p>
-                                   <cl xml:id="M1_t1_p2_c214"><seg xml:id="M1_t1_p2_c214_ft1">Este es <persName ref="#Amadis">Amadís
-                                    Sin Tiempo</persName></seg> <seg xml:id="M1_t1_p2_c214_ft2">hijo de rey:</seg></cl>
+                                <cl xml:id="M1_t1_p2_c214"><seg xml:id="M1_ft1_p2_c214_1">Este es <persName ref="#Amadis">Amadís
+                                    Sin Tiempo</persName></seg> <seg xml:id="M1_ft1_p2_c214_2">hijo de rey:</seg></cl>
                               </p>
                         </body>
                         
