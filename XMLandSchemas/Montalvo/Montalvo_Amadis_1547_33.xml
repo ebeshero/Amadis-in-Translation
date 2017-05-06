@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="33">
+                <head>Capítulo XXVII <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como estando el rey Lisuarte en gran plazer se humilló ante él una donzella
+                        cubierta de luto a pedirle merced tal que fue por él otorgada. </p>
+                </argument>
+                <p> Estando el rey Lisuarte con tal compaña en tanto plazer como oídes queriendo ya
+                    la fortuna començar su obra con que aquella gran fiesta en turbación puesta
+                    fuesse: esto por la puerta del palacio una donzella affaz hermosa cubierta de
+                    luto: y hincando los inojos ante el rey le dixo: señor todos han plazer sino yo
+                    so la que he cuita y tristeza/ y no la puedo perder sino por vos amiga: dixo el
+                    rey que cuita es essa que avéis: señor dixo ella/ por mi padre/ y mi tio que son
+                    en prisión de una dueña donde nunca los hará sacar hasta que le den dos
+                    cavalleros tan buenos en armas como uno que ellos mataron: y porque lo mataron
+                    dixo el rey: por qe se alabó dixo ella que él solo se combatiría con ellos dos
+                    en gran orgullo y sobervía que en si avía y hinciólos tanto que de sobrada
+                    verguença conestreñidos vieron de entrar con él en un campo/ donde siendo los
+                    dos vencerdores/ el cavallero quedó muerto: esto fue ante el castillo de
+                    guldenda. La cual siendo señora del castillo/ mandó luego prender a mi padre y
+                    tío/ jurando dellos no soltar porque le mataran aquel cavallero que ella tenía
+                    para hazer una batalla: mi padre le dixo/ dueña por esso no me detengáis ni a
+                    este mi hermano que essa batalla yo la haré: cierto dixo ella no sois vos tal
+                    para que mi justicia segura fuesse/ y digo vos que de aquel no saldréis hasta
+                    que me traíáis dos cavalleros que cada uno dellos sea tan bueno y tan provado en
+                    armas como él que matastes/ porque con ellos se remedie el daño que del muerto
+                    me vino: sabedes vos dixo elrey donde quiere la dueña que se haga la batalla:
+                    señor dixo la donzella esso no se yo: sino que veo a mi padre: y mi tío parasos
+                    contra toda justicia/ donde sus amigos no los pueden valer: y començó de llorar
+                    muy gramente: y el rey que muy piadoso era uno della gran duelo y díxole. Agora
+                    me dezíd si es luente donde essos cavallos son presos: bien irán y vernan en
+                    cinco días dixo la donzella: pues escoged aquel dos cavalleros cuales vos
+                    agardaren y iran con vos. Señor dixo ella yo soy de teirra estraña: y no conozco
+                    a ninguno y si os plugiere iré a la reina mi señora que me consejé: en el nombre
+                    de dios dixo él: ella se fue a la reina y contóle su razón assí como al rey la
+                    contara y a la cima dixo como le dava dos cavallos que con ella fuessen/ que le
+                    ped´â por merced pues ella no los conoscía por la fe que devía a dios y al rey
+                    selos escogiesse ella aquellos que mejor pudiessen su gran cuita remediar: ay
+                    donzella dixo la reina de guisa me rogastes que lo aure dehazer: mas mucho me
+                    pesa de los apartar de aquí entonces hizo llamar a Amad´ˆ y a Galaor y ellos
+                    vinieron ante ella: y dixo contra la donzella: este cavallero es mío: y este
+                    otro del rey: y digo os que estos dos son los mejores que yo sea aquí/ ni en
+                    otro lugar. La donzella preguntó como avían nombre: la reina dixo: este ha
+                    hombre Amadís/ y el otro Galaor. Como señor dixo la donzella/ vos sois Amadís él
+                    muy buen cavallero que para no tiene entre todos los otros/ por dios agora se
+                    puede acabar lo que yo demandó/tanto que allá con vuestro hermano lleguéis. E
+                    dixo a la reina: señora por dios os pido que les roguéis que la ida conmigo
+                    hagan. La reina selo rogó y selo encomendo mucho. Amadís mir´ contra su señora
+                    Oriana por ver si otorgava aquella ida: y ela aviendo piedad de aquella donzella
+                    dexo caer: los guantes de la mano en señal que lo otorgava/ que assí lo tenían
+                    entre ambos con certado: y como esto vido dixo contra la riena que le plazía de
+                    hazer su mandado. Ella les rogó que se tornassen lo mas presto que ser pudiesse:
+                    y defendióles/ que por otra ninguna consa que escusar pudiessen no tardassen en
+                    la venida. Amadís se llegó a Mablia que estava con Oriana hablando como que
+                    della se quería despedir: y Oriana le dixo. Amigo si dios me vala mucho me pesa
+                    en vos aver otorgado la ida que mi coraçón siente en ello gran angustia quería
+                    dios que sea por bien. Señor dixo Amadís dios que sea por bien. Señora dixo
+                    Amadís aquel que tan hermosa os hizo vos de siempre alegría/ que do quiera que
+                    yo sea vuestro soy para os servir. Amigo señor dixo ella: pues que ya no puede
+                    ser al a dios vayáis encomendando/ y él vos mantenga/ y de honrra sobre todos
+                    los cavalleros del mundo. Entonces se partieron de allí y fueronse armar: y
+                    despedidos del rey y de sus amigos entraron en el camino con la donzella. Assí
+                    aduvieron por donde la donzella los guiava hasta ser mediodía passado que
+                    entraron en la foresta que malaven turada se llamava/ porque nunca entró en ella
+                    cavallero andante que buena dicha ni ventura vuiesse/ ni estos dos no se
+                    partieron della sin gran pesar: y tanto que alguna cosa comieron delo que sus
+                    escuderas llevavan tornaron a su camino hasta la noche que hazía luna clara. La
+                    donzella se aquexana mucho y no hazía sino andar Amadís le dixo. Donzella no
+                    queréis que holguemos alguna pieça: quiero dixo ella/ mas será adelante donde
+                    hallarémos unas tiendas con tal gente que mucho plazer vuestra vista les dara: y
+                    venid vuestro passo: y yo iré a hazer como aluerguéis: entonces se fue la
+                    donzella: y ellso se detenían algo mas: pero no aduvieron mucho vieron dos
+                    tiendas cerca del camino: y hllaron la donzella y otras con ella que los atendía
+                    y dixo. Señores en esta tienda descavalgad: y descansaréis que oí traxistes gran
+                    jornada: ellos assí lo hizieron y hallaron servistes que les tomaron las armas y
+                    los cavallos: y llevaron lo todo fuera. Amadís les dixo: porque no lleváis las
+                    armas: porque señor dixo la donzella avéis de dormir en la tienda donde las
+                    ponen: y siendo assí desarmados/ sentados en un tapete esperando la cena/ no
+                    passó mucho que dieron sobre ellso hasta quinze hombres entre cavallos y peones
+                    bien armados: y entraron por la puerta de la tienda diziendo/ sed personas sino
+                    muertos sois. Cuando esto oyó Amadís levantóse y dixo. Para Santa María hermano
+                    traídos somos a engaño a la mayor traición del mundo. Entonces se juntaron se
+                    consuno: y de grado se desendieran: mas no tenían con que: los hombres les
+                    pusieron las lanças a los pechos y a las espaldas y a los rostros: Y Amadís
+                    estava tan sañudo que la sangre le salía por la narizes y por los ojos/ y dixo
+                    contra las cavalleros. Ay traídore vos edes bien como es/ que si nos armas
+                    tuviesseemos/ de otra guisa se partiría el pleito. Ao vos tiene esso pro dixo el
+                    cavallo sed parsos: dixo Galaor si lo fueremos serlo hemos con gran traición: y
+                    esto puare yo a los dos mejores de vostors: y aún dexaría venir tres en tal que
+                    me diessedes mis armas. Ao ha menestre aquella preva dixo el cavallero que si
+                    mas en este caso habláis rescebiréis daño que quréis dixo Amadís/ que antes
+                    seremos muertos que presos: endemos de traídor: el cavallero se tornó a la
+                    puerta de la tienda y dixo. Señora no se quieren dar a prisión/ matarlose hemos:
+                    ella dixo: estad un poco: y sino hizieren mi voluntad tajadles las cabeças: la
+                    dueña entró en la tienda que era muy hermosa: y estava muy sañuda y dixo a los
+                    cavallos del rey Lisuarte: sed mis presos sino muertos seréis.Amadís se calló y
+                    Galaor le dixo hermano: agora no avemos que dudar pues la dueña lo quiere y dixo
+                    contra la dueña: mandad nos dar señora nuestras armas y cavallos: y si vuestros
+                    hombres no nos puduieren prender entonces nos pornemos en vuestra prisión: que
+                    agora en lo ser no hazemos nada por vos/ según en la forma que estamos. Ao vos
+                    creeré dixo ella esta vez: mas consejo vos que seaís mis presos/ ellos los
+                    otrograon pues vieron que no pod´ân mas hazer: desta guisa que oís fueron
+                    otorgados en su prisión: sin que ladueña supiesse quien eran: que la donzella no
+                    lo qiso dezir/ porque sabía cierto que en la hora los haría matar: de lo cual se
+                    ternía por la donzella mas sin ventura del mundo: en que por su causa tales
+                    doscavalleros muriessen: y mas quisiera la muerte que aver hecho aquella jornada
+                    pero no udo ya mas hazer de lo tener secreto. La dueña les dixo. Cavalleros
+                    agora que mis presos sois os quiero mover en pleito/ que si los otorgáis dexar
+                    vos he libres: de otra guisa creed que vos are poner en una tan esquina prisión
+                    os será mas grave que la muerte. Dueña dixo Amadís tal puede ser el pleito que
+                    sin mucha pena lo otorgaremos: y tal que si es nuestra verguença dixo ella se
+                    yo: pero si vos otorgáis que os despediréis del rey Lisuarte en llegando donde
+                    él está/ y diréis que lo hezistes por andao de Madasima la señora de Ganta si
+                    mandar vos he soltar: y que ella lo haze porque él teien en su casa al cavallero
+                    que manto al buen cavallero Dardán. Galaor le dixo. Señora si esto mandáis
+                    porque le rey aía pesar/ no lo tengáis assí: que nosotros somos dos cavallos que
+                    por agora no tenemos sino essas armas y cavallos: y como en su casa a´â otros
+                    muchos de gran valor que le sirven/ poco dará el por nosotros que estemos o que
+                    nos vamos/ y a nosotros es esso muy gran verguença tanto que por ninguna guisa
+                    lo haremos. Como dixo ella/ antes queréis ser puestos en aquella prisión que
+                    apartaos del mas falsó ry del mundo: dueña dixo Galaor no vos vonviene lo que
+                    dezís: que el rey es bueno y leal: y no ha en el mundo cavallero a quien yo no
+                    provasse que en el no ha punto de falsedad. Cierto dixo la dueña en mal punto lo
+                    amaís tanto: y mando que les atassen las manos. Esso haré yo de grado dixo un
+                    cavallero: y si lo mandáis les cortaré las cabeças/ y trave a Amadís del un
+                    braço/ mas él trió a si y fue por le dar con el puño en la cabeça: y el
+                    cavallero la desuvió: y alcançándolo en los pechos fue el golpe tan grande que
+                    lo derrib´ a sus pies todo estordido: entonces fue una grand ebuelta en la
+                    teinda llegándose todos por lo matar: mas un cavallero viejo que a´ˆestava meti´
+                    mano a su espada/ y començó de amenazar aquellos que quer´ân herir y hizolos
+                    tirar afuera. Pero antes dieron en la espalda diestra a Amadís un lançada/ mas
+                    no fue grande: y aquel cavallero viejo dixo contra la dueña. Vos hazéis la mayor
+                    diablura del mundo en tener cavalleros hijos dalgo en vuestra prisión: y dexar
+                    los matar. Como no mataron dixo ella al mas loco cavallo del mundo/ que en mal
+                    punto hizo tal locura. Galaor dixo. Dueña no consentiremos que nuestras manos
+                    aten si no vos que sois dueña y muy hermosa/ y somos vuestros presos: y conviene
+                    de os catar obendiencia. Pues que assí es dixo ella/ yo lo haré: y tomándoles
+                    las manos selas hizo atar reziamente con una correa: y haziendo desarmar las
+                    tiendas: poniéndolos en sendos palafrénes assi atados y hombres que les llevavan
+                    las reindas començaron de caminar: y gandalín y el escudero de Galaor ivan a pie
+                    atados en una soga: y assí anudiveron toda lanoche por aquella floresta. E digo
+                    vos que entonces desseava Amadís su muerte/ no por la mala andança en que
+                    estava/ que mejor que otro sabía sufrir las semejantes cosas: mas por le pleito
+                    que la dueña les demandava: que si lo no hiziesse ponerle ´ân en tal parte donde
+                    no pudiesse ver a su señora Oriana: y si lo otorgasse assí mesmo della se
+                    alongava/ no pudiendo ivir en la casa de su padre: y con esto iva tan atonito:
+                    uqe todo lo al del mundo se le olvidava. El cavallero viejo que lo lbrar cuido
+                    que dela herida iva maltrecho: y dolióse del mucho/ porque la donzella que allí
+                    los traxera le avía dicho que aquel era él mas valiente y mas esforçado
+                    cavallero en armas que en todo el mundo avía: y esta donzella era hija de aquel
+                    cavallero/ y av´â le rogado que por dios y por merced trabajasse delos guardar
+                    de muerte: que ella ser´â por todo el mundo culpada y la ternían por traídora y
+                    díxole como aquel era Amadís de Gaula: y el otro Galaor su honro que al gigante
+                    matar: el cavallero sab´â muy bien aquel sin los avían allí traídor y avía
+                    dellos muy ggran duelo/ por ver tratarlos de tal guisa en ser tales cavalos en
+                    armas/ y desseava mucho salvarlos de la muerte si pudiesse/ que tan allegada y
+                    cercana les veía: y llegándose a Amadís le dixo. Amadís cuando lo oy´ ass´ˆal
+                    cavallero hablar alço el rostro: y vio que era el cavallero viejo que en la
+                    tienda lo librara de los otros cavallos que matar lo qusieran/ y díxole. Amigo
+                    señor yo no he llaga de que me duela: mas duelome de una donzella que a tan gran
+                    engaño nos traxó viniendo nosotros en su ayuda/ y hazemos tan gran traición. Ay
+                    señor dixo el cavallo verdad es que engañados huistes: y proventura yo se mas de
+                    vuestra hazienda de lo que vos cuidáis: y si dios me ayude y guarde de mal cmo
+                    vos pornía reparó si alguna manera para ello hallar pudiesse: quiero vos dar un
+                    consejo que será bueno/ que si lo tomáis no vos verna dellomal/ que si vos
+                    concen sabiendo que en sois no ha en vos sino la muerte: que en el mundo no ha
+                    cosa que della vos escapé: mas hazed agora assí. Vos sois muy hermoso: y hazed
+                    buen semblante y llegar vos he a la dueña tanto que le a´â dicho que osis el
+                    mejor cavallero del mundo/ y requierdala de casameitno: o de aver su amor en
+                    otra guisa: que ella es mujer que ha un soraçón cual le plaé/ y entiendo que por
+                    vuestra bondad o por lahermosura/ que muy estremada tenéis alcançaréis una
+                    destas dos cosas: y si la quisere otrogar punad que sea muy alla/ porque ella
+                    tiene de embiar desde onde oy fueremos a dormir a saber de vuestros bombres: y
+                    quiero vos mas dezir de cierto: que la donzella que vistes que aquí os ha traído
+                    no selo ha queriendo dezir negando que lo no sabe por esta vía y con lo que yo
+                    ayudaré podría ser quelibres fuesesedes. Amadís que mas temía a su señora Oriana
+                    que la muerte/ dixo al cavallo amigo dios puede hazer de mi su voluntad/ mass
+                    esso nunca será aunque me ella rogasse/ y por ello fuesse quito. Cierto dixo el
+                    cavallero mor maravilla lo tengo que estáis en punto de muerte/ y no trabajáis
+                    por quel quería manera de aver guarida: tal guarida dixo Amadís yo no tomaré si
+                    dios quisere: mas hablad con eses otro cavallero/ que con mas derecho que a mi
+                    lo podéis loar. El cavallo se fue entonces a Galaor: y hablóle por aquella maner
+                    aque lo dixera a su hermano: y él fue muy alegre cuando lo oyó y dixo. Señor
+                    cavallero si vos hazéis que yo sea juntado a la dueña siempre seremos en vuestra
+                    honra y mandado: agora me dexad ir a hablar con ella dixo el cavallero que yo
+                    cuido algo hazer. Entonces passó delante: y llegando a la dueña dixo. Señora vos
+                    lleváis aquí presos y no sabéis a quien. Porque me lo dezís dixo ella: porque
+                    lleváis el mejor cavallero de armas que yo agora se/ y mas complido de todas
+                    buenas maneras: no sea Amadís dixo la dueña aquel que tanto yo querría quitar la
+                    vida no señora dixo el cavallero que no lo digo sino por este que aquí adleante
+                    viene: que demas de su gran bondades el mas hermsos cavallero mancebo que yo
+                    nunca vi/ y sois contra el desmeesurada: y no lo hagáis que es gran villana: que
+                    como quiera que sea preso nunca vos lo mereció: ante lo es por el desamor que a
+                    otro avéis/ honradie y mostradle buena a cara: y podrá ser que por allí lo
+                    atraerdes a lo que os plaze ante que por via/ ues atenderlo quierodixo ella y
+                    vere que hombre es. Veréis dixo el cavallo uno dellos mas hermosos cavallo que
+                    nunca vistes. A esta razón junto Amadís con Galaor y díxole Galaor. Hermano veo
+                    os con gran saña y en peligro de muerte: ruego os que esta vez os atengáis a mi
+                    consejo. Assí lo haré dixo él: y dios ponga en vos mas verguença que miedo. La
+                    dueña tuvo el palafrén y atendiólo y violo mejor que de noche lo vería: y
+                    parecióle el mas hermoso del mundo y dixo cavallo como os va: dueña dixo él:
+                    vame como nos vos iría si fussesdes en mi poder como lo yo soy en el vuestro
+                    porque vos haría mucho servicio y plazer: y vos no se aquel causa lo hazéis
+                    conmigo todo al contrario no os lo merecienodo/ que mejor os sería para ser
+                    vuestro cavallero y os servir y amar como a mi señora queno para estar metido en
+                    prisión/ que tan poca por os trae. La dueña que lo mirava fue del muy pagada mas
+                    que de ninguno que visto mi tratado oviesse y díxole: cavallero si yo os
+                    quisiesse tomar por amigo y quitar desta prisión: dexaridades que por mi la
+                    dexavades: si dixo Galaor: y dello vos haré cualquier pleito que demandardes: y
+                    assí lo hara aquel otro mi compañero que no salirá delo que yo mandaré. Mucho
+                    soy ende alegre: y agora me otrogad lo que dezis ante todos estos cavallos y yo
+                    vos otrgaré de hazer luego vuestra voluntad: y quitaré a vos y a vuestro
+                    comapñero de prisión. Mucho soy contento dixo Galaor: pues quiero dixo la dueña
+                    que todo se otrogue ante una dueña donde o´ˆirémos alevergar: y en tanto
+                    asseguardame que vos partáis de mi y desatar vos han las manos y iréis suelos.
+                    Galaor llamó a Amdaís: y díxole que él le otorgasse de no se partir de la dueña:
+                    y él lo otrogó/ y luego les mando desatarlas manos/ y Galaor dixo. Pues manda
+                    soltar nuestros escuderos que no se partierán de nos: y assí mismo fueron
+                    sueltos:y dieronles un palafrén sin silla en que fuessen. Assí fueron todo que
+                    día y Galaor hablando con Mandasima: y al sol puesto llegaron al castillo que
+                    llavan abies: y la señora les acogió muy bien: que mucho se amavan entranbas
+                    dueñas: madasima dixo a Galaor: queréis me otorgar el pleito que avemos puesto:
+                    quiero degrade dixo él: y otorgadme vos lo que me prometistes. En el bombre de
+                    dios dixo la dueña entonces llamó a la señora del castillo y a dos cavallos
+                    hijos suyos que allí eran con ella y díxoles quiero que seáis vostors testigos
+                    de un pleito que con estos cavallos hagó: y dixo por don Galaor. Este cavallero
+                    es mi preso y quiero hazer del mi amigo: y ass´ˆlo es el otro su comañero y soy
+                    convenida ocn ellos en esta guisa. Que ellos se partan del rey Liusarte: y le
+                    digan que por mi lo hazen: y que yo les quite la prisi´n dexando los libre: y
+                    que vos y vuestros hijos seáis con ellos ante el rey Lisuarte: y veáis como lo
+                    cumplen: y sino que digáis y publiquéis lo que passa: porque todos lo sepan: y
+                    desto les doy plazo de diez días. Buena amiga dixo la señora del castillo: a mí
+                    me plazé de hazerlo que deís tanto que ellos lo otorguen. Assí lo otrogramos no
+                    s dixo don Galaor: y esta dueña cumpla lo que de su parte dize. Esso dixo ella
+                    luego se hará. Assíquedaron como oís. Y aquella noche durmió don Galaor con
+                    Madasima que muy hermosa y muy rica era y hia dalgo: mas no de tan buen precio
+                    como devía: y ella fue mas pagada del que de ninguno otro que jamas viesse: y a
+                    la mañana mand´ les dar sus cavallos y armas: y quitándolos la prisión se fue
+                    camino de gatan si que assí avía nombre su castillo: y eos entraron en el camino
+                    de londres onde era el rey Liusarte muy alegres en aver assí escapado de tal
+                    traición/ y porque cidavan salir de su promesa mucho a su honra: y aquella noche
+                    alvergaron en casa de un hermanitaño donde ovieron muy pobre cena: y otro día
+                    continuaron su camino. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="18">
+                <head>Capítulo XVIII <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Amadís se combatió con Angriote y con su hermano: los caules guradavan un
+                        passo de un valle en que defendían que ninguno tenía mas hermosa amiga que
+                        Angriote. </p>
+                </argument>
+                <p> Assí como el hermano de Angriote lo vio tomó sus armas: y yendo contra él: y
+                    dixo. Cierto cavallero gran locura hezistes en no otorgar lo que vos demandaron:
+                    que vos auréis acombatir conmigo. Amas me plazé desso dixo Amadís que de otorgar
+                    la mayor mentira del mundo. E yo le dixo el cavallero que lo otorgaréis en otra
+                    parte donde vos será mayor venguença. Ao lo cuido yo assí dixo él si Dios
+                    quisere. Pues guardáos dixo el cavallero. Entonces fueron al mas correr de sus
+                    cavallos él uno contra el otro:y hiriérsonse en los escudos: y el cavallero
+                    falso el escudo A Amadís: mas detuvo se en el arnés: y la lança quebró/ y Amadís
+                    le econtró tan duramente: que lo lançó por cima de las ancas del cavallo: y el
+                    cavallero que era muy valiente tiró por las riedas que las quebró y llevó en las
+                    manos: y dio de pesueço y de espaldas en el suelo: y fue tan maltradado que no
+                    supo de si: ni de otra parte. Amadís descendió a él: y quito le el yelmo de la
+                    caebça: y vio le descadordado que no hablava: y tomándole por el braço tiro
+                    contra si: y el cavallero acordó y abrió los ojos: y amadís le dixo. Muerto sois
+                    si vos no otorgáis por preso. El cavallero que la espada vio sobre su cabeça
+                    temiendo la muerte otorgóse por su preso. Entonces Amadís cavalgó en su cavallo
+                    que vio que Angriote cavalgava y tomava sus armas: y le embiava un alança con su
+                    escudero. Amadís tomó la lança: y fue para el cavallero:y el vino contra él al
+                    mas correr de su cavallo y hiriéronse con las lanças en los escudos: assí que
+                    fueron quebradas sin que otro mal se hiziiessen: y passaron por si muy hermosos
+                    cavallero: que en muchas partes otros tales no se hallarían. Amadís echó mano a
+                    su espada: y tornó el cavallo contra él: y Angriote le dixo. Estad señor
+                    cavallero no os aquexéis de la batalla de las espadas: que bien la podréis aver:
+                    y creed que será vuestra daño. Esto dezía él porque pensava que en el mundo no
+                    avía cavallero mejor heridor de espada que lo era él: y justemos hasta que
+                    aquellas lanças nos fallezcan o él uno de nos caiga del cavallo. Señor dixo
+                    Amadís: yo he que hazer en otra presta: y no puedo tanto detenerme como dixo
+                    Angriote: tan ligero os cuidáis de mi partir: no lo tengo yo assí pero ruego os
+                    mucho que antes de las espadas juestemos otra vez. Amadís se lo otorgó pues que
+                    le plazía luego su fueron ambos y tomaron sendas lanças las que les mas
+                    contentaron: y alongando se uno de otro se dexaron venir contra si hiriéronse
+                    uno de las lanças muy bravamente: y Angirote fue en tierra y el cavallo sobre
+                    él: y Amadís que passara tropeço en el cavallo de Angriote: fue caer con él
+                    della otra presta y un troço de la lança que por el escudo le avía entrado con
+                    la fuerça de la caída entró le por el arnés y por la carne mas no mucho: y él se
+                    levantó muy ligero como aquel que para si no quería la verguença: de mas sobre
+                    caso de su señora: y tiro aína de si él troçó de la lança y poniendo mano a la
+                    espada se dexó ir contra Angriote que le vio con su espada en la mano: y
+                    Angriote le dixo. Cavallos yo os tengo por buen mancebó: y ruego os que antes
+                    que mas mal recibáis otroguéis ser mas hermosa mi amiga que la vuestra. Callad
+                    dixo Amadís que tal mentira nunca será por miboca otorgada. Entonces se fueron
+                    acometer y herir con las espadas de tan fuertes golpes que espanto ponían assí a
+                    los que miravan como a ellos mismos que los recebían: considerando entre si
+                    poder los sufrir: mas esta batalla no pudo durar mucho que Amadís se combatía
+                    por razón de la hermosura de su señora: donde viera el mejor ser muerto que
+                    fallecer un punto de lo que devía: y comencó de dar golpes de toda su fuerça tan
+                    duramente que la gran sabid anilla gran valentía de herir de espada no le tuvo
+                    presto a Angriote que en poca de hora lo sacó de toda su fuerça/ a tantas vezes
+                    le hizo decender la espada a la cabeça y al cuerpo que por mas de veinte lugares
+                    le salía ya la sangre: cuando Angriote se vio en aventura de muerte: tiróse a
+                    fuera assí como pudo y dixo. Cierto cavallero en vos aí mas bondad que hombre
+                    puede pensar. Otorgad vos por preso dixo Amadís: y será vuestra por: que estáis
+                    tan mal tratado: que aviendo la batalla sin la auría vuestra vida y pesar me ya
+                    dello que vos precio mas de lo que vos cuidáis. Esto dezía él por la su gran
+                    bondad de armas y por la cortesía de que visara con la duenna teniendola en su
+                    poder. Angriote que mas no pudo dixo. Yo me vos otorgó por preso: assí como al
+                    mejor cavallero del mundo/ y assí como se deven otorgar todos los que o´armas
+                    traen/ y digo os señor cavallero ue lo tomó por mengua mas por perdida/ que oí
+                    pierdo la cosa del mundo que mas amo: no poderéis dixo Amadís si yo puedo: que
+                    muy desaguisado sería: si aquella gran mesura que contra essa que dezís viastes
+                    no scasse él pagó y galardon que merece: y vos le auréis si yo puedo mas cedo
+                    que ante. Esto vos prometó yo como leal cavallero cuanto torne de una demanda en
+                    que voy. Señor dixo Angriote onde vos hallaré: en casa del rey Lisuarte dixo
+                    Amadís: que aí volveré dios quieriendo. Angriote lo quisiera llevar a su
+                    castillo: mas él no quiso dexar el camino que ante llevara: y despedido dellos
+                    se puso en la guisa del enano para le dar el dond que le prometiera: anduvo
+                    cinco días sin aventura hallar: en cabo dellos mostró le el enano un muy hermoso
+                    castillo: y muy fuerte a maravilla. E díxole. Señor en aquel castillo me avéis
+                    de dar el don. En el nombre de dios dixo Amadís: yo te lo daré si puedo. essa
+                    confiança tengo yo dixo el enano/ y mas después que he visto vuestras grandes
+                    cosas. Y señor sabéis como ha nombre este castillo: no dixo él: que nunca en
+                    esta tierra entre. Sabed dixo el enano que ha nombre Galderín: y assí hablando
+                    llegaron al castillo/ y el enano dixo. Señor tomad vuestras armas: como dixo
+                    Amadís serán menester: si dixo él: que no dexan dende salir tan ligeramente los
+                    que aí entran. Amadís tomó sus armas y metióse adelante: y el enano y Gandalín
+                    empos del: y cuando entró por la puerta cató a un cabo y a otro: mas no vi nada:
+                    y dixo contra el enano. Despoblado me se meja este lugar. Por dios dixo él a mi
+                    también. Pues para que me traxiste aquí: o que don quieres que te de: el enano
+                    le dixo. Cierto señor yo vi aquel mas bravo cavallero y mas fuerte en armas que
+                    cuido ver: y mató allí en aquella puerta dos cavalleros: y el uno de los era mi
+                    señor: y a este mató tan curdamente como aquel en quien nunca merced uvo: y yo
+                    os quisiera pedir la cabeça de aquel traídor que lo mató: que ya aquí taxe otros
+                    cavalleros para le vengar: y mal pecado dellos prendieron muerte: y otros cruel
+                    prisión. Cierto enano dixo Amadís tu hazes lealtad: mas no devrías traer los
+                    cavalleros si ante no les dixesses con quien se avían de combatir. Señor dixo el
+                    enano: el cavallero es muy conoscido por uno de los bravos del mundo: y si lo
+                    dixesse no sería ninguno tan ardid que conmigo osasse venir: y sabes como ha
+                    nombre: si se dixo el enano: que se llama aracalus el encantador: Aadís cató a
+                    todas partes y no vio ninguno: y apeose de su cavallo: y atendió hasta las
+                    visperas/ y dixo. Enano que quieres que haga: señor dixo el la noche se viene: y
+                    no tengo por bien que aquí alverguemos. Cierto dixo Amadís de aquí no partiré
+                    hasta que el cavallero venga o alguno que del me diga. Por dios yo no quedaré
+                    aquí dixo el enano/ que he gran miedo qu eme conoce arcalaus/ y sabe que yo puno
+                    de le hazer matar. Todavía dixo Amadís quel quedaras y no me quiero quitar del
+                    donde si puedo: y Amadís vio un corral adelante y entro por él: mas no vio
+                    ninguno: y vio un lugar muy escuro con unas grandas que so tierra ivan: y
+                    Gandalín llevava el enano porque le no huiesse que gran miedo avía: y díxole
+                    Amadís entremos por estas gradas ceremos que aí allá. Aí señor dixo el enano
+                    merced/ que no aí cosa porque yo entrasse en lugar tan espantoso y por dios
+                    dexad me ir que mi coraçón se me espanta mucho: no te dexare dixo Amadís hasta
+                    que aías el don que te prometí/ o veas como hago mi poder. El enano que gran
+                    miedo avía dixo dexad me ir: y yo os quito el don/ y tengo me por contento del.
+                    En cuanto en mi fuere dixo Amadís yo no te mando quitar el don: no digas después
+                    que falte de lo que devía hazer. Señor a vos do por quito y a mí por pagado dixo
+                    él/ y yo vos quiero atender fuera por donde venimos hasta ver si is. Vete en
+                    buena ventura dixo Amadís: y yo fincaré aquí esta noche hasta la mañana
+                    esperando el cavallero: el enano se fue su vía. E Amadís descendió por las
+                    gradas: y fue adelante que ninguna cosa veía/ y tanto fue por ellas ayuso que se
+                    halló en un llano/ y era tan escuro que no sabía donde fuesse: y fue assí
+                    adelante y topo en una pared. E trayendo las manos por ella: dio en una barra de
+                    hierro en que estava una llave colgada y abri´ un candado de la red: y oyó una
+                    boz que dezía. Aí señor Dios hasta cuando será está grande cuita/ ay muerte
+                    donde tardas do serías tanto menester: Amadís escucho una pieça no oy´ mas y
+                    entró dentro por la cueva su escudo al cuello: y el yelmo en la cabeça: y la
+                    espada desnuda en la mano: y luego se halló en un hermoso palacio donde avía un
+                    lámpara que le alumbrava/ y vio en una cama seis hombres armados que durmían y
+                    tenían cabe si escudos y hachas: y él se leggó y tomó unas dellas hachas: y
+                    passó adelante y oyó mas de cien boes altas que dezían. Dios señor embíanos la
+                    muerte: porque tan dolorosa cuita no suframos. Él fue muy maravillado de las oír
+                    y al ruido dellas bozes despertaron los hombres que dormían: y dixo uno a otro.
+                    Levántate y toma él açote: y faz callar aquella cativa gente: que no nos dexan
+                    holgar nuestro sueño: esso haré yo de grado dixo él: y quelazeren el sueño de
+                    que me desportaron. Entonces se levantó muy presto: y tomando el açote vio ir
+                    delante si a Amadís: de lo que muy maravillado fue en lo allí ver: y dixo: quien
+                    va allá yo voy Amadís: y quien sois dixo el bombre: soy un cavallero estraño
+                    dixo Amadís/ pues quien vos metió acá sin licencia alguna: no ningungo dixo
+                    Amadís: que yo me entré: vos dixo él esto fue en mal punto para vos que
+                    convenera que seaís luego metido en aquella cuita que son aquells cativos que
+                    dan tan grandes bozes: y tornándose cerró presto la puerta y despertando a los
+                    otros dixo. Compañeros veís aquí un mal andante cavallero que de su grado acá
+                    entró. Entonces dixo él uno dellos que era al cárcel lo y avía el cuerpo y la
+                    fuerça muy grande en demasía: agora me dexad con él: que yo le porne con
+                    aquellos que allí yazen: y tomando una hacha y una adarga se fue contra él: y
+                    dixo: si dudas tu muerte/ dexa tus armas: y sino atiende la que presto de esta
+                    mi hacha la auras: Amadís fue sañudo en se oír amenazar: y dixo. Yo no dar´â por
+                    ti una paja: que como quier que seas grande y valiente eres malo y de mala
+                    sangre y fallescer te ha el coraçón y luego alçaron las hachas y hiriéronse
+                    ambos con ellas. Y el cárcelero le dio por cima el yelmo/ y entró la hacha bien
+                    por él: y Amadís le dio en el adarga assí se la passó. Y el otro que tiró a
+                    fuera llev´ la hacha en el adarga. E puso mano a la esapda: y dexóse ir a él: y
+                    cortóle la asta de la hacha: el otro que era muy valiente cuido lo meter so si:
+                    mas de otra guisa le vino que Amadís avía mas fuerça que en ninguno otro que se
+                    hallasse en aquel tiempo: y el cárcelero le cogió entre sus braços: y punava por
+                    lo derribar. E Amadís le dio la mançana de la espada en el rostro que le
+                    quebranto la una quezada y derribó lo ante si a tordido: y hiriólo en la cabeça:
+                    de guisa que no ovo menester maestro: y los otros que los miravan dieron bozes
+                    que lo no matasse sino aquel ser´ˆamuerto/ no se como averna dixo Amadís mas
+                    deste seguro seré/ y meteiendo la espada en la vaína sacó la hacha de la adarga:
+                    y fue a ellos que contra él por lo herir todos juntos venían: y descargaron en
+                    el sus golpes cuanto mas rezió pudieran: para él hirió al uno que hasta los
+                    meollos lo hendió: y dio con él a sus pies. Y luego dio a otro que mas le
+                    aquexava por el costado: y abrióselo assí que le derribó: y travo a otro de la
+                    hacha tan rezió/ que dio con él de inojos en tierra/ y assí este como el otro
+                    que lo querían herir demandaron le merced: que los no matasse. Pues dexad luego
+                    las armas dixo Amadís: y mostrad me esta gente que da bozes: allos las dexaron:
+                    y fueron luego ante él. Amadís oyó gemir y llorar en una cámara pequeña y dixo.
+                    Quien yaze aquel: señor dixeron ellos una dueña que es muy cuitada: pues abrid
+                    essa puerta dixo él y ver la he. El uno dellos tornó do yazía el grande
+                    carcelero: y tomando le dos llaves que en la cinta tenía abrió la puerta de la
+                    cámara: y la dueña que cuido quel carcelero fuesse dixo. Aí varon por dios aved
+                    merced de mí y dadme la muerte y no tantos martirios cuales me daís: otro si
+                    dixo. Del rey en mal día soy yo de vos tan amada que tan caro me cuesta vuestro
+                    amor. Amadís ovo della gran duelo que las lágrimas le vinieron a los ojos y
+                    dixo. Dueña no soy él que pensáis: antes aquel que os sacara de aquí si puedo.
+                    Aí sancta maría dixo quien sois vos que acá entrar podistes: sy una cavallero
+                    estraño dixo él. Pues que se hizo el gran cruel carcelero/ y los otros que
+                    guardavan: lo que será de todos los males que se no emienda dixo él: y mandó a
+                    uno de los hombres que le traxesse lumbre: y él assí lo hizo/ y Amadís vio la
+                    dueña con una gruessa cadena a la granta: y los vestidos rotos por muchas
+                    parastes que las carnes se le parescían y como ella vio que Amadís con piedad la
+                    miarava dixo. Señor como quería que assí me veáis ya fue tiempo que era rica
+                    como hija de rey que soy/ y por rey soy en aquesta cuita: dueña dixo él: no vos
+                    quexéis que estás tales son bueltas y autos de la fortuna: porque ninguno las
+                    puede huir ni dellas apartar: y si es persona que algo vale aquel por quien este
+                    mal sufris y sostenéis vuestra pobreza y baxo traer se tornara riqueza/ y la
+                    cuita en grande alegría: pero en lo uno ni en lo otro poco nos devemos siar: y
+                    hizole tirar la cadena/ y mandó que le truexessen algo con que se pudiesse
+                    cubrir. Y el bombre que las candelas lleava traxo un manto de escarlata que
+                    arcalavs av´â dado a aquel su carcelero/ Amadís la cubrió con él: y tomando la
+                    por la mano la sacó fuera al palacio diziéndole que no temiesse de allí bolver
+                    si ante a él no matassen: y lleando lo consigo llegaron donde el gran carcelero
+                    y otros muertos estavan de que ella fue muy espantada y dixo. Aí manos cuantas
+                    heridas y cuantas cruezas avéis hecho y dado a mí y a otros que aquí yazen sin
+                    que lo mereceissen: y aún que vosotras la vengança no sintáis: siente lo aquella
+                    desunturada de anima que os sostenía/ señora dixo Amadís/ tanto que vos ponga
+                    con mi escudoero yo tornaré a los sacar todos que ninguno aquedé: assí fueron
+                    adelante: y llegando a la red vino allí un hombre: y dixo al que las candelas
+                    llevava. Dize os arcalavas que do es el cavallero que acá entró/ si lo matastes
+                    o si es presto: él ovo tan gran miedo que no habló/ y las candelas se le cayeron
+                    de las manos: Amadís las tomó y dixo no aías miedo ribaldo/ de que temes siendo
+                    en mi guarda: ve adelante y subieron por las grandas hasta salir al corral y
+                    vieron que gran pieça de la noche era passada: y la una era muy clara/ cuando la
+                    dueña vio el cielo y el aire fue muy alegre a maravilla como quien no lo avía
+                    gran tiempo visto y dixo. A´ˆbuen cavallero dios te guarde y del galardon que me
+                    en sacar de aquí mereces. Amadís la lleava por la mano y llegó donde dexara a
+                    Gandalín: mas no falló y metió se de lo aver perdido y dixo: si el mejor
+                    escudero del mundo es muerto: por él se hará la mayor y mas curel vengança qu
+                    eunca se hizo si yo bivo: estando assí oyó dar unas bozes: y yendo allá halló al
+                    enano que del se partiera colgado por la pierna de una viga: y de yuso del un
+                    fuego con cosas de malos olores/ y vio aotra parte a Gandalín que a un postre
+                    atado estava. Y queriendo lo desatar dixo. Señor a corred ante al enano qu emuy
+                    cuitado es. Amadís assí lo hizo/ que sosteniendole en su braço con la espada
+                    cortóle la cuerda y puso lo en el suelo: y fue a desatar a Gandalín diziendo.
+                    Cierto amigo no te preciava tanto como yo el aque aquí te puso: y fuesse a la
+                    puerta del castillo/ y halló la cerrada de una puerta colgadiza/ y como vio que
+                    no podía salir/ apartóse al un cabo del corral donde avía u npoyo/ y sento se
+                    allí con la dueña: y tuvo consigo a Gandalín y al enano y los dos hombres de la
+                    cárcel. Gandalín le mostró una casa donde metieron su cavallo y fue allá: y
+                    quebrando la puerta halló lo ensillado y enfrenado y traxo lo cabe si. Yo
+                    degrado quisiera bolver por los presos: mas ovo recelo que la dueña no
+                    recibiesse daño de Arcalavs/ pues ya en el castillo era: y acordó de esperar el
+                    día: y preguntó a la dueña quien era el rye que la amava/ y por quien aquella
+                    gran cuita sufría: señor dixo ella: siendo este Arcalavs muy grande enemigo del
+                    rey de quein yo soy amada y sabiendolo él y no pudiendo del aver vengança acordó
+                    de la tomar en mi creyendo que este era el mayor pesar que le hazía/ y como
+                    quiera que ante mucha gente me tomasse metióse conmigo en un aire tan escuro que
+                    ninguno me pudo ver: esto fue por sus encantamentos quel obra: y puso me allí
+                    donde me hallastes diziendo que padesciendo yo en tal tenebrugura: y aquel qu
+                    eme ama en me no ver ni saber de mi: holgava su coraçón con aquella vengança.
+                    Dezid me dio Amadís si vos pluguiere quien es esse rey. Arban de Aorgales dixo
+                    la dueña/ no se si del avéis noticia. A dios merced dixo Amadís que el es el
+                    cavallero del mundo que yo mas amo: agora no he de vos tanta piedad como antes:
+                    pues que por uno dellos mejores hombres del mundo lo sufristes: por aquel que
+                    con doblada alegría y honrra vuestra volutad será satisfecha: hablando en esto y
+                    en otras cosas estuvieron allí hasta la mañana que el día fue claro: entonces
+                    vio Amadís a a la siniestras un cavallero que le dixo. Sois vos él que me
+                    matastes mi carcelero y mis hombres: como dixo Amadís vos sois aquel que
+                    injustamente matáis cavalos: y prendéis dueñas y donzellas: cierto yo os tengo
+                    por él mas desleal cavallo del mundo: por aver mas crueza que bondad. Aun vos no
+                    sabéis dixo el cavallero toda mi cureza/ mas yo haré la sepáis ante de mucho: y
+                    haré que no os trabajéis de emendr ni retraer cosa que yo haga a tuero o a
+                    derecho: y tiróse de la siniestra: y no tardó mucho que lo vio salir al corral
+                    muy bien armado y encima de una gran cavallo/ y él era uno dellos grandes
+                    cavallos del mundo que gigante no fuesse: Amadís lo mirava creyendo que en el
+                    avía gran fuerça por razón: y arcalavs le dixo que me miras. Miró te dixo él
+                    porque segun tu parecer podrías serhombre muy señalado si tus malas obras no lo
+                    estorvassen y la deslealtad que has gana de mantener. A buen tiempo dixo
+                    Arcalavs me traxo la fortna si de tal como tu avía de ser reprehendido: y fue
+                    para él su lança baxa/ y Amadís assí mismo y Arcalaus lo hirió en el escudo y
+                    fue la lança e pieças y juntar se los cavallos y ellos uno con otro tan
+                    bravamente que cayeron a sendas partes: mas luego fueron en pie como aquellos
+                    que muy bivos y esforçados eran: y hiriéronse con las espadas de tal guisa que
+                    fue entre ellos un tan cruel y brava batalla que ninguno lo podría creer sino la
+                    viesse: que duro mucho por ser ambos de tan gran fuerça y ardimiento/ para
+                    Arcalvas se tiró afuera y dixo. Cavallo tu estás en aventura de muerte: y no se
+                    quien eres dímelo porque lo sepa: que yo mas pienso en te matar que en vencer:
+                    mi muerte dixo Amadís está en la voluntad de dios a quien yo temo: y la tyua en
+                    la del diablo que es ya enojado de te sostener/ y quiere que el cuerpo a quien
+                    tantos vicios malos ha dado con el a la perezca: y pues desseas de saber quien
+                    soy yo/ digote que e nombre Amadís de Gaula/ y soy cavallo de la reina brisena:
+                    y agora punad de dar cima a la batalla que vos no dexare mas holgar. Arcalavs
+                    tomó su escudo y su espada y hiriéronse ambos de muy fuertes y duros golpes assí
+                    que la plaça era sembrada dellos pedaços de sus escudos y dellas mallas dellas
+                    armas: y siendo ya la ora de tercía que Arcalavs avía pedido mucha de su fuerça
+                    fue a dar golpe por cima del yelmo a Amadís no pudiendo tener la espada salióle
+                    de la mano y cayó en tierra: y como la quiso tomar: puxole Amadís tan razio que
+                    le hizo dar con las manos en el suelo: y como se levanto diole con la espada un
+                    tal golpe por cima del yelmo que le aotrdescio/ cuando Arcalaus se vio en
+                    aventura de muerte: començó de huir contra un palacio donde saliera: y Amadís
+                    empos del/ y ambos entrarn en el palacio: mas Arcalavs se acogió a una cámara: y
+                    a la puerta della estava una dueña qu emirava como se combatían. Aralavs desque
+                    en la cámara fue tomó una espada y dixo contra Amadís/ agora entra y combate te
+                    conmigo. Mas combatamonos en este palacio que es mayor dixo Amadís/ no quiero
+                    dixo Arcalavs. Como dixo Amadís ende te crees ampar: y poniendo el escudo ante
+                    si entró con el y alçando la espada por lo herir pedido la fuerça de todos los
+                    miembros y el sentido/ y cayó en tierra tal como muerto: Araclavs dixo. Ao
+                    quiero que muráis de otra muerte sino desta/ y dixo a la dueña que los mirava:
+                    paresce os amiga que me vengaré bien deste cavallo/ paresceme dixo ella que vos
+                    vengaréis a vuestra voluntad/ y luego desarmó a Amadís que sabía de si parte: y
+                    armóse él de aquellas armas: y dixo a la dueña. Este cavallero no le mueva de
+                    aquel ninguno: por cuanto vos amades: y assí lo dexad hasta que le alma se sea
+                    salida/ y faltó assí armado al corral/ y todos cuidaron que lo matara. Y la
+                    dueña que de la cárcel saliera hazían gran duelo/ mas en el de Gandalín no es de
+                    hablar. y Arcalavs dixo. Dueña buscad otro que de aquí os saque que él que
+                    vistes desmpachado es. Cuando por Gandalín fue esto oído cay´ en tierra tal como
+                    muerto. Aralavs tomo la dueña/ y dixo. Tenid conmigo y veréis como muere aquel a
+                    que alma laventurado que conimgo se combatió. Y llevando la donde Amadís estava
+                    le dixo: que vos parece dueña: ella començó agramente a llorar y dixo. Aí buen
+                    cavallero cuanto dolor y tristeza será a muchos buenos la tu muerte. Arcalavs
+                    dixo a la otra dueña que era su muger. Amiga despue este cavallero sea muerto
+                    hazed tornar essa dueña a la cárcel dondeél la sacó: y yo me iré a casa del rey
+                    Lisuarte y diré allá como me combatí con este: y que de su voluntad y la mía fue
+                    acordado de tomar esta batalla con tal condición que el cencedor tajasse al otro
+                    la cabeça: y lo fuesse dezir aquella corte dentro que quinze días. Y desta
+                    manera ninguno torna razón de me demandar esta muete y o quedaré con la mayor
+                    glaría y alteza en las armas/ que aía cavallero en todo el mudno: en aver
+                    vencido a este que par no tenía: y tornándose al corral hizo poner en la ecura
+                    cárcel a Gandalín y al enano. Gandalín quisiera qe lo matara: y iva lo llamando
+                    taídor/ que mataste al mas leal cavallero que nunca nasció. Mas Arcalavs lo
+                    mandó llevvar a sus hombres rastrando por la pierna diziendo. Si te matsse no te
+                    dar´â pena: allá dentro la auras muy mayor que la mesma muerte: y calvalgando en
+                    el cavallo de Amadís llevando consigo tres escuderos se metió en el camino donde
+                    el rey Lisuarte era. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

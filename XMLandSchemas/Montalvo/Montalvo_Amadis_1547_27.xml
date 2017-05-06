@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="27">
+                <head>Capítulo XXVII <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como Amadís se combatió con el cavallo que la donzella avía burtado estando
+                        durmiendo y de como lo venció. Ventra que esto hablavan/ vino a ellos un
+                        cavallo tod armado si no la cabeça y las manos: él er grande y mebrudo: y
+                        affaz bien hecho para aver gran fuerça: y dixo contra Amadís. Señor
+                        cavallero dizen me que demandáis una donzella que yo aquí tuxe/ yo no vos
+                        sorce a vos nada/ que ella se quiso venir conmigo antes que quedar con vos/
+                        y assí tengo que no he porque vos la dar. pues mostrad me la dixo Amadís yo
+                        no he porque vos la mostrar dixo el cavalloer; mas si dezís que no deveser
+                        mia provar vos lo he por batalla. Cierto dixo Amadís esso provaré yo a quien
+                        quiera: que nos no la devedes aver con derecho si la donzella no se otorga
+                        en ello. pues led vos en la batalla dixo el cavallero. Mucho me plazé dixo
+                        Amadís. Agora sabed que este cavallero ha nombre Gasinan: y era tío hermano
+                        de su padre de la amiga de Angriote: y era el pariente del mundo que ella
+                        mas amava: y por ser el mejor cavallero de armas de su linage traía su
+                        hazienda por seso del: y traxeronle a este gasinan un gran cavallo: y él
+                        tomó sus armas: y Amadís otro si cavalgó y tomó las suyas: y la dueña que
+                        Grovenesa avía nombre dixo. Cio yo vos lo aría que no passasse este batalla:
+                        que mucho pesar auría de cual quisiera de vos que mal le auvenga: que vos
+                        ois el hombre del mundo que yo mas amo: y esse cavalleor me juro que haría
+                        quitar a Amadís de lo que prometió a Angriote. Sobrina dixo Gasinan: como
+                        pensáis vos que el mi otro pudiesse tirar al mejor cavallero del mundo de no
+                        complir su voluntad: grovenesa le dixo. Allí me ayude dios que yo tengo a
+                        este por el mejor cavallo del mundo: y si tal no fuesse no entrara acá por
+                        fuerça de armas. Conmo dixo Gasinan tanto lo piciáis vos por passar las
+                        puertas a aquellos que las guardavan: cierto él hixo buena cavallería/ mas
+                        yo por esso no lo temó mucho: y si en el ha bondad agora lo veréis: y dios
+                        no me ayude si yo la donzella dexo en cuanto desender la pueda. Grovenesa se
+                        tiró afuera y ellos para tieron contra si al mas ir de los cavallos las
+                        lanças baxas: y hirieronse en ellos escudos tan bravamente que luego fueron
+                        quebradas: y ellos sejuntaron dellos escudos y yelmos y consuno tan
+                        fuertemente que maravilla era y Gasinan que menos fuerça avía fue fuera de
+                        la silla: y dio gran caída: mas él se levantó luego como aquel que era de
+                        gran fuerça y coraçón/ y metió mano a la espada y fuesse y endo contra un
+                        pilar de piedra que estava alto en medio del corral que allí cuido que le no
+                        saría. Amadís mal de cavallo: y si a él llegasse que se lo podría matar.
+                        Amadís se dexo ir a él por lo herir: y Gasinan le dio con el espada en el
+                        rostro del cavallo de que Amadís fue muy sañudo: y quiso lo herir de toda su
+                        fuerça y Gasinan se tiro a fuera: y el colpe dio en el pilar que de fuerte
+                        piedra era: assí que cortó un pedaço del: mas el espada fue quebrada en tres
+                        pedaços del: cuando el assí la vido ovo gran pesar como quien estava en
+                        peligro de muerte y al no tenía con que se defender: y lo mas puesto que
+                        pudo descendió de su cavallo: Gasinan que assí lo vio dixo. Cavallo otorgad
+                        la donzella por mía sino muerto sois: esso no será dixo él si antes ella no
+                        dize que le plaze. Entonces se dexó ir a él Gasinan: y començolo de hrir por
+                        todas partes: como aquel que era de gran fuerça: y avía gana de ganar la
+                        donzella. Mas Amadís se cubrió también de su escudo: y con tanto tiento que
+                        todos los mas golpes recebía en el: y otros le hazía perder y algunas vezes
+                        la dana con los puños de la espada que en la mano le quedó tales golpes que
+                        le hazía rebolver de una parte a otra/ y le torcía a menudo el yelmo en la
+                        cabeça. Assí anduvieron gran pieça en la batalla: tanto que las dueñas y
+                        donzellas se espantava de como lo podía Amadís sufrir sin tener con que
+                        hiriesse: para desque vio descubierto por muchos lugares de su loriga: y
+                        menguado de su escudo: pusolo todo en aventura de muete y dexose ir con gran
+                        saña a Gasinan tan presto que el otro no pudo ni tuvo tiempo de lo herir: y
+                        abraçaron se ambos puñando cada uno por derribar al otro: y assí anduverion
+                        una pieça: que nuna Amadís lo dexa que del se soltasse: seyendo cerca de una
+                        gran piedra que en el corral avía/ puso Amadís toda su fuerça: que muy mayor
+                        que ninguno pudiera pensar la tenía: aunque de gran cuerpo no era/ y dio con
+                        el encima della tan gran caída de gasinan fue todo atordido/ que se no
+                        meneava con pie ni con otro mano. Amadís tomó el espada presto que le cayera
+                        de la mano: y cortándolelos lazos del yelmo tiró selo de la cabeça/ y el
+                        cavallero acordo ya cuanto mas: pero no de manera que levantar se puediesse:
+                        y díxole. Don cavallero mucho pesar me hezistes sin derecho y agora me
+                        vengaré dello: y alço la espada como que lo quería herir: y grovenesa dio
+                        grandes bozes diziendo. Aí buen cavallero por dios merced no sea assí: y fue
+                        contra él loorando: cuando Amadís vido que le tanto pesava hizo mayor
+                        semblante delo matar y dixo. Dueña no me roguedes que lo dexe que él me ha
+                        hecho tanto pesar que por ninguna mnera dexaré de le cortar la cabeça/ aí
+                        señor cavallo dixo ella por dios demandad todo lo que vuestra voluntad fuere
+                        que nos hagamos en tal que no muera: y luego será complido. Dueña dixo él en
+                        el mundo no ha cosa porque yo lo dexasse sino por dos cosas si las dos
+                        quiserdes hazer: que cosas son dixo ella: dadme la donzella dixo él: y vos
+                        me juraréis como leal dueña que iréis a la primera corte que el rey Lisuarte
+                        hiziere y allí me daréis un don aquel yo pudiere Gasinan que estava ya mas
+                        acordado: y se vio en tan gran peligro dixo. Aí sobrina por dios merced: y
+                        no me dexéis matar y aved duelo de mi y hazed lo que el cavallero dize. Ella
+                        lo otorgó como Amadís lo pedía. Entonces dexó al cavallo y dixo: dueña yo
+                        vos estaré bien en el don que vos prometí: y vos tened en la otra jura y no
+                        temáis que vos yo demandé cosa que sea contra vuestra honra: muchas mercedes
+                        dixo ella que vos osis tal que haréis todo derecho. Pues agora venga la
+                        donzella que yo demando: la dueña la hizo venir: y fue sincar los inojos
+                        ante Amadís: y dixo. Cierto señor mucho afán avéis llevado por mí: como
+                        quier que Gasinan me truzesse a engaño conozco que me quiere bien/ pues
+                        quiso ante combatirse que darme por otra manera. Amgia señora dixo Gasinan:
+                        si a vos parece que os ame si dios me ayude parece os gran verdad y ruego
+                        vos mucho que quierdéis conmigo: assí lo haré dixo ella plaziendo a este
+                        cavallo: cierto donzella dixo amadís vos escogedes uno de los buenos
+                        cavallos que podríades hallar: para si esto no es vuestro pazer luego me lo
+                        dezíd y no me cuspéis de cosa que dello vos avenga. Entonces demandó su
+                        cavallo y grovenesa quisiera que quedara aí aquella noche mas él no hizo: y
+                        cavalgando en el despedido della mando llevar a Gandalín los pedaços de la
+                        espada y salió del castillo: mas antes Gasinan le rogó que la suya llevasse:
+                        y él selo agradeció ucho y tomóla: Y Grovenesa le izo dar una lança: y assí
+                        entró en el derecho camino del árbol de la encruzijada que allí pensava
+                        hallar a Galaor y Galaís.</p>
+                </argument>
+                <p> . </p>
+            </div>
+        </body>
+    </text>
+</TEI>

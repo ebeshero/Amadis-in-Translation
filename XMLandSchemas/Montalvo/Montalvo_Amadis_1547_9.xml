@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Amadis.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Amadís de Gaula Volumes I-IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+
+                <p> We have used the text of the <bibl>1547 <title>Amadís</title> (Sevilla: Jacopo
+                        Cromberberger)</bibl> from which Southey translated. Images of the 1547 are
+                    from the Biblioteca Virtual de Andalucía. This text is very similar to the text
+                    of the first extant <bibl>
+                        <title>Amadís</title>, the 1508 Jorge Coci edition</bibl>, upon which most
+                    modern editions are based. Garci Rodríguez de Montalvo, a regidor or civic
+                    official of the city of Medina del Campo, edited and compiled the version of
+                    Amadís we know today from one or more medieval originals. The medieval material
+                    is concentrated in Books I-III, with occasional asides from the author. Book IV
+                    and the prologues are original to Montalvo. Only one fragment of a medieval
+                    Amadís exists, but the first texts are thought to be based in part on the
+                    Lancelot material in France and likely appeared in Spain in the mid-fourteenth
+                    century. Evidence in the form of character names and references in poetry dates
+                    to the fourteenth century. The primitive or medieval Amadís is now thought to be
+                    Castilian and not Portuguese or French. The attribution to Portuguese knight
+                    Vasco de Lobeira is now known to be apocryphal.<ptr
+                        target=" http://www.bibliotecavirtualdeandalucia.es/catalogo/catalogo_imagenes/imagen_id.cmd?idImagen=5010234"
+                    />
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital critical edition seeks to reproduce the reading experience of the
+                        <bibl>1547 <title>Amadís de Gaula</title> (Sevilla: Cromberger)</bibl> with
+                    which Robert Southey worked for his translation in order to facilitate
+                    comparisons. The following modifications have been made to the 1547 print
+                    edition. <list rend="numbered">
+                        <item>We employ the letters <hi>i/e/u/y/j</hi> as in modern Spanish: i/e/u
+                            express vowel sounds and <hi>y/j</hi> express consonants. For example,
+                                <mentioned>reyna</mentioned> in the 1547 has been transcribed as
+                                <mentioned>reina</mentioned> and <mentioned>cauallero</mentioned> as
+                                <mentioned>cavallero</mentioned>. The letter <hi>y</hi> has vocalic
+                            value only at the ends of words, as in <mentioned>muy</mentioned> and
+                                <mentioned>rey</mentioned>, and as the conjunction meaning
+                                <gloss>and</gloss>.</item>
+                        <item>We preserve most of the consonant use of the 1547, including the
+                            alternation of <hi>b/v</hi> and <hi>m/n</hi> before <hi>b/p</hi> as well
+                            as the absence or presence of <hi>h</hi>. We normalize the use of
+                                <hi>qu</hi>.</item>
+                        <item>Doubled consonants, <hi>bb</hi>, <hi>cc</hi>, <hi>ff</hi>, etc. are
+                            resolved as single except where they have phonetic value.</item>
+                        <item>The single <hi>r</hi> and not <hi>rr</hi> has been transcribed after
+                            consonants: <mentioned>honrra</mentioned> becomes
+                                <mentioned>honra</mentioned>. In some cases the <hi>rr</hi> has been
+                            supplied for <hi>r</hi> for phonetic reasons:
+                                <mentioned>tiera</mentioned> becomes
+                            <mentioned>tierra</mentioned>.</item>
+                        <item>We resolve the few abbreviations in the 1547 without alerting the
+                            reader. For example, <mentioned>q̃</mentioned> has been resolved as
+                                <mentioned>que</mentioned> and <mentioned>scta</mentioned> as
+                                <mentioned>sancta</mentioned>. Any ambiguities in abbreviations are
+                            tagged.</item>
+                        <item>We transcribe the tironian sign as <mentioned>y</mentioned>.</item>
+                        <item>We use accentuation according to the norms of modern Spanish in order
+                            to guide the reader’s pronunciation and to disambiguate words.</item>
+                        <item>We use capital and lower-case letters as in modern Spanish in order to
+                            clearly mark proper names and the boundaries of sentence-like
+                            groups.</item>
+                        <item>We normalize the union and separation of words according to modern
+                            Spanish usage.</item>
+                        <item>We preserve the punctuation of the 1547 in order to facilitate
+                            clause-by-clause comparisons with Southey’s translation. We preserve the
+                            1547’s clause-like units (the space between successive punctuation
+                            marks) even though we recognize significant differences from modern
+                            usage. The 1547 uses <hi>. : /</hi> and infrequent <hi>?</hi> as
+                            punctuation, and while sentence-like groups end with a period, the
+                            period <hi>.</hi> is also used within sentence-like groups to introduce
+                            dialogue. The punctuation marks <hi>:</hi> and <hi>/</hi> appear to
+                            freely alternate. We reproduce <hi>. : /</hi> as they appear in the 1547
+                            without modernization. We have not added modern <hi>¿?</hi> to mark
+                            questions. We do not mark dialogue with em dash; rather, for this
+                            digital edition, dialogue, including questions, has been coded in the
+                            milestone element. We do not preserve the <hi>//</hi> that indicates
+                            line breaks in the middle of words. Our goal in these punctuation
+                            decisions is to render structural elements of the text at the sentence
+                            and clause level as Southey would have confronted them in order to
+                            elucidate whether the 1547 structure and punctuation influenced Southey
+                            in his own construction of sentences and clauses, which we observe
+                            differs from standard English use.</item>
+                        <item>Obvious printer errors have been tagged with the sic element.
+                            Corrections are provided based on <bibl>Juan Manuel Cacho Blecua’s
+                                critical edition (Madrid: Cátedra, 1999)</bibl>, which takes into
+                            consideration multiple sixteenth-century editions of <title>Amadís de
+                                Gaula</title> including the <bibl>Sevilla 1526</bibl> on which the
+                                <bibl>Sevilla 1547</bibl> is based.</item>
+                    </list>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="">
+
+                <head>Capítulo IX <locus from="xlii-r" to="xlv-r"/>
+                </head>
+                <argument>
+                    <p> Como el Donzel del Mar hizo la batalla con el rey Abies sobre la guerra que
+                        tenía con el rey Perión de Gaula. </p>
+                </argument>
+                <p> La batalla concertada entre el rey Abies y el Donzel del Mar como avéis oído/
+                    los de la una parte y de la otra veyendo que todo lo mas del día era passado
+                    acordaron contra la voluntad dellos ambos que para otro día que dasse. Assí para
+                    ataviar sus armas: como para remediar algo las heridas que tenía y porque todas
+                    las gentes de ambas partes estavan tan mal tratadas y cansadas: desseavan la
+                    holgança para su reposo: cada uno fue acogido a su posada. El Donzel del mar
+                    entró por la villa con el rey Perión y Agrajes: y lleava la cabeça desarmada/ y
+                    todos dezían. Aí buen cavallero dios te ayude y de honrra/ que pudeas acadbar lo
+                    que has començado. Aí que hermosura de cavallero: en este es cavallería bien
+                    empleada/ pues que sobre todos la mantiene en la grande alteza llegando al
+                    palacio del rey vino una donzella que dixo al Donzel del Mar. Señor la reina os
+                    reuga que os no desarméis/ si no en vuestra posada donde vos atiende. Esto fue
+                    por consejo del rey/ y dixo. Amigo id a la reina: y vaya con vos Agrajes que os
+                    haga compañía. Entonces se fue el rey a su aposentamiento y el Donzel y Agrajes
+                    al suyo: donde hallaron la riena y muchas dueñas y donzellas que los desarmaron
+                    pero no consintió la riena que en el Donzel ninguna la mano pusiesse/ sino ella
+                    que desarmó y le cubrió de un manto: en esto llego el rey y vio que el Donzel er
+                    llagado y dixo: por un no alonguvades mas el plazo de la batalla: ao era
+                    menester dixo el Donzel/ que no he llaga porque de hazer la dexé. Luego lo
+                    curaron de las llagas: y les dieron de cenar. Otro día de mañana la reina se
+                    vino a ellos con todas sus damas: y hallólos hablando con el rey y començóse la
+                    missa: y dicha armose el Donzel del Mar no de aquellas armas que en la lid el
+                    día ante traxera: que no quedaron tales que pudiessen algo aprovechar/ mas de
+                    otras muy mas hermosas y fuertes: despedido de la reina y de las dueñas y
+                    donzellas cavalgó en un cavallo solgado que a la puerta le tenía: y el rey
+                    Perión le lleava el yelmo: y Agrajes el escudo: y un cavallero anciano que se
+                    llamava Aganó/ que muy preciado fuer aen armas la lança/ que por la su gran
+                    bondad passada/ assí en esfuerço como en virtud era el tercero con rey/ y con
+                    hijo de oro y dos leones en el azules el uno contra el otro como si se quisiesse
+                    morder. Él saliendo por la puerta de la villa vieron al rey Abies sobre un gran
+                    cavallo negro todo armado/ sino que a un no enlazara su yelmo. Los de la villa y
+                    los de la hueste todos se ponían donde mejor la batalla ver puediessen/ y el
+                    camo era ya señalado/ y el palenque hecho muchos cada halsos en derredor del.
+                    Entonces enlazaron sus yelmos y tomaron los escudos: y el rey Abies echo un
+                    escudo al cuello que tenía el campo inido/ y en el gigante figurado: y cabe el
+                    un cavallero que le cortava la cabeça. Ests armas traía porque se combatiera con
+                    un jayan que su tierra le entra y se la destruía toda: y assí como la cabeça le
+                    cortó assí la traía figurada en su escudo/ y desque ambos tomaron sus armas
+                    salieron todos del campo encomednando a diso cada uno al suyo: y se fueron
+                    acometer sin ninguna detenencia a gran correr de los cavallos como aquellos que
+                    eran gran fuerça y coraçón y a las primeras heridas fueron todas sus armas
+                    falsadas: y quebrando las lanças juntaron se uno con otro: assí los cavallos
+                    como ellos tan bravamente que cada uno cayó a su parte: y todos creyeron que
+                    eran muertos y los troços de las lanças tenían metidos por los escudos que los
+                    hierros llegavan a las carnes/ mas como ambos fuessen muy ligeros y bivos de
+                    coraçón llevantaron se presto/ y quitaron de si los pedaços de las lanças: y
+                    echan de mano a las espadas se acomentieron tan bravamente/ que los que al
+                    derrech y estavan avían espanto de los ver. Pero la batalla parecía de si igual/
+                    no porque el Donzel del Mar no fuesse bien hecho/ y de razonable altura: mas el
+                    rey Abies era tan grande que nunca halló cavallero que el mayor no fuesse un
+                    palmo: y sus miembros no parescían sino de un gigante: era muy amado de su
+                    gente/ y avía en si todas buenas maneras/ salvó que era sobervió mas que devía.
+                    La batalla sin se dexar holgar: y los golpes tan grndes que parecían sino de
+                    veinte cavalleros. Ellos cotravan los escudos: hazeiendo caer en el campo
+                    grandes rajas: y aboliavan los y elmos: y desguarnecían los arneses.Assí que
+                    bien hazia el uno al otro su fuerça y ardimento conoscer: y la su gran fuerça y
+                    la bondad de las espadas hizieron sus armas tales que eran de poco valor: de
+                    manera que lo mas cortavan en sus arnes/ que en los escudos no quedava con que
+                    cobrir ni amparar se pudiessen: y salía dellos tanta sangre que sostenerse era
+                    maravilla/ mas tan rande era el aridmento que consigo traían: que quasi dello o
+                    se sentían. Assí duraron en esta primera batalla hasta bora de tercía/ que nunca
+                    se pudo conoscer en ellos plaqueza ni covardía/ sino que mucho animose combatían
+                    mas el sol que las armas les calentava puso en ellos alguna flaqueza de
+                    cansancio: y a esta razón el rey Abies se tiró un poco afuer y dixo. Estad y
+                    enderecemos nuestros yelmos: y si que sierdes que algo holguemos nuestra batalla
+                    no pudiera tiempo: y comoquier que te yo desame mucho te precio mas que a ningun
+                    cavallero con quien yo me combatiesse: mas de te yo preciar no te tiene porque
+                    no te haga mal/ que mataste aquel que yo tanto amava: y pones me gran verguença
+                    de me durar ranto en batalla ante tantos hombres buenos. El Donzel del Mar dixo.
+                    Rey Abies destose te haze verguença: y no de venir con gran sobervía a hazer
+                    tanto mal a quien te lo merece/ cata que los hombres especialmente los reyes no
+                    han de hazer lo que pueden: mas lo que deven/ porque muchas vezes acaesce que el
+                    daño y la fuerça que a los que se lo no merecieron quiere hazer: a la sin cae
+                    sobre ellos y pierden lo todo: y a un la vida abueltas/ y si agora querrías que
+                    te dexasse holgar: assí lo que sieran otros a quién tu sin selo otorgar mucho
+                    apreciavas y porque sientas lo que a ellos sentir hazías aprejate/ que no
+                    holgaras a mí grado. El rey tomó su espada y lo poco del escudo y dixo. Por tu
+                    mal hazes este ardimeinto/ que el te pone en este lago donde sadrás sin poder la
+                    cabeça. Agora haz tu poder dixo el Donzel del Mar: que no holgaras hasta que tu
+                    muerte se llegue o tu honrra se acabada/ y cometiéronse muy mas sañudos que
+                    ante: y tan bravos se herían como si entonces començaran la batalla/ y aquel día
+                    no ovieran dado golpe. El rey Abies como muy diestro fuesse por el gran vuestro
+                    de las armas combatíase muy cuerdamente: guardándose de los golpes y hiriendo
+                    donde mas podía dañar: las maravillas que el donzel hazía en andar ligero/ y
+                    acometedor/ y en dar muy duros golpes le puso en desconcierto todo su saber/ y a
+                    mal de su grado no le pudiendo va sofrir perdía el campo: y el Donzel del Mar le
+                    acabo de desfazer en el braço todo el escudo que nada del le quedo/ y cortava le
+                    la carne muchas partes/ assí que la sangre se salí mucha y ya no podía herir/
+                    que la espada se rebolvía en la mano: tanto fue aquezado/ que bolviendo casi las
+                    espaldas andava buscando alguna guardia con el temor de la espada que tan
+                    curdamente la sentía: pero como vio que noa vía sino muerte: bolvió tomando su
+                    espada con ambas las manos: y dexose ir al donzel cuidando lo herir por cima del
+                    yelmo y el alço el escudo donde recibió el golpe/ y la espada entró tan dentro
+                    por elque la no pudo sacar/ y tirándose a fuera diole el Donzel del mar en
+                    descubierto en la pierna izquierda tal herida la meitad della fue cortada: y el
+                    rey cayó tendido en el campo. El Donzel fue sobre él y tirandole el yelmo
+                    díxole: muerto eres rey Abies si no te otorgas por vencido. Él dixo
+                    verdaderamente murto soy mas no vencido: y bien reo que me mat´ mi sobervía/ y
+                    ruego te que me hagas segura mi compañía sin que daño reciban y llevar me han a
+                    mi tierra: y y yo perono a ti y a los que mal quiero: y mando entregar al rey
+                    Perión cuanto le tome: y ruego te que me hagas aver confición que muerto soy. El
+                    Donzel del mar cuando esto le oyó oco del muy gan duelo a maravilla: pero bien
+                    sabía que lo no ovier ael otro de si mas pudiera. Todo esto passado como oído
+                    avéis se juntaron todos los de la hueste/ y de la villa que eran todos seguros:
+                    el rey Abies mando dar al rey Perión cuanto le tomara/ y él le asseguro toda su
+                    gente hasta que lo llevassen a su tierra: y rescebidos todos los scarmentos de
+                    la fancta iglesia el rey Abies: salióle el alma: y sus cassallos lo llevaron a
+                    su tierra con grandes llantos que por él hazía. TOmando el Donzel del Mar por el
+                    rey Peri´n y Agrajes/ y los otros grandes de su partido/ y sacado del campo con
+                    aquella gloría que los vencedores en tales autos llevar suelen/ o solamente de
+                    honrra/ mas de restitución de un rieno a quién pedido lo tenía/ a la villa con
+                    el se van: y la donzella de Denamarca que de parte de Oriana a él venía/ como ya
+                    se vos dixo llegó allí al tiempo que la batalla se començó: y como vio que tanto
+                    a su honrra la acabara/ llegóse a él: y díxole. Donzel del mar hablad comigo a
+                    parte: y dezir vos he yo vuestra hazienda mas que vos sabéis. Ella recibió bien:
+                    y apartóse con ella iendo por el campo: y la donzella le dixo. Oriana vuestra
+                    amiga me embía a vos: y vos doy de su parte esta carta en que esta vuestro
+                    nombre escrito. Él tomó la carta: mas no entendió nada de lo que dixo assí fue
+                    alterado cuando a su señora oyó mentar: antes se le cayó la carta de la mano: y
+                    la rienda en la cerviz del cavallo y estava como fuera de sentido. La Donzella
+                    de mandó la carta que en el campo estava a uno de los que la batalla avían
+                    mirado: y tornó a él estado todos mirando lo que acassciera y maravillándose
+                    como assí se savía turbado el Donzel con las nuevas de la Donzella: y cuando
+                    ella llegó díxole. Que es esso señor: tan mal recebis mandado de la mas alta
+                    donzella del mundo de aquella que os mucho ama. y me hizo sufrir tanto afan en
+                    vos buscar: Amiga dixo él/ no entendí lo que me avéis dicho con este mal que me
+                    occurió: como ya otra vez atevos me acaesció. La Donzella dixo: señor no ha
+                    menester encubiertoa conimg: que yo se mas de vuestra hazienda/ y de la de mi
+                    señora que vos sabéis/ que ella assí lo quiso: que ella os ama tanto que de
+                    ligero no se podría contrar y sabed que la llevaron a casa de su padre embíaos a
+                    dezir/ que anto que desta guerra os partáis vayáis a la gran bretaña: a pro
+                    curéis de morar con su padre hasta que os ella mande/ y dize os que sabe como
+                    sois hijo de rey y que no es ella por ende menos alegre que vos y que pues no
+                    conociendo a vuestro linaje erades tan beno que trabaéis de lo ser agora mucho
+                    mejor: entonces le dio a la carta y díxole. Aéis aquí esta carta en que esta
+                    escrito vuestro nombre/ y esta llevastes al cuello cuando os echaron e la mar.
+                    Él la tomó y dixo. Aí carta como fue estes bien gurada por aquella señora cuyo
+                    es mi coraçón: por aquella por quién yo muchas vezes al punto de la muerte soy
+                    llegada. mas si dolores y Angustias por su causa vue: en muy mayor grado de Gran
+                    alegría soy satisfecho. Ay Dios señor y cuando veré yo el tiempo en que srvir
+                    pueda aquella señora esta mered que me faze: y leyendo la carta consoció por
+                    ella: que el su derecho nombre era Amadis. La Donzella le dixo. Señor yo me
+                    quiero tornar luego a mi señora: pues recaude su mandado. Ay Donzella dixo el
+                    Donzel del Mar: por dios holgad aquí hasta tercero día: y de mi no vos partáis
+                    por ninguna guisa: ir os llevaré donde os pluguiere. A vos vine dixo la
+                    Donzella: y no haré al sino lo que mandares. Acababa la hbala fuesse luego el
+                    Donzel del Mar para el rey y Agrajes que lo atendía: y entrado por la villa
+                    dezía todos: bien venga el cavalero bueno por quien avemos cobrado honrra y
+                    alegría. Assí fueron hasta el palacio: y hallaron en la cámara del Donzeel del
+                    Mar a la reina con todas sus dueñas y donzellas haziendo muy gran alegría: y en
+                    los braços della fue el tomado de su cavallo: y desarmado por la mano de la
+                    reina: y viinieron maestros que le curaron de las heridas y aunque muchas eran
+                    no avían ninuna qu emucho empaco le diesse. El rey quisiera que el y Agrajes
+                    comieran con él: mas no quiso sino con su donzella por le hazer honra que bien
+                    veía que esta podía remediar gran parte de sus Angusitas. Assí holgó algunos
+                    días con gran plazer en especial con las buenas nuevas que le vinieron: tanto
+                    que ni el trabajo passado: ni las llagas prefentes no le quitaron que no se
+                    levantasse: y anduviesse por una sala hablando siempre con la donzella: que por
+                    él era detendia/ que no se partiesse hasta que pudiesse tomar armas/ y la
+                    llevasse. Mas un caso maravilloso que la razón le acaesció fue causa que
+                    tardando él algunos días la Donzella sola de allí partida se fue como agora
+                    oyréis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
