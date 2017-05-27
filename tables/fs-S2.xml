@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="translation-types.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<?xml-model href="../XMLandSchemas/out/amadis_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../XMLandSchemas/out/amadis_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -378,210 +378,214 @@
             <fs corresp="#M1_p1_c43">
                <f name="southey" n="23" ana="0.61">
                   <string ana="start">in whom as he beheld her by the light of the three torches, he
-                     thought all the beauty of the world was </string>
-                  <fs>
-                     <f name="note">
-                        <fs>
-                           <f name="southey" n="8">
-                              <string>Here, says the Spanish author, we should learn,</string>
-                           </f>
-                           <f name="type" select="addition"/>
-                           <f name="subtype" select="voice"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c52">
-                           <f name="southey" n="10" ana="0.2">
-                              <string>that when women turn aside their thoughts from worldly
-                                 things,</string>
-                           </f>
-                           <f name="montalvo" n="12">
-                              <string>que assí como las mugeres apartando sus pensamientos de las
-                                 mundales cosas:</string>
-                           </f>
-                           <f name="type" select="literal"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c53">
-                           <f name="southey" n="10" ana="0">
-                              <string>despising the great beauty with which Nature has endowed
-                                 them,</string>
-                           </f>
-                           <f name="montalvo" n="10">
-                              <string>despreciando la gran hermosura de que la natura las
-                                 dotó:</string>
-                           </f>
-                           <f name="type" select="literal"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c54">
-                           <f name="southey" n="8" ana="0.12">
-                              <string>the fresh youth which so much increases it,</string>
-                           </f>
-                           <f name="montalvo" n="9">
-                              <string>la fresca juventud que en mucho grado la acrecienta:</string>
-                           </f>
-                           <f name="type" select="literal"/>
-                        </fs>
-                        <fs>
-                           <f name="southey" n="1">
-                              <string>and</string>
-                           </f>
-                           <f name="type" select="addition"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c55">
-                           <f name="southey" n="16" ana="-0.12">
-                              <string>the delights and pleasures which with the riches of their
-                                 parents they might hope to enjoy,</string>
-                           </f>
-                           <f name="montalvo" n="14">
-                              <string>los vicios y deleites que con las sobradas riquezas de sus
-                                 padres esperavan gozar:</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                           <f name="subtype" select="cultural"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c56">
-                           <f name="southey" n="26" ana="-0.27">
-                              <string>and chuse for the salvation of their souls to place themselves
-                                 as recluses in poor habitations, and offer up with all obedience
-                                 their own free will</string>
-                           </f>
-                           <f name="montalvo" n="19">
-                              <string>quieren por salvación de sus ánimas ponerse en las casas
-                                 pobres encerradas ofreciendo con toda obediencia sus libres
-                                 voluntades/</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c57">
-                           <f name="southey" n="19" ana="-0.05">
-                              <string>to be subject to others, and pass their time without any of
-                                 the pleasures or glories of the world,</string>
-                           </f>
-                           <f name="montalvo" n="18">
-                              <string>a que subjetas de las agenas sean viendo passar su tiempo sin
-                                 ninguna fama ni gloria del mundo/</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                        </fs>
-                        <fs>
-                           <f name="southey" n="1">
-                              <string>though</string>
-                           </f>
-                           <f name="type" select="addition"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c58">
-                           <f name="southey" n="7" ana="0.29">
-                              <string>their sisters and kindred are enjoying them;</string>
-                           </f>
-                           <f name="montalvo" n="9">
-                              <string>como saben que sus hermanas y parientas lo gozan:</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c59">
-                           <f name="southey" n="9" ana="-0.11">
-                              <string>they ought with great earnestness to stop their ears,</string>
-                           </f>
-                           <f name="montalvo" n="8">
-                              <string>assí deven con mucho cuidado atapar las orejas/</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                        </fs>
-                        <fs>
-                           <f name="southey" n="1">
-                              <string>and</string>
-                           </f>
-                           <f name="type" select="addition"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c60">
-                           <f name="southey" n="3" ana="0">
-                              <string>close their eyes,</string>
-                           </f>
-                           <f name="montalvo" n="3">
-                              <string>cerrar los ojos/</string>
-                           </f>
-                           <f name="type" select="literal"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c61">
-                           <f name="southey" n="7" ana="-0.14">
-                              <string>and refuse to see friend or relation,</string>
-                           </f>
-                           <f name="montalvo" n="6">
-                              <string>escusándose de ver parientes y vezinos/</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c62">
-                           <f name="southey" n="9" ana="0">
-                              <string>but retiring altogether to devout contemplation and holy
-                                 prayer,</string>
-                           </f>
-                           <f name="montalvo" n="9">
-                              <string>recogéndose en las devotas contemplaciones en las oraciones
-                                 sanctas:</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                           <f name="subtype" select="syntax"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c63">
-                           <f name="southey" n="9" ana="0">
-                              <string>think them the true delights, as indeed they are;</string>
-                           </f>
-                           <f name="montalvo" n="9">
-                              <string>tomándolo por verdaderos deleites assí como lo son:</string>
-                           </f>
-                           <f name="type" select="literal"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c64">
-                           <f name="southey" n="2" ana="1">
-                              <string>lest by</string>
-                           </f>
-                           <f name="montalvo" n="4">
-                              <string>porque con las hablas/</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                           <f name="subtype" select="compressed"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c65_1">
-                           <f name="southey" n="1" ana="2">
-                              <string>seeing</string>
-                           </f>
-                           <f name="montalvo" n="3">
-                              <string>con las vistas</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                           <f name="subtype" select="syntax"/>
-                        </fs>
-                        <fs>
-                           <f name="southey" n="2">
-                              <string>and hearing,</string>
-                           </f>
-                           <f name="type" select="addition"/>
-                           <f name="subtype" select="aesthetic"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c65_2">
-                           <f name="southey" n="5" ana="-0.2">
-                              <string>their religious purposes be overcome,</string>
-                           </f>
-                           <f name="montalvo" n="4">
-                              <string>su sancto propósito dañan:</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c66">
-                           <f name="southey" n="13">
-                              <string>and it should be with them as it was with the Princess
-                                 Elisena.</string>
-                           </f>
-                           <f name="montalvo" n="13">
-                              <string>do no sea assí como lo fue el de esta hermosa infanta
-                                 Elisena:</string>
-                           </f>
-                           <f name="type" select="approximate"/>
-                           <f name="subtype" select="syntax compressed"/>
-                        </fs>
-                     </f>
-                  </fs>
-                  <string ana="end"> centered.</string>
+                     thought all the beauty of the world was centered.</string>
                </f>
+            </fs>
+            <fs>
+               <f name="note">
+                  <vColl>
+                     <fs>
+                        <f name="southey" n="8">
+                           <string>Here, says the Spanish author, we should learn,</string>
+                        </f>
+                        <f name="type" select="addition"/>
+                        <f name="subtype" select="voice"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c52">
+                        <f name="southey" n="10" ana="0.2">
+                           <string>that when women turn aside their thoughts from worldly
+                              things,</string>
+                        </f>
+                        <f name="montalvo" n="12">
+                           <string>que assí como las mugeres apartando sus pensamientos de las
+                              mundales cosas:</string>
+                        </f>
+                        <f name="type" select="literal"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c53">
+                        <f name="southey" n="10" ana="0">
+                           <string>despising the great beauty with which Nature has endowed
+                              them,</string>
+                        </f>
+                        <f name="montalvo" n="10">
+                           <string>despreciando la gran hermosura de que la natura las
+                              dotó:</string>
+                        </f>
+                        <f name="type" select="literal"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c54">
+                        <f name="southey" n="8" ana="0.12">
+                           <string>the fresh youth which so much increases it,</string>
+                        </f>
+                        <f name="montalvo" n="9">
+                           <string>la fresca juventud que en mucho grado la acrecienta:</string>
+                        </f>
+                        <f name="type" select="literal"/>
+                     </fs>
+                     <fs>
+                        <f name="southey" n="1">
+                           <string>and</string>
+                        </f>
+                        <f name="type" select="addition"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c55">
+                        <f name="southey" n="16" ana="-0.12">
+                           <string>the delights and pleasures which with the riches of their parents
+                              they might hope to enjoy,</string>
+                        </f>
+                        <f name="montalvo" n="14">
+                           <string>los vicios y deleites que con las sobradas riquezas de sus padres
+                              esperavan gozar:</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                        <f name="subtype" select="cultural"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c56">
+                        <f name="southey" n="26" ana="-0.27">
+                           <string>and chuse for the salvation of their souls to place themselves as
+                              recluses in poor habitations, and offer up with all obedience their
+                              own free will</string>
+                        </f>
+                        <f name="montalvo" n="19">
+                           <string>quieren por salvación de sus ánimas ponerse en las casas pobres
+                              encerradas ofreciendo con toda obediencia sus libres
+                              voluntades/</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c57">
+                        <f name="southey" n="19" ana="-0.05">
+                           <string>to be subject to others, and pass their time without any of the
+                              pleasures or glories of the world,</string>
+                        </f>
+                        <f name="montalvo" n="18">
+                           <string>a que subjetas de las agenas sean viendo passar su tiempo sin
+                              ninguna fama ni gloria del mundo/</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                     </fs>
+                     <fs>
+                        <f name="southey" n="1">
+                           <string>though</string>
+                        </f>
+                        <f name="type" select="addition"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c58">
+                        <f name="southey" n="7" ana="0.29">
+                           <string>their sisters and kindred are enjoying them;</string>
+                        </f>
+                        <f name="montalvo" n="9">
+                           <string>como saben que sus hermanas y parientas lo gozan:</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c59">
+                        <f name="southey" n="9" ana="-0.11">
+                           <string>they ought with great earnestness to stop their ears,</string>
+                        </f>
+                        <f name="montalvo" n="8">
+                           <string>assí deven con mucho cuidado atapar las orejas/</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                     </fs>
+                     <fs>
+                        <f name="southey" n="1">
+                           <string>and</string>
+                        </f>
+                        <f name="type" select="addition"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c60">
+                        <f name="southey" n="3" ana="0">
+                           <string>close their eyes,</string>
+                        </f>
+                        <f name="montalvo" n="3">
+                           <string>cerrar los ojos/</string>
+                        </f>
+                        <f name="type" select="literal"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c61">
+                        <f name="southey" n="7" ana="-0.14">
+                           <string>and refuse to see friend or relation,</string>
+                        </f>
+                        <f name="montalvo" n="6">
+                           <string>escusándose de ver parientes y vezinos/</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c62">
+                        <f name="southey" n="9" ana="0">
+                           <string>but retiring altogether to devout contemplation and holy
+                              prayer,</string>
+                        </f>
+                        <f name="montalvo" n="9">
+                           <string>recogéndose en las devotas contemplaciones en las oraciones
+                              sanctas:</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                        <f name="subtype" select="syntax"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c63">
+                        <f name="southey" n="9" ana="0">
+                           <string>think them the true delights, as indeed they are;</string>
+                        </f>
+                        <f name="montalvo" n="9">
+                           <string>tomándolo por verdaderos deleites assí como lo son:</string>
+                        </f>
+                        <f name="type" select="literal"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c64">
+                        <f name="southey" n="2" ana="1">
+                           <string>lest by</string>
+                        </f>
+                        <f name="montalvo" n="4">
+                           <string>porque con las hablas/</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                        <f name="subtype" select="compressed"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c65_1">
+                        <f name="southey" n="1" ana="2">
+                           <string>seeing</string>
+                        </f>
+                        <f name="montalvo" n="3">
+                           <string>con las vistas</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                        <f name="subtype" select="syntax"/>
+                     </fs>
+                     <fs>
+                        <f name="southey" n="2">
+                           <string>and hearing,</string>
+                        </f>
+                        <f name="type" select="addition"/>
+                        <f name="subtype" select="aesthetic"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c65_2">
+                        <f name="southey" n="5" ana="-0.2">
+                           <string>their religious purposes be overcome,</string>
+                        </f>
+                        <f name="montalvo" n="4">
+                           <string>su sancto propósito dañan:</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c66">
+                        <f name="southey" n="13">
+                           <string>and it should be with them as it was with the Princess
+                              Elisena.</string>
+                        </f>
+                        <f name="montalvo" n="13">
+                           <string>do no sea assí como lo fue el de esta hermosa infanta
+                              Elisena:</string>
+                        </f>
+                        <f name="type" select="approximate"/>
+                        <f name="subtype" select="syntax compressed"/>
+                     </fs>
+                  </vColl>
+               </f>
+            </fs>
+
+            <fs corresp="#M1_p1_c43">
                <f name="montalvo" n="37">
                   <string>que a la lumbre de tres hachas que en la cámara Ardían la mirava
                      paresciéndole que toda la hermosura del mundo en ella era junta teniéndose por
@@ -591,7 +595,7 @@
                <f name="subtype" select="compressed"/>
             </fs>
             <fs
-               corresp="M1_p1_c44 #M1_p1_c45 #M1_p1_c46 #M1_p1_c47 #M1_p1_c48 #M1_p1_c49 #M1_p1_c50 #M1_p1_c51">
+               corresp="#M1_p1_c44 #M1_p1_c45 #M1_p1_c46 #M1_p1_c47 #M1_p1_c48 #M1_p1_c49 #M1_p1_c50 #M1_p1_c51">
                <f name="montalvo" n="80">
                   <string>y assí abraçados se fueron a echar en el lecho. Donde aquella que tanto
                      tiempo con tanta hermosura y juventud/ demandada de tantos príncipes y grandes
@@ -932,7 +936,7 @@
                   <string>se puso en el camino derecho de su reino.</string>
                </f>
                <f name="type" select="approximate"/>
-               
+
             </fs>
             <fs corresp="#M1_p1_c109">
                <f name="southey" n="6" ana="0">
@@ -1311,7 +1315,7 @@
                <f name="montalvo" n="12">
                   <string>Avía en aquel palacio del rey Garinter una cámara apartada de
                      bóveda/</string>
-               </f>               
+               </f>
                <f name="type" select="approximate"/>
                <f name="subtype" select="syntax"/>
             </fs>
@@ -1321,7 +1325,7 @@
                </f>
                <f name="montalvo" n="7">
                   <string>sobre un río que por allí passava:</string>
-               </f>               
+               </f>
                <f name="type" select="approximate"/>
                <f name="subtype" select="compressed"/>
             </fs>
@@ -1336,8 +1340,8 @@
             </fs>
             <fs corresp="M1_p1_c146">
                <f name="southey" n="20">
-                  <string>through which the Damsels sometime were wont to
-                     go out by the water side, but now none inhabited the apartment.</string>
+                  <string>through which the Damsels sometime were wont to go out by the water side,
+                     but now none inhabited the apartment.</string>
                </f>
                <f name="montalvo" n="20">
                   <string>por donde algunas vezes al río salían las donzellas a folgar y estava
@@ -1566,7 +1570,7 @@
                   <string>no dexarán a ello.</string>
                </f>
                <f name="type" select="approximate"/>
-            </fs>            
+            </fs>
             <fs>
                <f name="southey" n="2">
                   <string>the infant:</string>
@@ -2086,42 +2090,47 @@
                   <string>y fizo una carta que dezía.</string>
                </f>
                <f name="type" select="approximate"/>
-               <f name="subtype" select="compressed"/> 
+               <f name="subtype" select="compressed"/>
             </fs>
             <fs corresp="#M1_ft1_p2_c214_1">
+
                <f name="southey" n="4" ana="0.25">
                   <string ana="start">this is Amadis, </string>
-                  <fs>
-                     <f name="note">
-                        <fs corresp="#M1_ft1_p2_c214">
-                           <f name="southey" n="8" ana="0">
-                              <string>Este es Amadis sin
-                                 tiempo, hijo de rey;</string>
-                           </f>
-                           <f name="montalvo" n="8">
-                              <string>Este es Amadís Sin Tiempo hijo de rey:</string>
-                           </f>
-                           <f name="type" select="quotation"/>
-                        </fs>
-                        <fs corresp="#M1_p1_c215">
-                           <f name="southey" n="11" ana="0">
-                              <string>y sin tiempo dezia ella
-                                 porque creya que luego seria muerto.</string>
-                           </f>
-                           <f name="montalvo" n="11">
-                              <string>y sin tiempo dezía ella porque creía que luego sería muerto:</string>
-                           </f>
-                           <f name="type" select="quotation"/>
-                        </fs>
-                     </f>
-                  </fs>
                </f>
+               <f name="note">
+                  <vColl>
+                     <fs corresp="#M1_ft1_p2_c214">
+                        <f name="southey" n="8" ana="0">
+                           <string>Este es Amadis sin tiempo, hijo de rey;</string>
+                        </f>
+                        <f name="montalvo" n="8">
+                           <string>Este es Amadís Sin Tiempo hijo de rey:</string>
+                        </f>
+                        <f name="type" select="quotation"/>
+                     </fs>
+                     <fs corresp="#M1_p1_c215">
+                        <f name="southey" n="11" ana="0">
+                           <string>y sin tiempo dezia ella porque creya que luego seria
+                              muerto.</string>
+                        </f>
+                        <f name="montalvo" n="11">
+                           <string>y sin tiempo dezía ella porque creía que luego sería
+                              muerto:</string>
+                        </f>
+                        <f name="type" select="quotation"/>
+                     </fs>
+                  </vColl>
+               </f>
+            </fs>
+
+            <fs corresp="#M1_ft1_p2_c214">
                <f name="montalvo" n="5">
                   <string>Este es Amadís Sin Tiempo</string>
                </f>
                <f name="type" select="approximate"/>
                <f name="subtype" select="compressed voice"/>
             </fs>
+
             <fs corresp="#M1_ft1_p2_c214_2">
                <f name="southey" n="4">
                   <string>son of a King</string>
@@ -2328,7 +2337,7 @@
                   <string>que de la pequeña Bretaña llevava:</string>
                </f>
                <f name="type" select="approximate"/>
-              
+
             </fs>
             <fs>
                <f name="southey" n="3">
@@ -2402,8 +2411,7 @@
                   <string>saw the ark floating among the waves,</string>
                </f>
                <f name="montalvo" n="9">
-                  <string>vieron el arca que por el agua nadando
-                     iva/</string>
+                  <string>vieron el arca que por el agua nadando iva/</string>
                </f>
                <f name="type" select="approximate"/>
             </fs>
@@ -2555,11 +2563,10 @@
                <f name="subtype" select="compressed"/>
             </fs>
             <fs corresp="#M1_p1_c249.1">
-               <f name="southey" n="6">had sailed away to other
-                  parts.</f>
+               <f name="southey" n="6">had sailed away to other parts.</f>
                <f name="montalvo" n="11">
                   <string>porque en la barca que era suya a otras partes navegaron. </string>
-               </f>               
+               </f>
                <f name="type" select="approximate"/>
                <f name="subtype" select="compressed"/>
             </fs>

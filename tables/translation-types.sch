@@ -21,12 +21,21 @@
                 test="@select = ('literal', 'approximate', 'omission', 'addition', 'mistranslation', 'quotation')"
                 >Valid values for "type of translation" are: literal, approximate, omission,
                 addition, quotation.</assert>
+            <!--2017-05-27 ebb and set: set thinks we should REDUCE translation typing to the following:
+                omission, addition, compression, mistranslation
+                
+                We should take word for word translation as Southey's default, and not bother to mark it. Thus, we only mark what's WARPED in translation.
+            -->
         </rule>
     </pattern>
     <pattern>
         <rule context="tei:f[@name eq 'subtype']">
             <let name="approxValues"
                 value="('compressed', 'cultural', 'syntax', 'reported', 'aesthetic', 'new', 'voice', 'direct', 'antecedent', 'annotated', 'archaism')"/>
+        <!--2017-05-27 ebb and set: set indicates that after all, every translation is "cultural" so that doesn't tell us much. compressed should be a main type, not a subtype, b/c this is quantifiable and easy to mark. 
+        Change in clause order is MORE significant to us than small rearrangements of subject-object-verb to subject-verb-object in English. These micro-shifts are so common they aren't worth commenting on.  Transpositions of clauses don't need to be marked here b/c these show up in the clause numbers, and we should maybe flag them in the HTML tables.
+        Shifts in voice, similarly, are marked elsewhere via milestone elements (so we don't need to repeat that markup here). 
+        -->
             <let name="addValues" value="('cultural', 'aesthetic', 'voice', 'antecedent', 'archaism')"/>
             <let name="misValues" value="('cultural', 'voice', 'archaism')"/>
             <let name="litValues" value="('unnatural', 'archaism', 'close')"/>

@@ -153,11 +153,11 @@
             </fs>
             <fs corresp="#M0_p1_c12">
                <f name="southey" n="20" ana="0.15">
-                  <string ana="start">yet she would wed with none, but for her solitary and holy
+                  <vColl><string ana="start">yet she would wed with none, but for her solitary and holy
                      life was commonly called the Lost Devotee </string>
                   <string ana="note">La Beata perdida. Methodist, Puritan, or the Elect, would
                      perhaps express the meaning of Beata, which is in common use, if they were not
-                     sectarian words.</string>
+                     sectarian words.</string></vColl>
                </f>
                <f name="montalvo" n="23">
                   <string>nunca con ninguno de ellos casar le plugo antes su retraimiento y sancta
