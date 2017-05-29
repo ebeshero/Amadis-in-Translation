@@ -2,8 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
-    <xsl:output method="xhtml" encoding="utf-8"
-        omit-xml-declaration="yes"/>
+    <xsl:output method="xhtml" encoding="utf-8" omit-xml-declaration="yes"/>
 
     <!--Command line from Amadis folder: 
         
@@ -68,15 +67,18 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:tables/correction XSLT/fs-to-cha
                         </div>
                         <footer>
                             <p class="boilerplate">
-                                <span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (ebb8 at pitt.edu) <a rel="license"
-                                        href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                                            alt="Creative Commons License" style="border-width:0"
+                                <span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (ebb8
+                                    at pitt.edu) <a rel="license"
+                                        href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                            ><img alt="Creative Commons License"
+                                            style="border-width:0"
                                             src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png"
                                         /></a><a rel="license"
-                                            href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                                        href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
                                         /><xsl:text> </xsl:text><strong>Last modified:</strong>
                                     <xsl:comment>#echo var="LAST_MODIFIED" </xsl:comment>. <a
-                                        href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
+                                        href="http://newtfire.org/firebellies.html">Powered by
+                                        firebellies</a>.</span>
                             </p>
                         </footer>
                     </body>
@@ -100,17 +102,24 @@ java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:tables/correction XSLT/fs-to-cha
                 <xsl:if test="parent::vColl">
                     <xsl:attribute name="title">note</xsl:attribute>
                 </xsl:if>
-                <xsl:if test="current()/f/vColl/string[@ana='note']">
+                <xsl:if test="current()/f/vColl/string[@ana = 'note']">
                     <xsl:attribute name="class">embNote</xsl:attribute>
                 </xsl:if>
-                <xsl:for-each select="f[@name = 'southey']//string">
-                    <xsl:value-of select="current() except current()[@ana = 'note']"/>
-                    <xsl:if test="@ana = 'note'">
-                        <span class="noteContents">
-                            <xsl:value-of select="current()"/>
-                        </span>
-                    </xsl:if>
-                </xsl:for-each>
+                <xsl:choose>
+                    <xsl:when test="f/vColl">
+                        <xsl:for-each select="f[@name = 'southey']/vColl/string">
+                            <xsl:value-of select="current() except current()[@ana = 'note']"/>
+                            <xsl:if test="@ana = 'note'">
+                                <span class="noteContents">
+                                    <xsl:value-of select="current()"/>
+                                </span>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="f[@name eq 'southey']/string"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:element>
             <xsl:element name="td">
                 <xsl:if test="current()/not(f[@name = 'southey'])">
