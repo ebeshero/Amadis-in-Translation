@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    <!--<xsl:import-schema schema-location="../XMLandSchemas/out/amadis_odd.rng"/>-->
     <xsl:output method="xml" indent="yes"/>
     
     <!--    Command line from Amadis folder:
-    java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/edition-to-fs.xsl -o:tables
+    java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:XMLandSchemas/Southey XSLT/edition-to-fs.xsl -o:tables
     -->
-    <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
+    <xsl:variable name="montalvo" select="collection('../XMLandSchemas/Montalvo')"/>
     <xsl:template match="/">
-        <xsl:for-each select="collection('../XML-and-Schematron/Southey')[.//anchor]">
+        <xsl:for-each select="collection('../XMLandSchemas/Southey')[.//anchor]">
             <xsl:variable name="title">
                 <xsl:value-of select="//body/div[@type = 'chapter']/@xml:id"/>
             </xsl:variable>
-            <xsl:result-document href="{concat('../tables/fs-', $title, '.xml')}">
+            <xsl:result-document href="{concat('../correction/fs-', $title, '-correction.xml')}">
                 <TEI>
                     <teiHeader>
                         <fileDesc>
@@ -84,6 +85,7 @@
                 <xsl:choose>
                     <xsl:when test="current()/following::note[1][not(.//anchor[@corresp])] 
                         except (current()/following::anchor[@ana eq 'end']/following::note)">
+                        <vColl>
                         <string ana="start">
                             <xsl:value-of select="current()/following::text()
                                 except (current()/following::anchor[@ana eq 'end'][1]/following::node())  
@@ -101,10 +103,12 @@
                                 <xsl:value-of select="current()/following::note[1]/following::text()
                                     except (current()/following::node()[@ana = 'end'][1]/following::node()) 
                                     "/>
-                            </string>   </xsl:if>                     
+                            </string></xsl:if>    
+                        </vColl>                       
                     </xsl:when>
                     <xsl:when test="current()/following::note[1][//anchor[@corresp]] 
                         except (current()/following::anchor[@ana eq 'end'][1]/following::note)">
+                        <vColl>
                         <string ana="start"><xsl:value-of select="current()/following::text()
                             except (current()/following::anchor[@ana eq 'end'][1][parent::s]/following::node())  
                             except current()/following::text()[ancestor::note]
@@ -115,6 +119,7 @@
                             except current()/following::anchor[@ana eq 'end'][parent::s][1]/following::node()"><string ana="end"><xsl:value-of select="current()/following::note[1]/following::text()
                                 except current()/following::anchor[@ana eq 'end'][parent::s][1]/following::node()
                             "/></string></xsl:if>
+                        </vColl>
                     </xsl:when>
                     <xsl:otherwise>
                         <string><xsl:value-of select="current()/following::text()
@@ -258,6 +263,7 @@
     <xsl:template match="note[.//anchor]">
         <fs>
             <f name="note">
+                <vColl>
                 <xsl:for-each select="anchor[@ana = 'start']">
                     <xsl:variable name="match" select="$montalvo//cl[@xml:id = current()/substring(@corresp, 2)]
                         |$montalvo//seg[@xml:id = current()/substring(@corresp, 2)]"/>
@@ -321,6 +327,7 @@
                         </xsl:element>
                     </xsl:element>
                 </xsl:for-each>
+                </vColl>
             </f>
         </fs>
     </xsl:template>

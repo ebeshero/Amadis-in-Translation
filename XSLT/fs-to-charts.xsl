@@ -2,18 +2,18 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
-    <xsl:output method="xhtml" doctype-system="about:legacy-compat" encoding="utf-8"
+    <xsl:output method="xhtml" encoding="utf-8"
         omit-xml-declaration="yes"/>
 
     <!--Command line from Amadis folder: 
         
-java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/fs-to-charts.xsl -o:html
+java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:tables/correction XSLT/fs-to-charts.xsl -o:html/correction
 
     -->
     <xsl:template match="/">
-        <xsl:for-each select="collection('../tables')//TEI">
+        <xsl:for-each select="collection('../tables/correction')//TEI">
             <xsl:variable name="chapter" select="current()//head/substring-before(., '.')"/>
-            <xsl:result-document href="{concat('../html/', replace($chapter, '\s+', ''), '.html')}">
+            <xsl:result-document href="{concat(replace($chapter, '\s+', ''), '.html')}">
                 <html>
                     <head>
                         <title>Charts and stats</title>
@@ -21,8 +21,8 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                             content="Amadis of Gaule, Amadís de Gaula, Garci Rodríguez de Montalvo, Robert Southey, TEI, 
                         Text Encoding Initiative, romance of chivalry, libro de caballerías, libro de caballería, digital humanities, 
                         dh, textual scholarship, digital scholarship, translation studies, studies in translation"/>
-                        <link rel="stylesheet" type="text/css" href="amadis.css"/>
-                        <script type="text/javascript" src="notes.js">/**/</script>
+                        <link rel="stylesheet" type="text/css" href="../amadis.css"/>
+                        <script type="text/javascript" src="../notes.js">/**/</script>
                     </head>
                     <body>
                         <h1>Alignment charts</h1>
@@ -31,7 +31,7 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                             <div class="toc">
                                 <h3>Table of contents</h3>
                                 <ul>
-                                    <xsl:for-each select="collection('../tables')//TEI">
+                                    <xsl:for-each select="collection('../tables/correction')//TEI">
                                         <xsl:sort
                                             select="//div[@type = 'table']/number(substring(@xml:id, 2))"
                                             data-type="number"/>
@@ -97,13 +97,13 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                 <xsl:if test="current()/f[@select = 'direct']">
                     <xsl:attribute name="class">direct</xsl:attribute>
                 </xsl:if>
-                <xsl:if test="parent::f">
+                <xsl:if test="parent::vColl">
                     <xsl:attribute name="title">note</xsl:attribute>
                 </xsl:if>
-                <xsl:if test="current()/f[string[@ana='note']]">
+                <xsl:if test="current()/f/vColl/string[@ana='note']">
                     <xsl:attribute name="class">embNote</xsl:attribute>
                 </xsl:if>
-                <xsl:for-each select="f[@name = 'southey']/string">
+                <xsl:for-each select="f[@name = 'southey']//string">
                     <xsl:value-of select="current() except current()[@ana = 'note']"/>
                     <xsl:if test="@ana = 'note'">
                         <span class="noteContents">
