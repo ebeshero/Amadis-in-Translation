@@ -7,11 +7,11 @@
     
     <!--Command line from Amadis folder: 
         
-java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/toc-proposal-2.xsl -o:html
+java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XMLandSchemas/Southey XSLT/toc-proposal-2.xsl -o:html
 
     -->
     
-    <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
+    <xsl:variable name="montalvo" select="collection('../XMLandSchemas/Montalvo')"/>
     <xsl:template match="/">
         <xsl:result-document href="{'../html/toc-2.html'}">
             <html>
@@ -27,11 +27,11 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                 <body>
                     <h1>Table of contents</h1>
                     <hr/>
-                    <ul><li>Overlapping bars.</li>
-                    <li>Percentages are included to increase readibility.</li>
-                    <li>Stroke is deleted.</li>
-                    <li>Calculations made attending to the number of clauses/anchors.</li></ul>
-                    <xsl:for-each select="collection('../XML-and-Schematron/Southey')">
+                    <ul><li>Overlapping bars summarize how much each chapter was altered by Southey. On the left, in yellow, we see how much of Montalvo's clauses were omitted in Southey's translation. On the right, in red, we see how much Southey added.</li>
+                    <li>Percentage values indicate proportions omitted and retained of the Montalvo text, and the proportion of new material added by Southey to the translation.</li>
+                <!--    <li>Stroke is deleted.</li>-->
+                    <li>Calculations reflect the number of clauses/anchors.</li></ul>
+                    <xsl:for-each select="collection('../XMLandSchemas/Southey')">
                         <xsl:sort select="//div[@type = 'chapter']/substring(@xml:id, 2)"
                             data-type="number"/>
                         <xsl:if test="current()//anchor">
@@ -94,25 +94,25 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
             div count(current()//anchor[@ana eq 'start']), 1)"/>
         <xsl:variable name="additions" select="round-half-to-even(count(current()//anchor[@type eq 'add']) * 100 div count(current()//anchor[@ana = 'start']), 1)"/>
         <div class="svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="{($position + $southey-clauses) * $var + 155}" height="125">
+            <svg xmlns="http://www.w3.org/2000/svg" width="{($position + $southey-clauses) * $var + 155}" height="50">
                 <g>
-                    <rect y="12" fill="#d61d08" height="20"
+                    <rect y="12" fill="#d61d08" height="30"
                         opacity="0.7" x="{$position * $var + 80}"
                         width="{$southey-clauses * $var}"/>
-                    <text y="29" fill="#220a00" x="{($position + $southey-clauses) * $var + 87}"
+                    <text y="32" fill="#220a00" x="{($position + $southey-clauses) * $var + 87}"
                         >Southey</text>
                 </g>
                 <g>
-                    <rect fill="#fdd221" height="20"
+                    <rect fill="#fdd221" height="30"
                         opacity="0.7" width="{count($montalvo-clauses) * $var}" y="12" x="80"/>
-                    <text y="29" fill="#220a00">Montalvo</text>
-                    <text y="25" fill="#220a00" x="82" font-size="9"><xsl:value-of select="$omissions"/>%</text>                        
-                    <text y="25" fill="#220a00" x="{count($montalvo-clauses) * $var + 82}" font-size="9"><xsl:value-of select="$additions"/>%</text>
-                    <text y="25" fill="#220a00" x="{$position * $var + 90}" font-size="9">(<xsl:value-of select="$common-text-m"/>% M)</text>
-                    <text y="25" fill="#220a00" x="{count($montalvo-clauses) * $var + 27}" font-size="9">(<xsl:value-of select="$common-text-s"/>% S)</text>
+                    <text y="32" fill="#220a00">Montalvo</text>
+                    <text y="32" fill="#220a00" x="82" font-size="12"><xsl:value-of select="$omissions"/>%</text>                        
+                    <text y="32" fill="#220a00" x="{count($montalvo-clauses) * $var + 82}" font-size="12"><xsl:value-of select="$additions"/>%</text>
+                    <text y="32" fill="#220a00" x="{$position * $var + 90}" font-size="12">(<xsl:value-of select="$common-text-m"/>% M)</text>
+                    <text y="32" fill="#220a00" x="{count($montalvo-clauses) * $var + 27}" font-size="12">(<xsl:value-of select="$common-text-s"/>% S)</text>
                 </g>
-                <text fill="#461801" y="65" x="{(($position + $southey-clauses) * $var) div 2 - 90}" font-size="18" text-align="middle">Omissions and additions by
-                    Southey</text>
+                <!--<text fill="#461801" y="65" x="{(($position + $southey-clauses) * $var) div 2 - 90}" font-size="18" text-align="middle">Omissions and additions by
+                    Southey</text>-->
             </svg>
         </div>
      </a>
