@@ -7,11 +7,11 @@
     
     <!--Command line from Amadis folder: 
         
-java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XSLT/toc-proposal-5.xsl -o:html
+java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XMLandSchemas/Southey XSLT/toc-proposal-5.xsl -o:html
 
     -->
     
-    <xsl:variable name="montalvo" select="collection('../XML-and-Schematron/Montalvo')"/>
+    <xsl:variable name="montalvo" select="collection('../XMLandSchemas/Montalvo')"/>
     <xsl:template match="/">
         <xsl:result-document href="{'../html/toc-5.html'}">
             <html>
@@ -29,12 +29,12 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                     <h1>Table of contents</h1>
                     <hr/>
                     <ul>
-                        <li>Omissions = percentage of Montalvo’s text that was omitted by Southey.</li>
-                        <li>Additions = percentage of Southey’s text that doesn’t have an equivalent in Montalvo.</li>
+                        <li>Omissions (red, left-hand bar) = percentage of Montalvo’s text that was omitted by Southey.</li>
+                        <li>Additions (green, right-hand bar) = percentage of Southey’s text that doesn’t have an equivalent in Montalvo.</li>
                         <li>Calculations made attending to the number of clauses/anchors.</li>
                         <li>Fixed width.</li>
                     </ul>
-                    <xsl:for-each select="collection('../XML-and-Schematron/Southey')">
+                    <xsl:for-each select="collection('../XMLandSchemas/Southey')">
                         <xsl:sort select="//div[@type = 'chapter']/substring(@xml:id, 2)"
                             data-type="number"/>
                         <xsl:if test="current()//anchor">
@@ -97,7 +97,8 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                 <xsl:value-of select="$southey-chapter"/>
             </h2>
             <div class="svg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="205" height="125">
+                <svg xmlns="http://www.w3.org/2000/svg" width="205" height="50">
+                    <!--2017-06-10 ebb: adjusting @height to save space. Orig val = 125. -->
                     <g>
                         <rect fill="#A04747" stroke="#220a00" stroke-width="2" height="20"
                             width="{$montalvo-width}" y="0" x="0"/>
@@ -106,9 +107,9 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                         <text y="16" fill="#220a00" x="{$montalvo-width + 5}" font-size="13"><xsl:value-of
                             select="$omissions"/>%</text>
                     </g>
-                    <text fill="#461801" y="65" font-size="18">Omissions by Southey</text>
+                   <!-- <text fill="#461801" y="65" font-size="18">Omissions by Southey</text>-->
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="205" height="125" class="right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="205" height="50" class="right">
                     <g>
                         <rect fill="#CDDB83" stroke="#220a00" stroke-width="2" height="20"
                             width="{$southey-width}" y="0" x="0"/>
@@ -117,7 +118,7 @@ java -jar ../../../SaxonHE9-6-0-7J/saxon9he.jar -s:XML-and-Schematron/Southey XS
                         <text y="16" fill="#220a00" x="{$southey-width + 5}" font-size="13"><xsl:value-of
                             select="$additions"/>%</text>
                     </g>
-                    <text fill="#461801" y="65" font-size="18">Additions by Southey</text>
+                    <!--<text fill="#461801" y="65" font-size="18">Additions by Southey</text>-->
                 </svg>
             </div></a>
         
