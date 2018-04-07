@@ -141,7 +141,7 @@
             <memberOf key="att.global.rendition" mode="delete"/>
            
           </classes>
-          <constraintSpec ident="anchor-distinct-anas" scheme="isoschematron">
+          <constraintSpec ident="anchor-distinct-anas" scheme="schematron">
             <constraint>
               <sch:report test="@ana = preceding-sibling::tei:anchor[1]/@ana">
                 The @ana must NOT be the same on two subsequent anchors!
@@ -171,7 +171,7 @@
         <!--feature structures element specs -->
         <elementSpec ident="f" module="iso-fs" mode="change">
         <!--2017-03-12 ebb: We are occasionally outputting two <string> elements inside an <f> in feature structures (which contain main text and a note from Southey). However, TEI's content model for <f> permits only one element child, and my schematron rule below doesn't work to counteract that. I'd need to interfere with the RNG content model. And I don't think it's necessary because we can use the <vColl> element instead to wrap the double strings. I'm commenting out the rule, since it doesn't work anyway. --> 
-          <!--<constraintSpec ident="string-children-of-f" scheme="isoschematron">
+          <!--<constraintSpec ident="string-children-of-f" scheme="schematron">
             <constraint>
                   <sch:assert test="count(tei:string) le 2">We permit two string elements as a child of the f element in the special case when a string from the main text is output together with a string from a note.</sch:assert> 
             </constraint>
@@ -218,14 +218,14 @@
         </elementSpec>
         
         <!--SCHEMATRON OUTSIDE ELEMENT SPECS -->
-        <constraintSpec ident="nestedClauses" scheme="isoschematron">
+        <constraintSpec ident="nestedClauses" scheme="schematron">
           <constraint>
             <sch:rule context="tei:cl">
               <sch:report test="descendant::tei:cl">Nested clauses!</sch:report>
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="clauseNumbering" scheme="isoschematron">
+        <constraintSpec ident="clauseNumbering" scheme="schematron">
           <constraint>
             <sch:rule context="tei:cl[preceding::tei:cl]">
               <sch:assert test="number(substring-after(@xml:id, '_c')) gt number(substring-after(preceding::tei:cl[1]/@xml:id, '_c'))">
@@ -234,7 +234,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="segIds" scheme="isoschematron">
+        <constraintSpec ident="segIds" scheme="schematron">
           <constraint>
             <sch:rule context="tei:seg">
               <sch:assert test="contains(@xml:id, parent::tei:cl/@xml:id)">
@@ -242,7 +242,7 @@
               </sch:assert>
           </sch:rule></constraint>
         </constraintSpec>
-        <constraintSpec ident="checking-ref-resp-atts" scheme="isoschematron">
+        <constraintSpec ident="checking-ref-resp-atts" scheme="schematron">
           <constraint>  
        <!-- <sch:let name="si" value="doc('SI-Amadis.xml')//@xml:id"/>
         <sch:let name="siFile" value="doc('SI-Amadis.xml')"/>
@@ -262,7 +262,7 @@
         </sch:pattern></constraint></constraintSpec>
         
         <!--ebb: Schematron rules for chapter divs and div heads-->
-        <constraintSpec ident="checking-div-ids" scheme="isoschematron">
+        <constraintSpec ident="checking-div-ids" scheme="schematron">
           <constraint>
             <sch:pattern>
               <sch:let name="M_files" value="collection('../Montalvo')[contains(tokenize(./base-uri(), '/')[last()], 'Mont')]"/>
@@ -277,21 +277,21 @@
             </sch:pattern>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="checking-Montalvo-chapter-id_starter" scheme="isoschematron">
+        <constraintSpec ident="checking-Montalvo-chapter-id_starter" scheme="schematron">
           <constraint>
             <sch:rule context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'Mont')]">
               <sch:assert test="starts-with(@xml:id, 'M')">The xml:id defined for a Montalvo chapter must begin with the letter M.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="checking-Southey-chapter-id_starter" scheme="isoschematron">
+        <constraintSpec ident="checking-Southey-chapter-id_starter" scheme="schematron">
           <constraint>
             <sch:rule context="tei:div[@type='chapter'][contains(tokenize(./base-uri(), '/')[last()], 'South')]">
               <sch:assert test="starts-with(@xml:id, 'S')">The xml:id defined for a Southey chapter must begin with the letter S.</sch:assert>
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="checking-Montalvo-ch-numbers" scheme="isoschematron">
+        <constraintSpec ident="checking-Montalvo-ch-numbers" scheme="schematron">
           <constraint>
             <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')][not(@xml:id eq 'M0')]">
               <!--2017-03-11 ebb: The variable conversion and assert test for Roman numeral checking worked in my old Schematron, but xsl:variable isn't working in the ODD context (even in the converted Relax NG XML syntax). I've commented it out here, and will try associating a separate Schematron file as a patch with the ODD-generated schema.-->
@@ -312,7 +312,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="checking-Southey-ch-numbers" scheme="isoschematron">
+        <constraintSpec ident="checking-Southey-ch-numbers" scheme="schematron">
           <constraint>
             <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'S')]">
               <sch:let name="S_Cnum" value="substring-after(@xml:id, 'S')"/>
@@ -325,7 +325,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="Montalvo-locus-presence" scheme="isoschematron">
+        <constraintSpec ident="Montalvo-locus-presence" scheme="schematron">
           <constraint>
             <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')]">
               <sch:assert test="tei:head/tei:locus">
@@ -334,7 +334,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="Montalvo-locus-checking" scheme="isoschematron">
+        <constraintSpec ident="Montalvo-locus-checking" scheme="schematron">
           <constraint>
             <sch:rule context="tei:div[@type='chapter'][contains(@xml:id, 'M')]/tei:head/tei:locus">
               <sch:assert test="matches(@from, '[ivxlcdm]+\-(r|v)$') and matches(@to, '[ivxlcdm]+\-(r|v)$')">
@@ -346,7 +346,7 @@
         
         <!--ebb: Schematron rules for milestone and anchor elements -->
         <!--milestone-->
-        <constraintSpec ident="milestone-distinct-anas" scheme="isoschematron">
+        <constraintSpec ident="milestone-distinct-anas" scheme="schematron">
           <constraint>
             <sch:rule context="tei:milestone[@unit='said']">
               <sch:report test="not(@ana)">
@@ -360,7 +360,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="milestone_speeches_Sequencing1" scheme="isoschematron">
+        <constraintSpec ident="milestone_speeches_Sequencing1" scheme="schematron">
           <constraint>
             <sch:rule context="tei:milestone[@unit='said'][@ana='start']">
               <sch:report test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">In tagging speeches, the value of @ana for the next milestone after "start" must never be "intEnd"!
@@ -368,7 +368,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="milestone_speeches_Sequencing2" scheme="isoschematron">
+        <constraintSpec ident="milestone_speeches_Sequencing2" scheme="schematron">
           <constraint>
             <sch:rule context="tei:milestone[@unit='said'][@ana='intStart']">
               <sch:assert test="following::tei:milestone[@unit eq 'said'][@ana][1][@ana eq 'intEnd']">For speeches: After an @ana="intStart" (interruption start) the next @ana must be "intEnd" (interruption end)!
@@ -376,7 +376,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>      
-        <constraintSpec ident="milestone-start-resp" scheme="isoschematron">
+        <constraintSpec ident="milestone-start-resp" scheme="schematron">
           <constraint>
             <sch:rule context="tei:milestone[@unit='said'][@ana='start']">
               <sch:assert test="@resp">
@@ -385,7 +385,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="unclear_speech_resp" scheme="isoschematron">
+        <constraintSpec ident="unclear_speech_resp" scheme="schematron">
           <constraint>
             <sch:rule context="tei:milestone[@unit='said'][@ana='start'][@type]">
               <sch:assert test="@cert">
@@ -396,7 +396,7 @@
         </constraintSpec>
         
         <!--anchor-->
-        <constraintSpec ident="anchor_Sequencing_Main1" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Main1" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[not(ancestor::tei:note)][preceding::tei:anchor[not(ancestor::tei:note)]]">
               <sch:report test="matches(@ana, preceding::tei:anchor[not(ancestor::tei:note)][1]/@ana)">
@@ -404,7 +404,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec> 
-        <constraintSpec ident="anchor_Sequencing_Notes1" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Notes1" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[ancestor::tei:note][preceding::tei:anchor[ancestor::tei:note]]">
               <sch:report test="matches(@ana, preceding::tei:anchor[ancestor::tei:note][1]/@ana)">
@@ -413,7 +413,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Main2" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Main2" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana='start'][ancestor::tei:note]">
               <sch:report test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations in the main text, the value of @ana for the next anchor after "start" must never be "intEnd"!
@@ -421,7 +421,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Notes2" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Notes2" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana='start'][not(ancestor::tei:note)]">
               <sch:report test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']">In tagging a disconnected (interrupted) series of translations within a note, the value of @ana for the next milestone after "start" must never be "intEnd"!
@@ -429,7 +429,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Main3" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Main3" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana='start'][not(ancestor::tei:note)]">
               <sch:assert test="following::tei:anchor[@ana eq 'end'][not(ancestor::tei:note)][1]/parent::node()/name() eq current()/parent::node()/name()">
@@ -438,7 +438,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Notes3" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Notes3" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana eq 'start'][ancestor::tei:note]">
               <sch:assert test="following-sibling::tei:anchor[@ana eq 'end']">
@@ -447,7 +447,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Main4" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Main4" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana eq 'intStart'][not(ancestor::tei:note)]">
               <sch:assert test="following::tei:anchor[not(ancestor::tei:note)][1][@ana eq 'intEnd']">After an @ana="intStart" (interruption start) in the main text, the next @ana must be "intEnd" (interruption end)!  
@@ -455,7 +455,7 @@
             </sch:rule>
           </constraint>            
         </constraintSpec>
-        <constraintSpec ident="anchor_Sequencing_Notes4" scheme="isoschematron">
+        <constraintSpec ident="anchor_Sequencing_Notes4" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana eq 'intStart'][ancestor::tei:note]">
               <sch:assert test="following::tei:anchor[@ana][ancestor::tei:note][1][@ana eq 'intEnd']"> After an @ana="intStart" (interruption start) in a note, the next @ana must be "intEnd" (interruption end)!   
@@ -463,7 +463,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
-        <constraintSpec ident="anchor-corresp" scheme="isoschematron">
+        <constraintSpec ident="anchor-corresp" scheme="schematron">
           <constraint>
             <sch:rule context="tei:anchor[@ana='start'][not(@type='add')]">
               <sch:report test="not(@corresp)">
@@ -472,7 +472,7 @@
             </sch:rule>
           </constraint>
         </constraintSpec>  
-        <constraintSpec ident="id-checking-corresps" scheme="isoschematron">
+        <constraintSpec ident="id-checking-corresps" scheme="schematron">
           <constraint>
             <sch:pattern>
               <sch:rule context="*[@corresp]">
@@ -486,7 +486,7 @@
             </sch:pattern>
           </constraint>
         </constraintSpec>
-       <constraintSpec ident="keep-corresps-distinct" scheme="isoschematron">
+       <constraintSpec ident="keep-corresps-distinct" scheme="schematron">
          <constraint>
            <sch:pattern>
              <sch:rule context="tei:anchor[@corresp]">
@@ -498,7 +498,7 @@
           </constraint>
         </constraintSpec>   
        <!--feature structures schematron constraints -->
-        <constraintSpec ident="featureStructures" scheme="isoschematron">
+        <constraintSpec ident="featureStructures" scheme="schematron">
           <constraint>
             <sch:pattern>
               <sch:rule context="tei:fs[not(tei:f[@name eq 'note'])]">
@@ -547,7 +547,7 @@
 
         <!--ebb: The following is a model copied from Syd's slide to show me how to tuck Schematron into ODD-->
        <!-- <elementSpec module="core" ident="anchor" mode="change">
-          <constraintSpec ident="subtype-matched-type" scheme="isoschematron">
+          <constraintSpec ident="subtype-matched-type" scheme="schematron">
             <constraint>
               <sch:report test="@type = 'person'  and  not( @subtype = ('officer','enlisted') )">
                 a name of a person should be sub-catagorized as an officer's name or an enlisted
